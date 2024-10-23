@@ -16,12 +16,14 @@ def download_file(url: str, filepath: os.path):
 
 if __name__ == "__main__":
 
-    server_nums = [1, 2, 3, 4, 7, 8]
+    # as of 10/23/24, obv could just check to see if page returns 404
+    server_nums = [1, 2, 3, 4, 5, 6, 7, 8]
     team_series_servers = {1, 2, 3, 4}
+    mcm_liaw_servers = {5, 6}  # multi-class madness and league in a week
     endurance_series_servers = {7, 8}
-    max_pages = [359, 401, 324, 145, 143, 6]
+    max_pages = [359, 401, 324, 145, 130, 0, 143, 6]
 
-    for server_num, max_page in zip(server_nums[:-2], max_pages[:-2]):
+    for server_num, max_page in zip(server_nums[4:6], max_pages[4:6]):
         for page_num in range(0, max_page + 1):
             print(
                 f"Server {server_num} - Page {page_num}/{max_page}",
@@ -74,6 +76,9 @@ if __name__ == "__main__":
                         continue
                 elif server_num in endurance_series_servers:
                     if session_type not in {"Race"}:
+                        continue
+                elif server_num in mcm_liaw_servers:
+                    if session_type not in {"Race", "Qualifying"}:
                         continue
 
                 download_link = row.find("a", href=True)
