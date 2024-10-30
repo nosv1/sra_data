@@ -23,11 +23,10 @@ if __name__ == "__main__":
     endurance_series_servers = {7, 8}
     max_pages = [359, 401, 324, 145, 130, 0, 143, 6]
 
-    for server_num, max_page in zip(server_nums[4:6], max_pages[4:6]):
-        for page_num in range(0, max_page + 1):
-            print(
-                f"Server {server_num} - Page {page_num}/{max_page}",
-            )
+    for server_num in server_nums:
+        page_num = 0
+        while True:
+            print(f"Server {server_num} - Page {page_num}")
 
             # url template https://accsm3.simracingalliance.com/results?page=324
             url = f"https://accsm{server_num}.simracingalliance.com/results?page={page_num}"
@@ -51,6 +50,10 @@ if __name__ == "__main__":
             # </td>
             ###
             response = requests.get(url)
+            if response.status_code == 404:
+                print(f"Page {page_num} not found on server {server_num}")
+                break
+
             if response.status_code != 200:
                 print(f"Failed to retrieve page {page_num} from server {server_num}")
                 continue
@@ -64,7 +67,11 @@ if __name__ == "__main__":
                 continue
 
             rows = table.find_all("tr", class_="row-link")
+            existing_file_found = False
             for row in rows:
+                if existing_file_found:
+                    break
+
                 row: Tag
                 cells: list[Tag] = row.find_all("td")
                 if len(cells) != 5:
@@ -103,6 +110,7 @@ if __name__ == "__main__":
                 )  # "accsm/downloads/races|qualifyings|practices/track_name_file_name.json"
 
                 if os.path.exists(file_path):
+                    existing_file_found = True
                     continue
 
                 wait = 1
@@ -117,3 +125,8 @@ if __name__ == "__main__":
                         wait *= 2
                     else:
                         raise Exception(f"Failed to download {file_url}")
+
+            if existing_file_found:
+                break
+
+            page_num += 1
