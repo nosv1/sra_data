@@ -1,22 +1,31 @@
+from os import getenv
+
 import mysql.connector
 from mysql.connector.abstracts import MySQLConnectionAbstract, MySQLCursorAbstract
+from neo4j import BoltDriver, GraphDatabase, Session
+from sqlalchemy import create_engine
+from sqlalchemy.engine import Engine as SQLAEngine
 
 
-class Database:
+class MySqlDatabase:
     @staticmethod
     def connect_database(
         db_name: str,
+        verbose=True,
     ) -> tuple[MySQLConnectionAbstract, MySQLCursorAbstract]:
-        print(f"Connecting to database {db_name}...", end="")
+        if verbose:
+            print(f"Connecting to database {db_name}...", end="")
+
         connection: MySQLConnectionAbstract = mysql.connector.connect(
-            host="10.0.0.227",
-            host="10.0.0.227", user="SRA", password="SRA", database=db_name
+            host=getenv("SQL_DB_HOST"),
             user="SRA",
             password="SRA",
             database=db_name,
         )
         cursor: MySQLCursorAbstract = connection.cursor()
-        print("connected")
+
+        if verbose:
+            print("connected")
         return connection, cursor
 
     @staticmethod
@@ -25,16 +34,54 @@ class Database:
 
     @staticmethod
     def close_connection(
-        connection: MySQLConnectionAbstract, cursor: MySQLCursorAbstract
+        connection: MySQLConnectionAbstract, cursor: MySQLCursorAbstract, verbose=True
     ):
+        if verbose:
+            print(f"Closing connection...", end="")
+
         cursor.close()
         connection.close()
 
+        if verbose:
+            print("closed")
+
+    @staticmethod
+    def create_engine() -> SQLAEngine:
+        DATABASE_URI = f"mysql+mysqlconnector://SRA:SRA@{getenv('SQL_DB_HOST')}/SRA"
+        return create_engine(DATABASE_URI)
+
+
+class Neo4jDatabase:
+    @staticmethod
+    def connect_database(db_name: str, verbose=True) -> tuple[BoltDriver, Session]:
+        if verbose:
+            print(f"Connecting to Neo4j database {db_name}...", end="")
+
+        driver = GraphDatabase.driver(
+            uri=f"bolt://{getenv('NEO_DB_HOST')}:7687",
+            auth=("SRA", "simracingalliance"),
+        )
+        session = driver.session(database=db_name)
+
+        if verbose:
+            print("connected")
+        return driver, session
+
+    @staticmethod
+    def close_connection(driver: BoltDriver, session: Session, verbose=True):
+        if verbose:
+            print("Closing connection...", end="")
+
+        session.close()
+        driver.close()
+
+        if verbose:
+            print("closed")
+
+    @staticmethod
+    def handle_bad_string(string: str) -> str:
+        return string.replace("'", "\\'")
+
 
 if __name__ == "__main__":
-    connection, cursor = Database.connect_database("SRA")
-    cursor.execute("SELECT * FROM car_laps LIMIT 10")
-    for row in cursor.fetchall():
-        print(row)
-    cursor.close()
-    connection.close()
+    pass

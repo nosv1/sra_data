@@ -1,5 +1,6 @@
 import os
 import time
+from datetime import datetime
 
 import requests
 from bs4 import BeautifulSoup as bs4
@@ -22,6 +23,15 @@ if __name__ == "__main__":
     mcm_liaw_servers = {5, 6}  # multi-class madness and league in a week
     endurance_series_servers = {7, 8}
     max_pages = [359, 401, 324, 145, 130, 0, 143, 6]
+    drivers_to_find = ["Arct"]
+    tracks_to_find = []
+    start_date = datetime(2024, 5, 19)
+    end_date = datetime(2024, 7, 24)
+    tracks_to_find = [
+        "barcelona",
+        "imola",
+    ]
+    query = "S76561198279907335"
 
     for server_num in server_nums:
         page_num = 0
@@ -30,6 +40,7 @@ if __name__ == "__main__":
 
             # url template https://accsm3.simracingalliance.com/results?page=324
             url = f"https://accsm{server_num}.simracingalliance.com/results?page={page_num}"
+            # url = f"https://accsm{server_num}.simracingalliance.com/results?page={page_num}&q={query}"
 
             ###  example row
             # <tr class="row-link" data-href="/results/220918_222206_FP">
@@ -77,14 +88,30 @@ if __name__ == "__main__":
                 if len(cells) != 5:
                     continue
 
+                # date = datetime.strptime(
+                #     cells[0].text.strip(), "%a, %d %b %Y %H:%M:%S %Z"
+                # )
                 session_type = cells[1].text.strip()
-                if server_num in team_series_servers:
+                if False:
+                    continue
+
+                # elif end_date >= date >= start_date:
+                #     pass
+
+                # is team series
+                elif server_num in team_series_servers:
+                    # is not race or quali
                     if session_type not in {"Race", "Qualifying"}:
                         continue
+
+                # is endurance series
                 elif server_num in endurance_series_servers:
+                    # is not race
                     if session_type not in {"Race"}:
                         continue
+                # is mcm or liaw series
                 elif server_num in mcm_liaw_servers:
+                    # is not race or quali
                     if session_type not in {"Race", "Qualifying"}:
                         continue
 
