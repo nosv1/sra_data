@@ -1,10 +1,11 @@
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup as bs4
 from bs4.element import Tag
+from pytz import timezone as pytz_timezone
 
 
 def download_file(url: str, filepath: os.path):
@@ -24,13 +25,16 @@ if __name__ == "__main__":
     endurance_series_servers = {7, 8}
     max_pages = [359, 401, 324, 145, 130, 0, 143, 6]
     drivers_to_find = ["Arct"]
-    tracks_to_find = []
-    start_date = datetime(2024, 5, 19)
-    end_date = datetime(2024, 7, 24)
-    tracks_to_find = [
-        "barcelona",
-        "imola",
-    ]
+    start_date = datetime(2024, 12, 2).replace(tzinfo=pytz_timezone("US/Central"))
+    start_date = datetime.min.replace(tzinfo=pytz_timezone("US/Central"))
+    end_date = datetime(2024, 7, 24).replace(tzinfo=pytz_timezone("US/Central"))
+    end_date = datetime.now().replace(tzinfo=pytz_timezone("US/Central"))
+    tracks_to_find = {
+        "Kyalami",
+        "Misano",
+        "Suzuka",
+        "Watkins_Glen",
+    }
     query = "S76561198279907335"
 
     for server_num in server_nums:
@@ -81,6 +85,8 @@ if __name__ == "__main__":
             existing_file_found = False
             for row in rows:
                 if existing_file_found:
+                    # remember to comment or uncomment below too
+                    # continue
                     break
 
                 row: Tag
@@ -88,31 +94,39 @@ if __name__ == "__main__":
                 if len(cells) != 5:
                     continue
 
-                # date = datetime.strptime(
-                #     cells[0].text.strip(), "%a, %d %b %Y %H:%M:%S %Z"
-                # )
-                session_type = cells[1].text.strip()
+                date = datetime.strptime(
+                    cells[0].text.strip(), "%a, %d %b %Y %H:%M:%S %Z"
+                ).replace(tzinfo=pytz_timezone("US/Eastern"))
+                session_type = str(cells[1].text.strip())
+
                 if False:
                     continue
 
-                # elif end_date >= date >= start_date:
-                #     pass
+                elif not end_date >= date >= start_date:
+                    continue
 
                 # is team series
                 elif server_num in team_series_servers:
                     # is not race or quali
-                    if session_type not in {"Race", "Qualifying"}:
+                    if session_type not in {"Race", "Qualifying", "Practice"}:
                         continue
 
                 # is endurance series
                 elif server_num in endurance_series_servers:
                     # is not race
-                    if session_type not in {"Race"}:
+                    if session_type not in {"Race", "Qualifying", "Practice"}:
                         continue
+
                 # is mcm or liaw series
                 elif server_num in mcm_liaw_servers:
                     # is not race or quali
-                    if session_type not in {"Race", "Qualifying"}:
+                    if session_type not in {
+                        "Race",
+                        "Race 1",
+                        "Race 2",
+                        "Qualifying",
+                        "Practice",
+                    }:
                         continue
 
                 download_link = row.find("a", href=True)
@@ -120,6 +134,8 @@ if __name__ == "__main__":
                     continue
 
                 track_name = cells[2].text.strip().replace(" ", "_")
+                if False and track_name not in tracks_to_find:
+                    continue
 
                 file_url = f"https://accsm{server_num}.simracingalliance.com{download_link['href']}"
                 file_name = download_link["href"].split("/")[-1].split(".json")[0]
@@ -132,7 +148,9 @@ if __name__ == "__main__":
                 downloads_dir = os.path.join(current_dir, "downloads")
                 file_path = os.path.join(
                     downloads_dir,
-                    download_dir[session_type],
+                    download_dir[
+                        session_type.replace("Race 2", "Race").replace("Race 1", "Race")
+                    ],
                     f"{track_name}_{file_name}_server{server_num}.json",
                 )  # "accsm/downloads/races|qualifyings|practices/track_name_file_name.json"
 
@@ -144,7 +162,7 @@ if __name__ == "__main__":
                 while True:
                     status_code = download_file(file_url, file_path)
                     if status_code == 200:
-                        print(f"Downloaded {file_url}")
+                        print(f"Downloaded {file_url} - {track_name}")
                         break
                     elif status_code == 429:
                         print(f"Rate limited. Waiting {wait} seconds...")
