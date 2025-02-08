@@ -38,6 +38,11 @@ class Lap:
         self.lap_time = lap_time
         self.splits = splits
 
+    def __radd__(self, other):
+        if other == 0:
+            return self.lap_time
+        return other + self.lap_time
+
     @property
     def lap_number(self) -> int:
         return self.__lap_number
@@ -93,9 +98,7 @@ class Lap:
         splits: list[int] = [split for split in lap_dict[Lap.splits_json]]
         return Lap(car_id, driver_index, is_valid_for_best, lap_time, splits)
 
-    def add_lap_data_to_neo4j(
-        self, sra_neo_session: Neo4jSession, session: "Session"
-    ) -> None:
+    def add_lap_data_to_neo4j(self, session: "Session") -> None:
         driver: LeaderboardDriver = session.session_result.car_results_dict[
             self.car_id
         ].drivers[self.driver_index]
@@ -105,6 +108,7 @@ class Lap:
 
         node_lap = {
             "key_": self.key_(session, car),
+            "session_key": session.key_,
             "session_file": session.session_file,
             "server_number": session.server_number,
             "car_id": self.car_id,
@@ -127,105 +131,17 @@ class LeaderboardDriver:
     driver_id_json = "playerId"
     short_name_json = "shortName"
 
-    @dataclass
-    class ProcessedRaceLaps:
-        first_percentile_lap: int
-        twentyfifth_percentile_lap: int
-        fiftieth_percentile_lap: int
-        seventyfifth_percentile_lap: int
-        # total_time is the sum of all laps, different from car.total_time
-        # which is time from green flag to checkered flag
-        total_time: int
-
-        @property
-        def average_lap(self) -> float:
-            return np.mean(
-                [
-                    self.twentyfifth_percentile_lap,
-                    self.fiftieth_percentile_lap,
-                    self.seventyfifth_percentile_lap,
-                ]
-            )
-
-    @dataclass
-    class ProcessedQualiLaps:
-        best_lap_number: int
-
-        def theoretical_best_lap(
-            self, best_split1: int, best_split2: int, best_split3: int
-        ) -> int:
-            return best_split1 + best_split2 + best_split3
-
     def __init__(
-        self,
-        first_name: str,
-        last_name: str,
-        driver_id: str,
-        short_name: str,
+        self, first_name: str, last_name: str, driver_id: str, short_name: str
     ) -> None:
         self.first_name = first_name
         self.last_name = last_name
         self.driver_id = driver_id
         self.short_name = short_name
+
         self.laps: list[Lap] = []
-
-    # car
-    @property
-    def car(self) -> "LeaderboardCar":
-        return self.__car
-
-    @car.setter
-    def car(self, car: "LeaderboardCar") -> None:
-        self.__car = car
-
-    # time on track
-    @property
-    def time_racing_on_track(self) -> int:
-        return self.__time_racing_on_track
-
-    @time_racing_on_track.setter
-    def time_racing_on_track(self, time_racing_on_track: int) -> None:
-        self.__time_racing_on_track = time_racing_on_track
-
-    # avg percent diff
-    @property
-    def avg_percent_diff(self) -> float:
-        return self.__avg_percent_diff
-
-    @avg_percent_diff.setter
-    def avg_percent_diff(self, avg_percent_diff: float) -> None:
-        self.__avg_percent_diff = avg_percent_diff
-
-    # pace vs field
-    @property
-    def pace_vs_field(self) -> float:
-        return self.__pace_vs_field
-
-    @pace_vs_field.setter
-    def pace_vs_field(self, pace_vs_field: float) -> None:
-        self.__pace_vs_field = pace_vs_field
-
-    # processed race laps
-    @property
-    def processed_race_laps(self) -> "LeaderboardDriver.ProcessedRaceLaps":
-        return self.__processed_race_laps
-
-    @processed_race_laps.setter
-    def processed_race_laps(
-        self, processed_laps: "LeaderboardDriver.ProcessedRaceLaps"
-    ) -> None:
-        self.__processed_race_laps = processed_laps
-
-    # processed quali laps
-    @property
-    def processed_quali_laps(self) -> "LeaderboardDriver.ProcessedQualiLaps":
-        return self.__processed_quali_laps
-
-    @processed_quali_laps.setter
-    def processed_quali_laps(
-        self, processed_laps: "LeaderboardDriver.ProcessedQualiLaps"
-    ) -> None:
-        self.__processed_quali_laps = processed_laps
+        self.car: Optional["LeaderboardCar"] = None
+        self.time_on_track: Optional[int] = None  # this is sum of laps minus pit time
 
     @staticmethod
     def parse_driver(driver_dict: dict) -> "LeaderboardDriver":
@@ -242,44 +158,6 @@ class LeaderboardDriver:
         driver_id: str = driver_dict[LeaderboardDriver.driver_id_json]
         short_name: str = driver_dict[LeaderboardDriver.short_name_json]
         return LeaderboardDriver(first_name, last_name, driver_id, short_name)
-
-    def process_quali_laps(self):
-        best_lap_number = -1
-        for i, lap in enumerate(self.laps):
-            if lap.lap_time == self.car.leaderboard_line.timing.best_lap:
-                best_lap_number = i + 1
-        processed_quali_laps: LeaderboardDriver.ProcessedQualiLaps = (
-            LeaderboardDriver.ProcessedQualiLaps(
-                best_lap_number=best_lap_number,
-            )
-        )
-        self.processed_quali_laps = processed_quali_laps
-
-    def process_race_laps(self):
-        lap_times = []
-        total_time = 0
-        for lap in self.laps:
-            lap_times.append(lap.lap_time)
-            total_time += lap.lap_time
-
-        percentiles = np.percentile(lap_times, [1, 25, 50, 75])
-        (
-            first_percentile_lap,
-            twentyfifth_percentile_lap,
-            fiftieth_percentile_lap,
-            seventyfifth_percentile_lap,
-        ) = percentiles
-
-        processed_race_laps: LeaderboardDriver.ProcessedRaceLaps = (
-            LeaderboardDriver.ProcessedRaceLaps(
-                first_percentile_lap=first_percentile_lap,
-                twentyfifth_percentile_lap=twentyfifth_percentile_lap,
-                fiftieth_percentile_lap=fiftieth_percentile_lap,
-                seventyfifth_percentile_lap=seventyfifth_percentile_lap,
-                total_time=total_time,
-            )
-        )
-        self.processed_race_laps = processed_race_laps
 
 
 class LeaderboardCar:
@@ -318,18 +196,10 @@ class LeaderboardCar:
         self.car_number = race_number
         self.team_name = team_name
         self.laps: list[Lap] = []
-        self.time_in_pits: Optional[int] = None
+        self.leaderboard_line: Optional["LeaderBoardLine"] = None
 
     def key_(self, session: "Session") -> str:
         return f"{session.key_}_{self.car_id}"
-
-    @property
-    def leaderboard_line(self) -> "LeaderBoardLine":
-        return self.__leaderboard_line
-
-    @leaderboard_line.setter
-    def leaderboard_line(self, leaderboard_line: "LeaderBoardLine") -> None:
-        self.__leaderboard_line = leaderboard_line
 
     @staticmethod
     def parse_car(car_dict: dict) -> "LeaderboardCar":
@@ -477,11 +347,6 @@ class LeaderBoardLine:
         self.timing = timing
         self.finish_position = finish_position
 
-    def get_time_in_pits(self) -> int:
-        return self.timing.total_time - sum(
-            d.time_racing_on_track for d in self.car.drivers
-        )
-
     @staticmethod
     def parse_leaderboard_line(
         leaderboard_line_dict: dict, finish_position: int
@@ -556,7 +421,7 @@ class LeaderBoardLine:
             # this is probably 0 if driver is supposed to race, but doesn't, so he doesn't get added to car.drivers
             if not driverTotalTime:
                 continue
-            car.drivers[d_idx].time_racing_on_track = int(driverTotalTime)
+            car.drivers[d_idx].time_on_track = int(driverTotalTime)
         timing: LeaderboardTiming = LeaderboardTiming.parse_timing(
             leaderboard_line_dict[LeaderBoardLine.timing_json]
         )
@@ -638,10 +503,6 @@ class SessionResult:
             )
             leaderboard_lines.append(leaderboard_line)
             leaderboard_line.car.leaderboard_line = leaderboard_line
-            if leaderboard_line.driver_total_times and all(
-                dtt > 0 for dtt in leaderboard_line.driver_total_times
-            ):
-                leaderboard_line.car.time_in_pits = leaderboard_line.get_time_in_pits()
             car_results_dict[leaderboard_line.car.car_id] = leaderboard_line.car
             for driver in leaderboard_line.car.drivers:
                 driver.car = leaderboard_line.car
@@ -660,14 +521,13 @@ class SessionResult:
             driver_results_dict=driver_results_dict,
         )
 
-    def merge_cars_and_session(
-        self, session: "Session", sra_neo_session: Neo4jSession
-    ) -> None:
+    def merge_cars_and_session(self, session: "Session") -> None:
         node_cars = []
         for line in self.leaderboard_lines:
             node_cars.append(
                 {
                     "key_": line.car.key_(session),
+                    "session_key": session.key_,
                     "session_file": session.session_file,
                     "server_number": session.server_number,
                     "car_id": line.car.car_id,
@@ -677,22 +537,18 @@ class SessionResult:
                     "car_number": line.car.car_number,
                     "num_drivers": len(line.car.drivers),
                     "is_missing_pit": line.missing_mandatory_pitstop,
-                    "best_lap": self.best_lap,
-                    "best_split1": self.best_splits[0],
-                    "best_split2": self.best_splits[1],
-                    "best_split3": self.best_splits[2],
+                    "best_lap": line.timing.best_lap,
+                    "best_split1": line.timing.best_splits[0],
+                    "best_split2": line.timing.best_splits[1],
+                    "best_split3": line.timing.best_splits[2],
                     "lap_count": line.timing.lap_count,
                     "total_time": line.timing.total_time,
                     "finish_position": line.finish_position,
-                    "time_in_pits": line.car.time_in_pits,
                 }
             )
         return node_cars
 
-    def merge_cars_and_drivers(
-        self, session: "Session", sra_neo_session: Neo4jSession
-    ) -> None:
-
+    def merge_cars_and_drivers(self, session: "Session") -> None:
         node_drivers = []
         for line in self.leaderboard_lines:
             for driver in line.car.drivers:
@@ -704,6 +560,11 @@ class SessionResult:
                         "short_name": driver.short_name,
                         "car_key": line.car.key_(session),
                         "session_key": session.key_,
+                        "car_id": line.car.car_id,
+                        "session_file": session.session_file,
+                        "server_number": session.server_number,
+                        "car_driver_key": f"{line.car.key_(session)}_{driver.driver_id}",
+                        "time_on_track": driver.time_on_track,
                     }
                 )
         return node_drivers
@@ -823,39 +684,6 @@ class Session:
             server_number=server_number,
         )
 
-    def evaluate_drivers(self):
-        min_avg_percent_diff = float("inf")
-        max_avg_percent_diff = float("-inf")
-        for i_driver in self.session_result.driver_results_dict.values():
-            if not i_driver.laps:
-                continue
-
-            percent_diffs = []
-            for j_driver in self.session_result.driver_results_dict.values():
-                if not j_driver.laps:
-                    continue
-
-                if i_driver == j_driver:
-                    continue
-
-                percent_diff = (
-                    i_driver.processed_laps.average_lap
-                    / j_driver.processed_laps.average_lap
-                )
-                percent_diffs.append(percent_diff)
-            i_driver.avg_percent_diff = np.mean(percent_diffs)
-
-            min_avg_percent_diff = min(min_avg_percent_diff, i_driver.avg_percent_diff)
-            max_avg_percent_diff = max(max_avg_percent_diff, i_driver.avg_percent_diff)
-
-        avg_percent_diff_range = max_avg_percent_diff - min_avg_percent_diff
-        for driver in self.session_result.driver_results_dict.values():
-            if not driver.laps:
-                continue
-            driver.pace_vs_field = (driver.avg_percent_diff - min_avg_percent_diff) / (
-                max_avg_percent_diff - min_avg_percent_diff
-            )
-
     def create_session(self, sra_neo_session: Neo4jSession) -> None:
         node_session = {
             "key_": self.key_,
@@ -894,7 +722,7 @@ if __name__ == "__main__":
     sra_neo_driver, sra_neo_session = Neo4jDatabase.connect_database("sra")
     sessions_in_db = get_session_keys(neo_driver=sra_neo_driver)
     # parse leaderboard lines
-    for session_dir in [practices_dir, races_dir, quali_dir][0:]:
+    for session_dir in [practices_dir, races_dir, quali_dir][:]:
         dir_by_date_modified = sorted(
             os.listdir(session_dir),
             key=lambda x: os.path.getmtime(os.path.join(session_dir, x)),
@@ -904,6 +732,7 @@ if __name__ == "__main__":
         node_cars = []
         node_drivers = []
         node_laps = []
+        node_car_drivers = []
         for i, session_file in enumerate(dir_by_date_modified):
             print(
                 f"{i + 1}/{len(os.listdir(session_dir))} - Loading {session_file}...",
@@ -935,37 +764,33 @@ if __name__ == "__main__":
                     if lap.driver_index == i:
                         driver.laps.append(lap)
                         break
-                node_laps.append(lap.add_lap_data_to_neo4j(sra_neo_session, ts_session))
+                node_laps.append(lap.add_lap_data_to_neo4j(ts_session))
 
             is_quali_session = ts_session.session_type == "Q"
             is_race_session = ts_session.session_type.startswith("R")
             is_practice_session = ts_session.session_type == "FP"
 
             node_sessions.append(ts_session.create_session(sra_neo_session))
-            node_cars += ts_session.session_result.merge_cars_and_session(
-                ts_session, sra_neo_session
-            )
-            node_drivers += ts_session.session_result.merge_cars_and_drivers(
-                ts_session, sra_neo_session
-            )
+            node_cars += ts_session.session_result.merge_cars_and_session(ts_session)
+            node_drivers += ts_session.session_result.merge_cars_and_drivers(ts_session)
             print("done")
 
         session_query = """
             UNWIND $sessions AS session
-            MERGE (a:Session {
+            MERGE (s:Session {
                 key_: session.key_
             })
             ON CREATE SET
-                a.session_file = session.session_file,
-                a.finish_time = datetime(session.finish_time),
-                a.track_name = session.track_name,
-                a.session_type = session.session_type,
-                a.session_index = session.session_index,
-                a.race_weekend_index = session.race_weekend_index,
-                a.server_name = session.server_name,
-                a.server_number = session.server_number,
-                a.meta_data = session.meta_data,
-                a.is_wet_session = session.is_wet_session
+                s.session_file = session.session_file,
+                s.finish_time = datetime(session.finish_time),
+                s.track_name = session.track_name,
+                s.session_type = session.session_type,
+                s.session_index = session.session_index,
+                s.race_weekend_index = session.race_weekend_index,
+                s.server_name = session.server_name,
+                s.server_number = session.server_number,
+                s.meta_data = session.meta_data,
+                s.is_wet_session = session.is_wet_session
         """
         print(f"Inserting {len(node_sessions)} sessions...", end="")
         sra_neo_session.run(session_query, parameters={"sessions": node_sessions})
@@ -973,33 +798,32 @@ if __name__ == "__main__":
 
         cars_sessions_query = """
             UNWIND $cars AS car
-            MERGE (a:Car {
+            MERGE (c:Car {
                 key_: car.key_
             })
-            SET
-                a.session_file = car.session_file,
-                a.server_number = car.server_number,
-                a.car_id = car.car_id,
-                a.car_model = car.car_model,
-                a.car_group = car.car_group,
-                a.cup_category = car.cup_category,
-                a.car_number = car.car_number,
-                a.num_drivers = car.num_drivers,
-                a.is_missing_pit = car.is_missing_pit,
-                a.best_lap = car.best_lap,
-                a.best_split1 = car.best_split1,
-                a.best_split2 = car.best_split2,
-                a.best_split3 = car.best_split3,
-                a.lap_count = car.lap_count,
-                a.total_time = car.total_time,
-                a.finish_position = car.finish_position,
-                a.time_in_pits = car.time_in_pits
-            WITH a, car
+            ON CREATE SET
+                c.session_file = car.session_file,
+                c.server_number = car.server_number,
+                c.car_id = car.car_id,
+                c.car_model = car.car_model,
+                c.car_group = car.car_group,
+                c.cup_category = car.cup_category,
+                c.car_number = car.car_number,
+                c.num_drivers = car.num_drivers,
+                c.is_missing_pit = car.is_missing_pit,
+                c.best_lap = car.best_lap,
+                c.best_split1 = car.best_split1,
+                c.best_split2 = car.best_split2,
+                c.best_split3 = car.best_split3,
+                c.lap_count = car.lap_count,
+                c.total_time = car.total_time,
+                c.finish_position = car.finish_position
+            WITH c, car
 
-            MATCH (b:Session {
-                key_: car.session_file + "_" + car.server_number
+            MATCH (s:Session {
+                key_: car.session_key
             })
-            MERGE (a)-[:CAR_TO_SESSION]->(b)
+            MERGE (c)-[:CAR_TO_SESSION]->(s)
         """
         print(f"Inserting {len(node_cars)} cars...", end="")
         sra_neo_session.run(cars_sessions_query, parameters={"cars": node_cars})
@@ -1007,25 +831,41 @@ if __name__ == "__main__":
 
         driver_cars_query = """
             UNWIND $drivers AS driver
-            MERGE (a:Driver {
+            MERGE (d:Driver {
                 driver_id: driver.driver_id
             })
             ON CREATE SET
-                a.first_name = driver.first_name,
-                a.last_name = driver.last_name,
-                a.short_name = driver.short_name
-            WITH a, driver
+                d.first_name = driver.first_name,
+                d.last_name = driver.last_name,
+                d.short_name = driver.short_name
+            WITH d, driver
 
-            MATCH (b:Car {
+            MERGE (cd:CarDriver {
+                key_: driver.car_driver_key
+            })
+            ON CREATE SET
+                cd.car_key = driver.car_key,
+                cd.driver_id = driver.driver_id,
+                cd.car_id = driver.car_id,
+                cd.server_number = driver.server_number,
+                cd.session_file = driver.session_file,
+                cd.time_on_track = driver.time_on_track
+            MERGE (d)-[:DRIVER_TO_CAR_DRIVER]->(cd)
+            WITH d, cd, driver
+
+            MATCH (c:Car {
                 key_: driver.car_key
             })
-            MERGE (a)-[:DRIVER_TO_CAR]->(b)
-            WITH a, driver
+            MERGE (d)-[:DRIVER_TO_CAR]->(c)
+            MERGE (cd)-[:CAR_DRIVER_TO_CAR]->(c)
+            WITH d, cd, driver
 
-            MATCH (c:Session {
+            MATCH (s:Session {
                 key_: driver.session_key
             })
-            MERGE (a)-[:DRIVER_TO_SESSION]->(c)
+            MERGE (d)-[:DRIVER_TO_SESSION]->(s)
+            MERGE (cd)-[:CAR_DRIVER_TO_SESSION]->(s)
+
         """
         print(f"Inserting {len(node_drivers)} drivers...", end="")
         sra_neo_session.run(driver_cars_query, parameters={"drivers": node_drivers})
@@ -1033,39 +873,39 @@ if __name__ == "__main__":
 
         car_driver_laps_query = """
             UNWIND $laps AS lap
-            MERGE (a:Lap {
+            MERGE (l:Lap {
                 key_: lap.key_
             })
             ON CREATE SET
-                a.session_file = lap.session_file,
-                a.server_number = lap.server_number,
-                a.car_id = lap.car_id,
-                a.driver_id = lap.driver_id,
-                a.is_valid_for_best = lap.is_valid_for_best,
-                a.lap_time = lap.lap_time,
-                a.split1 = lap.split1,
-                a.split2 = lap.split2,
-                a.split3 = lap.split3,
-                a.lap_number = lap.lap_number,
-                a.running_session_lap_count = lap.running_session_lap_count
-            WITH a, lap
+                l.session_file = lap.session_file,
+                l.server_number = lap.server_number,
+                l.car_id = lap.car_id,
+                l.driver_id = lap.driver_id,
+                l.is_valid_for_best = lap.is_valid_for_best,
+                l.lap_time = lap.lap_time,
+                l.split1 = lap.split1,
+                l.split2 = lap.split2,
+                l.split3 = lap.split3,
+                l.lap_number = lap.lap_number,
+                l.running_session_lap_count = lap.running_session_lap_count
+            WITH l, lap
 
-            MATCH (b:Driver {
+            MATCH (d:Driver {
                 driver_id: lap.driver_id
             })  
-            MERGE (a)-[:LAP_TO_DRIVER]->(b)
-            WITH a, lap
+            MERGE (l)-[:LAP_TO_DRIVER]->(d)
+            WITH l, lap
 
             MATCH (c:Car {
                 key_: lap.session_file + "_" + lap.server_number + "_" + lap.car_id
             })
-            MERGE (a)-[:LAP_TO_CAR]->(c)
-            WITH a, lap
+            MERGE (l)-[:LAP_TO_CAR]->(c)
+            WITH l, lap
 
-            MATCH (d:Session {
-                key_: lap.session_file + "_" + lap.server_number
+            MATCH (s:Session {
+                key_: lap.session_key
             })
-            MERGE (a)-[:LAP_TO_SESSION]->(d)
+            MERGE (l)-[:LAP_TO_SESSION]->(s)
         """
         batch_size = 50000
         for i in range(0, len(node_laps), batch_size):

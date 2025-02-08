@@ -6,17 +6,17 @@ from Database import Neo4jDatabase
 def process_sra_db_neo(neo_session: Session):
     # create quali to race relationships
     quali_to_race_query = """
-        MATCH (s1:Session)
-        MATCH (s2:Session)
-        WHERE s1 <> s2
-            AND s1.session_type = "R"
-            AND s2.session_type = "Q"
-            AND s1.server_name = s2.server_name
-            AND s1.session_type <> s2.session_type
-            AND DATE(s1.finish_time) = DATE(s2.finish_time)
-        MERGE (s1)<-[r:QUALI_TO_RACE]-(s2)
-        // RETURN s1, r, s2
-        // ORDER BY s1.session_file DESC
+        MATCH (r:Session)
+        MATCH (q:Session)
+        WHERE r <> q
+            AND r.session_type = "R"
+            AND q.session_type = "Q"
+            AND r.server_name = q.server_name
+            AND DATE(r.finish_time) = DATE(q.finish_time)
+            AND r.finish_time > q.finish_time
+        MERGE (q)-[qr:QUALI_TO_RACE]->(r)
+        // RETURN r, q
+        // ORDER BY r.session_file DESC
     """
     print("Creating quali to race relationships...", end="")
     neo_session.run(quali_to_race_query)
@@ -276,7 +276,8 @@ def process_sra_db_neo(neo_session: Session):
         WHERE TRUE
             AND c.avg_percent_diff IS NOT NULL
             AND ts.avg_percent_diff IS NOT NULL
-        SET c.ts_avg_percent_diff = c.avg_percent_diff + ts.avg_percent_diff * (ts.season / 13.0) ^ 5
+        // SET c.ts_avg_percent_diff = c.avg_percent_diff + ts.avg_percent_diff * (ts.season / 13.0) ^ 5
+        SET c.ts_avg_percent_diff = c.avg_percent_diff + ts.avg_percent_diff
         // RETURN s.track_name, ts.season, ts.division, c.car_number, c.avg_middle_half_lap / 1000.0, c.avg_percent_diff, c.ts_avg_percent_diff
         // ORDER BY ts.season DESC, s.track_name, ts.division ASC, c.avg_middle_half_lap ASC
         // LIMIT 100

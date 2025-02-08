@@ -9,12 +9,48 @@ from enum import Enum as enum
 from statistics import mean
 from typing import Optional
 
+import pandas as pd
 from neo4j import Driver as Neo4jDriver
+from neo4j._data import Record
 from neo4j._work.eager_result import EagerResult
+from neo4j.time import Date, DateTime, Time
 from pytz import timezone as pytz_timezone
 from scipy.stats import linregress
 
 from Database import Neo4jDatabase
+
+
+def to_dict(obj, chain: list[object] = []) -> dict:
+    if not hasattr(obj, "__dict__"):
+        return obj
+
+    if obj in chain:
+        return None  # Prevent infinite loop by returning None or a placeholder
+
+    chain.append(obj)
+    result = {}
+    for key, value in obj.__dict__.items():
+        if isinstance(value, (list, tuple, set)):
+            result[key] = [
+                to_dict(v, chain) if hasattr(v, "__dict__") else v for v in value
+            ]
+            continue
+
+        if isinstance(value, dict):
+            result[key] = {
+                k: to_dict(v, chain) if hasattr(v, "__dict__") else v
+                for k, v in value.items()
+            }
+            continue
+
+        if isinstance(value, (Date, Time, DateTime)):
+            value: Date | Time
+            result[key] = value.iso_format()
+            continue
+
+        result[key] = to_dict(value, chain) if hasattr(value, "__dict__") else value
+    chain.pop()
+    return result
 
 
 class SessionTypes(enum):
@@ -136,6 +172,7 @@ class TrackNames(enum):
     SUZUKA = "suzuka"
     WATKINS_GLEN = "watkins_glen"
     ZANDVOORT = "zandvoort"
+    ZOLDER = "zolder"
 
 
 @dataclass
@@ -202,6 +239,8 @@ class SRADriver:
 
 @dataclass
 class Lap:
+    car_id: int
+    driver_id: str
     lap_time: float
     lap_number: int
     running_session_lap_count: int
@@ -210,10 +249,11 @@ class Lap:
     split3: float
     is_valid_for_best: bool
     session_file: str
-    driver_id: Optional[str] = None
 
     def from_lap_node(lap_node) -> Lap:
         return Lap(
+            car_id=lap_node["car_id"],
+            driver_id=lap_node["driver_id"],
             lap_time=lap_node["lap_time"],
             lap_number=lap_node["lap_number"],
             running_session_lap_count=lap_node["running_session_lap_count"],
@@ -222,7 +262,6 @@ class Lap:
             split3=lap_node["split3"],
             is_valid_for_best=lap_node["is_valid_for_best"],
             session_file=lap_node["session_file"],
-            driver_id=lap_node["driver_id"],
         )
 
     def from_record(record, lap_time_node_key="l"):
@@ -235,7 +274,7 @@ class Lap:
 
 @dataclass
 class Stint:
-    laps: list[Lap]
+    laps: list[Lap]  # does not include first lap or pit affected laps
 
     @property
     def trend(self) -> float:
@@ -253,7 +292,7 @@ class SessionDriver:
     last_name: str
     division: float | None
     car: Optional[Car] = None
-    laps: Optional[list[Lap]] = None
+    laps: list[Lap] = field(default_factory=list)
 
     # best possibly invalid times
     best_split1: Optional[Lap] = None
@@ -268,15 +307,18 @@ class SessionDriver:
     best_valid_lap: Optional[Lap] = None
 
     # race specific fields
-    start_offset: Optional[int] = None
+    start_offset: Optional[int] = None  # if this is negative, likely pit lane start
     start_position: Optional[int] = None
-    lap_running_time: Optional[list[int]] = None
-    split_running_time: Optional[list[int]] = None
-    gap_to_leader_per_split: Optional[list[int]] = None
-    probable_pit_laps: Optional[list[int]] = None
-    stints: Optional[list[Stint]] = None
+    lap_running_time: list[int] = field(default_factory=list)
+    split_running_time: list[int] = field(default_factory=list)
+    gap_to_leader_per_split: list[int] = field(default_factory=list)
+    probable_pit_laps: list[int] = field(default_factory=list)
+    stints: list[Stint] = field(default_factory=list)
+    time_on_track: Optional[int] = None
 
     def __eq__(self, other: SessionDriver):
+        if not isinstance(other, SessionDriver):
+            return False
         return self.driver_id == other.driver_id
 
     def __hash__(self):
@@ -290,8 +332,17 @@ class SessionDriver:
             division=driver_node["division"],
         )
 
-    def from_record(record, driver_node_key="d") -> SessionDriver:
-        return SessionDriver.from_node(record[driver_node_key])
+    def try_set_car_driver_attrs(self, car_driver_node) -> SessionDriver:
+        if car_driver_node:
+            self.time_on_track = car_driver_node["time_on_track"]
+        return self
+
+    def from_session_record(
+        record, driver_node_key="d", car_driver_node_key="cd"
+    ) -> SessionDriver:
+        return SessionDriver.from_node(
+            record[driver_node_key]
+        ).try_set_car_driver_attrs(record[car_driver_node_key])
 
     def set_car(self, car: Car):
         self.car = car
@@ -367,15 +418,23 @@ class SessionDriver:
         # find probable pit laps
         stint = Stint(laps=[])
         for l_idx, lap in enumerate(laps):
+            # ignore first lap
             if not l_idx:
                 continue
+
+            # detect pit lap
             split_3_1_combo = lap.split1 + laps[l_idx - 1].split3
             if split_3_1_combo - min_split_3_1_combo > 30000:
                 self.probable_pit_laps.append(lap.lap_number)
+
+                # pop previous lap, as it's in in lap
                 if stint.laps:
                     stint.laps.pop()
+
                 self.stints.append(stint)
                 stint = Stint(laps=[])
+
+            # add lap to stint
             else:
                 stint.laps.append(lap)
         self.stints.append(stint)
@@ -431,6 +490,12 @@ class SessionDriver:
         return sum(sum(l.splits) for l in self.laps)
 
     @property
+    def time_in_pits(self) -> int:
+        if not self.time_on_track:
+            return 0
+        return (self.sum_laps + self.start_offset) - self.time_on_track
+
+    @property
     def is_silver_driver(self) -> bool:
         return self.division and self.division != float(self.race_division)
 
@@ -438,6 +503,7 @@ class SessionDriver:
 @dataclass
 class CareerDriver:
     driver: SessionDriver
+    laps: list[Lap] = field(default_factory=list)
 
     # best possibly invalid times
     best_split1s: list[Lap] = field(default_factory=list)
@@ -458,6 +524,8 @@ class CareerDriver:
     def from_drivers(drivers: list[SessionDriver]) -> CareerDriver:
         career_driver = CareerDriver(driver=drivers[0])
         for d_idx, driver in enumerate(drivers):
+            career_driver.laps += driver.laps
+
             if driver.best_lap:
                 career_driver.best_split1s.append(driver.best_split1)
                 career_driver.best_split2s.append(driver.best_split2)
@@ -483,6 +551,22 @@ class CareerDriver:
             career_driver.best_valid_laps.sort(key=lambda l: l.lap_time)
 
         return career_driver
+
+    def from_sessions(sessions: list[Session]) -> list[CareerDriver]:
+        """unique car driver combos"""
+        driver_id_car_id_combos: dict[str, list[SessionDriver]] = {}
+        for session in sessions:
+            for driver in session.drivers:
+                driver_id_car_id = f"{driver.driver_id}_{driver.car.car_model}"
+                if driver_id_car_id not in driver_id_car_id_combos:
+                    driver_id_car_id_combos[driver_id_car_id] = []
+                driver_id_car_id_combos[driver_id_car_id].append(driver)
+
+        career_drivers: list[CareerDriver] = []
+        for driver_id_car_id, drivers in driver_id_car_id_combos.items():
+            career_drivers.append(CareerDriver.from_drivers(drivers))
+
+        return career_drivers
 
     @property
     def potential_best_lap_time(self) -> Optional[int]:
@@ -526,9 +610,29 @@ class CareerDriver:
 
 
 @dataclass
+class CarDriver:
+    car_key: str
+    driver_id: str
+    time_on_track: int
+    car: Optional[Car] = None
+    driver: Optional[SessionDriver] = None
+
+    def from_car_driver_node(car_driver_node: dict) -> CarDriver:
+        return CarDriver(
+            car_key=car_driver_node["car_key"],
+            driver_id=car_driver_node["driver_id"],
+            time_on_track=car_driver_node["time_on_track"],
+        )
+
+    def from_record(record, car_driver_node_key="cd") -> CarDriver:
+        return CarDriver.from_car_driver_node(record[car_driver_node_key])
+
+
+@dataclass
 class Car:
     car_id: int
     car_model: int
+    car_group: str
     car_number: int
     finish_position: int
     total_time: int  # this is probably time in control of car, excluding when RTG or car is locked from control (still includes pit time)
@@ -538,6 +642,8 @@ class Car:
     best_split2: int
     best_split3: int
     best_lap: int
+    car_drivers: list[CarDriver] = field(default_factory=list)
+    drivers: list[SessionDriver] = field(default_factory=list)
     avg_percent_diff: Optional[float] = None
     ts_avg_percent_diff: Optional[float] = None
 
@@ -546,10 +652,18 @@ class Car:
         self.ts_avg_percent_diff = car_node.get("ts_avg_percent_diff")
         return self
 
+    def try_set_car_driver(self, car_driver_node: dict) -> Car:
+        self.car_drivers: list[CarDriver] = []
+        car_driver: CarDriver = CarDriver.from_car_driver_node(car_driver_node)
+        if car_driver:
+            self.car_drivers.append(car_driver)
+        return self
+
     def from_car_node(car_node) -> Car:
         return Car(
             car_id=car_node["car_id"],
             car_model=car_node["car_model"],
+            car_group=car_node["car_group"],
             car_number=car_node["car_number"],
             finish_position=car_node["finish_position"],
             total_time=car_node["total_time"],
@@ -574,11 +688,15 @@ class Session:
     key_: str
     track_name: str
     session_type: str
-    finish_time: datetime
+    finish_time: DateTime
     session_file: str
     server_number: int
     server_name: str
-    drivers: Optional[list[SessionDriver]] = None
+    cars: dict[str, Car] = field(default_factory=dict)
+
+    @property
+    def drivers(self) -> list[SessionDriver]:
+        return [d for c in self.cars.values() for d in c.drivers]
 
     def from_session_node(session_node) -> Session:
         return Session(
@@ -599,16 +717,36 @@ class Session:
         session_node_key="s",
         driver_node_key="d",
         car_node_key="c",
+        car_driver_key="cd",
         laps_key="laps",
     ):
+        """this is one driver/car_driver/car per session"""
+
+        # create car
+        car = Car.from_car_node(session_record[car_node_key]).try_set_car_driver(
+            session_record[car_driver_key]
+        )
+
+        # create driver
         driver = SessionDriver.from_node(session_record[driver_node_key])
-        driver.set_car(Car.from_car_node(session_record[car_node_key]))
+        driver.car = car
         driver.set_laps(
             sorted(
-                [Lap.from_lap_node(node) for node in session_record[laps_key]],
+                [
+                    lap
+                    for lap in [
+                        Lap.from_lap_node(node) for node in session_record[laps_key]
+                    ]
+                    if lap.car_id == car.car_id
+                ],
                 key=lambda lap: lap.lap_number,
             )
         )
+
+        # update car driver
+        car.car_drivers[0].driver = driver
+        car.car_drivers[0].car = car
+        car.drivers.append(driver)
         return Session(
             key_=session_record[session_node_key]["key_"],
             track_name=session_record[session_node_key]["track_name"],
@@ -617,38 +755,58 @@ class Session:
             session_file=session_record[session_node_key]["session_file"],
             server_number=session_record[session_node_key]["server_number"],
             server_name=session_record[session_node_key]["server_name"],
-            drivers=[driver],
+            cars={car.car_id: car},
         )
+
+    def from_complete_records(records: list[Record]) -> list[Session]:
+        # the results are returned per driver, so each session only has one driver, we need to combine them on the session key and the car id
+        car_sessions: list[Session] = [
+            Session.from_complete_record(record) for record in records
+        ]
+        sessions: dict[str, Session] = {}
+        for car_session in car_sessions:
+            # there will only ever be one car in the cars list at this moment, so we use its key to combine the sessions
+            car_id = list(car_session.cars.keys())[0]
+            if car_session.key_ not in sessions:
+                sessions[car_session.key_] = car_session
+                continue
+            if car_id not in sessions[car_session.key_].cars:
+                sessions[car_session.key_].cars[car_id] = car_session.cars[car_id]
+                continue
+            sessions[car_session.key_].cars[car_id].drivers += car_session.cars[
+                car_id
+            ].drivers
+        return list(sessions.values())
 
     def set_session_drivers(self, neo_driver: Neo4jDriver) -> Session:
         """Sets the car and laps for each driver in the session and assigns them to the session"""
 
         drivers: list[SessionDriver] = get_basic_drivers_from_session(neo_driver, self)
         for driver in drivers:
-            neo_results = neo_driver.execute_query(
-                f"""
-                MATCH (s:Session)<-[]-(l:Lap)-[]->(d:Driver)-[]->(c:Car)
-                WHERE TRUE
-                    AND d.driver_id = '{driver.driver_id}' AND s.key_ = '{self.key_}'
-                    AND c.session_file = l.session_file
-                RETURN s, d, c, l
-                """
+            neo_results = get_query_results(
+                neo_driver=neo_driver,
+                message=f"Getting laps for {driver.name} in {self.key_}",
+                query=f"""
+                    MATCH (s:Session)<-[]-(l:Lap)-[]->(d:Driver)-[]->(c:Car)
+                    WHERE TRUE
+                        AND d.driver_id = '{driver.driver_id}' AND s.key_ = '{self.key_}'
+                        AND c.session_file = l.session_file
+                    RETURN s, d, c, l
+                """,
             )
 
             if neo_results.records:
-                driver.set_car(Car.from_record(neo_results.records[0]))
+                car = Car.from_record(neo_results.records[0])
+                driver.car = car
                 driver.set_laps(
                     sorted(
                         [Lap.from_record(record) for record in neo_results.records],
                         key=lambda lap: lap.lap_number,
                     )
                 )
-        drivers.sort(
-            key=lambda driver: (
-                driver.car.finish_position if driver.car else float("inf")
-            )
-        )
-        self.drivers = drivers
+                if car.car_id not in self.cars:
+                    self.cars[car.car_id] = car
+                self.cars[car.car_id].drivers += [driver]
         return self
 
     def set_driver_gaps_to_leader(self) -> Session:
@@ -657,7 +815,9 @@ class Session:
         Should probably be used only for race sessions...
         """
 
-        min_running_time_per_lap_per_split = [(float("inf"), None)]
+        min_running_time_per_lap_per_split = [
+            (float("inf"), None)
+        ]  # (running_time, driver_idx)
         for d_idx, driver in enumerate(self.drivers):
             # car or laps don't exist
             if not driver.car or not driver.laps:
@@ -697,44 +857,25 @@ class Session:
 
 
 @dataclass
-class TeamSeriesSession:
-    session: Session
-    season: int
-    division: int
+class Weekend:
+    qualifying: Session
+    race: Session
 
-    def from_record(record, ts_node_key="ts"):
-        return TeamSeriesSession(
-            session=Session.from_record(record),
-            season=record[ts_node_key]["season"],
-            division=record[ts_node_key]["division"],
+    def from_record(record, quali_node_key="q", race_node_key="r") -> Weekend:
+        return Weekend(
+            qualifying=Session.from_record(record, quali_node_key),
+            race=Session.from_record(record, race_node_key),
         )
-
-
-@dataclass
-class TeamSeriesWeekend:
-    qualifying: TeamSeriesSession
-    race: TeamSeriesSession
-
-    def from_records(records, ts_node_key="ts", s_node_key="s"):
-        qualifying: Optional[TeamSeriesSession] = None
-        race: Optional[TeamSeriesSession] = None
-        for session_record in records:
-            ts_session = TeamSeriesSession.from_record(session_record)
-            if ts_session.session.session_type == SessionTypes.QUALIFYING.value:
-                qualifying = ts_session
-            elif ts_session.session.session_type == SessionTypes.RACE.value:
-                race = ts_session
-        return TeamSeriesWeekend(qualifying=qualifying, race=race)
 
     def set_drivers(self, neo_driver: Neo4jDriver) -> list[SessionDriver]:
         """Sets the start position for each driver"""
 
         quali_drivers = {
             d.driver_id: d
-            for d in self.qualifying.session.set_session_drivers(neo_driver).drivers
+            for d in self.qualifying.set_session_drivers(neo_driver).drivers
         }
         race_drivers = (
-            self.race.session.set_session_drivers(neo_driver)
+            self.race.set_session_drivers(neo_driver)
             .set_driver_gaps_to_leader()
             .drivers
         )
@@ -752,6 +893,46 @@ class TeamSeriesWeekend:
 
         return race_drivers
 
+    @property
+    def path(self) -> str:
+        return f"weekends/{self.race.key_}/"
+
+
+@dataclass
+class TeamSeriesSession:
+    session: Session
+    season: int
+    division: int
+
+    def from_record(record, ts_node_key="ts"):
+        return TeamSeriesSession(
+            session=Session.from_record(record),
+            season=record[ts_node_key]["season"],
+            division=record[ts_node_key]["division"],
+        )
+
+
+@dataclass
+class TeamSeriesWeekend(Weekend):
+    ts_qualifying: TeamSeriesSession
+    ts_race: TeamSeriesSession
+
+    def from_records(records, ts_node_key="ts", s_node_key="s"):
+        ts_qualifying: Optional[TeamSeriesSession] = None
+        ts_race: Optional[TeamSeriesSession] = None
+        for session_record in records:
+            ts_session = TeamSeriesSession.from_record(session_record)
+            if ts_session.session.session_type == SessionTypes.QUALIFYING.value:
+                ts_qualifying = ts_session
+            elif ts_session.session.session_type == SessionTypes.RACE.value:
+                ts_race = ts_session
+        return TeamSeriesWeekend(
+            ts_qualifying=ts_qualifying,
+            ts_race=ts_race,
+            qualifying=ts_qualifying.session,
+            race=ts_race.session,
+        )
+
 
 def get_query_results(neo_driver: Neo4jDriver, message: str, query: str) -> EagerResult:
     print(f"{message}", end=" ")
@@ -762,12 +943,24 @@ def get_query_results(neo_driver: Neo4jDriver, message: str, query: str) -> Eage
     return neo_results
 
 
-def get_session_keys(neo_driver: Neo4jDriver) -> set[str]:
-    neo_results: EagerResult = neo_driver.execute_query(
-        """
-        MATCH (s:Session)
-        RETURN s.key_
-        """
+def get_session_keys(
+    neo_driver: Neo4jDriver,
+    after_date: datetime = datetime.min,
+    before_date: datetime = datetime.max,
+    session_types: set[str] = set(),
+) -> set[str]:
+    session_types: list[str] = list(session_types)
+    neo_results = get_query_results(
+        neo_driver=neo_driver,
+        message="Getting session keys...",
+        query=f"""
+            MATCH (s:Session)
+            WHERE TRUE
+                AND s.finish_time >= datetime('{after_date.isoformat()}') 
+                AND s.finish_time < datetime('{before_date.isoformat()}')
+                AND (SIZE({session_types}) = 0 OR s.session_type IN {session_types})
+            RETURN s.key_
+        """,
     )
 
     return set([record["s.key_"] for record in neo_results.records])
@@ -817,6 +1010,7 @@ def get_team_series_sessions_by_attrs(
     track_names: set[str] = set(),
     divisions: set[int] = set(),
     session_types: set[str] = set(),
+    has_avg_percent_diff: bool = False,
 ) -> list[TeamSeriesSession]:
     query = f"""
         MATCH (ts:TeamSeriesSession)-[]->(s:Session)
@@ -830,16 +1024,22 @@ def get_team_series_sessions_by_attrs(
         query += f"AND ts.division IN {list(divisions)}\n"
     if session_types:
         query += f"AND s.session_type IN {list(session_types)}\n"
+    if has_avg_percent_diff:
+        query += "AND ts.avg_percent_diff IS NOT NULL\n"
     query += "RETURN s, ts\n"
     query += "ORDER BY s.session_file ASC"
 
-    neo_results: EagerResult = neo_driver.execute_query(query)
+    neo_results: EagerResult = get_query_results(
+        neo_driver=neo_driver,
+        message=f"Getting team series sessions for seasons {seasons}, track names {track_names}, divisions {divisions}, and session types {session_types}...",
+        query=query,
+    )
     return [TeamSeriesSession.from_record(record) for record in neo_results.records]
 
 
 def get_team_series_weekend_by_attrs(
     neo_driver: Neo4jDriver, season: int, track_name: str, division: int
-) -> TeamSeriesWeekend:
+) -> Optional[TeamSeriesWeekend]:
     neo_results: EagerResult = get_query_results(
         neo_driver=neo_driver,
         message=f"Getting team series weekend for season {season}, track {track_name}, division {division}...",
@@ -851,52 +1051,41 @@ def get_team_series_weekend_by_attrs(
             ORDER BY s.session_file ASC
         """,
     )
-    return TeamSeriesWeekend.from_records(neo_results.records)
+    if neo_results.records:
+        return TeamSeriesWeekend.from_records(neo_results.records)
 
 
-def get_basic_driver_by_id(neo_driver: Neo4jDriver, driver_id: str) -> SessionDriver:
-    neo_results: EagerResult = neo_driver.execute_query(
-        f"""
-        MATCH (d:Driver)
-        WHERE d.driver_id = '{driver_id}'
-        RETURN d
-        """
+def get_weekend_from_session_key(neo_driver: Neo4jDriver, session_key: str) -> Weekend:
+    neo_results: EagerResult = get_query_results(
+        neo_driver=neo_driver,
+        message=f"Getting weekend for session key: {session_key}...",
+        query=f"""
+            MATCH (q:Session)-[:QUALI_TO_RACE]->(r:Session)
+            WHERE q.key_ = '{session_key}'
+            OR r.key_ = '{session_key}'
+            RETURN q, r
+        """,
     )
     if len(neo_results.records) > 1:
-        raise ValueError(f"Found more than one driver with driver_id {driver_id}")
-    return SessionDriver.from_record(neo_results.records[0])
+        raise ValueError(f"Found more than one weekend with session key: {session_key}")
 
-
-def get_basic_driver_by_first_last_name(
-    neo_driver: Neo4jDriver, first_name: str, last_name: str
-) -> SessionDriver:
-    neo_results: EagerResult = neo_driver.execute_query(
-        f"""
-        MATCH (d:Driver)
-        WHERE TRUE
-            AND d.first_name = '{Neo4jDatabase.handle_bad_string(first_name)}' 
-            AND d.last_name = '{Neo4jDatabase.handle_bad_string(last_name)}'
-        RETURN d
-        """
-    )
-    if len(neo_results.records) > 1:
-        raise ValueError(
-            f"Found more than one driver with first name {first_name} and last name {last_name}"
-        )
-    return SessionDriver.from_record(neo_results.records[0])
+    return Weekend.from_record(neo_results.records[0])
 
 
 def get_basic_drivers_from_session(
     neo_driver: Neo4jDriver, session: Session
 ) -> list[SessionDriver]:
-    neo_results: EagerResult = neo_driver.execute_query(
-        f"""
+    neo_results: EagerResult = get_query_results(
+        neo_driver=neo_driver,
+        message=f"Getting drivers for session {session.key_}...",
+        query=f"""
         MATCH (d:Driver)-[]->(s:Session)
+        MATCH (d)-[]->(cd:CarDriver)-[]->(s)
         WHERE s.key_ = '{session.key_}'
-        RETURN d
-        """
+        RETURN d, cd
+        """,
     )
-    return [SessionDriver.from_record(record) for record in neo_results.records]
+    return [SessionDriver.from_session_record(record) for record in neo_results.records]
 
 
 def get_cars_from_session(neo_driver: Neo4jDriver, session: Session) -> list[str]:
@@ -955,53 +1144,42 @@ def get_complete_sessions_by_keys(
         MATCH (s:Session)<-[:DRIVER_TO_SESSION]-(d:Driver)
         MATCH (d)<-[:LAP_TO_DRIVER]-(l:Lap)-[:LAP_TO_SESSION]->(s)
         MATCH (d)-[:DRIVER_TO_CAR]->(c:Car)-[:CAR_TO_SESSION]->(s)
+        MATCH (d)-[:DRIVER_TO_CAR_DRIVER]->(cd:CarDriver)-[:CAR_DRIVER_TO_CAR]->(c)
         WHERE TRUE
             AND s.key_ IN {list(session_keys)}
-        RETURN s, d, COLLECT(l) as laps, c
+        RETURN s, d, COLLECT(l) as laps, c, cd
         """,
     )
-    # the results are returned per driver, so each session only has one driver, we need to combine them on the session key
-    driver_sessions: list[Session] = [
-        Session.from_complete_record(record) for record in neo_results.records
-    ]
-    sessions: dict[str, Session] = {}
-    for driver_session in driver_sessions:
-        if driver_session.key_ not in sessions:
-            sessions[driver_session.key_] = driver_session
-            continue
-        sessions[driver_session.key_].drivers += driver_session.drivers
-    return list(sessions.values())
+    return Session.from_complete_records(neo_results.records)
 
 
 def get_complete_sessions_for_track(
-    neo_driver: Neo4jDriver, track_name: str, after_date: datetime = datetime.min
+    neo_driver: Neo4jDriver,
+    track_name: str,
+    session_types: set[str] = set(),
+    before_date: datetime = datetime.max,
+    after_date: datetime = datetime.min,
 ) -> list[Session]:
-    """Get all practice sessions for a track with drivers, cars, and laps"""
+    """Get all sessions for a track with drivers, cars, and laps"""
+    session_types: list[str] = list(session_types)
     neo_results: EagerResult = get_query_results(
         neo_driver=neo_driver,
-        message=f"Getting complete sessions for track {track_name} after {after_date.isoformat()}...",
+        message=f"Getting complete sessions for track {track_name} between {after_date.isoformat()} and {before_date.isoformat()}...",
         query=f"""
         MATCH (s:Session)<-[:DRIVER_TO_SESSION]-(d:Driver)
         MATCH (d)<-[:LAP_TO_DRIVER]-(l:Lap)-[:LAP_TO_SESSION]->(s)
         MATCH (d)-[:DRIVER_TO_CAR]->(c:Car)-[:CAR_TO_SESSION]->(s)
+        MATCH (d)-[:DRIVER_TO_CAR_DRIVER]->(cd:CarDriver)-[:CAR_DRIVER_TO_CAR]->(c)
         WHERE TRUE
             AND s.track_name = '{track_name}'
-            AND s.finish_time > datetime('{after_date.isoformat()}')
-        RETURN s, d, COLLECT(l) as laps, c
+            AND s.finish_time >= datetime('{after_date.isoformat()}')
+            AND s.finish_time < datetime('{before_date.isoformat()}')
+            AND (SIZE({session_types}) = 0 OR s.session_type IN {session_types})
+        RETURN s, d, COLLECT(l) as laps, c, cd
         ORDER BY s.session_file ASC
         """,
     )
-    # the results are returned per driver, so each session only has one driver, we need to combine them on the session key
-    driver_sessions: list[Session] = [
-        Session.from_complete_record(record) for record in neo_results.records
-    ]
-    sessions: dict[str, Session] = {}
-    for driver_session in driver_sessions:
-        if driver_session.key_ not in sessions:
-            sessions[driver_session.key_] = driver_session
-            continue
-        sessions[driver_session.key_].drivers += driver_session.drivers
-    return list(sessions.values())
+    return Session.from_complete_records(neo_results.records)
 
 
 def get_sra_drivers(
@@ -1059,18 +1237,25 @@ if __name__ == "__main__":
 
         # sra_drivers = get_sra_drivers(neo_driver)
 
-        ts_sessions = get_team_series_sessions_by_attrs(
-            neo_driver=neo_driver,
-            seasons={12},
-            divisions={1, 2, 3},
-            session_types={"Q"},
-        )
+        # ts_sessions = get_team_series_sessions_by_attrs(
+        #     neo_driver=neo_driver,
+        #     seasons={12},
+        #     divisions={1, 2, 3},
+        #     session_types={"Q"},
+        # )
+
+        weekend = get_weekend_from_session_key(neo_driver, "250114_224252_R_2")
+        weekend.set_drivers(neo_driver)
 
         Neo4jDatabase.close_connection(neo_driver, neo_session)
         with open(queries_pickle, "wb") as f:
-            pickle.dump(ts_sessions, f)
+            pickle.dump(weekend, f)
 
     else:
         with open(queries_pickle, "rb") as f:
-            ts_sessions = pickle.load(f)
+            weekend = pickle.load(f)
+
+    import json
+
+    json.dump(to_dict(weekend), open("weekend.json", "w"), indent=4)
     pass

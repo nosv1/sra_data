@@ -1,10 +1,13 @@
 from os import getenv
 
 import mysql.connector
+from dotenv import load_dotenv
 from mysql.connector.abstracts import MySQLConnectionAbstract, MySQLCursorAbstract
 from neo4j import BoltDriver, GraphDatabase, Session
 from sqlalchemy import create_engine
 from sqlalchemy.engine import Engine as SQLAEngine
+
+load_dotenv()
 
 
 class MySqlDatabase:

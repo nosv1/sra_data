@@ -25,7 +25,7 @@ if __name__ == "__main__":
     endurance_series_servers = {7, 8}
     max_pages = [359, 401, 324, 145, 130, 0, 143, 6]
     drivers_to_find = ["Arct"]
-    start_date = datetime(2024, 12, 2).replace(tzinfo=pytz_timezone("US/Central"))
+    start_date = datetime(2024, 8, 1).replace(tzinfo=pytz_timezone("US/Central"))
     start_date = datetime.min.replace(tzinfo=pytz_timezone("US/Central"))
     end_date = datetime(2024, 7, 24).replace(tzinfo=pytz_timezone("US/Central"))
     end_date = datetime.now().replace(tzinfo=pytz_timezone("US/Central"))
