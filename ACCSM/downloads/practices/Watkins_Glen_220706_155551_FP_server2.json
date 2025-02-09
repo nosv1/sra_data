@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 530586,
+      "splits": [
+        434128,
+        51970,
+        44487
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 129340,
+      "splits": [
+        30347,
+        37065,
+        61927
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      30347,
+      37065,
+      61927
+    ],
+    "bestlap": 129340,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Aidan",
+              "lastName": "Grover",
+              "playerId": "S76561198801827358",
+              "shortName": "AAG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 89,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Aidan",
+          "lastName": "Grover",
+          "playerId": "S76561198801827358",
+          "shortName": "AAG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 129340,
+          "bestSplits": [
+            30347,
+            37065,
+            61927
+          ],
+          "lapCount": 2,
+          "lastLap": 129340,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30347,
+            37065,
+            61927
+          ],
+          "totalTime": 7780449
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "NA League | Sim Racing Alliance Server 2 | discord.gg/SimRacingAlliance | ",
+  "metaData": "custom_race:1d2b667e-af5e-481f-a51d-d6a508bd7243",
+  "Date": "2022-07-06T15:55:51Z",
+  "SessionFile": "220706_155551_FP"
+}

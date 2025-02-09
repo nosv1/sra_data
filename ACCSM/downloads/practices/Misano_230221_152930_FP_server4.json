@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 155713,
+      "splits": [
+        79276,
+        39860,
+        36577
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 102932,
+      "splits": [
+        24965,
+        40872,
+        37095
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 100832,
+      "splits": [
+        24670,
+        39735,
+        36427
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 99227,
+      "splits": [
+        24732,
+        39322,
+        35172
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      24670,
+      39322,
+      35172
+    ],
+    "bestlap": 99227,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Gordon",
+              "lastName": "Beverly Jr.",
+              "playerId": "S76561198878161886",
+              "shortName": "BEV"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 704,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gordon",
+          "lastName": "Beverly Jr.",
+          "playerId": "S76561198878161886",
+          "shortName": "BEV"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 99227,
+          "bestSplits": [
+            24670,
+            39322,
+            35172
+          ],
+          "lapCount": 4,
+          "lastLap": 99227,
+          "lastSplitId": 2,
+          "lastSplits": [
+            24732,
+            39322,
+            35172
+          ],
+          "totalTime": 48203607
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA.gg | Sim Racing Alliance | Main Server #4 | GT3_FreePractice | R | SRAM#4",
+  "metaData": "custom_race:ca34be27-5481-49f5-baec-12ccbf3d9047",
+  "Date": "2023-02-21T15:29:30Z",
+  "SessionFile": "230221_152930_FP"
+}

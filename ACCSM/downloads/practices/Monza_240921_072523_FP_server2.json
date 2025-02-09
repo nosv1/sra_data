@@ -1,0 +1,160 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 119840,
+      "splits": [
+        39320,
+        43167,
+        37352
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115405,
+      "splits": [
+        35922,
+        40985,
+        38497
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109630,
+      "splits": [
+        35617,
+        38512,
+        35500
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 123137,
+      "splits": [
+        37122,
+        38792,
+        47222
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 15,
+  "sessionResult": {
+    "bestSplits": [
+      35617,
+      38512,
+      35500
+    ],
+    "bestlap": 109630,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Travis",
+              "lastName": "Tatro",
+              "playerId": "S76561197980112160",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 720,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Travis",
+          "lastName": "Tatro",
+          "playerId": "S76561197980112160",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109630,
+          "bestSplits": [
+            35617,
+            38512,
+            35500
+          ],
+          "lapCount": 4,
+          "lastLap": 123137,
+          "lastSplitId": 1,
+          "lastSplits": [
+            37122,
+            38792,
+            47222
+          ],
+          "totalTime": 137805191
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 6,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Justin",
+              "lastName": "Rosenthal",
+              "playerId": "S76561198846668194",
+              "shortName": "ABR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 695,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Justin",
+          "lastName": "Rosenthal",
+          "playerId": "S76561198846668194",
+          "shortName": "ABR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "monza",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+  "Date": "2024-09-21T07:25:23Z",
+  "SessionFile": "240921_072523_FP"
+}

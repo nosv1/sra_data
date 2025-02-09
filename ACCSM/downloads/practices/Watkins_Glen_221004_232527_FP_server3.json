@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 144173,
+      "splits": [
+        62391,
+        38120,
+        43662
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111942,
+      "splits": [
+        30657,
+        37382,
+        43902
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112515,
+      "splits": [
+        30727,
+        36732,
+        45055
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      30657,
+      37382,
+      43902
+    ],
+    "bestlap": 111942,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Phil",
+              "lastName": "Cibulka",
+              "playerId": "S76561198083552001",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 769,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Phil",
+          "lastName": "Cibulka",
+          "playerId": "S76561198083552001",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 111942,
+          "bestSplits": [
+            30657,
+            37382,
+            43902
+          ],
+          "lapCount": 3,
+          "lastLap": 112515,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30727,
+            36732,
+            45055
+          ],
+          "totalTime": 34843674
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | \u003e | GT3 Free Practice | SRAM#3",
+  "metaData": "custom_race:62c64dac-70bf-40aa-b195-e2d36798078c",
+  "Date": "2022-10-04T23:25:27Z",
+  "SessionFile": "221004_232527_FP"
+}

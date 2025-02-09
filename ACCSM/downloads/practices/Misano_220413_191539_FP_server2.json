@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 221563,
+      "splits": [
+        147206,
+        39955,
+        34402
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 98000,
+      "splits": [
+        24687,
+        39012,
+        34300
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96732,
+      "splits": [
+        24475,
+        38282,
+        33975
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97962,
+      "splits": [
+        24442,
+        38807,
+        34712
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      24442,
+      38807,
+      34712
+    ],
+    "bestlap": 97962,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Tyrell",
+              "lastName": "Foster",
+              "playerId": "S76561198836429146",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 113,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Tyrell",
+          "lastName": "Foster",
+          "playerId": "S76561198836429146",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97962,
+          "bestSplits": [
+            24442,
+            38807,
+            34712
+          ],
+          "lapCount": 4,
+          "lastLap": 97962,
+          "lastSplitId": 2,
+          "lastSplits": [
+            24442,
+            38807,
+            34712
+          ],
+          "totalTime": 3184533
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-13T19:15:39Z",
+  "SessionFile": "220413_191539_FP"
+}

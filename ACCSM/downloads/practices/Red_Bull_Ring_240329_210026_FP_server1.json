@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 166348,
+      "splits": [
+        97841,
+        40777,
+        27730
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 23,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Quinton",
+              "lastName": "Schattner",
+              "playerId": "S76561198120576863",
+              "shortName": "SCH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 9,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Quinton",
+          "lastName": "Schattner",
+          "playerId": "S76561198120576863",
+          "shortName": "SCH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 166348,
+          "lastSplitId": 0,
+          "lastSplits": [
+            97841,
+            40777,
+            27730
+          ],
+          "totalTime": 163507487
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-03-29T21:00:26Z",
+  "SessionFile": "240329_210026_FP"
+}

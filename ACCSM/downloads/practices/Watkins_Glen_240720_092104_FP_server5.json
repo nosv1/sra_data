@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106390,
+      "splits": [
+        30222,
+        34850,
+        41317
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105307,
+      "splits": [
+        29615,
+        34455,
+        41237
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106267,
+      "splits": [
+        29755,
+        34617,
+        41895
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106002,
+      "splits": [
+        29535,
+        34877,
+        41590
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106825,
+      "splits": [
+        29812,
+        35487,
+        41525
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107827,
+      "splits": [
+        29965,
+        34810,
+        43052
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      29535,
+      34455,
+      41237
+    ],
+    "bestlap": 105307,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Phil",
+              "lastName": "Browne",
+              "playerId": "S76561198031321604",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 31,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Phil",
+          "lastName": "Browne",
+          "playerId": "S76561198031321604",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105307,
+          "bestSplits": [
+            29535,
+            34455,
+            41237
+          ],
+          "lapCount": 6,
+          "lastLap": 107827,
+          "lastSplitId": 0,
+          "lastSplits": [
+            29965,
+            34810,
+            43052
+          ],
+          "totalTime": 31245770
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+  "Date": "2024-07-20T09:21:04Z",
+  "SessionFile": "240720_092104_FP"
+}

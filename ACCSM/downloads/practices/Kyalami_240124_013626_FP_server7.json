@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 435523,
+      "splits": [
+        362178,
+        41922,
+        31422
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 225422,
+      "splits": [
+        153845,
+        40902,
+        30675
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103960,
+      "splits": [
+        31727,
+        41232,
+        31000
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103507,
+      "splits": [
+        31572,
+        41100,
+        30835
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 82,
+  "sessionResult": {
+    "bestSplits": [
+      31572,
+      41100,
+      30835
+    ],
+    "bestlap": 103507,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Arjun",
+              "lastName": "Lakshmi Narasimhan",
+              "playerId": "S76561198148647015",
+              "shortName": "LAK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 22,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Arjun",
+          "lastName": "Lakshmi Narasimhan",
+          "playerId": "S76561198148647015",
+          "shortName": "LAK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103507,
+          "bestSplits": [
+            31572,
+            41100,
+            30835
+          ],
+          "lapCount": 4,
+          "lastLap": 103507,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31572,
+            41100,
+            30835
+          ],
+          "totalTime": 781586892
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-01-24T01:36:26Z",
+  "SessionFile": "240124_013626_FP"
+}

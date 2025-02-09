@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 339236,
+      "splits": [
+        257161,
+        38112,
+        43962
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 232402,
+      "splits": [
+        151305,
+        37842,
+        43255
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 11,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 13,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Douglas",
+              "lastName": "Mitchell",
+              "playerId": "S76561198316311325",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 10,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Douglas",
+          "lastName": "Mitchell",
+          "playerId": "S76561198316311325",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 232402,
+          "lastSplitId": 0,
+          "lastSplits": [
+            151305,
+            37842,
+            43255
+          ],
+          "totalTime": 156049882
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAserv2 | Sim Racing Alliance | Main Server 2 | discord.gg/SimRacingAlliance | ",
+  "metaData": "custom_race:6e923753-63e1-49ca-8acf-cda99e862b6b",
+  "Date": "2022-07-31T13:48:08Z",
+  "SessionFile": "220731_134808_FP"
+}

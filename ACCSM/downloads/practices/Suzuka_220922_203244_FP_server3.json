@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 358331,
+      "splits": [
+        273521,
+        56022,
+        28787
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 152222,
+      "splits": [
+        66745,
+        57210,
+        28267
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125615,
+      "splits": [
+        42122,
+        55215,
+        28277
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125375,
+      "splits": [
+        41857,
+        55510,
+        28007
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 401640,
+      "splits": [
+        146885,
+        225407,
+        29347
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 24,
+  "sessionResult": {
+    "bestSplits": [
+      41857,
+      55215,
+      28007
+    ],
+    "bestlap": 125375,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Kevin",
+              "lastName": "Kovach",
+              "playerId": "S76561198056527329",
+              "shortName": "KKO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 788,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kevin",
+          "lastName": "Kovach",
+          "playerId": "S76561198056527329",
+          "shortName": "KKO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 125375,
+          "bestSplits": [
+            41857,
+            55215,
+            28007
+          ],
+          "lapCount": 5,
+          "lastLap": 401640,
+          "lastSplitId": 0,
+          "lastSplits": [
+            146885,
+            225407,
+            29347
+          ],
+          "totalTime": 94343391
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | 8H of Suzuka | Practice | SRAM#3",
+  "metaData": "custom_race:7f6510ba-7a25-4eed-996f-9c86262ce78c",
+  "Date": "2022-09-22T20:32:44Z",
+  "SessionFile": "220922_203244_FP"
+}

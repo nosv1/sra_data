@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 189273,
+      "splits": [
+        104123,
+        53730,
+        31420
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Jackson",
+              "lastName": "Bartee",
+              "playerId": "S76561199070627921",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 24,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jackson",
+          "lastName": "Bartee",
+          "playerId": "S76561199070627921",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 189273,
+          "lastSplitId": 1,
+          "lastSplits": [
+            104123,
+            53730,
+            31420
+          ],
+          "totalTime": 20383274
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-02-02T00:26:05Z",
+  "SessionFile": "240202_002605_FP"
+}

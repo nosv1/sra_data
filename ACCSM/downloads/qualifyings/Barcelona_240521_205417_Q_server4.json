@@ -1,0 +1,192 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 113335,
+      "splits": [
+        31355,
+        44322,
+        37657
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109872,
+      "splits": [
+        31090,
+        42100,
+        36682
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110022,
+      "splits": [
+        30742,
+        42390,
+        36890
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      30742,
+      42100,
+      36682
+    ],
+    "bestlap": 109872,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Cleveland",
+              "lastName": "Leatherwood",
+              "playerId": "S76561198114792814",
+              "shortName": "LEA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 294,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Cleveland",
+          "lastName": "Leatherwood",
+          "playerId": "S76561198114792814",
+          "shortName": "LEA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109872,
+          "bestSplits": [
+            30742,
+            42100,
+            36682
+          ],
+          "lapCount": 3,
+          "lastLap": 110022,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30742,
+            42390,
+            36890
+          ],
+          "totalTime": 533066
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "DARIO",
+              "lastName": "FERRER",
+              "playerId": "S76561199443451296",
+              "shortName": "DAF"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 73,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "DARIO",
+          "lastName": "FERRER",
+          "playerId": "S76561199443451296",
+          "shortName": "DAF"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      },
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Vincent",
+              "lastName": "Dubuc",
+              "playerId": "S76561199561288131",
+              "shortName": "VCD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 58,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Vincent",
+          "lastName": "Dubuc",
+          "playerId": "S76561199561288131",
+          "shortName": "VCD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "barcelona",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-05-21T20:54:17Z",
+  "SessionFile": "240521_205417_Q"
+}

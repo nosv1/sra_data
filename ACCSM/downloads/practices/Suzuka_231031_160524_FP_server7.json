@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 161713,
+      "splits": [
+        80043,
+        56050,
+        25620
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 133375,
+      "splits": [
+        50515,
+        55887,
+        26972
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Niko",
+              "lastName": "Suave",
+              "playerId": "S76561197994095192",
+              "shortName": "NIK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 46,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Niko",
+          "lastName": "Suave",
+          "playerId": "S76561197994095192",
+          "shortName": "NIK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 133375,
+          "lastSplitId": 0,
+          "lastSplits": [
+            50515,
+            55887,
+            26972
+          ],
+          "totalTime": 19077735
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-10-31T16:05:24Z",
+  "SessionFile": "231031_160524_FP"
+}

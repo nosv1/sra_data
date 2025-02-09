@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 213933,
+      "splits": [
+        124673,
+        49750,
+        39510
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122747,
+      "splits": [
+        37957,
+        48815,
+        35975
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121617,
+      "splits": [
+        36962,
+        48842,
+        35812
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      36962,
+      48815,
+      35812
+    ],
+    "bestlap": 121617,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 61,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "JB",
+              "lastName": "Ruzic",
+              "playerId": "S76561198079681083",
+              "shortName": "JRU"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 804,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "JB",
+          "lastName": "Ruzic",
+          "playerId": "S76561198079681083",
+          "shortName": "JRU"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121617,
+          "bestSplits": [
+            36962,
+            48815,
+            35812
+          ],
+          "lapCount": 3,
+          "lastLap": 121617,
+          "lastSplitId": 2,
+          "lastSplits": [
+            36962,
+            48842,
+            35812
+          ],
+          "totalTime": 24282253
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Multi-class Practice (Dry) | SRAM#2",
+  "metaData": "custom_race:74215a1f-8625-4710-9680-69510a1a37e7",
+  "Date": "2022-09-08T06:23:18Z",
+  "SessionFile": "220908_062318_FP"
+}

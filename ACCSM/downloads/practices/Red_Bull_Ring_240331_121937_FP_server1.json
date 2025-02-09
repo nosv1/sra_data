@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 201356,
+      "splits": [
+        132506,
+        40240,
+        28610
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124795,
+      "splits": [
+        57030,
+        39880,
+        27885
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91175,
+      "splits": [
+        22827,
+        39920,
+        28427
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90372,
+      "splits": [
+        22770,
+        39657,
+        27945
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 47,
+  "sessionResult": {
+    "bestSplits": [
+      22770,
+      39657,
+      27945
+    ],
+    "bestlap": 90372,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Matasy",
+              "playerId": "S76561199246261917",
+              "shortName": "MRM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 228,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Matasy",
+          "playerId": "S76561199246261917",
+          "shortName": "MRM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 90372,
+          "bestSplits": [
+            22770,
+            39657,
+            27945
+          ],
+          "lapCount": 4,
+          "lastLap": 90372,
+          "lastSplitId": 1,
+          "lastSplits": [
+            22770,
+            39657,
+            27945
+          ],
+          "totalTime": 305025836
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-03-31T12:19:37Z",
+  "SessionFile": "240331_121937_FP"
+}

@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95307,
+      "splits": [
+        27230,
+        33700,
+        34377
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93785,
+      "splits": [
+        22065,
+        28572,
+        43147
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 83657,
+      "splits": [
+        21805,
+        28580,
+        33272
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93172,
+      "splits": [
+        26750,
+        32695,
+        33727
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 89002,
+      "splits": [
+        26930,
+        28732,
+        33340
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84305,
+      "splits": [
+        21937,
+        28832,
+        33535
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      21805,
+      28580,
+      33272
+    ],
+    "bestlap": 83657,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Peter",
+              "lastName": "O'Brien",
+              "playerId": "S76561198105069626",
+              "shortName": "OBR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 114,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Peter",
+          "lastName": "O'Brien",
+          "playerId": "S76561198105069626",
+          "shortName": "OBR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 83657,
+          "bestSplits": [
+            21805,
+            28580,
+            33272
+          ],
+          "lapCount": 6,
+          "lastLap": 84305,
+          "lastSplitId": 1,
+          "lastSplits": [
+            21937,
+            28832,
+            33535
+          ],
+          "totalTime": 15213152
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2024-09-04T04:05:37Z",
+  "SessionFile": "240904_040537_FP"
+}

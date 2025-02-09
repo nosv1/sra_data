@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 246058,
+      "splits": [
+        165036,
+        46965,
+        34057
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112842,
+      "splits": [
+        33877,
+        45267,
+        33697
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112610,
+      "splits": [
+        33952,
+        45215,
+        33442
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      33877,
+      45215,
+      33442
+    ],
+    "bestlap": 112610,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jason",
+              "lastName": "Allen",
+              "playerId": "S76561198069178982",
+              "shortName": "JAL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 15,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jason",
+          "lastName": "Allen",
+          "playerId": "S76561198069178982",
+          "shortName": "JAL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 112610,
+          "bestSplits": [
+            33877,
+            45215,
+            33442
+          ],
+          "lapCount": 3,
+          "lastLap": 112610,
+          "lastSplitId": 0,
+          "lastSplits": [
+            33952,
+            45215,
+            33442
+          ],
+          "totalTime": 11649663
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | Practice (Wet) | SRAM#1",
+  "metaData": "custom_race:1f39e049-b9de-4b7b-ba39-81ad8fc87bcd",
+  "Date": "2022-09-16T05:31:40Z",
+  "SessionFile": "220916_053140_FP"
+}

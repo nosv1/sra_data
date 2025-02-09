@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 191523,
+      "splits": [
+        113666,
+        40197,
+        37660
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 184012,
+      "splits": [
+        105060,
+        40252,
+        38700
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 31,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Gordon",
+              "lastName": "Beverly Jr.",
+              "playerId": "S76561198878161886",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 704,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gordon",
+          "lastName": "Beverly Jr.",
+          "playerId": "S76561198878161886",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 184012,
+          "lastSplitId": 1,
+          "lastSplits": [
+            105060,
+            40252,
+            38700
+          ],
+          "totalTime": 216032264
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2023-08-28T05:14:49Z",
+  "SessionFile": "230828_051449_FP"
+}

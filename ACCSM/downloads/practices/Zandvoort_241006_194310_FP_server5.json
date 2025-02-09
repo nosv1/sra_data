@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97295,
+      "splits": [
+        31962,
+        33475,
+        31857
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96787,
+      "splits": [
+        31372,
+        33400,
+        32015
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96582,
+      "splits": [
+        31787,
+        33002,
+        31792
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96340,
+      "splits": [
+        31487,
+        32922,
+        31930
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96415,
+      "splits": [
+        31732,
+        32865,
+        31817
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      31487,
+      32922,
+      31792
+    ],
+    "bestlap": 96340,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Richie",
+              "lastName": "Wood",
+              "playerId": "S76561199103471751",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 785,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Richie",
+          "lastName": "Wood",
+          "playerId": "S76561199103471751",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96340,
+          "bestSplits": [
+            31487,
+            32922,
+            31792
+          ],
+          "lapCount": 5,
+          "lastLap": 96415,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31732,
+            32865,
+            31817
+          ],
+          "totalTime": 155258927
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zandvoort",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+  "Date": "2024-10-06T19:43:10Z",
+  "SessionFile": "241006_194310_FP"
+}

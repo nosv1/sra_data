@@ -1,0 +1,175 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 506482,
+      "splits": [
+        175922,
+        157260,
+        173300
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 502787,
+      "splits": [
+        175307,
+        156680,
+        170800
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 541395,
+      "splits": [
+        187020,
+        169140,
+        185235
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 499035,
+      "splits": [
+        173262,
+        155220,
+        170552
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 540150,
+      "splits": [
+        186305,
+        169192,
+        184652
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      173262,
+      155220,
+      170552
+    ],
+    "bestlap": 499035,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 84,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Donovan",
+              "lastName": "Colton",
+              "playerId": "S76561198170883294",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 272,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Donovan",
+          "lastName": "Colton",
+          "playerId": "S76561198170883294",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 499035,
+          "bestSplits": [
+            173262,
+            155220,
+            170552
+          ],
+          "lapCount": 3,
+          "lastLap": 499035,
+          "lastSplitId": 0,
+          "lastSplits": [
+            173262,
+            155220,
+            170552
+          ],
+          "totalTime": 31892807
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 55,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Fire",
+              "lastName": "Queso",
+              "playerId": "S76561198034356569",
+              "shortName": "QUE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 710,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Fire",
+          "lastName": "Queso",
+          "playerId": "S76561198034356569",
+          "shortName": "QUE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 540150,
+          "bestSplits": [
+            186305,
+            169140,
+            184652
+          ],
+          "lapCount": 2,
+          "lastLap": 540150,
+          "lastSplitId": 0,
+          "lastSplits": [
+            186305,
+            169192,
+            184652
+          ],
+          "totalTime": 33354534
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring_24h",
+  "serverName": "#SRAgg | SRA MCM 3 Hour Nordschleife Endurance Challenge Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:60f90cee-58d6-45b4-bf9d-5bb5c3ed051e",
+  "Date": "2024-09-30T00:29:35Z",
+  "SessionFile": "240930_002935_Q"
+}

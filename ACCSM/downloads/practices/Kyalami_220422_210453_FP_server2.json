@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 1938958,
+      "splits": [
+        1862956,
+        43577,
+        32425
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108020,
+      "splits": [
+        32417,
+        42980,
+        32622
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108885,
+      "splits": [
+        32935,
+        43217,
+        32732
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107287,
+      "splits": [
+        32420,
+        42587,
+        32280
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      32420,
+      42587,
+      32280
+    ],
+    "bestlap": 107287,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Alex",
+              "lastName": "Daniel",
+              "playerId": "S76561199203651950",
+              "shortName": "ALEX "
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 107,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alex",
+          "lastName": "Daniel",
+          "playerId": "S76561199203651950",
+          "shortName": "ALEX "
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107287,
+          "bestSplits": [
+            32420,
+            42587,
+            32280
+          ],
+          "lapCount": 4,
+          "lastLap": 107287,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32420,
+            42587,
+            32280
+          ],
+          "totalTime": 26645099
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-22T21:04:53Z",
+  "SessionFile": "220422_210453_FP"
+}

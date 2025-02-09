@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 107660,
+      "splits": [
+        32630,
+        31500,
+        43530
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85272,
+      "splits": [
+        27450,
+        22130,
+        35692
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84852,
+      "splits": [
+        27605,
+        21805,
+        35442
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84340,
+      "splits": [
+        27207,
+        21670,
+        35462
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 86,
+  "sessionResult": {
+    "bestSplits": [
+      27207,
+      21670,
+      35442
+    ],
+    "bestlap": 84340,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Stephen",
+              "lastName": "Sarver",
+              "playerId": "S76561198102177223",
+              "shortName": "SAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 717,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Stephen",
+          "lastName": "Sarver",
+          "playerId": "S76561198102177223",
+          "shortName": "SAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 84340,
+          "bestSplits": [
+            27207,
+            21670,
+            35442
+          ],
+          "lapCount": 4,
+          "lastLap": 84340,
+          "lastSplitId": 0,
+          "lastSplits": [
+            27207,
+            21670,
+            35462
+          ],
+          "totalTime": 776860006
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAgg | SRA ES Brands Hatch Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:c6bc19a2-8494-4074-b1c3-02cc1daad50d",
+  "Date": "2024-10-17T09:40:28Z",
+  "SessionFile": "241017_094028_Q"
+}

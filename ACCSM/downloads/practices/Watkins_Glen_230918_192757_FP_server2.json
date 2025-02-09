@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 139838,
+      "splits": [
+        62071,
+        35952,
+        41815
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107082,
+      "splits": [
+        29982,
+        35652,
+        41447
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108355,
+      "splits": [
+        30085,
+        35667,
+        42602
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106605,
+      "splits": [
+        29770,
+        35250,
+        41585
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105997,
+      "splits": [
+        29815,
+        34862,
+        41320
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106655,
+      "splits": [
+        30227,
+        34635,
+        41792
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 57,
+  "sessionResult": {
+    "bestSplits": [
+      29770,
+      34635,
+      41320
+    ],
+    "bestlap": 105997,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Matasy",
+              "playerId": "S76561199246261917",
+              "shortName": "MRM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 228,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Matasy",
+          "playerId": "S76561199246261917",
+          "shortName": "MRM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105997,
+          "bestSplits": [
+            29770,
+            34635,
+            41320
+          ],
+          "lapCount": 6,
+          "lastLap": 106655,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30227,
+            34635,
+            41792
+          ],
+          "totalTime": 417140177
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2023-09-18T19:27:57Z",
+  "SessionFile": "230918_192757_FP"
+}

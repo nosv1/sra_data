@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 126610,
+      "splits": [
+        53145,
+        39572,
+        33892
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mert",
+              "lastName": "Mertson",
+              "playerId": "S76561198025180541",
+              "shortName": "MRT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 975,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mert",
+          "lastName": "Mertson",
+          "playerId": "S76561198025180541",
+          "shortName": "MRT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 126610,
+          "lastSplitId": 0,
+          "lastSplits": [
+            53145,
+            39572,
+            33892
+          ],
+          "totalTime": 54754696
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2025-01-01T14:48:43Z",
+  "SessionFile": "250101_144843_FP"
+}

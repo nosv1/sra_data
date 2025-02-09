@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94400,
+      "splits": [
+        27170,
+        32390,
+        34840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85977,
+      "splits": [
+        22365,
+        29555,
+        34057
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85942,
+      "splits": [
+        22240,
+        29667,
+        34035
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 86360,
+      "splits": [
+        22282,
+        29760,
+        34317
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84622,
+      "splits": [
+        22232,
+        29027,
+        33362
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      22232,
+      29027,
+      33362
+    ],
+    "bestlap": 84622,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Rowdy",
+              "lastName": "Burnz",
+              "playerId": "S76561198127611429",
+              "shortName": "BUR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 551,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Rowdy",
+          "lastName": "Burnz",
+          "playerId": "S76561198127611429",
+          "shortName": "BUR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 84622,
+          "bestSplits": [
+            22232,
+            29027,
+            33362
+          ],
+          "lapCount": 5,
+          "lastLap": 84622,
+          "lastSplitId": 1,
+          "lastSplits": [
+            22232,
+            29027,
+            33362
+          ],
+          "totalTime": 32453322
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a5cd859c-a680-4044-b0c3-1483d308775a",
+  "Date": "2024-09-02T16:53:53Z",
+  "SessionFile": "240902_165353_FP"
+}

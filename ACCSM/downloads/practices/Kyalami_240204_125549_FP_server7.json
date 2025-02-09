@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 332393,
+      "splits": [
+        259136,
+        41795,
+        31462
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105322,
+      "splits": [
+        32750,
+        41402,
+        31170
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 37,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Eduardo",
+              "lastName": "Rodríguez",
+              "playerId": "S76561198014191937",
+              "shortName": "RDZ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 33,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Eduardo",
+          "lastName": "Rodríguez",
+          "playerId": "S76561198014191937",
+          "shortName": "RDZ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 105322,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32750,
+            41402,
+            31170
+          ],
+          "totalTime": 179815606
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-02-04T12:55:49Z",
+  "SessionFile": "240204_125549_FP"
+}

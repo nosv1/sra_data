@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94542,
+      "splits": [
+        23885,
+        37585,
+        33072
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108752,
+      "splits": [
+        23987,
+        37627,
+        47137
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94090,
+      "splits": [
+        23687,
+        37337,
+        33065
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 27,
+  "sessionResult": {
+    "bestSplits": [
+      23687,
+      37337,
+      33065
+    ],
+    "bestlap": 94090,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Michael",
+              "lastName": "Jeffries",
+              "playerId": "S76561197971724910",
+              "shortName": "MTJ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 23,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Michael",
+          "lastName": "Jeffries",
+          "playerId": "S76561197971724910",
+          "shortName": "MTJ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94090,
+          "bestSplits": [
+            23687,
+            37337,
+            33065
+          ],
+          "lapCount": 3,
+          "lastLap": 94090,
+          "lastSplitId": 1,
+          "lastSplits": [
+            23687,
+            37337,
+            33065
+          ],
+          "totalTime": 138038884
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "misano",
+  "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+  "Date": "2024-12-02T08:23:34Z",
+  "SessionFile": "241202_082334_Q"
+}

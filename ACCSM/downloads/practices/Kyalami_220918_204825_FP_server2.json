@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 165211,
+      "splits": [
+        80648,
+        48085,
+        36477
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127742,
+      "splits": [
+        35725,
+        54165,
+        37852
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 135070,
+      "splits": [
+        37350,
+        51180,
+        46540
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Kyle",
+              "lastName": "McGuinness",
+              "playerId": "S76561198019741162",
+              "shortName": "MCG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 711,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kyle",
+          "lastName": "McGuinness",
+          "playerId": "S76561198019741162",
+          "shortName": "MCG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 135070,
+          "lastSplitId": 0,
+          "lastSplits": [
+            37350,
+            51180,
+            46540
+          ],
+          "totalTime": 14223650
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Practice (Wet) - Q condition | SRAM#2",
+  "metaData": "custom_race:6a92147f-3991-44c8-ac23-2a284be173b1",
+  "Date": "2022-09-18T20:48:25Z",
+  "SessionFile": "220918_204825_FP"
+}

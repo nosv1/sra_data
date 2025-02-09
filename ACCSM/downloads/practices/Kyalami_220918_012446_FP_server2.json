@@ -1,0 +1,252 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 561296,
+      "splits": [
+        478663,
+        47690,
+        34942
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114620,
+      "splits": [
+        34382,
+        45897,
+        34340
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 257397,
+      "splits": [
+        177162,
+        45920,
+        34315
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113207,
+      "splits": [
+        33907,
+        45292,
+        34007
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 184745,
+      "splits": [
+        33840,
+        45462,
+        105442
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116002,
+      "splits": [
+        33927,
+        47135,
+        34940
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114735,
+      "splits": [
+        33695,
+        45895,
+        35145
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 260837,
+      "splits": [
+        181082,
+        45675,
+        34080
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 145638,
+      "splits": [
+        66903,
+        45040,
+        33695
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111700,
+      "splits": [
+        33720,
+        44702,
+        33277
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111457,
+      "splits": [
+        33585,
+        44622,
+        33250
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110962,
+      "splits": [
+        33430,
+        44670,
+        32862
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 22,
+  "sessionResult": {
+    "bestSplits": [
+      33430,
+      44622,
+      32862
+    ],
+    "bestlap": 110962,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Andrew",
+              "lastName": "Anderson",
+              "playerId": "S76561197993271559",
+              "shortName": "AND"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 94,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Andrew",
+          "lastName": "Anderson",
+          "playerId": "S76561197993271559",
+          "shortName": "AND"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 110962,
+          "bestSplits": [
+            33430,
+            44622,
+            32862
+          ],
+          "lapCount": 4,
+          "lastLap": 110962,
+          "lastSplitId": 2,
+          "lastSplits": [
+            33430,
+            44670,
+            32862
+          ],
+          "totalTime": 136608195
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Anthony",
+              "lastName": "Rohrer",
+              "playerId": "S76561198051697247",
+              "shortName": "ROH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 340,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Anthony",
+          "lastName": "Rohrer",
+          "playerId": "S76561198051697247",
+          "shortName": "ROH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 113207,
+          "bestSplits": [
+            33907,
+            45292,
+            34007
+          ],
+          "lapCount": 8,
+          "lastLap": 260837,
+          "lastSplitId": 1,
+          "lastSplits": [
+            181082,
+            45675,
+            34080
+          ],
+          "totalTime": 136167446
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Practice (Wet) - Q condition | SRAM#2",
+  "metaData": "custom_race:6a92147f-3991-44c8-ac23-2a284be173b1",
+  "Date": "2022-09-18T01:24:46Z",
+  "SessionFile": "220918_012446_FP"
+}

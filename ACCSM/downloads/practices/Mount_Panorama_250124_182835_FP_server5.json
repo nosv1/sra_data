@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128005,
+      "splits": [
+        39212,
+        60800,
+        27992
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125850,
+      "splits": [
+        39220,
+        58510,
+        28120
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 11,
+  "sessionResult": {
+    "bestSplits": [
+      39220,
+      58510,
+      28120
+    ],
+    "bestlap": 125850,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 83,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeff",
+              "lastName": "Colombaro",
+              "playerId": "S76561199163762736",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 895,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeff",
+          "lastName": "Colombaro",
+          "playerId": "S76561199163762736",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 125850,
+          "bestSplits": [
+            39220,
+            58510,
+            28120
+          ],
+          "lapCount": 2,
+          "lastLap": 125850,
+          "lastSplitId": 2,
+          "lastSplits": [
+            39220,
+            58510,
+            28120
+          ],
+          "totalTime": 75766990
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggSRA - Multiclass Mayhem - Bathurst Enduro Practice | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:1aace6ce-6110-4d0b-b14a-c112f65ec8b6",
+  "Date": "2025-01-24T18:28:35Z",
+  "SessionFile": "250124_182835_FP"
+}

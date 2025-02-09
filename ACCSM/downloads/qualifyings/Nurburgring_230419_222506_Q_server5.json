@@ -1,0 +1,197 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 217108,
+      "splits": [
+        150593,
+        48565,
+        17950
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119257,
+      "splits": [
+        56950,
+        44535,
+        17772
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118130,
+      "splits": [
+        56365,
+        44117,
+        17647
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117490,
+      "splits": [
+        55992,
+        43880,
+        17617
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117580,
+      "splits": [
+        56342,
+        43872,
+        17365
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 207221,
+      "splits": [
+        142821,
+        45732,
+        18667
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 120622,
+      "splits": [
+        57275,
+        44932,
+        18415
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      55992,
+      43872,
+      17365
+    ],
+    "bestlap": 117490,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Curtis",
+              "lastName": "Lee",
+              "playerId": "S76561198035723322",
+              "shortName": "LEE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 826,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Curtis",
+          "lastName": "Lee",
+          "playerId": "S76561198035723322",
+          "shortName": "LEE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 117490,
+          "bestSplits": [
+            55992,
+            43872,
+            17365
+          ],
+          "lapCount": 5,
+          "lastLap": 117580,
+          "lastSplitId": 2,
+          "lastSplits": [
+            56342,
+            43872,
+            17365
+          ],
+          "totalTime": 7405022
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Fabiano",
+              "lastName": "Pancheniak",
+              "playerId": "S76561199043224533",
+              "shortName": "PAN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 83,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Fabiano",
+          "lastName": "Pancheniak",
+          "playerId": "S76561199043224533",
+          "shortName": "PAN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 120622,
+          "lastSplitId": 1,
+          "lastSplits": [
+            57275,
+            44932,
+            18415
+          ],
+          "totalTime": 7402005
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SimRacingAlliance.com | SRA Nurburgring 6 Hour Endurance | Qualification Server | #SRAM5 | #SRAN",
+  "metaData": "custom_race:9f40044d-a20d-4827-add1-9afe6f5e1e9c",
+  "Date": "2023-04-19T22:25:06Z",
+  "SessionFile": "230419_222506_Q"
+}

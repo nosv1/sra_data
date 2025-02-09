@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 135513,
+      "splits": [
+        60653,
+        39015,
+        35845
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 191797,
+      "splits": [
+        119237,
+        38225,
+        34335
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 113,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Anthony",
+              "lastName": "Michael",
+              "playerId": "S76561197972106525",
+              "shortName": "AMP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 31,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Anthony",
+          "lastName": "Michael",
+          "playerId": "S76561197972106525",
+          "shortName": "AMP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 191797,
+          "lastSplitId": 0,
+          "lastSplits": [
+            119237,
+            38225,
+            34335
+          ],
+          "totalTime": 696202511
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | GT3_FreePractice | R | SRAM#2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2023-02-17T01:09:56Z",
+  "SessionFile": "230217_010956_FP"
+}

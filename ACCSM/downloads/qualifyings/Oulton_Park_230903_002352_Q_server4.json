@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 392228,
+      "splits": [
+        310368,
+        52670,
+        29190
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117190,
+      "splits": [
+        26470,
+        61980,
+        28740
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Simon",
+              "lastName": "Barnes",
+              "playerId": "S76561198050200731",
+              "shortName": "SBA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 61,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Simon",
+          "lastName": "Barnes",
+          "playerId": "S76561198050200731",
+          "shortName": "SBA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 117190,
+          "lastSplitId": 2,
+          "lastSplits": [
+            26470,
+            61980,
+            28740
+          ],
+          "totalTime": 464631
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "oulton_park",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2023-09-03T00:23:52Z",
+  "SessionFile": "230903_002352_Q"
+}

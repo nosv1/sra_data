@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109862,
+      "splits": [
+        23370,
+        35862,
+        50630
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      23370,
+      35862,
+      50630
+    ],
+    "bestlap": 109862,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Gordon",
+              "lastName": "Beverly Jr.",
+              "playerId": "S76561198878161886",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 704,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gordon",
+          "lastName": "Beverly Jr.",
+          "playerId": "S76561198878161886",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109862,
+          "bestSplits": [
+            23370,
+            35862,
+            50630
+          ],
+          "lapCount": 1,
+          "lastLap": 109862,
+          "lastSplitId": 1,
+          "lastSplits": [
+            23370,
+            35862,
+            50630
+          ],
+          "totalTime": 74624502
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "imola",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-05-30T22:20:59Z",
+  "SessionFile": "240530_222059_FP"
+}

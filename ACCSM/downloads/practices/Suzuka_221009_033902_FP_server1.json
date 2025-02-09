@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 1358466,
+      "splits": [
+        1267936,
+        60525,
+        30005
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 134230,
+      "splits": [
+        45885,
+        58645,
+        29700
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 132900,
+      "splits": [
+        45230,
+        58332,
+        29337
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 57,
+  "sessionResult": {
+    "bestSplits": [
+      45230,
+      58332,
+      29337
+    ],
+    "bestlap": 132900,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Andrew",
+              "lastName": "Anderson",
+              "playerId": "S76561197993271559",
+              "shortName": "AND"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 94,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Andrew",
+          "lastName": "Anderson",
+          "playerId": "S76561197993271559",
+          "shortName": "AND"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 132900,
+          "bestSplits": [
+            45230,
+            58332,
+            29337
+          ],
+          "lapCount": 3,
+          "lastLap": 132900,
+          "lastSplitId": 0,
+          "lastSplits": [
+            45230,
+            58332,
+            29337
+          ],
+          "totalTime": 258567837
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | \u003e | GT3 Free Practice | R  | SRAM#1",
+  "metaData": "custom_race:71ec6d51-9a27-4e1e-aadd-6dde718d8cc0",
+  "Date": "2022-10-09T03:39:02Z",
+  "SessionFile": "221009_033902_FP"
+}

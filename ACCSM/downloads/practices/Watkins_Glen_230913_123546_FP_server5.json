@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 355188,
+      "splits": [
+        273021,
+        37897,
+        44270
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109632,
+      "splits": [
+        30472,
+        36087,
+        43072
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107395,
+      "splits": [
+        29977,
+        35280,
+        42137
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      29977,
+      35280,
+      42137
+    ],
+    "bestlap": 107395,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Roger",
+              "lastName": "Rodriguez",
+              "playerId": "S76561199113520958",
+              "shortName": "ROD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 305,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Roger",
+          "lastName": "Rodriguez",
+          "playerId": "S76561199113520958",
+          "shortName": "ROD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107395,
+          "bestSplits": [
+            29977,
+            35280,
+            42137
+          ],
+          "lapCount": 3,
+          "lastLap": 107395,
+          "lastSplitId": 2,
+          "lastSplits": [
+            29977,
+            35280,
+            42137
+          ],
+          "totalTime": 46767107
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2023-09-13T12:35:46Z",
+  "SessionFile": "230913_123546_FP"
+}

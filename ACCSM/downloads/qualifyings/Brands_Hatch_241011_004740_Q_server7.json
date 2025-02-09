@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95027,
+      "splits": [
+        33785,
+        22830,
+        38412
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 87522,
+      "splits": [
+        27995,
+        22717,
+        36810
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 23,
+  "sessionResult": {
+    "bestSplits": [
+      27995,
+      22717,
+      36810
+    ],
+    "bestlap": 87522,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "James",
+              "lastName": "May",
+              "playerId": "S76561198387383009",
+              "shortName": "SLO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 23,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "James",
+          "lastName": "May",
+          "playerId": "S76561198387383009",
+          "shortName": "SLO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 87522,
+          "bestSplits": [
+            27995,
+            22717,
+            36810
+          ],
+          "lapCount": 2,
+          "lastLap": 87522,
+          "lastSplitId": 0,
+          "lastSplits": [
+            27995,
+            22717,
+            36810
+          ],
+          "totalTime": 226548249
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAgg | SRA ES Brands Hatch Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:c6bc19a2-8494-4074-b1c3-02cc1daad50d",
+  "Date": "2024-10-11T00:47:40Z",
+  "SessionFile": "241011_004740_Q"
+}

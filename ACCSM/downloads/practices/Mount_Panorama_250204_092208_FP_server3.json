@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123017,
+      "splits": [
+        38692,
+        57065,
+        27260
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122767,
+      "splits": [
+        38927,
+        56422,
+        27417
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123055,
+      "splits": [
+        38595,
+        57182,
+        27277
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      38595,
+      56422,
+      27260
+    ],
+    "bestlap": 122767,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mike",
+              "lastName": "Hiesener",
+              "playerId": "S76561199045073243",
+              "shortName": "MEH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 229,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mike",
+          "lastName": "Hiesener",
+          "playerId": "S76561199045073243",
+          "shortName": "MEH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122767,
+          "bestSplits": [
+            38595,
+            56422,
+            27260
+          ],
+          "lapCount": 3,
+          "lastLap": 123055,
+          "lastSplitId": 0,
+          "lastSplits": [
+            38595,
+            57182,
+            27277
+          ],
+          "totalTime": 38783751
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:4c551af0-6c40-4523-973d-81e152227105",
+  "Date": "2025-02-04T09:22:08Z",
+  "SessionFile": "250204_092208_FP"
+}

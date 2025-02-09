@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1022,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 247475,
+      "splits": [
+        171595,
+        43465,
+        32415
+      ]
+    },
+    {
+      "carId": 1022,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106862,
+      "splits": [
+        32460,
+        42812,
+        31590
+      ]
+    },
+    {
+      "carId": 1022,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106822,
+      "splits": [
+        32185,
+        42277,
+        32360
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      32185,
+      42277,
+      32360
+    ],
+    "bestlap": 106822,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1022,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Alan",
+              "lastName": "Leung",
+              "playerId": "S76561197990533720",
+              "shortName": "AKL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 720,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alan",
+          "lastName": "Leung",
+          "playerId": "S76561197990533720",
+          "shortName": "AKL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106822,
+          "bestSplits": [
+            32185,
+            42277,
+            32360
+          ],
+          "lapCount": 3,
+          "lastLap": 106822,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32185,
+            42277,
+            32360
+          ],
+          "totalTime": 17036748
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #4 | GT3_FreePractice | R | SRAM#4",
+  "metaData": "custom_race:ca34be27-5481-49f5-baec-12ccbf3d9047",
+  "Date": "2023-01-17T06:49:32Z",
+  "SessionFile": "230117_064932_FP"
+}

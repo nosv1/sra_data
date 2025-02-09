@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 2703832,
+      "splits": [
+        2627687,
+        44060,
+        32085
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 197920,
+      "splits": [
+        125447,
+        41812,
+        30660
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104255,
+      "splits": [
+        31750,
+        41577,
+        30927
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103452,
+      "splits": [
+        31435,
+        41437,
+        30580
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103132,
+      "splits": [
+        31502,
+        40987,
+        30642
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 12,
+  "sessionResult": {
+    "bestSplits": [
+      31435,
+      40987,
+      30580
+    ],
+    "bestlap": 103132,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Braeden",
+              "lastName": "Henderson",
+              "playerId": "S76561198366499830",
+              "shortName": "BHE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 90,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Braeden",
+          "lastName": "Henderson",
+          "playerId": "S76561198366499830",
+          "shortName": "BHE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103132,
+          "bestSplits": [
+            31435,
+            40987,
+            30580
+          ],
+          "lapCount": 5,
+          "lastLap": 103132,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31502,
+            40987,
+            30642
+          ],
+          "totalTime": 39431633
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-02-02T05:43:37Z",
+  "SessionFile": "240202_054337_FP"
+}

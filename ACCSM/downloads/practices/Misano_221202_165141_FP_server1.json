@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 278141,
+      "splits": [
+        198708,
+        41312,
+        38120
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Zodi",
+              "lastName": "Fade",
+              "playerId": "S76561197970765951",
+              "shortName": "ZOE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 70,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Zodi",
+          "lastName": "Fade",
+          "playerId": "S76561197970765951",
+          "shortName": "ZOE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 278141,
+          "lastSplitId": 1,
+          "lastSplits": [
+            198708,
+            41312,
+            38120
+          ],
+          "totalTime": 24118220
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | SRAM#1",
+  "metaData": "custom_race:ebe112d1-be2f-4883-b563-c709ba99aa2c",
+  "Date": "2022-12-02T16:51:41Z",
+  "SessionFile": "221202_165141_FP"
+}

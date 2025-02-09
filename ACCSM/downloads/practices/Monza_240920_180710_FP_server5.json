@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111897,
+      "splits": [
+        35672,
+        40477,
+        35747
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109845,
+      "splits": [
+        35352,
+        38745,
+        35747
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109397,
+      "splits": [
+        35245,
+        38355,
+        35797
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108590,
+      "splits": [
+        35325,
+        37807,
+        35457
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      35245,
+      37807,
+      35457
+    ],
+    "bestlap": 108590,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeff",
+              "lastName": "Colombaro",
+              "playerId": "S76561199163762736",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 61,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeff",
+          "lastName": "Colombaro",
+          "playerId": "S76561199163762736",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 108590,
+          "bestSplits": [
+            35245,
+            37807,
+            35457
+          ],
+          "lapCount": 4,
+          "lastLap": 108590,
+          "lastSplitId": 2,
+          "lastSplits": [
+            35325,
+            37807,
+            35457
+          ],
+          "totalTime": 153057736
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "monza",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+  "Date": "2024-09-20T18:07:10Z",
+  "SessionFile": "240920_180710_FP"
+}

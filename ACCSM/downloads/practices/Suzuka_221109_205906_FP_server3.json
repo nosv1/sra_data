@@ -1,0 +1,230 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 241986,
+      "splits": [
+        154693,
+        59195,
+        28097
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 290015,
+      "splits": [
+        204145,
+        57567,
+        28302
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 151253,
+      "splits": [
+        67978,
+        55525,
+        27750
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128712,
+      "splits": [
+        43285,
+        56757,
+        28670
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 264150,
+      "splits": [
+        180805,
+        55645,
+        27700
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 158150,
+      "splits": [
+        43532,
+        55272,
+        59345
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127985,
+      "splits": [
+        44625,
+        56000,
+        27360
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125215,
+      "splits": [
+        42037,
+        55622,
+        27555
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 178275,
+      "splits": [
+        42130,
+        107980,
+        28165
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125812,
+      "splits": [
+        42540,
+        55715,
+        27557
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      42037,
+      55622,
+      27555
+    ],
+    "bestlap": 125215,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Thomas",
+              "lastName": "Ma",
+              "playerId": "S76561198050611549",
+              "shortName": "FMA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 141,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Thomas",
+          "lastName": "Ma",
+          "playerId": "S76561198050611549",
+          "shortName": "FMA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 125215,
+          "bestSplits": [
+            42037,
+            55622,
+            27555
+          ],
+          "lapCount": 7,
+          "lastLap": 125812,
+          "lastSplitId": 0,
+          "lastSplits": [
+            42540,
+            55715,
+            27557
+          ],
+          "totalTime": 2228044
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Anthony",
+              "lastName": "Calvi",
+              "playerId": "S76561198143784116",
+              "shortName": "AJC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 469,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Anthony",
+          "lastName": "Calvi",
+          "playerId": "S76561198143784116",
+          "shortName": "AJC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 128712,
+          "lastSplitId": 1,
+          "lastSplits": [
+            43285,
+            56757,
+            28670
+          ],
+          "totalTime": 1330414
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | \u003e | GT3 Locked Practice | D6 locked | SRAM#3",
+  "metaData": "custom_race:62c64dac-70bf-40aa-b195-e2d36798078c",
+  "Date": "2022-11-09T20:59:06Z",
+  "SessionFile": "221109_205906_FP"
+}

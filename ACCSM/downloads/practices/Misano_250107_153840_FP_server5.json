@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97077,
+      "splits": [
+        24415,
+        38172,
+        34490
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      24415,
+      38172,
+      34490
+    ],
+    "bestlap": 97077,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Stephanie",
+              "lastName": "Fisher",
+              "playerId": "S76561198043166282",
+              "shortName": "SEF"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 311,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Stephanie",
+          "lastName": "Fisher",
+          "playerId": "S76561198043166282",
+          "shortName": "SEF"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97077,
+          "bestSplits": [
+            24415,
+            38172,
+            34490
+          ],
+          "lapCount": 1,
+          "lastLap": 97077,
+          "lastSplitId": 2,
+          "lastSplits": [
+            24415,
+            38172,
+            34490
+          ],
+          "totalTime": 60481073
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2025-01-07T15:38:40Z",
+  "SessionFile": "250107_153840_FP"
+}

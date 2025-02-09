@@ -1,0 +1,160 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 339486,
+      "splits": [
+        200931,
+        81310,
+        57245
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 275435,
+      "splits": [
+        180295,
+        63902,
+        31237
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 143575,
+      "splits": [
+        49187,
+        63002,
+        31385
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 143407,
+      "splits": [
+        48825,
+        62820,
+        31762
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 32,
+  "sessionResult": {
+    "bestSplits": [
+      48825,
+      62820,
+      31762
+    ],
+    "bestlap": 143407,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Gabriel",
+              "lastName": "Acevedo",
+              "playerId": "S76561198935262591",
+              "shortName": "GAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 1,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gabriel",
+          "lastName": "Acevedo",
+          "playerId": "S76561198935262591",
+          "shortName": "GAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 143407,
+          "bestSplits": [
+            48825,
+            62820,
+            31762
+          ],
+          "lapCount": 4,
+          "lastLap": 143407,
+          "lastSplitId": 0,
+          "lastSplits": [
+            48825,
+            62820,
+            31762
+          ],
+          "totalTime": 424190810
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dominic",
+              "lastName": "Duran",
+              "playerId": "S76561199075879890",
+              "shortName": "DCD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 21,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dominic",
+          "lastName": "Duran",
+          "playerId": "S76561199075879890",
+          "shortName": "DCD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | \u003e | GT3 Free Practice | SRAM#3",
+  "metaData": "custom_race:62c64dac-70bf-40aa-b195-e2d36798078c",
+  "Date": "2022-10-10T01:01:31Z",
+  "SessionFile": "221010_010131_FP"
+}

@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 191728,
+      "splits": [
+        109006,
+        55255,
+        27467
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122555,
+      "splits": [
+        41262,
+        54017,
+        27275
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122000,
+      "splits": [
+        40635,
+        54240,
+        27125
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122465,
+      "splits": [
+        41052,
+        54305,
+        27107
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122382,
+      "splits": [
+        40862,
+        54332,
+        27187
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121615,
+      "splits": [
+        40832,
+        53605,
+        27177
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 9,
+  "sessionResult": {
+    "bestSplits": [
+      40635,
+      53605,
+      27107
+    ],
+    "bestlap": 121615,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Y",
+              "lastName": "BoiBlu",
+              "playerId": "S76561198980365204",
+              "shortName": "BLU"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 995,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Y",
+          "lastName": "BoiBlu",
+          "playerId": "S76561198980365204",
+          "shortName": "BLU"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121615,
+          "bestSplits": [
+            40635,
+            53605,
+            27107
+          ],
+          "lapCount": 6,
+          "lastLap": 121615,
+          "lastSplitId": 0,
+          "lastSplits": [
+            40832,
+            53605,
+            27177
+          ],
+          "totalTime": 83616666
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2023-11-08T22:49:31Z",
+  "SessionFile": "231108_224931_FP"
+}

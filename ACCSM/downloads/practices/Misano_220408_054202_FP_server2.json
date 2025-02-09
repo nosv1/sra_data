@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 338518,
+      "splits": [
+        261656,
+        41132,
+        35730
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Farzam",
+              "lastName": "Farhoumand",
+              "playerId": "S76561198804973665",
+              "shortName": "FFX"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 22,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Farzam",
+          "lastName": "Farhoumand",
+          "playerId": "S76561198804973665",
+          "shortName": "FFX"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 338518,
+          "lastSplitId": 0,
+          "lastSplits": [
+            261656,
+            41132,
+            35730
+          ],
+          "totalTime": 8652211
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-08T05:42:02Z",
+  "SessionFile": "220408_054202_FP"
+}

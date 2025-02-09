@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 332258,
+      "splits": [
+        246761,
+        39550,
+        45947
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117362,
+      "splits": [
+        32390,
+        39527,
+        45445
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116620,
+      "splits": [
+        32222,
+        39047,
+        45350
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 12,
+  "sessionResult": {
+    "bestSplits": [
+      32222,
+      39047,
+      45350
+    ],
+    "bestlap": 116620,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Max",
+              "lastName": "Diggs",
+              "playerId": "S76561199060741471",
+              "shortName": "DIG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 156,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Max",
+          "lastName": "Diggs",
+          "playerId": "S76561199060741471",
+          "shortName": "DIG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 116620,
+          "bestSplits": [
+            32222,
+            39047,
+            45350
+          ],
+          "lapCount": 3,
+          "lastLap": 116620,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32222,
+            39047,
+            45350
+          ],
+          "totalTime": 83675478
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2023-05-18T23:05:56Z",
+  "SessionFile": "230518_230556_FP"
+}

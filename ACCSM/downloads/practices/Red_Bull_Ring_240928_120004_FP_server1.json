@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94950,
+      "splits": [
+        23620,
+        41490,
+        29840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96315,
+      "splits": [
+        23890,
+        41557,
+        30867
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 17,
+  "sessionResult": {
+    "bestSplits": [
+      23620,
+      41490,
+      29840
+    ],
+    "bestlap": 94950,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Quinton",
+              "lastName": "Schattner",
+              "playerId": "S76561198120576863",
+              "shortName": "SCH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 972,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Quinton",
+          "lastName": "Schattner",
+          "playerId": "S76561198120576863",
+          "shortName": "SCH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94950,
+          "bestSplits": [
+            23620,
+            41490,
+            29840
+          ],
+          "lapCount": 2,
+          "lastLap": 96315,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23890,
+            41557,
+            30867
+          ],
+          "totalTime": 142858279
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-09-28T12:00:04Z",
+  "SessionFile": "240928_120004_FP"
+}

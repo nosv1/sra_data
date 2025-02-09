@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89775,
+      "splits": [
+        22662,
+        39727,
+        27385
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 92777,
+      "splits": [
+        24985,
+        40085,
+        27707
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89632,
+      "splits": [
+        22475,
+        39577,
+        27580
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91895,
+      "splits": [
+        22572,
+        41832,
+        27490
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89480,
+      "splits": [
+        22762,
+        39445,
+        27272
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89535,
+      "splits": [
+        22710,
+        39547,
+        27277
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      22475,
+      39445,
+      27272
+    ],
+    "bestlap": 89480,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Nicholas",
+              "lastName": "Foley",
+              "playerId": "S76561198146756940",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 232,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nicholas",
+          "lastName": "Foley",
+          "playerId": "S76561198146756940",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 89480,
+          "bestSplits": [
+            22475,
+            39445,
+            27272
+          ],
+          "lapCount": 6,
+          "lastLap": 89535,
+          "lastSplitId": 2,
+          "lastSplits": [
+            22710,
+            39547,
+            27277
+          ],
+          "totalTime": 23802910
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 6,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jacob",
+              "lastName": "Palmieri",
+              "playerId": "S76561198142182892",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 434,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jacob",
+          "lastName": "Palmieri",
+          "playerId": "S76561198142182892",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+  "Date": "2024-09-12T14:56:16Z",
+  "SessionFile": "240912_145616_FP"
+}

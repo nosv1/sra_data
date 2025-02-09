@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 376686,
+      "splits": [
+        257731,
+        74665,
+        44290
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 226185,
+      "splits": [
+        111087,
+        71385,
+        43712
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 166220,
+      "splits": [
+        47990,
+        75145,
+        43085
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 209080,
+      "splits": [
+        93807,
+        71487,
+        43785
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 162545,
+      "splits": [
+        48417,
+        70965,
+        43162
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 161915,
+      "splits": [
+        47412,
+        71865,
+        42637
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 88,
+  "sessionResult": {
+    "bestSplits": [
+      47412,
+      70965,
+      42637
+    ],
+    "bestlap": 161915,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mike",
+              "lastName": "Hiesener",
+              "playerId": "S76561199045073243",
+              "shortName": "MEH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 229,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mike",
+          "lastName": "Hiesener",
+          "playerId": "S76561199045073243",
+          "shortName": "MEH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 161915,
+          "bestSplits": [
+            47412,
+            70965,
+            42637
+          ],
+          "lapCount": 6,
+          "lastLap": 161915,
+          "lastSplitId": 1,
+          "lastSplits": [
+            47412,
+            71865,
+            42637
+          ],
+          "totalTime": 498659370
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "spa",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-03-19T19:40:40Z",
+  "SessionFile": "240319_194040_FP"
+}

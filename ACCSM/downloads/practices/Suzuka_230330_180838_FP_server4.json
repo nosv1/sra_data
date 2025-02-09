@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 222021,
+      "splits": [
+        131246,
+        60442,
+        30332
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 135622,
+      "splits": [
+        45715,
+        60122,
+        29785
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 134377,
+      "splits": [
+        45362,
+        59387,
+        29627
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      45362,
+      59387,
+      29627
+    ],
+    "bestlap": 134377,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 57,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jon",
+              "lastName": "Sparks",
+              "playerId": "S76561199233329613",
+              "shortName": "SPK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 781,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jon",
+          "lastName": "Sparks",
+          "playerId": "S76561199233329613",
+          "shortName": "SPK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 134377,
+          "bestSplits": [
+            45362,
+            59387,
+            29627
+          ],
+          "lapCount": 3,
+          "lastLap": 134377,
+          "lastSplitId": 0,
+          "lastSplits": [
+            45362,
+            59387,
+            29627
+          ],
+          "totalTime": 32644091
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA.gg | Sim Racing Alliance | Main Server #4 | SUZUKA 105 PRACTICE  | SRAM#4",
+  "metaData": "custom_race:8f57d6c7-df5c-4558-b5d9-056fddd3b8a1",
+  "Date": "2023-03-30T18:08:38Z",
+  "SessionFile": "230330_180838_FP"
+}

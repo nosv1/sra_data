@@ -1,0 +1,197 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 183441,
+      "splits": [
+        116083,
+        49327,
+        18030
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 141703,
+      "splits": [
+        78466,
+        45207,
+        18030
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118312,
+      "splits": [
+        56682,
+        44045,
+        17585
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119015,
+      "splits": [
+        57070,
+        44180,
+        17765
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116820,
+      "splits": [
+        56065,
+        43605,
+        17150
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117695,
+      "splits": [
+        56630,
+        43962,
+        17102
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121542,
+      "splits": [
+        57665,
+        44220,
+        19657
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 28,
+  "sessionResult": {
+    "bestSplits": [
+      56065,
+      43605,
+      17102
+    ],
+    "bestlap": 116820,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Zodi",
+              "lastName": "Fade",
+              "playerId": "S76561197970765951",
+              "shortName": "ZOE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 70,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Zodi",
+          "lastName": "Fade",
+          "playerId": "S76561197970765951",
+          "shortName": "ZOE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 116820,
+          "bestSplits": [
+            56065,
+            43605,
+            17150
+          ],
+          "lapCount": 4,
+          "lastLap": 121542,
+          "lastSplitId": 0,
+          "lastSplits": [
+            57665,
+            44220,
+            19657
+          ],
+          "totalTime": 540146
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Quinton",
+              "lastName": "Schattner",
+              "playerId": "S76561198120576863",
+              "shortName": "SCH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 82,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Quinton",
+          "lastName": "Schattner",
+          "playerId": "S76561198120576863",
+          "shortName": "SCH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 117695,
+          "bestSplits": [
+            56630,
+            43962,
+            17102
+          ],
+          "lapCount": 3,
+          "lastLap": 117695,
+          "lastSplitId": 2,
+          "lastSplits": [
+            56630,
+            43962,
+            17102
+          ],
+          "totalTime": 524035
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #4 | SRAP | Public Racing | SRAM#4",
+  "metaData": "custom_race:9162b540-aa21-419c-82e9-85662aff21fd",
+  "Date": "2022-11-12T23:59:42Z",
+  "SessionFile": "221112_235942_Q"
+}

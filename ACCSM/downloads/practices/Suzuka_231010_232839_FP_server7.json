@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 161198,
+      "splits": [
+        80538,
+        53850,
+        26810
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121627,
+      "splits": [
+        41052,
+        53707,
+        26867
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121612,
+      "splits": [
+        40997,
+        53735,
+        26880
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121232,
+      "splits": [
+        40690,
+        53357,
+        27185
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121552,
+      "splits": [
+        41155,
+        53490,
+        26907
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121420,
+      "splits": [
+        40895,
+        53650,
+        26875
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 20,
+  "sessionResult": {
+    "bestSplits": [
+      40690,
+      53357,
+      26867
+    ],
+    "bestlap": 121232,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 6,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Felipe Ernesto",
+              "lastName": "Vicini",
+              "playerId": "S76561198035103523",
+              "shortName": "VCN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 66,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Felipe Ernesto",
+          "lastName": "Vicini",
+          "playerId": "S76561198035103523",
+          "shortName": "VCN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121232,
+          "bestSplits": [
+            40690,
+            53357,
+            26867
+          ],
+          "lapCount": 6,
+          "lastLap": 121420,
+          "lastSplitId": 0,
+          "lastSplits": [
+            40895,
+            53650,
+            26875
+          ],
+          "totalTime": 575762185
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-10-10T23:28:39Z",
+  "SessionFile": "231010_232839_FP"
+}

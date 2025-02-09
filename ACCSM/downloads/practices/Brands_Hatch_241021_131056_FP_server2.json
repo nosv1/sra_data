@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93100,
+      "splits": [
+        34357,
+        22662,
+        36080
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 86897,
+      "splits": [
+        27702,
+        22200,
+        36995
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85947,
+      "splits": [
+        28015,
+        22277,
+        35655
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 87602,
+      "splits": [
+        27682,
+        22100,
+        37820
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 45,
+  "sessionResult": {
+    "bestSplits": [
+      27702,
+      22200,
+      35655
+    ],
+    "bestlap": 85947,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "colin",
+              "lastName": "shea",
+              "playerId": "S76561198171727959",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 945,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "colin",
+          "lastName": "shea",
+          "playerId": "S76561198171727959",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 85947,
+          "bestSplits": [
+            27702,
+            22200,
+            35655
+          ],
+          "lapCount": 4,
+          "lastLap": 87602,
+          "lastSplitId": 0,
+          "lastSplits": [
+            27682,
+            22100,
+            37820
+          ],
+          "totalTime": 394531132
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2024-10-21T13:10:56Z",
+  "SessionFile": "241021_131056_FP"
+}

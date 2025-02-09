@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123695,
+      "splits": [
+        39192,
+        57252,
+        27250
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122875,
+      "splits": [
+        39077,
+        56315,
+        27482
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123147,
+      "splits": [
+        38792,
+        56875,
+        27480
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 43,
+  "sessionResult": {
+    "bestSplits": [
+      38792,
+      56315,
+      27250
+    ],
+    "bestlap": 122875,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 6,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Gomer",
+              "lastName": "Wilson",
+              "playerId": "S76561198271703496",
+              "shortName": "GRW"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 55,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gomer",
+          "lastName": "Wilson",
+          "playerId": "S76561198271703496",
+          "shortName": "GRW"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122875,
+          "bestSplits": [
+            38792,
+            56315,
+            27250
+          ],
+          "lapCount": 3,
+          "lastLap": 123147,
+          "lastSplitId": 1,
+          "lastSplits": [
+            38792,
+            56875,
+            27480
+          ],
+          "totalTime": 289877584
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2025-01-28T18:16:11Z",
+  "SessionFile": "250128_181611_FP"
+}

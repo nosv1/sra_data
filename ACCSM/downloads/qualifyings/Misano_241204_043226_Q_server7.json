@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93770,
+      "splits": [
+        23702,
+        37175,
+        32892
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93227,
+      "splits": [
+        23792,
+        36805,
+        32630
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 59,
+  "sessionResult": {
+    "bestSplits": [
+      23792,
+      36805,
+      32630
+    ],
+    "bestlap": 93227,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeff",
+              "lastName": "Spangler",
+              "playerId": "S76561198986746493",
+              "shortName": "SPA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 9,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeff",
+          "lastName": "Spangler",
+          "playerId": "S76561198986746493",
+          "shortName": "SPA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 93227,
+          "bestSplits": [
+            23792,
+            36805,
+            32630
+          ],
+          "lapCount": 2,
+          "lastLap": 93227,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23792,
+            36805,
+            32630
+          ],
+          "totalTime": 296233850
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "misano",
+  "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+  "Date": "2024-12-04T04:32:26Z",
+  "SessionFile": "241204_043226_Q"
+}

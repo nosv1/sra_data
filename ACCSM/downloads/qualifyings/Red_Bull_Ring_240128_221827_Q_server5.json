@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 159391,
+      "splits": [
+        91731,
+        40182,
+        27477
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 89490,
+      "splits": [
+        22452,
+        39500,
+        27537
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 88722,
+      "splits": [
+        22425,
+        39155,
+        27142
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 88482,
+      "splits": [
+        22485,
+        38925,
+        27072
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 88587,
+      "splits": [
+        22247,
+        38912,
+        27427
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      22425,
+      39155,
+      27142
+    ],
+    "bestlap": 88722,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Leeman",
+              "playerId": "S76561198168549962",
+              "shortName": "LEE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 98,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Leeman",
+          "playerId": "S76561198168549962",
+          "shortName": "LEE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 88722,
+          "bestSplits": [
+            22425,
+            39155,
+            27142
+          ],
+          "lapCount": 5,
+          "lastLap": 88587,
+          "lastSplitId": 1,
+          "lastSplits": [
+            22247,
+            38912,
+            27427
+          ],
+          "totalTime": 171156239
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAggSRA Multiclass Mayhem Triple Crown - Red Bull Ring | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:49d711dd-bd91-4f84-986e-3545934fc204",
+  "Date": "2024-01-28T22:18:27Z",
+  "SessionFile": "240128_221827_Q"
+}

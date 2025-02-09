@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 169016,
+      "splits": [
+        86878,
+        55230,
+        26907
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 245000,
+      "splits": [
+        158565,
+        59082,
+        27352
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124422,
+      "splits": [
+        41272,
+        58102,
+        25047
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123430,
+      "splits": [
+        41095,
+        54822,
+        27512
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      41095,
+      54822,
+      27512
+    ],
+    "bestlap": 123430,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Aaron",
+              "lastName": "Kovach",
+              "playerId": "S76561199444232389",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 720,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Aaron",
+          "lastName": "Kovach",
+          "playerId": "S76561199444232389",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 123430,
+          "bestSplits": [
+            41095,
+            54822,
+            27512
+          ],
+          "lapCount": 4,
+          "lastLap": 123430,
+          "lastSplitId": 2,
+          "lastSplits": [
+            41095,
+            54822,
+            27512
+          ],
+          "totalTime": 18627550
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-11-01T18:10:52Z",
+  "SessionFile": "231101_181052_FP"
+}

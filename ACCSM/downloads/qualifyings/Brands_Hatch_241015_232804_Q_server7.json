@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91167,
+      "splits": [
+        33222,
+        22200,
+        35745
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85222,
+      "splits": [
+        27605,
+        22117,
+        35500
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84710,
+      "splits": [
+        27205,
+        21810,
+        35695
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84922,
+      "splits": [
+        27397,
+        21840,
+        35685
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 99040,
+      "splits": [
+        41092,
+        22112,
+        35835
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 70,
+  "sessionResult": {
+    "bestSplits": [
+      27205,
+      21810,
+      35500
+    ],
+    "bestlap": 84710,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Brandon",
+              "lastName": "Chan",
+              "playerId": "S76561198163626080",
+              "shortName": "BCH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 158,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Brandon",
+          "lastName": "Chan",
+          "playerId": "S76561198163626080",
+          "shortName": "BCH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 84710,
+          "bestSplits": [
+            27205,
+            21810,
+            35500
+          ],
+          "lapCount": 5,
+          "lastLap": 99040,
+          "lastSplitId": 2,
+          "lastSplits": [
+            41092,
+            22112,
+            35835
+          ],
+          "totalTime": 653781411
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAgg | SRA ES Brands Hatch Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:c6bc19a2-8494-4074-b1c3-02cc1daad50d",
+  "Date": "2024-10-15T23:28:04Z",
+  "SessionFile": "241015_232804_Q"
+}

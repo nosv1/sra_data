@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95585,
+      "splits": [
+        31980,
+        29580,
+        34025
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 141080,
+      "splits": [
+        45415,
+        56015,
+        39650
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Bryan",
+              "lastName": "Anderson",
+              "playerId": "S76561197993701529",
+              "shortName": "AND"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 502,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Bryan",
+          "lastName": "Anderson",
+          "playerId": "S76561197993701529",
+          "shortName": "AND"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 141080,
+          "lastSplitId": 0,
+          "lastSplits": [
+            45415,
+            56015,
+            39650
+          ],
+          "totalTime": 23981726
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zolder",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2025-01-21T05:31:04Z",
+  "SessionFile": "250121_053104_FP"
+}

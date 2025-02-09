@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 111590,
+      "splits": [
+        30612,
+        37607,
+        43370
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110310,
+      "splits": [
+        29777,
+        36920,
+        43612
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110330,
+      "splits": [
+        29850,
+        37650,
+        42830
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112050,
+      "splits": [
+        30277,
+        37577,
+        44195
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111612,
+      "splits": [
+        31290,
+        37255,
+        43067
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108655,
+      "splits": [
+        29630,
+        36490,
+        42535
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 52,
+  "sessionResult": {
+    "bestSplits": [
+      29630,
+      36490,
+      42535
+    ],
+    "bestlap": 108655,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 83,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Dave",
+              "lastName": "Paccagnini",
+              "playerId": "S76561198008466364",
+              "shortName": "NBD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 904,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dave",
+          "lastName": "Paccagnini",
+          "playerId": "S76561198008466364",
+          "shortName": "NBD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 108655,
+          "bestSplits": [
+            29630,
+            36490,
+            42535
+          ],
+          "lapCount": 6,
+          "lastLap": 108655,
+          "lastSplitId": 0,
+          "lastSplits": [
+            29630,
+            36490,
+            42535
+          ],
+          "totalTime": 964558675
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 84,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jacob",
+              "lastName": "Palmieri",
+              "playerId": "S76561198142182892",
+              "shortName": "JMP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 888,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jacob",
+          "lastName": "Palmieri",
+          "playerId": "S76561198142182892",
+          "shortName": "JMP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | M2s \u0026 Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+  "Date": "2024-06-28T16:49:53Z",
+  "SessionFile": "240628_164953_FP"
+}

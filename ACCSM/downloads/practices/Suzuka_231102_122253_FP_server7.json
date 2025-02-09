@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 156098,
+      "splits": [
+        75388,
+        53915,
+        26795
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121325,
+      "splits": [
+        40972,
+        53605,
+        26747
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123527,
+      "splits": [
+        42107,
+        53957,
+        27462
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      42107,
+      53957,
+      27462
+    ],
+    "bestlap": 123527,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Niko",
+              "lastName": "Suave",
+              "playerId": "S76561197994095192",
+              "shortName": "NIK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 46,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Niko",
+          "lastName": "Suave",
+          "playerId": "S76561197994095192",
+          "shortName": "NIK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 123527,
+          "bestSplits": [
+            42107,
+            53957,
+            27462
+          ],
+          "lapCount": 3,
+          "lastLap": 123527,
+          "lastSplitId": 0,
+          "lastSplits": [
+            42107,
+            53957,
+            27462
+          ],
+          "totalTime": 10065661
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-11-02T12:22:53Z",
+  "SessionFile": "231102_122253_FP"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122030,
+      "splits": [
+        38697,
+        56067,
+        27265
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123192,
+      "splits": [
+        38335,
+        57762,
+        27095
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122040,
+      "splits": [
+        38742,
+        56117,
+        27180
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 69,
+  "sessionResult": {
+    "bestSplits": [
+      38335,
+      56067,
+      27095
+    ],
+    "bestlap": 122030,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jon",
+              "lastName": "Laz",
+              "playerId": "S76561198848931697",
+              "shortName": "JON"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 612,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jon",
+          "lastName": "Laz",
+          "playerId": "S76561198848931697",
+          "shortName": "JON"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122030,
+          "bestSplits": [
+            38335,
+            56067,
+            27095
+          ],
+          "lapCount": 3,
+          "lastLap": 122040,
+          "lastSplitId": 1,
+          "lastSplits": [
+            38742,
+            56117,
+            27180
+          ],
+          "totalTime": 361951440
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+  "Date": "2025-01-29T14:18:33Z",
+  "SessionFile": "250129_141833_FP"
+}

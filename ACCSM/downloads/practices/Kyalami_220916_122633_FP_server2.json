@@ -1,0 +1,149 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 243988,
+      "splits": [
+        162766,
+        46272,
+        34950
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114490,
+      "splits": [
+        34257,
+        46142,
+        34090
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114485,
+      "splits": [
+        34270,
+        46302,
+        33912
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      34270,
+      46302,
+      33912
+    ],
+    "bestlap": 114485,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Brandon",
+              "lastName": "Sobchyshyn",
+              "playerId": "S76561198071302229",
+              "shortName": "BRS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 156,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Brandon",
+          "lastName": "Sobchyshyn",
+          "playerId": "S76561198071302229",
+          "shortName": "BRS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114485,
+          "bestSplits": [
+            34270,
+            46302,
+            33912
+          ],
+          "lapCount": 3,
+          "lastLap": 114485,
+          "lastSplitId": 2,
+          "lastSplits": [
+            34270,
+            46302,
+            33912
+          ],
+          "totalTime": 3532833
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 51,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Kevin",
+              "lastName": "Unda",
+              "playerId": "S76561198085553872",
+              "shortName": "KUF"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 912,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kevin",
+          "lastName": "Unda",
+          "playerId": "S76561198085553872",
+          "shortName": "KUF"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Practice (Wet) - Q condition | SRAM#2",
+  "metaData": "custom_race:6a92147f-3991-44c8-ac23-2a284be173b1",
+  "Date": "2022-09-16T12:26:33Z",
+  "SessionFile": "220916_122633_FP"
+}

@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 100582,
+      "splits": [
+        25595,
+        39440,
+        35547
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 99685,
+      "splits": [
+        25640,
+        39095,
+        34950
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98900,
+      "splits": [
+        25287,
+        39000,
+        34612
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 98205,
+      "splits": [
+        24965,
+        38862,
+        34377
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98342,
+      "splits": [
+        24795,
+        38800,
+        34747
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97382,
+      "splits": [
+        24907,
+        38312,
+        34162
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 42,
+  "sessionResult": {
+    "bestSplits": [
+      24795,
+      38312,
+      34162
+    ],
+    "bestlap": 97382,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Tim",
+              "lastName": "Parkinson",
+              "playerId": "S76561199019703391",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 674,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Tim",
+          "lastName": "Parkinson",
+          "playerId": "S76561199019703391",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97382,
+          "bestSplits": [
+            24795,
+            38312,
+            34162
+          ],
+          "lapCount": 6,
+          "lastLap": 97382,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24907,
+            38312,
+            34162
+          ],
+          "totalTime": 286998225
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2025-01-01T20:55:18Z",
+  "SessionFile": "250101_205518_FP"
+}

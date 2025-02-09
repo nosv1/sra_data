@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122260,
+      "splits": [
+        37065,
+        50817,
+        34377
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120470,
+      "splits": [
+        35867,
+        50632,
+        33970
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120427,
+      "splits": [
+        35612,
+        50885,
+        33930
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      35612,
+      50632,
+      33930
+    ],
+    "bestlap": 120427,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Quinton",
+              "lastName": "Schattner",
+              "playerId": "S76561198120576863",
+              "shortName": "SCH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 92,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Quinton",
+          "lastName": "Schattner",
+          "playerId": "S76561198120576863",
+          "shortName": "SCH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 120427,
+          "bestSplits": [
+            35612,
+            50632,
+            33930
+          ],
+          "lapCount": 3,
+          "lastLap": 120427,
+          "lastSplitId": 2,
+          "lastSplits": [
+            35612,
+            50885,
+            33930
+          ],
+          "totalTime": 50109366
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "silverstone",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-04-04T21:27:00Z",
+  "SessionFile": "240404_212700_FP"
+}

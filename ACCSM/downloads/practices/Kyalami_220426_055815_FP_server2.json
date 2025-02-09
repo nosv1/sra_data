@@ -1,0 +1,150 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 255236,
+      "splits": [
+        181396,
+        42675,
+        31165
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104500,
+      "splits": [
+        32290,
+        41337,
+        30872
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104742,
+      "splits": [
+        31857,
+        42302,
+        30582
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104200,
+      "splits": [
+        31820,
+        41597,
+        30782
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103945,
+      "splits": [
+        32122,
+        41175,
+        30647
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103095,
+      "splits": [
+        31657,
+        40955,
+        30482
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103482,
+      "splits": [
+        31647,
+        41055,
+        30780
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      31647,
+      40955,
+      30482
+    ],
+    "bestlap": 103095,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Ramsey",
+              "lastName": "Connely",
+              "playerId": "S76561198191626179",
+              "shortName": "RAM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 51,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ramsey",
+          "lastName": "Connely",
+          "playerId": "S76561198191626179",
+          "shortName": "RAM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103095,
+          "bestSplits": [
+            31647,
+            40955,
+            30482
+          ],
+          "lapCount": 7,
+          "lastLap": 103482,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31647,
+            41055,
+            30780
+          ],
+          "totalTime": 13158875
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-26T05:58:15Z",
+  "SessionFile": "220426_055815_FP"
+}

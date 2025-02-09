@@ -1,0 +1,138 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123585,
+      "splits": [
+        41660,
+        54627,
+        27297
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123160,
+      "splits": [
+        41292,
+        54932,
+        26935
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 9,
+  "sessionResult": {
+    "bestSplits": [
+      41292,
+      54627,
+      26935
+    ],
+    "bestlap": 123160,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "a",
+              "lastName": "burk",
+              "playerId": "S76561198227553172",
+              "shortName": "BCK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 70,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "a",
+          "lastName": "burk",
+          "playerId": "S76561198227553172",
+          "shortName": "BCK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 123160,
+          "bestSplits": [
+            41292,
+            54627,
+            26935
+          ],
+          "lapCount": 2,
+          "lastLap": 123160,
+          "lastSplitId": 0,
+          "lastSplits": [
+            41292,
+            54932,
+            26935
+          ],
+          "totalTime": 28623288
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "JB",
+              "lastName": "Ruzic",
+              "playerId": "S76561198079681083",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 82,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "JB",
+          "lastName": "Ruzic",
+          "playerId": "S76561198079681083",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-12-06T22:23:54Z",
+  "SessionFile": "241206_222354_FP"
+}

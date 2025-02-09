@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108282,
+      "splits": [
+        30357,
+        35860,
+        42065
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107720,
+      "splits": [
+        29965,
+        35422,
+        42332
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108692,
+      "splits": [
+        30167,
+        36362,
+        42162
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107310,
+      "splits": [
+        29797,
+        35592,
+        41920
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107582,
+      "splits": [
+        29952,
+        35505,
+        42125
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107042,
+      "splits": [
+        29710,
+        35472,
+        41860
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      29710,
+      35422,
+      41860
+    ],
+    "bestlap": 107042,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Cesare",
+              "lastName": "Pizzuto",
+              "playerId": "S76561198005961795",
+              "shortName": "CSR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 208,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Cesare",
+          "lastName": "Pizzuto",
+          "playerId": "S76561198005961795",
+          "shortName": "CSR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107042,
+          "bestSplits": [
+            29710,
+            35422,
+            41860
+          ],
+          "lapCount": 6,
+          "lastLap": 107042,
+          "lastSplitId": 1,
+          "lastSplits": [
+            29710,
+            35472,
+            41860
+          ],
+          "totalTime": 2058028
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:4c551af0-6c40-4523-973d-81e152227105",
+  "Date": "2024-07-22T23:09:41Z",
+  "SessionFile": "240722_230941_FP"
+}

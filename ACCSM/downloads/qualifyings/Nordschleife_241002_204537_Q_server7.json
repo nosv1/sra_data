@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 552245,
+      "splits": [
+        189457,
+        174517,
+        188270
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 547942,
+      "splits": [
+        188485,
+        170795,
+        188662
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 28,
+  "sessionResult": {
+    "bestSplits": [
+      188485,
+      170795,
+      188662
+    ],
+    "bestlap": 547942,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 60,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "John",
+              "lastName": "Ansom",
+              "playerId": "S76561197993825152",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 2,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "John",
+          "lastName": "Ansom",
+          "playerId": "S76561197993825152",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 547942,
+          "bestSplits": [
+            188485,
+            170795,
+            188662
+          ],
+          "lapCount": 2,
+          "lastLap": 547942,
+          "lastSplitId": 0,
+          "lastSplits": [
+            188485,
+            170795,
+            188662
+          ],
+          "totalTime": 279014635
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring_24h",
+  "serverName": "#SRAgg | SRA MCM 3 Hour Nordschleife Endurance Challenge Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:60f90cee-58d6-45b4-bf9d-5bb5c3ed051e",
+  "Date": "2024-10-02T20:45:37Z",
+  "SessionFile": "241002_204537_Q"
+}

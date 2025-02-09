@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125535,
+      "splits": [
+        59737,
+        46720,
+        19077
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124152,
+      "splits": [
+        58872,
+        46677,
+        18602
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 37,
+  "sessionResult": {
+    "bestSplits": [
+      58872,
+      46677,
+      18602
+    ],
+    "bestlap": 124152,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Omar",
+              "lastName": "Escorcia",
+              "playerId": "S76561198113325650",
+              "shortName": "OEG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 99,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Omar",
+          "lastName": "Escorcia",
+          "playerId": "S76561198113325650",
+          "shortName": "OEG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 124152,
+          "bestSplits": [
+            58872,
+            46677,
+            18602
+          ],
+          "lapCount": 2,
+          "lastLap": 124152,
+          "lastSplitId": 0,
+          "lastSplits": [
+            58872,
+            46677,
+            18602
+          ],
+          "totalTime": 111096299
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+  "Date": "2025-01-13T02:25:45Z",
+  "SessionFile": "250113_022545_FP"
+}

@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 142673,
+      "splits": [
+        69801,
+        41720,
+        31152
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103425,
+      "splits": [
+        31687,
+        41267,
+        30470
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 103452,
+      "splits": [
+        31432,
+        41222,
+        30797
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103060,
+      "splits": [
+        31430,
+        41087,
+        30542
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102762,
+      "splits": [
+        31552,
+        40892,
+        30317
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102592,
+      "splits": [
+        31595,
+        40562,
+        30435
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 40,
+  "sessionResult": {
+    "bestSplits": [
+      31430,
+      40562,
+      30317
+    ],
+    "bestlap": 102592,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Scott",
+              "lastName": "Smith",
+              "playerId": "S76561197972317118",
+              "shortName": "SSM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 1,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Scott",
+          "lastName": "Smith",
+          "playerId": "S76561197972317118",
+          "shortName": "SSM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 102592,
+          "bestSplits": [
+            31430,
+            40562,
+            30317
+          ],
+          "lapCount": 6,
+          "lastLap": 102592,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31595,
+            40562,
+            30435
+          ],
+          "totalTime": 390890882
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | SRAM#1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-01-23T19:51:16Z",
+  "SessionFile": "230123_195116_FP"
+}

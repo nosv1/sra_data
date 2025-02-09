@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 101990,
+      "splits": [
+        30390,
+        35740,
+        35860
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Cleveland",
+              "lastName": "Leatherwood",
+              "playerId": "S76561198114792814",
+              "shortName": "LEA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 294,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Cleveland",
+          "lastName": "Leatherwood",
+          "playerId": "S76561198114792814",
+          "shortName": "LEA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 101990,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30390,
+            35740,
+            35860
+          ],
+          "totalTime": 68222542
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAgg | LIAW Practice | Race 2 | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:05727d23-9141-4246-bca6-40ec91e01a63",
+  "Date": "2024-05-14T17:48:36Z",
+  "SessionFile": "240514_174836_FP"
+}

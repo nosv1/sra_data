@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 132615,
+      "splits": [
+        69482,
+        37560,
+        25572
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 100115,
+      "splits": [
+        37120,
+        37500,
+        25495
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 99937,
+      "splits": [
+        37042,
+        37497,
+        25397
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 99450,
+      "splits": [
+        36687,
+        37140,
+        25622
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 9,
+  "sessionResult": {
+    "bestSplits": [
+      36687,
+      37140,
+      25397
+    ],
+    "bestlap": 99450,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alan",
+              "lastName": "Leung",
+              "playerId": "S76561197990533720",
+              "shortName": "AKL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 668,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alan",
+          "lastName": "Leung",
+          "playerId": "S76561197990533720",
+          "shortName": "AKL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 99450,
+          "bestSplits": [
+            36687,
+            37140,
+            25397
+          ],
+          "lapCount": 4,
+          "lastLap": 99450,
+          "lastSplitId": 2,
+          "lastSplits": [
+            36687,
+            37140,
+            25622
+          ],
+          "totalTime": 503954
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "valencia",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2023-11-28T00:02:24Z",
+  "SessionFile": "231128_000224_Q"
+}

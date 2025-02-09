@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 398408,
+      "splits": [
+        283478,
+        75625,
+        39305
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 1352500,
+      "splits": [
+        1267582,
+        48080,
+        36837
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 122442,
+      "splits": [
+        36525,
+        49092,
+        36825
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119722,
+      "splits": [
+        35157,
+        48160,
+        36405
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      35157,
+      48160,
+      36405
+    ],
+    "bestlap": 119722,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Browning",
+              "playerId": "S76561198060542260",
+              "shortName": "MJB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 919,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Browning",
+          "playerId": "S76561198060542260",
+          "shortName": "MJB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 119722,
+          "bestSplits": [
+            35157,
+            48160,
+            36405
+          ],
+          "lapCount": 4,
+          "lastLap": 119722,
+          "lastSplitId": 1,
+          "lastSplits": [
+            35157,
+            48160,
+            36405
+          ],
+          "totalTime": 2283996
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Practice (Wet) - Q condition | SRAM#2",
+  "metaData": "custom_race:6a92147f-3991-44c8-ac23-2a284be173b1",
+  "Date": "2022-09-15T00:03:19Z",
+  "SessionFile": "220915_000319_FP"
+}

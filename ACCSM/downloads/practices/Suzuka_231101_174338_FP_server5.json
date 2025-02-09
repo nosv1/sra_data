@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 173588,
+      "splits": [
+        85001,
+        59022,
+        29565
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 133052,
+      "splits": [
+        44992,
+        58567,
+        29492
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 132430,
+      "splits": [
+        44502,
+        58485,
+        29442
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 132632,
+      "splits": [
+        44667,
+        58610,
+        29355
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 132492,
+      "splits": [
+        44607,
+        58545,
+        29340
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      44607,
+      58545,
+      29340
+    ],
+    "bestlap": 132492,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 61,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Diego Paul",
+              "lastName": "Fimbres Casas",
+              "playerId": "S76561198091710398",
+              "shortName": "FIM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 95,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Diego Paul",
+          "lastName": "Fimbres Casas",
+          "playerId": "S76561198091710398",
+          "shortName": "FIM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 132492,
+          "bestSplits": [
+            44607,
+            58545,
+            29340
+          ],
+          "lapCount": 5,
+          "lastLap": 132492,
+          "lastSplitId": 0,
+          "lastSplits": [
+            44607,
+            58545,
+            29340
+          ],
+          "totalTime": 15446752
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggSRA Suzuka 8 Hour Endurance | Open Practice Server | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:f93f7b3f-2a57-403f-a686-1b2cc8d9251f",
+  "Date": "2023-11-01T17:43:38Z",
+  "SessionFile": "231101_174338_FP"
+}

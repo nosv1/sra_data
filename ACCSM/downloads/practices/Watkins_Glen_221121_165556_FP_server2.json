@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 130828,
+      "splits": [
+        53761,
+        36222,
+        40845
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105265,
+      "splits": [
+        29955,
+        34520,
+        40790
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105292,
+      "splits": [
+        30202,
+        34245,
+        40845
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105050,
+      "splits": [
+        30077,
+        34192,
+        40780
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106180,
+      "splits": [
+        30855,
+        34267,
+        41057
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      29955,
+      34192,
+      40780
+    ],
+    "bestlap": 105050,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Danny",
+              "lastName": "Durrance",
+              "playerId": "S76561199278218988",
+              "shortName": "DUR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 72,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Danny",
+          "lastName": "Durrance",
+          "playerId": "S76561199278218988",
+          "shortName": "DUR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105050,
+          "bestSplits": [
+            29955,
+            34192,
+            40780
+          ],
+          "lapCount": 5,
+          "lastLap": 106180,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30855,
+            34267,
+            41057
+          ],
+          "totalTime": 17239713
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Practice (Dry) - LIAW | SRAM#2",
+  "metaData": "custom_race:e2a0522e-1341-441c-a226-eda9e51741cc",
+  "Date": "2022-11-21T16:55:56Z",
+  "SessionFile": "221121_165556_FP"
+}

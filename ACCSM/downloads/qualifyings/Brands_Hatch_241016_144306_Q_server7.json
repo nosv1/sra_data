@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93182,
+      "splits": [
+        32512,
+        22880,
+        37790
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 87325,
+      "splits": [
+        27950,
+        22365,
+        37010
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 86795,
+      "splits": [
+        28137,
+        22112,
+        36545
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 77,
+  "sessionResult": {
+    "bestSplits": [
+      27950,
+      22112,
+      36545
+    ],
+    "bestlap": 86795,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "James",
+              "lastName": "May",
+              "playerId": "S76561198387383009",
+              "shortName": "SLO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 23,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "James",
+          "lastName": "May",
+          "playerId": "S76561198387383009",
+          "shortName": "SLO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 86795,
+          "bestSplits": [
+            27950,
+            22112,
+            36545
+          ],
+          "lapCount": 3,
+          "lastLap": 86795,
+          "lastSplitId": 1,
+          "lastSplits": [
+            28137,
+            22112,
+            36545
+          ],
+          "totalTime": 708680939
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAgg | SRA ES Brands Hatch Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:c6bc19a2-8494-4074-b1c3-02cc1daad50d",
+  "Date": "2024-10-16T14:43:06Z",
+  "SessionFile": "241016_144306_Q"
+}

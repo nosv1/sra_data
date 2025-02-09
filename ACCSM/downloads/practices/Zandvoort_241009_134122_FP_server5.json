@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 99300,
+      "splits": [
+        32330,
+        34120,
+        32850
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98467,
+      "splits": [
+        32210,
+        33830,
+        32427
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 11,
+  "sessionResult": {
+    "bestSplits": [
+      32210,
+      33830,
+      32427
+    ],
+    "bestlap": 98467,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "nadiA",
+              "lastName": "kurB",
+              "playerId": "S76561198227553172",
+              "shortName": "BRK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 17,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "nadiA",
+          "lastName": "kurB",
+          "playerId": "S76561198227553172",
+          "shortName": "BRK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 98467,
+          "bestSplits": [
+            32210,
+            33830,
+            32427
+          ],
+          "lapCount": 2,
+          "lastLap": 98467,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32210,
+            33830,
+            32427
+          ],
+          "totalTime": 50738809
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zandvoort",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2024-10-09T13:41:22Z",
+  "SessionFile": "241009_134122_FP"
+}

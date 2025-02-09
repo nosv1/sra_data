@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 161866,
+      "splits": [
+        87606,
+        42985,
+        31275
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 45,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Sam",
+              "lastName": "Rauworth",
+              "playerId": "S76561198177851193",
+              "shortName": "SAM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 339,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sam",
+          "lastName": "Rauworth",
+          "playerId": "S76561198177851193",
+          "shortName": "SAM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 161866,
+          "lastSplitId": 0,
+          "lastSplits": [
+            87606,
+            42985,
+            31275
+          ],
+          "totalTime": 201232957
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-02-04T18:53:01Z",
+  "SessionFile": "240204_185301_FP"
+}

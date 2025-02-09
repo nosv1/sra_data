@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 138630,
+      "splits": [
+        41187,
+        58105,
+        39337
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 139177,
+      "splits": [
+        41475,
+        58600,
+        39102
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 52,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Nadia",
+              "lastName": "Burk",
+              "playerId": "S76561198227553172",
+              "shortName": "BRK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 27,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nadia",
+          "lastName": "Burk",
+          "playerId": "S76561198227553172",
+          "shortName": "BRK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 139177,
+          "lastSplitId": 1,
+          "lastSplits": [
+            41475,
+            58600,
+            39102
+          ],
+          "totalTime": 45248916
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "silverstone",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a5cd859c-a680-4044-b0c3-1483d308775a",
+  "Date": "2024-09-12T20:55:06Z",
+  "SessionFile": "240912_205506_FP"
+}

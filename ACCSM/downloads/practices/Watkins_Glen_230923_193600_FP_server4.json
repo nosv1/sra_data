@@ -1,0 +1,203 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 134798,
+      "splits": [
+        56116,
+        36770,
+        41912
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108412,
+      "splits": [
+        30002,
+        35660,
+        42750
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107842,
+      "splits": [
+        29970,
+        35512,
+        42360
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109280,
+      "splits": [
+        30097,
+        35762,
+        43420
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 36,
+  "sessionResult": {
+    "bestSplits": [
+      29970,
+      35512,
+      42360
+    ],
+    "bestlap": 107842,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dae Hee",
+              "lastName": "Yun",
+              "playerId": "S76561198052032446",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 63,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dae Hee",
+          "lastName": "Yun",
+          "playerId": "S76561198052032446",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107842,
+          "bestSplits": [
+            29970,
+            35512,
+            42360
+          ],
+          "lapCount": 4,
+          "lastLap": 109280,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30097,
+            35762,
+            43420
+          ],
+          "totalTime": 528473
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Big",
+              "lastName": "Daddy",
+              "playerId": "S76561198132065977",
+              "shortName": "DAD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 54,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Big",
+          "lastName": "Daddy",
+          "playerId": "S76561198132065977",
+          "shortName": "DAD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      },
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Ryan",
+              "lastName": "Yee",
+              "playerId": "S76561198141369186",
+              "shortName": "YEE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 125,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ryan",
+          "lastName": "Yee",
+          "playerId": "S76561198141369186",
+          "shortName": "YEE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg6 Hours of Watkins Practice | SimRacingAlliance.com | #SRAM4",
+  "metaData": "custom_race:41287415-4e9a-41a7-800f-cdcd5e570e84",
+  "Date": "2023-09-23T19:36:00Z",
+  "SessionFile": "230923_193600_FP"
+}

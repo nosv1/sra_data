@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106265,
+      "splits": [
+        22235,
+        33530,
+        50500
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 104472,
+      "splits": [
+        22505,
+        33225,
+        48742
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103715,
+      "splits": [
+        22080,
+        33067,
+        48567
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103225,
+      "splits": [
+        21915,
+        33357,
+        47952
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102482,
+      "splits": [
+        21787,
+        32885,
+        47810
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102950,
+      "splits": [
+        21757,
+        33025,
+        48167
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 19,
+  "sessionResult": {
+    "bestSplits": [
+      21757,
+      32885,
+      47810
+    ],
+    "bestlap": 102482,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Ivan",
+              "lastName": "McCroat",
+              "playerId": "S76561198043439621",
+              "shortName": "MCR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 277,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ivan",
+          "lastName": "McCroat",
+          "playerId": "S76561198043439621",
+          "shortName": "MCR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 102482,
+          "bestSplits": [
+            21757,
+            32885,
+            47810
+          ],
+          "lapCount": 6,
+          "lastLap": 102950,
+          "lastSplitId": 0,
+          "lastSplits": [
+            21757,
+            33025,
+            48167
+          ],
+          "totalTime": 135972190
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "imola",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-05-31T15:25:04Z",
+  "SessionFile": "240531_152504_FP"
+}

@@ -1,0 +1,149 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 238526,
+      "splits": [
+        137833,
+        69162,
+        31530
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 141032,
+      "splits": [
+        43672,
+        66772,
+        30587
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 141340,
+      "splits": [
+        43835,
+        66685,
+        30820
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      43672,
+      66685,
+      30587
+    ],
+    "bestlap": 141032,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Danny",
+              "lastName": "Diaz",
+              "playerId": "S76561199087694193",
+              "shortName": "LOS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 4,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Danny",
+          "lastName": "Diaz",
+          "playerId": "S76561199087694193",
+          "shortName": "LOS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 141032,
+          "bestSplits": [
+            43672,
+            66685,
+            30587
+          ],
+          "lapCount": 3,
+          "lastLap": 141340,
+          "lastSplitId": 0,
+          "lastSplits": [
+            43835,
+            66685,
+            30820
+          ],
+          "totalTime": 583425
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Chris",
+              "lastName": "Edwards",
+              "playerId": "S76561199496407504",
+              "shortName": "EDY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 1,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Chris",
+          "lastName": "Edwards",
+          "playerId": "S76561199496407504",
+          "shortName": "EDY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 1,
+          "lastSplits": [],
+          "totalTime": 59544
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2023-12-27T19:44:13Z",
+  "SessionFile": "231227_194413_Q"
+}

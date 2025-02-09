@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 154758,
+      "splits": [
+        72581,
+        54362,
+        27815
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121480,
+      "splits": [
+        41052,
+        53750,
+        26677
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 122390,
+      "splits": [
+        40957,
+        55512,
+        25920
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120992,
+      "splits": [
+        40580,
+        53750,
+        26662
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120615,
+      "splits": [
+        40335,
+        53350,
+        26930
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120525,
+      "splits": [
+        40440,
+        53267,
+        26817
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 13,
+  "sessionResult": {
+    "bestSplits": [
+      40335,
+      53267,
+      26662
+    ],
+    "bestlap": 120525,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Bobby",
+              "lastName": "Dockendorf",
+              "playerId": "S76561198250408032",
+              "shortName": "DOC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 221,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Bobby",
+          "lastName": "Dockendorf",
+          "playerId": "S76561198250408032",
+          "shortName": "DOC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 120525,
+          "bestSplits": [
+            40335,
+            53267,
+            26662
+          ],
+          "lapCount": 6,
+          "lastLap": 120525,
+          "lastSplitId": 0,
+          "lastSplits": [
+            40440,
+            53267,
+            26817
+          ],
+          "totalTime": 48120921
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Chris",
+              "lastName": "Cádiz",
+              "playerId": "S76561198069299048",
+              "shortName": "CAD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 123,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Chris",
+          "lastName": "Cádiz",
+          "playerId": "S76561198069299048",
+          "shortName": "CAD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-11-02T02:26:24Z",
+  "SessionFile": "231102_022624_FP"
+}

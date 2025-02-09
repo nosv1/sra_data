@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 99662,
+      "splits": [
+        35105,
+        25395,
+        39162
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91935,
+      "splits": [
+        30432,
+        24485,
+        37017
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 92655,
+      "splits": [
+        32925,
+        22875,
+        36855
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 88035,
+      "splits": [
+        28470,
+        22545,
+        37020
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 88070,
+      "splits": [
+        28797,
+        22867,
+        36405
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 75,
+  "sessionResult": {
+    "bestSplits": [
+      28470,
+      22545,
+      36405
+    ],
+    "bestlap": 88035,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Zack",
+              "lastName": "Sky",
+              "playerId": "S76561198145299570",
+              "shortName": "ZAK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 786,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Zack",
+          "lastName": "Sky",
+          "playerId": "S76561198145299570",
+          "shortName": "ZAK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 88035,
+          "bestSplits": [
+            28470,
+            22545,
+            36405
+          ],
+          "lapCount": 5,
+          "lastLap": 88070,
+          "lastSplitId": 1,
+          "lastSplits": [
+            28797,
+            22867,
+            36405
+          ],
+          "totalTime": 357709785
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2024-10-21T02:57:08Z",
+  "SessionFile": "241021_025708_FP"
+}

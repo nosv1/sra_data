@@ -1,0 +1,241 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 141038,
+      "splits": [
+        68801,
+        41472,
+        30765
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102757,
+      "splits": [
+        31210,
+        41052,
+        30495
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 226062,
+      "splits": [
+        154547,
+        41077,
+        30437
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 132236,
+      "splits": [
+        60408,
+        41147,
+        30680
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103192,
+      "splits": [
+        31802,
+        40687,
+        30702
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102295,
+      "splits": [
+        31402,
+        40567,
+        30325
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 102305,
+      "splits": [
+        31280,
+        40480,
+        30545
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102247,
+      "splits": [
+        31255,
+        40622,
+        30370
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102417,
+      "splits": [
+        31362,
+        40637,
+        30417
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101872,
+      "splits": [
+        31360,
+        40347,
+        30165
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102092,
+      "splits": [
+        31312,
+        40430,
+        30350
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 28,
+  "sessionResult": {
+    "bestSplits": [
+      31210,
+      40347,
+      30165
+    ],
+    "bestlap": 101872,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Andrew",
+              "lastName": "Anderson",
+              "playerId": "S76561197993271559",
+              "shortName": "AND"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 94,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Andrew",
+          "lastName": "Anderson",
+          "playerId": "S76561197993271559",
+          "shortName": "AND"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 101872,
+          "bestSplits": [
+            31255,
+            40347,
+            30165
+          ],
+          "lapCount": 6,
+          "lastLap": 102092,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31312,
+            40430,
+            30350
+          ],
+          "totalTime": 177553511
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Tyler",
+              "lastName": "Matlock",
+              "playerId": "S76561197996401615",
+              "shortName": "MAT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 69,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Tyler",
+          "lastName": "Matlock",
+          "playerId": "S76561197996401615",
+          "shortName": "MAT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 102757,
+          "bestSplits": [
+            31210,
+            40687,
+            30495
+          ],
+          "lapCount": 5,
+          "lastLap": 102305,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31280,
+            40480,
+            30545
+          ],
+          "totalTime": 177119750
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-01-13T12:34:49Z",
+  "SessionFile": "240113_123449_FP"
+}

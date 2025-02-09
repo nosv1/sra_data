@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128508,
+      "splits": [
+        56713,
+        40942,
+        30852
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 103707,
+      "splits": [
+        31697,
+        40775,
+        31235
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103042,
+      "splits": [
+        31567,
+        40720,
+        30755
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      31567,
+      40720,
+      30755
+    ],
+    "bestlap": 103042,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Nic",
+              "lastName": "Cameron",
+              "playerId": "S76561198050494494",
+              "shortName": "CAM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 11,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nic",
+          "lastName": "Cameron",
+          "playerId": "S76561198050494494",
+          "shortName": "CAM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103042,
+          "bestSplits": [
+            31567,
+            40720,
+            30755
+          ],
+          "lapCount": 3,
+          "lastLap": 103042,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31567,
+            40720,
+            30755
+          ],
+          "totalTime": 36176531
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | SRAM#1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-01-19T17:18:46Z",
+  "SessionFile": "230119_171846_FP"
+}

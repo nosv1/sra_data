@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 250153,
+      "splits": [
+        160151,
+        59940,
+        30062
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 133727,
+      "splits": [
+        44840,
+        58630,
+        30257
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 133927,
+      "splits": [
+        45097,
+        59017,
+        29812
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 133372,
+      "splits": [
+        44675,
+        58852,
+        29845
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 132975,
+      "splits": [
+        44755,
+        58482,
+        29737
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 132830,
+      "splits": [
+        44487,
+        58660,
+        29682
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 20,
+  "sessionResult": {
+    "bestSplits": [
+      44487,
+      58482,
+      29682
+    ],
+    "bestlap": 132830,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 61,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mark",
+              "lastName": "Rechtin",
+              "playerId": "S76561197985829040",
+              "shortName": "MTR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 4,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mark",
+          "lastName": "Rechtin",
+          "playerId": "S76561197985829040",
+          "shortName": "MTR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 132830,
+          "bestSplits": [
+            44487,
+            58482,
+            29682
+          ],
+          "lapCount": 6,
+          "lastLap": 132830,
+          "lastSplitId": 0,
+          "lastSplits": [
+            44487,
+            58660,
+            29682
+          ],
+          "totalTime": 344872785
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-10-17T20:15:14Z",
+  "SessionFile": "231017_201514_FP"
+}

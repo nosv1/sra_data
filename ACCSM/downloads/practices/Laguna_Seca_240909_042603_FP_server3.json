@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 89780,
+      "splits": [
+        28855,
+        28627,
+        32297
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 82097,
+      "splits": [
+        21797,
+        28095,
+        32205
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 82320,
+      "splits": [
+        21682,
+        28160,
+        32477
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 14,
+  "sessionResult": {
+    "bestSplits": [
+      21682,
+      28095,
+      32205
+    ],
+    "bestlap": 82097,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mia",
+              "lastName": "Rose",
+              "playerId": "S76561198350381275",
+              "shortName": "MRO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 1,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mia",
+          "lastName": "Rose",
+          "playerId": "S76561198350381275",
+          "shortName": "MRO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 82097,
+          "bestSplits": [
+            21682,
+            28095,
+            32205
+          ],
+          "lapCount": 3,
+          "lastLap": 82320,
+          "lastSplitId": 1,
+          "lastSplits": [
+            21682,
+            28160,
+            32477
+          ],
+          "totalTime": 83933109
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+  "Date": "2024-09-09T04:26:03Z",
+  "SessionFile": "240909_042603_FP"
+}

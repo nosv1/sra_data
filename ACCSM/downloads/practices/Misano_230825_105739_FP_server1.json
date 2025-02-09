@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 180456,
+      "splits": [
+        108191,
+        38482,
+        33782
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96297,
+      "splits": [
+        24180,
+        38082,
+        34035
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95650,
+      "splits": [
+        24192,
+        37690,
+        33767
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95960,
+      "splits": [
+        24072,
+        37925,
+        33962
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95872,
+      "splits": [
+        24327,
+        37650,
+        33895
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95490,
+      "splits": [
+        24020,
+        37807,
+        33662
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 9,
+  "sessionResult": {
+    "bestSplits": [
+      24180,
+      37650,
+      33767
+    ],
+    "bestlap": 95650,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Darren",
+              "lastName": "Robichaud",
+              "playerId": "S76561199232988903",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 357,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Darren",
+          "lastName": "Robichaud",
+          "playerId": "S76561199232988903",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 95650,
+          "bestSplits": [
+            24180,
+            37650,
+            33767
+          ],
+          "lapCount": 6,
+          "lastLap": 95490,
+          "lastSplitId": 1,
+          "lastSplits": [
+            24020,
+            37807,
+            33662
+          ],
+          "totalTime": 93155116
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "David",
+              "lastName": "Mustillo",
+              "playerId": "S76561199398561368",
+              "shortName": "MUS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 458,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "David",
+          "lastName": "Mustillo",
+          "playerId": "S76561199398561368",
+          "shortName": "MUS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 2,
+          "lastSplits": [],
+          "totalTime": 92601788
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-08-25T10:57:39Z",
+  "SessionFile": "230825_105739_FP"
+}

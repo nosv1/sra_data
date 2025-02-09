@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90117,
+      "splits": [
+        22785,
+        39547,
+        27785
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 12,
+  "sessionResult": {
+    "bestSplits": [
+      22785,
+      39547,
+      27785
+    ],
+    "bestlap": 90117,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Justin",
+              "lastName": "MacKechnie",
+              "playerId": "S76561198328203388",
+              "shortName": "JMA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 35,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Justin",
+          "lastName": "MacKechnie",
+          "playerId": "S76561198328203388",
+          "shortName": "JMA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 90117,
+          "bestSplits": [
+            22785,
+            39547,
+            27785
+          ],
+          "lapCount": 1,
+          "lastLap": 90117,
+          "lastSplitId": 0,
+          "lastSplits": [
+            22785,
+            39547,
+            27785
+          ],
+          "totalTime": 114455887
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+  "Date": "2024-09-13T16:04:30Z",
+  "SessionFile": "240913_160430_FP"
+}

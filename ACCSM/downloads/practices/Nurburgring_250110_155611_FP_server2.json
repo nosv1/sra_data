@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125017,
+      "splits": [
+        59582,
+        46310,
+        19125
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124795,
+      "splits": [
+        59097,
+        47327,
+        18370
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 123872,
+      "splits": [
+        59255,
+        46247,
+        18370
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 22,
+  "sessionResult": {
+    "bestSplits": [
+      59097,
+      47327,
+      18370
+    ],
+    "bestlap": 124795,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Omar",
+              "lastName": "Escorcia",
+              "playerId": "S76561198113325650",
+              "shortName": "OEG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 822,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Omar",
+          "lastName": "Escorcia",
+          "playerId": "S76561198113325650",
+          "shortName": "OEG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 124795,
+          "bestSplits": [
+            59097,
+            47327,
+            18370
+          ],
+          "lapCount": 3,
+          "lastLap": 123872,
+          "lastSplitId": 0,
+          "lastSplits": [
+            59255,
+            46247,
+            18370
+          ],
+          "totalTime": 145250568
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2025-01-10T15:56:11Z",
+  "SessionFile": "250110_155611_FP"
+}

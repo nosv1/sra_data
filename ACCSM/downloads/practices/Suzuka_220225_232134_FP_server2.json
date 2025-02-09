@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 528298,
+      "splits": [
+        442761,
+        57167,
+        28370
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 129137,
+      "splits": [
+        42022,
+        56795,
+        30320
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 126157,
+      "splits": [
+        42512,
+        55557,
+        28087
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 246235,
+      "splits": [
+        156655,
+        55685,
+        33895
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      42512,
+      55557,
+      28087
+    ],
+    "bestlap": 126157,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "colin",
+              "lastName": "shea",
+              "playerId": "S76561198171727959",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 222,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "colin",
+          "lastName": "shea",
+          "playerId": "S76561198171727959",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 126157,
+          "bestSplits": [
+            42512,
+            55557,
+            28087
+          ],
+          "lapCount": 4,
+          "lastLap": 246235,
+          "lastSplitId": 0,
+          "lastSplits": [
+            156655,
+            55685,
+            33895
+          ],
+          "totalTime": 212879642
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-02-25T23:21:34Z",
+  "SessionFile": "220225_232134_FP"
+}

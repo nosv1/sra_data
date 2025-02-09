@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 152316,
+      "splits": [
+        90531,
+        44122,
+        17662
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119062,
+      "splits": [
+        56807,
+        44732,
+        17522
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 154285,
+      "splits": [
+        92272,
+        44550,
+        17462
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117565,
+      "splits": [
+        56097,
+        44232,
+        17235
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      56097,
+      44232,
+      17235
+    ],
+    "bestlap": 117565,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeff",
+              "lastName": "Sheppard",
+              "playerId": "S76561198048019194",
+              "shortName": "JAS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 867,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeff",
+          "lastName": "Sheppard",
+          "playerId": "S76561198048019194",
+          "shortName": "JAS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 117565,
+          "bestSplits": [
+            56097,
+            44232,
+            17235
+          ],
+          "lapCount": 4,
+          "lastLap": 117565,
+          "lastSplitId": 0,
+          "lastSplits": [
+            56097,
+            44232,
+            17235
+          ],
+          "totalTime": 543330
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #4 | SRAP | Public Racing | SRAM#4",
+  "metaData": "custom_race:9162b540-aa21-419c-82e9-85662aff21fd",
+  "Date": "2022-11-11T22:45:38Z",
+  "SessionFile": "221111_224538_Q"
+}

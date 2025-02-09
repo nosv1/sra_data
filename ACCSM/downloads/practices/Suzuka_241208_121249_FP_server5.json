@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121425,
+      "splits": [
+        40800,
+        53937,
+        26687
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 47,
+  "sessionResult": {
+    "bestSplits": [
+      40800,
+      53937,
+      26687
+    ],
+    "bestlap": 121425,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Roy",
+              "lastName": "Keay",
+              "playerId": "S76561198018246823",
+              "shortName": "RKY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 888,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Roy",
+          "lastName": "Keay",
+          "playerId": "S76561198018246823",
+          "shortName": "RKY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121425,
+          "bestSplits": [
+            40800,
+            53937,
+            26687
+          ],
+          "lapCount": 1,
+          "lastLap": 121425,
+          "lastSplitId": 0,
+          "lastSplits": [
+            40800,
+            53937,
+            26687
+          ],
+          "totalTime": 222627278
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2024-12-08T12:12:49Z",
+  "SessionFile": "241208_121249_FP"
+}

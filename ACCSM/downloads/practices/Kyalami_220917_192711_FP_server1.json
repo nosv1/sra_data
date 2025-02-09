@@ -1,0 +1,171 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 255787,
+      "splits": [
+        179062,
+        44252,
+        32472
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109727,
+      "splits": [
+        32957,
+        44200,
+        32570
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109422,
+      "splits": [
+        33225,
+        43855,
+        32342
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112482,
+      "splits": [
+        33010,
+        46975,
+        32497
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109492,
+      "splits": [
+        33152,
+        43720,
+        32620
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 13,
+  "sessionResult": {
+    "bestSplits": [
+      32957,
+      43720,
+      32342
+    ],
+    "bestlap": 109422,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Chris",
+              "lastName": "Stefiuk",
+              "playerId": "S76561197982286601",
+              "shortName": "STE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 96,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Chris",
+          "lastName": "Stefiuk",
+          "playerId": "S76561197982286601",
+          "shortName": "STE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109422,
+          "bestSplits": [
+            32957,
+            43720,
+            32342
+          ],
+          "lapCount": 5,
+          "lastLap": 109492,
+          "lastSplitId": 0,
+          "lastSplits": [
+            33152,
+            43720,
+            32620
+          ],
+          "totalTime": 56759542
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matthew",
+              "lastName": "Schwartz",
+              "playerId": "S76561198802807574",
+              "shortName": "SCH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 11,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matthew",
+          "lastName": "Schwartz",
+          "playerId": "S76561198802807574",
+          "shortName": "SCH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | Practice (Wet) | SRAM#1",
+  "metaData": "custom_race:1f39e049-b9de-4b7b-ba39-81ad8fc87bcd",
+  "Date": "2022-09-17T19:27:11Z",
+  "SessionFile": "220917_192711_FP"
+}

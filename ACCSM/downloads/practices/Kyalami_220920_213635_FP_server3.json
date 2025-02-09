@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 271823,
+      "splits": [
+        167738,
+        69197,
+        34887
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 276297,
+      "splits": [
+        195127,
+        46875,
+        34295
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115930,
+      "splits": [
+        34307,
+        47150,
+        34472
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115637,
+      "splits": [
+        34240,
+        46347,
+        35050
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116392,
+      "splits": [
+        34535,
+        47182,
+        34675
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 242435,
+      "splits": [
+        34605,
+        49922,
+        157907
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 14,
+  "sessionResult": {
+    "bestSplits": [
+      34240,
+      46347,
+      34472
+    ],
+    "bestlap": 115637,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Nathan",
+              "lastName": "Schaefer",
+              "playerId": "S76561198067053191",
+              "shortName": "LFG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 453,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nathan",
+          "lastName": "Schaefer",
+          "playerId": "S76561198067053191",
+          "shortName": "LFG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115637,
+          "bestSplits": [
+            34240,
+            46347,
+            34472
+          ],
+          "lapCount": 6,
+          "lastLap": 242435,
+          "lastSplitId": 2,
+          "lastSplits": [
+            34605,
+            49922,
+            157907
+          ],
+          "totalTime": 68007814
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | Wet Practice | SRAM#3",
+  "metaData": "custom_race:0c246f5a-12a7-46ba-8fa8-f92958af8e08",
+  "Date": "2022-09-20T21:36:35Z",
+  "SessionFile": "220920_213635_FP"
+}

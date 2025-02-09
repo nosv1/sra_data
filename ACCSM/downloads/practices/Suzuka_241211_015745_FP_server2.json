@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121852,
+      "splits": [
+        40980,
+        54245,
+        26627
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121745,
+      "splits": [
+        40857,
+        54140,
+        26747
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121182,
+      "splits": [
+        40942,
+        53650,
+        26590
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120955,
+      "splits": [
+        40780,
+        53472,
+        26702
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121532,
+      "splits": [
+        40917,
+        54165,
+        26450
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      40780,
+      53472,
+      26450
+    ],
+    "bestlap": 120955,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Rob",
+              "lastName": "Morehead",
+              "playerId": "S76561198145524260",
+              "shortName": "MOR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 461,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Rob",
+          "lastName": "Morehead",
+          "playerId": "S76561198145524260",
+          "shortName": "MOR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 120955,
+          "bestSplits": [
+            40780,
+            53472,
+            26450
+          ],
+          "lapCount": 5,
+          "lastLap": 121532,
+          "lastSplitId": 0,
+          "lastSplits": [
+            40917,
+            54165,
+            26450
+          ],
+          "totalTime": 7917804
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+  "Date": "2024-12-11T01:57:45Z",
+  "SessionFile": "241211_015745_FP"
+}

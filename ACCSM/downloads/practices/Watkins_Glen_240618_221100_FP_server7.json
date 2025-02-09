@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111212,
+      "splits": [
+        30205,
+        38245,
+        42762
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110470,
+      "splits": [
+        30165,
+        37950,
+        42355
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109415,
+      "splits": [
+        29517,
+        37460,
+        42437
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      29517,
+      37460,
+      42355
+    ],
+    "bestlap": 109415,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 84,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Dave",
+              "lastName": "Paccagnini",
+              "playerId": "S76561198008466364",
+              "shortName": "JUG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 904,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dave",
+          "lastName": "Paccagnini",
+          "playerId": "S76561198008466364",
+          "shortName": "JUG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109415,
+          "bestSplits": [
+            29517,
+            37460,
+            42355
+          ],
+          "lapCount": 3,
+          "lastLap": 109415,
+          "lastSplitId": 2,
+          "lastSplits": [
+            29517,
+            37460,
+            42437
+          ],
+          "totalTime": 120506374
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | M2s \u0026 Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+  "Date": "2024-06-18T22:11:00Z",
+  "SessionFile": "240618_221100_FP"
+}

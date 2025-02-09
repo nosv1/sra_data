@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101475,
+      "splits": [
+        33237,
+        35262,
+        32975
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101860,
+      "splits": [
+        32765,
+        35757,
+        33337
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      32765,
+      35262,
+      32975
+    ],
+    "bestlap": 101475,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Moon",
+              "playerId": "S76561197960784860",
+              "shortName": "MMM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 908,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Moon",
+          "playerId": "S76561197960784860",
+          "shortName": "MMM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 101475,
+          "bestSplits": [
+            32765,
+            35262,
+            32975
+          ],
+          "lapCount": 2,
+          "lastLap": 101860,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32765,
+            35757,
+            33337
+          ],
+          "totalTime": 36665834
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zandvoort",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2024-10-13T12:05:33Z",
+  "SessionFile": "241013_120533_FP"
+}

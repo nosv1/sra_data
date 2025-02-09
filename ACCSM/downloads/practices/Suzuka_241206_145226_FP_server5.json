@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124410,
+      "splits": [
+        43010,
+        54337,
+        27062
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121505,
+      "splits": [
+        40695,
+        53932,
+        26877
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121215,
+      "splits": [
+        40680,
+        53820,
+        26715
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121317,
+      "splits": [
+        40792,
+        53765,
+        26760
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      40680,
+      53765,
+      26715
+    ],
+    "bestlap": 121215,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Niko",
+              "lastName": "Suave",
+              "playerId": "S76561197994095192",
+              "shortName": "NIK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 117,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Niko",
+          "lastName": "Suave",
+          "playerId": "S76561197994095192",
+          "shortName": "NIK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121215,
+          "bestSplits": [
+            40680,
+            53765,
+            26715
+          ],
+          "lapCount": 4,
+          "lastLap": 121317,
+          "lastSplitId": 1,
+          "lastSplits": [
+            40792,
+            53765,
+            26760
+          ],
+          "totalTime": 59386707
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2024-12-06T14:52:26Z",
+  "SessionFile": "241206_145226_FP"
+}

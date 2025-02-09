@@ -1,0 +1,149 @@
+{
+  "laps": [
+    {
+      "carId": 1039,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 89412,
+      "splits": [
+        31865,
+        22020,
+        35527
+      ]
+    },
+    {
+      "carId": 1039,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84417,
+      "splits": [
+        27252,
+        21915,
+        35250
+      ]
+    },
+    {
+      "carId": 1039,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84422,
+      "splits": [
+        27352,
+        21735,
+        35335
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 124,
+  "sessionResult": {
+    "bestSplits": [
+      27252,
+      21735,
+      35250
+    ],
+    "bestlap": 84417,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1039,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Felix",
+              "lastName": "Paillant",
+              "playerId": "S76561199034327135",
+              "shortName": "PAI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 93,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Felix",
+          "lastName": "Paillant",
+          "playerId": "S76561199034327135",
+          "shortName": "PAI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 84417,
+          "bestSplits": [
+            27252,
+            21735,
+            35250
+          ],
+          "lapCount": 3,
+          "lastLap": 84422,
+          "lastSplitId": 1,
+          "lastSplits": [
+            27352,
+            21735,
+            35335
+          ],
+          "totalTime": 738960799
+        }
+      },
+      {
+        "car": {
+          "carId": 1048,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Robert",
+              "lastName": "Lacy",
+              "playerId": "S76561197995657485",
+              "shortName": "LAC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 53,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Robert",
+          "lastName": "Lacy",
+          "playerId": "S76561197995657485",
+          "shortName": "LAC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAgg | SRA ES Brands Hatch Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:c6bc19a2-8494-4074-b1c3-02cc1daad50d",
+  "Date": "2024-10-31T02:57:04Z",
+  "SessionFile": "241031_025704_Q"
+}

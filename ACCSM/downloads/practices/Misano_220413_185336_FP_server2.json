@@ -1,0 +1,183 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 123823,
+      "splits": [
+        45788,
+        41677,
+        36357
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102520,
+      "splits": [
+        25642,
+        39890,
+        36987
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 576430,
+      "splits": [
+        496862,
+        42497,
+        37070
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112172,
+      "splits": [
+        33827,
+        40975,
+        37370
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 104177,
+      "splits": [
+        25750,
+        40977,
+        37450
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104705,
+      "splits": [
+        25830,
+        41755,
+        37120
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 178507,
+      "splits": [
+        99385,
+        40717,
+        38405
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105095,
+      "splits": [
+        25735,
+        41760,
+        37600
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104165,
+      "splits": [
+        25662,
+        41125,
+        37377
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 103902,
+      "splits": [
+        25857,
+        41045,
+        37000
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      25642,
+      39890,
+      36987
+    ],
+    "bestlap": 102520,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Phil",
+              "lastName": "Cibulka",
+              "playerId": "S76561198083552001",
+              "shortName": "PHI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 769,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Phil",
+          "lastName": "Cibulka",
+          "playerId": "S76561198083552001",
+          "shortName": "PHI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 102520,
+          "bestSplits": [
+            25642,
+            39890,
+            36987
+          ],
+          "lapCount": 10,
+          "lastLap": 103902,
+          "lastSplitId": 1,
+          "lastSplits": [
+            25857,
+            41045,
+            37000
+          ],
+          "totalTime": 1838771
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-13T18:53:36Z",
+  "SessionFile": "220413_185336_FP"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93715,
+      "splits": [
+        23757,
+        41007,
+        28950
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 92885,
+      "splits": [
+        23372,
+        40537,
+        28975
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91927,
+      "splits": [
+        23237,
+        40190,
+        28500
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      23237,
+      40190,
+      28500
+    ],
+    "bestlap": 91927,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Stephen",
+              "lastName": "Sarver",
+              "playerId": "S76561198102177223",
+              "shortName": "SAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 717,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Stephen",
+          "lastName": "Sarver",
+          "playerId": "S76561198102177223",
+          "shortName": "SAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 91927,
+          "bestSplits": [
+            23237,
+            40190,
+            28500
+          ],
+          "lapCount": 3,
+          "lastLap": 91927,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23237,
+            40190,
+            28500
+          ],
+          "totalTime": 24685134
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-10-03T10:14:46Z",
+  "SessionFile": "241003_101446_FP"
+}

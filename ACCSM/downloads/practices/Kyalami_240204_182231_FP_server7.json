@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 150426,
+      "splits": [
+        77426,
+        41712,
+        31287
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104657,
+      "splits": [
+        32085,
+        41602,
+        30970
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104667,
+      "splits": [
+        31877,
+        41505,
+        31285
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 43,
+  "sessionResult": {
+    "bestSplits": [
+      31877,
+      41505,
+      30970
+    ],
+    "bestlap": 104657,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "DARIO",
+              "lastName": "FERRER",
+              "playerId": "S76561199443451296",
+              "shortName": "DFE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 22,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "DARIO",
+          "lastName": "FERRER",
+          "playerId": "S76561199443451296",
+          "shortName": "DFE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 104657,
+          "bestSplits": [
+            31877,
+            41505,
+            30970
+          ],
+          "lapCount": 3,
+          "lastLap": 104667,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31877,
+            41505,
+            31285
+          ],
+          "totalTime": 199376968
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-02-04T18:22:31Z",
+  "SessionFile": "240204_182231_FP"
+}

@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 141423,
+      "splits": [
+        63868,
+        41737,
+        35817
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 65,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Gordon",
+              "lastName": "Beverly Jr.",
+              "playerId": "S76561198878161886",
+              "shortName": "BEV"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 704,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gordon",
+          "lastName": "Beverly Jr.",
+          "playerId": "S76561198878161886",
+          "shortName": "BEV"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 141423,
+          "lastSplitId": 1,
+          "lastSplits": [
+            63868,
+            41737,
+            35817
+          ],
+          "totalTime": 471357288
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | GT3_FreePractice | R | SRAM#2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2023-02-14T10:36:45Z",
+  "SessionFile": "230214_103645_FP"
+}

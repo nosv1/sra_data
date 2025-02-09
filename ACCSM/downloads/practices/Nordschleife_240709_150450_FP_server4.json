@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 500932,
+      "splits": [
+        172830,
+        156840,
+        171262
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 499615,
+      "splits": [
+        173155,
+        155800,
+        170660
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 497595,
+      "splits": [
+        171917,
+        155297,
+        170380
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      171917,
+      155297,
+      170380
+    ],
+    "bestlap": 497595,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "  ",
+              "lastName": "Arct",
+              "playerId": "S76561198279907335",
+              "shortName": "RUG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 370,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "  ",
+          "lastName": "Arct",
+          "playerId": "S76561198279907335",
+          "shortName": "RUG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 497595,
+          "bestSplits": [
+            171917,
+            155297,
+            170380
+          ],
+          "lapCount": 3,
+          "lastLap": 497595,
+          "lastSplitId": 0,
+          "lastSplits": [
+            171917,
+            155297,
+            170380
+          ],
+          "totalTime": 59366009
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring_24h",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2024-07-09T15:04:50Z",
+  "SessionFile": "240709_150450_FP"
+}

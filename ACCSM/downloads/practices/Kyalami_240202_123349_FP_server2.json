@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 295031,
+      "splits": [
+        222018,
+        41947,
+        31065
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Stephen",
+              "lastName": "Pellerin",
+              "playerId": "S76561199074528657",
+              "shortName": "SJP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 164,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Stephen",
+          "lastName": "Pellerin",
+          "playerId": "S76561199074528657",
+          "shortName": "SJP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 295031,
+          "lastSplitId": 2,
+          "lastSplits": [
+            222018,
+            41947,
+            31065
+          ],
+          "totalTime": 5904785
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2024-02-02T12:33:49Z",
+  "SessionFile": "240202_123349_FP"
+}

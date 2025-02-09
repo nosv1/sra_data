@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109035,
+      "splits": [
+        29485,
+        36727,
+        42822
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109605,
+      "splits": [
+        29827,
+        37067,
+        42710
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108740,
+      "splits": [
+        29805,
+        36695,
+        42240
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 28,
+  "sessionResult": {
+    "bestSplits": [
+      29485,
+      36727,
+      42710
+    ],
+    "bestlap": 109035,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 86,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "DJ",
+              "lastName": "Watts",
+              "playerId": "S76561198141964925",
+              "shortName": "WAT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 8,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "DJ",
+          "lastName": "Watts",
+          "playerId": "S76561198141964925",
+          "shortName": "WAT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109035,
+          "bestSplits": [
+            29485,
+            36727,
+            42710
+          ],
+          "lapCount": 3,
+          "lastLap": 108740,
+          "lastSplitId": 0,
+          "lastSplits": [
+            29805,
+            36695,
+            42240
+          ],
+          "totalTime": 644502246
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | M2s \u0026 Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+  "Date": "2024-06-24T23:44:16Z",
+  "SessionFile": "240624_234416_FP"
+}

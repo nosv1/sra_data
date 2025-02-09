@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117705,
+      "splits": [
+        56545,
+        43605,
+        17555
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117752,
+      "splits": [
+        55880,
+        44452,
+        17420
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118275,
+      "splits": [
+        56527,
+        44020,
+        17727
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 94,
+  "sessionResult": {
+    "bestSplits": [
+      56527,
+      43605,
+      17555
+    ],
+    "bestlap": 117705,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "James",
+              "lastName": "May",
+              "playerId": "S76561198387383009",
+              "shortName": "SLO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 65,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "James",
+          "lastName": "May",
+          "playerId": "S76561198387383009",
+          "shortName": "SLO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 117705,
+          "bestSplits": [
+            56527,
+            43605,
+            17555
+          ],
+          "lapCount": 3,
+          "lastLap": 118275,
+          "lastSplitId": 0,
+          "lastSplits": [
+            56527,
+            44020,
+            17727
+          ],
+          "totalTime": 934891518
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+  "Date": "2024-12-31T20:48:40Z",
+  "SessionFile": "241231_204840_Q"
+}

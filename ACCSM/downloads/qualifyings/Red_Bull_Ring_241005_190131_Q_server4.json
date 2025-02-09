@@ -1,0 +1,186 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96327,
+      "splits": [
+        23925,
+        42585,
+        29817
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96500,
+      "splits": [
+        24137,
+        42077,
+        30285
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96037,
+      "splits": [
+        23970,
+        42017,
+        30050
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96597,
+      "splits": [
+        24115,
+        42330,
+        30152
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96225,
+      "splits": [
+        23922,
+        42300,
+        30002
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97630,
+      "splits": [
+        23977,
+        42325,
+        31327
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      23922,
+      42077,
+      29817
+    ],
+    "bestlap": 96225,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dick",
+              "lastName": "Zipperburn Jr.",
+              "playerId": "S76561199223122338",
+              "shortName": "ZIP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 393,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dick",
+          "lastName": "Zipperburn Jr.",
+          "playerId": "S76561199223122338",
+          "shortName": "ZIP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96225,
+          "bestSplits": [
+            23922,
+            42300,
+            29817
+          ],
+          "lapCount": 3,
+          "lastLap": 96225,
+          "lastSplitId": 2,
+          "lastSplits": [
+            23922,
+            42300,
+            30002
+          ],
+          "totalTime": 473637
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Austin",
+              "lastName": "Townsend",
+              "playerId": "S76561199446213190",
+              "shortName": "TWN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 210,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Austin",
+          "lastName": "Townsend",
+          "playerId": "S76561199446213190",
+          "shortName": "TWN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96500,
+          "bestSplits": [
+            24137,
+            42077,
+            30285
+          ],
+          "lapCount": 3,
+          "lastLap": 97630,
+          "lastSplitId": 2,
+          "lastSplits": [
+            23977,
+            42325,
+            31327
+          ],
+          "totalTime": 516886
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-10-05T19:01:31Z",
+  "SessionFile": "241005_190131_Q"
+}

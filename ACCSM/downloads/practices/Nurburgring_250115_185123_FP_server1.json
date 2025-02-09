@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 129585,
+      "splits": [
+        61637,
+        48320,
+        19627
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      61637,
+      48320,
+      19627
+    ],
+    "bestlap": 129585,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Logan",
+              "lastName": "Schaeffer",
+              "playerId": "S76561198117466444",
+              "shortName": "SCH"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 288,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Logan",
+          "lastName": "Schaeffer",
+          "playerId": "S76561198117466444",
+          "shortName": "SCH"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 129585,
+          "bestSplits": [
+            61637,
+            48320,
+            19627
+          ],
+          "lapCount": 1,
+          "lastLap": 129585,
+          "lastSplitId": 0,
+          "lastSplits": [
+            61637,
+            48320,
+            19627
+          ],
+          "totalTime": 69328367
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+  "Date": "2025-01-15T18:51:23Z",
+  "SessionFile": "250115_185123_FP"
+}

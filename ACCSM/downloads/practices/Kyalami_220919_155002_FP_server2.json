@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 370488,
+      "splits": [
+        278476,
+        55997,
+        36015
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116097,
+      "splits": [
+        34687,
+        47057,
+        34352
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Ramon",
+              "lastName": "Lorenzo",
+              "playerId": "S76561198337911093",
+              "shortName": "RLL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 162,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ramon",
+          "lastName": "Lorenzo",
+          "playerId": "S76561198337911093",
+          "shortName": "RLL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 116097,
+          "lastSplitId": 1,
+          "lastSplits": [
+            34687,
+            47057,
+            34352
+          ],
+          "totalTime": 54877567
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Practice (Wet) - Q condition | SRAM#2",
+  "metaData": "custom_race:6a92147f-3991-44c8-ac23-2a284be173b1",
+  "Date": "2022-09-19T15:50:02Z",
+  "SessionFile": "220919_155002_FP"
+}

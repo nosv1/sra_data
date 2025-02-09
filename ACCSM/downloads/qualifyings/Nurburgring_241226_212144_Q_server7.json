@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118320,
+      "splits": [
+        56675,
+        44010,
+        17635
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 120102,
+      "splits": [
+        55817,
+        45700,
+        18585
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 52,
+  "sessionResult": {
+    "bestSplits": [
+      56675,
+      44010,
+      17635
+    ],
+    "bestlap": 118320,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Carey",
+              "lastName": "Arnaud",
+              "playerId": "S76561198297742750",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 403,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Carey",
+          "lastName": "Arnaud",
+          "playerId": "S76561198297742750",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 118320,
+          "bestSplits": [
+            56675,
+            44010,
+            17635
+          ],
+          "lapCount": 2,
+          "lastLap": 120102,
+          "lastSplitId": 1,
+          "lastSplits": [
+            55817,
+            45700,
+            18585
+          ],
+          "totalTime": 503854276
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+  "Date": "2024-12-26T21:21:44Z",
+  "SessionFile": "241226_212144_Q"
+}

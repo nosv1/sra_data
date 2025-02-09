@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 135678,
+      "splits": [
+        58368,
+        35715,
+        41595
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106235,
+      "splits": [
+        29867,
+        34995,
+        41372
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105772,
+      "splits": [
+        29720,
+        34697,
+        41355
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105432,
+      "splits": [
+        29612,
+        34522,
+        41297
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105187,
+      "splits": [
+        29645,
+        34565,
+        40977
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105590,
+      "splits": [
+        29575,
+        34757,
+        41257
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 28,
+  "sessionResult": {
+    "bestSplits": [
+      29575,
+      34697,
+      41257
+    ],
+    "bestlap": 105590,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "David",
+              "lastName": "Mustillo",
+              "playerId": "S76561199398561368",
+              "shortName": "MUS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 7,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "David",
+          "lastName": "Mustillo",
+          "playerId": "S76561199398561368",
+          "shortName": "MUS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105590,
+          "bestSplits": [
+            29575,
+            34697,
+            41257
+          ],
+          "lapCount": 6,
+          "lastLap": 105590,
+          "lastSplitId": 1,
+          "lastSplits": [
+            29575,
+            34757,
+            41257
+          ],
+          "totalTime": 142482576
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-09-15T15:10:09Z",
+  "SessionFile": "230915_151009_FP"
+}

@@ -1,0 +1,171 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 239396,
+      "splits": [
+        138473,
+        63365,
+        37557
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 164417,
+      "splits": [
+        63967,
+        62897,
+        37552
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 142235,
+      "splits": [
+        42767,
+        62250,
+        37217
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 142367,
+      "splits": [
+        41837,
+        63025,
+        37505
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 143197,
+      "splits": [
+        42520,
+        62897,
+        37780
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      42520,
+      62897,
+      37780
+    ],
+    "bestlap": 143197,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Ramez",
+              "lastName": "Khayat",
+              "playerId": "S76561198194010142",
+              "shortName": "KHA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 905,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ramez",
+          "lastName": "Khayat",
+          "playerId": "S76561198194010142",
+          "shortName": "KHA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 143197,
+          "bestSplits": [
+            42520,
+            62897,
+            37780
+          ],
+          "lapCount": 5,
+          "lastLap": 143197,
+          "lastSplitId": 0,
+          "lastSplits": [
+            42520,
+            62897,
+            37780
+          ],
+          "totalTime": 779075
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 16,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Aidan",
+              "lastName": "Grover",
+              "playerId": "S76561198801827358",
+              "shortName": "AAG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 916,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Aidan",
+          "lastName": "Grover",
+          "playerId": "S76561198801827358",
+          "shortName": "AAG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "spa",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | SRA League Race - Preset | SRAM#2",
+  "metaData": "custom_race:e18a10fa-cc48-4b73-925e-5ddb7d8de5f9",
+  "Date": "2022-08-24T18:34:02Z",
+  "SessionFile": "220824_183402_Q"
+}

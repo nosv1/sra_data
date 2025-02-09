@@ -1,0 +1,150 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 239818,
+      "splits": [
+        152228,
+        43975,
+        43615
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 111235,
+      "splits": [
+        28012,
+        43590,
+        39632
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110045,
+      "splits": [
+        28037,
+        42845,
+        39162
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 110512,
+      "splits": [
+        27757,
+        43110,
+        39645
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108607,
+      "splits": [
+        27735,
+        41920,
+        38952
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108345,
+      "splits": [
+        27770,
+        41980,
+        38595
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109125,
+      "splits": [
+        27460,
+        42027,
+        39637
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      27460,
+      41920,
+      38595
+    ],
+    "bestlap": 108345,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Roger",
+              "lastName": "Rodriguez",
+              "playerId": "S76561199113520958",
+              "shortName": "ROD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 305,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Roger",
+          "lastName": "Rodriguez",
+          "playerId": "S76561199113520958",
+          "shortName": "ROD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 108345,
+          "bestSplits": [
+            27460,
+            41920,
+            38595
+          ],
+          "lapCount": 7,
+          "lastLap": 109125,
+          "lastSplitId": 0,
+          "lastSplits": [
+            27460,
+            42027,
+            39637
+          ],
+          "totalTime": 46023526
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | GT3_FreePractice | SRAM#2",
+  "metaData": "custom_race:6ed5cefc-5f1d-446b-856b-6b6d8524e4b6",
+  "Date": "2022-12-03T00:33:30Z",
+  "SessionFile": "221203_003330_FP"
+}

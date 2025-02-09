@@ -1,0 +1,197 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 250073,
+      "splits": [
+        177618,
+        38580,
+        33875
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97140,
+      "splits": [
+        24692,
+        38392,
+        34055
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96627,
+      "splits": [
+        24285,
+        38622,
+        33720
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96625,
+      "splits": [
+        24282,
+        38600,
+        33742
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 135653,
+      "splits": [
+        61793,
+        39392,
+        34467
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96585,
+      "splits": [
+        23887,
+        38235,
+        34462
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98497,
+      "splits": [
+        24692,
+        39705,
+        34100
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      23887,
+      38235,
+      34100
+    ],
+    "bestlap": 96585,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Tony",
+              "lastName": "Swann",
+              "playerId": "S76561199085381238",
+              "shortName": "SWA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 85,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Tony",
+          "lastName": "Swann",
+          "playerId": "S76561199085381238",
+          "shortName": "SWA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96585,
+          "bestSplits": [
+            23887,
+            38235,
+            34462
+          ],
+          "lapCount": 5,
+          "lastLap": 96585,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23887,
+            38235,
+            34462
+          ],
+          "totalTime": 521489
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Marty",
+              "lastName": "Spacebaker",
+              "playerId": "S76561198090047757",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 992,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Marty",
+          "lastName": "Spacebaker",
+          "playerId": "S76561198090047757",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 98497,
+          "bestSplits": [
+            24692,
+            39705,
+            34100
+          ],
+          "lapCount": 2,
+          "lastLap": 98497,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24692,
+            39705,
+            34100
+          ],
+          "totalTime": 556762
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "misano",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2023-08-28T22:14:52Z",
+  "SessionFile": "230828_221452_Q"
+}

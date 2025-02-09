@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 147547,
+      "splits": [
+        42392,
+        64982,
+        40172
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 145420,
+      "splits": [
+        42352,
+        64227,
+        38840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 144252,
+      "splits": [
+        42022,
+        64265,
+        37965
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 11,
+  "sessionResult": {
+    "bestSplits": [
+      42352,
+      64227,
+      38840
+    ],
+    "bestlap": 145420,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Aaron",
+              "lastName": "Weber",
+              "playerId": "S76561198066748166",
+              "shortName": "AAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 721,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Aaron",
+          "lastName": "Weber",
+          "playerId": "S76561198066748166",
+          "shortName": "AAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 145420,
+          "bestSplits": [
+            42352,
+            64227,
+            38840
+          ],
+          "lapCount": 3,
+          "lastLap": 144252,
+          "lastSplitId": 0,
+          "lastSplits": [
+            42022,
+            64265,
+            37965
+          ],
+          "totalTime": 91250634
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "spa",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-06-15T15:36:11Z",
+  "SessionFile": "240615_153611_FP"
+}

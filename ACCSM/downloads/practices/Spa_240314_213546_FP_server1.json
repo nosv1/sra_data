@@ -1,0 +1,197 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 248123,
+      "splits": [
+        100858,
+        93990,
+        53275
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 161676,
+      "splits": [
+        53478,
+        68090,
+        40107
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 223255,
+      "splits": [
+        104067,
+        76420,
+        42767
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 150730,
+      "splits": [
+        43742,
+        67102,
+        39885
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 188437,
+      "splits": [
+        73947,
+        72065,
+        42425
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 149832,
+      "splits": [
+        43722,
+        66582,
+        39527
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 150160,
+      "splits": [
+        43472,
+        66712,
+        39975
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      43472,
+      66712,
+      39885
+    ],
+    "bestlap": 150160,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Eric",
+              "lastName": "Marecki",
+              "playerId": "S76561197993810871",
+              "shortName": "MAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 307,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Eric",
+          "lastName": "Marecki",
+          "playerId": "S76561197993810871",
+          "shortName": "MAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 150160,
+          "bestSplits": [
+            43472,
+            66712,
+            39885
+          ],
+          "lapCount": 4,
+          "lastLap": 150160,
+          "lastSplitId": 0,
+          "lastSplits": [
+            43472,
+            66712,
+            39975
+          ],
+          "totalTime": 73542728
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeremy",
+              "lastName": "Yaron",
+              "playerId": "S76561199045419020",
+              "shortName": "JER"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 295,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeremy",
+          "lastName": "Yaron",
+          "playerId": "S76561199045419020",
+          "shortName": "JER"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 188437,
+          "lastSplitId": 0,
+          "lastSplits": [
+            73947,
+            72065,
+            42425
+          ],
+          "totalTime": 73295784
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "spa",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-03-14T21:35:46Z",
+  "SessionFile": "240314_213546_FP"
+}

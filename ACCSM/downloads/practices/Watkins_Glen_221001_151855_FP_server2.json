@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 267751,
+      "splits": [
+        189223,
+        35965,
+        42562
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 26,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Nathan",
+              "lastName": "Specht",
+              "playerId": "S76561198135288811",
+              "shortName": "NLS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 3,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nathan",
+          "lastName": "Specht",
+          "playerId": "S76561198135288811",
+          "shortName": "NLS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 267751,
+          "lastSplitId": 2,
+          "lastSplits": [
+            189223,
+            35965,
+            42562
+          ],
+          "totalTime": 227208660
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | \u003e | GT3 Free Practice | Q  | SRAM#2",
+  "metaData": "custom_race:dd2e6620-b95f-4123-a0e3-49b2bd1b0636",
+  "Date": "2022-10-01T15:18:55Z",
+  "SessionFile": "221001_151855_FP"
+}

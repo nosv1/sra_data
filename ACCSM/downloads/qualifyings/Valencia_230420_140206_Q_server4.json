@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 248556,
+      "splits": [
+        183681,
+        38440,
+        26435
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96320,
+      "splits": [
+        34725,
+        36810,
+        24785
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 197555,
+      "splits": [
+        136385,
+        36642,
+        24527
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94735,
+      "splits": [
+        34710,
+        35992,
+        24032
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "João",
+              "lastName": "Sodré",
+              "playerId": "S76561198024833854",
+              "shortName": "SOD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 51,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "João",
+          "lastName": "Sodré",
+          "playerId": "S76561198024833854",
+          "shortName": "SOD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 4,
+          "lastLap": 94735,
+          "lastSplitId": 2,
+          "lastSplits": [
+            34710,
+            35992,
+            24032
+          ],
+          "totalTime": 586562
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "valencia",
+  "serverName": "#SRAgg | SimRacingAlliance.com | SRA Weekend Sprint #2 | #SRAE | #SRAM4",
+  "metaData": "custom_race:476eaab1-7c31-4267-9358-454f593d78ca",
+  "Date": "2023-04-20T14:02:06Z",
+  "SessionFile": "230420_140206_Q"
+}

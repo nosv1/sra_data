@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1008,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 128230,
+      "splits": [
+        61362,
+        47392,
+        19475
+      ]
+    },
+    {
+      "carId": 1008,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128467,
+      "splits": [
+        60520,
+        47705,
+        20242
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 26,
+  "sessionResult": {
+    "bestSplits": [
+      61362,
+      47392,
+      19475
+    ],
+    "bestlap": 128230,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1008,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Robert",
+              "lastName": "Lacy",
+              "playerId": "S76561197995657485",
+              "shortName": "LAC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 558,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Robert",
+          "lastName": "Lacy",
+          "playerId": "S76561197995657485",
+          "shortName": "LAC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 128230,
+          "bestSplits": [
+            61362,
+            47392,
+            19475
+          ],
+          "lapCount": 2,
+          "lastLap": 128467,
+          "lastSplitId": 0,
+          "lastSplits": [
+            60520,
+            47705,
+            20242
+          ],
+          "totalTime": 72941527
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+  "Date": "2025-01-12T15:49:58Z",
+  "SessionFile": "250112_154958_FP"
+}

@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 301566,
+      "splits": [
+        229983,
+        41025,
+        30557
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103125,
+      "splits": [
+        31420,
+        40922,
+        30782
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106280,
+      "splits": [
+        31372,
+        44682,
+        30225
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 200925,
+      "splits": [
+        129952,
+        40710,
+        30262
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 240395,
+      "splits": [
+        169202,
+        40992,
+        30200
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 102630,
+      "splits": [
+        31327,
+        40742,
+        30560
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      31420,
+      40922,
+      30782
+    ],
+    "bestlap": 103125,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Steve",
+              "lastName": "Yoon",
+              "playerId": "S76561198028203510",
+              "shortName": "HGN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 25,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Steve",
+          "lastName": "Yoon",
+          "playerId": "S76561198028203510",
+          "shortName": "HGN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103125,
+          "bestSplits": [
+            31420,
+            40922,
+            30782
+          ],
+          "lapCount": 6,
+          "lastLap": 102630,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31327,
+            40742,
+            30560
+          ],
+          "totalTime": 54143304
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-27T17:41:45Z",
+  "SessionFile": "220427_174145_FP"
+}

@@ -1,0 +1,219 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 498116,
+      "splits": [
+        417468,
+        46595,
+        34052
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117920,
+      "splits": [
+        36267,
+        46447,
+        35205
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 228956,
+      "splits": [
+        150666,
+        45180,
+        33110
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115132,
+      "splits": [
+        34612,
+        45907,
+        34612
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110970,
+      "splits": [
+        33430,
+        44527,
+        33012
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111167,
+      "splits": [
+        33392,
+        44735,
+        33040
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111715,
+      "splits": [
+        33507,
+        44712,
+        33495
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111025,
+      "splits": [
+        33307,
+        44600,
+        33117
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 222910,
+      "splits": [
+        144605,
+        45177,
+        33127
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      33307,
+      44527,
+      33012
+    ],
+    "bestlap": 110970,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Grant",
+              "lastName": "Klinsing",
+              "playerId": "S76561197995236815",
+              "shortName": "KLI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 49,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Grant",
+          "lastName": "Klinsing",
+          "playerId": "S76561197995236815",
+          "shortName": "KLI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 110970,
+          "bestSplits": [
+            33307,
+            44527,
+            33012
+          ],
+          "lapCount": 6,
+          "lastLap": 222910,
+          "lastSplitId": 2,
+          "lastSplits": [
+            144605,
+            45177,
+            33127
+          ],
+          "totalTime": 50221934
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "DJ",
+              "lastName": "Watts",
+              "playerId": "S76561198141964925",
+              "shortName": "WAT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 242,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "DJ",
+          "lastName": "Watts",
+          "playerId": "S76561198141964925",
+          "shortName": "WAT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 115132,
+          "lastSplitId": 0,
+          "lastSplits": [
+            34612,
+            45907,
+            34612
+          ],
+          "totalTime": 49529683
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | Practice (Wet) | SRAM#1",
+  "metaData": "custom_race:1f39e049-b9de-4b7b-ba39-81ad8fc87bcd",
+  "Date": "2022-09-15T17:23:07Z",
+  "SessionFile": "220915_172307_FP"
+}

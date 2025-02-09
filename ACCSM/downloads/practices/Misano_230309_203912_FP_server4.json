@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 140891,
+      "splits": [
+        67121,
+        39047,
+        34722
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95342,
+      "splits": [
+        23832,
+        37920,
+        33590
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96157,
+      "splits": [
+        24070,
+        38107,
+        33980
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95820,
+      "splits": [
+        24095,
+        37907,
+        33817
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95452,
+      "splits": [
+        23967,
+        37570,
+        33915
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94865,
+      "splits": [
+        23925,
+        37690,
+        33250
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      23832,
+      37690,
+      33250
+    ],
+    "bestlap": 94865,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alan",
+              "lastName": "Astbury",
+              "playerId": "S76561198002794090",
+              "shortName": "AST"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 1,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alan",
+          "lastName": "Astbury",
+          "playerId": "S76561198002794090",
+          "shortName": "AST"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94865,
+          "bestSplits": [
+            23832,
+            37690,
+            33250
+          ],
+          "lapCount": 6,
+          "lastLap": 94865,
+          "lastSplitId": 1,
+          "lastSplits": [
+            23925,
+            37690,
+            33250
+          ],
+          "totalTime": 54260528
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Fazlee",
+              "lastName": "Majeed",
+              "playerId": "S76561197960889643",
+              "shortName": "FAZ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 712,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Fazlee",
+          "lastName": "Majeed",
+          "playerId": "S76561197960889643",
+          "shortName": "FAZ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA.gg | Sim Racing Alliance | Main Server #4 | MCM_FreePractice | R | SRAM#4",
+  "metaData": "custom_race:0b4dea5d-75f0-4df5-8f2f-30ddb1b84b68",
+  "Date": "2023-03-09T20:39:12Z",
+  "SessionFile": "230309_203912_FP"
+}

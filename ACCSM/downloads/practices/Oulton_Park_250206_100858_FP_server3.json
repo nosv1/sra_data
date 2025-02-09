@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96145,
+      "splits": [
+        23635,
+        46345,
+        26165
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95887,
+      "splits": [
+        23545,
+        46260,
+        26082
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95982,
+      "splits": [
+        23372,
+        46145,
+        26465
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95460,
+      "splits": [
+        23272,
+        46085,
+        26102
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94935,
+      "splits": [
+        23282,
+        45915,
+        25737
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      23272,
+      45915,
+      25737
+    ],
+    "bestlap": 94935,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Richie",
+              "lastName": "Wood",
+              "playerId": "S76561199103471751",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 101,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Richie",
+          "lastName": "Wood",
+          "playerId": "S76561199103471751",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94935,
+          "bestSplits": [
+            23272,
+            45915,
+            25737
+          ],
+          "lapCount": 5,
+          "lastLap": 94935,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23282,
+            45915,
+            25737
+          ],
+          "totalTime": 37925789
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "oulton_park",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2025-02-06T10:08:58Z",
+  "SessionFile": "250206_100858_FP"
+}

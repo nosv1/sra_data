@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95815,
+      "splits": [
+        23442,
+        46397,
+        25975
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96565,
+      "splits": [
+        23602,
+        46267,
+        26695
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95945,
+      "splits": [
+        23445,
+        46467,
+        26032
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95337,
+      "splits": [
+        23497,
+        46245,
+        25595
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95632,
+      "splits": [
+        23667,
+        46057,
+        25907
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 100922,
+      "splits": [
+        23500,
+        46432,
+        30990
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      23442,
+      46057,
+      25595
+    ],
+    "bestlap": 95337,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Thomas",
+              "lastName": "Reg (CAN)",
+              "playerId": "S76561198003378460",
+              "shortName": "REG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 72,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Thomas",
+          "lastName": "Reg (CAN)",
+          "playerId": "S76561198003378460",
+          "shortName": "REG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 95337,
+          "bestSplits": [
+            23442,
+            46057,
+            25595
+          ],
+          "lapCount": 6,
+          "lastLap": 100922,
+          "lastSplitId": 2,
+          "lastSplits": [
+            23500,
+            46432,
+            30990
+          ],
+          "totalTime": 89022659
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Shane",
+              "lastName": "Lewis",
+              "playerId": "S76561199276751968",
+              "shortName": "SRL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 211,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Shane",
+          "lastName": "Lewis",
+          "playerId": "S76561199276751968",
+          "shortName": "SRL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "oulton_park",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2025-02-07T00:19:15Z",
+  "SessionFile": "250207_001915_FP"
+}

@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 666678,
+      "splits": [
+        573478,
+        61687,
+        31512
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 145665,
+      "splits": [
+        47770,
+        63805,
+        34090
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 267530,
+      "splits": [
+        175585,
+        60692,
+        31252
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 137967,
+      "splits": [
+        46955,
+        60235,
+        30777
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 206087,
+      "splits": [
+        114042,
+        61350,
+        30695
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      46955,
+      60235,
+      30777
+    ],
+    "bestlap": 137967,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Roger",
+              "lastName": "Rodriguez",
+              "playerId": "S76561199113520958",
+              "shortName": "ROD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 305,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Roger",
+          "lastName": "Rodriguez",
+          "playerId": "S76561199113520958",
+          "shortName": "ROD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 137967,
+          "bestSplits": [
+            46955,
+            60235,
+            30777
+          ],
+          "lapCount": 5,
+          "lastLap": 206087,
+          "lastSplitId": 0,
+          "lastSplits": [
+            114042,
+            61350,
+            30695
+          ],
+          "totalTime": 52055394
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | \u003e | GT3 Free Practice | Q  | SRAM#2",
+  "metaData": "custom_race:dd2e6620-b95f-4123-a0e3-49b2bd1b0636",
+  "Date": "2022-10-06T14:16:17Z",
+  "SessionFile": "221006_141617_FP"
+}

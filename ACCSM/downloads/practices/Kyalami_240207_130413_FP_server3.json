@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 136623,
+      "splits": [
+        62831,
+        42520,
+        31272
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104590,
+      "splits": [
+        31717,
+        41767,
+        31105
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 104385,
+      "splits": [
+        31652,
+        41857,
+        30875
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104252,
+      "splits": [
+        31557,
+        41885,
+        30810
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105365,
+      "splits": [
+        32125,
+        41675,
+        31565
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      31557,
+      41767,
+      30810
+    ],
+    "bestlap": 104252,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Rob",
+              "lastName": "Warren",
+              "playerId": "S76561199379314506",
+              "shortName": "ROB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 69,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Rob",
+          "lastName": "Warren",
+          "playerId": "S76561199379314506",
+          "shortName": "ROB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 104252,
+          "bestSplits": [
+            31557,
+            41767,
+            30810
+          ],
+          "lapCount": 5,
+          "lastLap": 105365,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32125,
+            41675,
+            31565
+          ],
+          "totalTime": 47596276
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+  "Date": "2024-02-07T13:04:13Z",
+  "SessionFile": "240207_130413_FP"
+}

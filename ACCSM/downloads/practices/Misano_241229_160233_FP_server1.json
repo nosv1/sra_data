@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96235,
+      "splits": [
+        24542,
+        38020,
+        33672
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95590,
+      "splits": [
+        24162,
+        37912,
+        33515
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96005,
+      "splits": [
+        23885,
+        38032,
+        34087
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95695,
+      "splits": [
+        23990,
+        37947,
+        33757
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95510,
+      "splits": [
+        23902,
+        37962,
+        33645
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95527,
+      "splits": [
+        24010,
+        37780,
+        33737
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      24010,
+      37780,
+      33672
+    ],
+    "bestlap": 95527,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Artim",
+              "playerId": "S76561198059402423",
+              "shortName": "ART"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 414,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Artim",
+          "playerId": "S76561198059402423",
+          "shortName": "ART"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 95527,
+          "bestSplits": [
+            24010,
+            37780,
+            33672
+          ],
+          "lapCount": 6,
+          "lastLap": 95527,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24010,
+            37780,
+            33737
+          ],
+          "totalTime": 10201021
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-12-29T16:02:33Z",
+  "SessionFile": "241229_160233_FP"
+}

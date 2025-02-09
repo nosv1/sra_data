@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 370871,
+      "splits": [
+        291863,
+        36872,
+        42135
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106155,
+      "splits": [
+        29482,
+        35007,
+        41665
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106100,
+      "splits": [
+        29365,
+        35037,
+        41697
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 45,
+  "sessionResult": {
+    "bestSplits": [
+      29482,
+      35007,
+      41665
+    ],
+    "bestlap": 106155,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dieveem",
+              "lastName": "Galindo",
+              "playerId": "S76561199422692767",
+              "shortName": "DNG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 324,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dieveem",
+          "lastName": "Galindo",
+          "playerId": "S76561199422692767",
+          "shortName": "DNG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106155,
+          "bestSplits": [
+            29482,
+            35007,
+            41665
+          ],
+          "lapCount": 3,
+          "lastLap": 106100,
+          "lastSplitId": 1,
+          "lastSplits": [
+            29365,
+            35037,
+            41697
+          ],
+          "totalTime": 302086147
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-09-17T11:32:01Z",
+  "SessionFile": "230917_113201_FP"
+}

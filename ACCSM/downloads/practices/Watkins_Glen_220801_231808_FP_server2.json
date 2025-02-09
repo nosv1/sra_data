@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 200958,
+      "splits": [
+        120838,
+        35982,
+        44137
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109020,
+      "splits": [
+        30625,
+        36150,
+        42245
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107747,
+      "splits": [
+        30255,
+        35840,
+        41652
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 107705,
+      "splits": [
+        30045,
+        35675,
+        41985
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      30255,
+      35840,
+      41652
+    ],
+    "bestlap": 107747,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Kevin",
+              "lastName": "Kovach",
+              "playerId": "S76561198056527329",
+              "shortName": "KKO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 128,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kevin",
+          "lastName": "Kovach",
+          "playerId": "S76561198056527329",
+          "shortName": "KKO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107747,
+          "bestSplits": [
+            30255,
+            35840,
+            41652
+          ],
+          "lapCount": 4,
+          "lastLap": 107705,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30045,
+            35675,
+            41985
+          ],
+          "totalTime": 39349543
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAserv2 | Sim Racing Alliance | Main Server 2 | discord.gg/SimRacingAlliance | ",
+  "metaData": "custom_race:6e923753-63e1-49ca-8acf-cda99e862b6b",
+  "Date": "2022-08-01T23:18:08Z",
+  "SessionFile": "220801_231808_FP"
+}

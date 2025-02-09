@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 109390,
+      "splits": [
+        36882,
+        41462,
+        31045
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104230,
+      "splits": [
+        31795,
+        41645,
+        30790
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105095,
+      "splits": [
+        31722,
+        42075,
+        31297
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      31795,
+      41645,
+      30790
+    ],
+    "bestlap": 104230,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Deej",
+              "lastName": "Johnson",
+              "playerId": "S76561198354855850",
+              "shortName": "DJJ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 221,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Deej",
+          "lastName": "Johnson",
+          "playerId": "S76561198354855850",
+          "shortName": "DJJ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 104230,
+          "bestSplits": [
+            31795,
+            41645,
+            30790
+          ],
+          "lapCount": 3,
+          "lastLap": 105095,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31722,
+            42075,
+            31297
+          ],
+          "totalTime": 82793590
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-10-26T11:40:35Z",
+  "SessionFile": "241026_114035_FP"
+}

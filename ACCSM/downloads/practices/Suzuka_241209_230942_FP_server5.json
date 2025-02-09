@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 122300,
+      "splits": [
+        41752,
+        54087,
+        26460
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120292,
+      "splits": [
+        40357,
+        53355,
+        26580
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119907,
+      "splits": [
+        40190,
+        53312,
+        26405
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      40190,
+      53312,
+      26405
+    ],
+    "bestlap": 119907,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Donovan",
+              "lastName": "Colton",
+              "playerId": "S76561198170883294",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 272,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Donovan",
+          "lastName": "Colton",
+          "playerId": "S76561198170883294",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 119907,
+          "bestSplits": [
+            40190,
+            53312,
+            26405
+          ],
+          "lapCount": 3,
+          "lastLap": 119907,
+          "lastSplitId": 0,
+          "lastSplits": [
+            40190,
+            53312,
+            26405
+          ],
+          "totalTime": 1129282
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2024-12-09T23:09:42Z",
+  "SessionFile": "241209_230942_FP"
+}

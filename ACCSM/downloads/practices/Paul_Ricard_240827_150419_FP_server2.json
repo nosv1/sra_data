@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115752,
+      "splits": [
+        32152,
+        32315,
+        51285
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115582,
+      "splits": [
+        32007,
+        32280,
+        51295
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117432,
+      "splits": [
+        31957,
+        32465,
+        53010
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      32007,
+      32280,
+      51285
+    ],
+    "bestlap": 115582,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Elliot",
+              "lastName": "Levine",
+              "playerId": "S76561198963613241",
+              "shortName": "EJL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 512,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Elliot",
+          "lastName": "Levine",
+          "playerId": "S76561198963613241",
+          "shortName": "EJL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115582,
+          "bestSplits": [
+            32007,
+            32280,
+            51285
+          ],
+          "lapCount": 3,
+          "lastLap": 117432,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31957,
+            32465,
+            53010
+          ],
+          "totalTime": 64254888
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+  "Date": "2024-08-27T15:04:19Z",
+  "SessionFile": "240827_150419_FP"
+}

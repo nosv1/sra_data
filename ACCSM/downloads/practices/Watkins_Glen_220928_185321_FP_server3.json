@@ -1,0 +1,263 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 174266,
+      "splits": [
+        96701,
+        35372,
+        42192
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107412,
+      "splits": [
+        30210,
+        35530,
+        41672
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106535,
+      "splits": [
+        29982,
+        35175,
+        41377
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106555,
+      "splits": [
+        29742,
+        34772,
+        42040
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106562,
+      "splits": [
+        29772,
+        35172,
+        41617
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106427,
+      "splits": [
+        29822,
+        34800,
+        41805
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105837,
+      "splits": [
+        29972,
+        34647,
+        41217
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 1483931,
+      "splits": [
+        1397926,
+        40945,
+        45060
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 120800,
+      "splits": [
+        31737,
+        45040,
+        44022
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116005,
+      "splits": [
+        32995,
+        38315,
+        44695
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114695,
+      "splits": [
+        32300,
+        37875,
+        44520
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112380,
+      "splits": [
+        31700,
+        37087,
+        43592
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114637,
+      "splits": [
+        32062,
+        38357,
+        44217
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      29772,
+      34647,
+      41217
+    ],
+    "bestlap": 105837,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jason",
+              "lastName": "Kinger",
+              "playerId": "S76561198881698255",
+              "shortName": "KIN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 412,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jason",
+          "lastName": "Kinger",
+          "playerId": "S76561198881698255",
+          "shortName": "KIN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105837,
+          "bestSplits": [
+            29772,
+            34647,
+            41217
+          ],
+          "lapCount": 7,
+          "lastLap": 105837,
+          "lastSplitId": 1,
+          "lastSplits": [
+            29972,
+            34647,
+            41217
+          ],
+          "totalTime": 55388751
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Kyle",
+              "lastName": "McGuinness",
+              "playerId": "S76561198019741162",
+              "shortName": "MCG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 711,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kyle",
+          "lastName": "McGuinness",
+          "playerId": "S76561198019741162",
+          "shortName": "MCG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 112380,
+          "bestSplits": [
+            31700,
+            37087,
+            43592
+          ],
+          "lapCount": 6,
+          "lastLap": 114637,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32062,
+            38357,
+            44217
+          ],
+          "totalTime": 56502632
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | \u003e | MCM Practice | SRAM#3",
+  "metaData": "custom_race:62c64dac-70bf-40aa-b195-e2d36798078c",
+  "Date": "2022-09-28T18:53:21Z",
+  "SessionFile": "220928_185321_FP"
+}

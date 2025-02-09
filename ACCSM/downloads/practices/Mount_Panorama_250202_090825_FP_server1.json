@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 126020,
+      "splits": [
+        39855,
+        58607,
+        27557
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127297,
+      "splits": [
+        39480,
+        60087,
+        27730
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124717,
+      "splits": [
+        39180,
+        57950,
+        27587
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 47,
+  "sessionResult": {
+    "bestSplits": [
+      39180,
+      57950,
+      27557
+    ],
+    "bestlap": 124717,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Nitin",
+              "lastName": "Murthy",
+              "playerId": "S76561198156677863",
+              "shortName": "MUR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 29,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nitin",
+          "lastName": "Murthy",
+          "playerId": "S76561198156677863",
+          "shortName": "MUR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 124717,
+          "bestSplits": [
+            39180,
+            57950,
+            27557
+          ],
+          "lapCount": 3,
+          "lastLap": 124717,
+          "lastSplitId": 1,
+          "lastSplits": [
+            39180,
+            57950,
+            27587
+          ],
+          "totalTime": 292653134
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2025-02-02T09:08:25Z",
+  "SessionFile": "250202_090825_FP"
+}

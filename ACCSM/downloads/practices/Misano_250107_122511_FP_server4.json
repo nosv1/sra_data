@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97912,
+      "splits": [
+        24380,
+        38897,
+        34635
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97402,
+      "splits": [
+        24340,
+        38657,
+        34405
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      24380,
+      38897,
+      34635
+    ],
+    "bestlap": 97912,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "SERGIO",
+              "lastName": "LINDO",
+              "playerId": "S76561198314724439",
+              "shortName": "LIN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 968,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "SERGIO",
+          "lastName": "LINDO",
+          "playerId": "S76561198314724439",
+          "shortName": "LIN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97912,
+          "bestSplits": [
+            24380,
+            38897,
+            34635
+          ],
+          "lapCount": 2,
+          "lastLap": 97402,
+          "lastSplitId": 2,
+          "lastSplits": [
+            24340,
+            38657,
+            34405
+          ],
+          "totalTime": 49767601
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2025-01-07T12:25:11Z",
+  "SessionFile": "250107_122511_FP"
+}

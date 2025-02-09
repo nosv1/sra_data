@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 155123,
+      "splits": [
+        80923,
+        43112,
+        31087
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106572,
+      "splits": [
+        32585,
+        41537,
+        32450
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104627,
+      "splits": [
+        31880,
+        41655,
+        31092
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104295,
+      "splits": [
+        31910,
+        41685,
+        30700
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103880,
+      "splits": [
+        31382,
+        41657,
+        30840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103620,
+      "splits": [
+        31595,
+        41722,
+        30302
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 17,
+  "sessionResult": {
+    "bestSplits": [
+      31382,
+      41537,
+      30302
+    ],
+    "bestlap": 103620,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Stephen",
+              "lastName": "Pellerin",
+              "playerId": "S76561199074528657",
+              "shortName": "SJP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 64,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Stephen",
+          "lastName": "Pellerin",
+          "playerId": "S76561199074528657",
+          "shortName": "SJP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103620,
+          "bestSplits": [
+            31382,
+            41537,
+            30302
+          ],
+          "lapCount": 6,
+          "lastLap": 103620,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31595,
+            41722,
+            30302
+          ],
+          "totalTime": 155495455
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | SRAM#1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-01-21T02:37:33Z",
+  "SessionFile": "230121_023733_FP"
+}

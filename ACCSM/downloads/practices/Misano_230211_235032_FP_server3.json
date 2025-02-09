@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 395576,
+      "splits": [
+        316976,
+        40522,
+        38077
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105687,
+      "splits": [
+        25697,
+        42277,
+        37712
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103607,
+      "splits": [
+        27150,
+        40237,
+        36220
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 100700,
+      "splits": [
+        25960,
+        39112,
+        35627
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 101615,
+      "splits": [
+        25847,
+        39582,
+        36185
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 99332,
+      "splits": [
+        24962,
+        39110,
+        35260
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 36,
+  "sessionResult": {
+    "bestSplits": [
+      25697,
+      39112,
+      35627
+    ],
+    "bestlap": 100700,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Sam",
+              "lastName": "Harris",
+              "playerId": "S76561197977811312",
+              "shortName": "SAM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 851,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sam",
+          "lastName": "Harris",
+          "playerId": "S76561197977811312",
+          "shortName": "SAM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 100700,
+          "bestSplits": [
+            25697,
+            39112,
+            35627
+          ],
+          "lapCount": 6,
+          "lastLap": 99332,
+          "lastSplitId": 2,
+          "lastSplits": [
+            24962,
+            39110,
+            35260
+          ],
+          "totalTime": 241804320
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | GT3_FreePractice | Q | SRAM#3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2023-02-11T23:50:32Z",
+  "SessionFile": "230211_235032_FP"
+}

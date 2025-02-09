@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 247426,
+      "splits": [
+        163228,
+        50292,
+        33905
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 118832,
+      "splits": [
+        35375,
+        49802,
+        33655
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118630,
+      "splits": [
+        34792,
+        50030,
+        33807
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117987,
+      "splits": [
+        34720,
+        49597,
+        33670
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      34792,
+      50030,
+      33807
+    ],
+    "bestlap": 118630,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alex",
+              "lastName": "Chilcutt",
+              "playerId": "S76561198356526440",
+              "shortName": "CHI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 65,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alex",
+          "lastName": "Chilcutt",
+          "playerId": "S76561198356526440",
+          "shortName": "CHI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 118630,
+          "bestSplits": [
+            34792,
+            50030,
+            33807
+          ],
+          "lapCount": 4,
+          "lastLap": 117987,
+          "lastSplitId": 0,
+          "lastSplits": [
+            34720,
+            49597,
+            33670
+          ],
+          "totalTime": 479985
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "silverstone",
+  "serverName": "SRA.gg | Sim Racing Alliance | Main Server #4 | SUN | SRA Weekend Sprint #5 | #SRAE | SRAM#4",
+  "metaData": "custom_race:30264826-1bf4-4eac-aeee-7caf5bf1e25a",
+  "Date": "2023-04-02T19:18:26Z",
+  "SessionFile": "230402_191826_Q"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 187498,
+      "splits": [
+        105991,
+        54425,
+        27082
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121397,
+      "splits": [
+        40732,
+        53892,
+        26772
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121242,
+      "splits": [
+        40835,
+        53727,
+        26680
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 14,
+  "sessionResult": {
+    "bestSplits": [
+      40732,
+      53727,
+      26680
+    ],
+    "bestlap": 121242,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Elliot",
+              "lastName": "Levine",
+              "playerId": "S76561198963613241",
+              "shortName": "EJL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 46,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Elliot",
+          "lastName": "Levine",
+          "playerId": "S76561198963613241",
+          "shortName": "EJL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121242,
+          "bestSplits": [
+            40732,
+            53727,
+            26680
+          ],
+          "lapCount": 3,
+          "lastLap": 121242,
+          "lastSplitId": 1,
+          "lastSplits": [
+            40835,
+            53727,
+            26680
+          ],
+          "totalTime": 42007696
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-10-29T22:37:01Z",
+  "SessionFile": "231029_223701_FP"
+}

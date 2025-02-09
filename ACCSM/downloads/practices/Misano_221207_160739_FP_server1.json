@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 141938,
+      "splits": [
+        61078,
+        42685,
+        38175
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112805,
+      "splits": [
+        27312,
+        47367,
+        38125
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 107420,
+      "splits": [
+        27125,
+        41927,
+        38367
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107505,
+      "splits": [
+        27365,
+        41917,
+        38222
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      27365,
+      41917,
+      38222
+    ],
+    "bestlap": 107505,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Karl",
+              "lastName": "Fredricksen",
+              "playerId": "S76561198056129236",
+              "shortName": "FRD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 24,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Karl",
+          "lastName": "Fredricksen",
+          "playerId": "S76561198056129236",
+          "shortName": "FRD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107505,
+          "bestSplits": [
+            27365,
+            41917,
+            38222
+          ],
+          "lapCount": 4,
+          "lastLap": 107505,
+          "lastSplitId": 1,
+          "lastSplits": [
+            27365,
+            41917,
+            38222
+          ],
+          "totalTime": 41212163
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | Locked: D2  | SRAM#1",
+  "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+  "Date": "2022-12-07T16:07:39Z",
+  "SessionFile": "221207_160739_FP"
+}

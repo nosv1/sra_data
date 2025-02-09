@@ -1,0 +1,252 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94487,
+      "splits": [
+        23737,
+        37450,
+        33300
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94745,
+      "splits": [
+        23915,
+        37685,
+        33145
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94407,
+      "splits": [
+        23727,
+        37325,
+        33355
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95457,
+      "splits": [
+        24022,
+        37947,
+        33487
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94722,
+      "splits": [
+        23777,
+        37782,
+        33162
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97057,
+      "splits": [
+        24220,
+        38122,
+        34715
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94822,
+      "splits": [
+        23865,
+        37605,
+        33352
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94897,
+      "splits": [
+        23937,
+        37700,
+        33260
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95565,
+      "splits": [
+        24500,
+        37732,
+        33332
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94540,
+      "splits": [
+        23755,
+        37472,
+        33312
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97377,
+      "splits": [
+        23835,
+        37917,
+        35625
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 107667,
+      "splits": [
+        25890,
+        47292,
+        34485
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      23737,
+      37450,
+      33145
+    ],
+    "bestlap": 94487,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Joao",
+              "lastName": "Sodre",
+              "playerId": "S76561198024833854",
+              "shortName": "SOD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 215,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Joao",
+          "lastName": "Sodre",
+          "playerId": "S76561198024833854",
+          "shortName": "SOD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94487,
+          "bestSplits": [
+            23737,
+            37450,
+            33145
+          ],
+          "lapCount": 3,
+          "lastLap": 94407,
+          "lastSplitId": 1,
+          "lastSplits": [
+            23727,
+            37325,
+            33355
+          ],
+          "totalTime": 64907280
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Steph",
+              "lastName": "Dutton",
+              "playerId": "S76561198868142890",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 810,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Steph",
+          "lastName": "Dutton",
+          "playerId": "S76561198868142890",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94722,
+          "bestSplits": [
+            23777,
+            37605,
+            33162
+          ],
+          "lapCount": 9,
+          "lastLap": 107667,
+          "lastSplitId": 2,
+          "lastSplits": [
+            25890,
+            47292,
+            34485
+          ],
+          "totalTime": 66176144
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2025-01-07T17:13:19Z",
+  "SessionFile": "250107_171319_FP"
+}

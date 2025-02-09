@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 155256,
+      "splits": [
+        75536,
+        41787,
+        37932
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 15,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Sal",
+              "lastName": "E Ballz",
+              "playerId": "S76561199024725147",
+              "shortName": "SAL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 690,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sal",
+          "lastName": "E Ballz",
+          "playerId": "S76561199024725147",
+          "shortName": "SAL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 155256,
+          "lastSplitId": 0,
+          "lastSplits": [
+            75536,
+            41787,
+            37932
+          ],
+          "totalTime": 228437540
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+  "Date": "2023-08-28T16:02:44Z",
+  "SessionFile": "230828_160244_FP"
+}

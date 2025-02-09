@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 160626,
+      "splits": [
+        75196,
+        56865,
+        28565
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 126007,
+      "splits": [
+        42360,
+        55287,
+        28360
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      42360,
+      55287,
+      28360
+    ],
+    "bestlap": 126007,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "colin",
+              "lastName": "shea",
+              "playerId": "S76561198171727959",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 222,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "colin",
+          "lastName": "shea",
+          "playerId": "S76561198171727959",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 126007,
+          "bestSplits": [
+            42360,
+            55287,
+            28360
+          ],
+          "lapCount": 2,
+          "lastLap": 126007,
+          "lastSplitId": 1,
+          "lastSplits": [
+            42360,
+            55287,
+            28360
+          ],
+          "totalTime": 211729365
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-02-25T23:02:15Z",
+  "SessionFile": "220225_230215_FP"
+}

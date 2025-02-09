@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 140176,
+      "splits": [
+        69113,
+        40605,
+        30457
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101630,
+      "splits": [
+        31192,
+        40232,
+        30205
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101657,
+      "splits": [
+        31235,
+        40272,
+        30150
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101542,
+      "splits": [
+        31200,
+        40177,
+        30165
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 23,
+  "sessionResult": {
+    "bestSplits": [
+      31192,
+      40177,
+      30150
+    ],
+    "bestlap": 101542,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Austin",
+              "lastName": "Carpenter",
+              "playerId": "S76561198388958385",
+              "shortName": "CAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 883,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Austin",
+          "lastName": "Carpenter",
+          "playerId": "S76561198388958385",
+          "shortName": "CAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 101542,
+          "bestSplits": [
+            31192,
+            40177,
+            30150
+          ],
+          "lapCount": 4,
+          "lastLap": 101542,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31200,
+            40177,
+            30165
+          ],
+          "totalTime": 168102981
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2024-02-04T09:36:51Z",
+  "SessionFile": "240204_093651_FP"
+}

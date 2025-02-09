@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108095,
+      "splits": [
+        29915,
+        36417,
+        41762
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105755,
+      "splits": [
+        29590,
+        34815,
+        41350
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105717,
+      "splits": [
+        29485,
+        34580,
+        41652
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 30,
+  "sessionResult": {
+    "bestSplits": [
+      29590,
+      34815,
+      41350
+    ],
+    "bestlap": 105755,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jorintas",
+              "lastName": "Butkus",
+              "playerId": "S76561197989389913",
+              "shortName": "BUT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 11,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jorintas",
+          "lastName": "Butkus",
+          "playerId": "S76561197989389913",
+          "shortName": "BUT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105755,
+          "bestSplits": [
+            29590,
+            34815,
+            41350
+          ],
+          "lapCount": 3,
+          "lastLap": 105717,
+          "lastSplitId": 0,
+          "lastSplits": [
+            29485,
+            34580,
+            41652
+          ],
+          "totalTime": 123300050
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2024-12-16T16:35:08Z",
+  "SessionFile": "241216_163508_FP"
+}

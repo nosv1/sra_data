@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125945,
+      "splits": [
+        42570,
+        55980,
+        27395
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124032,
+      "splits": [
+        41362,
+        54650,
+        28020
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "John",
+              "lastName": "Donahue",
+              "playerId": "S76561198206941817",
+              "shortName": "DON"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 100,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "John",
+          "lastName": "Donahue",
+          "playerId": "S76561198206941817",
+          "shortName": "DON"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 124032,
+          "lastSplitId": 0,
+          "lastSplits": [
+            41362,
+            54650,
+            28020
+          ],
+          "totalTime": 72571083
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:4c551af0-6c40-4523-973d-81e152227105",
+  "Date": "2024-12-10T18:47:37Z",
+  "SessionFile": "241210_184737_FP"
+}

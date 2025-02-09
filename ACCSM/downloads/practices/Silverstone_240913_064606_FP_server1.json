@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 119822,
+      "splits": [
+        35272,
+        50790,
+        33760
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 119440,
+      "splits": [
+        35197,
+        50620,
+        33622
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119367,
+      "splits": [
+        35270,
+        50382,
+        33715
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119755,
+      "splits": [
+        35492,
+        50562,
+        33700
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 12,
+  "sessionResult": {
+    "bestSplits": [
+      35270,
+      50382,
+      33700
+    ],
+    "bestlap": 119367,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 6,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Sir",
+              "lastName": "Queezy",
+              "playerId": "S76561198012336609",
+              "shortName": "MAY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 696,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sir",
+          "lastName": "Queezy",
+          "playerId": "S76561198012336609",
+          "shortName": "MAY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 119367,
+          "bestSplits": [
+            35270,
+            50382,
+            33700
+          ],
+          "lapCount": 4,
+          "lastLap": 119755,
+          "lastSplitId": 1,
+          "lastSplits": [
+            35492,
+            50562,
+            33700
+          ],
+          "totalTime": 76916576
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "silverstone",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-09-13T06:46:06Z",
+  "SessionFile": "240913_064606_FP"
+}

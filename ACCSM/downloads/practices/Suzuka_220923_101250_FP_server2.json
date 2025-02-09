@@ -1,0 +1,150 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 170333,
+      "splits": [
+        82856,
+        58532,
+        28945
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 217252,
+      "splits": [
+        132992,
+        55862,
+        28397
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124260,
+      "splits": [
+        41535,
+        54725,
+        28000
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123187,
+      "splits": [
+        41077,
+        54690,
+        27420
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123245,
+      "splits": [
+        41325,
+        54537,
+        27382
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122737,
+      "splits": [
+        41057,
+        54540,
+        27140
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122685,
+      "splits": [
+        41020,
+        54582,
+        27082
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 19,
+  "sessionResult": {
+    "bestSplits": [
+      41020,
+      54537,
+      27082
+    ],
+    "bestlap": 122685,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Michael",
+              "lastName": "Jeffries",
+              "playerId": "S76561197971724910",
+              "shortName": "MTJ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 5,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Michael",
+          "lastName": "Jeffries",
+          "playerId": "S76561197971724910",
+          "shortName": "MTJ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122685,
+          "bestSplits": [
+            41020,
+            54537,
+            27082
+          ],
+          "lapCount": 7,
+          "lastLap": 122685,
+          "lastSplitId": 1,
+          "lastSplits": [
+            41020,
+            54582,
+            27082
+          ],
+          "totalTime": 44075269
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Multi-class Practice (Dry) | SRAM#2",
+  "metaData": "custom_race:74215a1f-8625-4710-9680-69510a1a37e7",
+  "Date": "2022-09-23T10:12:50Z",
+  "SessionFile": "220923_101250_FP"
+}

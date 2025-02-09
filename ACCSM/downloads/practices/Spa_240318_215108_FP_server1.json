@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 487446,
+      "splits": [
+        367796,
+        75895,
+        43755
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 168872,
+      "splits": [
+        46247,
+        78747,
+        43877
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 66,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 6,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jan",
+              "lastName": "Rodricks",
+              "playerId": "S76561199112405411",
+              "shortName": "JAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 18,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jan",
+          "lastName": "Rodricks",
+          "playerId": "S76561199112405411",
+          "shortName": "JAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 168872,
+          "lastSplitId": 1,
+          "lastSplits": [
+            46247,
+            78747,
+            43877
+          ],
+          "totalTime": 420006220
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "spa",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-03-18T21:51:08Z",
+  "SessionFile": "240318_215108_FP"
+}

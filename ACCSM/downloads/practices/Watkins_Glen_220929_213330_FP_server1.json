@@ -1,0 +1,193 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 154211,
+      "splits": [
+        77786,
+        35072,
+        41352
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105592,
+      "splits": [
+        29792,
+        34817,
+        40982
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105022,
+      "splits": [
+        29747,
+        34435,
+        40840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106810,
+      "splits": [
+        29812,
+        36262,
+        40735
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104822,
+      "splits": [
+        29732,
+        34332,
+        40757
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105490,
+      "splits": [
+        29807,
+        34650,
+        41032
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105355,
+      "splits": [
+        29687,
+        34672,
+        40995
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      29732,
+      34332,
+      40757
+    ],
+    "bestlap": 104822,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Loïc",
+              "lastName": "Normandeau",
+              "playerId": "S76561198442156717",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 270,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Loïc",
+          "lastName": "Normandeau",
+          "playerId": "S76561198442156717",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 104822,
+          "bestSplits": [
+            29732,
+            34332,
+            40757
+          ],
+          "lapCount": 7,
+          "lastLap": 105355,
+          "lastSplitId": 2,
+          "lastSplits": [
+            29687,
+            34672,
+            40995
+          ],
+          "totalTime": 32928206
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Kyle",
+              "lastName": "McGuinness",
+              "playerId": "S76561198019741162",
+              "shortName": "MCG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 711,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kyle",
+          "lastName": "McGuinness",
+          "playerId": "S76561198019741162",
+          "shortName": "MCG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 2,
+          "lastSplits": [],
+          "totalTime": 32979029
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | \u003e | GT3 Free Practice | R  | SRAM#1",
+  "metaData": "custom_race:71ec6d51-9a27-4e1e-aadd-6dde718d8cc0",
+  "Date": "2022-09-29T21:33:30Z",
+  "SessionFile": "220929_213330_FP"
+}

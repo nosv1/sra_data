@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123975,
+      "splits": [
+        39060,
+        57180,
+        27735
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123342,
+      "splits": [
+        39100,
+        56705,
+        27537
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 13,
+  "sessionResult": {
+    "bestSplits": [
+      39060,
+      56705,
+      27537
+    ],
+    "bestlap": 123342,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeff",
+              "lastName": "Colombaro",
+              "playerId": "S76561199163762736",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 120,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeff",
+          "lastName": "Colombaro",
+          "playerId": "S76561199163762736",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 123342,
+          "bestSplits": [
+            39060,
+            56705,
+            27537
+          ],
+          "lapCount": 2,
+          "lastLap": 123342,
+          "lastSplitId": 1,
+          "lastSplits": [
+            39100,
+            56705,
+            27537
+          ],
+          "totalTime": 223807379
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2025-01-31T13:46:26Z",
+  "SessionFile": "250131_134626_FP"
+}

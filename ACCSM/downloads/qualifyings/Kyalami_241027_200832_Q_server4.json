@@ -1,0 +1,160 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112327,
+      "splits": [
+        38567,
+        42202,
+        31557
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105090,
+      "splits": [
+        32107,
+        41567,
+        31415
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104655,
+      "splits": [
+        32280,
+        41535,
+        30840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 104830,
+      "splits": [
+        32082,
+        41572,
+        31175
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 14,
+  "sessionResult": {
+    "bestSplits": [
+      32280,
+      41535,
+      30840
+    ],
+    "bestlap": 104655,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alejandro",
+              "lastName": "Guarin TC8",
+              "playerId": "S76561198857838922",
+              "shortName": "AGA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 773,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alejandro",
+          "lastName": "Guarin TC8",
+          "playerId": "S76561198857838922",
+          "shortName": "AGA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 104655,
+          "bestSplits": [
+            32280,
+            41535,
+            30840
+          ],
+          "lapCount": 4,
+          "lastLap": 104830,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32082,
+            41572,
+            31175
+          ],
+          "totalTime": 475619
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Vref",
+              "lastName": "Entertainment",
+              "playerId": "S76561199589856581",
+              "shortName": "REF"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 52,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Vref",
+          "lastName": "Entertainment",
+          "playerId": "S76561199589856581",
+          "shortName": "REF"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-10-27T20:08:32Z",
+  "SessionFile": "241027_200832_Q"
+}

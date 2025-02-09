@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97572,
+      "splits": [
+        24500,
+        38820,
+        34252
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98497,
+      "splits": [
+        24562,
+        39217,
+        34717
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97340,
+      "splits": [
+        24337,
+        39020,
+        33982
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 18,
+  "sessionResult": {
+    "bestSplits": [
+      24500,
+      38820,
+      34252
+    ],
+    "bestlap": 97572,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Thomas",
+              "lastName": "Acosta",
+              "playerId": "S76561198880689719",
+              "shortName": "TEA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 923,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Thomas",
+          "lastName": "Acosta",
+          "playerId": "S76561198880689719",
+          "shortName": "TEA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97572,
+          "bestSplits": [
+            24500,
+            38820,
+            34252
+          ],
+          "lapCount": 3,
+          "lastLap": 97340,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24337,
+            39020,
+            33982
+          ],
+          "totalTime": 149193638
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2025-01-02T17:03:05Z",
+  "SessionFile": "250102_170305_FP"
+}

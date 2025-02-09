@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 182346,
+      "splits": [
+        102496,
+        36492,
+        43357
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110395,
+      "splits": [
+        30075,
+        37517,
+        42802
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 61,
+  "sessionResult": {
+    "bestSplits": [
+      30075,
+      37517,
+      42802
+    ],
+    "bestlap": 110395,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 12,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Mai",
+              "lastName": "Darlin'",
+              "playerId": "S76561199060309229",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 1,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mai",
+          "lastName": "Darlin'",
+          "playerId": "S76561199060309229",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 110395,
+          "bestSplits": [
+            30075,
+            37517,
+            42802
+          ],
+          "lapCount": 2,
+          "lastLap": 110395,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30075,
+            37517,
+            42802
+          ],
+          "totalTime": 560582368
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | 6 Hours of Watkins Glen Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:4867d5c1-971c-499c-9c57-f15452facba9",
+  "Date": "2023-09-10T21:44:01Z",
+  "SessionFile": "230910_214401_FP"
+}

@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102772,
+      "splits": [
+        22017,
+        33065,
+        47690
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102037,
+      "splits": [
+        21910,
+        32787,
+        47340
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 102885,
+      "splits": [
+        21955,
+        32890,
+        48040
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102797,
+      "splits": [
+        21832,
+        32842,
+        48122
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 28,
+  "sessionResult": {
+    "bestSplits": [
+      21832,
+      32787,
+      47340
+    ],
+    "bestlap": 102037,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dean",
+              "lastName": "Stefani",
+              "playerId": "S76561198068000942",
+              "shortName": "DEN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 877,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dean",
+          "lastName": "Stefani",
+          "playerId": "S76561198068000942",
+          "shortName": "DEN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 102037,
+          "bestSplits": [
+            21832,
+            32787,
+            47340
+          ],
+          "lapCount": 4,
+          "lastLap": 102797,
+          "lastSplitId": 0,
+          "lastSplits": [
+            21832,
+            32842,
+            48122
+          ],
+          "totalTime": 180632944
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "imola",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-06-01T03:49:18Z",
+  "SessionFile": "240601_034918_FP"
+}

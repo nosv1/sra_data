@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112177,
+      "splits": [
+        35820,
+        39792,
+        36565
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112642,
+      "splits": [
+        36395,
+        39867,
+        36380
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112232,
+      "splits": [
+        36370,
+        39325,
+        36537
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 22,
+  "sessionResult": {
+    "bestSplits": [
+      35820,
+      39325,
+      36537
+    ],
+    "bestlap": 112177,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Tim",
+              "lastName": "Parkinson",
+              "playerId": "S76561199019703391",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 674,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Tim",
+          "lastName": "Parkinson",
+          "playerId": "S76561199019703391",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 112177,
+          "bestSplits": [
+            35820,
+            39325,
+            36537
+          ],
+          "lapCount": 3,
+          "lastLap": 112232,
+          "lastSplitId": 0,
+          "lastSplits": [
+            36370,
+            39325,
+            36537
+          ],
+          "totalTime": 171978430
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "monza",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-09-21T16:55:24Z",
+  "SessionFile": "240921_165524_FP"
+}

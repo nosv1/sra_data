@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115735,
+      "splits": [
+        30070,
+        43032,
+        42632
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 109115,
+      "splits": [
+        30310,
+        42472,
+        36332
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      30070,
+      43032,
+      42632
+    ],
+    "bestlap": 115735,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dan",
+              "lastName": "Meyer",
+              "playerId": "S76561198083139769",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 310,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dan",
+          "lastName": "Meyer",
+          "playerId": "S76561198083139769",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115735,
+          "bestSplits": [
+            30070,
+            43032,
+            42632
+          ],
+          "lapCount": 2,
+          "lastLap": 109115,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30310,
+            42472,
+            36332
+          ],
+          "totalTime": 19533183
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "barcelona",
+  "serverName": "#SRAgg | LIAW Practice | Race 3 | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:05727d23-9141-4246-bca6-40ec91e01a63",
+  "Date": "2024-05-15T16:21:52Z",
+  "SessionFile": "240515_162152_FP"
+}

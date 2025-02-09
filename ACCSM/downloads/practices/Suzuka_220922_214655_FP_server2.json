@@ -1,0 +1,218 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 375393,
+      "splits": [
+        150748,
+        64627,
+        160017
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 305982,
+      "splits": [
+        95315,
+        72715,
+        137952
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 230088,
+      "splits": [
+        135486,
+        63352,
+        31250
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 175322,
+      "splits": [
+        84080,
+        60322,
+        30920
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 139877,
+      "splits": [
+        47607,
+        61685,
+        30585
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      47607,
+      61685,
+      30585
+    ],
+    "bestlap": 139877,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Kevin",
+              "lastName": "Unda",
+              "playerId": "S76561198085553872",
+              "shortName": "KUF"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 51,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kevin",
+          "lastName": "Unda",
+          "playerId": "S76561198085553872",
+          "shortName": "KUF"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 139877,
+          "bestSplits": [
+            47607,
+            61685,
+            30585
+          ],
+          "lapCount": 3,
+          "lastLap": 139877,
+          "lastSplitId": 0,
+          "lastSplits": [
+            47607,
+            61685,
+            30585
+          ],
+          "totalTime": 1046417
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Durban",
+              "lastName": "Legacy",
+              "playerId": "S76561198398671653",
+              "shortName": "LEG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 777,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Durban",
+          "lastName": "Legacy",
+          "playerId": "S76561198398671653",
+          "shortName": "LEG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 305982,
+          "lastSplitId": 2,
+          "lastSplits": [
+            95315,
+            72715,
+            137952
+          ],
+          "totalTime": 885619
+        }
+      },
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Uthman",
+              "lastName": "Badmus",
+              "playerId": "S76561199063796751",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 15,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Uthman",
+          "lastName": "Badmus",
+          "playerId": "S76561199063796751",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Endurance Weather Testing | SRAM#2",
+  "metaData": "custom_race:6e923753-63e1-49ca-8acf-cda99e862b6b",
+  "Date": "2022-09-22T21:46:55Z",
+  "SessionFile": "220922_214655_FP"
+}

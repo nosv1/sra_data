@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 557056,
+      "splits": [
+        486353,
+        40315,
+        30387
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102040,
+      "splits": [
+        31282,
+        40655,
+        30102
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 101637,
+      "splits": [
+        31070,
+        40217,
+        30350
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101845,
+      "splits": [
+        31370,
+        40177,
+        30297
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101442,
+      "splits": [
+        31177,
+        40045,
+        30220
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      31177,
+      40045,
+      30102
+    ],
+    "bestlap": 101442,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Grant",
+              "lastName": "Klinsing",
+              "playerId": "S76561197995236815",
+              "shortName": "KLI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 49,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Grant",
+          "lastName": "Klinsing",
+          "playerId": "S76561197995236815",
+          "shortName": "KLI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 101442,
+          "bestSplits": [
+            31177,
+            40045,
+            30102
+          ],
+          "lapCount": 5,
+          "lastLap": 101442,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31177,
+            40045,
+            30220
+          ],
+          "totalTime": 11396549
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-22T16:50:12Z",
+  "SessionFile": "220422_165012_FP"
+}

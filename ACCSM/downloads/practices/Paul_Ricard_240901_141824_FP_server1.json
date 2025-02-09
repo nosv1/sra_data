@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114387,
+      "splits": [
+        31590,
+        32092,
+        50705
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114342,
+      "splits": [
+        31777,
+        31990,
+        50575
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115100,
+      "splits": [
+        32195,
+        31977,
+        50927
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114525,
+      "splits": [
+        31832,
+        32007,
+        50685
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      31777,
+      31990,
+      50575
+    ],
+    "bestlap": 114342,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Roy",
+              "lastName": "Keay",
+              "playerId": "S76561198018246823",
+              "shortName": "RKY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 888,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Roy",
+          "lastName": "Keay",
+          "playerId": "S76561198018246823",
+          "shortName": "RKY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114342,
+          "bestSplits": [
+            31777,
+            31990,
+            50575
+          ],
+          "lapCount": 4,
+          "lastLap": 114525,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31832,
+            32007,
+            50685
+          ],
+          "totalTime": 33302738
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-09-01T14:18:24Z",
+  "SessionFile": "240901_141824_FP"
+}

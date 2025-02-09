@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 648352,
+      "splits": [
+        563145,
+        50945,
+        34262
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 245082,
+      "splits": [
+        163412,
+        46650,
+        35020
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 21,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Loukas",
+              "lastName": "Klentzeris",
+              "playerId": "S76561198070567648",
+              "shortName": "LVK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 115,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Loukas",
+          "lastName": "Klentzeris",
+          "playerId": "S76561198070567648",
+          "shortName": "LVK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 245082,
+          "lastSplitId": 0,
+          "lastSplits": [
+            163412,
+            46650,
+            35020
+          ],
+          "totalTime": 72806218
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | Practice (Wet) | SRAM#1",
+  "metaData": "custom_race:1f39e049-b9de-4b7b-ba39-81ad8fc87bcd",
+  "Date": "2022-09-16T22:32:07Z",
+  "SessionFile": "220916_223207_FP"
+}

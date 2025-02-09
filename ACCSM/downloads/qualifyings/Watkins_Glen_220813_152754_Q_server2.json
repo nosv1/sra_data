@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 252131,
+      "splits": [
+        172626,
+        36020,
+        43485
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108592,
+      "splits": [
+        30160,
+        36245,
+        42187
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108347,
+      "splits": [
+        29862,
+        36112,
+        42372
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107877,
+      "splits": [
+        29810,
+        35837,
+        42230
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107500,
+      "splits": [
+        29910,
+        35757,
+        41832
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      29810,
+      35757,
+      41832
+    ],
+    "bestlap": 107500,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Land",
+              "lastName": "Shark",
+              "playerId": "S76561197965632839",
+              "shortName": "SHK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 111,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Land",
+          "lastName": "Shark",
+          "playerId": "S76561197965632839",
+          "shortName": "SHK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107500,
+          "bestSplits": [
+            29810,
+            35757,
+            41832
+          ],
+          "lapCount": 5,
+          "lastLap": 107500,
+          "lastSplitId": 0,
+          "lastSplits": [
+            29910,
+            35757,
+            41832
+          ],
+          "totalTime": 561551
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Open Lobby | SRAM#2",
+  "metaData": "custom_race:113a236b-ddb3-4955-a0b0-e74ea1c0eb79",
+  "Date": "2022-08-13T15:27:54Z",
+  "SessionFile": "220813_152754_Q"
+}

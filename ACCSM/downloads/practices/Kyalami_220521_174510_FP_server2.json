@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 138371,
+      "splits": [
+        65261,
+        41375,
+        31735
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103155,
+      "splits": [
+        31667,
+        40787,
+        30700
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      31667,
+      40787,
+      30700
+    ],
+    "bestlap": 103155,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Douglas",
+              "lastName": "Mitchell",
+              "playerId": "S76561198316311325",
+              "shortName": "MIT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 82,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Douglas",
+          "lastName": "Mitchell",
+          "playerId": "S76561198316311325",
+          "shortName": "MIT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103155,
+          "bestSplits": [
+            31667,
+            40787,
+            30700
+          ],
+          "lapCount": 2,
+          "lastLap": 103155,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31667,
+            40787,
+            30700
+          ],
+          "totalTime": 55892991
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "",
+  "metaData": "custom_race:783b6d91-e2ab-4ba1-aa9e-9aa12cd652da",
+  "Date": "2022-05-21T17:45:10Z",
+  "SessionFile": "220521_174510_FP"
+}

@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 298300,
+      "splits": [
+        219182,
+        41600,
+        37517
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105810,
+      "splits": [
+        26870,
+        41090,
+        37850
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105697,
+      "splits": [
+        27010,
+        40742,
+        37945
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108002,
+      "splits": [
+        27175,
+        42067,
+        38760
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106477,
+      "splits": [
+        26802,
+        41310,
+        38365
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105862,
+      "splits": [
+        27187,
+        40945,
+        37730
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      27010,
+      40742,
+      37730
+    ],
+    "bestlap": 105697,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Nixon",
+              "lastName": "Wong",
+              "playerId": "S76561198063635148",
+              "shortName": "CUB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 852,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nixon",
+          "lastName": "Wong",
+          "playerId": "S76561198063635148",
+          "shortName": "CUB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105697,
+          "bestSplits": [
+            27010,
+            40742,
+            37730
+          ],
+          "lapCount": 6,
+          "lastLap": 105862,
+          "lastSplitId": 2,
+          "lastSplits": [
+            27187,
+            40945,
+            37730
+          ],
+          "totalTime": 101916490
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Alex",
+              "lastName": "Chilcutt",
+              "playerId": "S76561198356526440",
+              "shortName": "CHI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 65,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alex",
+          "lastName": "Chilcutt",
+          "playerId": "S76561198356526440",
+          "shortName": "CHI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | GT3_FreePractice | SRAM#2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2022-12-02T04:14:07Z",
+  "SessionFile": "221202_041407_FP"
+}

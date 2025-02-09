@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118327,
+      "splits": [
+        56627,
+        44022,
+        17677
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117135,
+      "splits": [
+        55885,
+        43802,
+        17447
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117910,
+      "splits": [
+        55825,
+        44342,
+        17742
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118255,
+      "splits": [
+        56120,
+        44247,
+        17887
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 12,
+  "sessionResult": {
+    "bestSplits": [
+      55885,
+      43802,
+      17447
+    ],
+    "bestlap": 117135,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Rowdy",
+              "lastName": "Burnz",
+              "playerId": "S76561198127611429",
+              "shortName": "BUR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 551,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Rowdy",
+          "lastName": "Burnz",
+          "playerId": "S76561198127611429",
+          "shortName": "BUR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 117135,
+          "bestSplits": [
+            55885,
+            43802,
+            17447
+          ],
+          "lapCount": 4,
+          "lastLap": 118255,
+          "lastSplitId": 0,
+          "lastSplits": [
+            56120,
+            44247,
+            17887
+          ],
+          "totalTime": 136469720
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+  "Date": "2024-12-22T14:59:40Z",
+  "SessionFile": "241222_145940_Q"
+}

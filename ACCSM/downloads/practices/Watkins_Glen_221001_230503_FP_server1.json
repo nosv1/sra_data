@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 254666,
+      "splits": [
+        173798,
+        37107,
+        43760
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109255,
+      "splits": [
+        30155,
+        36720,
+        42380
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109277,
+      "splits": [
+        30232,
+        36735,
+        42310
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 111845,
+      "splits": [
+        31087,
+        38147,
+        42610
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 12,
+  "sessionResult": {
+    "bestSplits": [
+      30155,
+      36720,
+      42310
+    ],
+    "bestlap": 109255,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Thomas",
+              "lastName": "Greer",
+              "playerId": "S76561198041373485",
+              "shortName": "TGR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 664,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Thomas",
+          "lastName": "Greer",
+          "playerId": "S76561198041373485",
+          "shortName": "TGR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109255,
+          "bestSplits": [
+            30155,
+            36720,
+            42310
+          ],
+          "lapCount": 4,
+          "lastLap": 111845,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31087,
+            38147,
+            42610
+          ],
+          "totalTime": 70736894
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | \u003e | GT3 Free Practice | R  | SRAM#1",
+  "metaData": "custom_race:71ec6d51-9a27-4e1e-aadd-6dde718d8cc0",
+  "Date": "2022-10-01T23:05:03Z",
+  "SessionFile": "221001_230503_FP"
+}

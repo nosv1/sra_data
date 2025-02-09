@@ -1,0 +1,138 @@
+{
+  "laps": [
+    {
+      "carId": 1008,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 263502,
+      "splits": [
+        180575,
+        55432,
+        27495
+      ]
+    },
+    {
+      "carId": 1008,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 130465,
+      "splits": [
+        41965,
+        58930,
+        29570
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1007,
+          "carModel": 16,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Chris",
+              "lastName": "Stefiuk",
+              "playerId": "S76561197982286601",
+              "shortName": "STE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 96,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Chris",
+          "lastName": "Stefiuk",
+          "playerId": "S76561197982286601",
+          "shortName": "STE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      },
+      {
+        "car": {
+          "carId": 1008,
+          "carModel": 6,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Russell",
+              "lastName": "Allen",
+              "playerId": "S76561198025185323",
+              "shortName": "ALL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 77,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Russell",
+          "lastName": "Allen",
+          "playerId": "S76561198025185323",
+          "shortName": "ALL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 130465,
+          "lastSplitId": 2,
+          "lastSplits": [
+            41965,
+            58930,
+            29570
+          ],
+          "totalTime": 15028448
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-03-01T07:16:29Z",
+  "SessionFile": "220301_071629_FP"
+}

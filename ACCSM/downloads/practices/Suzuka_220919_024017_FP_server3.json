@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 370913,
+      "splits": [
+        274566,
+        63877,
+        32470
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jason",
+              "lastName": "Allen",
+              "playerId": "S76561198069178982",
+              "shortName": "JAL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 97,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jason",
+          "lastName": "Allen",
+          "playerId": "S76561198069178982",
+          "shortName": "JAL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 370913,
+          "lastSplitId": 0,
+          "lastSplits": [
+            274566,
+            63877,
+            32470
+          ],
+          "totalTime": 19275762
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | 8H of Suzuka | Practice | SRAM#3",
+  "metaData": "custom_race:7f6510ba-7a25-4eed-996f-9c86262ce78c",
+  "Date": "2022-09-19T02:40:17Z",
+  "SessionFile": "220919_024017_FP"
+}

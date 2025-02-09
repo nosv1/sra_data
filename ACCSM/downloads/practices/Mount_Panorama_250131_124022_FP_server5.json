@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127347,
+      "splits": [
+        42482,
+        57415,
+        27450
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123000,
+      "splits": [
+        38765,
+        56785,
+        27450
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122840,
+      "splits": [
+        38622,
+        56902,
+        27315
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123587,
+      "splits": [
+        38917,
+        57380,
+        27290
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 12,
+  "sessionResult": {
+    "bestSplits": [
+      38622,
+      56785,
+      27290
+    ],
+    "bestlap": 122840,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeff",
+              "lastName": "Colombaro",
+              "playerId": "S76561199163762736",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 120,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeff",
+          "lastName": "Colombaro",
+          "playerId": "S76561199163762736",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122840,
+          "bestSplits": [
+            38622,
+            56785,
+            27290
+          ],
+          "lapCount": 4,
+          "lastLap": 123587,
+          "lastSplitId": 2,
+          "lastSplits": [
+            38917,
+            57380,
+            27290
+          ],
+          "totalTime": 219728880
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2025-01-31T12:40:22Z",
+  "SessionFile": "250131_124022_FP"
+}

@@ -1,0 +1,186 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 225238,
+      "splits": [
+        125118,
+        66890,
+        33230
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 183038,
+      "splits": [
+        95436,
+        58455,
+        29147
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 144355,
+      "splits": [
+        50522,
+        63585,
+        30247
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 132730,
+      "splits": [
+        45017,
+        58320,
+        29392
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 133502,
+      "splits": [
+        45805,
+        58535,
+        29162
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 157200,
+      "splits": [
+        45490,
+        61647,
+        50062
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 24,
+  "sessionResult": {
+    "bestSplits": [
+      45017,
+      58320,
+      29162
+    ],
+    "bestlap": 132730,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jacob",
+              "lastName": "Rutkoske",
+              "playerId": "S76561198869603605",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 226,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jacob",
+          "lastName": "Rutkoske",
+          "playerId": "S76561198869603605",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 132730,
+          "bestSplits": [
+            45017,
+            58320,
+            29162
+          ],
+          "lapCount": 4,
+          "lastLap": 157200,
+          "lastSplitId": 0,
+          "lastSplits": [
+            45490,
+            61647,
+            50062
+          ],
+          "totalTime": 248810691
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Patches",
+              "lastName": "O'Hoolihan",
+              "playerId": "S76561198172257790",
+              "shortName": "OHL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 696,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Patches",
+          "lastName": "O'Hoolihan",
+          "playerId": "S76561198172257790",
+          "shortName": "OHL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 144355,
+          "lastSplitId": 0,
+          "lastSplits": [
+            50522,
+            63585,
+            30247
+          ],
+          "totalTime": 248512824
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | \u003e | GT3 Free Practice | Q  | SRAM#2",
+  "metaData": "custom_race:dd2e6620-b95f-4123-a0e3-49b2bd1b0636",
+  "Date": "2022-10-08T20:56:18Z",
+  "SessionFile": "221008_205618_FP"
+}

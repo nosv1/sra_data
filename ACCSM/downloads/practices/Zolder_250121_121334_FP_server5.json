@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91657,
+      "splits": [
+        31457,
+        29792,
+        30407
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 92292,
+      "splits": [
+        31090,
+        30862,
+        30340
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      31090,
+      29792,
+      30340
+    ],
+    "bestlap": 91657,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Connor",
+              "lastName": "Adams",
+              "playerId": "S76561198070555731",
+              "shortName": "CLA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 65,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Connor",
+          "lastName": "Adams",
+          "playerId": "S76561198070555731",
+          "shortName": "CLA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 91657,
+          "bestSplits": [
+            31090,
+            29792,
+            30340
+          ],
+          "lapCount": 2,
+          "lastLap": 92292,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31090,
+            30862,
+            30340
+          ],
+          "totalTime": 48170130
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zolder",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2025-01-21T12:13:34Z",
+  "SessionFile": "250121_121334_FP"
+}

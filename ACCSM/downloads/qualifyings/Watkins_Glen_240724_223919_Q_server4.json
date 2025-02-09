@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 110117,
+      "splits": [
+        30317,
+        36012,
+        43787
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107715,
+      "splits": [
+        30057,
+        35410,
+        42247
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      30057,
+      35410,
+      42247
+    ],
+    "bestlap": 107715,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Chief",
+              "lastName": "J",
+              "playerId": "S76561198036160769",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 7,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Chief",
+          "lastName": "J",
+          "playerId": "S76561198036160769",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107715,
+          "bestSplits": [
+            30057,
+            35410,
+            42247
+          ],
+          "lapCount": 2,
+          "lastLap": 107715,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30057,
+            35410,
+            42247
+          ],
+          "totalTime": 446043
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-07-24T22:39:19Z",
+  "SessionFile": "240724_223919_Q"
+}

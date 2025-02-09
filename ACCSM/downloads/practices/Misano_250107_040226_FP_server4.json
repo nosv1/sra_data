@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 98235,
+      "splits": [
+        24632,
+        39380,
+        34222
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97430,
+      "splits": [
+        24447,
+        38767,
+        34215
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 98127,
+      "splits": [
+        24637,
+        39257,
+        34232
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97367,
+      "splits": [
+        24387,
+        38475,
+        34505
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 99112,
+      "splits": [
+        24812,
+        38955,
+        35345
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97935,
+      "splits": [
+        24847,
+        38725,
+        34362
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      24387,
+      38475,
+      34215
+    ],
+    "bestlap": 97367,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Marlon",
+              "lastName": "Abubo",
+              "playerId": "S76561198267261283",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 18,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Marlon",
+          "lastName": "Abubo",
+          "playerId": "S76561198267261283",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97367,
+          "bestSplits": [
+            24387,
+            38475,
+            34215
+          ],
+          "lapCount": 6,
+          "lastLap": 97935,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24847,
+            38725,
+            34362
+          ],
+          "totalTime": 19618448
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2025-01-07T04:02:26Z",
+  "SessionFile": "250107_040226_FP"
+}

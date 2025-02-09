@@ -1,0 +1,186 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 422876,
+      "splits": [
+        322563,
+        69770,
+        30542
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 282067,
+      "splits": [
+        191965,
+        59535,
+        30567
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 183827,
+      "splits": [
+        77072,
+        59215,
+        47540
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 138272,
+      "splits": [
+        47192,
+        61167,
+        29912
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 134955,
+      "splits": [
+        46257,
+        58915,
+        29782
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 229988,
+      "splits": [
+        130521,
+        67460,
+        32007
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 13,
+  "sessionResult": {
+    "bestSplits": [
+      46257,
+      58915,
+      29782
+    ],
+    "bestlap": 134955,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Michael",
+              "lastName": "Jeffries",
+              "playerId": "S76561197971724910",
+              "shortName": "MTJ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 5,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Michael",
+          "lastName": "Jeffries",
+          "playerId": "S76561197971724910",
+          "shortName": "MTJ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 134955,
+          "bestSplits": [
+            46257,
+            58915,
+            29782
+          ],
+          "lapCount": 5,
+          "lastLap": 134955,
+          "lastSplitId": 0,
+          "lastSplits": [
+            46257,
+            58915,
+            29782
+          ],
+          "totalTime": 73863596
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Patches",
+              "lastName": "O'Hoolihan",
+              "playerId": "S76561198172257790",
+              "shortName": "OHL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 696,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Patches",
+          "lastName": "O'Hoolihan",
+          "playerId": "S76561198172257790",
+          "shortName": "OHL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 229988,
+          "lastSplitId": 0,
+          "lastSplits": [
+            130521,
+            67460,
+            32007
+          ],
+          "totalTime": 74049714
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | \u003e | GT3 Free Practice | R  | SRAM#1",
+  "metaData": "custom_race:71ec6d51-9a27-4e1e-aadd-6dde718d8cc0",
+  "Date": "2022-10-07T00:23:01Z",
+  "SessionFile": "221007_002301_FP"
+}

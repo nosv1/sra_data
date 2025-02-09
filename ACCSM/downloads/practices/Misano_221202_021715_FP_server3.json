@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 273023,
+      "splits": [
+        193101,
+        41270,
+        38652
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108595,
+      "splits": [
+        29435,
+        41977,
+        37182
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 104795,
+      "splits": [
+        27027,
+        40822,
+        36945
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Koa",
+              "lastName": "Dromo",
+              "playerId": "S76561199366472777",
+              "shortName": "KOA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 59,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Koa",
+          "lastName": "Dromo",
+          "playerId": "S76561199366472777",
+          "shortName": "KOA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 104795,
+          "lastSplitId": 1,
+          "lastSplits": [
+            27027,
+            40822,
+            36945
+          ],
+          "totalTime": 80168970
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | GT3_FreePractice | SRAM#3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2022-12-02T02:17:15Z",
+  "SessionFile": "221202_021715_FP"
+}

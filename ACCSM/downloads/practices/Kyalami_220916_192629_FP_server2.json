@@ -1,0 +1,138 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 273843,
+      "splits": [
+        190106,
+        49355,
+        34382
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116660,
+      "splits": [
+        35007,
+        46887,
+        34765
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      35007,
+      46887,
+      34765
+    ],
+    "bestlap": 116660,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Durban",
+              "lastName": "Legacy",
+              "playerId": "S76561198398671653",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 552,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Durban",
+          "lastName": "Legacy",
+          "playerId": "S76561198398671653",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 116660,
+          "bestSplits": [
+            35007,
+            46887,
+            34765
+          ],
+          "lapCount": 2,
+          "lastLap": 116660,
+          "lastSplitId": 0,
+          "lastSplits": [
+            35007,
+            46887,
+            34765
+          ],
+          "totalTime": 28285138
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Ryan",
+              "lastName": "Passage",
+              "playerId": "S76561197960428843",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 868,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ryan",
+          "lastName": "Passage",
+          "playerId": "S76561197960428843",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Practice (Wet) - Q condition | SRAM#2",
+  "metaData": "custom_race:6a92147f-3991-44c8-ac23-2a284be173b1",
+  "Date": "2022-09-16T19:26:29Z",
+  "SessionFile": "220916_192629_FP"
+}

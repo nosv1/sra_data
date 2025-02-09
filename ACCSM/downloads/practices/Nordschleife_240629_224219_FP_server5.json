@@ -1,0 +1,164 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 511970,
+      "splits": [
+        176952,
+        160382,
+        174635
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 558715,
+      "splits": [
+        186632,
+        177037,
+        195045
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 509207,
+      "splits": [
+        173380,
+        161755,
+        174072
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 505347,
+      "splits": [
+        174055,
+        158145,
+        173147
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      174055,
+      158145,
+      173147
+    ],
+    "bestlap": 505347,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "  ",
+              "lastName": "Arct",
+              "playerId": "S76561198279907335",
+              "shortName": "RUG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 88,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "  ",
+          "lastName": "Arct",
+          "playerId": "S76561198279907335",
+          "shortName": "RUG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 505347,
+          "bestSplits": [
+            174055,
+            158145,
+            173147
+          ],
+          "lapCount": 3,
+          "lastLap": 505347,
+          "lastSplitId": 2,
+          "lastSplits": [
+            174055,
+            158145,
+            173147
+          ],
+          "totalTime": 78987455
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Cleveland",
+              "lastName": "Leatherwood",
+              "playerId": "S76561198114792814",
+              "shortName": "LEA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 294,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Cleveland",
+          "lastName": "Leatherwood",
+          "playerId": "S76561198114792814",
+          "shortName": "LEA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 558715,
+          "bestSplits": [
+            186632,
+            177037,
+            195045
+          ],
+          "lapCount": 1,
+          "lastLap": 558715,
+          "lastSplitId": 1,
+          "lastSplits": [
+            186632,
+            177037,
+            195045
+          ],
+          "totalTime": 78203419
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring_24h",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+  "Date": "2024-06-29T22:42:19Z",
+  "SessionFile": "240629_224219_FP"
+}

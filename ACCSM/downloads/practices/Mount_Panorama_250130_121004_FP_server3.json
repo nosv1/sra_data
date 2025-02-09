@@ -1,0 +1,105 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124867,
+      "splits": [
+        39110,
+        58075,
+        27682
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125372,
+      "splits": [
+        38790,
+        58055,
+        28527
+      ]
+    }
+  ],
+  "penalties": [
+    {
+      "carId": 1001,
+      "clearedInLap": 0,
+      "driverIndex": 0,
+      "penalty": "Disqualified",
+      "penaltyValue": 0,
+      "reason": "WrongWay",
+      "violationInLap": 1
+    }
+  ],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      38790,
+      58055,
+      27682
+    ],
+    "bestlap": 124867,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Darren",
+              "lastName": "Robichaud",
+              "playerId": "S76561199232988903",
+              "shortName": "DMR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 357,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Darren",
+          "lastName": "Robichaud",
+          "playerId": "S76561199232988903",
+          "shortName": "DMR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 124867,
+          "bestSplits": [
+            38790,
+            58055,
+            27682
+          ],
+          "lapCount": 2,
+          "lastLap": 125372,
+          "lastSplitId": 1,
+          "lastSplits": [
+            38790,
+            58055,
+            28527
+          ],
+          "totalTime": 44983135
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2025-01-30T12:10:04Z",
+  "SessionFile": "250130_121004_FP"
+}

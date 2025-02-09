@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 261423,
+      "splits": [
+        146093,
+        76892,
+        38437
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Felipe Ernesto",
+              "lastName": "Vicini",
+              "playerId": "S76561198035103523",
+              "shortName": "VCN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 66,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Felipe Ernesto",
+          "lastName": "Vicini",
+          "playerId": "S76561198035103523",
+          "shortName": "VCN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 261423,
+          "lastSplitId": 2,
+          "lastSplits": [
+            146093,
+            76892,
+            38437
+          ],
+          "totalTime": 54185468
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | Locked: D1  | SRAM#1",
+  "metaData": "custom_race:b45ae983-f7a4-484f-8ef7-0c6123a99dd4",
+  "Date": "2022-12-06T20:06:18Z",
+  "SessionFile": "221206_200618_FP"
+}

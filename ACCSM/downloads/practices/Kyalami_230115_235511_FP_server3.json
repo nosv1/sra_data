@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 148236,
+      "splits": [
+        76271,
+        41095,
+        30870
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103727,
+      "splits": [
+        31712,
+        41200,
+        30815
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103702,
+      "splits": [
+        32485,
+        40690,
+        30527
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 51,
+  "sessionResult": {
+    "bestSplits": [
+      31712,
+      40690,
+      30527
+    ],
+    "bestlap": 103702,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Taylor",
+              "lastName": "Molyneux",
+              "playerId": "S76561198089645244",
+              "shortName": "TAY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 122,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Taylor",
+          "lastName": "Molyneux",
+          "playerId": "S76561198089645244",
+          "shortName": "TAY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103702,
+          "bestSplits": [
+            31712,
+            40690,
+            30527
+          ],
+          "lapCount": 3,
+          "lastLap": 103702,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32485,
+            40690,
+            30527
+          ],
+          "totalTime": 328468503
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | GT3_FreePractice | Q | SRAM#3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2023-01-15T23:55:11Z",
+  "SessionFile": "230115_235511_FP"
+}

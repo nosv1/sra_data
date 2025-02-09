@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 236111,
+      "splits": [
+        154526,
+        54612,
+        26972
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122082,
+      "splits": [
+        40662,
+        54485,
+        26935
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 122457,
+      "splits": [
+        41262,
+        54040,
+        27155
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121555,
+      "splits": [
+        40757,
+        53857,
+        26940
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121042,
+      "splits": [
+        40232,
+        53957,
+        26852
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121012,
+      "splits": [
+        40220,
+        53915,
+        26877
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 47,
+  "sessionResult": {
+    "bestSplits": [
+      40220,
+      53857,
+      26852
+    ],
+    "bestlap": 121012,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "felipe",
+              "lastName": "ortegon",
+              "playerId": "S76561198441422730",
+              "shortName": "ORT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 159,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "felipe",
+          "lastName": "ortegon",
+          "playerId": "S76561198441422730",
+          "shortName": "ORT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121012,
+          "bestSplits": [
+            40220,
+            53857,
+            26852
+          ],
+          "lapCount": 6,
+          "lastLap": 121012,
+          "lastSplitId": 1,
+          "lastSplits": [
+            40220,
+            53915,
+            26877
+          ],
+          "totalTime": 760357623
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-10-22T15:40:30Z",
+  "SessionFile": "231022_154030_FP"
+}

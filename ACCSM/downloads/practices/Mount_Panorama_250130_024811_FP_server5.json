@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 129355,
+      "splits": [
+        40515,
+        60985,
+        27855
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 128090,
+      "splits": [
+        40280,
+        59947,
+        27862
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 145967,
+      "splits": [
+        39782,
+        72450,
+        33735
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 127310,
+      "splits": [
+        39217,
+        59995,
+        28097
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128675,
+      "splits": [
+        39365,
+        58695,
+        30615
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 131405,
+      "splits": [
+        39520,
+        59975,
+        31910
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      39217,
+      59947,
+      27855
+    ],
+    "bestlap": 127310,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Robert",
+              "lastName": "Lacy",
+              "playerId": "S76561197995657485",
+              "shortName": "LAC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 558,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Robert",
+          "lastName": "Lacy",
+          "playerId": "S76561197995657485",
+          "shortName": "LAC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 127310,
+          "bestSplits": [
+            39217,
+            59947,
+            27855
+          ],
+          "lapCount": 6,
+          "lastLap": 131405,
+          "lastSplitId": 0,
+          "lastSplits": [
+            39520,
+            59975,
+            31910
+          ],
+          "totalTime": 97975150
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2025-01-30T02:48:11Z",
+  "SessionFile": "250130_024811_FP"
+}

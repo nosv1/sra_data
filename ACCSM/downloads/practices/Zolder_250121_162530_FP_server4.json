@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 92187,
+      "splits": [
+        30952,
+        30352,
+        30882
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91500,
+      "splits": [
+        30840,
+        30512,
+        30147
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90635,
+      "splits": [
+        30615,
+        29942,
+        30077
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91007,
+      "splits": [
+        30610,
+        30327,
+        30070
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 100147,
+      "splits": [
+        31192,
+        30040,
+        38915
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      30610,
+      29942,
+      30070
+    ],
+    "bestlap": 90635,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Ramon",
+              "lastName": "Lorenzo",
+              "playerId": "S76561198337911093",
+              "shortName": "RLL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 162,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ramon",
+          "lastName": "Lorenzo",
+          "playerId": "S76561198337911093",
+          "shortName": "RLL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 90635,
+          "bestSplits": [
+            30610,
+            29942,
+            30070
+          ],
+          "lapCount": 5,
+          "lastLap": 100147,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31192,
+            30040,
+            38915
+          ],
+          "totalTime": 64199810
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zolder",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2025-01-21T16:25:30Z",
+  "SessionFile": "250121_162530_FP"
+}

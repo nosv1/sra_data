@@ -1,0 +1,196 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 277603,
+      "splits": [
+        192156,
+        32642,
+        52805
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118600,
+      "splits": [
+        33367,
+        32652,
+        52580
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 233466,
+      "splits": [
+        145783,
+        33287,
+        54395
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      33367,
+      32652,
+      52580
+    ],
+    "bestlap": 118600,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Robert",
+              "lastName": "Kinney",
+              "playerId": "S76561198882336113",
+              "shortName": "Rob"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 488,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Robert",
+          "lastName": "Kinney",
+          "playerId": "S76561198882336113",
+          "shortName": "Rob"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 118600,
+          "bestSplits": [
+            33367,
+            32652,
+            52580
+          ],
+          "lapCount": 2,
+          "lastLap": 118600,
+          "lastSplitId": 0,
+          "lastSplits": [
+            33367,
+            32652,
+            52580
+          ],
+          "totalTime": 271520
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Rocky",
+              "lastName": "Hinson",
+              "playerId": "S76561198122182750",
+              "shortName": "ROC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 93,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Rocky",
+          "lastName": "Hinson",
+          "playerId": "S76561198122182750",
+          "shortName": "ROC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 233466,
+          "lastSplitId": 2,
+          "lastSplits": [
+            145783,
+            33287,
+            54395
+          ],
+          "totalTime": 487162
+        }
+      },
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Robert",
+              "lastName": "Kinney",
+              "playerId": "S76561198882336113",
+              "shortName": "Rob"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 43,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Robert",
+          "lastName": "Kinney",
+          "playerId": "S76561198882336113",
+          "shortName": "Rob"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 2,
+          "lastSplits": [],
+          "totalTime": 491649
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-02-22T01:57:09Z",
+  "SessionFile": "240222_015709_Q"
+}

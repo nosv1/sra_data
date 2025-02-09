@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 155828,
+      "splits": [
+        94038,
+        44352,
+        17437
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117685,
+      "splits": [
+        56357,
+        44282,
+        17045
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117082,
+      "splits": [
+        55930,
+        43837,
+        17315
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      55930,
+      43837,
+      17045
+    ],
+    "bestlap": 117082,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Martin",
+              "lastName": "Riggs",
+              "playerId": "S76561198013900632",
+              "shortName": "RGS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 29,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Martin",
+          "lastName": "Riggs",
+          "playerId": "S76561198013900632",
+          "shortName": "RGS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 117082,
+          "bestSplits": [
+            55930,
+            43837,
+            17045
+          ],
+          "lapCount": 3,
+          "lastLap": 117082,
+          "lastSplitId": 0,
+          "lastSplits": [
+            55930,
+            43837,
+            17315
+          ],
+          "totalTime": 3998859
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "SRA.gg | Sim Racing Alliance | Endurance Server #1 | SRA Nurburgring 6 hour | SRAEN#5",
+  "metaData": "championship:8c9cb3d9-3dcb-4326-ad13-9db3d343a149:2cfc3604-acee-4985-8198-7dfd804ea247",
+  "Date": "2023-04-12T23:09:53Z",
+  "SessionFile": "230412_230953_Q"
+}

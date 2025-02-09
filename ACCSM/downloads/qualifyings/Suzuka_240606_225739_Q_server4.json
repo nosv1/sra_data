@@ -1,0 +1,149 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124120,
+      "splits": [
+        41505,
+        55307,
+        27307
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123047,
+      "splits": [
+        41505,
+        54157,
+        27385
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122695,
+      "splits": [
+        41122,
+        54482,
+        27090
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      41122,
+      54157,
+      27090
+    ],
+    "bestlap": 122695,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dick",
+              "lastName": "Zipperburn Jr.",
+              "playerId": "S76561199223122338",
+              "shortName": "ZIP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 393,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dick",
+          "lastName": "Zipperburn Jr.",
+          "playerId": "S76561199223122338",
+          "shortName": "ZIP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122695,
+          "bestSplits": [
+            41122,
+            54157,
+            27090
+          ],
+          "lapCount": 3,
+          "lastLap": 122695,
+          "lastSplitId": 0,
+          "lastSplits": [
+            41122,
+            54482,
+            27090
+          ],
+          "totalTime": 591702
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Roman",
+              "lastName": "Vazquez",
+              "playerId": "S76561198070378726",
+              "shortName": "RJL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 64,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Roman",
+          "lastName": "Vazquez",
+          "playerId": "S76561198070378726",
+          "shortName": "RJL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-06-06T22:57:39Z",
+  "SessionFile": "240606_225739_Q"
+}

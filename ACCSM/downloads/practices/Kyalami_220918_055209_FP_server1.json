@@ -1,0 +1,150 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 177876,
+      "splits": [
+        70393,
+        70275,
+        37207
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115615,
+      "splits": [
+        34705,
+        46662,
+        34247
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113875,
+      "splits": [
+        34167,
+        45775,
+        33932
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 120540,
+      "splits": [
+        34030,
+        46365,
+        40145
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115427,
+      "splits": [
+        34180,
+        45867,
+        35380
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116242,
+      "splits": [
+        34130,
+        46087,
+        36025
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114815,
+      "splits": [
+        34090,
+        46530,
+        34195
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 27,
+  "sessionResult": {
+    "bestSplits": [
+      34090,
+      45775,
+      33932
+    ],
+    "bestlap": 113875,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Brandon",
+              "lastName": "Batt",
+              "playerId": "S76561198977448759",
+              "shortName": "BAT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 405,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Brandon",
+          "lastName": "Batt",
+          "playerId": "S76561198977448759",
+          "shortName": "BAT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 113875,
+          "bestSplits": [
+            34090,
+            45775,
+            33932
+          ],
+          "lapCount": 7,
+          "lastLap": 114815,
+          "lastSplitId": 2,
+          "lastSplits": [
+            34090,
+            46530,
+            34195
+          ],
+          "totalTime": 94601820
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | Practice (Wet) | SRAM#1",
+  "metaData": "custom_race:1f39e049-b9de-4b7b-ba39-81ad8fc87bcd",
+  "Date": "2022-09-18T05:52:09Z",
+  "SessionFile": "220918_055209_FP"
+}

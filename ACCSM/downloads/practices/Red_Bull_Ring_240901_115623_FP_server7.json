@@ -1,0 +1,160 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91165,
+      "splits": [
+        22902,
+        39930,
+        28332
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91572,
+      "splits": [
+        23062,
+        40317,
+        28192
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90682,
+      "splits": [
+        22765,
+        40042,
+        27875
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91087,
+      "splits": [
+        22625,
+        40012,
+        28450
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      22625,
+      40012,
+      27875
+    ],
+    "bestlap": 90682,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "JP",
+              "lastName": "Johnston",
+              "playerId": "S76561199683126618",
+              "shortName": "JPJ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 420,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "JP",
+          "lastName": "Johnston",
+          "playerId": "S76561199683126618",
+          "shortName": "JPJ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 90682,
+          "bestSplits": [
+            22625,
+            40012,
+            27875
+          ],
+          "lapCount": 4,
+          "lastLap": 91087,
+          "lastSplitId": 0,
+          "lastSplits": [
+            22625,
+            40012,
+            28450
+          ],
+          "totalTime": 24645646
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Nitin",
+              "lastName": "Murthy",
+              "playerId": "S76561198156677863",
+              "shortName": "MUR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 904,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nitin",
+          "lastName": "Murthy",
+          "playerId": "S76561198156677863",
+          "shortName": "MUR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+  "Date": "2024-09-01T11:56:23Z",
+  "SessionFile": "240901_115623_FP"
+}

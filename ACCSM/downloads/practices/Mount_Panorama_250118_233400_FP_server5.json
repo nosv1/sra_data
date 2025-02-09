@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125485,
+      "splits": [
+        39075,
+        58687,
+        27722
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      39075,
+      58687,
+      27722
+    ],
+    "bestlap": 125485,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 83,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Curtis",
+              "lastName": "Lee",
+              "playerId": "S76561198035723322",
+              "shortName": "LEE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 826,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Curtis",
+          "lastName": "Lee",
+          "playerId": "S76561198035723322",
+          "shortName": "LEE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 125485,
+          "bestSplits": [
+            39075,
+            58687,
+            27722
+          ],
+          "lapCount": 1,
+          "lastLap": 125485,
+          "lastSplitId": 0,
+          "lastSplits": [
+            39075,
+            58687,
+            27722
+          ],
+          "totalTime": 373643
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggMCM Exhibition Bathurst 2 hour | SimRacingAlliance.com | #SRAM5",
+  "metaData": "championship-pre-practice",
+  "Date": "2025-01-18T23:34:00Z",
+  "SessionFile": "250118_233400_FP"
+}

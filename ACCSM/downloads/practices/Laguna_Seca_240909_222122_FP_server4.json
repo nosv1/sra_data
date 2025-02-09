@@ -1,0 +1,160 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91452,
+      "splits": [
+        26910,
+        29560,
+        34982
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 86307,
+      "splits": [
+        22867,
+        29525,
+        33915
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85492,
+      "splits": [
+        22267,
+        29145,
+        34080
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 85022,
+      "splits": [
+        22285,
+        28770,
+        33967
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      22267,
+      29145,
+      34080
+    ],
+    "bestlap": 85492,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alexander",
+              "lastName": "Bermudez | TC8",
+              "playerId": "S76561199061716908",
+              "shortName": "ABG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 855,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alexander",
+          "lastName": "Bermudez | TC8",
+          "playerId": "S76561199061716908",
+          "shortName": "ABG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 85492,
+          "bestSplits": [
+            22267,
+            29145,
+            34080
+          ],
+          "lapCount": 4,
+          "lastLap": 85022,
+          "lastSplitId": 2,
+          "lastSplits": [
+            22285,
+            28770,
+            33967
+          ],
+          "totalTime": 88815215
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Robert",
+              "lastName": "Morehead",
+              "playerId": "S76561198145524260",
+              "shortName": "RMO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 461,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Robert",
+          "lastName": "Morehead",
+          "playerId": "S76561198145524260",
+          "shortName": "RMO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAgg | #SRAM | GT3_QuickRace | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:a3e4f9e5-05d2-4b03-83aa-f458a16316ea",
+  "Date": "2024-09-09T22:21:22Z",
+  "SessionFile": "240909_222122_FP"
+}

@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 127325,
+      "splits": [
+        43087,
+        56240,
+        27997
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125460,
+      "splits": [
+        42447,
+        55380,
+        27632
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 33,
+  "sessionResult": {
+    "bestSplits": [
+      43087,
+      56240,
+      27997
+    ],
+    "bestlap": 127325,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Neil",
+              "lastName": "Sutherland",
+              "playerId": "S76561198882130380",
+              "shortName": "NSU"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 62,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Neil",
+          "lastName": "Sutherland",
+          "playerId": "S76561198882130380",
+          "shortName": "NSU"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 127325,
+          "bestSplits": [
+            43087,
+            56240,
+            27997
+          ],
+          "lapCount": 2,
+          "lastLap": 125460,
+          "lastSplitId": 0,
+          "lastSplits": [
+            42447,
+            55380,
+            27632
+          ],
+          "totalTime": 147378725
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2024-12-07T15:17:57Z",
+  "SessionFile": "241207_151757_FP"
+}

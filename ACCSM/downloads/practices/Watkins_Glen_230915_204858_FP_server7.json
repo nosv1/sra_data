@@ -1,0 +1,219 @@
+{
+  "laps": [
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 183952,
+      "splits": [
+        101257,
+        37730,
+        44965
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 1420645,
+      "splits": [
+        1342402,
+        35835,
+        42407
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107285,
+      "splits": [
+        29820,
+        35052,
+        42412
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106352,
+      "splits": [
+        29925,
+        35110,
+        41317
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 450722,
+      "splits": [
+        367512,
+        37862,
+        45347
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114462,
+      "splits": [
+        31202,
+        38140,
+        45120
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112120,
+      "splits": [
+        30665,
+        37475,
+        43980
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112732,
+      "splits": [
+        31662,
+        36977,
+        44092
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111165,
+      "splits": [
+        30447,
+        37077,
+        43640
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 112,
+  "sessionResult": {
+    "bestSplits": [
+      29820,
+      35052,
+      42412
+    ],
+    "bestlap": 107285,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Chad",
+              "lastName": "Thiele",
+              "playerId": "S76561198196587831",
+              "shortName": "CAT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 376,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Chad",
+          "lastName": "Thiele",
+          "playerId": "S76561198196587831",
+          "shortName": "CAT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107285,
+          "bestSplits": [
+            29820,
+            35052,
+            42412
+          ],
+          "lapCount": 3,
+          "lastLap": 106352,
+          "lastSplitId": 2,
+          "lastSplits": [
+            29925,
+            35110,
+            41317
+          ],
+          "totalTime": 988661278
+        }
+      },
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 14,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Patches",
+              "lastName": "O'Hoolihan",
+              "playerId": "S76561198172257790",
+              "shortName": "OHL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 696,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Patches",
+          "lastName": "O'Hoolihan",
+          "playerId": "S76561198172257790",
+          "shortName": "OHL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 111165,
+          "bestSplits": [
+            30447,
+            37077,
+            43640
+          ],
+          "lapCount": 6,
+          "lastLap": 111165,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30447,
+            37077,
+            43640
+          ],
+          "totalTime": 989123886
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | 6 Hours of Watkins Glen Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:4867d5c1-971c-499c-9c57-f15452facba9",
+  "Date": "2023-09-15T20:48:58Z",
+  "SessionFile": "230915_204858_FP"
+}

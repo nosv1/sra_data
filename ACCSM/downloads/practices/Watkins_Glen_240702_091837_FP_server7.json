@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122265,
+      "splits": [
+        34292,
+        39950,
+        48022
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121845,
+      "splits": [
+        34512,
+        39975,
+        47357
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 11,
+  "sessionResult": {
+    "bestSplits": [
+      34292,
+      39950,
+      47357
+    ],
+    "bestlap": 121845,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 27,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jorge",
+              "lastName": "Blasini Rivera",
+              "playerId": "S76561198093327914",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 328,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jorge",
+          "lastName": "Blasini Rivera",
+          "playerId": "S76561198093327914",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121845,
+          "bestSplits": [
+            34292,
+            39950,
+            47357
+          ],
+          "lapCount": 2,
+          "lastLap": 121845,
+          "lastSplitId": 2,
+          "lastSplits": [
+            34512,
+            39975,
+            47357
+          ],
+          "totalTime": 61208232
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | M2s \u0026 Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+  "Date": "2024-07-02T09:18:37Z",
+  "SessionFile": "240702_091837_FP"
+}

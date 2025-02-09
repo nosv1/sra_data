@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 372616,
+      "splits": [
+        285203,
+        57942,
+        29470
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 130890,
+      "splits": [
+        44937,
+        57137,
+        28815
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 130552,
+      "splits": [
+        44912,
+        57057,
+        28582
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 131847,
+      "splits": [
+        44612,
+        57860,
+        29375
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 50,
+  "sessionResult": {
+    "bestSplits": [
+      44612,
+      57057,
+      28582
+    ],
+    "bestlap": 130552,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Loïc",
+              "lastName": "Normandeau",
+              "playerId": "S76561198442156717",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 270,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Loïc",
+          "lastName": "Normandeau",
+          "playerId": "S76561198442156717",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 130552,
+          "bestSplits": [
+            44612,
+            57057,
+            28582
+          ],
+          "lapCount": 4,
+          "lastLap": 131847,
+          "lastSplitId": 1,
+          "lastSplits": [
+            44612,
+            57860,
+            29375
+          ],
+          "totalTime": 585904902
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | \u003e | GT3 Free Practice | SRAM#3",
+  "metaData": "custom_race:62c64dac-70bf-40aa-b195-e2d36798078c",
+  "Date": "2022-10-11T21:56:13Z",
+  "SessionFile": "221011_215613_FP"
+}

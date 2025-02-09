@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95190,
+      "splits": [
+        23955,
+        37750,
+        33485
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95190,
+      "splits": [
+        24002,
+        37555,
+        33632
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94802,
+      "splits": [
+        23760,
+        37577,
+        33465
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94840,
+      "splits": [
+        23817,
+        37505,
+        33517
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94772,
+      "splits": [
+        23780,
+        37545,
+        33447
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      23780,
+      37505,
+      33447
+    ],
+    "bestlap": 94772,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Elliot",
+              "lastName": "Levine",
+              "playerId": "S76561198963613241",
+              "shortName": "EJL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 142,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Elliot",
+          "lastName": "Levine",
+          "playerId": "S76561198963613241",
+          "shortName": "EJL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94772,
+          "bestSplits": [
+            23780,
+            37505,
+            33447
+          ],
+          "lapCount": 5,
+          "lastLap": 94772,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23780,
+            37545,
+            33447
+          ],
+          "totalTime": 46274119
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+  "Date": "2025-01-07T11:26:34Z",
+  "SessionFile": "250107_112634_FP"
+}

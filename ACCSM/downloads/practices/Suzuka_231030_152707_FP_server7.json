@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 164328,
+      "splits": [
+        81736,
+        54987,
+        27605
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123425,
+      "splits": [
+        41580,
+        54345,
+        27500
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122910,
+      "splits": [
+        41335,
+        54410,
+        27165
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122895,
+      "splits": [
+        41990,
+        54000,
+        26905
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122202,
+      "splits": [
+        41255,
+        53937,
+        27010
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121612,
+      "splits": [
+        40887,
+        53775,
+        26950
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 25,
+  "sessionResult": {
+    "bestSplits": [
+      40887,
+      53775,
+      26905
+    ],
+    "bestlap": 121612,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Bobby",
+              "lastName": "Dockendorf",
+              "playerId": "S76561198250408032",
+              "shortName": "DOC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 720,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Bobby",
+          "lastName": "Dockendorf",
+          "playerId": "S76561198250408032",
+          "shortName": "DOC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121612,
+          "bestSplits": [
+            40887,
+            53775,
+            26905
+          ],
+          "lapCount": 6,
+          "lastLap": 121612,
+          "lastSplitId": 0,
+          "lastSplits": [
+            40887,
+            53775,
+            26950
+          ],
+          "totalTime": 102629194
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-10-30T15:27:07Z",
+  "SessionFile": "231030_152707_FP"
+}

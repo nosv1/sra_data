@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115035,
+      "splits": [
+        37465,
+        45250,
+        32320
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106180,
+      "splits": [
+        32200,
+        42510,
+        31470
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105347,
+      "splits": [
+        32380,
+        41840,
+        31127
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      32200,
+      42510,
+      31470
+    ],
+    "bestlap": 106180,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Stephen",
+              "lastName": "Pellerin",
+              "playerId": "S76561199074528657",
+              "shortName": "SJP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 87,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Stephen",
+          "lastName": "Pellerin",
+          "playerId": "S76561199074528657",
+          "shortName": "SJP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106180,
+          "bestSplits": [
+            32200,
+            42510,
+            31470
+          ],
+          "lapCount": 3,
+          "lastLap": 105347,
+          "lastSplitId": 2,
+          "lastSplits": [
+            32380,
+            41840,
+            31127
+          ],
+          "totalTime": 105602487
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2024-11-01T14:52:37Z",
+  "SessionFile": "241101_145237_FP"
+}

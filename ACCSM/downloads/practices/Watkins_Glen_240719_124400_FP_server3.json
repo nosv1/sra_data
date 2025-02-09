@@ -1,0 +1,138 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107842,
+      "splits": [
+        29900,
+        36052,
+        41890
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121365,
+      "splits": [
+        29845,
+        35225,
+        56295
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 25,
+  "sessionResult": {
+    "bestSplits": [
+      29900,
+      36052,
+      41890
+    ],
+    "bestlap": 107842,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "  ",
+              "lastName": "Arct",
+              "playerId": "S76561198279907335",
+              "shortName": "RUG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 88,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "  ",
+          "lastName": "Arct",
+          "playerId": "S76561198279907335",
+          "shortName": "RUG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107842,
+          "bestSplits": [
+            29900,
+            36052,
+            41890
+          ],
+          "lapCount": 2,
+          "lastLap": 121365,
+          "lastSplitId": 1,
+          "lastSplits": [
+            29845,
+            35225,
+            56295
+          ],
+          "totalTime": 133670767
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dan",
+              "lastName": "Thibodeaux",
+              "playerId": "S76561198095055720",
+              "shortName": "DRT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 44,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dan",
+          "lastName": "Thibodeaux",
+          "playerId": "S76561198095055720",
+          "shortName": "DRT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 2,
+          "lastSplits": [],
+          "totalTime": 132729182
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2024-07-19T12:44:00Z",
+  "SessionFile": "240719_124400_FP"
+}

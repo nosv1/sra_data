@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97005,
+      "splits": [
+        24157,
+        38475,
+        34372
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96542,
+      "splits": [
+        24107,
+        38392,
+        34042
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96440,
+      "splits": [
+        24252,
+        38047,
+        34140
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      24107,
+      38047,
+      34042
+    ],
+    "bestlap": 96440,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Darren",
+              "lastName": "Robichaud",
+              "playerId": "S76561199232988903",
+              "shortName": "DMR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 357,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Darren",
+          "lastName": "Robichaud",
+          "playerId": "S76561199232988903",
+          "shortName": "DMR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96440,
+          "bestSplits": [
+            24107,
+            38047,
+            34042
+          ],
+          "lapCount": 3,
+          "lastLap": 96440,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24252,
+            38047,
+            34140
+          ],
+          "totalTime": 694089
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAgg | S11: Multiclass Mayhem  | SimRacingAlliance.com | #SRAM5",
+  "metaData": "championship:5ed78955-130b-4009-aa33-afb0b9c6df05:bf6ab931-e888-42a5-8d4d-feac23b8d45f",
+  "Date": "2025-01-06T15:48:20Z",
+  "SessionFile": "250106_154820_FP"
+}

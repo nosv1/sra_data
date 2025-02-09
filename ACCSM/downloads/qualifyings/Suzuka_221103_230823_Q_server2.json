@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 244790,
+      "splits": [
+        161587,
+        55620,
+        27582
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125785,
+      "splits": [
+        42090,
+        55795,
+        27900
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 126117,
+      "splits": [
+        42090,
+        56225,
+        27802
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124755,
+      "splits": [
+        42295,
+        54627,
+        27832
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124890,
+      "splits": [
+        41517,
+        55442,
+        27930
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      41517,
+      55442,
+      27802
+    ],
+    "bestlap": 124890,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Marty",
+              "lastName": "Spacebaker",
+              "playerId": "S76561198090047757",
+              "shortName": "SPC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 14,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Marty",
+          "lastName": "Spacebaker",
+          "playerId": "S76561198090047757",
+          "shortName": "SPC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 124890,
+          "bestSplits": [
+            41517,
+            55442,
+            27802
+          ],
+          "lapCount": 5,
+          "lastLap": 124890,
+          "lastSplitId": 0,
+          "lastSplits": [
+            41517,
+            55442,
+            27930
+          ],
+          "totalTime": 662060
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Open Lobby | SRAM#2",
+  "metaData": "custom_race:113a236b-ddb3-4955-a0b0-e74ea1c0eb79",
+  "Date": "2022-11-03T23:08:23Z",
+  "SessionFile": "221103_230823_Q"
+}

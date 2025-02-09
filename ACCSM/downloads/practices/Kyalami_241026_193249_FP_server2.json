@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108170,
+      "splits": [
+        36690,
+        41102,
+        30377
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 21,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Cube",
+              "lastName": "Master",
+              "playerId": "S76561198063635148",
+              "shortName": "MAS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 801,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Cube",
+          "lastName": "Master",
+          "playerId": "S76561198063635148",
+          "shortName": "MAS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 108170,
+          "lastSplitId": 2,
+          "lastSplits": [
+            36690,
+            41102,
+            30377
+          ],
+          "totalTime": 113498369
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2024-10-26T19:32:49Z",
+  "SessionFile": "241026_193249_FP"
+}

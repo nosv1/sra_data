@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125975,
+      "splits": [
+        44270,
+        55577,
+        26127
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125492,
+      "splits": [
+        42100,
+        55665,
+        27727
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125197,
+      "splits": [
+        42095,
+        55300,
+        27802
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 123952,
+      "splits": [
+        42057,
+        55322,
+        26572
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 16,
+  "sessionResult": {
+    "bestSplits": [
+      42095,
+      55300,
+      27727
+    ],
+    "bestlap": 125197,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Jean",
+              "lastName": "Maille",
+              "playerId": "S76561197970540417",
+              "shortName": "COB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 52,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jean",
+          "lastName": "Maille",
+          "playerId": "S76561197970540417",
+          "shortName": "COB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 125197,
+          "bestSplits": [
+            42095,
+            55300,
+            27727
+          ],
+          "lapCount": 4,
+          "lastLap": 123952,
+          "lastSplitId": 0,
+          "lastSplits": [
+            42057,
+            55322,
+            26572
+          ],
+          "totalTime": 99487474
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+  "Date": "2024-12-07T18:10:02Z",
+  "SessionFile": "241207_181002_FP"
+}

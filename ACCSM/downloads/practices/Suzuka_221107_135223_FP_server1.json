@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 167641,
+      "splits": [
+        81066,
+        57680,
+        28895
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125912,
+      "splits": [
+        41790,
+        56190,
+        27932
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127382,
+      "splits": [
+        43197,
+        56202,
+        27982
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 126862,
+      "splits": [
+        41952,
+        55697,
+        29212
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125507,
+      "splits": [
+        41902,
+        55857,
+        27747
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127395,
+      "splits": [
+        43202,
+        56357,
+        27835
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 79,
+  "sessionResult": {
+    "bestSplits": [
+      41790,
+      55857,
+      27747
+    ],
+    "bestlap": 125507,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Steven",
+              "lastName": "Brule",
+              "playerId": "S76561197980915399",
+              "shortName": "BRU"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 251,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Steven",
+          "lastName": "Brule",
+          "playerId": "S76561197980915399",
+          "shortName": "BRU"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 125507,
+          "bestSplits": [
+            41790,
+            55857,
+            27747
+          ],
+          "lapCount": 6,
+          "lastLap": 127395,
+          "lastSplitId": 1,
+          "lastSplits": [
+            43202,
+            56357,
+            27835
+          ],
+          "totalTime": 390963036
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | \u003e | GT3 Free Practice | R  | SRAM#1",
+  "metaData": "custom_race:71ec6d51-9a27-4e1e-aadd-6dde718d8cc0",
+  "Date": "2022-11-07T13:52:23Z",
+  "SessionFile": "221107_135223_FP"
+}

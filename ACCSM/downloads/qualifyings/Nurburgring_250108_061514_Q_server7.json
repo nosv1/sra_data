@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114657,
+      "splits": [
+        55232,
+        42645,
+        16780
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115815,
+      "splits": [
+        55330,
+        43472,
+        17012
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114545,
+      "splits": [
+        55092,
+        42727,
+        16725
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 201,
+  "sessionResult": {
+    "bestSplits": [
+      55092,
+      42645,
+      16725
+    ],
+    "bestlap": 114545,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jorge",
+              "lastName": "Blasini Rivera",
+              "playerId": "S76561198093327914",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 386,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jorge",
+          "lastName": "Blasini Rivera",
+          "playerId": "S76561198093327914",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114545,
+          "bestSplits": [
+            55092,
+            42645,
+            16725
+          ],
+          "lapCount": 3,
+          "lastLap": 114545,
+          "lastSplitId": 0,
+          "lastSplits": [
+            55092,
+            42727,
+            16725
+          ],
+          "totalTime": 1573815552
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+  "Date": "2025-01-08T06:15:14Z",
+  "SessionFile": "250108_061514_Q"
+}

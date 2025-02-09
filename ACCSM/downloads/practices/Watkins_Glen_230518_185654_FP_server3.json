@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 541193,
+      "splits": [
+        454731,
+        40235,
+        46227
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Brett",
+              "lastName": "Swift",
+              "playerId": "S76561198311768474",
+              "shortName": "SWI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 996,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Brett",
+          "lastName": "Swift",
+          "playerId": "S76561198311768474",
+          "shortName": "SWI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 541193,
+          "lastSplitId": 2,
+          "lastSplits": [
+            454731,
+            40235,
+            46227
+          ],
+          "totalTime": 24154935
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2023-05-18T18:56:54Z",
+  "SessionFile": "230518_185654_FP"
+}

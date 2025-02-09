@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 317541,
+      "splits": [
+        244133,
+        38935,
+        34472
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96177,
+      "splits": [
+        24130,
+        38267,
+        33780
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96382,
+      "splits": [
+        24372,
+        38277,
+        33732
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96227,
+      "splits": [
+        24117,
+        38282,
+        33827
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96095,
+      "splits": [
+        24377,
+        38260,
+        33457
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95260,
+      "splits": [
+        23937,
+        38020,
+        33302
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 21,
+  "sessionResult": {
+    "bestSplits": [
+      24117,
+      38277,
+      33732
+    ],
+    "bestlap": 96227,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mike",
+              "lastName": "Scott",
+              "playerId": "S76561197967418518",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 416,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mike",
+          "lastName": "Scott",
+          "playerId": "S76561197967418518",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96227,
+          "bestSplits": [
+            24117,
+            38277,
+            33732
+          ],
+          "lapCount": 6,
+          "lastLap": 95260,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23937,
+            38020,
+            33302
+          ],
+          "totalTime": 253550620
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Super",
+              "lastName": "Dave",
+              "playerId": "S76561197960876583",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 647,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Super",
+          "lastName": "Dave",
+          "playerId": "S76561197960876583",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | GT3_FreePractice | R | SRAM#2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2023-02-11T22:09:25Z",
+  "SessionFile": "230211_220925_FP"
+}

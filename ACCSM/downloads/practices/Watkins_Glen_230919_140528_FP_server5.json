@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 158256,
+      "splits": [
+        76403,
+        37550,
+        44302
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109210,
+      "splits": [
+        30882,
+        35777,
+        42550
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110497,
+      "splits": [
+        30345,
+        37267,
+        42885
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      30345,
+      35777,
+      42550
+    ],
+    "bestlap": 109210,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 14,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Aston",
+              "lastName": "Martin-Lawrence",
+              "playerId": "S76561199088350711",
+              "shortName": "SID"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 562,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Aston",
+          "lastName": "Martin-Lawrence",
+          "playerId": "S76561199088350711",
+          "shortName": "SID"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109210,
+          "bestSplits": [
+            30345,
+            35777,
+            42550
+          ],
+          "lapCount": 3,
+          "lastLap": 110497,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30345,
+            37267,
+            42885
+          ],
+          "totalTime": 48567793
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2023-09-19T14:05:28Z",
+  "SessionFile": "230919_140528_FP"
+}

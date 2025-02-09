@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 237605,
+      "splits": [
+        174237,
+        33800,
+        29567
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 100360,
+      "splits": [
+        39292,
+        33705,
+        27362
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 99795,
+      "splits": [
+        39105,
+        33207,
+        27482
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 99025,
+      "splits": [
+        38640,
+        32885,
+        27500
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98945,
+      "splits": [
+        38407,
+        32960,
+        27577
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      38407,
+      32885,
+      27362
+    ],
+    "bestlap": 98945,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mert",
+              "lastName": "Mertson",
+              "playerId": "S76561198025180541",
+              "shortName": "MRT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 69,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mert",
+          "lastName": "Mertson",
+          "playerId": "S76561198025180541",
+          "shortName": "MRT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 98945,
+          "bestSplits": [
+            38407,
+            32885,
+            27362
+          ],
+          "lapCount": 5,
+          "lastLap": 98945,
+          "lastSplitId": 0,
+          "lastSplits": [
+            38407,
+            32960,
+            27577
+          ],
+          "totalTime": 539333
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "indianapolis",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2024-03-01T19:16:01Z",
+  "SessionFile": "240301_191601_Q"
+}

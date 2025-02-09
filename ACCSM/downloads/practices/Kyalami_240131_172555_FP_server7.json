@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112670,
+      "splits": [
+        38542,
+        42695,
+        31432
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105400,
+      "splits": [
+        32262,
+        41880,
+        31257
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 105285,
+      "splits": [
+        31865,
+        42460,
+        30960
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105570,
+      "splits": [
+        31952,
+        42610,
+        31007
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104160,
+      "splits": [
+        31742,
+        41230,
+        31187
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104090,
+      "splits": [
+        31947,
+        41470,
+        30672
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 83,
+  "sessionResult": {
+    "bestSplits": [
+      31742,
+      41230,
+      30672
+    ],
+    "bestlap": 104090,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Nathan",
+              "lastName": "Schaefer",
+              "playerId": "S76561198067053191",
+              "shortName": "LFG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 52,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Nathan",
+          "lastName": "Schaefer",
+          "playerId": "S76561198067053191",
+          "shortName": "LFG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 104090,
+          "bestSplits": [
+            31742,
+            41230,
+            30672
+          ],
+          "lapCount": 6,
+          "lastLap": 104090,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31947,
+            41470,
+            30672
+          ],
+          "totalTime": 621450280
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "#SRAgg | 9 Hours of Kyalami Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:ff04708f-a748-46d9-86b7-75a2cd607e25",
+  "Date": "2024-01-31T17:25:55Z",
+  "SessionFile": "240131_172555_FP"
+}

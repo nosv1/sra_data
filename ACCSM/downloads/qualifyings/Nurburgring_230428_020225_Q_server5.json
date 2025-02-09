@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 318761,
+      "splits": [
+        254171,
+        46062,
+        18527
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121740,
+      "splits": [
+        58065,
+        44925,
+        18750
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119842,
+      "splits": [
+        57292,
+        44710,
+        17840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119300,
+      "splits": [
+        57135,
+        44150,
+        18015
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 44,
+  "sessionResult": {
+    "bestSplits": [
+      57135,
+      44150,
+      17840
+    ],
+    "bestlap": 119300,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Juan",
+              "lastName": "Alvarez",
+              "playerId": "S76561198018196367",
+              "shortName": "JCA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 90,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Juan",
+          "lastName": "Alvarez",
+          "playerId": "S76561198018196367",
+          "shortName": "JCA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 119300,
+          "bestSplits": [
+            57135,
+            44150,
+            17840
+          ],
+          "lapCount": 4,
+          "lastLap": 119300,
+          "lastSplitId": 0,
+          "lastSplits": [
+            57135,
+            44150,
+            18015
+          ],
+          "totalTime": 190957218
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SimRacingAlliance.com | SRA Nurburgring 6 Hour Endurance | Qualification Server | #SRAM5 | #SRAN",
+  "metaData": "custom_race:9f40044d-a20d-4827-add1-9afe6f5e1e9c",
+  "Date": "2023-04-28T02:02:25Z",
+  "SessionFile": "230428_020225_Q"
+}

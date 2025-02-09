@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109945,
+      "splits": [
+        35392,
+        38592,
+        35960
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 111947,
+      "splits": [
+        35550,
+        38385,
+        38012
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 118365,
+      "splits": [
+        35055,
+        38802,
+        44507
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109187,
+      "splits": [
+        35095,
+        38262,
+        35830
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110372,
+      "splits": [
+        35065,
+        39107,
+        36200
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108722,
+      "splits": [
+        35125,
+        38055,
+        35542
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 40,
+  "sessionResult": {
+    "bestSplits": [
+      35065,
+      38055,
+      35542
+    ],
+    "bestlap": 108722,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Eric",
+              "lastName": "Rudderham",
+              "playerId": "S76561199243933348",
+              "shortName": "EJR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 7,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Eric",
+          "lastName": "Rudderham",
+          "playerId": "S76561199243933348",
+          "shortName": "EJR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 108722,
+          "bestSplits": [
+            35065,
+            38055,
+            35542
+          ],
+          "lapCount": 6,
+          "lastLap": 108722,
+          "lastSplitId": 0,
+          "lastSplits": [
+            35125,
+            38055,
+            35542
+          ],
+          "totalTime": 246472496
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "monza",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2024-09-26T19:03:46Z",
+  "SessionFile": "240926_190346_FP"
+}

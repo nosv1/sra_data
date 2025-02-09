@@ -1,0 +1,230 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 194567,
+      "splits": [
+        124012,
+        33157,
+        37397
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 240255,
+      "splits": [
+        170635,
+        32285,
+        37335
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95187,
+      "splits": [
+        24555,
+        32490,
+        38142
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94112,
+      "splits": [
+        24752,
+        32562,
+        36797
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94095,
+      "splits": [
+        24697,
+        32667,
+        36730
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95000,
+      "splits": [
+        24402,
+        33195,
+        37402
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93970,
+      "splits": [
+        24345,
+        32507,
+        37117
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94075,
+      "splits": [
+        24332,
+        33127,
+        36615
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93090,
+      "splits": [
+        24495,
+        31997,
+        36597
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93552,
+      "splits": [
+        24525,
+        32190,
+        36837
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 1,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      24495,
+      31997,
+      36597
+    ],
+    "bestlap": 93090,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 55,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Hoovie",
+              "lastName": "Dooovie",
+              "playerId": "S76561198137410651",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 666,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Hoovie",
+          "lastName": "Dooovie",
+          "playerId": "S76561198137410651",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 93090,
+          "bestSplits": [
+            24495,
+            31997,
+            36597
+          ],
+          "lapCount": 6,
+          "lastLap": 93552,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24525,
+            32190,
+            36837
+          ],
+          "totalTime": 643963
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 50,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Sean",
+              "lastName": "Davis",
+              "playerId": "S76561198116489685",
+              "shortName": "SAD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 14,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sean",
+          "lastName": "Davis",
+          "playerId": "S76561198116489685",
+          "shortName": "SAD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94095,
+          "bestSplits": [
+            24697,
+            32667,
+            36730
+          ],
+          "lapCount": 4,
+          "lastLap": 93970,
+          "lastSplitId": 1,
+          "lastSplits": [
+            24345,
+            32507,
+            37117
+          ],
+          "totalTime": 581736
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "laguna_seca",
+  "serverName": "",
+  "metaData": "custom_race:db72fd90-2a45-433a-a574-282acdbf9b4a",
+  "Date": "2022-01-08T01:25:35Z",
+  "SessionFile": "220108_012535_Q"
+}

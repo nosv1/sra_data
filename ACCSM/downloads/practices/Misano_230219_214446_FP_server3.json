@@ -1,0 +1,150 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 194458,
+      "splits": [
+        123623,
+        37755,
+        33080
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94200,
+      "splits": [
+        23532,
+        37210,
+        33457
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93670,
+      "splits": [
+        23510,
+        37232,
+        32927
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93715,
+      "splits": [
+        23480,
+        37140,
+        33095
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93580,
+      "splits": [
+        23542,
+        37077,
+        32960
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93812,
+      "splits": [
+        23607,
+        37135,
+        33070
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93600,
+      "splits": [
+        23482,
+        37107,
+        33010
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 17,
+  "sessionResult": {
+    "bestSplits": [
+      23482,
+      37107,
+      32927
+    ],
+    "bestlap": 93600,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Adam",
+              "lastName": "Santana",
+              "playerId": "S76561198025024079",
+              "shortName": "SAN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 215,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Adam",
+          "lastName": "Santana",
+          "playerId": "S76561198025024079",
+          "shortName": "SAN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 93600,
+          "bestSplits": [
+            23482,
+            37107,
+            32927
+          ],
+          "lapCount": 7,
+          "lastLap": 93600,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23482,
+            37107,
+            33010
+          ],
+          "totalTime": 93450525
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA.gg | Sim Racing Alliance | Main Server #3 | GT3_FreePractice | Q | SRAM#3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2023-02-19T21:44:46Z",
+  "SessionFile": "230219_214446_FP"
+}

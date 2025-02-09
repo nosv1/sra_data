@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 92910,
+      "splits": [
+        31462,
+        30802,
+        30645
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 92132,
+      "splits": [
+        31530,
+        30237,
+        30365
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91407,
+      "splits": [
+        30872,
+        30002,
+        30532
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      30872,
+      30002,
+      30365
+    ],
+    "bestlap": 91407,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Zach",
+              "lastName": "Post",
+              "playerId": "S76561199083130943",
+              "shortName": "ZAP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 28,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Zach",
+          "lastName": "Post",
+          "playerId": "S76561199083130943",
+          "shortName": "ZAP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 91407,
+          "bestSplits": [
+            30872,
+            30002,
+            30365
+          ],
+          "lapCount": 3,
+          "lastLap": 91407,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30872,
+            30002,
+            30532
+          ],
+          "totalTime": 222379975
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zolder",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2025-01-18T13:21:34Z",
+  "SessionFile": "250118_132134_FP"
+}

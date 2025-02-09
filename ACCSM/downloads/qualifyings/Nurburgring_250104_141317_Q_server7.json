@@ -1,0 +1,219 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117560,
+      "splits": [
+        56570,
+        43545,
+        17445
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116902,
+      "splits": [
+        56015,
+        43572,
+        17315
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 119100,
+      "splits": [
+        56807,
+        44222,
+        18070
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121172,
+      "splits": [
+        57822,
+        45495,
+        17855
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 120642,
+      "splits": [
+        57757,
+        44625,
+        18260
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120475,
+      "splits": [
+        57617,
+        44857,
+        18000
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117387,
+      "splits": [
+        56110,
+        43877,
+        17400
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 119627,
+      "splits": [
+        57105,
+        44735,
+        17787
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125082,
+      "splits": [
+        56470,
+        46842,
+        21770
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 138,
+  "sessionResult": {
+    "bestSplits": [
+      56110,
+      43545,
+      17400
+    ],
+    "bestlap": 117387,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "James",
+              "lastName": "May",
+              "playerId": "S76561198387383009",
+              "shortName": "SLO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 65,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "James",
+          "lastName": "May",
+          "playerId": "S76561198387383009",
+          "shortName": "SLO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 117387,
+          "bestSplits": [
+            56110,
+            43545,
+            17400
+          ],
+          "lapCount": 5,
+          "lastLap": 125082,
+          "lastSplitId": 0,
+          "lastSplits": [
+            56470,
+            46842,
+            21770
+          ],
+          "totalTime": 1256912392
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 2,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alexandre",
+              "lastName": "Giordano",
+              "playerId": "S76561198032078878",
+              "shortName": "GIO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 63,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alexandre",
+          "lastName": "Giordano",
+          "playerId": "S76561198032078878",
+          "shortName": "GIO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 119627,
+          "bestSplits": [
+            57105,
+            44735,
+            17787
+          ],
+          "lapCount": 4,
+          "lastLap": 119627,
+          "lastSplitId": 0,
+          "lastSplits": [
+            57105,
+            44735,
+            17787
+          ],
+          "totalTime": 1256902878
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+  "Date": "2025-01-04T14:13:17Z",
+  "SessionFile": "250104_141317_Q"
+}

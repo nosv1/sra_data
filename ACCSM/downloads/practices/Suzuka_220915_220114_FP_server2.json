@@ -1,0 +1,173 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 1,
+      "isValidForBest": false,
+      "laptime": 228358,
+      "splits": [
+        127783,
+        68537,
+        32037
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 1,
+      "isValidForBest": false,
+      "laptime": 215897,
+      "splits": [
+        117752,
+        67165,
+        30980
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 1,
+      "isValidForBest": false,
+      "laptime": 143537,
+      "splits": [
+        49595,
+        63010,
+        30932
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Jordan",
+              "lastName": "Kimball",
+              "playerId": "S76561198067871370",
+              "shortName": "KIM"
+            },
+            {
+              "firstName": "Kevin",
+              "lastName": "Unda",
+              "playerId": "S76561198085553872",
+              "shortName": "KUN"
+            },
+            {
+              "firstName": "Cole",
+              "lastName": "Compton",
+              "playerId": "S76561198059114501",
+              "shortName": "COM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 418,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kevin",
+          "lastName": "Unda",
+          "playerId": "S76561198085553872",
+          "shortName": "KUN"
+        },
+        "currentDriverIndex": 1,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 143537,
+          "lastSplitId": 0,
+          "lastSplits": [
+            49595,
+            63010,
+            30932
+          ],
+          "totalTime": 5110944
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Jason",
+              "lastName": "Kinger",
+              "playerId": "S76561198881698255",
+              "shortName": "KIN"
+            },
+            {
+              "firstName": "Travis",
+              "lastName": "Nordstrom",
+              "playerId": "S76561198047285126",
+              "shortName": "NOR"
+            },
+            {
+              "firstName": "Joey",
+              "lastName": "Junior",
+              "playerId": "S76561198103676117",
+              "shortName": "JOEY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 430,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jason",
+          "lastName": "Kinger",
+          "playerId": "S76561198881698255",
+          "shortName": "KIN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Suzuka 8 Hour | SRAM#2",
+  "metaData": "championship-pre-practice",
+  "Date": "2022-09-15T22:01:14Z",
+  "SessionFile": "220915_220114_FP"
+}

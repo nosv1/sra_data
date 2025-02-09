@@ -1,0 +1,118 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 2,
+      "isValidForBest": false,
+      "laptime": 154601,
+      "splits": [
+        71176,
+        55800,
+        27625
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 2,
+      "isValidForBest": true,
+      "laptime": 134015,
+      "splits": [
+        41602,
+        55030,
+        37382
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 2,
+      "isValidForBest": true,
+      "laptime": 124480,
+      "splits": [
+        42210,
+        54720,
+        27550
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      41602,
+      54720,
+      27550
+    ],
+    "bestlap": 124480,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Giovanni",
+              "lastName": "Garcia",
+              "playerId": "S76561198110376124",
+              "shortName": "GIO"
+            },
+            {
+              "firstName": "Felipe",
+              "lastName": "Ortegon",
+              "playerId": "S76561198441422730",
+              "shortName": "FOR"
+            },
+            {
+              "firstName": "Sergio",
+              "lastName": "Lindo",
+              "playerId": "S76561198314724439",
+              "shortName": "SLI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 418,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sergio",
+          "lastName": "Lindo",
+          "playerId": "S76561198314724439",
+          "shortName": "SLI"
+        },
+        "currentDriverIndex": 2,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 124480,
+          "bestSplits": [
+            41602,
+            54720,
+            27550
+          ],
+          "lapCount": 3,
+          "lastLap": 124480,
+          "lastSplitId": 0,
+          "lastSplits": [
+            42210,
+            54720,
+            27550
+          ],
+          "totalTime": 21682127
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Multiclass Endurance | SimRacingAlliance.com | #SRAQ",
+  "metaData": "championship:42ae5719-37a5-45b2-a175-d9e6967a8990:5a5612dd-6b80-4819-b74e-c4393f8c1ce9",
+  "Date": "2023-11-04T22:01:43Z",
+  "SessionFile": "231104_220143_FP"
+}

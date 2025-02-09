@@ -1,0 +1,186 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123682,
+      "splits": [
+        39207,
+        56922,
+        27552
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 151532,
+      "splits": [
+        39827,
+        59792,
+        51912
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124127,
+      "splits": [
+        39097,
+        56685,
+        28345
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124572,
+      "splits": [
+        39812,
+        57100,
+        27660
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 133910,
+      "splits": [
+        43505,
+        61562,
+        28842
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122960,
+      "splits": [
+        38707,
+        57055,
+        27197
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 43,
+  "sessionResult": {
+    "bestSplits": [
+      38707,
+      56685,
+      27197
+    ],
+    "bestlap": 122960,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Raf",
+              "lastName": "Cab",
+              "playerId": "S76561198032414613",
+              "shortName": "RAF"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 906,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Raf",
+          "lastName": "Cab",
+          "playerId": "S76561198032414613",
+          "shortName": "RAF"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122960,
+          "bestSplits": [
+            38707,
+            56685,
+            27197
+          ],
+          "lapCount": 4,
+          "lastLap": 122960,
+          "lastSplitId": 1,
+          "lastSplits": [
+            38707,
+            57055,
+            27197
+          ],
+          "totalTime": 379813188
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Travis",
+              "lastName": "Tatro",
+              "playerId": "S76561197980112160",
+              "shortName": "TAT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 578,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Travis",
+          "lastName": "Tatro",
+          "playerId": "S76561197980112160",
+          "shortName": "TAT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 133910,
+          "lastSplitId": 1,
+          "lastSplits": [
+            43505,
+            61562,
+            28842
+          ],
+          "totalTime": 379754164
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+  "Date": "2025-01-29T19:22:06Z",
+  "SessionFile": "250129_192206_FP"
+}

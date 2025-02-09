@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128292,
+      "splits": [
+        39282,
+        61232,
+        27777
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Mack",
+              "lastName": "Morgan",
+              "playerId": "S76561198355469119",
+              "shortName": "MOR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 423,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mack",
+          "lastName": "Morgan",
+          "playerId": "S76561198355469119",
+          "shortName": "MOR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 128292,
+          "lastSplitId": 1,
+          "lastSplits": [
+            39282,
+            61232,
+            27777
+          ],
+          "totalTime": 54345353
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+  "Date": "2025-02-05T15:06:54Z",
+  "SessionFile": "250205_150654_FP"
+}

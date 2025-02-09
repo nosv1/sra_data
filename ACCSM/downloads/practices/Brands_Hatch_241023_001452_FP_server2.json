@@ -1,0 +1,182 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91017,
+      "splits": [
+        32737,
+        22047,
+        36232
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 90072,
+      "splits": [
+        32112,
+        21907,
+        36052
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85235,
+      "splits": [
+        27517,
+        21927,
+        35790
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 84727,
+      "splits": [
+        27510,
+        21815,
+        35402
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 84625,
+      "splits": [
+        27475,
+        21842,
+        35307
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85152,
+      "splits": [
+        27425,
+        21920,
+        35807
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      27425,
+      21842,
+      35307
+    ],
+    "bestlap": 84625,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Justin",
+              "lastName": "Moffatt",
+              "playerId": "S76561199044769565",
+              "shortName": "MUF"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 365,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Justin",
+          "lastName": "Moffatt",
+          "playerId": "S76561199044769565",
+          "shortName": "MUF"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 84625,
+          "bestSplits": [
+            27425,
+            21842,
+            35307
+          ],
+          "lapCount": 6,
+          "lastLap": 85152,
+          "lastSplitId": 2,
+          "lastSplits": [
+            27425,
+            21920,
+            35807
+          ],
+          "totalTime": 2192286
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Thomas",
+              "lastName": "Greer",
+              "playerId": "S76561198041373485",
+              "shortName": "TGR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 664,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Thomas",
+          "lastName": "Greer",
+          "playerId": "S76561198041373485",
+          "shortName": "TGR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "brands_hatch",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+  "Date": "2024-10-23T00:14:52Z",
+  "SessionFile": "241023_001452_FP"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91250,
+      "splits": [
+        31130,
+        29810,
+        30310
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89312,
+      "splits": [
+        30275,
+        29342,
+        29695
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 90142,
+      "splits": [
+        30795,
+        29487,
+        29860
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 36,
+  "sessionResult": {
+    "bestSplits": [
+      30275,
+      29342,
+      29695
+    ],
+    "bestlap": 89312,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "JP",
+              "lastName": "Johnston",
+              "playerId": "S76561199683126618",
+              "shortName": "JPJ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 87,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "JP",
+          "lastName": "Johnston",
+          "playerId": "S76561199683126618",
+          "shortName": "JPJ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 89312,
+          "bestSplits": [
+            30275,
+            29342,
+            29695
+          ],
+          "lapCount": 3,
+          "lastLap": 90142,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30795,
+            29487,
+            29860
+          ],
+          "totalTime": 232941860
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zolder",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2025-01-23T15:17:37Z",
+  "SessionFile": "250123_151737_FP"
+}

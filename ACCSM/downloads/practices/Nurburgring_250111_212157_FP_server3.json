@@ -1,0 +1,193 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122555,
+      "splits": [
+        58555,
+        45927,
+        18072
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 123562,
+      "splits": [
+        58627,
+        46062,
+        18872
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122975,
+      "splits": [
+        58592,
+        45887,
+        18495
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122620,
+      "splits": [
+        58227,
+        46200,
+        18192
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121992,
+      "splits": [
+        58097,
+        45780,
+        18115
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122150,
+      "splits": [
+        58137,
+        45607,
+        18405
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122105,
+      "splits": [
+        58257,
+        45727,
+        18120
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 19,
+  "sessionResult": {
+    "bestSplits": [
+      58097,
+      45607,
+      18072
+    ],
+    "bestlap": 121992,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Diego Paul",
+              "lastName": "Fimbres Casas",
+              "playerId": "S76561198091710398",
+              "shortName": "FIM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 95,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Diego Paul",
+          "lastName": "Fimbres Casas",
+          "playerId": "S76561198091710398",
+          "shortName": "FIM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121992,
+          "bestSplits": [
+            58097,
+            45607,
+            18072
+          ],
+          "lapCount": 7,
+          "lastLap": 122105,
+          "lastSplitId": 0,
+          "lastSplits": [
+            58257,
+            45727,
+            18120
+          ],
+          "totalTime": 6094281
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Riley",
+              "lastName": "Greear",
+              "playerId": "S76561199295227155",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 293,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Riley",
+          "lastName": "Greear",
+          "playerId": "S76561199295227155",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+  "Date": "2025-01-11T21:21:57Z",
+  "SessionFile": "250111_212157_FP"
+}

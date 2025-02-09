@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 182061,
+      "splits": [
+        97718,
+        39182,
+        45160
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115127,
+      "splits": [
+        32135,
+        38407,
+        44585
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114750,
+      "splits": [
+        31775,
+        38415,
+        44560
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 228340,
+      "splits": [
+        144947,
+        38520,
+        44872
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114360,
+      "splits": [
+        31570,
+        38200,
+        44590
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114902,
+      "splits": [
+        32037,
+        38205,
+        44660
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 45,
+  "sessionResult": {
+    "bestSplits": [
+      31570,
+      38200,
+      44560
+    ],
+    "bestlap": 114360,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Max",
+              "lastName": "Diggs",
+              "playerId": "S76561199060741471",
+              "shortName": "DIG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 156,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Max",
+          "lastName": "Diggs",
+          "playerId": "S76561199060741471",
+          "shortName": "DIG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114360,
+          "bestSplits": [
+            31570,
+            38200,
+            44560
+          ],
+          "lapCount": 6,
+          "lastLap": 114902,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32037,
+            38205,
+            44660
+          ],
+          "totalTime": 212882945
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2023-05-20T23:23:42Z",
+  "SessionFile": "230520_232342_FP"
+}

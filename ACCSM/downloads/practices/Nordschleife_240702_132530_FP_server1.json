@@ -1,0 +1,153 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 506175,
+      "splits": [
+        174327,
+        157650,
+        174197
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 515587,
+      "splits": [
+        174285,
+        159280,
+        182022
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 512862,
+      "splits": [
+        173987,
+        159795,
+        179080
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 11,
+  "sessionResult": {
+    "bestSplits": [
+      173987,
+      157650,
+      174197
+    ],
+    "bestlap": 506175,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Loïc",
+              "lastName": "Normandeau",
+              "playerId": "S76561198442156717",
+              "shortName": "NOR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 860,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Loïc",
+          "lastName": "Normandeau",
+          "playerId": "S76561198442156717",
+          "shortName": "NOR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 506175,
+          "bestSplits": [
+            174327,
+            157650,
+            174197
+          ],
+          "lapCount": 1,
+          "lastLap": 506175,
+          "lastSplitId": 2,
+          "lastSplits": [
+            174327,
+            157650,
+            174197
+          ],
+          "totalTime": 74705267
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Kemo",
+              "lastName": "Sith",
+              "playerId": "S76561198048141545",
+              "shortName": "KEM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 987,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kemo",
+          "lastName": "Sith",
+          "playerId": "S76561198048141545",
+          "shortName": "KEM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 512862,
+          "bestSplits": [
+            173987,
+            159795,
+            179080
+          ],
+          "lapCount": 2,
+          "lastLap": 512862,
+          "lastSplitId": 0,
+          "lastSplits": [
+            173987,
+            159795,
+            179080
+          ],
+          "totalTime": 75767475
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring_24h",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+  "Date": "2024-07-02T13:25:30Z",
+  "SessionFile": "240702_132530_FP"
+}

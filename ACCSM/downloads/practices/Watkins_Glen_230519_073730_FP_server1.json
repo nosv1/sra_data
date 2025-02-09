@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 622771,
+      "splits": [
+        540538,
+        38280,
+        43952
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 17,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Fazlee",
+              "lastName": "Majeed",
+              "playerId": "S76561197960889643",
+              "shortName": "FAZ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 712,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Fazlee",
+          "lastName": "Majeed",
+          "playerId": "S76561197960889643",
+          "shortName": "FAZ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 622771,
+          "lastSplitId": 0,
+          "lastSplits": [
+            540538,
+            38280,
+            43952
+          ],
+          "totalTime": 114794780
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-05-19T07:37:30Z",
+  "SessionFile": "230519_073730_FP"
+}

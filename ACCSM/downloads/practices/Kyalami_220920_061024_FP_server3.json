@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1004,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 789502,
+      "splits": [
+        707807,
+        46355,
+        35340
+      ]
+    },
+    {
+      "carId": 1004,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114445,
+      "splits": [
+        34620,
+        46072,
+        33752
+      ]
+    },
+    {
+      "carId": 1004,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115080,
+      "splits": [
+        34955,
+        46015,
+        34110
+      ]
+    },
+    {
+      "carId": 1004,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114107,
+      "splits": [
+        34572,
+        45765,
+        33770
+      ]
+    },
+    {
+      "carId": 1004,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114462,
+      "splits": [
+        34262,
+        46087,
+        34112
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      34262,
+      45765,
+      33752
+    ],
+    "bestlap": 114107,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1004,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "A.",
+              "lastName": "Friday",
+              "playerId": "S76561199077862692",
+              "shortName": "FRI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 225,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "A.",
+          "lastName": "Friday",
+          "playerId": "S76561199077862692",
+          "shortName": "FRI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114107,
+          "bestSplits": [
+            34262,
+            45765,
+            33752
+          ],
+          "lapCount": 5,
+          "lastLap": 114462,
+          "lastSplitId": 2,
+          "lastSplits": [
+            34262,
+            46087,
+            34112
+          ],
+          "totalTime": 11224654
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | Wet Practice | SRAM#3",
+  "metaData": "custom_race:0c246f5a-12a7-46ba-8fa8-f92958af8e08",
+  "Date": "2022-09-20T06:10:24Z",
+  "SessionFile": "220920_061024_FP"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95177,
+      "splits": [
+        23887,
+        37935,
+        33355
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94915,
+      "splits": [
+        23875,
+        37615,
+        33425
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95600,
+      "splits": [
+        24220,
+        37650,
+        33730
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      23875,
+      37615,
+      33355
+    ],
+    "bestlap": 94915,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Caleb",
+              "lastName": "Tenney",
+              "playerId": "S76561198023860539",
+              "shortName": "TEN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 26,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Caleb",
+          "lastName": "Tenney",
+          "playerId": "S76561198023860539",
+          "shortName": "TEN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94915,
+          "bestSplits": [
+            23875,
+            37615,
+            33355
+          ],
+          "lapCount": 3,
+          "lastLap": 95600,
+          "lastSplitId": 1,
+          "lastSplits": [
+            24220,
+            37650,
+            33730
+          ],
+          "totalTime": 67179278
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+  "Date": "2025-01-08T18:14:53Z",
+  "SessionFile": "250108_181453_FP"
+}

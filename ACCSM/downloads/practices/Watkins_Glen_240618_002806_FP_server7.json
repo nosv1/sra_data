@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111230,
+      "splits": [
+        29850,
+        38590,
+        42790
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108775,
+      "splits": [
+        29492,
+        36827,
+        42455
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      29850,
+      38590,
+      42790
+    ],
+    "bestlap": 111230,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 86,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Ren",
+              "lastName": "Aoki",
+              "playerId": "S76561198129679128",
+              "shortName": "AKI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 70,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Ren",
+          "lastName": "Aoki",
+          "playerId": "S76561198129679128",
+          "shortName": "AKI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 111230,
+          "bestSplits": [
+            29850,
+            38590,
+            42790
+          ],
+          "lapCount": 2,
+          "lastLap": 108775,
+          "lastSplitId": 2,
+          "lastSplits": [
+            29492,
+            36827,
+            42455
+          ],
+          "totalTime": 42181267
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | M2s \u0026 Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+  "Date": "2024-06-18T00:28:06Z",
+  "SessionFile": "240618_002806_FP"
+}

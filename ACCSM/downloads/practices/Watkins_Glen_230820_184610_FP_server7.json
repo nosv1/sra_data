@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 264003,
+      "splits": [
+        177566,
+        41222,
+        45215
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112752,
+      "splits": [
+        31070,
+        37432,
+        44250
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112395,
+      "splits": [
+        30687,
+        37612,
+        44095
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112487,
+      "splits": [
+        30572,
+        37755,
+        44160
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      30572,
+      37432,
+      44095
+    ],
+    "bestlap": 112395,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Mai",
+              "lastName": "Darlin'",
+              "playerId": "S76561199060309229",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 678,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Mai",
+          "lastName": "Darlin'",
+          "playerId": "S76561199060309229",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 112395,
+          "bestSplits": [
+            30572,
+            37432,
+            44095
+          ],
+          "lapCount": 4,
+          "lastLap": 112487,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30572,
+            37755,
+            44160
+          ],
+          "totalTime": 601447
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | 6 Hours of Watkins Glen Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:4867d5c1-971c-499c-9c57-f15452facba9",
+  "Date": "2023-08-20T18:46:10Z",
+  "SessionFile": "230820_184610_FP"
+}

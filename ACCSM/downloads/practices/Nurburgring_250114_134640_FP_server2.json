@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128150,
+      "splits": [
+        60572,
+        48205,
+        19372
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 128002,
+      "splits": [
+        60245,
+        47967,
+        19790
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      60245,
+      47967,
+      19790
+    ],
+    "bestlap": 128002,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Colin",
+              "lastName": "Shea",
+              "playerId": "S76561198171727959",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 945,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Colin",
+          "lastName": "Shea",
+          "playerId": "S76561198171727959",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 128002,
+          "bestSplits": [
+            60245,
+            47967,
+            19790
+          ],
+          "lapCount": 2,
+          "lastLap": 128002,
+          "lastSplitId": 1,
+          "lastSplits": [
+            60245,
+            47967,
+            19790
+          ],
+          "totalTime": 54659085
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+  "Date": "2025-01-14T13:46:40Z",
+  "SessionFile": "250114_134640_FP"
+}

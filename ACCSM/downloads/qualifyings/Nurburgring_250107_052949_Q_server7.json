@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117932,
+      "splits": [
+        56712,
+        43825,
+        17395
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116617,
+      "splits": [
+        55930,
+        43492,
+        17195
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115727,
+      "splits": [
+        55735,
+        43027,
+        16965
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 182,
+  "sessionResult": {
+    "bestSplits": [
+      55735,
+      43027,
+      16965
+    ],
+    "bestlap": 115727,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Oliwer",
+              "lastName": "Sjögren",
+              "playerId": "S76561199443299821",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 23,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Oliwer",
+          "lastName": "Sjögren",
+          "playerId": "S76561199443299821",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115727,
+          "bestSplits": [
+            55735,
+            43027,
+            16965
+          ],
+          "lapCount": 3,
+          "lastLap": 115727,
+          "lastSplitId": 0,
+          "lastSplits": [
+            55735,
+            43027,
+            16965
+          ],
+          "totalTime": 1484722017
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+  "Date": "2025-01-07T05:29:49Z",
+  "SessionFile": "250107_052949_Q"
+}

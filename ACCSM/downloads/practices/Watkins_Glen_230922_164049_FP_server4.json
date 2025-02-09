@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 207581,
+      "splits": [
+        129821,
+        35952,
+        41807
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106715,
+      "splits": [
+        29837,
+        35107,
+        41770
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106550,
+      "splits": [
+        30000,
+        35007,
+        41542
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107075,
+      "splits": [
+        30482,
+        35007,
+        41585
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 16,
+  "sessionResult": {
+    "bestSplits": [
+      29837,
+      35007,
+      41542
+    ],
+    "bestlap": 106550,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jon",
+              "lastName": "Sparks",
+              "playerId": "S76561199233329613",
+              "shortName": "SPK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 99,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jon",
+          "lastName": "Sparks",
+          "playerId": "S76561199233329613",
+          "shortName": "SPK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106550,
+          "bestSplits": [
+            29837,
+            35007,
+            41542
+          ],
+          "lapCount": 4,
+          "lastLap": 107075,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30482,
+            35007,
+            41585
+          ],
+          "totalTime": 82016365
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg6 Hours of Watkins Practice | SimRacingAlliance.com | #SRAM4",
+  "metaData": "custom_race:41287415-4e9a-41a7-800f-cdcd5e570e84",
+  "Date": "2023-09-22T16:40:49Z",
+  "SessionFile": "230922_164049_FP"
+}

@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 129397,
+      "splits": [
+        40950,
+        60127,
+        28320
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      40950,
+      60127,
+      28320
+    ],
+    "bestlap": 129397,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Thomas",
+              "lastName": "Acosta",
+              "playerId": "S76561198880689719",
+              "shortName": "TEA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 923,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Thomas",
+          "lastName": "Acosta",
+          "playerId": "S76561198880689719",
+          "shortName": "TEA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 129397,
+          "bestSplits": [
+            40950,
+            60127,
+            28320
+          ],
+          "lapCount": 1,
+          "lastLap": 129397,
+          "lastSplitId": 1,
+          "lastSplits": [
+            40950,
+            60127,
+            28320
+          ],
+          "totalTime": 2751899
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAgg | LIAW_FreePractice| R  | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:1aae9ca7-6054-4332-8140-7f8e09700e86",
+  "Date": "2024-11-28T17:57:21Z",
+  "SessionFile": "241128_175721_FP"
+}

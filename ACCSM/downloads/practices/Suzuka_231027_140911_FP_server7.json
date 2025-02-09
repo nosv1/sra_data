@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 2696730,
+      "splits": [
+        2612972,
+        56235,
+        27522
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 120950,
+      "splits": [
+        40495,
+        53705,
+        26750
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122305,
+      "splits": [
+        40550,
+        54155,
+        27600
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      40495,
+      53705,
+      26750
+    ],
+    "bestlap": 120950,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Daniel",
+              "lastName": "Arsenault",
+              "playerId": "S76561197966720273",
+              "shortName": "GBZ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 22,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Daniel",
+          "lastName": "Arsenault",
+          "playerId": "S76561197966720273",
+          "shortName": "GBZ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 120950,
+          "bestSplits": [
+            40495,
+            53705,
+            26750
+          ],
+          "lapCount": 3,
+          "lastLap": 122305,
+          "lastSplitId": 2,
+          "lastSplits": [
+            40550,
+            54155,
+            27600
+          ],
+          "totalTime": 58348125
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg | 8 Hours of Suzuka Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:8338bef5-6a5c-4149-ad6c-2b0fb96dedb4",
+  "Date": "2023-10-27T14:09:11Z",
+  "SessionFile": "231027_140911_FP"
+}

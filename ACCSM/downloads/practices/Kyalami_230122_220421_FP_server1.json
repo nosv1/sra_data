@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 164303,
+      "splits": [
+        92306,
+        41105,
+        30892
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103292,
+      "splits": [
+        31777,
+        41015,
+        30500
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 32,
+  "sessionResult": {
+    "bestSplits": [
+      31777,
+      41015,
+      30500
+    ],
+    "bestlap": 103292,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Scott",
+              "lastName": "Smith",
+              "playerId": "S76561197972317118",
+              "shortName": "SSM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 912,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Scott",
+          "lastName": "Smith",
+          "playerId": "S76561197972317118",
+          "shortName": "SSM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103292,
+          "bestSplits": [
+            31777,
+            41015,
+            30500
+          ],
+          "lapCount": 2,
+          "lastLap": 103292,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31777,
+            41015,
+            30500
+          ],
+          "totalTime": 312499158
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | SRAM#1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-01-22T22:04:21Z",
+  "SessionFile": "230122_220421_FP"
+}

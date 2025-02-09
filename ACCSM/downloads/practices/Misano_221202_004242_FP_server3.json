@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 138888,
+      "splits": [
+        59346,
+        41777,
+        37765
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105180,
+      "splits": [
+        27085,
+        40830,
+        37265
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 105935,
+      "splits": [
+        27017,
+        41387,
+        37530
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      27017,
+      40830,
+      37265
+    ],
+    "bestlap": 105180,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Delan",
+              "lastName": "Stallworth",
+              "playerId": "S76561199373226755",
+              "shortName": "STA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 317,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Delan",
+          "lastName": "Stallworth",
+          "playerId": "S76561199373226755",
+          "shortName": "STA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 105180,
+          "bestSplits": [
+            27017,
+            40830,
+            37265
+          ],
+          "lapCount": 3,
+          "lastLap": 105935,
+          "lastSplitId": 0,
+          "lastSplits": [
+            27017,
+            41387,
+            37530
+          ],
+          "totalTime": 74479686
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | GT3_FreePractice | SRAM#3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2022-12-02T00:42:42Z",
+  "SessionFile": "221202_004242_FP"
+}

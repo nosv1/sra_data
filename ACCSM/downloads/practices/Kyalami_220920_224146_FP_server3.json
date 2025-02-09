@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 180026,
+      "splits": [
+        93801,
+        51522,
+        34702
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114645,
+      "splits": [
+        34335,
+        46157,
+        34152
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 175830,
+      "splits": [
+        34197,
+        86887,
+        54745
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 15,
+  "sessionResult": {
+    "bestSplits": [
+      34335,
+      46157,
+      34152
+    ],
+    "bestlap": 114645,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Land",
+              "lastName": "Shark",
+              "playerId": "S76561197965632839",
+              "shortName": "SHK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 981,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Land",
+          "lastName": "Shark",
+          "playerId": "S76561197965632839",
+          "shortName": "SHK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114645,
+          "bestSplits": [
+            34335,
+            46157,
+            34152
+          ],
+          "lapCount": 3,
+          "lastLap": 175830,
+          "lastSplitId": 2,
+          "lastSplits": [
+            34197,
+            86887,
+            54745
+          ],
+          "totalTime": 71936034
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #3 | Wet Practice | SRAM#3",
+  "metaData": "custom_race:0c246f5a-12a7-46ba-8fa8-f92958af8e08",
+  "Date": "2022-09-20T22:41:46Z",
+  "SessionFile": "220920_224146_FP"
+}

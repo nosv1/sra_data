@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 362027,
+      "splits": [
+        272257,
+        59985,
+        29785
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 135780,
+      "splits": [
+        46845,
+        59147,
+        29787
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 135047,
+      "splits": [
+        46537,
+        58470,
+        30040
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 26,
+  "sessionResult": {
+    "bestSplits": [
+      46537,
+      58470,
+      30040
+    ],
+    "bestlap": 135047,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dominik",
+              "lastName": "Jaworski",
+              "playerId": "S76561198038215245",
+              "shortName": "JAW"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 787,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dominik",
+          "lastName": "Jaworski",
+          "playerId": "S76561198038215245",
+          "shortName": "JAW"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 135047,
+          "bestSplits": [
+            46537,
+            58470,
+            30040
+          ],
+          "lapCount": 3,
+          "lastLap": 135047,
+          "lastSplitId": 1,
+          "lastSplits": [
+            46537,
+            58470,
+            30040
+          ],
+          "totalTime": 257855135
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | \u003e | GT3 Free Practice | Q  | SRAM#2",
+  "metaData": "custom_race:dd2e6620-b95f-4123-a0e3-49b2bd1b0636",
+  "Date": "2022-10-08T23:26:11Z",
+  "SessionFile": "221008_232611_FP"
+}

@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 139842,
+      "splits": [
+        73285,
+        47625,
+        18932
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 126465,
+      "splits": [
+        60150,
+        47237,
+        19077
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 148222,
+      "splits": [
+        67927,
+        60732,
+        19562
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127572,
+      "splits": [
+        60780,
+        47227,
+        19565
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      60150,
+      47237,
+      19077
+    ],
+    "bestlap": 126465,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Moon",
+              "playerId": "S76561197960784860",
+              "shortName": "MMM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 908,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Moon",
+          "playerId": "S76561197960784860",
+          "shortName": "MMM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 126465,
+          "bestSplits": [
+            60150,
+            47237,
+            19077
+          ],
+          "lapCount": 4,
+          "lastLap": 127572,
+          "lastSplitId": 1,
+          "lastSplits": [
+            60780,
+            47227,
+            19565
+          ],
+          "totalTime": 50228012
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2025-01-09T13:33:03Z",
+  "SessionFile": "250109_133303_FP"
+}

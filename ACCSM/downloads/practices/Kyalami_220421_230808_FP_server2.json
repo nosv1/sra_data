@@ -1,0 +1,241 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 417878,
+      "splits": [
+        339158,
+        44142,
+        34577
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 254268,
+      "splits": [
+        177253,
+        43955,
+        33060
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110580,
+      "splits": [
+        33290,
+        44785,
+        32505
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 262652,
+      "splits": [
+        183180,
+        46680,
+        32792
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109722,
+      "splits": [
+        33190,
+        43802,
+        32730
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109267,
+      "splits": [
+        33015,
+        44097,
+        32155
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108282,
+      "splits": [
+        32800,
+        43417,
+        32065
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 307230,
+      "splits": [
+        227837,
+        45897,
+        33495
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107622,
+      "splits": [
+        32627,
+        43175,
+        31820
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109857,
+      "splits": [
+        33322,
+        44022,
+        32512
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107912,
+      "splits": [
+        32895,
+        43030,
+        31987
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": null,
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      32627,
+      43030,
+      31820
+    ],
+    "bestlap": 107622,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 24,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Toma",
+              "lastName": "Constantin",
+              "playerId": "S76561198111779719",
+              "shortName": "TCN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 421,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Toma",
+          "lastName": "Constantin",
+          "playerId": "S76561198111779719",
+          "shortName": "TCN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107622,
+          "bestSplits": [
+            32627,
+            43030,
+            31820
+          ],
+          "lapCount": 7,
+          "lastLap": 107912,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32895,
+            43030,
+            31987
+          ],
+          "totalTime": 69041663
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "",
+          "carGuid": null,
+          "teamGuid": null,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Dan",
+              "lastName": "Meyer",
+              "playerId": "S76561198083139769",
+              "shortName": "MEY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 310,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dan",
+          "lastName": "Meyer",
+          "playerId": "S76561198083139769",
+          "shortName": "MEY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 109857,
+          "bestSplits": [
+            33322,
+            44022,
+            32512
+          ],
+          "lapCount": 4,
+          "lastLap": 109857,
+          "lastSplitId": 2,
+          "lastSplits": [
+            33322,
+            44022,
+            32512
+          ],
+          "totalTime": 69028216
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "",
+  "metaData": "custom_race:31b207dc-0a8f-4d32-86b3-9231a46c8431",
+  "Date": "2022-04-21T23:08:08Z",
+  "SessionFile": "220421_230808_FP"
+}

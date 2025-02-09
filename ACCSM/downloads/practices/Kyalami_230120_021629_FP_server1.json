@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 137466,
+      "splits": [
+        65156,
+        41572,
+        30737
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103337,
+      "splits": [
+        31765,
+        41107,
+        30465
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102862,
+      "splits": [
+        31532,
+        40867,
+        30462
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102797,
+      "splits": [
+        31665,
+        40597,
+        30535
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 102762,
+      "splits": [
+        31695,
+        40662,
+        30405
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103797,
+      "splits": [
+        31887,
+        41122,
+        30787
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 11,
+  "sessionResult": {
+    "bestSplits": [
+      31532,
+      40597,
+      30405
+    ],
+    "bestlap": 102762,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Harvey",
+              "lastName": "Kandola",
+              "playerId": "S76561198004839603",
+              "shortName": "KAN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 166,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Harvey",
+          "lastName": "Kandola",
+          "playerId": "S76561198004839603",
+          "shortName": "KAN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 102762,
+          "bestSplits": [
+            31532,
+            40597,
+            30405
+          ],
+          "lapCount": 6,
+          "lastLap": 103797,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31887,
+            41122,
+            30787
+          ],
+          "totalTime": 68438454
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | SRAM#1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-01-20T02:16:29Z",
+  "SessionFile": "230120_021629_FP"
+}

@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 126911,
+      "splits": [
+        54621,
+        41562,
+        30727
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104265,
+      "splits": [
+        31755,
+        41892,
+        30617
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103417,
+      "splits": [
+        31855,
+        40845,
+        30717
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 104302,
+      "splits": [
+        31992,
+        41095,
+        31215
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103505,
+      "splits": [
+        31920,
+        41007,
+        30577
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103445,
+      "splits": [
+        31780,
+        41000,
+        30665
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 26,
+  "sessionResult": {
+    "bestSplits": [
+      31755,
+      40845,
+      30577
+    ],
+    "bestlap": 103417,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 14,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Doug",
+              "lastName": "Lee",
+              "playerId": "S76561198016633944",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 54,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Doug",
+          "lastName": "Lee",
+          "playerId": "S76561198016633944",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103417,
+          "bestSplits": [
+            31755,
+            40845,
+            30577
+          ],
+          "lapCount": 6,
+          "lastLap": 103445,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31780,
+            41000,
+            30665
+          ],
+          "totalTime": 237661379
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | GT3_FreePractice | R | SRAM#1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-01-22T01:17:32Z",
+  "SessionFile": "230122_011732_FP"
+}

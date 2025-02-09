@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 164583,
+      "splits": [
+        86738,
+        35897,
+        41947
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106947,
+      "splits": [
+        30085,
+        35247,
+        41615
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106697,
+      "splits": [
+        30207,
+        34960,
+        41530
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 91,
+  "sessionResult": {
+    "bestSplits": [
+      30085,
+      34960,
+      41530
+    ],
+    "bestlap": 106697,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Justin",
+              "lastName": "MacKechnie",
+              "playerId": "S76561198328203388",
+              "shortName": "JMA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 31,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Justin",
+          "lastName": "MacKechnie",
+          "playerId": "S76561198328203388",
+          "shortName": "JMA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106697,
+          "bestSplits": [
+            30085,
+            34960,
+            41530
+          ],
+          "lapCount": 3,
+          "lastLap": 106697,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30207,
+            34960,
+            41530
+          ],
+          "totalTime": 886634203
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | 6 Hours of Watkins Glen Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:4867d5c1-971c-499c-9c57-f15452facba9",
+  "Date": "2023-09-14T16:17:58Z",
+  "SessionFile": "230914_161758_FP"
+}

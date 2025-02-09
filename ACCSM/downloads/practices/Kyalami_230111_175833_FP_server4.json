@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1006,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 253772,
+      "splits": [
+        179375,
+        42877,
+        31520
+      ]
+    },
+    {
+      "carId": 1006,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106245,
+      "splits": [
+        32570,
+        42125,
+        31550
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      32570,
+      42125,
+      31550
+    ],
+    "bestlap": 106245,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1006,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Stephen",
+              "lastName": "Pellerin",
+              "playerId": "S76561199074528657",
+              "shortName": "SJP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 64,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Stephen",
+          "lastName": "Pellerin",
+          "playerId": "S76561199074528657",
+          "shortName": "SJP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106245,
+          "bestSplits": [
+            32570,
+            42125,
+            31550
+          ],
+          "lapCount": 2,
+          "lastLap": 106245,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32570,
+            42125,
+            31550
+          ],
+          "totalTime": 47873902
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #4 | GT3_FreePractice | R | SRAM#4",
+  "metaData": "custom_race:df12763d-a873-4bb4-865b-e80f6ad46dff",
+  "Date": "2023-01-11T17:58:33Z",
+  "SessionFile": "230111_175833_FP"
+}

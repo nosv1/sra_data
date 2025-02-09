@@ -1,0 +1,284 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 271748,
+      "splits": [
+        190326,
+        33387,
+        48035
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 290468,
+      "splits": [
+        208401,
+        33475,
+        48592
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103970,
+      "splits": [
+        22500,
+        33185,
+        48285
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 104155,
+      "splits": [
+        22287,
+        32977,
+        48890
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 103572,
+      "splits": [
+        22245,
+        33092,
+        48235
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103915,
+      "splits": [
+        22600,
+        33152,
+        48162
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103612,
+      "splits": [
+        22280,
+        33125,
+        48207
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 184532,
+      "splits": [
+        103300,
+        33445,
+        47787
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103582,
+      "splits": [
+        22687,
+        33070,
+        47825
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103192,
+      "splits": [
+        22395,
+        32997,
+        47800
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 103075,
+      "splits": [
+        22092,
+        32972,
+        48010
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      22092,
+      32972,
+      47800
+    ],
+    "bestlap": 103075,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Kelvin",
+              "lastName": "Lau",
+              "playerId": "S76561197960450974",
+              "shortName": "LAU"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 666,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kelvin",
+          "lastName": "Lau",
+          "playerId": "S76561197960450974",
+          "shortName": "LAU"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103075,
+          "bestSplits": [
+            22092,
+            32972,
+            47825
+          ],
+          "lapCount": 6,
+          "lastLap": 103075,
+          "lastSplitId": 0,
+          "lastSplits": [
+            22092,
+            32972,
+            48010
+          ],
+          "totalTime": 694397
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Al",
+              "lastName": "Lotufo",
+              "playerId": "S76561197965864959",
+              "shortName": "LOT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 4,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Al",
+          "lastName": "Lotufo",
+          "playerId": "S76561197965864959",
+          "shortName": "LOT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 103192,
+          "bestSplits": [
+            22395,
+            32997,
+            47800
+          ],
+          "lapCount": 5,
+          "lastLap": 103192,
+          "lastSplitId": 0,
+          "lastSplits": [
+            22395,
+            32997,
+            47800
+          ],
+          "totalTime": 642980
+        }
+      },
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Selena",
+              "lastName": "Boonstra",
+              "playerId": "S76561198387947975",
+              "shortName": "BOO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 35,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Selena",
+          "lastName": "Boonstra",
+          "playerId": "S76561198387947975",
+          "shortName": "BOO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "imola",
+  "serverName": "SRA.gg | Sim Racing Alliance | Main Server #4 | SRA Weekend Sprint #4 | #SRAE | SRAM#4",
+  "metaData": "custom_race:663d3ab4-f26f-49d7-a6d9-5956f6985680",
+  "Date": "2023-04-16T23:16:01Z",
+  "SessionFile": "230416_231601_Q"
+}

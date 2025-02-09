@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115222,
+      "splits": [
+        32790,
+        44380,
+        38052
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115120,
+      "splits": [
+        32897,
+        44425,
+        37797
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      32790,
+      44380,
+      38052
+    ],
+    "bestlap": 115222,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 51,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Chris",
+              "lastName": "Logain",
+              "playerId": "S76561198019221567",
+              "shortName": "LOG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 76,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Chris",
+          "lastName": "Logain",
+          "playerId": "S76561198019221567",
+          "shortName": "LOG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115222,
+          "bestSplits": [
+            32790,
+            44380,
+            38052
+          ],
+          "lapCount": 2,
+          "lastLap": 115120,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32897,
+            44425,
+            37797
+          ],
+          "totalTime": 264313790
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "barcelona",
+  "serverName": "#SRAggSRA - MCM Exhibition - Barcelona Race 1 | SimRacingAlliance.com | #SRAM5",
+  "metaData": "championship-pre-practice",
+  "Date": "2024-08-09T18:32:06Z",
+  "SessionFile": "240809_183206_FP"
+}

@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114535,
+      "splits": [
+        39330,
+        43737,
+        31467
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113117,
+      "splits": [
+        39430,
+        42647,
+        31040
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 49,
+  "sessionResult": {
+    "bestSplits": [
+      39430,
+      42647,
+      31040
+    ],
+    "bestlap": 113117,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Carter",
+              "lastName": "Hogan",
+              "playerId": "S76561199239423133",
+              "shortName": "CAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 517,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Carter",
+          "lastName": "Hogan",
+          "playerId": "S76561199239423133",
+          "shortName": "CAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 113117,
+          "bestSplits": [
+            39430,
+            42647,
+            31040
+          ],
+          "lapCount": 2,
+          "lastLap": 113117,
+          "lastSplitId": 1,
+          "lastSplits": [
+            39430,
+            42647,
+            31040
+          ],
+          "totalTime": 338490863
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "hungaroring",
+  "serverName": "#SRAgg | M2s \u0026 Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+  "Date": "2024-08-01T03:03:21Z",
+  "SessionFile": "240801_030321_FP"
+}

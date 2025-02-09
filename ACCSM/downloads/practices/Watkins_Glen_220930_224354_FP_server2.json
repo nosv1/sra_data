@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 147721,
+      "splits": [
+        66696,
+        36600,
+        44425
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111950,
+      "splits": [
+        30385,
+        38437,
+        43127
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 109022,
+      "splits": [
+        30562,
+        36265,
+        42195
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 15,
+  "sessionResult": {
+    "bestSplits": [
+      30385,
+      38437,
+      43127
+    ],
+    "bestlap": 111950,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Kyle",
+              "lastName": "Turner",
+              "playerId": "S76561198136324624",
+              "shortName": "KHT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 706,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kyle",
+          "lastName": "Turner",
+          "playerId": "S76561198136324624",
+          "shortName": "KHT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 111950,
+          "bestSplits": [
+            30385,
+            38437,
+            43127
+          ],
+          "lapCount": 3,
+          "lastLap": 109022,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30562,
+            36265,
+            42195
+          ],
+          "totalTime": 167457405
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | \u003e | GT3 Free Practice | Q  | SRAM#2",
+  "metaData": "custom_race:dd2e6620-b95f-4123-a0e3-49b2bd1b0636",
+  "Date": "2022-09-30T22:43:54Z",
+  "SessionFile": "220930_224354_FP"
+}

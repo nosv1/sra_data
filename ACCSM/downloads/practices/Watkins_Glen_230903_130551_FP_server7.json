@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 179886,
+      "splits": [
+        100853,
+        36592,
+        42440
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107617,
+      "splits": [
+        30237,
+        35500,
+        41880
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106495,
+      "splits": [
+        29970,
+        35237,
+        41287
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106797,
+      "splits": [
+        30162,
+        35305,
+        41330
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106040,
+      "splits": [
+        29835,
+        35015,
+        41190
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 29,
+  "sessionResult": {
+    "bestSplits": [
+      29835,
+      35015,
+      41190
+    ],
+    "bestlap": 106040,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 33,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Travis",
+              "lastName": "Robinson",
+              "playerId": "S76561198308778510",
+              "shortName": "TBR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 73,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Travis",
+          "lastName": "Robinson",
+          "playerId": "S76561198308778510",
+          "shortName": "TBR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106040,
+          "bestSplits": [
+            29835,
+            35015,
+            41190
+          ],
+          "lapCount": 5,
+          "lastLap": 106040,
+          "lastSplitId": 2,
+          "lastSplits": [
+            29835,
+            35015,
+            41190
+          ],
+          "totalTime": 765338601
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | 6 Hours of Watkins Glen Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:4867d5c1-971c-499c-9c57-f15452facba9",
+  "Date": "2023-09-03T13:05:51Z",
+  "SessionFile": "230903_130551_FP"
+}

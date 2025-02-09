@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 185061,
+      "splits": [
+        93141,
+        61010,
+        30910
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 137272,
+      "splits": [
+        46675,
+        60422,
+        30175
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 9,
+  "sessionResult": {
+    "bestSplits": [
+      46675,
+      60422,
+      30175
+    ],
+    "bestlap": 137272,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Cory",
+              "lastName": "Cercone",
+              "playerId": "S76561198812121535",
+              "shortName": "CER"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 86,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Cory",
+          "lastName": "Cercone",
+          "playerId": "S76561198812121535",
+          "shortName": "CER"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 137272,
+          "bestSplits": [
+            46675,
+            60422,
+            30175
+          ],
+          "lapCount": 2,
+          "lastLap": 137272,
+          "lastSplitId": 0,
+          "lastSplits": [
+            46675,
+            60422,
+            30175
+          ],
+          "totalTime": 59361532
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | \u003e | GT3 Free Practice | R  | SRAM#1",
+  "metaData": "custom_race:71ec6d51-9a27-4e1e-aadd-6dde718d8cc0",
+  "Date": "2022-10-06T20:18:01Z",
+  "SessionFile": "221006_201801_FP"
+}

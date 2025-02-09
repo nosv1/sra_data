@@ -1,0 +1,219 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 97122,
+      "splits": [
+        32377,
+        31652,
+        33092
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90385,
+      "splits": [
+        30732,
+        29582,
+        30070
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89845,
+      "splits": [
+        30512,
+        29647,
+        29685
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89305,
+      "splits": [
+        30390,
+        29092,
+        29822
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 89485,
+      "splits": [
+        30362,
+        28747,
+        30375
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90537,
+      "splits": [
+        30655,
+        29237,
+        30645
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 90560,
+      "splits": [
+        30775,
+        29385,
+        30400
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89327,
+      "splits": [
+        30260,
+        29152,
+        29915
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89142,
+      "splits": [
+        30217,
+        29160,
+        29765
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 18,
+  "sessionResult": {
+    "bestSplits": [
+      30217,
+      29092,
+      29685
+    ],
+    "bestlap": 89142,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Andrew",
+              "lastName": "Riffe",
+              "playerId": "S76561198075372619",
+              "shortName": "ARI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 79,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Andrew",
+          "lastName": "Riffe",
+          "playerId": "S76561198075372619",
+          "shortName": "ARI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 89142,
+          "bestSplits": [
+            30217,
+            29092,
+            29685
+          ],
+          "lapCount": 8,
+          "lastLap": 89142,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30217,
+            29160,
+            29765
+          ],
+          "totalTime": 125610066
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Riley",
+              "lastName": "Greear",
+              "playerId": "S76561199295227155",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 293,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Riley",
+          "lastName": "Greear",
+          "playerId": "S76561199295227155",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 97122,
+          "lastSplitId": 2,
+          "lastSplits": [
+            32377,
+            31652,
+            33092
+          ],
+          "totalTime": 124633709
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zolder",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2025-01-17T10:28:47Z",
+  "SessionFile": "250117_102847_FP"
+}

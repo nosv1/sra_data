@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109717,
+      "splits": [
+        30307,
+        36617,
+        42792
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109537,
+      "splits": [
+        30497,
+        36495,
+        42545
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 109975,
+      "splits": [
+        30272,
+        36670,
+        43032
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108662,
+      "splits": [
+        30302,
+        36122,
+        42237
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109200,
+      "splits": [
+        30310,
+        36872,
+        42017
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      30302,
+      36122,
+      42017
+    ],
+    "bestlap": 108662,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Kevin",
+              "lastName": "Naples",
+              "playerId": "S76561198152613590",
+              "shortName": "NAP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 904,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Kevin",
+          "lastName": "Naples",
+          "playerId": "S76561198152613590",
+          "shortName": "NAP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 108662,
+          "bestSplits": [
+            30302,
+            36122,
+            42017
+          ],
+          "lapCount": 5,
+          "lastLap": 109200,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30310,
+            36872,
+            42017
+          ],
+          "totalTime": 59069148
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2024-12-12T22:01:51Z",
+  "SessionFile": "241212_220151_FP"
+}

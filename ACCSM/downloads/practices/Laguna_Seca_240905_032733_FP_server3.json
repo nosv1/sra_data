@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 92690,
+      "splits": [
+        30285,
+        28970,
+        33435
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 87060,
+      "splits": [
+        22260,
+        31197,
+        33602
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Caleb",
+              "lastName": "Tenney",
+              "playerId": "S76561198023860539",
+              "shortName": "TEN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 805,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Caleb",
+          "lastName": "Tenney",
+          "playerId": "S76561198023860539",
+          "shortName": "TEN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 87060,
+          "lastSplitId": 0,
+          "lastSplits": [
+            22260,
+            31197,
+            33602
+          ],
+          "totalTime": 13918034
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2024-09-05T03:27:33Z",
+  "SessionFile": "240905_032733_FP"
+}

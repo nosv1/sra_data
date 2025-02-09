@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 101735,
+      "splits": [
+        31942,
+        37412,
+        32380
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96750,
+      "splits": [
+        31727,
+        33032,
+        31990
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 33,
+  "sessionResult": {
+    "bestSplits": [
+      31727,
+      33032,
+      31990
+    ],
+    "bestlap": 96750,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Collin",
+              "lastName": "Dunham",
+              "playerId": "S76561197989466442",
+              "shortName": "DUN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 444,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Collin",
+          "lastName": "Dunham",
+          "playerId": "S76561197989466442",
+          "shortName": "DUN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96750,
+          "bestSplits": [
+            31727,
+            33032,
+            31990
+          ],
+          "lapCount": 2,
+          "lastLap": 96750,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31727,
+            33032,
+            31990
+          ],
+          "totalTime": 184911610
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zandvoort",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2024-10-12T20:58:08Z",
+  "SessionFile": "241012_205808_FP"
+}

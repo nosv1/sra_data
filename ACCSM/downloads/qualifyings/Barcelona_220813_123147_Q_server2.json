@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 319933,
+      "splits": [
+        235591,
+        45335,
+        39007
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110462,
+      "splits": [
+        31055,
+        42257,
+        37150
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 113827,
+      "splits": [
+        32060,
+        44447,
+        37320
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      31055,
+      42257,
+      37150
+    ],
+    "bestlap": 110462,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Eduardo",
+              "lastName": "Rodríguez",
+              "playerId": "S76561198014191937",
+              "shortName": "RDZ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 174,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Eduardo",
+          "lastName": "Rodríguez",
+          "playerId": "S76561198014191937",
+          "shortName": "RDZ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 110462,
+          "bestSplits": [
+            31055,
+            42257,
+            37150
+          ],
+          "lapCount": 3,
+          "lastLap": 113827,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32060,
+            44447,
+            37320
+          ],
+          "totalTime": 421701
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "barcelona",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Open Lobby | SRAM#2",
+  "metaData": "custom_race:10966157-8464-4fc0-8c1e-89ae35d610a3",
+  "Date": "2022-08-13T12:31:47Z",
+  "SessionFile": "220813_123147_Q"
+}

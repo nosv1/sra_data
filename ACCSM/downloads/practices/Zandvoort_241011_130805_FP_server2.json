@@ -1,0 +1,186 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 129872,
+      "splits": [
+        55165,
+        39705,
+        35002
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 102720,
+      "splits": [
+        33532,
+        36000,
+        33187
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101910,
+      "splits": [
+        33465,
+        35685,
+        32760
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 101515,
+      "splits": [
+        33007,
+        34922,
+        33585
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 100055,
+      "splits": [
+        32812,
+        34430,
+        32812
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110477,
+      "splits": [
+        41042,
+        35990,
+        33445
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      32812,
+      34430,
+      32760
+    ],
+    "bestlap": 100055,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Matasy",
+              "playerId": "S76561199246261917",
+              "shortName": "MRM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 228,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Matasy",
+          "playerId": "S76561199246261917",
+          "shortName": "MRM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 100055,
+          "bestSplits": [
+            32812,
+            34430,
+            32812
+          ],
+          "lapCount": 1,
+          "lastLap": 100055,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32812,
+            34430,
+            32812
+          ],
+          "totalTime": 70282231
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Steph",
+              "lastName": "Dutton",
+              "playerId": "S76561198868142890",
+              "shortName": "DUT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 810,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Steph",
+          "lastName": "Dutton",
+          "playerId": "S76561198868142890",
+          "shortName": "DUT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 101910,
+          "bestSplits": [
+            33465,
+            35685,
+            32760
+          ],
+          "lapCount": 5,
+          "lastLap": 110477,
+          "lastSplitId": 0,
+          "lastSplits": [
+            41042,
+            35990,
+            33445
+          ],
+          "totalTime": 70302046
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zandvoort",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2024-10-11T13:08:05Z",
+  "SessionFile": "241011_130805_FP"
+}

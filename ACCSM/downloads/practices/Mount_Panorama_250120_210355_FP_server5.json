@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 127580,
+      "splits": [
+        39450,
+        59980,
+        28150
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 126895,
+      "splits": [
+        39555,
+        59225,
+        28115
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 130900,
+      "splits": [
+        40135,
+        61600,
+        29165
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      39555,
+      59225,
+      28115
+    ],
+    "bestlap": 126895,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 83,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Curtis",
+              "lastName": "Lee",
+              "playerId": "S76561198035723322",
+              "shortName": "LEE"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 826,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Curtis",
+          "lastName": "Lee",
+          "playerId": "S76561198035723322",
+          "shortName": "LEE"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 126895,
+          "bestSplits": [
+            39555,
+            59225,
+            28115
+          ],
+          "lapCount": 3,
+          "lastLap": 130900,
+          "lastSplitId": 2,
+          "lastSplits": [
+            40135,
+            61600,
+            29165
+          ],
+          "totalTime": 16906263
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggSRA - Multiclass Mayhem - Bathurst Enduro Practice | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:1aace6ce-6110-4d0b-b14a-c112f65ec8b6",
+  "Date": "2025-01-20T21:03:55Z",
+  "SessionFile": "250120_210355_FP"
+}

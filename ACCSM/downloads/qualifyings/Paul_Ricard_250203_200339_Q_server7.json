@@ -1,0 +1,186 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117012,
+      "splits": [
+        32337,
+        32722,
+        51952
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118035,
+      "splits": [
+        32970,
+        32412,
+        52652
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115400,
+      "splits": [
+        32145,
+        32300,
+        50955
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 123787,
+      "splits": [
+        32512,
+        38435,
+        52840
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116317,
+      "splits": [
+        31850,
+        32557,
+        51910
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116455,
+      "splits": [
+        32250,
+        32507,
+        51697
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      32145,
+      32300,
+      50955
+    ],
+    "bestlap": 115400,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jacob",
+              "lastName": "L.Charron",
+              "playerId": "S76561198375527237",
+              "shortName": "LEM"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 724,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jacob",
+          "lastName": "L.Charron",
+          "playerId": "S76561198375527237",
+          "shortName": "LEM"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115400,
+          "bestSplits": [
+            32145,
+            32300,
+            50955
+          ],
+          "lapCount": 4,
+          "lastLap": 116455,
+          "lastSplitId": 2,
+          "lastSplits": [
+            32250,
+            32507,
+            51697
+          ],
+          "totalTime": 94422969
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Julien",
+              "lastName": "Bacon",
+              "playerId": "S76561198106585027",
+              "shortName": "JUB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 582,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Julien",
+          "lastName": "Bacon",
+          "playerId": "S76561198106585027",
+          "shortName": "JUB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 118035,
+          "bestSplits": [
+            32970,
+            32412,
+            52652
+          ],
+          "lapCount": 2,
+          "lastLap": 123787,
+          "lastSplitId": 2,
+          "lastSplits": [
+            32512,
+            38435,
+            52840
+          ],
+          "totalTime": 93517315
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-03T20:03:39Z",
+  "SessionFile": "250203_200339_Q"
+}

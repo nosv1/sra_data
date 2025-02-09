@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 179076,
+      "splits": [
+        99318,
+        37325,
+        42432
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107262,
+      "splits": [
+        29875,
+        35417,
+        41970
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      29875,
+      35417,
+      41970
+    ],
+    "bestlap": 107262,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Durban",
+              "lastName": "Legacy",
+              "playerId": "S76561198398671653",
+              "shortName": "LEG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 115,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Durban",
+          "lastName": "Legacy",
+          "playerId": "S76561198398671653",
+          "shortName": "LEG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107262,
+          "bestSplits": [
+            29875,
+            35417,
+            41970
+          ],
+          "lapCount": 2,
+          "lastLap": 107262,
+          "lastSplitId": 1,
+          "lastSplits": [
+            29875,
+            35417,
+            41970
+          ],
+          "totalTime": 363194585
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | 6 Hours of Watkins Glen Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:4867d5c1-971c-499c-9c57-f15452facba9",
+  "Date": "2023-08-29T21:24:59Z",
+  "SessionFile": "230829_212459_FP"
+}

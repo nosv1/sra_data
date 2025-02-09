@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 144223,
+      "splits": [
+        72823,
+        38090,
+        33310
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 95247,
+      "splits": [
+        23707,
+        38002,
+        33537
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 679677,
+      "splits": [
+        601290,
+        43952,
+        34435
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      23707,
+      38002,
+      33537
+    ],
+    "bestlap": 95247,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "C",
+              "lastName": "Luoper",
+              "playerId": "S76561198405313609",
+              "shortName": "LUP"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 413,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "C",
+          "lastName": "Luoper",
+          "playerId": "S76561198405313609",
+          "shortName": "LUP"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 95247,
+          "bestSplits": [
+            23707,
+            38002,
+            33537
+          ],
+          "lapCount": 3,
+          "lastLap": 679677,
+          "lastSplitId": 0,
+          "lastSplits": [
+            601290,
+            43952,
+            34435
+          ],
+          "totalTime": 28377331
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2023-08-29T08:29:15Z",
+  "SessionFile": "230829_082915_FP"
+}

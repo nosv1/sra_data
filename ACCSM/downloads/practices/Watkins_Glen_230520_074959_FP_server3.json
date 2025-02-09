@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 228843,
+      "splits": [
+        141731,
+        40910,
+        46202
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116685,
+      "splits": [
+        31910,
+        39682,
+        45092
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115427,
+      "splits": [
+        32017,
+        38705,
+        44705
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 292910,
+      "splits": [
+        208810,
+        39297,
+        44802
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115187,
+      "splits": [
+        31560,
+        38910,
+        44717
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115042,
+      "splits": [
+        31895,
+        38430,
+        44717
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 27,
+  "sessionResult": {
+    "bestSplits": [
+      31560,
+      38430,
+      44705
+    ],
+    "bestlap": 115042,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dan",
+              "lastName": "Rebel",
+              "playerId": "S76561199033153090",
+              "shortName": "REB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 882,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dan",
+          "lastName": "Rebel",
+          "playerId": "S76561199033153090",
+          "shortName": "REB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115042,
+          "bestSplits": [
+            31560,
+            38430,
+            44705
+          ],
+          "lapCount": 6,
+          "lastLap": 115042,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31895,
+            38430,
+            44717
+          ],
+          "totalTime": 156940931
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3",
+  "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+  "Date": "2023-05-20T07:49:59Z",
+  "SessionFile": "230520_074959_FP"
+}

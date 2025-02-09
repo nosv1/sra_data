@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 272043,
+      "splits": [
+        196926,
+        48612,
+        26505
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96640,
+      "splits": [
+        23660,
+        46922,
+        26057
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      23660,
+      46922,
+      26057
+    ],
+    "bestlap": 96640,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Phillipe",
+              "lastName": "Enis",
+              "playerId": "S76561198004368551",
+              "shortName": "PEN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 39,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Phillipe",
+          "lastName": "Enis",
+          "playerId": "S76561198004368551",
+          "shortName": "PEN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96640,
+          "bestSplits": [
+            23660,
+            46922,
+            26057
+          ],
+          "lapCount": 2,
+          "lastLap": 96640,
+          "lastSplitId": 0,
+          "lastSplits": [
+            23660,
+            46922,
+            26057
+          ],
+          "totalTime": 245524
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "oulton_park",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+  "Date": "2023-10-28T21:23:14Z",
+  "SessionFile": "231028_212314_Q"
+}

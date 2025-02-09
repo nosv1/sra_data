@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 205688,
+      "splits": [
+        127133,
+        36297,
+        42257
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107725,
+      "splits": [
+        29990,
+        35705,
+        42030
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 226610,
+      "splits": [
+        148420,
+        36157,
+        42032
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109047,
+      "splits": [
+        30395,
+        36520,
+        42132
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108420,
+      "splits": [
+        30175,
+        35940,
+        42305
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 108362,
+      "splits": [
+        30217,
+        36160,
+        41985
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      29990,
+      35705,
+      42030
+    ],
+    "bestlap": 107725,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Josh",
+              "lastName": "Butler",
+              "playerId": "S76561198340661212",
+              "shortName": "JHB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 46,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Josh",
+          "lastName": "Butler",
+          "playerId": "S76561198340661212",
+          "shortName": "JHB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 107725,
+          "bestSplits": [
+            29990,
+            35705,
+            42030
+          ],
+          "lapCount": 6,
+          "lastLap": 108362,
+          "lastSplitId": 2,
+          "lastSplits": [
+            30217,
+            36160,
+            41985
+          ],
+          "totalTime": 39796821
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAserv2 | Sim Racing Alliance | Main Server 2 | discord.gg/SimRacingAlliance | ",
+  "metaData": "custom_race:aeb67d7f-005c-4fa4-9310-b2057167e427",
+  "Date": "2022-07-28T10:19:49Z",
+  "SessionFile": "220728_101949_FP"
+}

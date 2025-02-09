@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 158248,
+      "splits": [
+        83848,
+        39715,
+        34685
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97837,
+      "splits": [
+        24747,
+        38402,
+        34687
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      24747,
+      38402,
+      34687
+    ],
+    "bestlap": 97837,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Simon",
+              "lastName": "Barnes",
+              "playerId": "S76561198050200731",
+              "shortName": "SBA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 61,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Simon",
+          "lastName": "Barnes",
+          "playerId": "S76561198050200731",
+          "shortName": "SBA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97837,
+          "bestSplits": [
+            24747,
+            38402,
+            34687
+          ],
+          "lapCount": 2,
+          "lastLap": 97837,
+          "lastSplitId": 0,
+          "lastSplits": [
+            24747,
+            38402,
+            34687
+          ],
+          "totalTime": 17018683
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "misano",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2023-08-25T21:59:50Z",
+  "SessionFile": "230825_215950_FP"
+}

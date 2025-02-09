@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 253150,
+      "splits": [
+        173012,
+        37647,
+        42490
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 108037,
+      "splits": [
+        30145,
+        35825,
+        42067
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      30145,
+      35825,
+      42067
+    ],
+    "bestlap": 108037,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Gennadiy",
+              "lastName": "Sushenko",
+              "playerId": "S76561199028874946",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 18,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gennadiy",
+          "lastName": "Sushenko",
+          "playerId": "S76561199028874946",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 108037,
+          "bestSplits": [
+            30145,
+            35825,
+            42067
+          ],
+          "lapCount": 2,
+          "lastLap": 108037,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30145,
+            35825,
+            42067
+          ],
+          "totalTime": 533620052
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:ebae6f4c-28d5-4f9a-815a-1d252c97684d",
+  "Date": "2024-01-11T08:12:54Z",
+  "SessionFile": "240111_081254_FP"
+}

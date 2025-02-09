@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 183411,
+      "splits": [
+        93186,
+        53372,
+        36852
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121285,
+      "splits": [
+        36812,
+        48280,
+        36192
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      36812,
+      48280,
+      36192
+    ],
+    "bestlap": 121285,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 60,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Panzo",
+              "lastName": "Rigatoni",
+              "playerId": "S76561199054650605",
+              "shortName": "PRI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 2,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Panzo",
+          "lastName": "Rigatoni",
+          "playerId": "S76561199054650605",
+          "shortName": "PRI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121285,
+          "bestSplits": [
+            36812,
+            48280,
+            36192
+          ],
+          "lapCount": 2,
+          "lastLap": 121285,
+          "lastSplitId": 0,
+          "lastSplits": [
+            36812,
+            48280,
+            36192
+          ],
+          "totalTime": 7827064
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Multi-class Practice (Dry) | SRAM#2",
+  "metaData": "custom_race:74215a1f-8625-4710-9680-69510a1a37e7",
+  "Date": "2022-09-08T01:48:41Z",
+  "SessionFile": "220908_014841_FP"
+}

@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 128402,
+      "splits": [
+        39272,
+        60032,
+        29097
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Amos",
+              "lastName": "Movo",
+              "playerId": "S76561198368453660",
+              "shortName": "AMO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 518,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Amos",
+          "lastName": "Movo",
+          "playerId": "S76561198368453660",
+          "shortName": "AMO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 1,
+          "lastLap": 128402,
+          "lastSplitId": 0,
+          "lastSplits": [
+            39272,
+            60032,
+            29097
+          ],
+          "totalTime": 3424137
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "mount_panorama",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+  "Date": "2025-01-25T10:45:54Z",
+  "SessionFile": "250125_104554_FP"
+}

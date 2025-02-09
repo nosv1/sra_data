@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 151188,
+      "splits": [
+        71638,
+        46087,
+        33462
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 218992,
+      "splits": [
+        132775,
+        52662,
+        33555
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113075,
+      "splits": [
+        33917,
+        45617,
+        33540
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112975,
+      "splits": [
+        34025,
+        45310,
+        33640
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113032,
+      "splits": [
+        34140,
+        45295,
+        33597
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 111787,
+      "splits": [
+        33642,
+        44980,
+        33165
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 8,
+  "sessionResult": {
+    "bestSplits": [
+      33642,
+      44980,
+      33165
+    ],
+    "bestlap": 111787,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 24,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Jacob",
+              "lastName": "Rutkoske",
+              "playerId": "S76561198869603605",
+              "shortName": "RUT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 226,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jacob",
+          "lastName": "Rutkoske",
+          "playerId": "S76561198869603605",
+          "shortName": "RUT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 111787,
+          "bestSplits": [
+            33642,
+            44980,
+            33165
+          ],
+          "lapCount": 6,
+          "lastLap": 111787,
+          "lastSplitId": 2,
+          "lastSplits": [
+            33642,
+            44980,
+            33165
+          ],
+          "totalTime": 40009899
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | Practice (Wet) | SRAM#1",
+  "metaData": "custom_race:1f39e049-b9de-4b7b-ba39-81ad8fc87bcd",
+  "Date": "2022-09-17T14:42:36Z",
+  "SessionFile": "220917_144236_FP"
+}

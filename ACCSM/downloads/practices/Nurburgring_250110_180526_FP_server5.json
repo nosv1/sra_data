@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117032,
+      "splits": [
+        56110,
+        43660,
+        17262
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117145,
+      "splits": [
+        55645,
+        44085,
+        17415
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117090,
+      "splits": [
+        56790,
+        43095,
+        17205
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116315,
+      "splits": [
+        55652,
+        43315,
+        17347
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116492,
+      "splits": [
+        55675,
+        43517,
+        17300
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      55645,
+      43315,
+      17262
+    ],
+    "bestlap": 116315,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Sean",
+              "lastName": "Leitch",
+              "playerId": "S76561197998983811",
+              "shortName": "LEI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 68,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sean",
+          "lastName": "Leitch",
+          "playerId": "S76561197998983811",
+          "shortName": "LEI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 116315,
+          "bestSplits": [
+            55645,
+            43315,
+            17262
+          ],
+          "lapCount": 5,
+          "lastLap": 116492,
+          "lastSplitId": 0,
+          "lastSplits": [
+            55675,
+            43517,
+            17300
+          ],
+          "totalTime": 9300014
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4b80ae23-5edc-4aa7-b0af-30e934fbd7da",
+  "Date": "2025-01-10T18:05:26Z",
+  "SessionFile": "250110_180526_FP"
+}

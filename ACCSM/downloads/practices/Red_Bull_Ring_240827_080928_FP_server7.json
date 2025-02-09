@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90817,
+      "splits": [
+        22722,
+        40360,
+        27735
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 92742,
+      "splits": [
+        22942,
+        39457,
+        30342
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91195,
+      "splits": [
+        23610,
+        39907,
+        27677
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 90572,
+      "splits": [
+        22722,
+        39895,
+        27955
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 90367,
+      "splits": [
+        22575,
+        40190,
+        27602
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      22722,
+      39895,
+      27735
+    ],
+    "bestlap": 90572,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Robert",
+              "lastName": "Lacy",
+              "playerId": "S76561197995657485",
+              "shortName": "LAC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 321,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Robert",
+          "lastName": "Lacy",
+          "playerId": "S76561197995657485",
+          "shortName": "LAC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 90572,
+          "bestSplits": [
+            22722,
+            39895,
+            27735
+          ],
+          "lapCount": 5,
+          "lastLap": 90367,
+          "lastSplitId": 0,
+          "lastSplits": [
+            22575,
+            40190,
+            27602
+          ],
+          "totalTime": 184009598
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+  "Date": "2024-08-27T08:09:28Z",
+  "SessionFile": "240827_080928_FP"
+}

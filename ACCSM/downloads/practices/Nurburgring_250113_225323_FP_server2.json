@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 135260,
+      "splits": [
+        66822,
+        49672,
+        18765
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 143737,
+      "splits": [
+        65797,
+        47657,
+        30282
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Samuel",
+              "lastName": "Cortes",
+              "playerId": "S76561199087130773",
+              "shortName": "SCD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 331,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Samuel",
+          "lastName": "Cortes",
+          "playerId": "S76561199087130773",
+          "shortName": "SCD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 143737,
+          "lastSplitId": 0,
+          "lastSplits": [
+            65797,
+            47657,
+            30282
+          ],
+          "totalTime": 863820
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "nurburgring",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+  "Date": "2025-01-13T22:53:23Z",
+  "SessionFile": "250113_225323_FP"
+}

@@ -1,0 +1,240 @@
+{
+  "laps": [
+    {
+      "carId": 1005,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 247410,
+      "splits": [
+        164072,
+        38652,
+        44685
+      ]
+    },
+    {
+      "carId": 1005,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114510,
+      "splits": [
+        31465,
+        38322,
+        44722
+      ]
+    },
+    {
+      "carId": 1005,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113782,
+      "splits": [
+        31375,
+        38130,
+        44277
+      ]
+    },
+    {
+      "carId": 1006,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 768435,
+      "splits": [
+        681802,
+        40075,
+        46557
+      ]
+    },
+    {
+      "carId": 1005,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114140,
+      "splits": [
+        31402,
+        38367,
+        44370
+      ]
+    },
+    {
+      "carId": 1006,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118627,
+      "splits": [
+        32892,
+        39555,
+        46180
+      ]
+    },
+    {
+      "carId": 1005,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113912,
+      "splits": [
+        31370,
+        38070,
+        44472
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      31370,
+      38070,
+      44277
+    ],
+    "bestlap": 113782,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1005,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Delan",
+              "lastName": "Stallworth",
+              "playerId": "S76561199373226755",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 21,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Delan",
+          "lastName": "Stallworth",
+          "playerId": "S76561199373226755",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 113782,
+          "bestSplits": [
+            31370,
+            38070,
+            44277
+          ],
+          "lapCount": 5,
+          "lastLap": 113912,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31370,
+            38070,
+            44472
+          ],
+          "totalTime": 71645446
+        }
+      },
+      {
+        "car": {
+          "carId": 1006,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Brett",
+              "lastName": "Swift",
+              "playerId": "S76561198311768474",
+              "shortName": "SWI"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 996,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Brett",
+          "lastName": "Swift",
+          "playerId": "S76561198311768474",
+          "shortName": "SWI"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 118627,
+          "bestSplits": [
+            32892,
+            39555,
+            46180
+          ],
+          "lapCount": 2,
+          "lastLap": 118627,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32892,
+            39555,
+            46180
+          ],
+          "totalTime": 71669862
+        }
+      },
+      {
+        "car": {
+          "carId": 1007,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jordan",
+              "lastName": "Nixon",
+              "playerId": "S76561198155959600",
+              "shortName": "JRN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 92,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jordan",
+          "lastName": "Nixon",
+          "playerId": "S76561198155959600",
+          "shortName": "JRN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2",
+  "metaData": "custom_race:8b38e437-71a0-4d65-b4fe-4d7a959908c7",
+  "Date": "2023-05-18T19:34:58Z",
+  "SessionFile": "230518_193458_FP"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112280,
+      "splits": [
+        36270,
+        39890,
+        36120
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 99520,
+      "splits": [
+        25265,
+        39672,
+        34582
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 98212,
+      "splits": [
+        25232,
+        38680,
+        34300
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 101,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Amos",
+              "lastName": "Movo",
+              "playerId": "S76561198368453660",
+              "shortName": "AMO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 518,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Amos",
+          "lastName": "Movo",
+          "playerId": "S76561198368453660",
+          "shortName": "AMO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 98212,
+          "lastSplitId": 0,
+          "lastSplits": [
+            25232,
+            38680,
+            34300
+          ],
+          "totalTime": 528303803
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "misano",
+  "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+  "Date": "2024-11-25T14:52:15Z",
+  "SessionFile": "241125_145215_Q"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 123452,
+      "splits": [
+        41837,
+        54327,
+        27287
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122920,
+      "splits": [
+        41197,
+        54475,
+        27247
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 122600,
+      "splits": [
+        41277,
+        54395,
+        26927
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      41197,
+      54327,
+      26927
+    ],
+    "bestlap": 122600,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Shaun",
+              "lastName": "Daniels",
+              "playerId": "S76561198105233841",
+              "shortName": "LQD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 87,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Shaun",
+          "lastName": "Daniels",
+          "playerId": "S76561198105233841",
+          "shortName": "LQD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 122600,
+          "bestSplits": [
+            41197,
+            54327,
+            26927
+          ],
+          "lapCount": 3,
+          "lastLap": 122600,
+          "lastSplitId": 0,
+          "lastSplits": [
+            41277,
+            54395,
+            26927
+          ],
+          "totalTime": 9199247
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-06-06T02:09:41Z",
+  "SessionFile": "240606_020941_FP"
+}

@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 282628,
+      "splits": [
+        200941,
+        54842,
+        26845
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121762,
+      "splits": [
+        40792,
+        54090,
+        26880
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121300,
+      "splits": [
+        40655,
+        53870,
+        26775
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121645,
+      "splits": [
+        40902,
+        53852,
+        26890
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121332,
+      "splits": [
+        40765,
+        53737,
+        26830
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 121507,
+      "splits": [
+        40732,
+        53920,
+        26855
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      40655,
+      53737,
+      26775
+    ],
+    "bestlap": 121300,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Karl",
+              "lastName": "Fredricksen",
+              "playerId": "S76561198056129236",
+              "shortName": "FRD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 24,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Karl",
+          "lastName": "Fredricksen",
+          "playerId": "S76561198056129236",
+          "shortName": "FRD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 121300,
+          "bestSplits": [
+            40655,
+            53737,
+            26775
+          ],
+          "lapCount": 6,
+          "lastLap": 121507,
+          "lastSplitId": 1,
+          "lastSplits": [
+            40732,
+            53920,
+            26855
+          ],
+          "totalTime": 5808676
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #4 | \u003e | GT3 Free Practice | SRAM#4",
+  "metaData": "custom_race:47ba7148-6c19-4e0d-b584-172c250c8579",
+  "Date": "2022-11-08T16:18:12Z",
+  "SessionFile": "221108_161812_FP"
+}

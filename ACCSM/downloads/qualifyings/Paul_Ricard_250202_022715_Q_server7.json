@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116622,
+      "splits": [
+        32235,
+        32465,
+        51922
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 116425,
+      "splits": [
+        32107,
+        32410,
+        51907
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115470,
+      "splits": [
+        32182,
+        32260,
+        51027
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 20,
+  "sessionResult": {
+    "bestSplits": [
+      32182,
+      32260,
+      51027
+    ],
+    "bestlap": 115470,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Anton",
+              "lastName": "Rushevich",
+              "playerId": "S76561198312326880",
+              "shortName": "RUS"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 434,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Anton",
+          "lastName": "Rushevich",
+          "playerId": "S76561198312326880",
+          "shortName": "RUS"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115470,
+          "bestSplits": [
+            32182,
+            32260,
+            51027
+          ],
+          "lapCount": 3,
+          "lastLap": 115470,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32182,
+            32260,
+            51027
+          ],
+          "totalTime": 310414136
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-02T02:27:15Z",
+  "SessionFile": "250202_022715_Q"
+}

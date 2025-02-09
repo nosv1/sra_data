@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 207498,
+      "splits": [
+        124078,
+        38297,
+        45122
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113400,
+      "splits": [
+        31532,
+        38020,
+        43847
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 112147,
+      "splits": [
+        31092,
+        37295,
+        43760
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 20,
+  "sessionResult": {
+    "bestSplits": [
+      31532,
+      38020,
+      43847
+    ],
+    "bestlap": 113400,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jon",
+              "lastName": "Crown",
+              "playerId": "S76561199375430444",
+              "shortName": "JLC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 544,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jon",
+          "lastName": "Crown",
+          "playerId": "S76561199375430444",
+          "shortName": "JLC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 113400,
+          "bestSplits": [
+            31532,
+            38020,
+            43847
+          ],
+          "lapCount": 3,
+          "lastLap": 112147,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31092,
+            37295,
+            43760
+          ],
+          "totalTime": 140693914
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg6 Hours of Watkins Practice | SimRacingAlliance.com | #SRAM4",
+  "metaData": "custom_race:41287415-4e9a-41a7-800f-cdcd5e570e84",
+  "Date": "2023-09-23T08:58:20Z",
+  "SessionFile": "230923_085820_FP"
+}

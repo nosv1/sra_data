@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 152553,
+      "splits": [
+        84161,
+        40202,
+        28190
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91082,
+      "splits": [
+        23007,
+        39865,
+        28210
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 90645,
+      "splits": [
+        22742,
+        39655,
+        28247
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 90880,
+      "splits": [
+        22817,
+        39562,
+        28500
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91135,
+      "splits": [
+        22755,
+        40205,
+        28175
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 14,
+  "sessionResult": {
+    "bestSplits": [
+      23007,
+      39865,
+      28210
+    ],
+    "bestlap": 91082,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 25,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Aston",
+              "lastName": "Martin-Lawrence",
+              "playerId": "S76561199088350711",
+              "shortName": "SID"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 562,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Aston",
+          "lastName": "Martin-Lawrence",
+          "playerId": "S76561199088350711",
+          "shortName": "SID"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 91082,
+          "bestSplits": [
+            23007,
+            39865,
+            28210
+          ],
+          "lapCount": 5,
+          "lastLap": 91135,
+          "lastSplitId": 2,
+          "lastSplits": [
+            22755,
+            40205,
+            28175
+          ],
+          "totalTime": 97245778
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "red_bull_ring",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2024-03-29T02:36:22Z",
+  "SessionFile": "240329_023622_FP"
+}

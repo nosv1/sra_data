@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97665,
+      "splits": [
+        32145,
+        33275,
+        32245
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97680,
+      "splits": [
+        32207,
+        33365,
+        32107
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97202,
+      "splits": [
+        31885,
+        33237,
+        32080
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 97462,
+      "splits": [
+        31910,
+        33442,
+        32110
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      31885,
+      33237,
+      32080
+    ],
+    "bestlap": 97202,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jeff",
+              "lastName": "Colombaro",
+              "playerId": "S76561199163762736",
+              "shortName": "COL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 895,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jeff",
+          "lastName": "Colombaro",
+          "playerId": "S76561199163762736",
+          "shortName": "COL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 97202,
+          "bestSplits": [
+            31885,
+            33237,
+            32080
+          ],
+          "lapCount": 4,
+          "lastLap": 97462,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31910,
+            33442,
+            32110
+          ],
+          "totalTime": 66171041
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zandvoort",
+  "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+  "Date": "2024-09-28T19:00:27Z",
+  "SessionFile": "240928_190027_FP"
+}

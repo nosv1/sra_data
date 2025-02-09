@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91487,
+      "splits": [
+        27530,
+        29752,
+        34205
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 86257,
+      "splits": [
+        22492,
+        29670,
+        34095
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85232,
+      "splits": [
+        22275,
+        29442,
+        33515
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85062,
+      "splits": [
+        22132,
+        29317,
+        33612
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 85072,
+      "splits": [
+        22247,
+        29215,
+        33610
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 2,
+  "sessionResult": {
+    "bestSplits": [
+      22132,
+      29215,
+      33515
+    ],
+    "bestlap": 85062,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Pat",
+              "lastName": "Cockcroft",
+              "playerId": "S76561197978143979",
+              "shortName": "PAT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 986,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Pat",
+          "lastName": "Cockcroft",
+          "playerId": "S76561197978143979",
+          "shortName": "PAT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 85062,
+          "bestSplits": [
+            22132,
+            29215,
+            33515
+          ],
+          "lapCount": 5,
+          "lastLap": 85072,
+          "lastSplitId": 0,
+          "lastSplits": [
+            22247,
+            29215,
+            33610
+          ],
+          "totalTime": 41691624
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAgg | LIAW Practice | Race 2 | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:05727d23-9141-4246-bca6-40ec91e01a63",
+  "Date": "2024-05-14T10:27:15Z",
+  "SessionFile": "240514_102715_FP"
+}

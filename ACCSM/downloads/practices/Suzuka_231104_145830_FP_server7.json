@@ -1,0 +1,135 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 1,
+      "isValidForBest": false,
+      "laptime": 167861,
+      "splits": [
+        82736,
+        56812,
+        28312
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 1,
+      "isValidForBest": true,
+      "laptime": 126455,
+      "splits": [
+        42410,
+        55605,
+        28440
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 1,
+      "isValidForBest": false,
+      "laptime": 152882,
+      "splits": [
+        42080,
+        55765,
+        55037
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 1,
+      "isValidForBest": false,
+      "laptime": 256507,
+      "splits": [
+        151472,
+        55275,
+        49760
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      42410,
+      55605,
+      28440
+    ],
+    "bestlap": 126455,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jean-Luc",
+              "lastName": "Picard",
+              "playerId": "S76561197995854326",
+              "shortName": "MBD"
+            },
+            {
+              "firstName": "Jacob",
+              "lastName": "Rogers",
+              "playerId": "S76561198324402952",
+              "shortName": "ROG"
+            },
+            {
+              "firstName": "Maniacal",
+              "lastName": "Toaster",
+              "playerId": "S76561198837958172",
+              "shortName": "TOA"
+            },
+            {
+              "firstName": "Andrew",
+              "lastName": "Wong",
+              "playerId": "S76561198125410161",
+              "shortName": "WNG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 52,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jacob",
+          "lastName": "Rogers",
+          "playerId": "S76561198324402952",
+          "shortName": "ROG"
+        },
+        "currentDriverIndex": 1,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 126455,
+          "bestSplits": [
+            42410,
+            55605,
+            28440
+          ],
+          "lapCount": 4,
+          "lastLap": 256507,
+          "lastSplitId": 0,
+          "lastSplits": [
+            151472,
+            55275,
+            49760
+          ],
+          "totalTime": 14021963
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "#SRAgg8 Hours of Suzuka | SimRacingAlliance.com | #SRAQ",
+  "metaData": "championship-pre-practice",
+  "Date": "2023-11-04T14:58:30Z",
+  "SessionFile": "231104_145830_FP"
+}

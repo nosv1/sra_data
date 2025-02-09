@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 110747,
+      "splits": [
+        35350,
+        39060,
+        36337
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 26,
+  "sessionResult": {
+    "bestSplits": [
+      35350,
+      39060,
+      36337
+    ],
+    "bestlap": 110747,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Michael",
+              "lastName": "Ohlson",
+              "playerId": "S76561197997356516",
+              "shortName": "MEO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 937,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Michael",
+          "lastName": "Ohlson",
+          "playerId": "S76561197997356516",
+          "shortName": "MEO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 110747,
+          "bestSplits": [
+            35350,
+            39060,
+            36337
+          ],
+          "lapCount": 1,
+          "lastLap": 110747,
+          "lastSplitId": 0,
+          "lastSplits": [
+            35350,
+            39060,
+            36337
+          ],
+          "totalTime": 147725891
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "monza",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+  "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+  "Date": "2024-09-21T12:04:07Z",
+  "SessionFile": "240921_120407_FP"
+}

@@ -1,0 +1,150 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 119435,
+      "splits": [
+        56932,
+        44905,
+        17597
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116897,
+      "splits": [
+        55880,
+        43515,
+        17502
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116912,
+      "splits": [
+        56250,
+        43177,
+        17485
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 121260,
+      "splits": [
+        59432,
+        44217,
+        17610
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117240,
+      "splits": [
+        55980,
+        44112,
+        17147
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116615,
+      "splits": [
+        55945,
+        43457,
+        17212
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116600,
+      "splits": [
+        55837,
+        43335,
+        17427
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 98,
+  "sessionResult": {
+    "bestSplits": [
+      55837,
+      43177,
+      17147
+    ],
+    "bestlap": 116600,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 15,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Tyler",
+              "lastName": "Thompson",
+              "playerId": "S76561199157288200",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 23,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Tyler",
+          "lastName": "Thompson",
+          "playerId": "S76561199157288200",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 116600,
+          "bestSplits": [
+            55837,
+            43177,
+            17147
+          ],
+          "lapCount": 7,
+          "lastLap": 116600,
+          "lastSplitId": 0,
+          "lastSplits": [
+            55837,
+            43335,
+            17427
+          ],
+          "totalTime": 1008355613
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring",
+  "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+  "Date": "2025-01-01T17:12:59Z",
+  "SessionFile": "250101_171259_Q"
+}

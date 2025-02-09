@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 99232,
+      "splits": [
+        32522,
+        33927,
+        32782
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98722,
+      "splits": [
+        32482,
+        33710,
+        32530
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 101035,
+      "splits": [
+        33680,
+        34247,
+        33107
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98480,
+      "splits": [
+        32282,
+        33652,
+        32545
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 100612,
+      "splits": [
+        32220,
+        35785,
+        32607
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 98422,
+      "splits": [
+        32040,
+        33977,
+        32405
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      32040,
+      33652,
+      32405
+    ],
+    "bestlap": 98422,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jonny",
+              "lastName": "Floater",
+              "playerId": "S76561197982232833",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 52,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jonny",
+          "lastName": "Floater",
+          "playerId": "S76561197982232833",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 98422,
+          "bestSplits": [
+            32040,
+            33652,
+            32405
+          ],
+          "lapCount": 6,
+          "lastLap": 98422,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32040,
+            33977,
+            32405
+          ],
+          "totalTime": 58636585
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zandvoort",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2024-10-15T15:08:01Z",
+  "SessionFile": "241015_150801_FP"
+}

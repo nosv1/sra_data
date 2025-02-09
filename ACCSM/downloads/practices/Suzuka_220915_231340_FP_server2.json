@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 271993,
+      "splits": [
+        171498,
+        67300,
+        33195
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 148430,
+      "splits": [
+        49410,
+        65962,
+        33057
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 1,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jan",
+              "lastName": "Rodricks",
+              "playerId": "S76561199112405411",
+              "shortName": "JAR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 133,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jan",
+          "lastName": "Rodricks",
+          "playerId": "S76561199112405411",
+          "shortName": "JAR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 148430,
+          "lastSplitId": 0,
+          "lastSplits": [
+            49410,
+            65962,
+            33057
+          ],
+          "totalTime": 4096014
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "suzuka",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Suzuka 8 Hour | SRAM#2",
+  "metaData": "championship-pre-practice",
+  "Date": "2022-09-15T23:13:40Z",
+  "SessionFile": "220915_231340_FP"
+}

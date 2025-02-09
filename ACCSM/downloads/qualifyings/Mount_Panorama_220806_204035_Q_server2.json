@@ -1,0 +1,164 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 244901,
+      "splits": [
+        149236,
+        64395,
+        31270
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 204402,
+      "splits": [
+        116795,
+        59110,
+        28497
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 127937,
+      "splits": [
+        40577,
+        58770,
+        28590
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 129395,
+      "splits": [
+        39965,
+        60877,
+        28552
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 5,
+  "sessionResult": {
+    "bestSplits": [
+      39965,
+      58770,
+      28552
+    ],
+    "bestlap": 127937,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Fire",
+              "lastName": "Queso",
+              "playerId": "S76561198034356569",
+              "shortName": "FQW"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 710,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Fire",
+          "lastName": "Queso",
+          "playerId": "S76561198034356569",
+          "shortName": "FQW"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 127937,
+          "bestSplits": [
+            40577,
+            58770,
+            28590
+          ],
+          "lapCount": 2,
+          "lastLap": 127937,
+          "lastSplitId": 1,
+          "lastSplits": [
+            40577,
+            58770,
+            28590
+          ],
+          "totalTime": 307421
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Zack",
+              "lastName": "Sky",
+              "playerId": "S76561198145299570",
+              "shortName": "ZAK"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 999,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Zack",
+          "lastName": "Sky",
+          "playerId": "S76561198145299570",
+          "shortName": "ZAK"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 129395,
+          "bestSplits": [
+            39965,
+            60877,
+            28552
+          ],
+          "lapCount": 2,
+          "lastLap": 129395,
+          "lastSplitId": 0,
+          "lastSplits": [
+            39965,
+            60877,
+            28552
+          ],
+          "totalTime": 330693
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "mount_panorama",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Open Lobby | SRAM#2",
+  "metaData": "custom_race:10966157-8464-4fc0-8c1e-89ae35d610a3",
+  "Date": "2022-08-06T20:40:35Z",
+  "SessionFile": "220806_204035_Q"
+}

@@ -1,0 +1,164 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115882,
+      "splits": [
+        31612,
+        39602,
+        44667
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 113967,
+      "splits": [
+        30850,
+        39092,
+        44025
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 117802,
+      "splits": [
+        30500,
+        39382,
+        47920
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 112415,
+      "splits": [
+        30462,
+        38742,
+        43210
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 55,
+  "sessionResult": {
+    "bestSplits": [
+      30462,
+      38742,
+      43210
+    ],
+    "bestlap": 112415,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 85,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Hesham",
+              "lastName": "Rimzk",
+              "playerId": "S76561198097206850",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 250,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Hesham",
+          "lastName": "Rimzk",
+          "playerId": "S76561198097206850",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 112415,
+          "bestSplits": [
+            30462,
+            38742,
+            43210
+          ],
+          "lapCount": 2,
+          "lastLap": 112415,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30462,
+            38742,
+            43210
+          ],
+          "totalTime": 986193993
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 85,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Steph",
+              "lastName": "Dutton",
+              "playerId": "S76561198868142890",
+              "shortName": "DUT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 810,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Steph",
+          "lastName": "Dutton",
+          "playerId": "S76561198868142890",
+          "shortName": "DUT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115882,
+          "bestSplits": [
+            31612,
+            39602,
+            44667
+          ],
+          "lapCount": 2,
+          "lastLap": 117802,
+          "lastSplitId": 1,
+          "lastSplits": [
+            30500,
+            39382,
+            47920
+          ],
+          "totalTime": 985705125
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | M2s \u0026 Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+  "Date": "2024-06-28T22:39:11Z",
+  "SessionFile": "240628_223911_FP"
+}

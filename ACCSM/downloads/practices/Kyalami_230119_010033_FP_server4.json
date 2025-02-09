@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 164528,
+      "splits": [
+        92321,
+        41542,
+        30665
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 266885,
+      "splits": [
+        32030,
+        168010,
+        66845
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 21,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 23,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Harvey",
+              "lastName": "Kandola",
+              "playerId": "S76561198004839603",
+              "shortName": "KAN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 166,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Harvey",
+          "lastName": "Kandola",
+          "playerId": "S76561198004839603",
+          "shortName": "KAN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 266885,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32030,
+            168010,
+            66845
+          ],
+          "totalTime": 168901006
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "kyalami",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #4 | GT3_FreePractice | R | SRAM#4",
+  "metaData": "custom_race:ca34be27-5481-49f5-baec-12ccbf3d9047",
+  "Date": "2023-01-19T01:00:33Z",
+  "SessionFile": "230119_010033_FP"
+}

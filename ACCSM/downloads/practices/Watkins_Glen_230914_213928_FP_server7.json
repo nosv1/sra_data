@@ -1,0 +1,150 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 154288,
+      "splits": [
+        76306,
+        35562,
+        42420
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 107112,
+      "splits": [
+        30040,
+        35090,
+        41982
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106632,
+      "splits": [
+        29972,
+        34995,
+        41665
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106257,
+      "splits": [
+        29857,
+        34930,
+        41470
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106075,
+      "splits": [
+        29652,
+        35027,
+        41395
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 106200,
+      "splits": [
+        29767,
+        34972,
+        41460
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 109855,
+      "splits": [
+        29795,
+        34657,
+        45402
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 97,
+  "sessionResult": {
+    "bestSplits": [
+      29652,
+      34657,
+      41395
+    ],
+    "bestlap": 106075,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Morrison",
+              "playerId": "S76561198999267373",
+              "shortName": "MOR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 33,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Morrison",
+          "playerId": "S76561198999267373",
+          "shortName": "MOR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 106075,
+          "bestSplits": [
+            29652,
+            34657,
+            41395
+          ],
+          "lapCount": 7,
+          "lastLap": 109855,
+          "lastSplitId": 0,
+          "lastSplits": [
+            29795,
+            34657,
+            45402
+          ],
+          "totalTime": 905913840
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "#SRAgg | 6 Hours of Watkins Glen Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+  "metaData": "custom_race:4867d5c1-971c-499c-9c57-f15452facba9",
+  "Date": "2023-09-14T21:39:28Z",
+  "SessionFile": "230914_213928_FP"
+}

@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 89380,
+      "splits": [
+        30760,
+        28922,
+        29697
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 88650,
+      "splits": [
+        30210,
+        29130,
+        29310
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 9,
+  "sessionResult": {
+    "bestSplits": [
+      30210,
+      28922,
+      29310
+    ],
+    "bestlap": 88650,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "nan",
+              "lastName": "Arct",
+              "playerId": "S76561198279907335",
+              "shortName": "ARC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 370,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "nan",
+          "lastName": "Arct",
+          "playerId": "S76561198279907335",
+          "shortName": "ARC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 88650,
+          "bestSplits": [
+            30210,
+            28922,
+            29310
+          ],
+          "lapCount": 2,
+          "lastLap": 88650,
+          "lastSplitId": 0,
+          "lastSplits": [
+            30210,
+            29130,
+            29310
+          ],
+          "totalTime": 68614398
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "zolder",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+  "Date": "2025-01-22T18:39:01Z",
+  "SessionFile": "250122_183901_FP"
+}

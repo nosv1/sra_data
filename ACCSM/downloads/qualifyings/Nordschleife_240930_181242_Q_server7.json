@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 578775,
+      "splits": [
+        191745,
+        174552,
+        212477
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 564520,
+      "splits": [
+        192502,
+        177370,
+        194647
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 563465,
+      "splits": [
+        191422,
+        175717,
+        196325
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 6,
+  "sessionResult": {
+    "bestSplits": [
+      191422,
+      175717,
+      194647
+    ],
+    "bestlap": 563465,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 60,
+          "carGroup": "GT4",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Eric",
+              "lastName": "Rudderham",
+              "playerId": "S76561199243933348",
+              "shortName": "EJR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 13,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Eric",
+          "lastName": "Rudderham",
+          "playerId": "S76561199243933348",
+          "shortName": "EJR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 563465,
+          "bestSplits": [
+            191422,
+            175717,
+            194647
+          ],
+          "lapCount": 3,
+          "lastLap": 563465,
+          "lastSplitId": 0,
+          "lastSplits": [
+            191422,
+            175717,
+            196325
+          ],
+          "totalTime": 96937105
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "nurburgring_24h",
+  "serverName": "#SRAgg | SRA MCM 3 Hour Nordschleife Endurance Challenge Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:60f90cee-58d6-45b4-bf9d-5bb5c3ed051e",
+  "Date": "2024-09-30T18:12:42Z",
+  "SessionFile": "240930_181242_Q"
+}

@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 219383,
+      "splits": [
+        141476,
+        35455,
+        42452
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 106810,
+      "splits": [
+        29722,
+        34927,
+        42160
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 22,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 22,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Dhawal",
+              "lastName": "Bhanderi",
+              "playerId": "S76561198849477506",
+              "shortName": "DGB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 757,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Dhawal",
+          "lastName": "Bhanderi",
+          "playerId": "S76561198849477506",
+          "shortName": "DGB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 106810,
+          "lastSplitId": 1,
+          "lastSplits": [
+            29722,
+            34927,
+            42160
+          ],
+          "totalTime": 120142054
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "watkins_glen",
+  "serverName": "SRA | SimRacingAlliance.com | Main Server #1 | \u003e | GT3 Free Practice | R  | SRAM#1",
+  "metaData": "custom_race:71ec6d51-9a27-4e1e-aadd-6dde718d8cc0",
+  "Date": "2022-09-30T21:45:56Z",
+  "SessionFile": "220930_214556_FP"
+}

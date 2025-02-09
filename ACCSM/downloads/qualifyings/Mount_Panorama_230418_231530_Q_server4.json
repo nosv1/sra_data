@@ -1,0 +1,208 @@
+{
+  "laps": [
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 207268,
+      "splits": [
+        119873,
+        59302,
+        28092
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 337823,
+      "splits": [
+        248313,
+        61447,
+        28062
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 126327,
+      "splits": [
+        39877,
+        58470,
+        27980
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 124742,
+      "splits": [
+        39410,
+        57655,
+        27677
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125265,
+      "splits": [
+        39355,
+        57930,
+        27980
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125187,
+      "splits": [
+        39182,
+        57050,
+        28955
+      ]
+    },
+    {
+      "carId": 1002,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 125612,
+      "splits": [
+        39605,
+        58057,
+        27950
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 124522,
+      "splits": [
+        39075,
+        57622,
+        27825
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 1,
+  "raceWeekendIndex": 0,
+  "sessionResult": {
+    "bestSplits": [
+      39355,
+      57655,
+      27677
+    ],
+    "bestlap": 124742,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 20,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Aaron",
+              "lastName": "Anderson",
+              "playerId": "S76561198139881014",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 492,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Aaron",
+          "lastName": "Anderson",
+          "playerId": "S76561198139881014",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 124742,
+          "bestSplits": [
+            39410,
+            57655,
+            27677
+          ],
+          "lapCount": 4,
+          "lastLap": 124522,
+          "lastSplitId": 1,
+          "lastSplits": [
+            39075,
+            57622,
+            27825
+          ],
+          "totalTime": 633045
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 8,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jon",
+              "lastName": "Archie",
+              "playerId": "S76561199045103328",
+              "shortName": "ARC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 31,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jon",
+          "lastName": "Archie",
+          "playerId": "S76561199045103328",
+          "shortName": "ARC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 125265,
+          "bestSplits": [
+            39355,
+            57930,
+            27950
+          ],
+          "lapCount": 4,
+          "lastLap": 125612,
+          "lastSplitId": 1,
+          "lastSplits": [
+            39605,
+            58057,
+            27950
+          ],
+          "totalTime": 607777
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "mount_panorama",
+  "serverName": "SRA.gg | Sim Racing Alliance | Main Server #4 | SRA Weekend Sprint #8 | #SRAE | SRAM#4",
+  "metaData": "custom_race:39886242-ae2c-49a0-89fc-ac66f46f64d8",
+  "Date": "2023-04-18T23:15:30Z",
+  "SessionFile": "230418_231530_Q"
+}

@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94785,
+      "splits": [
+        27700,
+        30710,
+        36375
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 87712,
+      "splits": [
+        22837,
+        30360,
+        34515
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 88880,
+      "splits": [
+        22890,
+        30000,
+        35990
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      22837,
+      30000,
+      34515
+    ],
+    "bestlap": 87712,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Gordon",
+              "lastName": "Beverly Jr.",
+              "playerId": "S76561198878161886",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 704,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gordon",
+          "lastName": "Beverly Jr.",
+          "playerId": "S76561198878161886",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 87712,
+          "bestSplits": [
+            22837,
+            30000,
+            34515
+          ],
+          "lapCount": 3,
+          "lastLap": 88880,
+          "lastSplitId": 1,
+          "lastSplits": [
+            22890,
+            30000,
+            35990
+          ],
+          "totalTime": 9449891
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "laguna_seca",
+  "serverName": "#SRAgg | LIAW Practice | Race 2 | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:05727d23-9141-4246-bca6-40ec91e01a63",
+  "Date": "2024-05-14T01:28:37Z",
+  "SessionFile": "240514_012837_FP"
+}
