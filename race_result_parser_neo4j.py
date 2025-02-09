@@ -10,7 +10,7 @@ import numpy as np
 from neo4j import Session as Neo4jSession
 
 from Database import Neo4jDatabase
-from process_neo_sessions import *
+from process_race_sessions_neo import *
 from queries import *
 
 
@@ -721,6 +721,7 @@ if __name__ == "__main__":
 
     sra_neo_driver, sra_neo_session = Neo4jDatabase.connect_database("sra")
     sessions_in_db = get_session_keys(neo_driver=sra_neo_driver)
+    do_process_race_sessions = False
     # parse leaderboard lines
     for session_dir in [practices_dir, races_dir, quali_dir][:]:
         dir_by_date_modified = sorted(
@@ -766,9 +767,11 @@ if __name__ == "__main__":
                         break
                 node_laps.append(lap.add_lap_data_to_neo4j(ts_session))
 
+            is_practice_session = ts_session.session_type == "FP"
             is_quali_session = ts_session.session_type == "Q"
             is_race_session = ts_session.session_type.startswith("R")
-            is_practice_session = ts_session.session_type == "FP"
+            
+            do_process_race_sessions = do_process_race_sessions or is_race_session
 
             node_sessions.append(ts_session.create_session(sra_neo_session))
             node_cars += ts_session.session_result.merge_cars_and_session(ts_session)
@@ -916,8 +919,11 @@ if __name__ == "__main__":
             )
             sra_neo_session.run(car_driver_laps_query, parameters={"laps": batch})
             print("done")
-
-    process_sra_db_neo(neo_session=sra_neo_session)
+    
+    if do_process_race_sessions:
+        process_sra_db_neo(neo_session=sra_neo_session)
+    else:
+        print(f"skipping processing of race sessions...")
 
     Neo4jDatabase.close_connection(sra_neo_driver, sra_neo_session)
 
