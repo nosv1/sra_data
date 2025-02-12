@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93885,
+      "splits": [
+        23105,
+        45362,
+        25417
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 95255,
+      "splits": [
+        23135,
+        46585,
+        25535
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93387,
+      "splits": [
+        22887,
+        45110,
+        25390
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 3,
+  "sessionResult": {
+    "bestSplits": [
+      22887,
+      45110,
+      25390
+    ],
+    "bestlap": 93387,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alexandre",
+              "lastName": "Giordano",
+              "playerId": "S76561198032078878",
+              "shortName": "GIO"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 890,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alexandre",
+          "lastName": "Giordano",
+          "playerId": "S76561198032078878",
+          "shortName": "GIO"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 93387,
+          "bestSplits": [
+            22887,
+            45110,
+            25390
+          ],
+          "lapCount": 3,
+          "lastLap": 93387,
+          "lastSplitId": 1,
+          "lastSplits": [
+            22887,
+            45110,
+            25390
+          ],
+          "totalTime": 16623993
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "oulton_park",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+  "Date": "2025-02-12T04:13:05Z",
+  "SessionFile": "250212_041305_FP"
+}
