@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115422,
+      "splits": [
+        31925,
+        32275,
+        51222
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115390,
+      "splits": [
+        31932,
+        32142,
+        51315
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114722,
+      "splits": [
+        31642,
+        32047,
+        51032
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 63,
+  "sessionResult": {
+    "bestSplits": [
+      31642,
+      32047,
+      51032
+    ],
+    "bestlap": 114722,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Marcello",
+              "lastName": "Sindaco",
+              "playerId": "S76561198095494357",
+              "shortName": "SIN"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 4,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Marcello",
+          "lastName": "Sindaco",
+          "playerId": "S76561198095494357",
+          "shortName": "SIN"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114722,
+          "bestSplits": [
+            31642,
+            32047,
+            51032
+          ],
+          "lapCount": 3,
+          "lastLap": 114722,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31642,
+            32047,
+            51032
+          ],
+          "totalTime": 1079412447
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-15T05:38:36Z",
+  "SessionFile": "250215_053836_Q"
+}

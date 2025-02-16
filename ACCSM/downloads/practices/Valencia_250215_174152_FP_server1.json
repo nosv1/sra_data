@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 102670,
+      "splits": [
+        36465,
+        38882,
+        27322
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 98920,
+      "splits": [
+        35837,
+        37030,
+        26052
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 96495,
+      "splits": [
+        35692,
+        36407,
+        24395
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 27,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Jean",
+              "lastName": "Maille",
+              "playerId": "S76561197970540417",
+              "shortName": "COB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 183,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jean",
+          "lastName": "Maille",
+          "playerId": "S76561197970540417",
+          "shortName": "COB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 3,
+          "lastLap": 96495,
+          "lastSplitId": 0,
+          "lastSplits": [
+            35692,
+            36407,
+            24395
+          ],
+          "totalTime": 237995071
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "valencia",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+  "Date": "2025-02-15T17:41:52Z",
+  "SessionFile": "250215_174152_FP"
+}

@@ -1,0 +1,84 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96445,
+      "splits": [
+        35445,
+        36702,
+        24297
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 23,
+  "sessionResult": {
+    "bestSplits": [
+      35445,
+      36702,
+      24297
+    ],
+    "bestlap": 96445,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Riley",
+              "lastName": "Greear",
+              "playerId": "S76561199295227155",
+              "shortName": "RLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 293,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Riley",
+          "lastName": "Greear",
+          "playerId": "S76561199295227155",
+          "shortName": "RLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96445,
+          "bestSplits": [
+            35445,
+            36702,
+            24297
+          ],
+          "lapCount": 1,
+          "lastLap": 96445,
+          "lastSplitId": 0,
+          "lastSplits": [
+            35445,
+            36702,
+            24297
+          ],
+          "totalTime": 259635679
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "valencia",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+  "Date": "2025-02-15T19:40:08Z",
+  "SessionFile": "250215_194008_FP"
+}

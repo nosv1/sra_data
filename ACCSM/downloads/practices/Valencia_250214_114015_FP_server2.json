@@ -1,0 +1,149 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94280,
+      "splits": [
+        33857,
+        35977,
+        24445
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94867,
+      "splits": [
+        34475,
+        35785,
+        24607
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 93782,
+      "splits": [
+        33935,
+        36017,
+        23830
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 10,
+  "sessionResult": {
+    "bestSplits": [
+      33857,
+      35785,
+      24445
+    ],
+    "bestlap": 94280,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 21,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 3,
+          "drivers": [
+            {
+              "firstName": "Sebastian",
+              "lastName": "Rock",
+              "playerId": "S76561198381118387",
+              "shortName": "ROC"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 217,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Sebastian",
+          "lastName": "Rock",
+          "playerId": "S76561198381118387",
+          "shortName": "ROC"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94280,
+          "bestSplits": [
+            33857,
+            35785,
+            24445
+          ],
+          "lapCount": 3,
+          "lastLap": 93782,
+          "lastSplitId": 0,
+          "lastSplits": [
+            33935,
+            36017,
+            23830
+          ],
+          "totalTime": 129795009
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jason",
+              "lastName": "Allen",
+              "playerId": "S76561198069178982",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 15,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jason",
+          "lastName": "Allen",
+          "playerId": "S76561198069178982",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "valencia",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+  "Date": "2025-02-14T11:40:15Z",
+  "SessionFile": "250214_114015_FP"
+}
