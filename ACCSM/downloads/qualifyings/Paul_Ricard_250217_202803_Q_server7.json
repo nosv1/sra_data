@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115785,
+      "splits": [
+        31975,
+        32312,
+        51497
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115007,
+      "splits": [
+        32112,
+        31912,
+        50982
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117170,
+      "splits": [
+        31700,
+        32082,
+        53387
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115110,
+      "splits": [
+        31802,
+        32272,
+        51035
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114622,
+      "splits": [
+        31767,
+        32047,
+        50807
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 102,
+  "sessionResult": {
+    "bestSplits": [
+      31700,
+      32047,
+      50807
+    ],
+    "bestlap": 114622,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Eric",
+              "lastName": "Boardman",
+              "playerId": "S76561199238518693",
+              "shortName": "BOA"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 34,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Eric",
+          "lastName": "Boardman",
+          "playerId": "S76561199238518693",
+          "shortName": "BOA"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114622,
+          "bestSplits": [
+            31700,
+            32047,
+            50807
+          ],
+          "lapCount": 5,
+          "lastLap": 114622,
+          "lastSplitId": 1,
+          "lastSplits": [
+            31767,
+            32047,
+            50807
+          ],
+          "totalTime": 1305769830
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-17T20:28:03Z",
+  "SessionFile": "250217_202803_Q"
+}

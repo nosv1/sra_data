@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114937,
+      "splits": [
+        32232,
+        32150,
+        50555
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 115127,
+      "splits": [
+        32055,
+        32105,
+        50967
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 77,
+  "sessionResult": {
+    "bestSplits": [
+      2147483647,
+      2147483647,
+      2147483647
+    ],
+    "bestlap": 2147483647,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 34,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Gary",
+              "lastName": "Lin",
+              "playerId": "S76561197963581746",
+              "shortName": "GAZ"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 116,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Gary",
+          "lastName": "Lin",
+          "playerId": "S76561197963581746",
+          "shortName": "GAZ"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 2,
+          "lastLap": 115127,
+          "lastSplitId": 2,
+          "lastSplits": [
+            32055,
+            32105,
+            50967
+          ],
+          "totalTime": 1168683456
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-16T06:23:34Z",
+  "SessionFile": "250216_062334_Q"
+}

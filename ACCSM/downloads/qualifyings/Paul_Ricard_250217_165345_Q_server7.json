@@ -1,0 +1,284 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115047,
+      "splits": [
+        31912,
+        32532,
+        50602
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116537,
+      "splits": [
+        32692,
+        32287,
+        51557
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 125550,
+      "splits": [
+        32045,
+        32527,
+        60977
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115942,
+      "splits": [
+        32095,
+        32225,
+        51622
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114715,
+      "splits": [
+        31775,
+        32305,
+        50635
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 118537,
+      "splits": [
+        33305,
+        32270,
+        52962
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116072,
+      "splits": [
+        32290,
+        32252,
+        51530
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115855,
+      "splits": [
+        32092,
+        32550,
+        51212
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 120725,
+      "splits": [
+        32175,
+        32195,
+        56355
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 123605,
+      "splits": [
+        32197,
+        32245,
+        59162
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115840,
+      "splits": [
+        32282,
+        32287,
+        51270
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 98,
+  "sessionResult": {
+    "bestSplits": [
+      31912,
+      32225,
+      50602
+    ],
+    "bestlap": 115047,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Cristian",
+              "lastName": "Manica[Z81C]",
+              "playerId": "S76561198923406654",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 869,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Cristian",
+          "lastName": "Manica[Z81C]",
+          "playerId": "S76561198923406654",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115047,
+          "bestSplits": [
+            31912,
+            32532,
+            50602
+          ],
+          "lapCount": 3,
+          "lastLap": 114715,
+          "lastSplitId": 2,
+          "lastSplits": [
+            31775,
+            32305,
+            50635
+          ],
+          "totalTime": 1291643763
+        }
+      },
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Alex",
+              "lastName": "Foley",
+              "playerId": "S76561198146952103",
+              "shortName": "FOL"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 26,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Alex",
+          "lastName": "Foley",
+          "playerId": "S76561198146952103",
+          "shortName": "FOL"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115840,
+          "bestSplits": [
+            32092,
+            32225,
+            51212
+          ],
+          "lapCount": 8,
+          "lastLap": 115840,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32282,
+            32287,
+            51270
+          ],
+          "totalTime": 1292918721
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Vincenzo",
+              "lastName": "Viggiano [Z81C]",
+              "playerId": "S76561199663320588",
+              "shortName": "VIG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 870,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Vincenzo",
+          "lastName": "Viggiano [Z81C]",
+          "playerId": "S76561199663320588",
+          "shortName": "VIG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-17T16:53:45Z",
+  "SessionFile": "250217_165345_Q"
+}

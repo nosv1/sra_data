@@ -1,0 +1,106 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94647,
+      "splits": [
+        34527,
+        35517,
+        24602
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 94215,
+      "splits": [
+        34392,
+        35755,
+        24067
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 94987,
+      "splits": [
+        34390,
+        36597,
+        24000
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 7,
+  "sessionResult": {
+    "bestSplits": [
+      34392,
+      35517,
+      24067
+    ],
+    "bestlap": 94215,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 31,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Colin",
+              "lastName": "O'Leary",
+              "playerId": "S76561198077582958",
+              "shortName": "O'L"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 435,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Colin",
+          "lastName": "O'Leary",
+          "playerId": "S76561198077582958",
+          "shortName": "O'L"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 94215,
+          "bestSplits": [
+            34392,
+            35517,
+            24067
+          ],
+          "lapCount": 3,
+          "lastLap": 94987,
+          "lastSplitId": 0,
+          "lastSplits": [
+            34390,
+            36597,
+            24000
+          ],
+          "totalTime": 55059555
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "valencia",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+  "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+  "Date": "2025-02-18T13:54:06Z",
+  "SessionFile": "250218_135406_FP"
+}

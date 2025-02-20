@@ -1,0 +1,117 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 93112,
+      "splits": [
+        34230,
+        35042,
+        23840
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 92447,
+      "splits": [
+        33715,
+        34980,
+        23752
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 92447,
+      "splits": [
+        33607,
+        35287,
+        23552
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 92660,
+      "splits": [
+        33760,
+        35177,
+        23722
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 4,
+  "sessionResult": {
+    "bestSplits": [
+      33607,
+      34980,
+      23552
+    ],
+    "bestlap": 92447,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Wilder",
+              "lastName": "Vargas",
+              "playerId": "S76561198987216490",
+              "shortName": "WLD"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 319,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Wilder",
+          "lastName": "Vargas",
+          "playerId": "S76561198987216490",
+          "shortName": "WLD"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 92447,
+          "bestSplits": [
+            33607,
+            34980,
+            23552
+          ],
+          "lapCount": 4,
+          "lastLap": 92660,
+          "lastSplitId": 0,
+          "lastSplits": [
+            33760,
+            35177,
+            23722
+          ],
+          "totalTime": 32936356
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "valencia",
+  "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+  "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+  "Date": "2025-02-17T00:39:49Z",
+  "SessionFile": "250217_003949_FP"
+}

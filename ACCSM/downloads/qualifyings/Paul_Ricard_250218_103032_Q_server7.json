@@ -1,0 +1,139 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114855,
+      "splits": [
+        31697,
+        32165,
+        50992
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114395,
+      "splits": [
+        31560,
+        32255,
+        50580
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114517,
+      "splits": [
+        31635,
+        32240,
+        50642
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 114375,
+      "splits": [
+        31650,
+        32160,
+        50565
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114390,
+      "splits": [
+        31640,
+        32207,
+        50542
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 114355,
+      "splits": [
+        31565,
+        32245,
+        50545
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 115,
+  "sessionResult": {
+    "bestSplits": [
+      31565,
+      32165,
+      50542
+    ],
+    "bestlap": 114355,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Andreas",
+              "lastName": "Borchers",
+              "playerId": "S76561198045000989",
+              "shortName": "BOR"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 35,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Andreas",
+          "lastName": "Borchers",
+          "playerId": "S76561198045000989",
+          "shortName": "BOR"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 114355,
+          "bestSplits": [
+            31565,
+            32165,
+            50542
+          ],
+          "lapCount": 6,
+          "lastLap": 114355,
+          "lastSplitId": 0,
+          "lastSplits": [
+            31565,
+            32245,
+            50545
+          ],
+          "totalTime": 1356314666
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-18T10:30:32Z",
+  "SessionFile": "250218_103032_Q"
+}

@@ -1,0 +1,229 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116797,
+      "splits": [
+        32520,
+        32530,
+        51747
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 116807,
+      "splits": [
+        32180,
+        32457,
+        52170
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 117130,
+      "splits": [
+        32677,
+        32560,
+        51892
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115610,
+      "splits": [
+        31930,
+        32355,
+        51325
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115517,
+      "splits": [
+        31885,
+        32392,
+        51240
+      ]
+    },
+    {
+      "carId": 1003,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 115225,
+      "splits": [
+        32015,
+        32227,
+        50982
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 95,
+  "sessionResult": {
+    "bestSplits": [
+      31885,
+      32227,
+      50982
+    ],
+    "bestlap": 115225,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1003,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Vincenzo",
+              "lastName": "Viggiano [Z81C]",
+              "playerId": "S76561199663320588",
+              "shortName": "VIG"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 869,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Vincenzo",
+          "lastName": "Viggiano [Z81C]",
+          "playerId": "S76561199663320588",
+          "shortName": "VIG"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 115225,
+          "bestSplits": [
+            31885,
+            32227,
+            50982
+          ],
+          "lapCount": 3,
+          "lastLap": 115225,
+          "lastSplitId": 1,
+          "lastSplits": [
+            32015,
+            32227,
+            50982
+          ],
+          "totalTime": 1279905715
+        }
+      },
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 30,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Matt",
+              "lastName": "Schmitzer",
+              "playerId": "S76561199402712430",
+              "shortName": "PLY"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 4,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Matt",
+          "lastName": "Schmitzer",
+          "playerId": "S76561199402712430",
+          "shortName": "PLY"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 116797,
+          "bestSplits": [
+            32180,
+            32457,
+            51747
+          ],
+          "lapCount": 3,
+          "lastLap": 117130,
+          "lastSplitId": 0,
+          "lastSplits": [
+            32677,
+            32560,
+            51892
+          ],
+          "totalTime": 1278281502
+        }
+      },
+      {
+        "car": {
+          "carId": 1002,
+          "carModel": 35,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Jorintas",
+              "lastName": "Butkus",
+              "playerId": "S76561197989389913",
+              "shortName": "BUT"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 123,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jorintas",
+          "lastName": "Butkus",
+          "playerId": "S76561197989389913",
+          "shortName": "BUT"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 2147483647,
+          "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+          ],
+          "lapCount": 0,
+          "lastLap": 2147483647,
+          "lastSplitId": 4294967295,
+          "lastSplits": [],
+          "totalTime": 2147483647
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "Q",
+  "trackName": "paul_ricard",
+  "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+  "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+  "Date": "2025-02-17T13:18:47Z",
+  "SessionFile": "250217_131847_Q"
+}

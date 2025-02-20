@@ -1,0 +1,95 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 110772,
+      "splits": [
+        35550,
+        36457,
+        38765
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 96340,
+      "splits": [
+        35442,
+        36315,
+        24582
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 30,
+  "sessionResult": {
+    "bestSplits": [
+      35442,
+      36315,
+      24582
+    ],
+    "bestlap": 96340,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 32,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 2,
+          "drivers": [
+            {
+              "firstName": "Jean",
+              "lastName": "Maille",
+              "playerId": "S76561197970540417",
+              "shortName": "COB"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 183,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Jean",
+          "lastName": "Maille",
+          "playerId": "S76561197970540417",
+          "shortName": "COB"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 96340,
+          "bestSplits": [
+            35442,
+            36315,
+            24582
+          ],
+          "lapCount": 2,
+          "lastLap": 96340,
+          "lastSplitId": 0,
+          "lastSplits": [
+            35442,
+            36315,
+            24582
+          ],
+          "totalTime": 165772511
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "valencia",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM5",
+  "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+  "Date": "2025-02-19T20:53:26Z",
+  "SessionFile": "250219_205326_FP"
+}
