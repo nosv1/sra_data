@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108152,
+            "splits": [
+                29750,
+                36567,
+                41835
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106810,
+            "splits": [
+                29345,
+                35982,
+                41482
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106997,
+            "splits": [
+                29430,
+                35745,
+                41822
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 42,
+    "sessionResult": {
+        "bestSplits": [
+            29345,
+            35745,
+            41482
+        ],
+        "bestlap": 106810,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 80,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "MacKechnie",
+                            "playerId": "S76561198328203388",
+                            "shortName": "JMA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "MacKechnie",
+                    "playerId": "S76561198328203388",
+                    "shortName": "JMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106810,
+                    "bestSplits": [
+                        29345,
+                        35745,
+                        41482
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 106997,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29430,
+                        35745,
+                        41822
+                    ],
+                    "totalTime": 274688631
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+    "Date": "2024-07-04T20:34:08Z",
+    "SessionFile": "240704_203408_FP"
+}

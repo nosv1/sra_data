@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 257651,
+            "splits": [
+                157991,
+                62740,
+                36920
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139362,
+            "splits": [
+                40885,
+                61752,
+                36725
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139697,
+            "splits": [
+                40902,
+                62017,
+                36777
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 23,
+    "sessionResult": {
+        "bestSplits": [
+            40902,
+            62017,
+            36777
+        ],
+        "bestlap": 139697,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Tempt",
+                            "lastName": "F8",
+                            "playerId": "S76561199487248847",
+                            "shortName": "EMP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 720,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tempt",
+                    "lastName": "F8",
+                    "playerId": "S76561199487248847",
+                    "shortName": "EMP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139697,
+                    "bestSplits": [
+                        40902,
+                        62017,
+                        36777
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 139697,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40902,
+                        62017,
+                        36777
+                    ],
+                    "totalTime": 457017
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "spa",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-01-23T22:33:55Z",
+    "SessionFile": "240123_223355_Q"
+}

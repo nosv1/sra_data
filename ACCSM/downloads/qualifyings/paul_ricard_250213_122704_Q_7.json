@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115922,
+            "splits": [
+                32437,
+                32247,
+                51237
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125715,
+            "splits": [
+                31935,
+                32170,
+                61610
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115807,
+            "splits": [
+                32145,
+                32105,
+                51557
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 52,
+    "sessionResult": {
+        "bestSplits": [
+            32145,
+            32105,
+            51237
+        ],
+        "bestlap": 115807,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "MacKechnie",
+                            "playerId": "S76561198328203388",
+                            "shortName": "JMA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 35,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "MacKechnie",
+                    "playerId": "S76561198328203388",
+                    "shortName": "JMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115807,
+                    "bestSplits": [
+                        32145,
+                        32105,
+                        51237
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 115807,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32145,
+                        32105,
+                        51557
+                    ],
+                    "totalTime": 931154893
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+    "Date": "2025-02-13T12:27:04Z",
+    "SessionFile": "250213_122704_Q"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129722,
+            "splits": [
+                35945,
+                44077,
+                49700
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 128267,
+            "splits": [
+                35830,
+                42595,
+                49842
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125532,
+            "splits": [
+                34905,
+                41922,
+                48705
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125810,
+            "splits": [
+                34782,
+                42287,
+                48740
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 40,
+    "sessionResult": {
+        "bestSplits": [
+            34782,
+            41922,
+            48705
+        ],
+        "bestlap": 125532,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 27,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Pellerin",
+                            "playerId": "S76561199074528657",
+                            "shortName": "SJP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 64,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Pellerin",
+                    "playerId": "S76561199074528657",
+                    "shortName": "SJP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 125532,
+                    "bestSplits": [
+                        34782,
+                        41922,
+                        48705
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 125810,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        34782,
+                        42287,
+                        48740
+                    ],
+                    "totalTime": 779871814
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+    "Date": "2024-06-26T13:25:03Z",
+    "SessionFile": "240626_132503_FP"
+}

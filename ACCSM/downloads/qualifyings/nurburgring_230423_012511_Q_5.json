@@ -1,0 +1,138 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 412307,
+            "splits": [
+                350632,
+                44235,
+                17440
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118417,
+            "splits": [
+                56957,
+                43852,
+                17607
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            56957,
+            43852,
+            17607
+        ],
+        "bestlap": 118417,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "A.",
+                            "lastName": "Friday",
+                            "playerId": "S76561199077862692",
+                            "shortName": "FRI"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 225,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "A.",
+                    "lastName": "Friday",
+                    "playerId": "S76561199077862692",
+                    "shortName": "FRI"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 118417,
+                    "bestSplits": [
+                        56957,
+                        43852,
+                        17607
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 118417,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        56957,
+                        43852,
+                        17607
+                    ],
+                    "totalTime": 13900718
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dan",
+                            "lastName": "Cran",
+                            "playerId": "S76561197978524118",
+                            "shortName": "DCS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 19,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dan",
+                    "lastName": "Cran",
+                    "playerId": "S76561197978524118",
+                    "shortName": "DCS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SimRacingAlliance.com | SRA Nurburgring 6 Hour Endurance | Qualification Server | #SRAM5 | #SRAN",
+    "metaData": "custom_race:9f40044d-a20d-4827-add1-9afe6f5e1e9c",
+    "Date": "2023-04-23T01:25:11Z",
+    "SessionFile": "230423_012511_Q"
+}

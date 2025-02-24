@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117213,
+            "splits": [
+                56013,
+                36385,
+                24815
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96457,
+            "splits": [
+                34730,
+                36222,
+                25505
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 57,
+    "sessionResult": {
+        "bestSplits": [
+            34730,
+            36222,
+            25505
+        ],
+        "bestlap": 96457,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeremy",
+                            "lastName": "Yaron",
+                            "playerId": "S76561199045419020",
+                            "shortName": "JER"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 295,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeremy",
+                    "lastName": "Yaron",
+                    "playerId": "S76561199045419020",
+                    "shortName": "JER"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96457,
+                    "bestSplits": [
+                        34730,
+                        36222,
+                        25505
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 96457,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        34730,
+                        36222,
+                        25505
+                    ],
+                    "totalTime": 995398087
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "valencia",
+    "serverName": "#SRAgg | 9 Hour Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+    "metaData": "custom_race:d5864936-cb72-4238-bd71-7f4a5f3fb74d",
+    "Date": "2023-06-29T00:22:34Z",
+    "SessionFile": "230629_002234_Q"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107762,
+            "splits": [
+                29602,
+                36045,
+                42115
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107407,
+            "splits": [
+                29475,
+                36017,
+                41915
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107265,
+            "splits": [
+                29437,
+                36112,
+                41715
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            29437,
+            36017,
+            41715
+        ],
+        "bestlap": 107265,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 83,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Shane",
+                            "lastName": "Transue",
+                            "playerId": "S76561198057958306",
+                            "shortName": "SGT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 216,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Shane",
+                    "lastName": "Transue",
+                    "playerId": "S76561198057958306",
+                    "shortName": "SGT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107265,
+                    "bestSplits": [
+                        29437,
+                        36017,
+                        41715
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 107265,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29437,
+                        36112,
+                        41715
+                    ],
+                    "totalTime": 24719359
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+    "Date": "2024-06-30T23:55:41Z",
+    "SessionFile": "240630_235541_FP"
+}

@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 542090,
+            "splits": [
+                185842,
+                168372,
+                187875
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 59,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Bryan",
+                            "lastName": "Ryder",
+                            "playerId": "S76561198836039401",
+                            "shortName": "RYD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 14,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bryan",
+                    "lastName": "Ryder",
+                    "playerId": "S76561198836039401",
+                    "shortName": "RYD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 542090,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        185842,
+                        168372,
+                        187875
+                    ],
+                    "totalTime": 34782420
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | SRA MCM 3 Hour Nordschleife Endurance Challenge Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:60f90cee-58d6-45b4-bf9d-5bb5c3ed051e",
+    "Date": "2024-10-03T13:03:12Z",
+    "SessionFile": "241003_130312_Q"
+}

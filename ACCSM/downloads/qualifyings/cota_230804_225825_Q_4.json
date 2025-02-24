@@ -1,0 +1,200 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 274821,
+            "splits": [
+                168808,
+                52935,
+                53077
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 447603,
+            "splits": [
+                342151,
+                53010,
+                52442
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 171438,
+            "splits": [
+                67213,
+                51640,
+                52585
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "GONZALO",
+                            "lastName": "TAMAYO",
+                            "playerId": "S76561198165517338",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 474,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "GONZALO",
+                    "lastName": "TAMAYO",
+                    "playerId": "S76561198165517338",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 274821,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        168808,
+                        52935,
+                        53077
+                    ],
+                    "totalTime": 181183
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Felipe",
+                            "lastName": "Ortegon",
+                            "playerId": "S76561198441422730",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 118,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Felipe",
+                    "lastName": "Ortegon",
+                    "playerId": "S76561198441422730",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 447603,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        342151,
+                        53010,
+                        52442
+                    ],
+                    "totalTime": 469000
+                }
+            },
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Giovanni",
+                            "lastName": "Garcia",
+                            "playerId": "S76561198110376124",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 714,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Giovanni",
+                    "lastName": "Garcia",
+                    "playerId": "S76561198110376124",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 171438,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        67213,
+                        51640,
+                        52585
+                    ],
+                    "totalTime": 499785
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "cota",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2023-08-04T22:58:25Z",
+    "SessionFile": "230804_225825_Q"
+}

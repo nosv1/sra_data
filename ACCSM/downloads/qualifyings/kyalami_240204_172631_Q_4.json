@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 145442,
+            "splits": [
+                68660,
+                43730,
+                33052
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110005,
+            "splits": [
+                32662,
+                44482,
+                32860
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107600,
+            "splits": [
+                32060,
+                42612,
+                32927
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105707,
+            "splits": [
+                31672,
+                42275,
+                31760
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            31672,
+            42275,
+            31760
+        ],
+        "bestlap": 105707,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Andrew",
+                            "lastName": "Wong",
+                            "playerId": "S76561198125410161",
+                            "shortName": "WNG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 117,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Andrew",
+                    "lastName": "Wong",
+                    "playerId": "S76561198125410161",
+                    "shortName": "WNG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105707,
+                    "bestSplits": [
+                        31672,
+                        42275,
+                        31760
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 105707,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        31672,
+                        42275,
+                        31760
+                    ],
+                    "totalTime": 477162
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "kyalami",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-02-04T17:26:31Z",
+    "SessionFile": "240204_172631_Q"
+}

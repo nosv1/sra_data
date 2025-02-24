@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 143377,
+            "splits": [
+                69370,
+                42112,
+                31895
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105102,
+            "splits": [
+                32405,
+                41402,
+                31295
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105670,
+            "splits": [
+                31800,
+                42242,
+                31627
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Christopher",
+                            "lastName": "Bouchard",
+                            "playerId": "S76561198084505062",
+                            "shortName": "BOU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 52,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Christopher",
+                    "lastName": "Bouchard",
+                    "playerId": "S76561198084505062",
+                    "shortName": "BOU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 105670,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        31800,
+                        42242,
+                        31627
+                    ],
+                    "totalTime": 465726
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "kyalami",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-02-04T15:39:52Z",
+    "SessionFile": "240204_153952_Q"
+}

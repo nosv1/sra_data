@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105872,
+            "splits": [
+                29347,
+                35120,
+                41405
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105622,
+            "splits": [
+                29810,
+                34795,
+                41017
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105812,
+            "splits": [
+                29345,
+                34790,
+                41677
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            29345,
+            34790,
+            41017
+        ],
+        "bestlap": 105622,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Joao",
+                            "lastName": "Sodre",
+                            "playerId": "S76561198024833854",
+                            "shortName": "SOD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 488,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joao",
+                    "lastName": "Sodre",
+                    "playerId": "S76561198024833854",
+                    "shortName": "SOD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105622,
+                    "bestSplits": [
+                        29345,
+                        34790,
+                        41017
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 105812,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29345,
+                        34790,
+                        41677
+                    ],
+                    "totalTime": 62891795
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+    "Date": "2024-12-17T16:18:57Z",
+    "SessionFile": "241217_161857_FP"
+}

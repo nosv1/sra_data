@@ -1,0 +1,222 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 790456,
+            "splits": [
+                697951,
+                54435,
+                38070
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 789433,
+            "splits": [
+                696143,
+                55957,
+                37332
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 180451,
+            "splits": [
+                108926,
+                35207,
+                36317
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93170,
+            "splits": [
+                23885,
+                32722,
+                36562
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 93205,
+            "splits": [
+                25045,
+                32117,
+                36042
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": null,
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            23885,
+            32722,
+            36562
+        ],
+        "bestlap": 93170,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "",
+                    "carGuid": null,
+                    "teamGuid": null,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Aoto",
+                            "lastName": "Takamatsu",
+                            "playerId": "S76561198325564237",
+                            "shortName": "TAK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 222,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aoto",
+                    "lastName": "Takamatsu",
+                    "playerId": "S76561198325564237",
+                    "shortName": "TAK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 93170,
+                    "bestSplits": [
+                        23885,
+                        32722,
+                        36562
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 93170,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23885,
+                        32722,
+                        36562
+                    ],
+                    "totalTime": 604274
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 30,
+                    "carGroup": "",
+                    "carGuid": null,
+                    "teamGuid": null,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Fred",
+                            "lastName": "Sed",
+                            "playerId": "S76561198403048033",
+                            "shortName": "SED"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Fred",
+                    "lastName": "Sed",
+                    "playerId": "S76561198403048033",
+                    "shortName": "SED"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 93205,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        25045,
+                        32117,
+                        36042
+                    ],
+                    "totalTime": 606004
+                }
+            },
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 23,
+                    "carGroup": "",
+                    "carGuid": null,
+                    "teamGuid": null,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Ric",
+                            "lastName": "Greene",
+                            "playerId": "S76561199059241719",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 10,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ric",
+                    "lastName": "Greene",
+                    "playerId": "S76561199059241719",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 180451,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        108926,
+                        35207,
+                        36317
+                    ],
+                    "totalTime": 587366
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "laguna_seca",
+    "serverName": "",
+    "metaData": "custom_race:db72fd90-2a45-433a-a574-282acdbf9b4a",
+    "Date": "2021-12-31T21:25:47Z",
+    "SessionFile": "211231_212547_Q"
+}

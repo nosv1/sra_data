@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116522,
+            "splits": [
+                55620,
+                43782,
+                17120
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115290,
+            "splits": [
+                55335,
+                43032,
+                16922
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 225,
+    "sessionResult": {
+        "bestSplits": [
+            55335,
+            43032,
+            16922
+        ],
+        "bestlap": 115290,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jorge",
+                            "lastName": "Blasini Rivera",
+                            "playerId": "S76561198093327914",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 386,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jorge",
+                    "lastName": "Blasini Rivera",
+                    "playerId": "S76561198093327914",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115290,
+                    "bestSplits": [
+                        55335,
+                        43032,
+                        16922
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 115290,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        55335,
+                        43032,
+                        16922
+                    ],
+                    "totalTime": 1674790323
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2025-01-09T10:17:36Z",
+    "SessionFile": "250109_101736_Q"
+}

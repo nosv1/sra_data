@@ -1,0 +1,139 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 290657,
+            "splits": [
+                228650,
+                43875,
+                18132
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116562,
+            "splits": [
+                55602,
+                43437,
+                17522
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115960,
+            "splits": [
+                55310,
+                43017,
+                17632
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117007,
+            "splits": [
+                55550,
+                43615,
+                17842
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118335,
+            "splits": [
+                56910,
+                43862,
+                17562
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116260,
+            "splits": [
+                55390,
+                43395,
+                17475
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            55310,
+            43017,
+            17475
+        ],
+        "bestlap": 115960,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Fire",
+                            "lastName": "Queso",
+                            "playerId": "S76561198034356569",
+                            "shortName": "QUE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 710,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Fire",
+                    "lastName": "Queso",
+                    "playerId": "S76561198034356569",
+                    "shortName": "QUE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115960,
+                    "bestSplits": [
+                        55310,
+                        43017,
+                        17475
+                    ],
+                    "lapCount": 6,
+                    "lastLap": 116260,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        55390,
+                        43395,
+                        17475
+                    ],
+                    "totalTime": 13755753
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SimRacingAlliance.com | SRA Nurburgring 6 Hour Endurance | Qualification Server | #SRAM5 | #SRAN",
+    "metaData": "custom_race:9f40044d-a20d-4827-add1-9afe6f5e1e9c",
+    "Date": "2023-04-21T00:37:57Z",
+    "SessionFile": "230421_003757_Q"
+}

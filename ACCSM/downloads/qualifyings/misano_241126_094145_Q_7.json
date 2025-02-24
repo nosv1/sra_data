@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95627,
+            "splits": [
+                24470,
+                37555,
+                33602
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95450,
+            "splits": [
+                24610,
+                37422,
+                33417
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95355,
+            "splits": [
+                24070,
+                37795,
+                33490
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102945,
+            "splits": [
+                24602,
+                37685,
+                40657
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95400,
+            "splits": [
+                24262,
+                37742,
+                33395
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 113,
+    "sessionResult": {
+        "bestSplits": [
+            24070,
+            37422,
+            33417
+        ],
+        "bestlap": 95355,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Richie",
+                            "lastName": "Wood",
+                            "playerId": "S76561199103471751",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 71,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Richie",
+                    "lastName": "Wood",
+                    "playerId": "S76561199103471751",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95355,
+                    "bestSplits": [
+                        24070,
+                        37422,
+                        33417
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 95400,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        24262,
+                        37742,
+                        33395
+                    ],
+                    "totalTime": 596179972
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "misano",
+    "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+    "Date": "2024-11-26T09:41:45Z",
+    "SessionFile": "241126_094145_Q"
+}

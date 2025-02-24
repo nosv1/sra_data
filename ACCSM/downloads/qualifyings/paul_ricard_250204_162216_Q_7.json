@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116440,
+            "splits": [
+                32437,
+                32507,
+                51495
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115940,
+            "splits": [
+                32257,
+                32420,
+                51262
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116307,
+            "splits": [
+                32307,
+                32382,
+                51617
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            32257,
+            32420,
+            51262
+        ],
+        "bestlap": 115940,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alex",
+                            "lastName": "Foley",
+                            "playerId": "S76561198146952103",
+                            "shortName": "FOL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 26,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alex",
+                    "lastName": "Foley",
+                    "playerId": "S76561198146952103",
+                    "shortName": "FOL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115940,
+                    "bestSplits": [
+                        32257,
+                        32420,
+                        51262
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 116307,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32307,
+                        32382,
+                        51617
+                    ],
+                    "totalTime": 167304358
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+    "Date": "2025-02-04T16:22:16Z",
+    "SessionFile": "250204_162216_Q"
+}

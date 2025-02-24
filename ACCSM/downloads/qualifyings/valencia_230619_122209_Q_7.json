@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130541,
+            "splits": [
+                71476,
+                35465,
+                23600
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92717,
+            "splits": [
+                33722,
+                35145,
+                23850
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92027,
+            "splits": [
+                33440,
+                34865,
+                23722
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 14,
+    "sessionResult": {
+        "bestSplits": [
+            33440,
+            34865,
+            23722
+        ],
+        "bestlap": 92027,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Cory",
+                            "lastName": "Cercone",
+                            "playerId": "S76561198812121535",
+                            "shortName": "CER"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 86,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cory",
+                    "lastName": "Cercone",
+                    "playerId": "S76561198812121535",
+                    "shortName": "CER"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 92027,
+                    "bestSplits": [
+                        33440,
+                        34865,
+                        23722
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 92027,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        33440,
+                        34865,
+                        23722
+                    ],
+                    "totalTime": 174597944
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "valencia",
+    "serverName": "#SRAgg | 9 Hour Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+    "metaData": "custom_race:d5864936-cb72-4238-bd71-7f4a5f3fb74d",
+    "Date": "2023-06-19T12:22:09Z",
+    "SessionFile": "230619_122209_Q"
+}

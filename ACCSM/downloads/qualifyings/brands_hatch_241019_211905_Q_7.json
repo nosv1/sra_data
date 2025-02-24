@@ -1,0 +1,139 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92345,
+            "splits": [
+                33382,
+                22437,
+                36525
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 86420,
+            "splits": [
+                27827,
+                22395,
+                36197
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85660,
+            "splits": [
+                27735,
+                22055,
+                35870
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85905,
+            "splits": [
+                27462,
+                22312,
+                36130
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85612,
+            "splits": [
+                27557,
+                22155,
+                35900
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85610,
+            "splits": [
+                27600,
+                22122,
+                35887
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 112,
+    "sessionResult": {
+        "bestSplits": [
+            27462,
+            22055,
+            35870
+        ],
+        "bestlap": 85610,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Roger",
+                            "lastName": "Rodriguez",
+                            "playerId": "S76561199113520958",
+                            "shortName": "ROD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 305,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Roger",
+                    "lastName": "Rodriguez",
+                    "playerId": "S76561199113520958",
+                    "shortName": "ROD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 85610,
+                    "bestSplits": [
+                        27462,
+                        22055,
+                        35870
+                    ],
+                    "lapCount": 6,
+                    "lastLap": 85610,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27600,
+                        22122,
+                        35887
+                    ],
+                    "totalTime": 991624727
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAgg | SRA ES Brands Hatch Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:c6bc19a2-8494-4074-b1c3-02cc1daad50d",
+    "Date": "2024-10-19T21:19:05Z",
+    "SessionFile": "241019_211905_Q"
+}

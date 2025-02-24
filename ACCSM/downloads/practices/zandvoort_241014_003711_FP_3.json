@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1006,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98295,
+            "splits": [
+                32207,
+                33820,
+                32267
+            ]
+        },
+        {
+            "carId": 1006,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98472,
+            "splits": [
+                32125,
+                33850,
+                32497
+            ]
+        },
+        {
+            "carId": 1006,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97677,
+            "splits": [
+                32190,
+                33435,
+                32052
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 13,
+    "sessionResult": {
+        "bestSplits": [
+            32190,
+            33435,
+            32052
+        ],
+        "bestlap": 97677,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1006,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Panzo",
+                            "lastName": "Rigatoni",
+                            "playerId": "S76561199054650605",
+                            "shortName": "RIG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 97,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Panzo",
+                    "lastName": "Rigatoni",
+                    "playerId": "S76561199054650605",
+                    "shortName": "RIG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97677,
+                    "bestSplits": [
+                        32190,
+                        33435,
+                        32052
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 97677,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        32190,
+                        33435,
+                        32052
+                    ],
+                    "totalTime": 82100246
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "zandvoort",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-10-14T00:37:11Z",
+    "SessionFile": "241014_003711_FP"
+}

@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 511037,
+            "splits": [
+                176627,
+                157902,
+                176507
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 508522,
+            "splits": [
+                174382,
+                157242,
+                176897
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 83,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Joao",
+                            "lastName": "Sodre",
+                            "playerId": "S76561198024833854",
+                            "shortName": "SOD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joao",
+                    "lastName": "Sodre",
+                    "playerId": "S76561198024833854",
+                    "shortName": "SOD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 508522,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        174382,
+                        157242,
+                        176897
+                    ],
+                    "totalTime": 136522316
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | SRA MCM 3 Hour Nordschleife Endurance Challenge Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:60f90cee-58d6-45b4-bf9d-5bb5c3ed051e",
+    "Date": "2024-10-04T17:18:38Z",
+    "SessionFile": "241004_171838_Q"
+}

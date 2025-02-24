@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 370531,
+            "splits": [
+                299213,
+                36655,
+                34662
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101667,
+            "splits": [
+                33707,
+                34627,
+                33332
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101255,
+            "splits": [
+                33162,
+                34665,
+                33427
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100885,
+            "splits": [
+                32565,
+                34687,
+                33632
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            32565,
+            34627,
+            33332
+        ],
+        "bestlap": 100885,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 21,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Pellerin",
+                            "playerId": "S76561199074528657",
+                            "shortName": "SJP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 164,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Pellerin",
+                    "playerId": "S76561199074528657",
+                    "shortName": "SJP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 100885,
+                    "bestSplits": [
+                        32565,
+                        34627,
+                        33332
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 100885,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        32565,
+                        34687,
+                        33632
+                    ],
+                    "totalTime": 587420
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "zandvoort",
+    "serverName": "SRA.gg | Sim Racing Alliance | Main Server #4 | SAT | SRA Weekend Sprint #1 | #SRAE | SRAM#4",
+    "metaData": "custom_race:80460cb4-497d-4c5f-90c4-d0b793dd0255",
+    "Date": "2023-02-26T01:09:14Z",
+    "SessionFile": "230226_010914_Q"
+}

@@ -1,0 +1,160 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 114703,
+            "splits": [
+                55168,
+                35787,
+                23747
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92287,
+            "splits": [
+                33450,
+                35190,
+                23647
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116420,
+            "splits": [
+                56977,
+                35812,
+                23630
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91520,
+            "splits": [
+                33075,
+                34757,
+                23687
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 74,
+    "sessionResult": {
+        "bestSplits": [
+            33075,
+            34757,
+            23647
+        ],
+        "bestlap": 91520,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Land",
+                            "lastName": "Shark",
+                            "playerId": "S76561197965632839",
+                            "shortName": "SHK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 132,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Land",
+                    "lastName": "Shark",
+                    "playerId": "S76561197965632839",
+                    "shortName": "SHK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 91520,
+                    "bestSplits": [
+                        33075,
+                        34757,
+                        23647
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 91520,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        33075,
+                        34757,
+                        23687
+                    ],
+                    "totalTime": 1149200918
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jon",
+                            "lastName": "Sparks",
+                            "playerId": "S76561199233329613",
+                            "shortName": "SPK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 99,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jon",
+                    "lastName": "Sparks",
+                    "playerId": "S76561199233329613",
+                    "shortName": "SPK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "valencia",
+    "serverName": "#SRAgg | 9 Hour Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+    "metaData": "custom_race:d5864936-cb72-4238-bd71-7f4a5f3fb74d",
+    "Date": "2023-06-30T19:05:34Z",
+    "SessionFile": "230630_190534_Q"
+}

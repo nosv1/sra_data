@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123897,
+            "splits": [
+                34660,
+                41312,
+                47925
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122155,
+            "splits": [
+                34207,
+                40392,
+                47555
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122297,
+            "splits": [
+                34307,
+                39982,
+                48007
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            34207,
+            39982,
+            47555
+        ],
+        "bestlap": 122155,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 27,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Nitin",
+                            "lastName": "Murthy",
+                            "playerId": "S76561198156677863",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 95,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Nitin",
+                    "lastName": "Murthy",
+                    "playerId": "S76561198156677863",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 122155,
+                    "bestSplits": [
+                        34207,
+                        39982,
+                        47555
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 122297,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        34307,
+                        39982,
+                        48007
+                    ],
+                    "totalTime": 294453252
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+    "Date": "2024-06-20T22:30:48Z",
+    "SessionFile": "240620_223048_FP"
+}

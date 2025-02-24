@@ -1,0 +1,128 @@
+{
+  "laps": [
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91890,
+      "splits": [
+        33585,
+        34835,
+        23470
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91040,
+      "splits": [
+        33225,
+        34535,
+        23280
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": true,
+      "laptime": 91195,
+      "splits": [
+        33145,
+        34572,
+        23477
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91197,
+      "splits": [
+        33150,
+        34715,
+        23332
+      ]
+    },
+    {
+      "carId": 1001,
+      "driverIndex": 0,
+      "isValidForBest": false,
+      "laptime": 91217,
+      "splits": [
+        33150,
+        34622,
+        23445
+      ]
+    }
+  ],
+  "penalties": [],
+  "post_race_penalties": [],
+  "sessionIndex": 0,
+  "raceWeekendIndex": 1,
+  "sessionResult": {
+    "bestSplits": [
+      33145,
+      34535,
+      23280
+    ],
+    "bestlap": 91040,
+    "isWetSession": 0,
+    "leaderBoardLines": [
+      {
+        "car": {
+          "carId": 1001,
+          "carModel": 36,
+          "carGroup": "GT3",
+          "carGuid": -1,
+          "teamGuid": -1,
+          "cupCategory": 0,
+          "drivers": [
+            {
+              "firstName": "Bryan",
+              "lastName": "Anderson",
+              "playerId": "S76561197993701529",
+              "shortName": "AND"
+            }
+          ],
+          "nationality": 0,
+          "raceNumber": 502,
+          "teamName": ""
+        },
+        "currentDriver": {
+          "firstName": "Bryan",
+          "lastName": "Anderson",
+          "playerId": "S76561197993701529",
+          "shortName": "AND"
+        },
+        "currentDriverIndex": 0,
+        "driverTotalTimes": [],
+        "missingMandatoryPitstop": -1,
+        "timing": {
+          "bestLap": 91040,
+          "bestSplits": [
+            33145,
+            34535,
+            23280
+          ],
+          "lapCount": 5,
+          "lastLap": 91217,
+          "lastSplitId": 1,
+          "lastSplits": [
+            33150,
+            34622,
+            23445
+          ],
+          "totalTime": 31039342
+        }
+      }
+    ],
+    "type": 0
+  },
+  "sessionType": "FP",
+  "trackName": "valencia",
+  "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+  "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+  "Date": "2025-02-19T08:13:02Z",
+  "SessionFile": "250219_081302_FP"
+}

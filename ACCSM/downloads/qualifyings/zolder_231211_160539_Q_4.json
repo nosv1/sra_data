@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 153255,
+            "splits": [
+                87665,
+                33472,
+                32117
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98570,
+            "splits": [
+                33567,
+                32987,
+                32015
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99580,
+            "splits": [
+                34157,
+                33275,
+                32147
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            33567,
+            32987,
+            32015
+        ],
+        "bestlap": 98570,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "gustavo",
+                            "lastName": "battiti",
+                            "playerId": "S76561198087667121",
+                            "shortName": "GUS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 93,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "gustavo",
+                    "lastName": "battiti",
+                    "playerId": "S76561198087667121",
+                    "shortName": "GUS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98570,
+                    "bestSplits": [
+                        33567,
+                        32987,
+                        32015
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 99580,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        34157,
+                        33275,
+                        32147
+                    ],
+                    "totalTime": 381089
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "zolder",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2023-12-11T16:05:39Z",
+    "SessionFile": "231211_160539_Q"
+}

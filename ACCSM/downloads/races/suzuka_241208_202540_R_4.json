@@ -1,0 +1,193 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127727,
+            "splits": [
+                45862,
+                54725,
+                27140
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122985,
+            "splits": [
+                41515,
+                54327,
+                27142
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122572,
+            "splits": [
+                41770,
+                53997,
+                26805
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121875,
+            "splits": [
+                41125,
+                53812,
+                26937
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121967,
+            "splits": [
+                41085,
+                53965,
+                26917
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 143390,
+            "splits": [
+                41157,
+                54610,
+                47622
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 151465,
+            "splits": [
+                49780,
+                54117,
+                47567
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 192200,
+            "splits": [
+                89442,
+                54622,
+                48135
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 142647,
+            "splits": [
+                61225,
+                54000,
+                27422
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 7,
+            "driverIndex": 0,
+            "penalty": "StopAndGo_30",
+            "penaltyValue": 3,
+            "reason": "PitSpeeding",
+            "violationInLap": 6
+        },
+        {
+            "carId": 1001,
+            "clearedInLap": 8,
+            "driverIndex": 0,
+            "penalty": "None",
+            "penaltyValue": 0,
+            "reason": "Cutting",
+            "violationInLap": 0
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 2,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            41085,
+            53812,
+            26805
+        ],
+        "bestlap": 121875,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 31,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Eric",
+                            "lastName": "Rudderham",
+                            "playerId": "S76561199243933348",
+                            "shortName": "EJR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 36,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Eric",
+                    "lastName": "Rudderham",
+                    "playerId": "S76561199243933348",
+                    "shortName": "EJR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [
+                    1176951.5
+                ],
+                "missingMandatoryPitstop": -2,
+                "timing": {
+                    "bestLap": 121875,
+                    "bestSplits": [
+                        41085,
+                        53812,
+                        26805
+                    ],
+                    "lapCount": 9,
+                    "lastLap": 142647,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        61225,
+                        54000,
+                        27422
+                    ],
+                    "totalTime": 1247664
+                }
+            }
+        ],
+        "type": 1
+    },
+    "sessionType": "R",
+    "trackName": "suzuka",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-12-08T20:25:40Z",
+    "SessionFile": "241208_202540_R"
+}

@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121400,
+            "splits": [
+                41040,
+                53672,
+                26687
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121607,
+            "splits": [
+                41092,
+                53707,
+                26807
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            41040,
+            53672,
+            26687
+        ],
+        "bestlap": 121400,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 31,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Eric",
+                            "lastName": "Rudderham",
+                            "playerId": "S76561199243933348",
+                            "shortName": "EJR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 36,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Eric",
+                    "lastName": "Rudderham",
+                    "playerId": "S76561199243933348",
+                    "shortName": "EJR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121400,
+                    "bestSplits": [
+                        41040,
+                        53672,
+                        26687
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 121607,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        41092,
+                        53707,
+                        26807
+                    ],
+                    "totalTime": 431372
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "suzuka",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-12-08T20:01:59Z",
+    "SessionFile": "241208_200159_Q"
+}

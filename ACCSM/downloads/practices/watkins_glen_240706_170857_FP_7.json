@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110175,
+            "splits": [
+                29500,
+                37392,
+                43282
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110257,
+            "splits": [
+                30060,
+                36410,
+                43787
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108212,
+            "splits": [
+                29595,
+                35782,
+                42835
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            29500,
+            36410,
+            43282
+        ],
+        "bestlap": 110175,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 83,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "merlin",
+                            "lastName": "trevail",
+                            "playerId": "S76561199282844146",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 88,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "merlin",
+                    "lastName": "trevail",
+                    "playerId": "S76561199282844146",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 110175,
+                    "bestSplits": [
+                        29500,
+                        36410,
+                        43282
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 108212,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29595,
+                        35782,
+                        42835
+                    ],
+                    "totalTime": 12671784
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+    "Date": "2024-07-06T17:08:57Z",
+    "SessionFile": "240706_170857_FP"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 177918,
+            "splits": [
+                114558,
+                45305,
+                18055
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120897,
+            "splits": [
+                57432,
+                45737,
+                17727
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 119980,
+            "splits": [
+                57500,
+                44745,
+                17735
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 26,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 22,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Cube",
+                            "lastName": "Master",
+                            "playerId": "S76561198063635148",
+                            "shortName": "MAS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 852,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cube",
+                    "lastName": "Master",
+                    "playerId": "S76561198063635148",
+                    "shortName": "MAS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 119980,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        57500,
+                        44745,
+                        17735
+                    ],
+                    "totalTime": 106772416
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SimRacingAlliance.com | SRA Nurburgring 6 Hour Endurance | Qualification Server | #SRAM5 | #SRAN",
+    "metaData": "custom_race:9f40044d-a20d-4827-add1-9afe6f5e1e9c",
+    "Date": "2023-04-24T03:09:05Z",
+    "SessionFile": "230424_030905_Q"
+}

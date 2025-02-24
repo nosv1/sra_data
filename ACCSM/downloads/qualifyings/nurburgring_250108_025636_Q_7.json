@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115652,
+            "splits": [
+                55350,
+                43275,
+                17027
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115300,
+            "splits": [
+                55002,
+                43192,
+                17105
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116520,
+            "splits": [
+                55545,
+                43757,
+                17217
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 199,
+    "sessionResult": {
+        "bestSplits": [
+            55002,
+            43192,
+            17027
+        ],
+        "bestlap": 115300,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Arjun",
+                            "lastName": "Lakshmi Narasimhan",
+                            "playerId": "S76561198148647015",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 92,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Arjun",
+                    "lastName": "Lakshmi Narasimhan",
+                    "playerId": "S76561198148647015",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115300,
+                    "bestSplits": [
+                        55002,
+                        43192,
+                        17027
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 116520,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        55545,
+                        43757,
+                        17217
+                    ],
+                    "totalTime": 1561759354
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2025-01-08T02:56:36Z",
+    "SessionFile": "250108_025636_Q"
+}

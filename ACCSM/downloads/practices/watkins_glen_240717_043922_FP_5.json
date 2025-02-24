@@ -1,0 +1,127 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105095,
+            "splits": [
+                29612,
+                34382,
+                41100
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104885,
+            "splits": [
+                29620,
+                34327,
+                40937
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105132,
+            "splits": [
+                29627,
+                34450,
+                41055
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105510,
+            "splits": [
+                29607,
+                34412,
+                41490
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 3
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 5,
+    "sessionResult": {
+        "bestSplits": [
+            29620,
+            34327,
+            40937
+        ],
+        "bestlap": 104885,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dean",
+                            "lastName": "Stefani",
+                            "playerId": "S76561198068000942",
+                            "shortName": "DEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 877,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dean",
+                    "lastName": "Stefani",
+                    "playerId": "S76561198068000942",
+                    "shortName": "DEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104885,
+                    "bestSplits": [
+                        29620,
+                        34327,
+                        40937
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 105510,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        29607,
+                        34412,
+                        41490
+                    ],
+                    "totalTime": 18172453
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2024-07-17T04:39:22Z",
+    "SessionFile": "240717_043922_FP"
+}

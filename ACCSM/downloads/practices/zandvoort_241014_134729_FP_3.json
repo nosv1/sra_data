@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97417,
+            "splits": [
+                32067,
+                33532,
+                31817
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96930,
+            "splits": [
+                31817,
+                33275,
+                31837
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96602,
+            "splits": [
+                31582,
+                33150,
+                31870
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 18,
+    "sessionResult": {
+        "bestSplits": [
+            31582,
+            33150,
+            31817
+        ],
+        "bestlap": 96602,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Bryan",
+                            "lastName": "Ryder",
+                            "playerId": "S76561198836039401",
+                            "shortName": "RYD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 916,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bryan",
+                    "lastName": "Ryder",
+                    "playerId": "S76561198836039401",
+                    "shortName": "RYD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96602,
+                    "bestSplits": [
+                        31582,
+                        33150,
+                        31817
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 96602,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        31582,
+                        33150,
+                        31870
+                    ],
+                    "totalTime": 129515636
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "zandvoort",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-10-14T13:47:29Z",
+    "SessionFile": "241014_134729_FP"
+}

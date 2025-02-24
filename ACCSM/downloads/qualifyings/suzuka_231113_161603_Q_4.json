@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 165227,
+            "splits": [
+                78652,
+                57705,
+                28870
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 132180,
+            "splits": [
+                43182,
+                60365,
+                28632
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126652,
+            "splits": [
+                42025,
+                56050,
+                28577
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127562,
+            "splits": [
+                41932,
+                56730,
+                28900
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            41932,
+            56050,
+            28577
+        ],
+        "bestlap": 126652,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 16,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mariano",
+                            "lastName": "Iglesias Aramburu",
+                            "playerId": "S76561198005131045",
+                            "shortName": "MIA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 63,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mariano",
+                    "lastName": "Iglesias Aramburu",
+                    "playerId": "S76561198005131045",
+                    "shortName": "MIA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 126652,
+                    "bestSplits": [
+                        41932,
+                        56050,
+                        28577
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 127562,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41932,
+                        56730,
+                        28900
+                    ],
+                    "totalTime": 548292
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "suzuka",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2023-11-13T16:16:03Z",
+    "SessionFile": "231113_161603_Q"
+}

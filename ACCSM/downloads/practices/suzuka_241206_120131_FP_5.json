@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124745,
+            "splits": [
+                41932,
+                55512,
+                27300
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123995,
+            "splits": [
+                41632,
+                55250,
+                27112
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 124700,
+            "splits": [
+                42010,
+                55227,
+                27462
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            41632,
+            55250,
+            27112
+        ],
+        "bestlap": 123995,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Mcweezerson",
+                            "playerId": "S76561197997356516",
+                            "shortName": "WEZ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 13,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Mcweezerson",
+                    "playerId": "S76561197997356516",
+                    "shortName": "WEZ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123995,
+                    "bestSplits": [
+                        41632,
+                        55250,
+                        27112
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 124700,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        42010,
+                        55227,
+                        27462
+                    ],
+                    "totalTime": 49039722
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+    "Date": "2024-12-06T12:01:31Z",
+    "SessionFile": "241206_120131_FP"
+}

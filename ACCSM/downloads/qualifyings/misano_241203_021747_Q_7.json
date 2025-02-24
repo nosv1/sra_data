@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96830,
+            "splits": [
+                24277,
+                38465,
+                34087
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95032,
+            "splits": [
+                23905,
+                37792,
+                33335
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95370,
+            "splits": [
+                23747,
+                37945,
+                33677
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 40,
+    "sessionResult": {
+        "bestSplits": [
+            23747,
+            37945,
+            33677
+        ],
+        "bestlap": 95370,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Pawel",
+                            "lastName": "Kreska",
+                            "playerId": "S76561198059839803",
+                            "shortName": "PAK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 137,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Pawel",
+                    "lastName": "Kreska",
+                    "playerId": "S76561198059839803",
+                    "shortName": "PAK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95370,
+                    "bestSplits": [
+                        23747,
+                        37945,
+                        33677
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 95370,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23747,
+                        37945,
+                        33677
+                    ],
+                    "totalTime": 202422178
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "misano",
+    "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+    "Date": "2024-12-03T02:17:47Z",
+    "SessionFile": "241203_021747_Q"
+}

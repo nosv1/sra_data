@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105027,
+            "splits": [
+                29657,
+                34312,
+                41057
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104242,
+            "splits": [
+                29520,
+                34007,
+                40715
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104192,
+            "splits": [
+                29317,
+                34115,
+                40760
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104412,
+            "splits": [
+                29375,
+                34452,
+                40585
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105482,
+            "splits": [
+                29625,
+                34765,
+                41092
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            29317,
+            34007,
+            40585
+        ],
+        "bestlap": 104192,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Louie",
+                            "playerId": "S76561197973248627",
+                            "shortName": "LOU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 918,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Louie",
+                    "playerId": "S76561197973248627",
+                    "shortName": "LOU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104192,
+                    "bestSplits": [
+                        29317,
+                        34007,
+                        40585
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 105482,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        29625,
+                        34765,
+                        41092
+                    ],
+                    "totalTime": 7106942
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D1  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:b45ae983-f7a4-484f-8ef7-0c6123a99dd4",
+    "Date": "2024-12-17T00:33:38Z",
+    "SessionFile": "241217_003338_FP"
+}

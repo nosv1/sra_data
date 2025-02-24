@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 173990,
+            "splits": [
+                88550,
+                56725,
+                28715
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127530,
+            "splits": [
+                42247,
+                56602,
+                28680
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127342,
+            "splits": [
+                42920,
+                56180,
+                28242
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126400,
+            "splits": [
+                42042,
+                56152,
+                28205
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126610,
+            "splits": [
+                42342,
+                56152,
+                28115
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            42042,
+            56152,
+            28115
+        ],
+        "bestlap": 126400,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 23,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Joe",
+                            "lastName": "Shabadu",
+                            "playerId": "S76561197968704968",
+                            "shortName": "SHB"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 22,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joe",
+                    "lastName": "Shabadu",
+                    "playerId": "S76561197968704968",
+                    "shortName": "SHB"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 126400,
+                    "bestSplits": [
+                        42042,
+                        56152,
+                        28115
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 126610,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        42342,
+                        56152,
+                        28115
+                    ],
+                    "totalTime": 653747
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "suzuka",
+    "serverName": "SRA | SimRacingAlliance.com | Main Server #2 | Open Lobby | SRAM#2",
+    "metaData": "custom_race:113a236b-ddb3-4955-a0b0-e74ea1c0eb79",
+    "Date": "2022-11-03T16:34:04Z",
+    "SessionFile": "221103_163404_Q"
+}

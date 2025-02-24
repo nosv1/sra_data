@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115732,
+            "splits": [
+                55252,
+                43205,
+                17275
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 114740,
+            "splits": [
+                54970,
+                42972,
+                16797
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117097,
+            "splits": [
+                55330,
+                43892,
+                17875
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 115027,
+            "splits": [
+                54980,
+                42885,
+                17162
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 200,
+    "sessionResult": {
+        "bestSplits": [
+            54970,
+            42972,
+            16797
+        ],
+        "bestlap": 114740,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jorge",
+                            "lastName": "Blasini Rivera",
+                            "playerId": "S76561198093327914",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 386,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jorge",
+                    "lastName": "Blasini Rivera",
+                    "playerId": "S76561198093327914",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 114740,
+                    "bestSplits": [
+                        54970,
+                        42972,
+                        16797
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 115027,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        54980,
+                        42885,
+                        17162
+                    ],
+                    "totalTime": 1572678194
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2025-01-08T06:00:36Z",
+    "SessionFile": "250108_060036_Q"
+}

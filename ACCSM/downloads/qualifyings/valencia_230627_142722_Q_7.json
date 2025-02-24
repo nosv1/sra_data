@@ -1,0 +1,252 @@
+{
+    "laps": [
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 169745,
+            "splits": [
+                111175,
+                35037,
+                23532
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92072,
+            "splits": [
+                33355,
+                35062,
+                23655
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94410,
+            "splits": [
+                35015,
+                35465,
+                23930
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91902,
+            "splits": [
+                33562,
+                34852,
+                23487
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121360,
+            "splits": [
+                61912,
+                35725,
+                23722
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 145851,
+            "splits": [
+                85996,
+                35615,
+                24240
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92785,
+            "splits": [
+                34262,
+                34807,
+                23715
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93300,
+            "splits": [
+                33735,
+                35752,
+                23812
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91810,
+            "splits": [
+                33520,
+                34787,
+                23502
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93117,
+            "splits": [
+                33610,
+                35500,
+                24007
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91470,
+            "splits": [
+                33275,
+                34685,
+                23510
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92450,
+            "splits": [
+                33867,
+                34850,
+                23732
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 47,
+    "sessionResult": {
+        "bestSplits": [
+            33275,
+            34685,
+            23487
+        ],
+        "bestlap": 91470,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Al",
+                            "lastName": "Lotufo",
+                            "playerId": "S76561197965864959",
+                            "shortName": "LOT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 132,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Al",
+                    "lastName": "Lotufo",
+                    "playerId": "S76561197965864959",
+                    "shortName": "LOT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 91470,
+                    "bestSplits": [
+                        33275,
+                        34685,
+                        23487
+                    ],
+                    "lapCount": 8,
+                    "lastLap": 91470,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        33275,
+                        34685,
+                        23510
+                    ],
+                    "totalTime": 873229588
+                }
+            },
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Joe",
+                            "lastName": "Dawber",
+                            "playerId": "S76561198115187865",
+                            "shortName": "JRD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 777,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joe",
+                    "lastName": "Dawber",
+                    "playerId": "S76561198115187865",
+                    "shortName": "JRD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 92450,
+                    "bestSplits": [
+                        33610,
+                        34850,
+                        23732
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 92450,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        33867,
+                        34850,
+                        23732
+                    ],
+                    "totalTime": 873302641
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "valencia",
+    "serverName": "#SRAgg | 9 Hour Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+    "metaData": "custom_race:d5864936-cb72-4238-bd71-7f4a5f3fb74d",
+    "Date": "2023-06-27T14:27:22Z",
+    "SessionFile": "230627_142722_Q"
+}

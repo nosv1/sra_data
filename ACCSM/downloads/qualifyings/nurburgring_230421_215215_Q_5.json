@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 405910,
+            "splits": [
+                343505,
+                44830,
+                17575
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120227,
+            "splits": [
+                56067,
+                44400,
+                19760
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118432,
+            "splits": [
+                56400,
+                44090,
+                17942
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            56067,
+            44090,
+            17942
+        ],
+        "bestlap": 118432,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 14,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Sebastian",
+                            "lastName": "Matheus",
+                            "playerId": "S76561199135034133",
+                            "shortName": "MTH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 22,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sebastian",
+                    "lastName": "Matheus",
+                    "playerId": "S76561199135034133",
+                    "shortName": "MTH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 118432,
+                    "bestSplits": [
+                        56067,
+                        44090,
+                        17942
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 118432,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        56400,
+                        44090,
+                        17942
+                    ],
+                    "totalTime": 90220680
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SimRacingAlliance.com | SRA Nurburgring 6 Hour Endurance | Qualification Server | #SRAM5 | #SRAN",
+    "metaData": "custom_race:9f40044d-a20d-4827-add1-9afe6f5e1e9c",
+    "Date": "2023-04-21T21:52:15Z",
+    "SessionFile": "230421_215215_Q"
+}

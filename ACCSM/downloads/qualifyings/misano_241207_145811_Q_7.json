@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96582,
+            "splits": [
+                24875,
+                38295,
+                33412
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95662,
+            "splits": [
+                24225,
+                38065,
+                33372
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95095,
+            "splits": [
+                24052,
+                37820,
+                33222
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103165,
+            "splits": [
+                23917,
+                39572,
+                39675
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 59,
+    "sessionResult": {
+        "bestSplits": [
+            24052,
+            37820,
+            33222
+        ],
+        "bestlap": 95095,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Back",
+                            "lastName": "Marker",
+                            "playerId": "S76561198057790320",
+                            "shortName": "BMK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 203,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Back",
+                    "lastName": "Marker",
+                    "playerId": "S76561198057790320",
+                    "shortName": "BMK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95095,
+                    "bestSplits": [
+                        24052,
+                        37820,
+                        33222
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 103165,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        23917,
+                        39572,
+                        39675
+                    ],
+                    "totalTime": 279203131
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "misano",
+    "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+    "Date": "2024-12-07T14:58:11Z",
+    "SessionFile": "241207_145811_Q"
+}

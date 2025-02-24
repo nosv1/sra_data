@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127542,
+            "splits": [
+                60285,
+                47810,
+                19447
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            60285,
+            47810,
+            19447
+        ],
+        "bestlap": 127542,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Shane",
+                            "lastName": "Lewis",
+                            "playerId": "S76561199276751968",
+                            "shortName": "SRL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 211,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Shane",
+                    "lastName": "Lewis",
+                    "playerId": "S76561199276751968",
+                    "shortName": "SRL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 127542,
+                    "bestSplits": [
+                        60285,
+                        47810,
+                        19447
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 127542,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        60285,
+                        47810,
+                        19447
+                    ],
+                    "totalTime": 484039
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2025-01-12T17:10:07Z",
+    "SessionFile": "250112_171007_Q"
+}

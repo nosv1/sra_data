@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93257,
+            "splits": [
+                31487,
+                30520,
+                31250
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 91990,
+            "splits": [
+                30905,
+                30292,
+                30792
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 93260,
+            "splits": [
+                31782,
+                30972,
+                30505
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            31487,
+            30520,
+            31250
+        ],
+        "bestlap": 93257,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Ryan",
+                            "lastName": "Clark",
+                            "playerId": "S76561199037484537",
+                            "shortName": "RDC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ryan",
+                    "lastName": "Clark",
+                    "playerId": "S76561199037484537",
+                    "shortName": "RDC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 93257,
+                    "bestSplits": [
+                        31487,
+                        30520,
+                        31250
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 93260,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        31782,
+                        30972,
+                        30505
+                    ],
+                    "totalTime": 459946
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "zolder",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2025-01-16T10:02:37Z",
+    "SessionFile": "250116_100237_Q"
+}

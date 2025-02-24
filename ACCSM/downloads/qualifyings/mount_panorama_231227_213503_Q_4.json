@@ -1,0 +1,149 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 385286,
+            "splits": [
+                286211,
+                60602,
+                38472
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 129362,
+            "splits": [
+                41532,
+                59717,
+                28112
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127657,
+            "splits": [
+                39870,
+                59602,
+                28185
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            39870,
+            59602,
+            28112
+        ],
+        "bestlap": 127657,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jhonny",
+                            "lastName": "Marin",
+                            "playerId": "S76561198265138663",
+                            "shortName": "JMZ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 20,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jhonny",
+                    "lastName": "Marin",
+                    "playerId": "S76561198265138663",
+                    "shortName": "JMZ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 127657,
+                    "bestSplits": [
+                        39870,
+                        59602,
+                        28112
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 127657,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        39870,
+                        59602,
+                        28185
+                    ],
+                    "totalTime": 520524
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "B",
+                            "lastName": "Davis",
+                            "playerId": "S76561198981476888",
+                            "shortName": "BRY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 9,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "B",
+                    "lastName": "Davis",
+                    "playerId": "S76561198981476888",
+                    "shortName": "BRY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2023-12-27T21:35:03Z",
+    "SessionFile": "231227_213503_Q"
+}

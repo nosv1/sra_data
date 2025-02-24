@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116637,
+            "splits": [
+                56090,
+                43427,
+                17120
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127312,
+            "splits": [
+                55670,
+                49072,
+                22570
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115267,
+            "splits": [
+                55395,
+                43170,
+                16702
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116125,
+            "splits": [
+                55505,
+                43587,
+                17032
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 176,
+    "sessionResult": {
+        "bestSplits": [
+            55395,
+            43170,
+            16702
+        ],
+        "bestlap": 115267,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Amos",
+                            "lastName": "Movo",
+                            "playerId": "S76561198368453660",
+                            "shortName": "AMO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 518,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Amos",
+                    "lastName": "Movo",
+                    "playerId": "S76561198368453660",
+                    "shortName": "AMO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115267,
+                    "bestSplits": [
+                        55395,
+                        43170,
+                        16702
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 116125,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        55505,
+                        43587,
+                        17032
+                    ],
+                    "totalTime": 1448796722
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2025-01-06T19:30:56Z",
+    "SessionFile": "250106_193056_Q"
+}

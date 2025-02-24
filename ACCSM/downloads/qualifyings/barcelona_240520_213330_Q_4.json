@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 109445,
+            "splits": [
+                30095,
+                41905,
+                37445
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107042,
+            "splits": [
+                30020,
+                41222,
+                35800
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106522,
+            "splits": [
+                30055,
+                40865,
+                35602
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            30020,
+            40865,
+            35602
+        ],
+        "bestlap": 106522,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Roby",
+                            "lastName": "Toty",
+                            "playerId": "S76561198079626838",
+                            "shortName": "TOT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 123,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Roby",
+                    "lastName": "Toty",
+                    "playerId": "S76561198079626838",
+                    "shortName": "TOT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106522,
+                    "bestSplits": [
+                        30020,
+                        40865,
+                        35602
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 106522,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        30055,
+                        40865,
+                        35602
+                    ],
+                    "totalTime": 491262
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "barcelona",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-05-20T21:33:30Z",
+    "SessionFile": "240520_213330_Q"
+}

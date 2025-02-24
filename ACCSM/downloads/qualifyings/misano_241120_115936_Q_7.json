@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98327,
+            "splits": [
+                25410,
+                38475,
+                34442
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97510,
+            "splits": [
+                25000,
+                38305,
+                34205
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97525,
+            "splits": [
+                24665,
+                38812,
+                34047
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96680,
+            "splits": [
+                24340,
+                38130,
+                34210
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 13,
+    "sessionResult": {
+        "bestSplits": [
+            24665,
+            38305,
+            34047
+        ],
+        "bestlap": 97510,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Darren",
+                            "lastName": "Robichaud",
+                            "playerId": "S76561199232988903",
+                            "shortName": "DMR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 357,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Darren",
+                    "lastName": "Robichaud",
+                    "playerId": "S76561199232988903",
+                    "shortName": "DMR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97510,
+                    "bestSplits": [
+                        24665,
+                        38305,
+                        34047
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 96680,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        24340,
+                        38130,
+                        34210
+                    ],
+                    "totalTime": 86043188
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "misano",
+    "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+    "Date": "2024-11-20T11:59:36Z",
+    "SessionFile": "241120_115936_Q"
+}

@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 196396,
+            "splits": [
+                123191,
+                35820,
+                37385
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 205425,
+            "splits": [
+                143320,
+                36820,
+                25285
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94187,
+            "splits": [
+                34310,
+                35377,
+                24500
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94282,
+            "splits": [
+                34335,
+                35877,
+                24070
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93660,
+            "splits": [
+                34247,
+                35420,
+                23992
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 92,
+    "sessionResult": {
+        "bestSplits": [
+            34247,
+            35420,
+            23992
+        ],
+        "bestlap": 93660,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Curtis",
+                            "lastName": "Adams",
+                            "playerId": "S76561198185701629",
+                            "shortName": "ADA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 808,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Curtis",
+                    "lastName": "Adams",
+                    "playerId": "S76561198185701629",
+                    "shortName": "ADA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 93660,
+                    "bestSplits": [
+                        34247,
+                        35420,
+                        23992
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 93660,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        34247,
+                        35420,
+                        23992
+                    ],
+                    "totalTime": 1232118334
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "valencia",
+    "serverName": "#SRAgg | 9 Hour Endurance | Qualification Server | SimRacingAlliance.com | #SRAQ",
+    "metaData": "custom_race:d5864936-cb72-4238-bd71-7f4a5f3fb74d",
+    "Date": "2023-07-01T18:07:32Z",
+    "SessionFile": "230701_180732_Q"
+}

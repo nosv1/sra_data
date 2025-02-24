@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 185535,
+            "splits": [
+                79372,
+                66560,
+                39602
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 144550,
+            "splits": [
+                41970,
+                64462,
+                38117
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 143980,
+            "splits": [
+                42557,
+                63887,
+                37535
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 144160,
+            "splits": [
+                42107,
+                64175,
+                37877
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            42107,
+            63887,
+            37535
+        ],
+        "bestlap": 143980,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "manny",
+                            "lastName": "florim",
+                            "playerId": "S76561199574633800",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 992,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "manny",
+                    "lastName": "florim",
+                    "playerId": "S76561199574633800",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 143980,
+                    "bestSplits": [
+                        42107,
+                        63887,
+                        37535
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 144160,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        42107,
+                        64175,
+                        37877
+                    ],
+                    "totalTime": 615161
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "spa",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-01-13T06:10:46Z",
+    "SessionFile": "240113_061046_Q"
+}

@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107510,
+            "splits": [
+                29872,
+                35620,
+                42017
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106407,
+            "splits": [
+                29892,
+                34602,
+                41912
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            29892,
+            34602,
+            41912
+        ],
+        "bestlap": 106407,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Trevor",
+                            "lastName": "Scales",
+                            "playerId": "S76561198224758332",
+                            "shortName": "CYA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 720,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Trevor",
+                    "lastName": "Scales",
+                    "playerId": "S76561198224758332",
+                    "shortName": "CYA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106407,
+                    "bestSplits": [
+                        29892,
+                        34602,
+                        41912
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 106407,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        29892,
+                        34602,
+                        41912
+                    ],
+                    "totalTime": 59503494
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-07-18T16:07:15Z",
+    "SessionFile": "240718_160715_FP"
+}

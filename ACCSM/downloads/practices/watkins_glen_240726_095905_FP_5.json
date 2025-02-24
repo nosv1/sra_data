@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117295,
+            "splits": [
+                33090,
+                38705,
+                45500
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116292,
+            "splits": [
+                32955,
+                38407,
+                44930
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115862,
+            "splits": [
+                32665,
+                38282,
+                44915
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115702,
+            "splits": [
+                32565,
+                38130,
+                45007
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            32565,
+            38130,
+            44915
+        ],
+        "bestlap": 115702,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 58,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "M",
+                            "lastName": "Missile",
+                            "playerId": "S76561198972658469",
+                            "shortName": "COB"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 443,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "M",
+                    "lastName": "Missile",
+                    "playerId": "S76561198972658469",
+                    "shortName": "COB"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115702,
+                    "bestSplits": [
+                        32565,
+                        38130,
+                        44915
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 115702,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        32565,
+                        38130,
+                        45007
+                    ],
+                    "totalTime": 93799466
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a5cd859c-a680-4044-b0c3-1483d308775a",
+    "Date": "2024-07-26T09:59:05Z",
+    "SessionFile": "240726_095905_FP"
+}

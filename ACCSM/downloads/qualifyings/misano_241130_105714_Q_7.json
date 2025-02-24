@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94612,
+            "splits": [
+                24082,
+                37257,
+                33272
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93960,
+            "splits": [
+                23720,
+                37147,
+                33092
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93740,
+            "splits": [
+                23712,
+                37072,
+                32955
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 180,
+    "sessionResult": {
+        "bestSplits": [
+            23712,
+            37072,
+            32955
+        ],
+        "bestlap": 93740,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Adam",
+                            "lastName": "Santana",
+                            "playerId": "S76561198025024079",
+                            "shortName": "SAN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Adam",
+                    "lastName": "Santana",
+                    "playerId": "S76561198025024079",
+                    "shortName": "SAN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 93740,
+                    "bestSplits": [
+                        23712,
+                        37072,
+                        32955
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 93740,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23712,
+                        37072,
+                        32955
+                    ],
+                    "totalTime": 946262479
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "misano",
+    "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+    "Date": "2024-11-30T10:57:14Z",
+    "SessionFile": "241130_105714_Q"
+}

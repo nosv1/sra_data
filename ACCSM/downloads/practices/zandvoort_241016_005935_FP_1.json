@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98060,
+            "splits": [
+                32067,
+                33805,
+                32187
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98002,
+            "splits": [
+                32535,
+                33425,
+                32042
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            32067,
+            33805,
+            32187
+        ],
+        "bestlap": 98060,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Andre",
+                            "lastName": "Lloyd",
+                            "playerId": "S76561199158437822",
+                            "shortName": "LLO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 332,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Andre",
+                    "lastName": "Lloyd",
+                    "playerId": "S76561199158437822",
+                    "shortName": "LLO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98060,
+                    "bestSplits": [
+                        32067,
+                        33805,
+                        32187
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 98002,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32535,
+                        33425,
+                        32042
+                    ],
+                    "totalTime": 4947166
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "zandvoort",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+    "Date": "2024-10-16T00:59:35Z",
+    "SessionFile": "241016_005935_FP"
+}

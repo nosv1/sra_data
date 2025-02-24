@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121915,
+            "splits": [
+                35995,
+                50887,
+                35032
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121612,
+            "splits": [
+                35990,
+                51472,
+                34150
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            35990,
+            51472,
+            34150
+        ],
+        "bestlap": 121612,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Ademir",
+                            "lastName": "Pereira",
+                            "playerId": "S76561199179605353",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 16,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ademir",
+                    "lastName": "Pereira",
+                    "playerId": "S76561199179605353",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121612,
+                    "bestSplits": [
+                        35990,
+                        51472,
+                        34150
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 121612,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35990,
+                        51472,
+                        34150
+                    ],
+                    "totalTime": 485024
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public Copy | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:214fdcbc-f30d-4ddb-8fca-54483ae62f90",
+    "Date": "2024-09-16T21:01:51Z",
+    "SessionFile": "240916_210151_Q"
+}

@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98322,
+            "splits": [
+                24972,
+                39130,
+                34220
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96550,
+            "splits": [
+                24335,
+                38215,
+                34000
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98957,
+            "splits": [
+                25037,
+                39097,
+                34822
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96767,
+            "splits": [
+                24200,
+                38220,
+                34347
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96930,
+            "splits": [
+                24397,
+                38302,
+                34230
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 38,
+    "sessionResult": {
+        "bestSplits": [
+            24200,
+            38215,
+            34000
+        ],
+        "bestlap": 96550,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Conor",
+                            "lastName": "Farrell",
+                            "playerId": "S76561198326393693",
+                            "shortName": "FAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 321,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Conor",
+                    "lastName": "Farrell",
+                    "playerId": "S76561198326393693",
+                    "shortName": "FAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96550,
+                    "bestSplits": [
+                        24200,
+                        38215,
+                        34000
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 96930,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        24397,
+                        38302,
+                        34230
+                    ],
+                    "totalTime": 191689922
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "misano",
+    "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+    "Date": "2024-12-02T23:18:50Z",
+    "SessionFile": "241202_231850_Q"
+}

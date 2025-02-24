@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107737,
+            "splits": [
+                30027,
+                35700,
+                42010
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108520,
+            "splits": [
+                30105,
+                36110,
+                42305
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 110465,
+            "splits": [
+                29892,
+                36255,
+                44317
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            30027,
+            35700,
+            42010
+        ],
+        "bestlap": 107737,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Rowdy",
+                            "lastName": "Burnz",
+                            "playerId": "S76561198127611429",
+                            "shortName": "BUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 51,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Rowdy",
+                    "lastName": "Burnz",
+                    "playerId": "S76561198127611429",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107737,
+                    "bestSplits": [
+                        30027,
+                        35700,
+                        42010
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 110465,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29892,
+                        36255,
+                        44317
+                    ],
+                    "totalTime": 31921375
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAggS12 | LIAW | DAY 4 RACE 1 PRACTICE | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:41300621-0533-40a1-b65a-83289bd37ace",
+    "Date": "2024-08-22T10:43:04Z",
+    "SessionFile": "240822_104304_FP"
+}

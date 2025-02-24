@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 136515,
+            "splits": [
+                42252,
+                66612,
+                27650
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126747,
+            "splits": [
+                43777,
+                55545,
+                27425
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123415,
+            "splits": [
+                42087,
+                55010,
+                26317
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123800,
+            "splits": [
+                41985,
+                54955,
+                26860
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            41985,
+            54955,
+            26860
+        ],
+        "bestlap": 123800,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Raf",
+                            "lastName": "CAB",
+                            "playerId": "S76561198032414613",
+                            "shortName": "RCC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 906,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Raf",
+                    "lastName": "CAB",
+                    "playerId": "S76561198032414613",
+                    "shortName": "RCC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123800,
+                    "bestSplits": [
+                        41985,
+                        54955,
+                        26860
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 123800,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41985,
+                        54955,
+                        26860
+                    ],
+                    "totalTime": 66085450
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+    "Date": "2024-12-11T18:06:46Z",
+    "SessionFile": "241211_180646_FP"
+}

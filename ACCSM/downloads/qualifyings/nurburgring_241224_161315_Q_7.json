@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120572,
+            "splits": [
+                57520,
+                45302,
+                17750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118857,
+            "splits": [
+                57382,
+                44312,
+                17162
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118797,
+            "splits": [
+                56497,
+                44850,
+                17450
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120870,
+            "splits": [
+                59077,
+                44070,
+                17722
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118300,
+            "splits": [
+                56672,
+                44175,
+                17452
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 29,
+    "sessionResult": {
+        "bestSplits": [
+            56497,
+            44175,
+            17162
+        ],
+        "bestlap": 118300,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Thomas",
+                            "lastName": "Acosta",
+                            "playerId": "S76561198880689719",
+                            "shortName": "TEA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 923,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Thomas",
+                    "lastName": "Acosta",
+                    "playerId": "S76561198880689719",
+                    "shortName": "TEA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 118300,
+                    "bestSplits": [
+                        56497,
+                        44175,
+                        17162
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 118300,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        56672,
+                        44175,
+                        17452
+                    ],
+                    "totalTime": 313413280
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2024-12-24T16:13:15Z",
+    "SessionFile": "241224_161315_Q"
+}

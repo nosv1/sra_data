@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115880,
+            "splits": [
+                32502,
+                32410,
+                50967
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115907,
+            "splits": [
+                32312,
+                32650,
+                50945
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116065,
+            "splits": [
+                32532,
+                32487,
+                51045
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            32312,
+            32410,
+            50945
+        ],
+        "bestlap": 115880,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jason",
+                            "lastName": "Powers",
+                            "playerId": "S76561199316757824",
+                            "shortName": "JPO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 77,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jason",
+                    "lastName": "Powers",
+                    "playerId": "S76561199316757824",
+                    "shortName": "JPO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115880,
+                    "bestSplits": [
+                        32312,
+                        32410,
+                        50945
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 116065,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32532,
+                        32487,
+                        51045
+                    ],
+                    "totalTime": 254836554
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+    "Date": "2025-02-01T11:02:39Z",
+    "SessionFile": "250201_110239_Q"
+}

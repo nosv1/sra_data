@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120282,
+            "splits": [
+                33492,
+                33032,
+                53757
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118582,
+            "splits": [
+                33127,
+                32867,
+                52587
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127277,
+            "splits": [
+                33920,
+                33017,
+                60340
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 44,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dave",
+                            "lastName": "Paccagnini",
+                            "playerId": "S76561198008466364",
+                            "shortName": "NBD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 904,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dave",
+                    "lastName": "Paccagnini",
+                    "playerId": "S76561198008466364",
+                    "shortName": "NBD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 127277,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        33920,
+                        33017,
+                        60340
+                    ],
+                    "totalTime": 865277542
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAgg | SRA ES Paul Ricard Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:01226152-0f29-4c1b-9bb6-ff8705842c33",
+    "Date": "2025-02-12T18:10:57Z",
+    "SessionFile": "250212_181057_Q"
+}

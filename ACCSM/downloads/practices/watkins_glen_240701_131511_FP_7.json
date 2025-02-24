@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127955,
+            "splits": [
+                35287,
+                42572,
+                50095
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126257,
+            "splits": [
+                35252,
+                41752,
+                49252
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125287,
+            "splits": [
+                35062,
+                41310,
+                48915
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 124640,
+            "splits": [
+                34580,
+                40730,
+                49330
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            35252,
+            41752,
+            49252
+        ],
+        "bestlap": 126257,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 27,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Cimron",
+                            "lastName": "Sutherland",
+                            "playerId": "S76561198320777171",
+                            "shortName": "SUT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cimron",
+                    "lastName": "Sutherland",
+                    "playerId": "S76561198320777171",
+                    "shortName": "SUT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 126257,
+                    "bestSplits": [
+                        35252,
+                        41752,
+                        49252
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 124640,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        34580,
+                        40730,
+                        49330
+                    ],
+                    "totalTime": 72367641
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+    "Date": "2024-07-01T13:15:11Z",
+    "SessionFile": "240701_131511_FP"
+}

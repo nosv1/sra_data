@@ -1,0 +1,142 @@
+{
+    "laps": [
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 569490,
+            "splits": [
+                194132,
+                178762,
+                196595
+            ]
+        },
+        {
+            "carId": 1006,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 501875,
+            "splits": [
+                173930,
+                156595,
+                171350
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 17,
+    "sessionResult": {
+        "bestSplits": [
+            173930,
+            156595,
+            171350
+        ],
+        "bestlap": 501875,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1006,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Rowdy",
+                            "lastName": "Burnz",
+                            "playerId": "S76561198127611429",
+                            "shortName": "BUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 51,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Rowdy",
+                    "lastName": "Burnz",
+                    "playerId": "S76561198127611429",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 501875,
+                    "bestSplits": [
+                        173930,
+                        156595,
+                        171350
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 501875,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        173930,
+                        156595,
+                        171350
+                    ],
+                    "totalTime": 176493369
+                }
+            },
+            {
+                "car": {
+                    "carId": 1004,
+                    "carModel": 61,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Grant",
+                            "lastName": "Cameron",
+                            "playerId": "S76561198370854057",
+                            "shortName": "GRC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 12,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Grant",
+                    "lastName": "Cameron",
+                    "playerId": "S76561198370854057",
+                    "shortName": "GRC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 569490,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        194132,
+                        178762,
+                        196595
+                    ],
+                    "totalTime": 175103415
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | SRA MCM 3 Hour Nordschleife Endurance Challenge Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:60f90cee-58d6-45b4-bf9d-5bb5c3ed051e",
+    "Date": "2024-11-07T14:21:24Z",
+    "SessionFile": "241107_142124_Q"
+}

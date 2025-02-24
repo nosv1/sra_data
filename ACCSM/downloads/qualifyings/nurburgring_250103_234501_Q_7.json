@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120650,
+            "splits": [
+                58565,
+                44535,
+                17550
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118022,
+            "splits": [
+                56510,
+                43962,
+                17550
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117502,
+            "splits": [
+                56272,
+                43775,
+                17455
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 133577,
+            "splits": [
+                56695,
+                59677,
+                17205
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 133,
+    "sessionResult": {
+        "bestSplits": [
+            56272,
+            43775,
+            17455
+        ],
+        "bestlap": 117502,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "JP",
+                            "lastName": "Johnston",
+                            "playerId": "S76561199683126618",
+                            "shortName": "JPJ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "JP",
+                    "lastName": "Johnston",
+                    "playerId": "S76561199683126618",
+                    "shortName": "JPJ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 117502,
+                    "bestSplits": [
+                        56272,
+                        43775,
+                        17455
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 133577,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        56695,
+                        59677,
+                        17205
+                    ],
+                    "totalTime": 1204813434
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2025-01-03T23:45:01Z",
+    "SessionFile": "250103_234501_Q"
+}

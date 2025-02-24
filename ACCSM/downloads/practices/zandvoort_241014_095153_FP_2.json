@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101395,
+            "splits": [
+                34912,
+                33890,
+                32592
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98490,
+            "splits": [
+                32265,
+                33785,
+                32440
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98795,
+            "splits": [
+                32100,
+                33867,
+                32827
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            32100,
+            33785,
+            32440
+        ],
+        "bestlap": 98490,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Ohlson",
+                            "playerId": "S76561197997356516",
+                            "shortName": "MEO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 937,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Ohlson",
+                    "playerId": "S76561197997356516",
+                    "shortName": "MEO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98490,
+                    "bestSplits": [
+                        32100,
+                        33785,
+                        32440
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 98795,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32100,
+                        33867,
+                        32827
+                    ],
+                    "totalTime": 114295119
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "zandvoort",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-10-14T09:51:53Z",
+    "SessionFile": "241014_095153_FP"
+}

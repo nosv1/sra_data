@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118267,
+            "splits": [
+                56375,
+                44222,
+                17670
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 18,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Derrick",
+                            "lastName": "Stack",
+                            "playerId": "S76561199103976955",
+                            "shortName": "DST"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 610,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Derrick",
+                    "lastName": "Stack",
+                    "playerId": "S76561199103976955",
+                    "shortName": "DST"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 118267,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        56375,
+                        44222,
+                        17670
+                    ],
+                    "totalTime": 223920162
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2024-12-23T15:17:18Z",
+    "SessionFile": "241223_151718_Q"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94825,
+            "splits": [
+                23870,
+                37795,
+                33160
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94535,
+            "splits": [
+                23785,
+                37457,
+                33292
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94477,
+            "splits": [
+                23632,
+                37695,
+                33150
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 129,
+    "sessionResult": {
+        "bestSplits": [
+            23632,
+            37457,
+            33150
+        ],
+        "bestlap": 94477,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Nicholas",
+                            "lastName": "Foley",
+                            "playerId": "S76561198146756940",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 232,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Nicholas",
+                    "lastName": "Foley",
+                    "playerId": "S76561198146756940",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 94477,
+                    "bestSplits": [
+                        23632,
+                        37457,
+                        33150
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 94477,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        23632,
+                        37695,
+                        33150
+                    ],
+                    "totalTime": 695178709
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "misano",
+    "serverName": "#SRAgg | SRA ES Misano Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:0420cf0c-1a09-4e4a-a88d-ffc81dfc82aa",
+    "Date": "2024-11-27T13:11:37Z",
+    "SessionFile": "241127_131137_Q"
+}

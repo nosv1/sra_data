@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 89405,
+            "splits": [
+                30407,
+                29575,
+                29422
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91370,
+            "splits": [
+                31952,
+                29715,
+                29702
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90215,
+            "splits": [
+                30292,
+                29460,
+                30462
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88922,
+            "splits": [
+                30142,
+                29290,
+                29490
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 14,
+    "sessionResult": {
+        "bestSplits": [
+            30142,
+            29290,
+            29422
+        ],
+        "bestlap": 88922,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Eric",
+                            "lastName": "Boardman",
+                            "playerId": "S76561199238518693",
+                            "shortName": "BOA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 34,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Eric",
+                    "lastName": "Boardman",
+                    "playerId": "S76561199238518693",
+                    "shortName": "BOA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 88922,
+                    "bestSplits": [
+                        30142,
+                        29290,
+                        29422
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 88922,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        30142,
+                        29290,
+                        29490
+                    ],
+                    "totalTime": 482276
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "zolder",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2025-01-20T21:49:58Z",
+    "SessionFile": "250120_214958_Q"
+}

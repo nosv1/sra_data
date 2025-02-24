@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 278876,
+            "splits": [
+                177073,
+                62787,
+                39015
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 143095,
+            "splits": [
+                41802,
+                62675,
+                38617
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141477,
+            "splits": [
+                41490,
+                62325,
+                37662
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            41490,
+            62325,
+            37662
+        ],
+        "bestlap": 141477,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Don",
+                            "lastName": "Sutton",
+                            "playerId": "S76561198012327067",
+                            "shortName": "SUT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 417,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Don",
+                    "lastName": "Sutton",
+                    "playerId": "S76561198012327067",
+                    "shortName": "SUT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 141477,
+                    "bestSplits": [
+                        41490,
+                        62325,
+                        37662
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 141477,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41490,
+                        62325,
+                        37662
+                    ],
+                    "totalTime": 444724
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "spa",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-01-23T22:46:47Z",
+    "SessionFile": "240123_224647_Q"
+}

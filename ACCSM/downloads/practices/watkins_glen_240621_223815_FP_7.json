@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 176247,
+            "splits": [
+                34695,
+                92327,
+                49225
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127342,
+            "splits": [
+                34950,
+                42377,
+                50015
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125182,
+            "splits": [
+                34542,
+                41732,
+                48907
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 15,
+    "sessionResult": {
+        "bestSplits": [
+            34542,
+            41732,
+            48907
+        ],
+        "bestlap": 125182,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 27,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Demir",
+                            "lastName": "Azra",
+                            "playerId": "S76561198906261613",
+                            "shortName": "DAZ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Demir",
+                    "lastName": "Azra",
+                    "playerId": "S76561198906261613",
+                    "shortName": "DAZ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 125182,
+                    "bestSplits": [
+                        34542,
+                        41732,
+                        48907
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 125182,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        34542,
+                        41732,
+                        48907
+                    ],
+                    "totalTime": 381355759
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "watkins_glen",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours at Watkins Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:5b9d1603-b07e-426b-84a5-6124f38c3710",
+    "Date": "2024-06-21T22:38:15Z",
+    "SessionFile": "240621_223815_FP"
+}

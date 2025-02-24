@@ -1,0 +1,153 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 363841,
+            "splits": [
+                245388,
+                74330,
+                44122
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 168901,
+            "splits": [
+                54633,
+                71147,
+                43120
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 161057,
+            "splits": [
+                46402,
+                72517,
+                42137
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            46402,
+            72517,
+            42137
+        ],
+        "bestlap": 161057,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeff",
+                            "lastName": "Wehmeyer",
+                            "playerId": "S76561198084767471",
+                            "shortName": "WEH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 21,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeff",
+                    "lastName": "Wehmeyer",
+                    "playerId": "S76561198084767471",
+                    "shortName": "WEH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 161057,
+                    "bestSplits": [
+                        46402,
+                        72517,
+                        42137
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 161057,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        46402,
+                        72517,
+                        42137
+                    ],
+                    "totalTime": 339481
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Kevin",
+                            "lastName": "Lang",
+                            "playerId": "S76561198320086399",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 111,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Kevin",
+                    "lastName": "Lang",
+                    "playerId": "S76561198320086399",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 168901,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        54633,
+                        71147,
+                        43120
+                    ],
+                    "totalTime": 429981
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "spa",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-03-25T20:58:05Z",
+    "SessionFile": "240325_205805_Q"
+}

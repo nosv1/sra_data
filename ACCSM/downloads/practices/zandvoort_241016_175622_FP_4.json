@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97460,
+            "splits": [
+                32017,
+                33417,
+                32025
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96547,
+            "splits": [
+                31707,
+                32980,
+                31860
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96447,
+            "splits": [
+                31467,
+                32967,
+                32012
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 28,
+    "sessionResult": {
+        "bestSplits": [
+            31467,
+            32967,
+            31860
+        ],
+        "bestlap": 96447,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Roy",
+                            "lastName": "Keay",
+                            "playerId": "S76561198018246823",
+                            "shortName": "RKY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 888,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Roy",
+                    "lastName": "Keay",
+                    "playerId": "S76561198018246823",
+                    "shortName": "RKY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96447,
+                    "bestSplits": [
+                        31467,
+                        32967,
+                        31860
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 96447,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        31467,
+                        32967,
+                        32012
+                    ],
+                    "totalTime": 156050627
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "zandvoort",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-10-16T17:56:22Z",
+    "SessionFile": "241016_175622_FP"
+}

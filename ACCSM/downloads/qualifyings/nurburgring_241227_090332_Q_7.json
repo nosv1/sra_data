@@ -1,0 +1,149 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117982,
+            "splits": [
+                56097,
+                44330,
+                17555
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117407,
+            "splits": [
+                56107,
+                43967,
+                17332
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117627,
+            "splits": [
+                55777,
+                43752,
+                18097
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 58,
+    "sessionResult": {
+        "bestSplits": [
+            55777,
+            43752,
+            17332
+        ],
+        "bestlap": 117407,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jacob",
+                            "lastName": "L.Charron",
+                            "playerId": "S76561198375527237",
+                            "shortName": "LEM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 724,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jacob",
+                    "lastName": "L.Charron",
+                    "playerId": "S76561198375527237",
+                    "shortName": "LEM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 117407,
+                    "bestSplits": [
+                        55777,
+                        43752,
+                        17332
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 117627,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        55777,
+                        43752,
+                        18097
+                    ],
+                    "totalTime": 546790651
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Julien",
+                            "lastName": "Bacon",
+                            "playerId": "S76561198106585027",
+                            "shortName": "JUB"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 582,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Julien",
+                    "lastName": "Bacon",
+                    "playerId": "S76561198106585027",
+                    "shortName": "JUB"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "nurburgring",
+    "serverName": "#SRAgg | SRA ES Nurburgring GP Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:e900d690-ea6f-4f68-9c74-ae533c21038f",
+    "Date": "2024-12-27T09:03:32Z",
+    "SessionFile": "241227_090332_Q"
+}
