@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 87865,
+            "splits": [
+                26487,
+                28447,
+                32930
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 82950,
+            "splits": [
+                21907,
+                28465,
+                32577
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 82597,
+            "splits": [
+                21825,
+                28380,
+                32392
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            21825,
+            28380,
+            32392
+        ],
+        "bestlap": 82597,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Louie",
+                            "playerId": "S76561197973248627",
+                            "shortName": "LOU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 918,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Louie",
+                    "playerId": "S76561197973248627",
+                    "shortName": "LOU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 82597,
+                    "bestSplits": [
+                        21825,
+                        28380,
+                        32392
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 82597,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        21825,
+                        28380,
+                        32392
+                    ],
+                    "totalTime": 68332817
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D1  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:b45ae983-f7a4-484f-8ef7-0c6123a99dd4",
+    "Date": "2024-09-10T17:35:44Z",
+    "SessionFile": "240910_173544_FP"
+}

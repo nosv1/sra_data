@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 91235,
+            "splits": [
+                27297,
+                29160,
+                34777
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Derrik",
+                            "lastName": "Schweppe",
+                            "playerId": "S76561199201001162",
+                            "shortName": "SCH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 515,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Derrik",
+                    "lastName": "Schweppe",
+                    "playerId": "S76561199201001162",
+                    "shortName": "SCH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 91235,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27297,
+                        29160,
+                        34777
+                    ],
+                    "totalTime": 2585218
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-09-05T00:18:27Z",
+    "SessionFile": "240905_001827_FP"
+}

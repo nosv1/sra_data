@@ -1,0 +1,171 @@
+{
+    "laps": [
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 142115,
+            "splits": [
+                29540,
+                54825,
+                57750
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141077,
+            "splits": [
+                29740,
+                54182,
+                57155
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139692,
+            "splits": [
+                29282,
+                53985,
+                56425
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139872,
+            "splits": [
+                29577,
+                54105,
+                56190
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139782,
+            "splits": [
+                29500,
+                54045,
+                56237
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            29282,
+            53985,
+            56237
+        ],
+        "bestlap": 139692,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Sam",
+                            "lastName": "Rauworth",
+                            "playerId": "S76561198177851193",
+                            "shortName": "SAM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 339,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sam",
+                    "lastName": "Rauworth",
+                    "playerId": "S76561198177851193",
+                    "shortName": "SAM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139692,
+                    "bestSplits": [
+                        29282,
+                        53985,
+                        56237
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 139782,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29500,
+                        54045,
+                        56237
+                    ],
+                    "totalTime": 58306116
+                }
+            },
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 31,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Thomas",
+                            "lastName": "Ma",
+                            "playerId": "S76561198050611549",
+                            "shortName": "FMA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 141,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Thomas",
+                    "lastName": "Ma",
+                    "playerId": "S76561198050611549",
+                    "shortName": "FMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-07-16T14:49:58Z",
+    "SessionFile": "240716_144958_FP"
+}

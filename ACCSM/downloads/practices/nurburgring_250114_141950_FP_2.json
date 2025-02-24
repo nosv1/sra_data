@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123762,
+            "splits": [
+                59117,
+                46425,
+                18220
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123490,
+            "splits": [
+                58837,
+                46227,
+                18425
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129205,
+            "splits": [
+                58547,
+                47510,
+                23147
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 173120,
+            "splits": [
+                103040,
+                46217,
+                23862
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            58837,
+            46227,
+            18425
+        ],
+        "bestlap": 123490,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Elliot",
+                            "lastName": "Levine",
+                            "playerId": "S76561198963613241",
+                            "shortName": "EJL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 142,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Elliot",
+                    "lastName": "Levine",
+                    "playerId": "S76561198963613241",
+                    "shortName": "EJL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123490,
+                    "bestSplits": [
+                        58837,
+                        46227,
+                        18425
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 173120,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        103040,
+                        46217,
+                        23862
+                    ],
+                    "totalTime": 56600288
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2025-01-14T14:19:50Z",
+    "SessionFile": "250114_141950_FP"
+}

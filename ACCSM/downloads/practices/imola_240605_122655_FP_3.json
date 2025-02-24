@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107227,
+            "splits": [
+                22782,
+                34455,
+                49990
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106635,
+            "splits": [
+                23020,
+                34020,
+                49595
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            22782,
+            34020,
+            49595
+        ],
+        "bestlap": 106635,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Gordon",
+                            "lastName": "Beverly Jr.",
+                            "playerId": "S76561198878161886",
+                            "shortName": "GTB"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 704,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Gordon",
+                    "lastName": "Beverly Jr.",
+                    "playerId": "S76561198878161886",
+                    "shortName": "GTB"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106635,
+                    "bestSplits": [
+                        22782,
+                        34020,
+                        49595
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 106635,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        23020,
+                        34020,
+                        49595
+                    ],
+                    "totalTime": 46281088
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-06-05T12:26:55Z",
+    "SessionFile": "240605_122655_FP"
+}

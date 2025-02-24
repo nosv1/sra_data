@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122485,
+            "splits": [
+                40847,
+                53802,
+                27835
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121065,
+            "splits": [
+                40857,
+                53505,
+                26702
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120850,
+            "splits": [
+                40435,
+                53740,
+                26675
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            40847,
+            53505,
+            26702
+        ],
+        "bestlap": 121065,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Matt",
+                            "lastName": "Leeman",
+                            "playerId": "S76561198168549962",
+                            "shortName": "LEE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 67,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Matt",
+                    "lastName": "Leeman",
+                    "playerId": "S76561198168549962",
+                    "shortName": "LEE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121065,
+                    "bestSplits": [
+                        40847,
+                        53505,
+                        26702
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 120850,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        40435,
+                        53740,
+                        26675
+                    ],
+                    "totalTime": 75343107
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D1  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:b45ae983-f7a4-484f-8ef7-0c6123a99dd4",
+    "Date": "2024-06-11T19:31:56Z",
+    "SessionFile": "240611_193156_FP"
+}

@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87725,
+            "splits": [
+                20347,
+                33967,
+                33410
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87900,
+            "splits": [
+                20227,
+                34300,
+                33372
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87285,
+            "splits": [
+                20285,
+                33897,
+                33102
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 87465,
+            "splits": [
+                20232,
+                33880,
+                33352
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 86665,
+            "splits": [
+                20125,
+                33825,
+                32715
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 20,
+    "sessionResult": {
+        "bestSplits": [
+            20125,
+            33825,
+            32715
+        ],
+        "bestlap": 86665,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Collin",
+                            "lastName": "Dunham",
+                            "playerId": "S76561197989466442",
+                            "shortName": "DUN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 444,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Collin",
+                    "lastName": "Dunham",
+                    "playerId": "S76561197989466442",
+                    "shortName": "DUN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 86665,
+                    "bestSplits": [
+                        20125,
+                        33825,
+                        32715
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 86665,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        20125,
+                        33825,
+                        32715
+                    ],
+                    "totalTime": 85607870
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-06-21T20:16:01Z",
+    "SessionFile": "240621_201601_FP"
+}

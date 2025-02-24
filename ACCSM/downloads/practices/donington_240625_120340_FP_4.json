@@ -1,0 +1,161 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101642,
+            "splits": [
+                24802,
+                41932,
+                34907
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92392,
+            "splits": [
+                21255,
+                36790,
+                34347
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91067,
+            "splits": [
+                20885,
+                35855,
+                34327
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90052,
+            "splits": [
+                20705,
+                35667,
+                33680
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91160,
+            "splits": [
+                20642,
+                36090,
+                34427
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90115,
+            "splits": [
+                20732,
+                35907,
+                33475
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 89460,
+            "splits": [
+                20420,
+                35180,
+                33860
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91067,
+            "splits": [
+                21167,
+                35652,
+                34247
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            20420,
+            35180,
+            33475
+        ],
+        "bestlap": 89460,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Sam",
+                            "lastName": "Rauworth",
+                            "playerId": "S76561198177851193",
+                            "shortName": "SAM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 339,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sam",
+                    "lastName": "Rauworth",
+                    "playerId": "S76561198177851193",
+                    "shortName": "SAM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 89460,
+                    "bestSplits": [
+                        20420,
+                        35180,
+                        33475
+                    ],
+                    "lapCount": 8,
+                    "lastLap": 91067,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        21167,
+                        35652,
+                        34247
+                    ],
+                    "totalTime": 48467574
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-06-25T12:03:40Z",
+    "SessionFile": "240625_120340_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126687,
+            "splits": [
+                39375,
+                59577,
+                27735
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125477,
+            "splits": [
+                39625,
+                58102,
+                27750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 170180,
+            "splits": [
+                39110,
+                95445,
+                35625
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 214982,
+            "splits": [
+                123882,
+                60635,
+                30465
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 20,
+    "sessionResult": {
+        "bestSplits": [
+            39625,
+            58102,
+            27750
+        ],
+        "bestlap": 125477,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 31,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alan",
+                            "lastName": "Leung",
+                            "playerId": "S76561197990533720",
+                            "shortName": "AKL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 555,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alan",
+                    "lastName": "Leung",
+                    "playerId": "S76561197990533720",
+                    "shortName": "AKL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 125477,
+                    "bestSplits": [
+                        39625,
+                        58102,
+                        27750
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 214982,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        123882,
+                        60635,
+                        30465
+                    ],
+                    "totalTime": 114038141
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2025-01-25T05:00:37Z",
+    "SessionFile": "250125_050037_FP"
+}

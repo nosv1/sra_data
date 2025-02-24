@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96682,
+            "splits": [
+                27985,
+                31130,
+                37567
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "marcel",
+                            "lastName": "tedder",
+                            "playerId": "S76561199203322805",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 73,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "marcel",
+                    "lastName": "tedder",
+                    "playerId": "S76561199203322805",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 96682,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27985,
+                        31130,
+                        37567
+                    ],
+                    "totalTime": 119092
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-09-06T22:55:38Z",
+    "SessionFile": "240906_225538_FP"
+}

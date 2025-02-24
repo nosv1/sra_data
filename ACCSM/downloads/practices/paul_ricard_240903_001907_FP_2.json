@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116517,
+            "splits": [
+                32232,
+                32600,
+                51685
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116355,
+            "splits": [
+                31900,
+                32545,
+                51910
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116130,
+            "splits": [
+                31880,
+                32517,
+                51732
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125610,
+            "splits": [
+                32390,
+                32925,
+                60295
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            31880,
+            32517,
+            51732
+        ],
+        "bestlap": 116130,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Wilder",
+                            "lastName": "Vargas",
+                            "playerId": "S76561198987216490",
+                            "shortName": "WLD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 319,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Wilder",
+                    "lastName": "Vargas",
+                    "playerId": "S76561198987216490",
+                    "shortName": "WLD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 116130,
+                    "bestSplits": [
+                        31880,
+                        32517,
+                        51732
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 125610,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32390,
+                        32925,
+                        60295
+                    ],
+                    "totalTime": 6178186
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-09-03T00:19:07Z",
+    "SessionFile": "240903_001907_FP"
+}

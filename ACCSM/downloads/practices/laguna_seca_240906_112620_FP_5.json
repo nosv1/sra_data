@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106305,
+            "splits": [
+                31672,
+                32665,
+                41967
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 100365,
+            "splits": [
+                30072,
+                33505,
+                36787
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97370,
+            "splits": [
+                25367,
+                32905,
+                39097
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94702,
+            "splits": [
+                24422,
+                32550,
+                37730
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 99967,
+            "splits": [
+                29892,
+                32895,
+                37180
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 19,
+    "sessionResult": {
+        "bestSplits": [
+            24422,
+            32550,
+            37730
+        ],
+        "bestlap": 94702,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 52,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Aidan",
+                            "lastName": "Burk",
+                            "playerId": "S76561198227553172",
+                            "shortName": "BRK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 100,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aidan",
+                    "lastName": "Burk",
+                    "playerId": "S76561198227553172",
+                    "shortName": "BRK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 94702,
+                    "bestSplits": [
+                        24422,
+                        32550,
+                        37730
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 99967,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29892,
+                        32895,
+                        37180
+                    ],
+                    "totalTime": 129055586
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-09-06T11:26:20Z",
+    "SessionFile": "240906_112620_FP"
+}

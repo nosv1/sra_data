@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 564672,
+            "splits": [
+                190425,
+                171240,
+                203007
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 542730,
+            "splits": [
+                187277,
+                170387,
+                185065
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 542887,
+            "splits": [
+                187670,
+                169740,
+                185477
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 540295,
+            "splits": [
+                186537,
+                169285,
+                184472
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            187670,
+            169740,
+            185477
+        ],
+        "bestlap": 542887,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 55,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Bryan",
+                            "lastName": "Anderson",
+                            "playerId": "S76561197993701529",
+                            "shortName": "AND"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 502,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bryan",
+                    "lastName": "Anderson",
+                    "playerId": "S76561197993701529",
+                    "shortName": "AND"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 542887,
+                    "bestSplits": [
+                        187670,
+                        169740,
+                        185477
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 540295,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        186537,
+                        169285,
+                        184472
+                    ],
+                    "totalTime": 112310703
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-07-12T06:57:33Z",
+    "SessionFile": "240712_065733_FP"
+}

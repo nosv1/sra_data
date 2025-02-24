@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 89630,
+            "splits": [
+                22605,
+                39292,
+                27732
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88895,
+            "splits": [
+                22477,
+                39092,
+                27325
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 88730,
+            "splits": [
+                22495,
+                38930,
+                27305
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            22477,
+            39092,
+            27325
+        ],
+        "bestlap": 88895,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Victor",
+                            "lastName": "Diaz",
+                            "playerId": "S76561198201062870",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 19,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Victor",
+                    "lastName": "Diaz",
+                    "playerId": "S76561198201062870",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 88895,
+                    "bestSplits": [
+                        22477,
+                        39092,
+                        27325
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 88730,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        22495,
+                        38930,
+                        27305
+                    ],
+                    "totalTime": 57934219
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+    "Date": "2024-08-25T21:08:07Z",
+    "SessionFile": "240825_210807_FP"
+}

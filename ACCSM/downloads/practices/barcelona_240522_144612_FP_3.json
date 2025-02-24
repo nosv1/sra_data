@@ -1,0 +1,252 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106155,
+            "splits": [
+                29855,
+                40845,
+                35455
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105935,
+            "splits": [
+                29722,
+                40560,
+                35652
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106120,
+            "splits": [
+                29865,
+                40867,
+                35387
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105597,
+            "splits": [
+                29802,
+                40592,
+                35202
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106755,
+            "splits": [
+                29987,
+                41232,
+                35535
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106300,
+            "splits": [
+                29782,
+                40845,
+                35672
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106382,
+            "splits": [
+                29940,
+                40757,
+                35685
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106405,
+            "splits": [
+                29612,
+                41037,
+                35755
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106052,
+            "splits": [
+                29755,
+                41097,
+                35200
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116555,
+            "splits": [
+                29955,
+                41162,
+                45437
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106292,
+            "splits": [
+                30017,
+                40470,
+                35805
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105467,
+            "splits": [
+                29730,
+                40427,
+                35310
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 34,
+    "sessionResult": {
+        "bestSplits": [
+            29612,
+            40427,
+            35202
+        ],
+        "bestlap": 105467,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Niko",
+                            "lastName": "Suave",
+                            "playerId": "S76561197994095192",
+                            "shortName": "NIK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Niko",
+                    "lastName": "Suave",
+                    "playerId": "S76561197994095192",
+                    "shortName": "NIK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105467,
+                    "bestSplits": [
+                        29722,
+                        40427,
+                        35202
+                    ],
+                    "lapCount": 7,
+                    "lastLap": 105467,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29730,
+                        40427,
+                        35310
+                    ],
+                    "totalTime": 152135229
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "JB",
+                            "lastName": "Ruzic",
+                            "playerId": "S76561198079681083",
+                            "shortName": "JRU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 133,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "JB",
+                    "lastName": "Ruzic",
+                    "playerId": "S76561198079681083",
+                    "shortName": "JRU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106120,
+                    "bestSplits": [
+                        29612,
+                        40757,
+                        35387
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 106405,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29612,
+                        41037,
+                        35755
+                    ],
+                    "totalTime": 151600972
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-05-22T14:46:12Z",
+    "SessionFile": "240522_144612_FP"
+}

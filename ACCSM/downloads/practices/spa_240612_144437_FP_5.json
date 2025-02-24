@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 143650,
+            "splits": [
+                42037,
+                63410,
+                38202
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140707,
+            "splits": [
+                41137,
+                62502,
+                37067
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140372,
+            "splits": [
+                40735,
+                62595,
+                37042
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140302,
+            "splits": [
+                40870,
+                62745,
+                36687
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            40735,
+            62502,
+            37042
+        ],
+        "bestlap": 140372,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alexander",
+                            "lastName": "Bermudez | TC8",
+                            "playerId": "S76561199061716908",
+                            "shortName": "ABG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 855,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alexander",
+                    "lastName": "Bermudez | TC8",
+                    "playerId": "S76561199061716908",
+                    "shortName": "ABG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 140372,
+                    "bestSplits": [
+                        40735,
+                        62502,
+                        37042
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 140302,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40870,
+                        62745,
+                        36687
+                    ],
+                    "totalTime": 54550381
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2024-06-12T14:44:37Z",
+    "SessionFile": "240612_144437_FP"
+}

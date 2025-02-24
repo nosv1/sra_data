@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 146792,
+            "splits": [
+                30665,
+                56367,
+                59760
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 144617,
+            "splits": [
+                30290,
+                56090,
+                58237
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 159092,
+            "splits": [
+                30312,
+                70935,
+                57845
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 143337,
+            "splits": [
+                29965,
+                55292,
+                58080
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 28,
+    "sessionResult": {
+        "bestSplits": [
+            29965,
+            55292,
+            58080
+        ],
+        "bestlap": 143337,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Conor",
+                            "lastName": "Farrell",
+                            "playerId": "S76561198326393693",
+                            "shortName": "FAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 83,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Conor",
+                    "lastName": "Farrell",
+                    "playerId": "S76561198326393693",
+                    "shortName": "FAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 143337,
+                    "bestSplits": [
+                        29965,
+                        55292,
+                        58080
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 143337,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        29965,
+                        55292,
+                        58080
+                    ],
+                    "totalTime": 172517854
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-07-14T00:16:30Z",
+    "SessionFile": "240714_001630_FP"
+}

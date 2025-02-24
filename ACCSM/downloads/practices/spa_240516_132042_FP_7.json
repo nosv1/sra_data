@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137495,
+            "splits": [
+                40480,
+                60580,
+                36435
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137335,
+            "splits": [
+                40450,
+                60635,
+                36250
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137390,
+            "splits": [
+                40400,
+                60685,
+                36305
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 69,
+    "sessionResult": {
+        "bestSplits": [
+            40400,
+            60580,
+            36250
+        ],
+        "bestlap": 137335,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Kyllian",
+                            "lastName": "Wailly",
+                            "playerId": "S76561198881142293",
+                            "shortName": "WAI"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 2,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Kyllian",
+                    "lastName": "Wailly",
+                    "playerId": "S76561198881142293",
+                    "shortName": "WAI"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 137335,
+                    "bestSplits": [
+                        40400,
+                        60580,
+                        36250
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 137390,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40400,
+                        60685,
+                        36305
+                    ],
+                    "totalTime": 790966887
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-16T13:20:42Z",
+    "SessionFile": "240516_132042_FP"
+}

@@ -1,0 +1,149 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105417,
+            "splits": [
+                22775,
+                33730,
+                48912
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105405,
+            "splits": [
+                22690,
+                33627,
+                49087
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104667,
+            "splits": [
+                22305,
+                33867,
+                48495
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106415,
+            "splits": [
+                23372,
+                34560,
+                48482
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104377,
+            "splits": [
+                22282,
+                33467,
+                48627
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104677,
+            "splits": [
+                22645,
+                33227,
+                48805
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 5
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            22282,
+            33467,
+            48495
+        ],
+        "bestlap": 104377,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alexandre",
+                            "lastName": "Giordano",
+                            "playerId": "S76561198032078878",
+                            "shortName": "ALG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 890,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alexandre",
+                    "lastName": "Giordano",
+                    "playerId": "S76561198032078878",
+                    "shortName": "ALG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104377,
+                    "bestSplits": [
+                        22282,
+                        33467,
+                        48495
+                    ],
+                    "lapCount": 6,
+                    "lastLap": 104677,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        22645,
+                        33227,
+                        48805
+                    ],
+                    "totalTime": 12585500
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-06-01T04:11:34Z",
+    "SessionFile": "240601_041134_FP"
+}

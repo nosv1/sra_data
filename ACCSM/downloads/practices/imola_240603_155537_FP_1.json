@@ -1,0 +1,208 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103792,
+            "splits": [
+                22315,
+                33315,
+                48162
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104615,
+            "splits": [
+                22185,
+                33880,
+                48550
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103947,
+            "splits": [
+                22342,
+                33472,
+                48132
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106005,
+            "splits": [
+                22750,
+                33920,
+                49335
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105810,
+            "splits": [
+                22305,
+                33980,
+                49525
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104415,
+            "splits": [
+                22277,
+                33350,
+                48787
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107400,
+            "splits": [
+                22045,
+                34202,
+                51152
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 119545,
+            "splits": [
+                35857,
+                34282,
+                49405
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            22185,
+            33315,
+            48162
+        ],
+        "bestlap": 103792,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Steph",
+                            "lastName": "Dutton",
+                            "playerId": "S76561198868142890",
+                            "shortName": "DUT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 810,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Steph",
+                    "lastName": "Dutton",
+                    "playerId": "S76561198868142890",
+                    "shortName": "DUT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 103792,
+                    "bestSplits": [
+                        22185,
+                        33315,
+                        48162
+                    ],
+                    "lapCount": 7,
+                    "lastLap": 107400,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        22045,
+                        34202,
+                        51152
+                    ],
+                    "totalTime": 76663326
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Gordon",
+                            "lastName": "Beverly Jr.",
+                            "playerId": "S76561198878161886",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 704,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Gordon",
+                    "lastName": "Beverly Jr.",
+                    "playerId": "S76561198878161886",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 119545,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        35857,
+                        34282,
+                        49405
+                    ],
+                    "totalTime": 77686554
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-06-03T15:55:37Z",
+    "SessionFile": "240603_155537_FP"
+}

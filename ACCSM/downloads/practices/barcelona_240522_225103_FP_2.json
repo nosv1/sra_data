@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1025,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105040,
+            "splits": [
+                29537,
+                40137,
+                35365
+            ]
+        },
+        {
+            "carId": 1025,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104827,
+            "splits": [
+                29347,
+                39980,
+                35500
+            ]
+        },
+        {
+            "carId": 1025,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106012,
+            "splits": [
+                29560,
+                41120,
+                35332
+            ]
+        },
+        {
+            "carId": 1025,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105135,
+            "splits": [
+                29700,
+                40252,
+                35182
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 31,
+    "sessionResult": {
+        "bestSplits": [
+            29560,
+            41120,
+            35332
+        ],
+        "bestlap": 106012,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1025,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Tyler",
+                            "lastName": "Matlock",
+                            "playerId": "S76561197996401615",
+                            "shortName": "MAT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 69,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tyler",
+                    "lastName": "Matlock",
+                    "playerId": "S76561197996401615",
+                    "shortName": "MAT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106012,
+                    "bestSplits": [
+                        29560,
+                        41120,
+                        35332
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 105135,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        29700,
+                        40252,
+                        35182
+                    ],
+                    "totalTime": 181231706
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-05-22T22:51:03Z",
+    "SessionFile": "240522_225103_FP"
+}

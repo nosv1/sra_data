@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 154182,
+            "splits": [
+                46260,
+                67015,
+                40907
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 154552,
+            "splits": [
+                45990,
+                67105,
+                41457
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 153532,
+            "splits": [
+                45710,
+                67302,
+                40520
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            45710,
+            67015,
+            40520
+        ],
+        "bestlap": 153532,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 51,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Sean",
+                            "lastName": "Leitch",
+                            "playerId": "S76561197998983811",
+                            "shortName": "SML"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 608,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sean",
+                    "lastName": "Leitch",
+                    "playerId": "S76561197998983811",
+                    "shortName": "SML"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 153532,
+                    "bestSplits": [
+                        45710,
+                        67015,
+                        40520
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 153532,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        45710,
+                        67302,
+                        40520
+                    ],
+                    "totalTime": 56675835
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-06-20T15:24:58Z",
+    "SessionFile": "240620_152458_FP"
+}

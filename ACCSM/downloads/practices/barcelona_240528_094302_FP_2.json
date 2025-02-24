@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108427,
+            "splits": [
+                30387,
+                41527,
+                36512
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108385,
+            "splits": [
+                30840,
+                41557,
+                35987
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107477,
+            "splits": [
+                30042,
+                40952,
+                36482
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105875,
+            "splits": [
+                29675,
+                40987,
+                35212
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            29675,
+            40987,
+            35212
+        ],
+        "bestlap": 105875,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Matt",
+                            "lastName": "Matasy",
+                            "playerId": "S76561199246261917",
+                            "shortName": "MRM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 228,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Matt",
+                    "lastName": "Matasy",
+                    "playerId": "S76561199246261917",
+                    "shortName": "MRM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105875,
+                    "bestSplits": [
+                        29675,
+                        40987,
+                        35212
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 105875,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29675,
+                        40987,
+                        35212
+                    ],
+                    "totalTime": 39837446
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-05-28T09:43:02Z",
+    "SessionFile": "240528_094302_FP"
+}

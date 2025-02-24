@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124532,
+            "splits": [
+                39112,
+                57852,
+                27567
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125060,
+            "splits": [
+                39120,
+                58175,
+                27765
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            39112,
+            57852,
+            27567
+        ],
+        "bestlap": 124532,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Amos",
+                            "lastName": "Movo",
+                            "playerId": "S76561198368453660",
+                            "shortName": "AMO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 518,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Amos",
+                    "lastName": "Movo",
+                    "playerId": "S76561198368453660",
+                    "shortName": "AMO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 124532,
+                    "bestSplits": [
+                        39112,
+                        57852,
+                        27567
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 125060,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        39120,
+                        58175,
+                        27765
+                    ],
+                    "totalTime": 11961315
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAgg | LIAW_FreePractice| R  | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:1aae9ca7-6054-4332-8140-7f8e09700e86",
+    "Date": "2024-11-28T20:30:45Z",
+    "SessionFile": "241128_203045_FP"
+}

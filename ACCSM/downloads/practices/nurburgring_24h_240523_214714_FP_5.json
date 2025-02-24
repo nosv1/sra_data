@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 553122,
+            "splits": [
+                191902,
+                173465,
+                187755
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 545530,
+            "splits": [
+                189440,
+                170802,
+                185287
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 546857,
+            "splits": [
+                189045,
+                171932,
+                185880
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 5,
+    "sessionResult": {
+        "bestSplits": [
+            189045,
+            170802,
+            185287
+        ],
+        "bestlap": 545530,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 50,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "ISAAC",
+                            "lastName": "MARCO",
+                            "playerId": "S76561198019605999",
+                            "shortName": "DAB"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 35,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "ISAAC",
+                    "lastName": "MARCO",
+                    "playerId": "S76561198019605999",
+                    "shortName": "DAB"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 545530,
+                    "bestSplits": [
+                        189045,
+                        170802,
+                        185287
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 546857,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        189045,
+                        171932,
+                        185880
+                    ],
+                    "totalTime": 82660688
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggSRA - Multiclass Mayhem - NEC Rd 1 Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:79ff4173-7b6a-4ce4-81de-eabd321f678b",
+    "Date": "2024-05-23T21:47:14Z",
+    "SessionFile": "240523_214714_FP"
+}

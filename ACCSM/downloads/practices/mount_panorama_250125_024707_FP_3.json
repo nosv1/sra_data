@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121410,
+            "splits": [
+                38122,
+                56335,
+                26952
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120665,
+            "splits": [
+                38105,
+                55675,
+                26885
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120070,
+            "splits": [
+                37922,
+                55375,
+                26772
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            37922,
+            55375,
+            26772
+        ],
+        "bestlap": 120070,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Omar",
+                            "lastName": "Escorcia",
+                            "playerId": "S76561198113325650",
+                            "shortName": "OEG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Omar",
+                    "lastName": "Escorcia",
+                    "playerId": "S76561198113325650",
+                    "shortName": "OEG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120070,
+                    "bestSplits": [
+                        37922,
+                        55375,
+                        26772
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 120070,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        37922,
+                        55375,
+                        26772
+                    ],
+                    "totalTime": 105854305
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2025-01-25T02:47:07Z",
+    "SessionFile": "250125_024707_FP"
+}

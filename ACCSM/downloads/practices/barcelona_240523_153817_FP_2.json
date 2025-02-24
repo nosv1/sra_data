@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106462,
+            "splits": [
+                29797,
+                41220,
+                35445
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106447,
+            "splits": [
+                29820,
+                41025,
+                35602
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105535,
+            "splits": [
+                29755,
+                40622,
+                35157
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105567,
+            "splits": [
+                29587,
+                40642,
+                35337
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            29587,
+            40622,
+            35157
+        ],
+        "bestlap": 105535,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Darren",
+                            "lastName": "Robichaud",
+                            "playerId": "S76561199232988903",
+                            "shortName": "DMR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 357,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Darren",
+                    "lastName": "Robichaud",
+                    "playerId": "S76561199232988903",
+                    "shortName": "DMR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105535,
+                    "bestSplits": [
+                        29587,
+                        40622,
+                        35157
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 105567,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29587,
+                        40642,
+                        35337
+                    ],
+                    "totalTime": 57720562
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-05-23T15:38:17Z",
+    "SessionFile": "240523_153817_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88180,
+            "splits": [
+                25905,
+                29177,
+                33097
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 84190,
+            "splits": [
+                21972,
+                29175,
+                33042
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 85820,
+            "splits": [
+                22295,
+                29455,
+                34070
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 83337,
+            "splits": [
+                21925,
+                28417,
+                32995
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            25905,
+            29177,
+            33097
+        ],
+        "bestlap": 88180,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Marco Vinicio",
+                            "lastName": "Vasquez Barrantes",
+                            "playerId": "S76561199031828153",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 519,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Marco Vinicio",
+                    "lastName": "Vasquez Barrantes",
+                    "playerId": "S76561199031828153",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 88180,
+                    "bestSplits": [
+                        25905,
+                        29177,
+                        33097
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 83337,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        21925,
+                        28417,
+                        32995
+                    ],
+                    "totalTime": 46637716
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-09-08T17:59:54Z",
+    "SessionFile": "240908_175954_FP"
+}

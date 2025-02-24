@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108802,
+            "splits": [
+                36777,
+                41235,
+                30790
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102960,
+            "splits": [
+                31575,
+                40877,
+                30507
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103627,
+            "splits": [
+                31342,
+                41290,
+                30995
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103092,
+            "splits": [
+                31597,
+                40972,
+                30522
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102525,
+            "splits": [
+                31100,
+                40857,
+                30567
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            31100,
+            40857,
+            30507
+        ],
+        "bestlap": 102525,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Sarver",
+                            "playerId": "S76561198102177223",
+                            "shortName": "SAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 717,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Sarver",
+                    "playerId": "S76561198102177223",
+                    "shortName": "SAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 102525,
+                    "bestSplits": [
+                        31100,
+                        40857,
+                        30507
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 102525,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        31100,
+                        40857,
+                        30567
+                    ],
+                    "totalTime": 50566433
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "kyalami",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:4c551af0-6c40-4523-973d-81e152227105",
+    "Date": "2024-10-29T12:40:43Z",
+    "SessionFile": "241029_124043_FP"
+}

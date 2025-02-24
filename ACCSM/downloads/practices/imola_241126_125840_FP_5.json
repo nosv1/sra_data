@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103257,
+            "splits": [
+                22147,
+                32917,
+                48192
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103287,
+            "splits": [
+                22142,
+                33112,
+                48032
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103387,
+            "splits": [
+                22052,
+                33262,
+                48072
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103700,
+            "splits": [
+                22190,
+                33302,
+                48207
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103745,
+            "splits": [
+                22190,
+                33140,
+                48415
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            22142,
+            32917,
+            48032
+        ],
+        "bestlap": 103257,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Amos",
+                            "lastName": "Movo",
+                            "playerId": "S76561198368453660",
+                            "shortName": "AMO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 518,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Amos",
+                    "lastName": "Movo",
+                    "playerId": "S76561198368453660",
+                    "shortName": "AMO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 103257,
+                    "bestSplits": [
+                        22142,
+                        32917,
+                        48032
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 103745,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22190,
+                        33140,
+                        48415
+                    ],
+                    "totalTime": 51460011
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAgg | LIAW_FreePractice| R  | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:1aae9ca7-6054-4332-8140-7f8e09700e86",
+    "Date": "2024-11-26T12:58:40Z",
+    "SessionFile": "241126_125840_FP"
+}

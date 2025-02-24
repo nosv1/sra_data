@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118652,
+            "splits": [
+                25252,
+                38032,
+                55367
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 16,
+    "sessionResult": {
+        "bestSplits": [
+            25252,
+            38032,
+            55367
+        ],
+        "bestlap": 118652,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 51,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Scott",
+                            "lastName": "Fischer",
+                            "playerId": "S76561199347073684",
+                            "shortName": "FYM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 68,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Scott",
+                    "lastName": "Fischer",
+                    "playerId": "S76561199347073684",
+                    "shortName": "FYM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 118652,
+                    "bestSplits": [
+                        25252,
+                        38032,
+                        55367
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 118652,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        25252,
+                        38032,
+                        55367
+                    ],
+                    "totalTime": 160049916
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-06-07T20:10:00Z",
+    "SessionFile": "240607_201000_FP"
+}

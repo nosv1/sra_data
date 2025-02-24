@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98070,
+            "splits": [
+                24730,
+                38487,
+                34852
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98435,
+            "splits": [
+                24302,
+                38277,
+                35855
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97502,
+            "splits": [
+                24570,
+                38537,
+                34395
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97627,
+            "splits": [
+                24892,
+                38355,
+                34380
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 67,
+    "sessionResult": {
+        "bestSplits": [
+            24570,
+            38355,
+            34380
+        ],
+        "bestlap": 97502,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Ryan",
+                            "lastName": "Clark",
+                            "playerId": "S76561199037484537",
+                            "shortName": "RDC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ryan",
+                    "lastName": "Clark",
+                    "playerId": "S76561199037484537",
+                    "shortName": "RDC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97502,
+                    "bestSplits": [
+                        24570,
+                        38355,
+                        34380
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 97627,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        24892,
+                        38355,
+                        34380
+                    ],
+                    "totalTime": 599444146
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "misano",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-12-26T11:43:27Z",
+    "SessionFile": "241226_114327_FP"
+}

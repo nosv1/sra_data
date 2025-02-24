@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 130027,
+            "splits": [
+                27290,
+                50645,
+                52092
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139532,
+            "splits": [
+                36192,
+                51395,
+                51945
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 129772,
+            "splits": [
+                27222,
+                50570,
+                51980
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 15,
+    "sessionResult": {
+        "bestSplits": [
+            27222,
+            50570,
+            51980
+        ],
+        "bestlap": 129772,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alexander",
+                            "lastName": "Bermudez | TC8",
+                            "playerId": "S76561199061716908",
+                            "shortName": "ABG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 855,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alexander",
+                    "lastName": "Bermudez | TC8",
+                    "playerId": "S76561199061716908",
+                    "shortName": "ABG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 129772,
+                    "bestSplits": [
+                        27222,
+                        50570,
+                        51980
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 129772,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27222,
+                        50570,
+                        51980
+                    ],
+                    "totalTime": 106493350
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a5cd859c-a680-4044-b0c3-1483d308775a",
+    "Date": "2024-07-15T22:17:10Z",
+    "SessionFile": "240715_221710_FP"
+}

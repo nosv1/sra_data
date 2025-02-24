@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 143672,
+            "splits": [
+                41777,
+                63677,
+                38217
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141867,
+            "splits": [
+                41270,
+                63147,
+                37450
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140632,
+            "splits": [
+                41457,
+                62145,
+                37030
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            41270,
+            62145,
+            37030
+        ],
+        "bestlap": 140632,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Tyler",
+                            "lastName": "Martin",
+                            "playerId": "S76561198020277641",
+                            "shortName": "MAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 716,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tyler",
+                    "lastName": "Martin",
+                    "playerId": "S76561198020277641",
+                    "shortName": "MAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 140632,
+                    "bestSplits": [
+                        41270,
+                        62145,
+                        37030
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 140632,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        41457,
+                        62145,
+                        37030
+                    ],
+                    "totalTime": 31668532
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2024-06-12T08:23:37Z",
+    "SessionFile": "240612_082337_FP"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 114077,
+            "splits": [
+                39225,
+                43172,
+                31680
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112852,
+            "splits": [
+                39072,
+                42482,
+                31297
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111890,
+            "splits": [
+                38645,
+                41430,
+                31815
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 10,
+    "sessionResult": {
+        "bestSplits": [
+            38645,
+            41430,
+            31297
+        ],
+        "bestlap": 111890,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 29,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Pellerin",
+                            "playerId": "S76561199074528657",
+                            "shortName": "SJP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 8,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Pellerin",
+                    "playerId": "S76561199074528657",
+                    "shortName": "SJP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 111890,
+                    "bestSplits": [
+                        38645,
+                        41430,
+                        31297
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 111890,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        38645,
+                        41430,
+                        31815
+                    ],
+                    "totalTime": 59251325
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-28T21:29:46Z",
+    "SessionFile": "240728_212946_FP"
+}

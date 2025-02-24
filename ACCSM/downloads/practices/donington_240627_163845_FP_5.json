@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115127,
+            "splits": [
+                25632,
+                44232,
+                45262
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112360,
+            "splits": [
+                25332,
+                44640,
+                42387
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117315,
+            "splits": [
+                26637,
+                45170,
+                45507
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            25332,
+            44232,
+            42387
+        ],
+        "bestlap": 112360,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 19,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "ari",
+                            "lastName": "roh",
+                            "playerId": "S76561199018275623",
+                            "shortName": "ROH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 535,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "ari",
+                    "lastName": "roh",
+                    "playerId": "S76561199018275623",
+                    "shortName": "ROH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 112360,
+                    "bestSplits": [
+                        25332,
+                        44232,
+                        42387
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 117315,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        26637,
+                        45170,
+                        45507
+                    ],
+                    "totalTime": 60993573
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-06-27T16:38:45Z",
+    "SessionFile": "240627_163845_FP"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130450,
+            "splits": [
+                42462,
+                59447,
+                28540
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126572,
+            "splits": [
+                39665,
+                58692,
+                28215
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128637,
+            "splits": [
+                39985,
+                58595,
+                30057
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 20,
+    "sessionResult": {
+        "bestSplits": [
+            39665,
+            58692,
+            28215
+        ],
+        "bestlap": 126572,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Arjun",
+                            "lastName": "Lakshmi Narasimhan",
+                            "playerId": "S76561198148647015",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 745,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Arjun",
+                    "lastName": "Lakshmi Narasimhan",
+                    "playerId": "S76561198148647015",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 126572,
+                    "bestSplits": [
+                        39665,
+                        58692,
+                        28215
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 128637,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        39985,
+                        58595,
+                        30057
+                    ],
+                    "totalTime": 96919571
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2025-01-23T02:30:51Z",
+    "SessionFile": "250123_023051_FP"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 115915,
+            "splits": [
+                24727,
+                43655,
+                47532
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102630,
+            "splits": [
+                25057,
+                45225,
+                32347
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103610,
+            "splits": [
+                25185,
+                46312,
+                32112
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Matt",
+                            "lastName": "Kirkland",
+                            "playerId": "S76561198026142034",
+                            "shortName": "MTK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 115,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Matt",
+                    "lastName": "Kirkland",
+                    "playerId": "S76561198026142034",
+                    "shortName": "MTK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 103610,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        25185,
+                        46312,
+                        32112
+                    ],
+                    "totalTime": 137962896
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-10-04T17:42:48Z",
+    "SessionFile": "241004_174248_FP"
+}

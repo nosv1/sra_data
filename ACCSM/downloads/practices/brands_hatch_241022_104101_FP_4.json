@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 89632,
+            "splits": [
+                32110,
+                21847,
+                35675
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 84757,
+            "splits": [
+                27670,
+                21765,
+                35322
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 84425,
+            "splits": [
+                27192,
+                21842,
+                35390
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 83652,
+            "splits": [
+                27185,
+                21550,
+                34917
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            27185,
+            21550,
+            34917
+        ],
+        "bestlap": 83652,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Richie",
+                            "lastName": "Wood",
+                            "playerId": "S76561199103471751",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 785,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Richie",
+                    "lastName": "Wood",
+                    "playerId": "S76561199103471751",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 83652,
+                    "bestSplits": [
+                        27185,
+                        21550,
+                        34917
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 83652,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27185,
+                        21550,
+                        34917
+                    ],
+                    "totalTime": 43452696
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-10-22T10:41:01Z",
+    "SessionFile": "241022_104101_FP"
+}

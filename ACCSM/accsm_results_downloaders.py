@@ -1,177 +1,113 @@
+import json
 import os
 import time
 from datetime import datetime, timezone
 
 import requests
-from bs4 import BeautifulSoup as bs4
-from bs4.element import Tag
-from pytz import timezone as pytz_timezone
 
 
-def download_file(url: str, filepath: os.path):
-    response = requests.get(url)
-    if response.status_code == 200:
-        with open(filepath, "wb") as f:
-            f.write(response.content)
-    return response.status_code
+def try_get_json(url: str, wait: int = 5):
+    total_waited = 0
+    while True:
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        elif response.status_code == 429:
+            print(
+                f"Rate limited. Waiting {wait} seconds (of {total_waited} seconds)..."
+            )
+            time.sleep(wait)
+            total_waited += wait
+        else:
+            raise Exception(f"Failed to download {url}")
 
 
 if __name__ == "__main__":
+    # https://wiki.emperorservers.com/assetto-corsa-competizione-server-manager/web-api
+    # API endpoints are rate limited to a maximum of 5 requests per 20 seconds. You will receive a "Too Many Requests" error if you exceed the limit. We recommend that you do not request data from the API more than twice per minute.
 
-    # as of 10/23/24, obv could just check to see if page returns 404
-    server_nums = [1, 2, 3, 4, 5, 6, 7, 8]
-    team_series_servers = {1, 2, 3, 4}
-    mcm_liaw_servers = {5, 6}  # multi-class madness and league in a week
-    endurance_series_servers = {7, 8}
-    max_pages = [359, 401, 324, 145, 130, 0, 143, 6]
-    drivers_to_find = ["Arct"]
-    start_date = datetime(2024, 8, 1).replace(tzinfo=pytz_timezone("US/Central"))
-    start_date = datetime.min.replace(tzinfo=pytz_timezone("US/Central"))
-    end_date = datetime(2024, 7, 24).replace(tzinfo=pytz_timezone("US/Central"))
-    end_date = datetime.now().replace(tzinfo=pytz_timezone("US/Central"))
-    tracks_to_find = {
-        "Kyalami",
-        "Misano",
-        "Suzuka",
-        "Watkins_Glen",
-    }
-    query = "S76561198279907335"
+    base_url = lambda server: f"https://accsm{server}.simracingalliance.com"
+    results_list_url = (
+        lambda server, page: f"{base_url(server)}/api/results/list.json?page={page}&sort=date"
+    )
+    results_file_url = (
+        lambda server, filename: f"{base_url(server)}/results/download/{filename}.json"
+    )
+    folder_from_session_type = lambda session_type: {
+        "FP": "practices",
+        "Q": "qualifyings",
+        "Q1": "qualifyings",
+        "Q2": "qualifyings",
+        "R": "races",
+        "R1": "races",
+        "R2": "races",
+        "R3": "races",
+    }.get(session_type, "unknown")
+    construct_filename = (
+        lambda session_type, track, accsm_file, server: f"{folder_from_session_type(session_type)}/{track}_{accsm_file}_{server}.json"
+    )
 
-    for server_num in server_nums:
-        page_num = 0
-        while True:
-            print(f"Server {server_num} - Page {page_num}")
+    current_dir = os.path.dirname(__file__)
+    downloads_dir = os.path.join(current_dir, "downloads")
 
-            # url template https://accsm3.simracingalliance.com/results?page=324
-            url = f"https://accsm{server_num}.simracingalliance.com/results?page={page_num}"
-            # url = f"https://accsm{server_num}.simracingalliance.com/results?page={page_num}&q={query}"
+    # listed out to allow for easy commenting out of servers
+    servers = [1, 2, 3, 4, 5, 6, 7]
 
-            ###  example row
-            # <tr class="row-link" data-href="/results/220918_222206_FP">
-            # <td>
-            #     Sun, 18 Sep 2022 22:22:06 UTC
-            # </td>
-            # <td>
-            #     Practice
-            # </td>
-            # <td>
-            #     Suzuka
-            # </td>
-            # <td>
-            #     <small>Kevin Unda</small>
-            # </td>
-            #  <td class="text-center">
-            # <a class="text-primary hover-button pl-1 pr-1" href="/results/download/220918_222206_FP.json"></a>
-            # </td>
-            ###
-            response = requests.get(url)
-            if response.status_code == 404:
-                print(f"Page {page_num} not found on server {server_num}")
+    for server in servers:
+        page = 0
+        num_pages = float("inf")
+        file_exists = False
+        while page < num_pages and not file_exists:
+            # "num_pages": 397,
+            # "current_page": 0,
+            # "sort_type": "date",
+            # "results": [ ... ]
+            results_list_json = try_get_json(results_list_url(server, page))
+            num_pages = results_list_json["num_pages"]
+            print(f"Server {server} - Page {page}/{num_pages}")
+
+            if not num_pages:
                 break
 
-            if response.status_code != 200:
-                print(f"Failed to retrieve page {page_num} from server {server_num}")
-                continue
-
-            soup = bs4(response.content, "html.parser")
-            table = soup.find("table")
-            if not table:
-                print(
-                    f"No table found on page {page_num} from server {server_num}",
+            for result in results_list_json["results"]:
+                # 'track' = 'valencia'
+                # 'session_type' = 'R'
+                # 'date' = '2025-02-19T22:40:20Z'
+                # 'results_json_url' = '/results/download/250219_224020_R.json'
+                # 'results_page_url' = '/results/250219_224020_R'
+                track = result["track"]
+                session_type = result["session_type"]
+                finish_time = datetime.fromisoformat(result["date"][:-1]).replace(
+                    tzinfo=timezone.utc
                 )
-                continue
+                accsm_file = result["results_page_url"].split("/")[-1]
 
-            rows = table.find_all("tr", class_="row-link")
-            existing_file_found = False
-            for row in rows:
-                if existing_file_found:
-                    # remember to comment or uncomment below too
+                date_is_before_s11 = finish_time < datetime(
+                    2024, 5, 15, tzinfo=timezone.utc
+                )
+                if session_type == "FP" and date_is_before_s11:
+                    print(f"Skipping {track} {session_type} {finish_time} - {server}")
+                    continue
+
+                filename = construct_filename(session_type, track, accsm_file, server)
+                path = os.path.join(downloads_dir, filename)
+                if os.path.exists(path):
+                    print(f"File {path} already exists... skipping {filename}")
                     # continue
+                    file_exists = True
                     break
 
-                row: Tag
-                cells: list[Tag] = row.find_all("td")
-                if len(cells) != 5:
-                    continue
+                # download the file
+                file_url = results_file_url(server, accsm_file)
+                results_file_json = try_get_json(file_url)
+                with open(path, "w") as f:
+                    json.dump(results_file_json, f, indent=4)
+                print(f"Downloaded {filename}")
+                pass
 
-                date = datetime.strptime(
-                    cells[0].text.strip(), "%a, %d %b %Y %H:%M:%S %Z"
-                ).replace(tzinfo=pytz_timezone("US/Eastern"))
-                session_type = str(cells[1].text.strip())
+            pass
 
-                if False:
-                    continue
+            page += 1
+        pass
 
-                elif not end_date >= date >= start_date:
-                    continue
-
-                # is team series
-                elif server_num in team_series_servers:
-                    # is not race or quali
-                    if session_type not in {"Race", "Qualifying", "Practice"}:
-                        continue
-
-                # is endurance series
-                elif server_num in endurance_series_servers:
-                    # is not race
-                    if session_type not in {"Race", "Qualifying", "Practice"}:
-                        continue
-
-                # is mcm or liaw series
-                elif server_num in mcm_liaw_servers:
-                    # is not race or quali
-                    if session_type not in {
-                        "Race",
-                        "Race 1",
-                        "Race 2",
-                        "Qualifying",
-                        "Practice",
-                    }:
-                        continue
-
-                download_link = row.find("a", href=True)
-                if not download_link:
-                    continue
-
-                track_name = cells[2].text.strip().replace(" ", "_")
-                if False and track_name not in tracks_to_find:
-                    continue
-
-                file_url = f"https://accsm{server_num}.simracingalliance.com{download_link['href']}"
-                file_name = download_link["href"].split("/")[-1].split(".json")[0]
-                download_dir = {
-                    "Race": "races",
-                    "Qualifying": "qualifyings",
-                    "Practice": "practices",
-                }
-                current_dir = os.path.dirname(__file__)
-                downloads_dir = os.path.join(current_dir, "downloads")
-                file_path = os.path.join(
-                    downloads_dir,
-                    download_dir[
-                        session_type.replace("Race 2", "Race").replace("Race 1", "Race")
-                    ],
-                    f"{track_name}_{file_name}_server{server_num}.json",
-                )  # "accsm/downloads/races|qualifyings|practices/track_name_file_name.json"
-
-                if os.path.exists(file_path):
-                    existing_file_found = True
-                    continue
-
-                wait = 1
-                while True:
-                    status_code = download_file(file_url, file_path)
-                    if status_code == 200:
-                        print(f"Downloaded {file_url} - {track_name}")
-                        break
-                    elif status_code == 429:
-                        print(f"Rate limited. Waiting {wait} seconds...")
-                        time.sleep(wait)
-                        wait *= 2
-                    else:
-                        raise Exception(f"Failed to download {file_url}")
-
-            if existing_file_found:
-                break
-
-            page_num += 1
+    pass

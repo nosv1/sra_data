@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 111680,
+            "splits": [
+                30827,
+                42217,
+                38635
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108255,
+            "splits": [
+                30330,
+                41177,
+                36747
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108567,
+            "splits": [
+                30815,
+                41700,
+                36052
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108965,
+            "splits": [
+                30455,
+                41385,
+                37125
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            30455,
+            41385,
+            36052
+        ],
+        "bestlap": 108567,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "Muntean",
+                            "playerId": "S76561198995380436",
+                            "shortName": "JRM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 787,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "Muntean",
+                    "playerId": "S76561198995380436",
+                    "shortName": "JRM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 108567,
+                    "bestSplits": [
+                        30455,
+                        41385,
+                        36052
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 108965,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        30455,
+                        41385,
+                        37125
+                    ],
+                    "totalTime": 1413782
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-05-29T00:00:11Z",
+    "SessionFile": "240529_000011_FP"
+}

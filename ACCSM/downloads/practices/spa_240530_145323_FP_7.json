@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138925,
+            "splits": [
+                40610,
+                62015,
+                36300
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138537,
+            "splits": [
+                40540,
+                61655,
+                36342
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137360,
+            "splits": [
+                40552,
+                60550,
+                36257
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 52,
+    "sessionResult": {
+        "bestSplits": [
+            40540,
+            60550,
+            36257
+        ],
+        "bestlap": 137360,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Jeffries",
+                            "playerId": "S76561197971724910",
+                            "shortName": "MTJ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 111,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Jeffries",
+                    "playerId": "S76561197971724910",
+                    "shortName": "MTJ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 137360,
+                    "bestSplits": [
+                        40540,
+                        60550,
+                        36257
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 137360,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40552,
+                        60550,
+                        36257
+                    ],
+                    "totalTime": 866566148
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-30T14:53:23Z",
+    "SessionFile": "240530_145323_FP"
+}

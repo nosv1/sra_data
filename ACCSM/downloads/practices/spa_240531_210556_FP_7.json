@@ -1,0 +1,139 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 138052,
+            "splits": [
+                40765,
+                61057,
+                36230
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138197,
+            "splits": [
+                40590,
+                61455,
+                36152
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137752,
+            "splits": [
+                40602,
+                61005,
+                36145
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137790,
+            "splits": [
+                40607,
+                60805,
+                36377
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137895,
+            "splits": [
+                40617,
+                60817,
+                36460
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137745,
+            "splits": [
+                40830,
+                60470,
+                36445
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 65,
+    "sessionResult": {
+        "bestSplits": [
+            40590,
+            60470,
+            36145
+        ],
+        "bestlap": 137745,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Daniel",
+                            "lastName": "Arsenault",
+                            "playerId": "S76561197966720273",
+                            "shortName": "GBZ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Daniel",
+                    "lastName": "Arsenault",
+                    "playerId": "S76561197966720273",
+                    "shortName": "GBZ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 137745,
+                    "bestSplits": [
+                        40590,
+                        60470,
+                        36145
+                    ],
+                    "lapCount": 6,
+                    "lastLap": 137745,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40830,
+                        60470,
+                        36445
+                    ],
+                    "totalTime": 974068451
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-31T21:05:56Z",
+    "SessionFile": "240531_210556_FP"
+}

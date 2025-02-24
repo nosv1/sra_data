@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 143262,
+            "splits": [
+                30185,
+                55345,
+                57732
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141322,
+            "splits": [
+                29677,
+                54632,
+                57012
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140925,
+            "splits": [
+                29380,
+                54610,
+                56935
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 146637,
+            "splits": [
+                30685,
+                55285,
+                60667
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 20,
+    "sessionResult": {
+        "bestSplits": [
+            29677,
+            54632,
+            57012
+        ],
+        "bestlap": 141322,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jon",
+                            "lastName": "Archie",
+                            "playerId": "S76561199045103328",
+                            "shortName": "ARC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 85,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jon",
+                    "lastName": "Archie",
+                    "playerId": "S76561199045103328",
+                    "shortName": "ARC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 141322,
+                    "bestSplits": [
+                        29677,
+                        54632,
+                        57012
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 146637,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        30685,
+                        55285,
+                        60667
+                    ],
+                    "totalTime": 56892134
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+    "Date": "2024-07-17T15:25:35Z",
+    "SessionFile": "240717_152535_FP"
+}

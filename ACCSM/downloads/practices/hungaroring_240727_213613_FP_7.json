@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112127,
+            "splits": [
+                39485,
+                41112,
+                31530
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112025,
+            "splits": [
+                39150,
+                41252,
+                31622
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112082,
+            "splits": [
+                38525,
+                42025,
+                31532
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111485,
+            "splits": [
+                38350,
+                41857,
+                31277
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112495,
+            "splits": [
+                39507,
+                41707,
+                31280
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 21,
+    "sessionResult": {
+        "bestSplits": [
+            38350,
+            41252,
+            31277
+        ],
+        "bestlap": 111485,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 26,
+                    "carGroup": "Cup",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jordan",
+                            "lastName": "Kimball",
+                            "playerId": "S76561198067871370",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 28,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jordan",
+                    "lastName": "Kimball",
+                    "playerId": "S76561198067871370",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 111485,
+                    "bestSplits": [
+                        38350,
+                        41252,
+                        31277
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 112495,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        39507,
+                        41707,
+                        31280
+                    ],
+                    "totalTime": 222140665
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-27T21:36:13Z",
+    "SessionFile": "240727_213613_FP"
+}

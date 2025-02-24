@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95755,
+            "splits": [
+                23432,
+                46205,
+                26117
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94102,
+            "splits": [
+                22795,
+                45775,
+                25532
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94122,
+            "splits": [
+                22822,
+                45642,
+                25657
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94527,
+            "splits": [
+                23212,
+                45642,
+                25672
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            23212,
+            45642,
+            25672
+        ],
+        "bestlap": 94527,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Zodi",
+                            "lastName": "Fade",
+                            "playerId": "S76561197970765951",
+                            "shortName": "ZOE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 70,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Zodi",
+                    "lastName": "Fade",
+                    "playerId": "S76561197970765951",
+                    "shortName": "ZOE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 94527,
+                    "bestSplits": [
+                        23212,
+                        45642,
+                        25672
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 94527,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23212,
+                        45642,
+                        25672
+                    ],
+                    "totalTime": 2884328
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "oulton_park",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2025-02-10T23:25:56Z",
+    "SessionFile": "250210_232556_FP"
+}

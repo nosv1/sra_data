@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138282,
+            "splits": [
+                28702,
+                53592,
+                55987
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139052,
+            "splits": [
+                29280,
+                53977,
+                55795
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138585,
+            "splits": [
+                28930,
+                54027,
+                55627
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 5,
+    "sessionResult": {
+        "bestSplits": [
+            28702,
+            53592,
+            55627
+        ],
+        "bestlap": 138282,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Bill",
+                            "lastName": "Cranston",
+                            "playerId": "S76561197979041868",
+                            "shortName": "CRA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 138,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bill",
+                    "lastName": "Cranston",
+                    "playerId": "S76561197979041868",
+                    "shortName": "CRA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 138282,
+                    "bestSplits": [
+                        28702,
+                        53592,
+                        55627
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 138585,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        28930,
+                        54027,
+                        55627
+                    ],
+                    "totalTime": 39798677
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+    "Date": "2024-07-16T09:54:38Z",
+    "SessionFile": "240716_095438_FP"
+}

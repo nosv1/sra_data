@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 88227,
+            "splits": [
+                20592,
+                34352,
+                33282
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 87662,
+            "splits": [
+                20265,
+                34172,
+                33225
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87635,
+            "splits": [
+                20317,
+                33852,
+                33465
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87150,
+            "splits": [
+                20212,
+                33972,
+                32965
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87090,
+            "splits": [
+                20197,
+                34077,
+                32815
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            20197,
+            33852,
+            32815
+        ],
+        "bestlap": 87090,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Andrew",
+                            "lastName": "Rados",
+                            "playerId": "S76561199000117308",
+                            "shortName": "RAD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 992,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Andrew",
+                    "lastName": "Rados",
+                    "playerId": "S76561199000117308",
+                    "shortName": "RAD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 87090,
+                    "bestSplits": [
+                        20197,
+                        33852,
+                        32815
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 87090,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        20197,
+                        34077,
+                        32815
+                    ],
+                    "totalTime": 108723324
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-06-22T02:43:32Z",
+    "SessionFile": "240622_024332_FP"
+}

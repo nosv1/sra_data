@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 142150,
+            "splits": [
+                41295,
+                63885,
+                36970
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140625,
+            "splits": [
+                41417,
+                62312,
+                36895
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140300,
+            "splits": [
+                41207,
+                62340,
+                36752
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 141,
+    "sessionResult": {
+        "bestSplits": [
+            41295,
+            62312,
+            36895
+        ],
+        "bestlap": 140625,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Nitin",
+                            "lastName": "Murthy",
+                            "playerId": "S76561198156677863",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 95,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Nitin",
+                    "lastName": "Murthy",
+                    "playerId": "S76561198156677863",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 140625,
+                    "bestSplits": [
+                        41295,
+                        62312,
+                        36895
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 140300,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41207,
+                        62340,
+                        36752
+                    ],
+                    "totalTime": 1504772176
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-06-07T00:10:13Z",
+    "SessionFile": "240607_001013_FP"
+}

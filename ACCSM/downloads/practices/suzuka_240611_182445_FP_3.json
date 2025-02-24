@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127435,
+            "splits": [
+                45382,
+                54955,
+                27097
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126202,
+            "splits": [
+                41605,
+                55757,
+                28840
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123835,
+            "splits": [
+                41797,
+                54950,
+                27087
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124410,
+            "splits": [
+                41667,
+                54992,
+                27750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125857,
+            "splits": [
+                42420,
+                55342,
+                28095
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            41667,
+            54950,
+            27087
+        ],
+        "bestlap": 123835,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Ramon",
+                            "lastName": "Lorenzo",
+                            "playerId": "S76561198337911093",
+                            "shortName": "RLL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 162,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ramon",
+                    "lastName": "Lorenzo",
+                    "playerId": "S76561198337911093",
+                    "shortName": "RLL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123835,
+                    "bestSplits": [
+                        41667,
+                        54950,
+                        27087
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 125857,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        42420,
+                        55342,
+                        28095
+                    ],
+                    "totalTime": 13373025
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-06-11T18:24:45Z",
+    "SessionFile": "240611_182445_FP"
+}

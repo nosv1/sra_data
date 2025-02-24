@@ -1,0 +1,149 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97152,
+            "splits": [
+                24100,
+                42472,
+                30580
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96562,
+            "splits": [
+                23875,
+                42180,
+                30507
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96250,
+            "splits": [
+                23930,
+                41970,
+                30350
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 36,
+    "sessionResult": {
+        "bestSplits": [
+            23930,
+            41970,
+            30350
+        ],
+        "bestlap": 96250,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Anton",
+                            "lastName": "Rushevich",
+                            "playerId": "S76561198312326880",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 581,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Anton",
+                    "lastName": "Rushevich",
+                    "playerId": "S76561198312326880",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96250,
+                    "bestSplits": [
+                        23930,
+                        41970,
+                        30350
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 96250,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        23930,
+                        41970,
+                        30350
+                    ],
+                    "totalTime": 156177582
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Cleveland",
+                            "lastName": "Leatherwood",
+                            "playerId": "S76561198114792814",
+                            "shortName": "LEA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 294,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cleveland",
+                    "lastName": "Leatherwood",
+                    "playerId": "S76561198114792814",
+                    "shortName": "LEA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-10-09T17:59:42Z",
+    "SessionFile": "241009_175942_FP"
+}

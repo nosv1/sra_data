@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 130215,
+            "splits": [
+                27175,
+                49962,
+                53077
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 129025,
+            "splits": [
+                27077,
+                49937,
+                52010
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129762,
+            "splits": [
+                27117,
+                50367,
+                52277
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            27077,
+            49937,
+            52010
+        ],
+        "bestlap": 129025,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Donovan",
+                            "lastName": "Colton",
+                            "playerId": "S76561198170883294",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 272,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Donovan",
+                    "lastName": "Colton",
+                    "playerId": "S76561198170883294",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 129025,
+                    "bestSplits": [
+                        27077,
+                        49937,
+                        52010
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 129762,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27117,
+                        50367,
+                        52277
+                    ],
+                    "totalTime": 4146254
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+    "Date": "2024-07-17T00:46:51Z",
+    "SessionFile": "240717_004651_FP"
+}

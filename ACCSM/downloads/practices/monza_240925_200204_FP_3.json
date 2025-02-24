@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112575,
+            "splits": [
+                35942,
+                39665,
+                36967
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112040,
+            "splits": [
+                35927,
+                39330,
+                36782
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112475,
+            "splits": [
+                36042,
+                39760,
+                36672
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            35927,
+            39330,
+            36672
+        ],
+        "bestlap": 112040,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Cleveland",
+                            "lastName": "Leatherwood",
+                            "playerId": "S76561198114792814",
+                            "shortName": "LEA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 294,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cleveland",
+                    "lastName": "Leatherwood",
+                    "playerId": "S76561198114792814",
+                    "shortName": "LEA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 112040,
+                    "bestSplits": [
+                        35927,
+                        39330,
+                        36672
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 112475,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        36042,
+                        39760,
+                        36672
+                    ],
+                    "totalTime": 73579974
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-09-25T20:02:04Z",
+    "SessionFile": "240925_200204_FP"
+}

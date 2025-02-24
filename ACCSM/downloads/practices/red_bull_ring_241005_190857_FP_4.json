@@ -1,0 +1,164 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103032,
+            "splits": [
+                30682,
+                42137,
+                30212
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105832,
+            "splits": [
+                32262,
+                42690,
+                30880
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107225,
+            "splits": [
+                30825,
+                45760,
+                30640
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108407,
+            "splits": [
+                32395,
+                43015,
+                32997
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            30682,
+            42137,
+            30212
+        ],
+        "bestlap": 103032,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dick",
+                            "lastName": "Zipperburn Jr.",
+                            "playerId": "S76561199223122338",
+                            "shortName": "ZIP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 393,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dick",
+                    "lastName": "Zipperburn Jr.",
+                    "playerId": "S76561199223122338",
+                    "shortName": "ZIP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 103032,
+                    "bestSplits": [
+                        30682,
+                        42137,
+                        30212
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 107225,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        30825,
+                        45760,
+                        30640
+                    ],
+                    "totalTime": 229500370
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Austin",
+                            "lastName": "Townsend",
+                            "playerId": "S76561199446213190",
+                            "shortName": "TWN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 210,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Austin",
+                    "lastName": "Townsend",
+                    "playerId": "S76561199446213190",
+                    "shortName": "TWN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105832,
+                    "bestSplits": [
+                        32262,
+                        42690,
+                        30880
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 108407,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32395,
+                        43015,
+                        32997
+                    ],
+                    "totalTime": 229476530
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-10-05T19:08:57Z",
+    "SessionFile": "241005_190857_FP"
+}

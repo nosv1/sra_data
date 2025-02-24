@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 559040,
+            "splits": [
+                182340,
+                166030,
+                210670
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 528372,
+            "splits": [
+                180660,
+                164757,
+                182955
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 10,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Edgar",
+                            "lastName": "Herr",
+                            "playerId": "S76561198322424093",
+                            "shortName": "HER"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 662,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Edgar",
+                    "lastName": "Herr",
+                    "playerId": "S76561198322424093",
+                    "shortName": "HER"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 528372,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        180660,
+                        164757,
+                        182955
+                    ],
+                    "totalTime": 230216263
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-07-08T16:40:27Z",
+    "SessionFile": "240708_164027_FP"
+}

@@ -1,0 +1,149 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124775,
+            "splits": [
+                39080,
+                57905,
+                27790
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125622,
+            "splits": [
+                39347,
+                57902,
+                28372
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125552,
+            "splits": [
+                39527,
+                58075,
+                27950
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 22,
+    "sessionResult": {
+        "bestSplits": [
+            39080,
+            57902,
+            27790
+        ],
+        "bestlap": 124775,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Shane",
+                            "lastName": "Lewis",
+                            "playerId": "S76561199276751968",
+                            "shortName": "SRL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 211,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Shane",
+                    "lastName": "Lewis",
+                    "playerId": "S76561199276751968",
+                    "shortName": "SRL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 124775,
+                    "bestSplits": [
+                        39080,
+                        57902,
+                        27790
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 125552,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        39527,
+                        58075,
+                        27950
+                    ],
+                    "totalTime": 262236906
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "MaC",
+                            "lastName": "S",
+                            "playerId": "S76561198010730102",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 965,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "MaC",
+                    "lastName": "S",
+                    "playerId": "S76561198010730102",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2025-02-02T00:29:37Z",
+    "SessionFile": "250202_002937_FP"
+}

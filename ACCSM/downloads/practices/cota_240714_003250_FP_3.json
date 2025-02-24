@@ -1,0 +1,153 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 155467,
+            "splits": [
+                41260,
+                55520,
+                58687
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 142825,
+            "splits": [
+                30077,
+                55397,
+                57350
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 144035,
+            "splits": [
+                30632,
+                55985,
+                57417
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 65,
+    "sessionResult": {
+        "bestSplits": [
+            30077,
+            55397,
+            57350
+        ],
+        "bestlap": 142825,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Cory",
+                            "lastName": "Mummery",
+                            "playerId": "S76561199034629328",
+                            "shortName": "MUM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 428,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cory",
+                    "lastName": "Mummery",
+                    "playerId": "S76561199034629328",
+                    "shortName": "MUM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 142825,
+                    "bestSplits": [
+                        30077,
+                        55397,
+                        57350
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 142825,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        30077,
+                        55397,
+                        57350
+                    ],
+                    "totalTime": 173182680
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Panzo",
+                            "lastName": "Rigatoni",
+                            "playerId": "S76561199054650605",
+                            "shortName": "RIG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 97,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Panzo",
+                    "lastName": "Rigatoni",
+                    "playerId": "S76561199054650605",
+                    "shortName": "RIG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 144035,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        30632,
+                        55985,
+                        57417
+                    ],
+                    "totalTime": 173513777
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-14T00:32:50Z",
+    "SessionFile": "240714_003250_FP"
+}

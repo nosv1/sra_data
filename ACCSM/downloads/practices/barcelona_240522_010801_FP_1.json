@@ -1,0 +1,160 @@
+{
+    "laps": [
+        {
+            "carId": 1024,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106327,
+            "splits": [
+                30060,
+                41167,
+                35100
+            ]
+        },
+        {
+            "carId": 1024,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104862,
+            "splits": [
+                29425,
+                40562,
+                34875
+            ]
+        },
+        {
+            "carId": 1024,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105622,
+            "splits": [
+                29480,
+                40680,
+                35462
+            ]
+        },
+        {
+            "carId": 1024,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105057,
+            "splits": [
+                29427,
+                40520,
+                35110
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 17,
+    "sessionResult": {
+        "bestSplits": [
+            29425,
+            40520,
+            34875
+        ],
+        "bestlap": 104862,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1024,
+                    "carModel": 6,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Darren",
+                            "lastName": "Wicks",
+                            "playerId": "S76561199009439288",
+                            "shortName": "WIX"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 378,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Darren",
+                    "lastName": "Wicks",
+                    "playerId": "S76561199009439288",
+                    "shortName": "WIX"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104862,
+                    "bestSplits": [
+                        29425,
+                        40520,
+                        34875
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 105057,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29427,
+                        40520,
+                        35110
+                    ],
+                    "totalTime": 102897737
+                }
+            },
+            {
+                "car": {
+                    "carId": 1017,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dean",
+                            "lastName": "Stefani",
+                            "playerId": "S76561198068000942",
+                            "shortName": "DEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 877,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dean",
+                    "lastName": "Stefani",
+                    "playerId": "S76561198068000942",
+                    "shortName": "DEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-05-22T01:08:01Z",
+    "SessionFile": "240522_010801_FP"
+}

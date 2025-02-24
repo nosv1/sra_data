@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 124237,
+            "splits": [
+                41625,
+                55067,
+                27545
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125910,
+            "splits": [
+                41927,
+                55790,
+                28192
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124570,
+            "splits": [
+                41675,
+                54925,
+                27970
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123637,
+            "splits": [
+                41392,
+                54732,
+                27512
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123682,
+            "splits": [
+                41720,
+                54655,
+                27307
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 32,
+    "sessionResult": {
+        "bestSplits": [
+            41392,
+            54655,
+            27307
+        ],
+        "bestlap": 123637,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Brett",
+                            "lastName": "Swift",
+                            "playerId": "S76561198311768474",
+                            "shortName": "SWI"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 996,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Brett",
+                    "lastName": "Swift",
+                    "playerId": "S76561198311768474",
+                    "shortName": "SWI"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123637,
+                    "bestSplits": [
+                        41392,
+                        54655,
+                        27307
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 123682,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        41720,
+                        54655,
+                        27307
+                    ],
+                    "totalTime": 190352482
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-06-08T15:52:04Z",
+    "SessionFile": "240608_155204_FP"
+}

@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105750,
+            "splits": [
+                22022,
+                33632,
+                50095
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Dutton",
+                            "playerId": "S76561198868142890",
+                            "shortName": "DUT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 810,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Dutton",
+                    "playerId": "S76561198868142890",
+                    "shortName": "DUT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 105750,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        22022,
+                        33632,
+                        50095
+                    ],
+                    "totalTime": 47578297
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-06-05T12:55:04Z",
+    "SessionFile": "240605_125504_FP"
+}

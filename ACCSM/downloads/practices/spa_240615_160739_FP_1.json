@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140797,
+            "splits": [
+                41145,
+                62417,
+                37235
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139065,
+            "splits": [
+                40742,
+                61162,
+                37160
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139805,
+            "splits": [
+                41000,
+                61890,
+                36915
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139812,
+            "splits": [
+                40725,
+                61907,
+                37180
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            40742,
+            61162,
+            37160
+        ],
+        "bestlap": 139065,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Bill",
+                            "lastName": "Cranston",
+                            "playerId": "S76561197979041868",
+                            "shortName": "CRA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 138,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bill",
+                    "lastName": "Cranston",
+                    "playerId": "S76561197979041868",
+                    "shortName": "CRA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139065,
+                    "bestSplits": [
+                        40742,
+                        61162,
+                        37160
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 139812,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40725,
+                        61907,
+                        37180
+                    ],
+                    "totalTime": 93182936
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-06-15T16:07:39Z",
+    "SessionFile": "240615_160739_FP"
+}

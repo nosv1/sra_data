@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108397,
+            "splits": [
+                35377,
+                37987,
+                35032
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 251802,
+            "splits": [
+                35542,
+                180697,
+                35562
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107735,
+            "splits": [
+                35170,
+                37695,
+                34870
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108292,
+            "splits": [
+                35405,
+                38032,
+                34855
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106575,
+            "splits": [
+                35035,
+                36790,
+                34750
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            35170,
+            37695,
+            34855
+        ],
+        "bestlap": 107735,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jorintas",
+                            "lastName": "Butkus",
+                            "playerId": "S76561197989389913",
+                            "shortName": "BUT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 22,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jorintas",
+                    "lastName": "Butkus",
+                    "playerId": "S76561197989389913",
+                    "shortName": "BUT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107735,
+                    "bestSplits": [
+                        35170,
+                        37695,
+                        34855
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 106575,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        35035,
+                        36790,
+                        34750
+                    ],
+                    "totalTime": 46525824
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-09-19T12:31:11Z",
+    "SessionFile": "240919_123111_FP"
+}

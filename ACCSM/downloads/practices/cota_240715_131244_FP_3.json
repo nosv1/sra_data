@@ -1,0 +1,237 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 136345,
+            "splits": [
+                28562,
+                53085,
+                54697
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 135652,
+            "splits": [
+                28127,
+                52930,
+                54595
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134620,
+            "splits": [
+                27947,
+                52722,
+                53950
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 133922,
+            "splits": [
+                27857,
+                52090,
+                53975
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 167947,
+            "splits": [
+                27895,
+                77535,
+                62517
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134875,
+            "splits": [
+                28047,
+                52070,
+                54757
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134815,
+            "splits": [
+                28137,
+                52300,
+                54377
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135322,
+            "splits": [
+                27955,
+                52722,
+                54645
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134532,
+            "splits": [
+                27827,
+                52187,
+                54517
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 133977,
+            "splits": [
+                27805,
+                52300,
+                53872
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134660,
+            "splits": [
+                27700,
+                52672,
+                54287
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134712,
+            "splits": [
+                27912,
+                52832,
+                53967
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 133935,
+            "splits": [
+                27807,
+                52232,
+                53895
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 133585,
+            "splits": [
+                27825,
+                51790,
+                53970
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 13
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 86,
+    "sessionResult": {
+        "bestSplits": [
+            27805,
+            51790,
+            53872
+        ],
+        "bestlap": 133585,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Landon",
+                            "lastName": "Drebes",
+                            "playerId": "S76561198272388895",
+                            "shortName": "LSD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 350,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Landon",
+                    "lastName": "Drebes",
+                    "playerId": "S76561198272388895",
+                    "shortName": "LSD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 133585,
+                    "bestSplits": [
+                        27805,
+                        51790,
+                        53872
+                    ],
+                    "lapCount": 14,
+                    "lastLap": 133585,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27825,
+                        51790,
+                        53970
+                    ],
+                    "totalTime": 305361979
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-15T13:12:44Z",
+    "SessionFile": "240715_131244_FP"
+}

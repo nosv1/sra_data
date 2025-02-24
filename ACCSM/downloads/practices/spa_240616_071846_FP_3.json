@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140395,
+            "splits": [
+                40830,
+                62992,
+                36572
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139180,
+            "splits": [
+                40797,
+                61582,
+                36800
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139230,
+            "splits": [
+                40747,
+                61612,
+                36870
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139675,
+            "splits": [
+                40650,
+                62507,
+                36517
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 27,
+    "sessionResult": {
+        "bestSplits": [
+            40797,
+            61582,
+            36572
+        ],
+        "bestlap": 139180,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "JB",
+                            "lastName": "Ruzic",
+                            "playerId": "S76561198079681083",
+                            "shortName": "JRU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 804,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "JB",
+                    "lastName": "Ruzic",
+                    "playerId": "S76561198079681083",
+                    "shortName": "JRU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139180,
+                    "bestSplits": [
+                        40797,
+                        61582,
+                        36572
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 139675,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40650,
+                        62507,
+                        36517
+                    ],
+                    "totalTime": 147654278
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-06-16T07:18:46Z",
+    "SessionFile": "240616_071846_FP"
+}

@@ -1,0 +1,138 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121767,
+            "splits": [
+                40925,
+                54085,
+                26757
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121587,
+            "splits": [
+                40560,
+                54130,
+                26897
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            40560,
+            54130,
+            26897
+        ],
+        "bestlap": 121587,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Matt",
+                            "lastName": "Schmitzer",
+                            "playerId": "S76561199402712430",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 88,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Matt",
+                    "lastName": "Schmitzer",
+                    "playerId": "S76561199402712430",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121587,
+                    "bestSplits": [
+                        40560,
+                        54130,
+                        26897
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 121587,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40560,
+                        54130,
+                        26897
+                    ],
+                    "totalTime": 17482404
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 6,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jacob",
+                            "lastName": "Palmieri",
+                            "playerId": "S76561198142182892",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 23,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jacob",
+                    "lastName": "Palmieri",
+                    "playerId": "S76561198142182892",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-12-05T19:26:47Z",
+    "SessionFile": "241205_192647_FP"
+}

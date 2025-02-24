@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123155,
+            "splits": [
+                42012,
+                54262,
+                26880
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123780,
+            "splits": [
+                42175,
+                54380,
+                27225
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121775,
+            "splits": [
+                40932,
+                54067,
+                26775
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 15,
+    "sessionResult": {
+        "bestSplits": [
+            40932,
+            54067,
+            26775
+        ],
+        "bestlap": 121775,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Luis Daniel",
+                            "lastName": "Velez",
+                            "playerId": "S76561198033985931",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 37,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Luis Daniel",
+                    "lastName": "Velez",
+                    "playerId": "S76561198033985931",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121775,
+                    "bestSplits": [
+                        40932,
+                        54067,
+                        26775
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 121775,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40932,
+                        54067,
+                        26775
+                    ],
+                    "totalTime": 84386127
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-06-07T10:24:51Z",
+    "SessionFile": "240607_102451_FP"
+}

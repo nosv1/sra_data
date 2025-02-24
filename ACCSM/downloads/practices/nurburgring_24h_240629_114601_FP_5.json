@@ -1,0 +1,138 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 513232,
+            "splits": [
+                175095,
+                160662,
+                177475
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 516065,
+            "splits": [
+                175790,
+                160610,
+                179665
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            175095,
+            160610,
+            177475
+        ],
+        "bestlap": 513232,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Edward",
+                            "lastName": "Ryan",
+                            "playerId": "S76561199479169325",
+                            "shortName": "ERY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 961,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Edward",
+                    "lastName": "Ryan",
+                    "playerId": "S76561199479169325",
+                    "shortName": "ERY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 513232,
+                    "bestSplits": [
+                        175095,
+                        160610,
+                        177475
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 516065,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        175790,
+                        160610,
+                        179665
+                    ],
+                    "totalTime": 39444830
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Austin",
+                            "lastName": "Townsend",
+                            "playerId": "S76561199446213190",
+                            "shortName": "TWN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 210,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Austin",
+                    "lastName": "Townsend",
+                    "playerId": "S76561199446213190",
+                    "shortName": "TWN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-06-29T11:46:01Z",
+    "SessionFile": "240629_114601_FP"
+}

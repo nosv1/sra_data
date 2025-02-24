@@ -1,0 +1,127 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 504352,
+            "splits": [
+                173172,
+                157290,
+                173890
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 45,
+    "sessionResult": {
+        "bestSplits": [
+            173172,
+            157290,
+            173890
+        ],
+        "bestlap": 504352,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Nate",
+                            "lastName": "Andreu",
+                            "playerId": "S76561197991795591",
+                            "shortName": "AND"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 654,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Nate",
+                    "lastName": "Andreu",
+                    "playerId": "S76561197991795591",
+                    "shortName": "AND"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 504352,
+                    "bestSplits": [
+                        173172,
+                        157290,
+                        173890
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 504352,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        173172,
+                        157290,
+                        173890
+                    ],
+                    "totalTime": 328347375
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dieveem",
+                            "lastName": "Galindo",
+                            "playerId": "S76561199422692767",
+                            "shortName": "DNG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 324,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dieveem",
+                    "lastName": "Galindo",
+                    "playerId": "S76561199422692767",
+                    "shortName": "DNG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-07T18:48:27Z",
+    "SessionFile": "240707_184827_FP"
+}

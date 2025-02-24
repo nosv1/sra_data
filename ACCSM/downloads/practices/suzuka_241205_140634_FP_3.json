@@ -1,0 +1,164 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120730,
+            "splits": [
+                40302,
+                53602,
+                26825
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123520,
+            "splits": [
+                41650,
+                54740,
+                27130
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120365,
+            "splits": [
+                40082,
+                53407,
+                26875
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 119772,
+            "splits": [
+                40075,
+                53220,
+                26477
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            40075,
+            53220,
+            26477
+        ],
+        "bestlap": 119772,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dominic",
+                            "lastName": "Duran",
+                            "playerId": "S76561199075879890",
+                            "shortName": "DCD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 52,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dominic",
+                    "lastName": "Duran",
+                    "playerId": "S76561199075879890",
+                    "shortName": "DCD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 119772,
+                    "bestSplits": [
+                        40075,
+                        53220,
+                        26477
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 119772,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40075,
+                        53220,
+                        26477
+                    ],
+                    "totalTime": 11112791
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Luke",
+                            "lastName": "Oosthuizen",
+                            "playerId": "S76561198236053988",
+                            "shortName": "LOS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 21,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Luke",
+                    "lastName": "Oosthuizen",
+                    "playerId": "S76561198236053988",
+                    "shortName": "LOS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123520,
+                    "bestSplits": [
+                        41650,
+                        54740,
+                        27130
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 123520,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41650,
+                        54740,
+                        27130
+                    ],
+                    "totalTime": 10989846
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-12-05T14:06:34Z",
+    "SessionFile": "241205_140634_FP"
+}

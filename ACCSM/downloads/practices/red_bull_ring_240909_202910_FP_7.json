@@ -1,0 +1,208 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92822,
+            "splits": [
+                22617,
+                39802,
+                30402
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 91132,
+            "splits": [
+                22767,
+                40547,
+                27817
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101580,
+            "splits": [
+                22527,
+                51387,
+                27665
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94077,
+            "splits": [
+                23997,
+                40747,
+                29332
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92322,
+            "splits": [
+                23677,
+                40440,
+                28205
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 109737,
+            "splits": [
+                28680,
+                41495,
+                39562
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90142,
+            "splits": [
+                22642,
+                39835,
+                27665
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90202,
+            "splits": [
+                22727,
+                39350,
+                28125
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 13,
+    "sessionResult": {
+        "bestSplits": [
+            22642,
+            39350,
+            27665
+        ],
+        "bestlap": 90142,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alessandro",
+                            "lastName": "Mancini",
+                            "playerId": "S76561198271929582",
+                            "shortName": "ADM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 63,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alessandro",
+                    "lastName": "Mancini",
+                    "playerId": "S76561198271929582",
+                    "shortName": "ADM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 90142,
+                    "bestSplits": [
+                        22642,
+                        39350,
+                        27665
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 90202,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        22727,
+                        39350,
+                        28125
+                    ],
+                    "totalTime": 141964501
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Mazeski",
+                            "playerId": "S76561198071833290",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 7,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Mazeski",
+                    "playerId": "S76561198071833290",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 92322,
+                    "bestSplits": [
+                        23677,
+                        40440,
+                        28205
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 109737,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        28680,
+                        41495,
+                        39562
+                    ],
+                    "totalTime": 141789074
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+    "Date": "2024-09-09T20:29:10Z",
+    "SessionFile": "240909_202910_FP"
+}

@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92785,
+            "splits": [
+                21122,
+                36732,
+                34930
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90837,
+            "splits": [
+                20757,
+                35477,
+                34602
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90945,
+            "splits": [
+                20827,
+                35567,
+                34550
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98325,
+            "splits": [
+                21120,
+                41862,
+                35342
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92130,
+            "splits": [
+                21162,
+                36275,
+                34692
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            20757,
+            35477,
+            34550
+        ],
+        "bestlap": 90837,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Matt",
+                            "lastName": "Moon",
+                            "playerId": "S76561197960784860",
+                            "shortName": "MMC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 908,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Matt",
+                    "lastName": "Moon",
+                    "playerId": "S76561197960784860",
+                    "shortName": "MMC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 90837,
+                    "bestSplits": [
+                        20757,
+                        35477,
+                        34550
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 92130,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        21162,
+                        36275,
+                        34692
+                    ],
+                    "totalTime": 65363906
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-06-21T14:32:03Z",
+    "SessionFile": "240621_143203_FP"
+}

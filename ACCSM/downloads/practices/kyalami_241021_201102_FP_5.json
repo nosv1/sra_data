@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 124952,
+            "splits": [
+                43000,
+                47367,
+                34585
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 53,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stefan",
+                            "lastName": "Buckley",
+                            "playerId": "S76561199060751681",
+                            "shortName": "SOB"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stefan",
+                    "lastName": "Buckley",
+                    "playerId": "S76561199060751681",
+                    "shortName": "SOB"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 124952,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        43000,
+                        47367,
+                        34585
+                    ],
+                    "totalTime": 243340260
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "kyalami",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-10-21T20:11:02Z",
+    "SessionFile": "241021_201102_FP"
+}

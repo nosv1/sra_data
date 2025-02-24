@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106062,
+            "splits": [
+                26025,
+                51370,
+                28667
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107895,
+            "splits": [
+                25955,
+                50747,
+                31192
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 61,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeff",
+                            "lastName": "Colombaro",
+                            "playerId": "S76561199163762736",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 22,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeff",
+                    "lastName": "Colombaro",
+                    "playerId": "S76561199163762736",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 107895,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        25955,
+                        50747,
+                        31192
+                    ],
+                    "totalTime": 157486854
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "oulton_park",
+    "serverName": "#SRAggOulton Park | SimRacingAlliance.com | #SRAM5",
+    "metaData": "championship-pre-practice",
+    "Date": "2024-08-15T19:07:25Z",
+    "SessionFile": "240815_190725_FP"
+}

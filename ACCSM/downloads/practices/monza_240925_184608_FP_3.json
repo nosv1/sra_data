@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110017,
+            "splits": [
+                35750,
+                38215,
+                36052
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 111275,
+            "splits": [
+                35507,
+                38922,
+                36845
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109992,
+            "splits": [
+                35675,
+                38582,
+                35735
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 5,
+    "sessionResult": {
+        "bestSplits": [
+            35675,
+            38215,
+            35735
+        ],
+        "bestlap": 109992,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Ohlson",
+                            "playerId": "S76561197997356516",
+                            "shortName": "MOH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 937,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Ohlson",
+                    "playerId": "S76561197997356516",
+                    "shortName": "MOH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 109992,
+                    "bestSplits": [
+                        35675,
+                        38215,
+                        35735
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 109992,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        35675,
+                        38582,
+                        35735
+                    ],
+                    "totalTime": 69023417
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-09-25T18:46:08Z",
+    "SessionFile": "240925_184608_FP"
+}

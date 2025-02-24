@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 147555,
+            "splits": [
+                42770,
+                65012,
+                39772
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 145937,
+            "splits": [
+                42647,
+                63805,
+                39485
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 146805,
+            "splits": [
+                42372,
+                64852,
+                39580
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 108,
+    "sessionResult": {
+        "bestSplits": [
+            42647,
+            63805,
+            39485
+        ],
+        "bestlap": 145937,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Gordon",
+                            "lastName": "Beverly Jr.",
+                            "playerId": "S76561198878161886",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 704,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Gordon",
+                    "lastName": "Beverly Jr.",
+                    "playerId": "S76561198878161886",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 145937,
+                    "bestSplits": [
+                        42647,
+                        63805,
+                        39485
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 146805,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        42372,
+                        64852,
+                        39580
+                    ],
+                    "totalTime": 1105518362
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-20T04:43:03Z",
+    "SessionFile": "240520_044303_FP"
+}

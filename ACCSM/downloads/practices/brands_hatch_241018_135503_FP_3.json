@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92845,
+            "splits": [
+                33285,
+                22925,
+                36635
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87367,
+            "splits": [
+                28260,
+                22585,
+                36522
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87047,
+            "splits": [
+                28165,
+                22642,
+                36240
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 86707,
+            "splits": [
+                28115,
+                22445,
+                36147
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 86432,
+            "splits": [
+                27892,
+                22877,
+                35662
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 26,
+    "sessionResult": {
+        "bestSplits": [
+            27892,
+            22445,
+            35662
+        ],
+        "bestlap": 86432,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stephanie",
+                            "lastName": "Fisher",
+                            "playerId": "S76561198043166282",
+                            "shortName": "SEF"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 311,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephanie",
+                    "lastName": "Fisher",
+                    "playerId": "S76561198043166282",
+                    "shortName": "SEF"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 86432,
+                    "bestSplits": [
+                        27892,
+                        22445,
+                        35662
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 86432,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27892,
+                        22877,
+                        35662
+                    ],
+                    "totalTime": 137988032
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-10-18T13:55:03Z",
+    "SessionFile": "241018_135503_FP"
+}

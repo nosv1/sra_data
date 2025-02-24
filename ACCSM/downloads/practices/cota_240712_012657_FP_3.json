@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 138835,
+            "splits": [
+                29030,
+                53860,
+                55945
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139245,
+            "splits": [
+                28840,
+                53925,
+                56480
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 138855,
+            "splits": [
+                28882,
+                53935,
+                56037
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138552,
+            "splits": [
+                28887,
+                53627,
+                56037
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            28887,
+            53627,
+            56037
+        ],
+        "bestlap": 138552,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Joel",
+                            "lastName": "Moffatt",
+                            "playerId": "S76561197960416683",
+                            "shortName": "MOF"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 64,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joel",
+                    "lastName": "Moffatt",
+                    "playerId": "S76561197960416683",
+                    "shortName": "MOF"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 138552,
+                    "bestSplits": [
+                        28887,
+                        53627,
+                        56037
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 138552,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        28887,
+                        53627,
+                        56037
+                    ],
+                    "totalTime": 3978645
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-12T01:26:57Z",
+    "SessionFile": "240712_012657_FP"
+}

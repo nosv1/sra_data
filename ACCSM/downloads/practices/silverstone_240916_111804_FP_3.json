@@ -1,0 +1,193 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118502,
+            "splits": [
+                35165,
+                49912,
+                33425
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117892,
+            "splits": [
+                35057,
+                49455,
+                33380
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118052,
+            "splits": [
+                35050,
+                49702,
+                33300
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118310,
+            "splits": [
+                35275,
+                49580,
+                33455
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117515,
+            "splits": [
+                34845,
+                49462,
+                33207
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117672,
+            "splits": [
+                34990,
+                49445,
+                33237
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118107,
+            "splits": [
+                34887,
+                49512,
+                33707
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117830,
+            "splits": [
+                35095,
+                49332,
+                33402
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117315,
+            "splits": [
+                34670,
+                49367,
+                33277
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117620,
+            "splits": [
+                34910,
+                49480,
+                33230
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 9
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            34670,
+            49367,
+            33230
+        ],
+        "bestlap": 117315,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Andrew",
+                            "lastName": "Riffe",
+                            "playerId": "S76561198075372619",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 79,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Andrew",
+                    "lastName": "Riffe",
+                    "playerId": "S76561198075372619",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 117315,
+                    "bestSplits": [
+                        34670,
+                        49367,
+                        33230
+                    ],
+                    "lapCount": 10,
+                    "lastLap": 117620,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        34910,
+                        49480,
+                        33230
+                    ],
+                    "totalTime": 7061948
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "silverstone",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-09-16T11:18:04Z",
+    "SessionFile": "240916_111804_FP"
+}

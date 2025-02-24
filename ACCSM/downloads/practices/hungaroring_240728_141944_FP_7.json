@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111340,
+            "splits": [
+                38607,
+                41047,
+                31685
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111377,
+            "splits": [
+                38782,
+                41140,
+                31455
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            38607,
+            41047,
+            31455
+        ],
+        "bestlap": 111340,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 29,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Robert",
+                            "lastName": "Lacy",
+                            "playerId": "S76561197995657485",
+                            "shortName": "LAC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 32,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Robert",
+                    "lastName": "Lacy",
+                    "playerId": "S76561197995657485",
+                    "shortName": "LAC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 111340,
+                    "bestSplits": [
+                        38607,
+                        41047,
+                        31455
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 111377,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        38782,
+                        41140,
+                        31455
+                    ],
+                    "totalTime": 33498936
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-28T14:19:44Z",
+    "SessionFile": "240728_141944_FP"
+}

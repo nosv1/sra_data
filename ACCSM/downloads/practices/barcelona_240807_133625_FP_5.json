@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 119255,
+            "splits": [
+                32727,
+                47607,
+                38920
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117190,
+            "splits": [
+                33372,
+                44885,
+                38932
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116942,
+            "splits": [
+                32997,
+                45327,
+                38617
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            32997,
+            44885,
+            38617
+        ],
+        "bestlap": 116942,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 61,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeff",
+                            "lastName": "Colombaro",
+                            "playerId": "S76561199163762736",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 88,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeff",
+                    "lastName": "Colombaro",
+                    "playerId": "S76561199163762736",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 116942,
+                    "bestSplits": [
+                        32997,
+                        44885,
+                        38617
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 116942,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        32997,
+                        45327,
+                        38617
+                    ],
+                    "totalTime": 73496949
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggSRA - MCM Exhibition - Barcelona Race 1 | SimRacingAlliance.com | #SRAM5",
+    "metaData": "championship-pre-practice",
+    "Date": "2024-08-07T13:36:25Z",
+    "SessionFile": "240807_133625_FP"
+}

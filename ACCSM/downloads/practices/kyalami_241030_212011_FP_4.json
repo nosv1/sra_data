@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 109285,
+            "splits": [
+                36507,
+                42182,
+                30595
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102555,
+            "splits": [
+                31042,
+                41120,
+                30392
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101567,
+            "splits": [
+                31017,
+                40460,
+                30090
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 34,
+    "sessionResult": {
+        "bestSplits": [
+            31017,
+            40460,
+            30090
+        ],
+        "bestlap": 101567,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jacob",
+                            "lastName": "Palmieri",
+                            "playerId": "S76561198142182892",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 434,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jacob",
+                    "lastName": "Palmieri",
+                    "playerId": "S76561198142182892",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101567,
+                    "bestSplits": [
+                        31017,
+                        40460,
+                        30090
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 101567,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        31017,
+                        40460,
+                        30090
+                    ],
+                    "totalTime": 168291730
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "kyalami",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-10-30T21:20:11Z",
+    "SessionFile": "241030_212011_FP"
+}

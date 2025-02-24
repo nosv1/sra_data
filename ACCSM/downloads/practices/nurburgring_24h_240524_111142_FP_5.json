@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 506862,
+            "splits": [
+                173445,
+                157032,
+                176385
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 501515,
+            "splits": [
+                173140,
+                156840,
+                171535
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 15,
+    "sessionResult": {
+        "bestSplits": [
+            173140,
+            156840,
+            171535
+        ],
+        "bestlap": 501515,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Al",
+                            "lastName": "Lotufo",
+                            "playerId": "S76561197965864959",
+                            "shortName": "LOT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 4,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Al",
+                    "lastName": "Lotufo",
+                    "playerId": "S76561197965864959",
+                    "shortName": "LOT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 501515,
+                    "bestSplits": [
+                        173140,
+                        156840,
+                        171535
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 501515,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        173140,
+                        156840,
+                        171535
+                    ],
+                    "totalTime": 2285234
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggSRA - Multiclass Mayhem - NEC Rd 1 Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:79ff4173-7b6a-4ce4-81de-eabd321f678b",
+    "Date": "2024-05-24T11:11:42Z",
+    "SessionFile": "240524_111142_FP"
+}

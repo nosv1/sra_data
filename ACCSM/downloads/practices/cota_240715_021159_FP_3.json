@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 293522,
+            "splits": [
+                29745,
+                205742,
+                58035
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140807,
+            "splits": [
+                29440,
+                54952,
+                56415
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141092,
+            "splits": [
+                29522,
+                54300,
+                57270
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 80,
+    "sessionResult": {
+        "bestSplits": [
+            29522,
+            54300,
+            57270
+        ],
+        "bestlap": 141092,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Max",
+                            "lastName": "Diggs",
+                            "playerId": "S76561199060741471",
+                            "shortName": "DIG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 156,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Max",
+                    "lastName": "Diggs",
+                    "playerId": "S76561199060741471",
+                    "shortName": "DIG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 141092,
+                    "bestSplits": [
+                        29522,
+                        54300,
+                        57270
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 141092,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29522,
+                        54300,
+                        57270
+                    ],
+                    "totalTime": 265523859
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-15T02:11:59Z",
+    "SessionFile": "240715_021159_FP"
+}

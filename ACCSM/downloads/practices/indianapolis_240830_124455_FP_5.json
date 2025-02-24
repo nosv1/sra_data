@@ -1,0 +1,123 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125342,
+            "splits": [
+                64875,
+                32935,
+                27532
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98760,
+            "splits": [
+                38370,
+                32680,
+                27710
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98495,
+            "splits": [
+                38427,
+                32595,
+                27472
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99472,
+            "splits": [
+                38862,
+                33165,
+                27445
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            38370,
+            32595,
+            27445
+        ],
+        "bestlap": 98495,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Rowdy",
+                            "lastName": "Burnz",
+                            "playerId": "S76561198127611429",
+                            "shortName": "BUR"
+                        },
+                        {
+                            "firstName": "C",
+                            "lastName": "Logain",
+                            "playerId": "S76561198019221567",
+                            "shortName": "LOG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 51,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Rowdy",
+                    "lastName": "Burnz",
+                    "playerId": "S76561198127611429",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98495,
+                    "bestSplits": [
+                        38370,
+                        32595,
+                        27445
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 99472,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        38862,
+                        33165,
+                        27445
+                    ],
+                    "totalTime": 6772129
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggPro/Am Driver Swap Exhibition Race | SimRacingAlliance.com | #SRAM5",
+    "metaData": "championship-pre-practice",
+    "Date": "2024-08-30T12:44:55Z",
+    "SessionFile": "240830_124455_FP"
+}

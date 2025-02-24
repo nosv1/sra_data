@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127885,
+            "splits": [
+                42612,
+                56375,
+                28897
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126827,
+            "splits": [
+                42677,
+                55557,
+                28592
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128782,
+            "splits": [
+                43502,
+                56927,
+                28352
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127865,
+            "splits": [
+                43220,
+                56370,
+                28275
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 26,
+    "sessionResult": {
+        "bestSplits": [
+            42612,
+            55557,
+            28592
+        ],
+        "bestlap": 126827,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Gordon",
+                            "lastName": "Beverly Jr.",
+                            "playerId": "S76561198878161886",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 704,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Gordon",
+                    "lastName": "Beverly Jr.",
+                    "playerId": "S76561198878161886",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 126827,
+                    "bestSplits": [
+                        42612,
+                        55557,
+                        28592
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 127865,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        43220,
+                        56370,
+                        28275
+                    ],
+                    "totalTime": 271761894
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-06-09T03:04:53Z",
+    "SessionFile": "240609_030453_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 89622,
+            "splits": [
+                27275,
+                29095,
+                33252
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 88965,
+            "splits": [
+                26715,
+                28977,
+                33272
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85397,
+            "splits": [
+                22640,
+                29097,
+                33660
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94347,
+            "splits": [
+                22000,
+                28852,
+                43495
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            22640,
+            29097,
+            33660
+        ],
+        "bestlap": 85397,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Colin",
+                            "lastName": "Shea",
+                            "playerId": "S76561198171727959",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 945,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Colin",
+                    "lastName": "Shea",
+                    "playerId": "S76561198171727959",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 85397,
+                    "bestSplits": [
+                        22640,
+                        29097,
+                        33660
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 94347,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        22000,
+                        28852,
+                        43495
+                    ],
+                    "totalTime": 56061924
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-09-10T14:09:52Z",
+    "SessionFile": "240910_140952_FP"
+}

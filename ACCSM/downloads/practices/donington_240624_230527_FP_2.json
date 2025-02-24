@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88612,
+            "splits": [
+                20452,
+                34557,
+                33602
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88085,
+            "splits": [
+                20340,
+                34630,
+                33115
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 88762,
+            "splits": [
+                20517,
+                34620,
+                33625
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            20340,
+            34557,
+            33115
+        ],
+        "bestlap": 88085,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "MarcAnthony",
+                            "lastName": "Eaton",
+                            "playerId": "S76561199467882224",
+                            "shortName": "EAT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 283,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "MarcAnthony",
+                    "lastName": "Eaton",
+                    "playerId": "S76561199467882224",
+                    "shortName": "EAT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 88085,
+                    "bestSplits": [
+                        20340,
+                        34557,
+                        33115
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 88762,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        20517,
+                        34620,
+                        33625
+                    ],
+                    "totalTime": 1597319
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-06-24T23:05:27Z",
+    "SessionFile": "240624_230527_FP"
+}

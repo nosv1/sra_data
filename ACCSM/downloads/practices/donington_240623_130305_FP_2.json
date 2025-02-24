@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91175,
+            "splits": [
+                21007,
+                35390,
+                34777
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91177,
+            "splits": [
+                21070,
+                35370,
+                34737
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 91107,
+            "splits": [
+                20947,
+                35347,
+                34812
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91062,
+            "splits": [
+                21025,
+                35355,
+                34682
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 21,
+    "sessionResult": {
+        "bestSplits": [
+            21007,
+            35355,
+            34682
+        ],
+        "bestlap": 91062,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Cleveland",
+                            "lastName": "Leatherwood",
+                            "playerId": "S76561198114792814",
+                            "shortName": "LEA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 294,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cleveland",
+                    "lastName": "Leatherwood",
+                    "playerId": "S76561198114792814",
+                    "shortName": "LEA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 91062,
+                    "bestSplits": [
+                        21007,
+                        35355,
+                        34682
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 91062,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        21025,
+                        35355,
+                        34682
+                    ],
+                    "totalTime": 232863781
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-06-23T13:03:05Z",
+    "SessionFile": "240623_130305_FP"
+}

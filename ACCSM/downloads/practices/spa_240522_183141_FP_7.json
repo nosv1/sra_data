@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137395,
+            "splits": [
+                40492,
+                60587,
+                36315
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138040,
+            "splits": [
+                40522,
+                60535,
+                36982
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 137667,
+            "splits": [
+                40380,
+                60857,
+                36430
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 13,
+    "sessionResult": {
+        "bestSplits": [
+            40492,
+            60535,
+            36315
+        ],
+        "bestlap": 137395,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Eric",
+                            "lastName": "Boardman",
+                            "playerId": "S76561199238518693",
+                            "shortName": "BOA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 34,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Eric",
+                    "lastName": "Boardman",
+                    "playerId": "S76561199238518693",
+                    "shortName": "BOA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 137395,
+                    "bestSplits": [
+                        40492,
+                        60535,
+                        36315
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 137667,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40380,
+                        60857,
+                        36430
+                    ],
+                    "totalTime": 188480070
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-22T18:31:41Z",
+    "SessionFile": "240522_183141_FP"
+}

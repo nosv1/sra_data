@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 154672,
+            "splits": [
+                45225,
+                67687,
+                41760
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 152925,
+            "splits": [
+                45475,
+                66915,
+                40535
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 152510,
+            "splits": [
+                45195,
+                66597,
+                40717
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 153322,
+            "splits": [
+                45532,
+                66977,
+                40812
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            45475,
+            66915,
+            40535
+        ],
+        "bestlap": 152925,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 60,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Curtis",
+                            "lastName": "Lee",
+                            "playerId": "S76561198035723322",
+                            "shortName": "LEE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 826,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Curtis",
+                    "lastName": "Lee",
+                    "playerId": "S76561198035723322",
+                    "shortName": "LEE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 152925,
+                    "bestSplits": [
+                        45475,
+                        66915,
+                        40535
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 153322,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        45532,
+                        66977,
+                        40812
+                    ],
+                    "totalTime": 84900674
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-06-20T23:17:05Z",
+    "SessionFile": "240620_231705_FP"
+}

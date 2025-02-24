@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121742,
+            "splits": [
+                35920,
+                51385,
+                34437
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121397,
+            "splits": [
+                36100,
+                51130,
+                34167
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120917,
+            "splits": [
+                35837,
+                50972,
+                34107
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120702,
+            "splits": [
+                35685,
+                50940,
+                34077
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35685,
+            50940,
+            34077
+        ],
+        "bestlap": 120702,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeff",
+                            "lastName": "Colombaro",
+                            "playerId": "S76561199163762736",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 61,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeff",
+                    "lastName": "Colombaro",
+                    "playerId": "S76561199163762736",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120702,
+                    "bestSplits": [
+                        35685,
+                        50940,
+                        34077
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 120702,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35685,
+                        50940,
+                        34077
+                    ],
+                    "totalTime": 61657739
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "silverstone",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-09-07T17:45:33Z",
+    "SessionFile": "240907_174533_FP"
+}

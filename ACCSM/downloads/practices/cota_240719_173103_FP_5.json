@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128052,
+            "splits": [
+                27090,
+                50337,
+                50625
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127442,
+            "splits": [
+                26787,
+                49885,
+                50770
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126455,
+            "splits": [
+                26802,
+                49477,
+                50175
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126092,
+            "splits": [
+                26847,
+                49052,
+                50192
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            26787,
+            49477,
+            50175
+        ],
+        "bestlap": 126455,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Bailey",
+                            "lastName": "Kish",
+                            "playerId": "S76561199100512942",
+                            "shortName": "TRU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 14,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bailey",
+                    "lastName": "Kish",
+                    "playerId": "S76561199100512942",
+                    "shortName": "TRU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 126455,
+                    "bestSplits": [
+                        26787,
+                        49477,
+                        50175
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 126092,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        26847,
+                        49052,
+                        50192
+                    ],
+                    "totalTime": 150542162
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-07-19T17:31:03Z",
+    "SessionFile": "240719_173103_FP"
+}

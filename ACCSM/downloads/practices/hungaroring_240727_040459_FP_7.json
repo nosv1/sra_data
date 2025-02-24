@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130732,
+            "splits": [
+                54167,
+                44240,
+                32325
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 114422,
+            "splits": [
+                39740,
+                43137,
+                31545
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115142,
+            "splits": [
+                40502,
+                42897,
+                31742
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112287,
+            "splits": [
+                38802,
+                41907,
+                31577
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 114780,
+            "splits": [
+                40005,
+                41617,
+                33157
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 16,
+    "sessionResult": {
+        "bestSplits": [
+            39740,
+            42897,
+            31545
+        ],
+        "bestlap": 114422,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Martin",
+                            "lastName": "Radoslavov",
+                            "playerId": "S76561198117500281",
+                            "shortName": "RAD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 911,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Martin",
+                    "lastName": "Radoslavov",
+                    "playerId": "S76561198117500281",
+                    "shortName": "RAD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 114422,
+                    "bestSplits": [
+                        39740,
+                        42897,
+                        31545
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 114780,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40005,
+                        41617,
+                        33157
+                    ],
+                    "totalTime": 159101135
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-27T04:04:59Z",
+    "SessionFile": "240727_040459_FP"
+}

@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 550787,
+            "splits": [
+                189700,
+                171282,
+                189805
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 55,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Tyler",
+                            "lastName": "Thompson",
+                            "playerId": "S76561199157288200",
+                            "shortName": "TAT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 24,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tyler",
+                    "lastName": "Thompson",
+                    "playerId": "S76561199157288200",
+                    "shortName": "TAT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 550787,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        189700,
+                        171282,
+                        189805
+                    ],
+                    "totalTime": 4030021
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggSRA - Multiclass Mayhem - NEC Rd 1 Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:79ff4173-7b6a-4ce4-81de-eabd321f678b",
+    "Date": "2024-05-19T17:22:44Z",
+    "SessionFile": "240519_172244_FP"
+}

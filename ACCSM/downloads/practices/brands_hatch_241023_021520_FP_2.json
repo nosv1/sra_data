@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 93855,
+            "splits": [
+                35042,
+                22600,
+                36212
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85867,
+            "splits": [
+                27697,
+                22407,
+                35762
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85710,
+            "splits": [
+                27737,
+                22247,
+                35725
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            27697,
+            22247,
+            35725
+        ],
+        "bestlap": 85710,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Felix",
+                            "lastName": "Paillant",
+                            "playerId": "S76561199034327135",
+                            "shortName": "PAI"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 425,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Felix",
+                    "lastName": "Paillant",
+                    "playerId": "S76561199034327135",
+                    "shortName": "PAI"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 85710,
+                    "bestSplits": [
+                        27697,
+                        22247,
+                        35725
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 85710,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27737,
+                        22247,
+                        35725
+                    ],
+                    "totalTime": 8732515
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+    "Date": "2024-10-23T02:15:20Z",
+    "SessionFile": "241023_021520_FP"
+}

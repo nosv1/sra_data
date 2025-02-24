@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126947,
+            "splits": [
+                43922,
+                55507,
+                27517
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123747,
+            "splits": [
+                41492,
+                54927,
+                27327
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123377,
+            "splits": [
+                41535,
+                54437,
+                27405
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            41535,
+            54437,
+            27405
+        ],
+        "bestlap": 123377,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Corey",
+                            "lastName": "Coult",
+                            "playerId": "S76561199588176130",
+                            "shortName": "CLT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 960,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Corey",
+                    "lastName": "Coult",
+                    "playerId": "S76561199588176130",
+                    "shortName": "CLT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123377,
+                    "bestSplits": [
+                        41535,
+                        54437,
+                        27405
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 123377,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        41535,
+                        54437,
+                        27405
+                    ],
+                    "totalTime": 62212669
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-12-03T14:22:44Z",
+    "SessionFile": "241203_142244_FP"
+}

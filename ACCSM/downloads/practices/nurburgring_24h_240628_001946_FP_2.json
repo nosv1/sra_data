@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 491122,
+            "splits": [
+                170082,
+                153092,
+                167947
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 490072,
+            "splits": [
+                170340,
+                152642,
+                167090
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 489780,
+            "splits": [
+                169975,
+                152812,
+                166992
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            169975,
+            152642,
+            166992
+        ],
+        "bestlap": 489780,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Timothy",
+                            "lastName": "Flammger",
+                            "playerId": "S76561197998907626",
+                            "shortName": "FLA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 119,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Timothy",
+                    "lastName": "Flammger",
+                    "playerId": "S76561197998907626",
+                    "shortName": "FLA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 489780,
+                    "bestSplits": [
+                        169975,
+                        152642,
+                        166992
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 489780,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        169975,
+                        152812,
+                        166992
+                    ],
+                    "totalTime": 87845343
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-06-28T00:19:46Z",
+    "SessionFile": "240628_001946_FP"
+}

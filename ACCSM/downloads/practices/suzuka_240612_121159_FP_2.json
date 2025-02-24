@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122547,
+            "splits": [
+                41080,
+                54395,
+                27072
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122670,
+            "splits": [
+                41427,
+                54415,
+                26827
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122662,
+            "splits": [
+                40990,
+                54295,
+                27377
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            41080,
+            54395,
+            26827
+        ],
+        "bestlap": 122547,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Milton",
+                            "lastName": "Zu\u00f1iga",
+                            "playerId": "S76561198008824404",
+                            "shortName": "MZP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 251,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Milton",
+                    "lastName": "Zu\u00f1iga",
+                    "playerId": "S76561198008824404",
+                    "shortName": "MZP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 122547,
+                    "bestSplits": [
+                        41080,
+                        54395,
+                        26827
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 122662,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40990,
+                        54295,
+                        27377
+                    ],
+                    "totalTime": 45304075
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+    "Date": "2024-06-12T12:11:59Z",
+    "SessionFile": "240612_121159_FP"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92927,
+            "splits": [
+                33467,
+                22890,
+                36570
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 89567,
+            "splits": [
+                28710,
+                22832,
+                38025
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88540,
+            "splits": [
+                28735,
+                22930,
+                36875
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            28735,
+            22930,
+            36875
+        ],
+        "bestlap": 88540,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Rowdy",
+                            "lastName": "Burnz",
+                            "playerId": "S76561198127611429",
+                            "shortName": "BUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 551,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Rowdy",
+                    "lastName": "Burnz",
+                    "playerId": "S76561198127611429",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 88540,
+                    "bestSplits": [
+                        28735,
+                        22930,
+                        36875
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 88540,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        28735,
+                        22930,
+                        36875
+                    ],
+                    "totalTime": 59963185
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+    "Date": "2024-10-23T16:14:50Z",
+    "SessionFile": "241023_161450_FP"
+}

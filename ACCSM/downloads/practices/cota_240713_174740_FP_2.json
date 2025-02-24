@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 146500,
+            "splits": [
+                30532,
+                55812,
+                60155
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 145987,
+            "splits": [
+                30205,
+                56557,
+                59225
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 145587,
+            "splits": [
+                30217,
+                57332,
+                58037
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 143680,
+            "splits": [
+                30302,
+                55740,
+                57637
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 144047,
+            "splits": [
+                29495,
+                55932,
+                58620
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 21,
+    "sessionResult": {
+        "bestSplits": [
+            30302,
+            55740,
+            57637
+        ],
+        "bestlap": 143680,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Roger",
+                            "lastName": "Dismukes",
+                            "playerId": "S76561197971841583",
+                            "shortName": "DIZ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 382,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Roger",
+                    "lastName": "Dismukes",
+                    "playerId": "S76561197971841583",
+                    "shortName": "DIZ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 143680,
+                    "bestSplits": [
+                        30302,
+                        55740,
+                        57637
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 144047,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29495,
+                        55932,
+                        58620
+                    ],
+                    "totalTime": 148751987
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-07-13T17:47:40Z",
+    "SessionFile": "240713_174740_FP"
+}

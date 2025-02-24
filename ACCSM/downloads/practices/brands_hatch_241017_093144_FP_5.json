@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 100787,
+            "splits": [
+                35162,
+                22610,
+                43015
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92460,
+            "splits": [
+                28920,
+                22220,
+                41320
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 90245,
+            "splits": [
+                28212,
+                22590,
+                39442
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87282,
+            "splits": [
+                28197,
+                22140,
+                36945
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96472,
+            "splits": [
+                32890,
+                22272,
+                41310
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            28197,
+            22140,
+            36945
+        ],
+        "bestlap": 87282,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 24,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jason",
+                            "lastName": "Yaron",
+                            "playerId": "S76561198052489294",
+                            "shortName": "JMY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 545,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jason",
+                    "lastName": "Yaron",
+                    "playerId": "S76561198052489294",
+                    "shortName": "JMY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 87282,
+                    "bestSplits": [
+                        28197,
+                        22140,
+                        36945
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 96472,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32890,
+                        22272,
+                        41310
+                    ],
+                    "totalTime": 35791586
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-10-17T09:31:44Z",
+    "SessionFile": "241017_093144_FP"
+}

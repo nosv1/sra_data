@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140882,
+            "splits": [
+                41150,
+                62305,
+                37427
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139672,
+            "splits": [
+                41230,
+                61712,
+                36730
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 175065,
+            "splits": [
+                60972,
+                67705,
+                46387
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            41150,
+            61712,
+            36730
+        ],
+        "bestlap": 139672,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Shane",
+                            "lastName": "Transue",
+                            "playerId": "S76561198057958306",
+                            "shortName": "SGT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 216,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Shane",
+                    "lastName": "Transue",
+                    "playerId": "S76561198057958306",
+                    "shortName": "SGT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139672,
+                    "bestSplits": [
+                        41150,
+                        61712,
+                        36730
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 175065,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        60972,
+                        67705,
+                        46387
+                    ],
+                    "totalTime": 70956781
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-06-13T19:18:57Z",
+    "SessionFile": "240613_191857_FP"
+}

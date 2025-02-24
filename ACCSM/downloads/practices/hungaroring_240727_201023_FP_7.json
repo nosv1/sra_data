@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112202,
+            "splits": [
+                39387,
+                41740,
+                31075
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112030,
+            "splits": [
+                39235,
+                41425,
+                31370
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112522,
+            "splits": [
+                39297,
+                40910,
+                32315
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111215,
+            "splits": [
+                38675,
+                41097,
+                31442
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 19,
+    "sessionResult": {
+        "bestSplits": [
+            38675,
+            41097,
+            31075
+        ],
+        "bestlap": 111215,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Darren",
+                            "lastName": "Robichaud",
+                            "playerId": "S76561199232988903",
+                            "shortName": "DMR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 357,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Darren",
+                    "lastName": "Robichaud",
+                    "playerId": "S76561199232988903",
+                    "shortName": "DMR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 111215,
+                    "bestSplits": [
+                        38675,
+                        41097,
+                        31075
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 111215,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        38675,
+                        41097,
+                        31442
+                    ],
+                    "totalTime": 216958558
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-27T20:10:23Z",
+    "SessionFile": "240727_201023_FP"
+}

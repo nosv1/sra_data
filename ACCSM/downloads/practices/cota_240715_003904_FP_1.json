@@ -1,0 +1,160 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135267,
+            "splits": [
+                28235,
+                52445,
+                54587
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135717,
+            "splits": [
+                28420,
+                52745,
+                54552
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135175,
+            "splits": [
+                28257,
+                52502,
+                54415
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 134697,
+            "splits": [
+                28135,
+                52385,
+                54177
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 51,
+    "sessionResult": {
+        "bestSplits": [
+            28135,
+            52385,
+            54177
+        ],
+        "bestlap": 134697,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mia",
+                            "lastName": "Rose",
+                            "playerId": "S76561198350381275",
+                            "shortName": "MRO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 956,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mia",
+                    "lastName": "Rose",
+                    "playerId": "S76561198350381275",
+                    "shortName": "MRO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 134697,
+                    "bestSplits": [
+                        28135,
+                        52385,
+                        54177
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 134697,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        28135,
+                        52385,
+                        54177
+                    ],
+                    "totalTime": 259627850
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Steph",
+                            "lastName": "Dutton",
+                            "playerId": "S76561198868142890",
+                            "shortName": "DUT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 810,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Steph",
+                    "lastName": "Dutton",
+                    "playerId": "S76561198868142890",
+                    "shortName": "DUT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-07-15T00:39:04Z",
+    "SessionFile": "240715_003904_FP"
+}

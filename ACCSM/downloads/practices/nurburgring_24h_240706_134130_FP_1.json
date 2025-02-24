@@ -1,0 +1,261 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 499130,
+            "splits": [
+                171055,
+                154537,
+                173537
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 495340,
+            "splits": [
+                170157,
+                154222,
+                170960
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 495350,
+            "splits": [
+                170787,
+                154217,
+                170345
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 540022,
+            "splits": [
+                181775,
+                167595,
+                190652
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 493700,
+            "splits": [
+                169770,
+                153752,
+                170177
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 34,
+    "sessionResult": {
+        "bestSplits": [
+            169770,
+            153752,
+            170177
+        ],
+        "bestlap": 493700,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Gomer",
+                            "lastName": "Wilson",
+                            "playerId": "S76561198271703496",
+                            "shortName": "GRW"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 195,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Gomer",
+                    "lastName": "Wilson",
+                    "playerId": "S76561198271703496",
+                    "shortName": "GRW"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 493700,
+                    "bestSplits": [
+                        169770,
+                        153752,
+                        170177
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 493700,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        169770,
+                        153752,
+                        170177
+                    ],
+                    "totalTime": 222782182
+                }
+            },
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Matt",
+                            "lastName": "Moon",
+                            "playerId": "S76561197960784860",
+                            "shortName": "MMM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 908,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Matt",
+                    "lastName": "Moon",
+                    "playerId": "S76561197960784860",
+                    "shortName": "MMM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 540022,
+                    "bestSplits": [
+                        181775,
+                        167595,
+                        190652
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 540022,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        181775,
+                        167595,
+                        190652
+                    ],
+                    "totalTime": 221738636
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mike",
+                            "lastName": "Hiesener",
+                            "playerId": "S76561199045073243",
+                            "shortName": "MEH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 229,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mike",
+                    "lastName": "Hiesener",
+                    "playerId": "S76561199045073243",
+                    "shortName": "MEH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 1,
+                    "lastSplits": [],
+                    "totalTime": 220078504
+                }
+            },
+            {
+                "car": {
+                    "carId": 1004,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Timothy",
+                            "lastName": "Flammger",
+                            "playerId": "S76561197998907626",
+                            "shortName": "FLA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 19,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Timothy",
+                    "lastName": "Flammger",
+                    "playerId": "S76561197998907626",
+                    "shortName": "FLA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 1,
+                    "lastSplits": [],
+                    "totalTime": 223376411
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-07-06T13:41:30Z",
+    "SessionFile": "240706_134130_FP"
+}

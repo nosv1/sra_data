@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 111227,
+            "splits": [
+                35542,
+                38715,
+                36970
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111060,
+            "splits": [
+                35565,
+                39295,
+                36200
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111227,
+            "splits": [
+                35317,
+                38715,
+                37195
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110375,
+            "splits": [
+                35202,
+                39070,
+                36102
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 14,
+    "sessionResult": {
+        "bestSplits": [
+            35202,
+            38715,
+            36102
+        ],
+        "bestlap": 110375,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Rob",
+                            "lastName": "Warren",
+                            "playerId": "S76561199379314506",
+                            "shortName": "ROB"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 69,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Rob",
+                    "lastName": "Warren",
+                    "playerId": "S76561199379314506",
+                    "shortName": "ROB"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 110375,
+                    "bestSplits": [
+                        35202,
+                        38715,
+                        36102
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 110375,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35202,
+                        39070,
+                        36102
+                    ],
+                    "totalTime": 67913426
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-09-24T17:27:21Z",
+    "SessionFile": "240924_172721_FP"
+}

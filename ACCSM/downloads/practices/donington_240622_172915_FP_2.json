@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 93547,
+            "splits": [
+                20917,
+                36202,
+                36427
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 91535,
+            "splits": [
+                20925,
+                36030,
+                34580
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 15,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Cleveland",
+                            "lastName": "Leatherwood",
+                            "playerId": "S76561198114792814",
+                            "shortName": "LEA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 294,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cleveland",
+                    "lastName": "Leatherwood",
+                    "playerId": "S76561198114792814",
+                    "shortName": "LEA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 91535,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        20925,
+                        36030,
+                        34580
+                    ],
+                    "totalTime": 162444446
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-06-22T17:29:15Z",
+    "SessionFile": "240622_172915_FP"
+}

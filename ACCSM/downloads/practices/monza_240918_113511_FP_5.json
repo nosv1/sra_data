@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 111077,
+            "splits": [
+                33207,
+                41227,
+                36642
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111570,
+            "splits": [
+                36350,
+                38780,
+                36440
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112382,
+            "splits": [
+                36037,
+                39945,
+                36400
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110812,
+            "splits": [
+                35570,
+                38835,
+                36407
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            35570,
+            38780,
+            36407
+        ],
+        "bestlap": 110812,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 6,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dave",
+                            "lastName": "Paccagnini",
+                            "playerId": "S76561198008466364",
+                            "shortName": "NBD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 904,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dave",
+                    "lastName": "Paccagnini",
+                    "playerId": "S76561198008466364",
+                    "shortName": "NBD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 110812,
+                    "bestSplits": [
+                        35570,
+                        38780,
+                        36407
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 110812,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35570,
+                        38835,
+                        36407
+                    ],
+                    "totalTime": 34753796
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2024-09-18T11:35:11Z",
+    "SessionFile": "240918_113511_FP"
+}

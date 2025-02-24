@@ -1,0 +1,123 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125595,
+            "splits": [
+                65075,
+                32910,
+                27610
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98952,
+            "splits": [
+                38627,
+                32800,
+                27525
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98052,
+            "splits": [
+                38302,
+                32710,
+                27040
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97697,
+            "splits": [
+                38245,
+                32577,
+                26875
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38245,
+            32577,
+            26875
+        ],
+        "bestlap": 97697,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 7,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "Muh-Kek-Knee",
+                            "playerId": "S76561198328203388",
+                            "shortName": "JMA"
+                        },
+                        {
+                            "firstName": "Ilpo",
+                            "lastName": "Ruotsalainen",
+                            "playerId": "S76561197964500435",
+                            "shortName": "RUO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 35,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "Muh-Kek-Knee",
+                    "playerId": "S76561198328203388",
+                    "shortName": "JMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97697,
+                    "bestSplits": [
+                        38245,
+                        32577,
+                        26875
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 97697,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        38245,
+                        32577,
+                        26875
+                    ],
+                    "totalTime": 1834431
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggPro/Am Driver Swap Exhibition Race | SimRacingAlliance.com | #SRAM5",
+    "metaData": "championship-pre-practice",
+    "Date": "2024-08-30T11:21:21Z",
+    "SessionFile": "240830_112121_FP"
+}

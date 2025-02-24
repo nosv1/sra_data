@@ -1,0 +1,148 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123270,
+            "splits": [
+                41815,
+                54247,
+                27207
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122870,
+            "splits": [
+                41575,
+                54405,
+                26890
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1002,
+            "clearedInLap": -1,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": -1
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            41575,
+            54247,
+            26890
+        ],
+        "bestlap": 122870,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alexander",
+                            "lastName": "Bermudez | TC8",
+                            "playerId": "S76561199061716908",
+                            "shortName": "ABG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 855,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alexander",
+                    "lastName": "Bermudez | TC8",
+                    "playerId": "S76561199061716908",
+                    "shortName": "ABG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 122870,
+                    "bestSplits": [
+                        41575,
+                        54247,
+                        26890
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 122870,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41575,
+                        54405,
+                        26890
+                    ],
+                    "totalTime": 161407321
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alejandro",
+                            "lastName": "Guarin TC8",
+                            "playerId": "S76561198857838922",
+                            "shortName": "AGA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 773,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alejandro",
+                    "lastName": "Guarin TC8",
+                    "playerId": "S76561198857838922",
+                    "shortName": "AGA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-06-09T21:31:03Z",
+    "SessionFile": "240609_213103_FP"
+}

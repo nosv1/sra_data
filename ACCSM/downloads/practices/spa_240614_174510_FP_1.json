@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 142067,
+            "splits": [
+                41100,
+                63312,
+                37655
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 141150,
+            "splits": [
+                40930,
+                63000,
+                37220
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            41100,
+            63312,
+            37655
+        ],
+        "bestlap": 142067,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Kyle",
+                            "lastName": "Miller",
+                            "playerId": "S76561198000126334",
+                            "shortName": "MIL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 38,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Kyle",
+                    "lastName": "Miller",
+                    "playerId": "S76561198000126334",
+                    "shortName": "MIL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 142067,
+                    "bestSplits": [
+                        41100,
+                        63312,
+                        37655
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 141150,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40930,
+                        63000,
+                        37220
+                    ],
+                    "totalTime": 12335457
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-06-14T17:45:10Z",
+    "SessionFile": "240614_174510_FP"
+}

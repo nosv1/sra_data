@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108152,
+            "splits": [
+                23025,
+                35295,
+                49832
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106365,
+            "splits": [
+                22790,
+                34155,
+                49420
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105812,
+            "splits": [
+                22820,
+                33737,
+                49255
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105785,
+            "splits": [
+                22700,
+                34100,
+                48985
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            22700,
+            34100,
+            48985
+        ],
+        "bestlap": 105785,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jak",
+                            "lastName": "Patch",
+                            "playerId": "S76561197963770228",
+                            "shortName": "FAL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 36,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jak",
+                    "lastName": "Patch",
+                    "playerId": "S76561197963770228",
+                    "shortName": "FAL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105785,
+                    "bestSplits": [
+                        22700,
+                        34100,
+                        48985
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 105785,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        22700,
+                        34100,
+                        48985
+                    ],
+                    "totalTime": 40297176
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-05-30T12:50:23Z",
+    "SessionFile": "240530_125023_FP"
+}

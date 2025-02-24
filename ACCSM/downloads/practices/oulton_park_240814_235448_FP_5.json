@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107315,
+            "splits": [
+                26050,
+                52395,
+                28870
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107715,
+            "splits": [
+                26380,
+                52627,
+                28707
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105827,
+            "splits": [
+                25990,
+                51255,
+                28582
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 133472,
+            "splits": [
+                26022,
+                78355,
+                29095
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105665,
+            "splits": [
+                25740,
+                51245,
+                28680
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            25740,
+            51245,
+            28582
+        ],
+        "bestlap": 105665,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 52,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Rowdy",
+                            "lastName": "Burnz",
+                            "playerId": "S76561198127611429",
+                            "shortName": "BUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 51,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Rowdy",
+                    "lastName": "Burnz",
+                    "playerId": "S76561198127611429",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105665,
+                    "bestSplits": [
+                        25740,
+                        51245,
+                        28582
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 105665,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        25740,
+                        51245,
+                        28680
+                    ],
+                    "totalTime": 88345362
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "oulton_park",
+    "serverName": "#SRAggOulton Park | SimRacingAlliance.com | #SRAM5",
+    "metaData": "championship-pre-practice",
+    "Date": "2024-08-14T23:54:48Z",
+    "SessionFile": "240814_235448_FP"
+}

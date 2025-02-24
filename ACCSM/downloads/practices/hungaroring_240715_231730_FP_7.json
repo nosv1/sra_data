@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110705,
+            "splits": [
+                38687,
+                41140,
+                30877
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109152,
+            "splits": [
+                38280,
+                40337,
+                30535
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125747,
+            "splits": [
+                38875,
+                40172,
+                46700
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109645,
+            "splits": [
+                38400,
+                40552,
+                30692
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109407,
+            "splits": [
+                38477,
+                40320,
+                30610
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            38280,
+            40320,
+            30535
+        ],
+        "bestlap": 109152,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Curtis",
+                            "lastName": "Lee",
+                            "playerId": "S76561198035723322",
+                            "shortName": "LEE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 527,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Curtis",
+                    "lastName": "Lee",
+                    "playerId": "S76561198035723322",
+                    "shortName": "LEE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 109152,
+                    "bestSplits": [
+                        38280,
+                        40320,
+                        30535
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 109407,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        38477,
+                        40320,
+                        30610
+                    ],
+                    "totalTime": 116378004
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles Hungaroring 3 hour Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-15T23:17:30Z",
+    "SessionFile": "240715_231730_FP"
+}

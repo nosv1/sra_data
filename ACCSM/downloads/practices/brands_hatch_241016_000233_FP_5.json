@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97330,
+            "splits": [
+                38195,
+                22477,
+                36657
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87600,
+            "splits": [
+                28332,
+                22547,
+                36720
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85907,
+            "splits": [
+                27845,
+                22225,
+                35837
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85455,
+            "splits": [
+                27497,
+                22220,
+                35737
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            27497,
+            22220,
+            35737
+        ],
+        "bestlap": 85455,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Derrik",
+                            "lastName": "Schweppe",
+                            "playerId": "S76561199201001162",
+                            "shortName": "SCH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 515,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Derrik",
+                    "lastName": "Schweppe",
+                    "playerId": "S76561199201001162",
+                    "shortName": "SCH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 85455,
+                    "bestSplits": [
+                        27497,
+                        22220,
+                        35737
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 85455,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27497,
+                        22220,
+                        35737
+                    ],
+                    "totalTime": 1630928
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2024-10-16T00:02:33Z",
+    "SessionFile": "241016_000233_FP"
+}

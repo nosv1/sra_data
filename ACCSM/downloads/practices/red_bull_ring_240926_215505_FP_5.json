@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91265,
+            "splits": [
+                23050,
+                40235,
+                27980
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90410,
+            "splits": [
+                22682,
+                39810,
+                27917
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 18,
+    "sessionResult": {
+        "bestSplits": [
+            22682,
+            39810,
+            27917
+        ],
+        "bestlap": 90410,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Anthony",
+                            "lastName": "Lombardo",
+                            "playerId": "S76561197960600016",
+                            "shortName": "LOM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 256,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Anthony",
+                    "lastName": "Lombardo",
+                    "playerId": "S76561197960600016",
+                    "shortName": "LOM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 90410,
+                    "bestSplits": [
+                        22682,
+                        39810,
+                        27917
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 90410,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22682,
+                        39810,
+                        27917
+                    ],
+                    "totalTime": 80366881
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-09-26T21:55:05Z",
+    "SessionFile": "240926_215505_FP"
+}

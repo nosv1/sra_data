@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 129117,
+            "splits": [
+                39225,
+                61835,
+                28057
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 141255,
+            "splits": [
+                50842,
+                62150,
+                28262
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125495,
+            "splits": [
+                39202,
+                58322,
+                27970
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 29,
+    "sessionResult": {
+        "bestSplits": [
+            39202,
+            58322,
+            27970
+        ],
+        "bestlap": 125495,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Matt",
+                            "lastName": "Moon",
+                            "playerId": "S76561197960784860",
+                            "shortName": "MMM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 908,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Matt",
+                    "lastName": "Moon",
+                    "playerId": "S76561197960784860",
+                    "shortName": "MMM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 125495,
+                    "bestSplits": [
+                        39202,
+                        58322,
+                        27970
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 125495,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        39202,
+                        58322,
+                        27970
+                    ],
+                    "totalTime": 185472416
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2025-01-27T13:16:06Z",
+    "SessionFile": "250127_131606_FP"
+}

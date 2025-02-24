@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98127,
+            "splits": [
+                24112,
+                43180,
+                30835
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97132,
+            "splits": [
+                24015,
+                42097,
+                31020
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97122,
+            "splits": [
+                24155,
+                42465,
+                30502
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 34,
+    "sessionResult": {
+        "bestSplits": [
+            24112,
+            42465,
+            30502
+        ],
+        "bestlap": 97122,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "Muntean",
+                            "playerId": "S76561198995380436",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 787,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "Muntean",
+                    "playerId": "S76561198995380436",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97122,
+                    "bestSplits": [
+                        24112,
+                        42465,
+                        30502
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 97122,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        24155,
+                        42465,
+                        30502
+                    ],
+                    "totalTime": 152273715
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-10-09T17:02:43Z",
+    "SessionFile": "241009_170243_FP"
+}

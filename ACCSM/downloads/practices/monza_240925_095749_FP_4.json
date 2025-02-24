@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112170,
+            "splits": [
+                35547,
+                38845,
+                37777
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110787,
+            "splits": [
+                35475,
+                38972,
+                36340
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111035,
+            "splits": [
+                35730,
+                38912,
+                36392
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117650,
+            "splits": [
+                35362,
+                45727,
+                36560
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111477,
+            "splits": [
+                35892,
+                38880,
+                36705
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 26,
+    "sessionResult": {
+        "bestSplits": [
+            35475,
+            38880,
+            36340
+        ],
+        "bestlap": 110787,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Corey",
+                            "lastName": "Coult",
+                            "playerId": "S76561199588176130",
+                            "shortName": "CLT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 960,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Corey",
+                    "lastName": "Coult",
+                    "playerId": "S76561199588176130",
+                    "shortName": "CLT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 110787,
+                    "bestSplits": [
+                        35475,
+                        38880,
+                        36340
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 111477,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        35892,
+                        38880,
+                        36705
+                    ],
+                    "totalTime": 127305369
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-09-25T09:57:49Z",
+    "SessionFile": "240925_095749_FP"
+}

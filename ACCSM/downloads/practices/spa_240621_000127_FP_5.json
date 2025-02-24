@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140040,
+            "splits": [
+                41025,
+                62125,
+                36890
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 138765,
+            "splits": [
+                40470,
+                61612,
+                36682
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139137,
+            "splits": [
+                40587,
+                61645,
+                36905
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139055,
+            "splits": [
+                40645,
+                61672,
+                36737
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139032,
+            "splits": [
+                40602,
+                61660,
+                36770
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 9,
+    "sessionResult": {
+        "bestSplits": [
+            40602,
+            61660,
+            36770
+        ],
+        "bestlap": 139032,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 82,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mia",
+                            "lastName": "Rose",
+                            "playerId": "S76561198350381275",
+                            "shortName": "MRO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 909,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mia",
+                    "lastName": "Rose",
+                    "playerId": "S76561198350381275",
+                    "shortName": "MRO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139032,
+                    "bestSplits": [
+                        40602,
+                        61660,
+                        36770
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 139032,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40602,
+                        61660,
+                        36770
+                    ],
+                    "totalTime": 87566436
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-06-21T00:01:27Z",
+    "SessionFile": "240621_000127_FP"
+}

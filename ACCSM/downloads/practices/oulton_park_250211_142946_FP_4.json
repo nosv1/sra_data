@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102250,
+            "splits": [
+                28327,
+                47675,
+                26247
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96167,
+            "splits": [
+                23390,
+                46842,
+                25935
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96757,
+            "splits": [
+                24157,
+                46410,
+                26190
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95537,
+            "splits": [
+                23290,
+                46062,
+                26185
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            23390,
+            46410,
+            25935
+        ],
+        "bestlap": 96167,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 21,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Sebastian",
+                            "lastName": "Rock",
+                            "playerId": "S76561198381118387",
+                            "shortName": "ROC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 217,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sebastian",
+                    "lastName": "Rock",
+                    "playerId": "S76561198381118387",
+                    "shortName": "ROC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96167,
+                    "bestSplits": [
+                        23390,
+                        46410,
+                        25935
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 95537,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        23290,
+                        46062,
+                        26185
+                    ],
+                    "totalTime": 57242495
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "oulton_park",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2025-02-11T14:29:46Z",
+    "SessionFile": "250211_142946_FP"
+}

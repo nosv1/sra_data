@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122712,
+            "splits": [
+                43020,
+                45572,
+                34120
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122737,
+            "splits": [
+                43797,
+                44767,
+                34172
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122717,
+            "splits": [
+                42592,
+                45765,
+                34360
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            42592,
+            44767,
+            34120
+        ],
+        "bestlap": 122712,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 27,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mert",
+                            "lastName": "Mertson",
+                            "playerId": "S76561198025180541",
+                            "shortName": "MRT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mert",
+                    "lastName": "Mertson",
+                    "playerId": "S76561198025180541",
+                    "shortName": "MRT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 122712,
+                    "bestSplits": [
+                        42592,
+                        44767,
+                        34120
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 122717,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        42592,
+                        45765,
+                        34360
+                    ],
+                    "totalTime": 31982186
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-28T13:54:28Z",
+    "SessionFile": "240728_135428_FP"
+}

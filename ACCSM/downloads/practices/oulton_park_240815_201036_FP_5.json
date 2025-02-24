@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105097,
+            "splits": [
+                25867,
+                50457,
+                28772
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104552,
+            "splits": [
+                25847,
+                50172,
+                28532
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 109947,
+            "splits": [
+                25995,
+                50010,
+                33942
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            25847,
+            50172,
+            28532
+        ],
+        "bestlap": 104552,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 56,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "MacKechnie",
+                            "playerId": "S76561198328203388",
+                            "shortName": "JMA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 15,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "MacKechnie",
+                    "playerId": "S76561198328203388",
+                    "shortName": "JMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104552,
+                    "bestSplits": [
+                        25847,
+                        50172,
+                        28532
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 109947,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        25995,
+                        50010,
+                        33942
+                    ],
+                    "totalTime": 161286215
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "oulton_park",
+    "serverName": "#SRAggOulton Park | SimRacingAlliance.com | #SRAM5",
+    "metaData": "championship-pre-practice",
+    "Date": "2024-08-15T20:10:36Z",
+    "SessionFile": "240815_201036_FP"
+}

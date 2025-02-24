@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 142775,
+            "splits": [
+                41665,
+                62937,
+                38172
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140207,
+            "splits": [
+                41160,
+                62172,
+                36875
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139897,
+            "splits": [
+                41095,
+                61797,
+                37005
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            41095,
+            61797,
+            36875
+        ],
+        "bestlap": 139897,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 24,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeremy",
+                            "lastName": "Yaron",
+                            "playerId": "S76561199045419020",
+                            "shortName": "JER"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 295,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeremy",
+                    "lastName": "Yaron",
+                    "playerId": "S76561199045419020",
+                    "shortName": "JER"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139897,
+                    "bestSplits": [
+                        41095,
+                        61797,
+                        36875
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 139897,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41095,
+                        61797,
+                        37005
+                    ],
+                    "totalTime": 28611131
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-06-13T07:33:56Z",
+    "SessionFile": "240613_073356_FP"
+}

@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111407,
+            "splits": [
+                35917,
+                38925,
+                36565
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35917,
+            38925,
+            36565
+        ],
+        "bestlap": 111407,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Anthony",
+                            "lastName": "Lombardo",
+                            "playerId": "S76561197960600016",
+                            "shortName": "LOM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 256,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Anthony",
+                    "lastName": "Lombardo",
+                    "playerId": "S76561197960600016",
+                    "shortName": "LOM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 111407,
+                    "bestSplits": [
+                        35917,
+                        38925,
+                        36565
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 111407,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35917,
+                        38925,
+                        36565
+                    ],
+                    "totalTime": 658013
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-09-24T23:46:31Z",
+    "SessionFile": "240924_234631_FP"
+}

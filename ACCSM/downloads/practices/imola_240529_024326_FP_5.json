@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 110732,
+            "splits": [
+                23492,
+                35975,
+                51265
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 110925,
+            "splits": [
+                23870,
+                35452,
+                51602
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Drew",
+                            "lastName": "Burguson",
+                            "playerId": "S76561198099605130",
+                            "shortName": "BUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 840,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Drew",
+                    "lastName": "Burguson",
+                    "playerId": "S76561198099605130",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 110925,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        23870,
+                        35452,
+                        51602
+                    ],
+                    "totalTime": 10989486
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2024-05-29T02:43:26Z",
+    "SessionFile": "240529_024326_FP"
+}

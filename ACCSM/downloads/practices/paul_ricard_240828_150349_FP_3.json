@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117592,
+            "splits": [
+                32575,
+                32760,
+                52257
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117420,
+            "splits": [
+                33070,
+                32277,
+                52072
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116087,
+            "splits": [
+                32357,
+                32210,
+                51520
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            32357,
+            32210,
+            51520
+        ],
+        "bestlap": 116087,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Martin",
+                            "lastName": "Riggs",
+                            "playerId": "S76561198013900632",
+                            "shortName": "RGS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 8,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Martin",
+                    "lastName": "Riggs",
+                    "playerId": "S76561198013900632",
+                    "shortName": "RGS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 116087,
+                    "bestSplits": [
+                        32357,
+                        32210,
+                        51520
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 116087,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        32357,
+                        32210,
+                        51520
+                    ],
+                    "totalTime": 3807570
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-08-28T15:03:49Z",
+    "SessionFile": "240828_150349_FP"
+}

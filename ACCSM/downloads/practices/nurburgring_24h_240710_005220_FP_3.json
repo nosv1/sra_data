@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 533777,
+            "splits": [
+                182995,
+                166435,
+                184347
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 532960,
+            "splits": [
+                180360,
+                164980,
+                187620
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 529772,
+            "splits": [
+                179575,
+                164340,
+                185857
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            179575,
+            164340,
+            184347
+        ],
+        "bestlap": 529772,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Noah",
+                            "lastName": "Fong",
+                            "playerId": "S76561198130433202",
+                            "shortName": "NAF"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 838,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Noah",
+                    "lastName": "Fong",
+                    "playerId": "S76561198130433202",
+                    "shortName": "NAF"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 529772,
+                    "bestSplits": [
+                        179575,
+                        164340,
+                        184347
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 529772,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        179575,
+                        164340,
+                        185857
+                    ],
+                    "totalTime": 3823635
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-07-10T00:52:20Z",
+    "SessionFile": "240710_005220_FP"
+}

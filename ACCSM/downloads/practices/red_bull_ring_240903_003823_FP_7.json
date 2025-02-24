@@ -1,0 +1,164 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92990,
+            "splits": [
+                22887,
+                42900,
+                27202
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108172,
+            "splits": [
+                22982,
+                41990,
+                43200
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103455,
+            "splits": [
+                22492,
+                53850,
+                27112
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92940,
+            "splits": [
+                24130,
+                40012,
+                28797
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 19,
+    "sessionResult": {
+        "bestSplits": [
+            22492,
+            53850,
+            27112
+        ],
+        "bestlap": 103455,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "evo",
+                            "lastName": "3vo",
+                            "playerId": "S76561199045563764",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "evo",
+                    "lastName": "3vo",
+                    "playerId": "S76561199045563764",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 103455,
+                    "bestSplits": [
+                        22492,
+                        53850,
+                        27112
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 103455,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        22492,
+                        53850,
+                        27112
+                    ],
+                    "totalTime": 156931517
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Renard",
+                            "lastName": "Blanck",
+                            "playerId": "S76561198325360838",
+                            "shortName": "RTN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 131,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Renard",
+                    "lastName": "Blanck",
+                    "playerId": "S76561198325360838",
+                    "shortName": "RTN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 92940,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        24130,
+                        40012,
+                        28797
+                    ],
+                    "totalTime": 156940172
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+    "Date": "2024-09-03T00:38:23Z",
+    "SessionFile": "240903_003823_FP"
+}

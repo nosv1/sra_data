@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 490207,
+            "splits": [
+                170580,
+                153140,
+                166487
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 491852,
+            "splits": [
+                170357,
+                153307,
+                168187
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 489707,
+            "splits": [
+                169847,
+                152700,
+                167160
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mia",
+                            "lastName": "Rose",
+                            "playerId": "S76561198350381275",
+                            "shortName": "MRO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 956,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mia",
+                    "lastName": "Rose",
+                    "playerId": "S76561198350381275",
+                    "shortName": "MRO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 489707,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        169847,
+                        152700,
+                        167160
+                    ],
+                    "totalTime": 30865433
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+    "Date": "2024-07-09T07:40:52Z",
+    "SessionFile": "240709_074052_FP"
+}

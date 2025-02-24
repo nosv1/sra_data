@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88372,
+            "splits": [
+                20515,
+                34340,
+                33517
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 88020,
+            "splits": [
+                20265,
+                34100,
+                33655
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 16,
+    "sessionResult": {
+        "bestSplits": [
+            20265,
+            34100,
+            33517
+        ],
+        "bestlap": 88020,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Brandon",
+                            "lastName": "Sobchyshyn",
+                            "playerId": "S76561198071302229",
+                            "shortName": "BRS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 374,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Brandon",
+                    "lastName": "Sobchyshyn",
+                    "playerId": "S76561198071302229",
+                    "shortName": "BRS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 88020,
+                    "bestSplits": [
+                        20265,
+                        34100,
+                        33517
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 88020,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        20265,
+                        34100,
+                        33655
+                    ],
+                    "totalTime": 63754038
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-06-21T14:14:32Z",
+    "SessionFile": "240621_141432_FP"
+}

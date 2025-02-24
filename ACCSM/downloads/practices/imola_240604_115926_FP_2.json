@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104032,
+            "splits": [
+                22205,
+                33472,
+                48355
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104042,
+            "splits": [
+                22007,
+                33502,
+                48532
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103425,
+            "splits": [
+                22025,
+                33102,
+                48297
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            22025,
+            33102,
+            48297
+        ],
+        "bestlap": 103425,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "JB",
+                            "lastName": "Ruzic",
+                            "playerId": "S76561198079681083",
+                            "shortName": "JRU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 804,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "JB",
+                    "lastName": "Ruzic",
+                    "playerId": "S76561198079681083",
+                    "shortName": "JRU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 103425,
+                    "bestSplits": [
+                        22025,
+                        33102,
+                        48297
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 103425,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        22025,
+                        33102,
+                        48297
+                    ],
+                    "totalTime": 48017846
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-06-04T11:59:26Z",
+    "SessionFile": "240604_115926_FP"
+}

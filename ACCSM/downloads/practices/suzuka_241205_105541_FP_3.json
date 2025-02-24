@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120760,
+            "splits": [
+                40680,
+                53335,
+                26745
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121005,
+            "splits": [
+                40470,
+                53755,
+                26780
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123015,
+            "splits": [
+                41017,
+                55267,
+                26730
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            40680,
+            53335,
+            26745
+        ],
+        "bestlap": 120760,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Jeffries",
+                            "playerId": "S76561197971724910",
+                            "shortName": "MTJ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 5,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Jeffries",
+                    "playerId": "S76561197971724910",
+                    "shortName": "MTJ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120760,
+                    "bestSplits": [
+                        40680,
+                        53335,
+                        26745
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 123015,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41017,
+                        55267,
+                        26730
+                    ],
+                    "totalTime": 40821123
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-12-05T10:55:41Z",
+    "SessionFile": "241205_105541_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1010,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95587,
+            "splits": [
+                23937,
+                37950,
+                33700
+            ]
+        },
+        {
+            "carId": 1010,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95667,
+            "splits": [
+                23810,
+                37790,
+                34067
+            ]
+        },
+        {
+            "carId": 1010,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 113085,
+            "splits": [
+                41855,
+                37920,
+                33310
+            ]
+        },
+        {
+            "carId": 1010,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95367,
+            "splits": [
+                23775,
+                37715,
+                33877
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 28,
+    "sessionResult": {
+        "bestSplits": [
+            23775,
+            37715,
+            33877
+        ],
+        "bestlap": 95367,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1010,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Henry",
+                            "lastName": "Ramirez",
+                            "playerId": "S76561199496027555",
+                            "shortName": "RAM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 98,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Henry",
+                    "lastName": "Ramirez",
+                    "playerId": "S76561199496027555",
+                    "shortName": "RAM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95367,
+                    "bestSplits": [
+                        23775,
+                        37715,
+                        33877
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 95367,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23775,
+                        37715,
+                        33877
+                    ],
+                    "totalTime": 142084069
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "misano",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-12-31T04:43:17Z",
+    "SessionFile": "241231_044317_FP"
+}

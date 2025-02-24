@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134550,
+            "splits": [
+                45162,
+                59375,
+                30012
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135375,
+            "splits": [
+                45312,
+                59942,
+                30120
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 134125,
+            "splits": [
+                44845,
+                59140,
+                30140
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134150,
+            "splits": [
+                44912,
+                59352,
+                29885
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 133835,
+            "splits": [
+                44850,
+                59112,
+                29872
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            44845,
+            59112,
+            29872
+        ],
+        "bestlap": 133835,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 61,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "J",
+                            "lastName": "Eric",
+                            "playerId": "S76561198012336609",
+                            "shortName": "JEM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "J",
+                    "lastName": "Eric",
+                    "playerId": "S76561198012336609",
+                    "shortName": "JEM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 133835,
+                    "bestSplits": [
+                        44845,
+                        59112,
+                        29872
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 133835,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        44850,
+                        59112,
+                        29872
+                    ],
+                    "totalTime": 66759816
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-06-13T18:13:22Z",
+    "SessionFile": "240613_181322_FP"
+}

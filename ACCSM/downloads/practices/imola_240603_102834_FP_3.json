@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102862,
+            "splits": [
+                22380,
+                32910,
+                47572
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101647,
+            "splits": [
+                21957,
+                32702,
+                46987
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101187,
+            "splits": [
+                21897,
+                32545,
+                46745
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 10,
+    "sessionResult": {
+        "bestSplits": [
+            21897,
+            32545,
+            46745
+        ],
+        "bestlap": 101187,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Travis",
+                            "lastName": "Robinson",
+                            "playerId": "S76561198308778510",
+                            "shortName": "TBR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 73,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Travis",
+                    "lastName": "Robinson",
+                    "playerId": "S76561198308778510",
+                    "shortName": "TBR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101187,
+                    "bestSplits": [
+                        21897,
+                        32545,
+                        46745
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 101187,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        21897,
+                        32545,
+                        46745
+                    ],
+                    "totalTime": 55944150
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-06-03T10:28:34Z",
+    "SessionFile": "240603_102834_FP"
+}

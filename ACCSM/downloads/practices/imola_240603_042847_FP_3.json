@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106912,
+            "splits": [
+                22810,
+                34850,
+                49252
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116765,
+            "splits": [
+                22522,
+                34542,
+                59700
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106712,
+            "splits": [
+                22990,
+                34612,
+                49110
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Drew",
+                            "lastName": "Burguson",
+                            "playerId": "S76561198099605130",
+                            "shortName": "BUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 840,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Drew",
+                    "lastName": "Burguson",
+                    "playerId": "S76561198099605130",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 106712,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22990,
+                        34612,
+                        49110
+                    ],
+                    "totalTime": 34507126
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-06-03T04:28:47Z",
+    "SessionFile": "240603_042847_FP"
+}

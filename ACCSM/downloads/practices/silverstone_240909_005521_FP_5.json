@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127905,
+            "splits": [
+                38592,
+                54467,
+                34845
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124877,
+            "splits": [
+                37330,
+                52972,
+                34575
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 124542,
+            "splits": [
+                37075,
+                53042,
+                34425
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123325,
+            "splits": [
+                36577,
+                52060,
+                34687
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            36577,
+            52060,
+            34575
+        ],
+        "bestlap": 123325,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Corey",
+                            "lastName": "Harville",
+                            "playerId": "S76561198036684109",
+                            "shortName": "HAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 575,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Corey",
+                    "lastName": "Harville",
+                    "playerId": "S76561198036684109",
+                    "shortName": "HAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123325,
+                    "bestSplits": [
+                        36577,
+                        52060,
+                        34575
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 123325,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        36577,
+                        52060,
+                        34687
+                    ],
+                    "totalTime": 71563786
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "silverstone",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-09-09T00:55:21Z",
+    "SessionFile": "240909_005521_FP"
+}

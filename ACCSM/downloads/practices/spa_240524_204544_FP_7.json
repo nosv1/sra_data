@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 141537,
+            "splits": [
+                41642,
+                62585,
+                37310
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140137,
+            "splits": [
+                41382,
+                61922,
+                36832
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140315,
+            "splits": [
+                41287,
+                61742,
+                37285
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140545,
+            "splits": [
+                41027,
+                62247,
+                37270
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139517,
+            "splits": [
+                41077,
+                61645,
+                36795
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 23,
+    "sessionResult": {
+        "bestSplits": [
+            41027,
+            61645,
+            36795
+        ],
+        "bestlap": 139517,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Blaze",
+                            "lastName": "Pine",
+                            "playerId": "S76561198068005085",
+                            "shortName": "PIN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 37,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Blaze",
+                    "lastName": "Pine",
+                    "playerId": "S76561198068005085",
+                    "shortName": "PIN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139517,
+                    "bestSplits": [
+                        41027,
+                        61645,
+                        36795
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 139517,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        41077,
+                        61645,
+                        36795
+                    ],
+                    "totalTime": 369284852
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-24T20:45:44Z",
+    "SessionFile": "240524_204544_FP"
+}

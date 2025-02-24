@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106500,
+            "splits": [
+                30072,
+                40655,
+                35772
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            30072,
+            40655,
+            35772
+        ],
+        "bestlap": 106500,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 24,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "MacKechnie",
+                            "playerId": "S76561198328203388",
+                            "shortName": "JMA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 35,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "MacKechnie",
+                    "playerId": "S76561198328203388",
+                    "shortName": "JMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106500,
+                    "bestSplits": [
+                        30072,
+                        40655,
+                        35772
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 106500,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        30072,
+                        40655,
+                        35772
+                    ],
+                    "totalTime": 770462
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-05-20T20:45:20Z",
+    "SessionFile": "240520_204520_FP"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 110432,
+            "splits": [
+                35417,
+                38400,
+                36615
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109987,
+            "splits": [
+                35680,
+                38502,
+                35805
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109462,
+            "splits": [
+                35505,
+                38220,
+                35737
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            35505,
+            38220,
+            35737
+        ],
+        "bestlap": 109462,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Jordan",
+                            "lastName": "Kimball",
+                            "playerId": "S76561198067871370",
+                            "shortName": "KIM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 28,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jordan",
+                    "lastName": "Kimball",
+                    "playerId": "S76561198067871370",
+                    "shortName": "KIM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 109462,
+                    "bestSplits": [
+                        35505,
+                        38220,
+                        35737
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 109462,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35505,
+                        38220,
+                        35737
+                    ],
+                    "totalTime": 13899231
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+    "Date": "2024-09-25T03:27:05Z",
+    "SessionFile": "240925_032705_FP"
+}

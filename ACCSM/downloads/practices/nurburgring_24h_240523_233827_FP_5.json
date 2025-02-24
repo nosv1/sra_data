@@ -1,0 +1,153 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 540527,
+            "splits": [
+                186710,
+                168502,
+                185315
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 507852,
+            "splits": [
+                176470,
+                159122,
+                172260
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 503095,
+            "splits": [
+                173877,
+                156922,
+                172295
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            173877,
+            156922,
+            172295
+        ],
+        "bestlap": 503095,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 83,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Curtis",
+                            "lastName": "Lee",
+                            "playerId": "S76561198035723322",
+                            "shortName": "LEE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 826,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Curtis",
+                    "lastName": "Lee",
+                    "playerId": "S76561198035723322",
+                    "shortName": "LEE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 503095,
+                    "bestSplits": [
+                        173877,
+                        156922,
+                        172295
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 503095,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        173877,
+                        156922,
+                        172295
+                    ],
+                    "totalTime": 89349375
+                }
+            },
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 51,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Donovan",
+                            "lastName": "Colton",
+                            "playerId": "S76561198170883294",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 272,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Donovan",
+                    "lastName": "Colton",
+                    "playerId": "S76561198170883294",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 540527,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        186710,
+                        168502,
+                        185315
+                    ],
+                    "totalTime": 88348245
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggSRA - Multiclass Mayhem - NEC Rd 1 Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:79ff4173-7b6a-4ce4-81de-eabd321f678b",
+    "Date": "2024-05-23T23:38:27Z",
+    "SessionFile": "240523_233827_FP"
+}

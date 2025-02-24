@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94077,
+            "splits": [
+                23707,
+                37350,
+                33020
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94110,
+            "splits": [
+                23702,
+                37457,
+                32950
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94330,
+            "splits": [
+                23532,
+                37450,
+                33347
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 46,
+    "sessionResult": {
+        "bestSplits": [
+            23532,
+            37450,
+            33347
+        ],
+        "bestlap": 94330,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 21,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mikhail",
+                            "lastName": "Charles",
+                            "playerId": "S76561198436567449",
+                            "shortName": "MXC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mikhail",
+                    "lastName": "Charles",
+                    "playerId": "S76561198436567449",
+                    "shortName": "MXC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 94330,
+                    "bestSplits": [
+                        23532,
+                        37450,
+                        33347
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 94330,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23532,
+                        37450,
+                        33347
+                    ],
+                    "totalTime": 247785809
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "misano",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2025-01-01T10:01:04Z",
+    "SessionFile": "250101_100104_FP"
+}

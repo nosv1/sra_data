@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 110150,
+            "splits": [
+                35392,
+                39072,
+                35685
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109550,
+            "splits": [
+                35520,
+                38405,
+                35625
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 115222,
+            "splits": [
+                35375,
+                38512,
+                41335
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 32,
+    "sessionResult": {
+        "bestSplits": [
+            35520,
+            38405,
+            35625
+        ],
+        "bestlap": 109550,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Quinton",
+                            "lastName": "Schattner",
+                            "playerId": "S76561198120576863",
+                            "shortName": "SCH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 972,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Quinton",
+                    "lastName": "Schattner",
+                    "playerId": "S76561198120576863",
+                    "shortName": "SCH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 109550,
+                    "bestSplits": [
+                        35520,
+                        38405,
+                        35625
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 115222,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35375,
+                        38512,
+                        41335
+                    ],
+                    "totalTime": 246248188
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-09-22T13:32:28Z",
+    "SessionFile": "240922_133228_FP"
+}

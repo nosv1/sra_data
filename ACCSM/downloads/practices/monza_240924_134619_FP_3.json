@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110937,
+            "splits": [
+                35745,
+                39132,
+                36060
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 110500,
+            "splits": [
+                35907,
+                38625,
+                35967
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109407,
+            "splits": [
+                35507,
+                38320,
+                35580
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            35507,
+            38320,
+            35580
+        ],
+        "bestlap": 109407,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Sarver",
+                            "playerId": "S76561198102177223",
+                            "shortName": "SAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 717,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Sarver",
+                    "playerId": "S76561198102177223",
+                    "shortName": "SAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 109407,
+                    "bestSplits": [
+                        35507,
+                        38320,
+                        35580
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 109407,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35507,
+                        38320,
+                        35580
+                    ],
+                    "totalTime": 54623775
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:4c551af0-6c40-4523-973d-81e152227105",
+    "Date": "2024-09-24T13:46:19Z",
+    "SessionFile": "240924_134619_FP"
+}

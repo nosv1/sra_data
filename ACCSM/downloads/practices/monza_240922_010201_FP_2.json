@@ -1,0 +1,138 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109405,
+            "splits": [
+                35212,
+                38422,
+                35770
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109372,
+            "splits": [
+                35062,
+                38062,
+                36247
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            35062,
+            38062,
+            35770
+        ],
+        "bestlap": 109372,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Corey",
+                            "lastName": "Harville",
+                            "playerId": "S76561198036684109",
+                            "shortName": "HAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 575,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Corey",
+                    "lastName": "Harville",
+                    "playerId": "S76561198036684109",
+                    "shortName": "HAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 109372,
+                    "bestSplits": [
+                        35062,
+                        38062,
+                        35770
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 109372,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        35062,
+                        38062,
+                        36247
+                    ],
+                    "totalTime": 201205566
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Wilder",
+                            "lastName": "Vargas",
+                            "playerId": "S76561198987216490",
+                            "shortName": "WLD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 319,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Wilder",
+                    "lastName": "Vargas",
+                    "playerId": "S76561198987216490",
+                    "shortName": "WLD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-09-22T01:02:01Z",
+    "SessionFile": "240922_010201_FP"
+}

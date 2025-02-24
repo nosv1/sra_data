@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125867,
+            "splits": [
+                39350,
+                58365,
+                28152
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125807,
+            "splits": [
+                40282,
+                58145,
+                27380
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124642,
+            "splits": [
+                39537,
+                57705,
+                27400
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 38,
+    "sessionResult": {
+        "bestSplits": [
+            39350,
+            57705,
+            27380
+        ],
+        "bestlap": 124642,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Travis",
+                            "lastName": "Tatro",
+                            "playerId": "S76561197980112160",
+                            "shortName": "TAT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 578,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Travis",
+                    "lastName": "Tatro",
+                    "playerId": "S76561197980112160",
+                    "shortName": "TAT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 124642,
+                    "bestSplits": [
+                        39350,
+                        57705,
+                        27380
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 124642,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        39537,
+                        57705,
+                        27400
+                    ],
+                    "totalTime": 231310828
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2025-02-01T15:50:58Z",
+    "SessionFile": "250201_155058_FP"
+}

@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 129402,
+            "splits": [
+                27435,
+                49907,
+                52060
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            27435,
+            49907,
+            52060
+        ],
+        "bestlap": 129402,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Quinton",
+                            "lastName": "Schattner",
+                            "playerId": "S76561198120576863",
+                            "shortName": "SCH"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Quinton",
+                    "lastName": "Schattner",
+                    "playerId": "S76561198120576863",
+                    "shortName": "SCH"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 129402,
+                    "bestSplits": [
+                        27435,
+                        49907,
+                        52060
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 129402,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        27435,
+                        49907,
+                        52060
+                    ],
+                    "totalTime": 19857326
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a5cd859c-a680-4044-b0c3-1483d308775a",
+    "Date": "2024-07-14T22:13:58Z",
+    "SessionFile": "240714_221358_FP"
+}

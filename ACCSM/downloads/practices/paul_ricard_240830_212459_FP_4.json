@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122622,
+            "splits": [
+                34085,
+                33090,
+                55447
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123592,
+            "splits": [
+                34260,
+                33670,
+                55662
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122235,
+            "splits": [
+                33967,
+                33137,
+                55130
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Thomas",
+                            "lastName": "Neely",
+                            "playerId": "S76561198313239500",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 99,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Thomas",
+                    "lastName": "Neely",
+                    "playerId": "S76561198313239500",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 122235,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        33967,
+                        33137,
+                        55130
+                    ],
+                    "totalTime": 72538217
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAgg | #SRAM | GT3_QuickRace SRA ORientation Night | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:a5086f89-da89-4b38-8774-b7eb87b7e340",
+    "Date": "2024-08-30T21:24:59Z",
+    "SessionFile": "240830_212459_FP"
+}

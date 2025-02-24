@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102880,
+            "splits": [
+                21937,
+                33250,
+                47692
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102885,
+            "splits": [
+                21762,
+                32810,
+                48312
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101492,
+            "splits": [
+                21810,
+                32495,
+                47187
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104262,
+            "splits": [
+                23420,
+                33232,
+                47610
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 29,
+    "sessionResult": {
+        "bestSplits": [
+            21762,
+            32495,
+            47187
+        ],
+        "bestlap": 101492,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Gordon",
+                            "lastName": "Beverly III",
+                            "playerId": "S76561198067050195",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 7,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Gordon",
+                    "lastName": "Beverly III",
+                    "playerId": "S76561198067050195",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101492,
+                    "bestSplits": [
+                        21762,
+                        32495,
+                        47187
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 104262,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        23420,
+                        33232,
+                        47610
+                    ],
+                    "totalTime": 174841387
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-06-05T23:09:41Z",
+    "SessionFile": "240605_230941_FP"
+}

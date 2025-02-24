@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95547,
+            "splits": [
+                23307,
+                46702,
+                25537
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95010,
+            "splits": [
+                23092,
+                46065,
+                25852
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95002,
+            "splits": [
+                23152,
+                46217,
+                25632
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94142,
+            "splits": [
+                23015,
+                45562,
+                25565
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            23092,
+            46065,
+            25537
+        ],
+        "bestlap": 95002,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Neil",
+                            "lastName": "Sutherland",
+                            "playerId": "S76561198882130380",
+                            "shortName": "NSU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 62,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Neil",
+                    "lastName": "Sutherland",
+                    "playerId": "S76561198882130380",
+                    "shortName": "NSU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95002,
+                    "bestSplits": [
+                        23092,
+                        46065,
+                        25537
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 94142,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        23015,
+                        45562,
+                        25565
+                    ],
+                    "totalTime": 159614851
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "oulton_park",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2025-02-07T19:55:49Z",
+    "SessionFile": "250207_195549_FP"
+}

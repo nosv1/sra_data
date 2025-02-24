@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91410,
+            "splits": [
+                20655,
+                36095,
+                34660
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 89877,
+            "splits": [
+                20402,
+                35645,
+                33830
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 89032,
+            "splits": [
+                20500,
+                35045,
+                33487
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 89750,
+            "splits": [
+                20212,
+                35827,
+                33710
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            20212,
+            35045,
+            33487
+        ],
+        "bestlap": 89032,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 80,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "John",
+                            "lastName": "Ansom",
+                            "playerId": "S76561197993825152",
+                            "shortName": "JAN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 512,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "John",
+                    "lastName": "Ansom",
+                    "playerId": "S76561197993825152",
+                    "shortName": "JAN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 89032,
+                    "bestSplits": [
+                        20212,
+                        35045,
+                        33487
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 89750,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        20212,
+                        35827,
+                        33710
+                    ],
+                    "totalTime": 75887126
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:980886f4-3d29-441a-8c83-bc51e652c099",
+    "Date": "2024-06-27T20:51:36Z",
+    "SessionFile": "240627_205136_FP"
+}

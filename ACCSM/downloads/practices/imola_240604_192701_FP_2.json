@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103967,
+            "splits": [
+                22310,
+                33625,
+                48032
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106057,
+            "splits": [
+                23570,
+                34227,
+                48260
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103170,
+            "splits": [
+                22215,
+                33100,
+                47855
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103732,
+            "splits": [
+                22262,
+                33037,
+                48432
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102897,
+            "splits": [
+                22120,
+                33100,
+                47677
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            22120,
+            33037,
+            47677
+        ],
+        "bestlap": 102897,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Steven",
+                            "lastName": "Music",
+                            "playerId": "S76561198009883098",
+                            "shortName": "MUS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 466,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Steven",
+                    "lastName": "Music",
+                    "playerId": "S76561198009883098",
+                    "shortName": "MUS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 102897,
+                    "bestSplits": [
+                        22120,
+                        33037,
+                        47677
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 102897,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22120,
+                        33100,
+                        47677
+                    ],
+                    "totalTime": 74946445
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D4  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2024-06-04T19:27:01Z",
+    "SessionFile": "240604_192701_FP"
+}

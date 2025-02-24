@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141247,
+            "splits": [
+                41267,
+                62687,
+                37292
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 157020,
+            "splits": [
+                41725,
+                77440,
+                37855
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140615,
+            "splits": [
+                40922,
+                62752,
+                36940
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 148647,
+            "splits": [
+                41232,
+                63330,
+                44085
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 56,
+    "sessionResult": {
+        "bestSplits": [
+            40922,
+            62687,
+            36940
+        ],
+        "bestlap": 140615,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Ralli",
+                            "lastName": "Dutchie",
+                            "playerId": "S76561198280604608",
+                            "shortName": "RDA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 621,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ralli",
+                    "lastName": "Dutchie",
+                    "playerId": "S76561198280604608",
+                    "shortName": "RDA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 140615,
+                    "bestSplits": [
+                        40922,
+                        62687,
+                        36940
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 148647,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41232,
+                        63330,
+                        44085
+                    ],
+                    "totalTime": 886648154
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-30T20:29:32Z",
+    "SessionFile": "240530_202932_FP"
+}

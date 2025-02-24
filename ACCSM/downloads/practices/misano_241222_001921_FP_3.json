@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97495,
+            "splits": [
+                24517,
+                38520,
+                34457
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97807,
+            "splits": [
+                24282,
+                38412,
+                35112
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96492,
+            "splits": [
+                24255,
+                38132,
+                34105
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97095,
+            "splits": [
+                24222,
+                38570,
+                34302
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 5,
+    "sessionResult": {
+        "bestSplits": [
+            24222,
+            38132,
+            34105
+        ],
+        "bestlap": 96492,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Tim",
+                            "lastName": "DuCharme",
+                            "playerId": "S76561198016650083",
+                            "shortName": "TED"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 644,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tim",
+                    "lastName": "DuCharme",
+                    "playerId": "S76561198016650083",
+                    "shortName": "TED"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96492,
+                    "bestSplits": [
+                        24222,
+                        38132,
+                        34105
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 97095,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        24222,
+                        38570,
+                        34302
+                    ],
+                    "totalTime": 23801778
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "misano",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-12-22T00:19:21Z",
+    "SessionFile": "241222_001921_FP"
+}

@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 90390,
+            "splits": [
+                27157,
+                29300,
+                33932
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 86710,
+            "splits": [
+                22327,
+                30275,
+                34107
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85327,
+            "splits": [
+                22312,
+                29592,
+                33422
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 85397,
+            "splits": [
+                22355,
+                29282,
+                33760
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85797,
+            "splits": [
+                22627,
+                29070,
+                34100
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            22312,
+            29070,
+            33422
+        ],
+        "bestlap": 85327,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Rowdy",
+                            "lastName": "Burnz",
+                            "playerId": "S76561198127611429",
+                            "shortName": "BUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 551,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Rowdy",
+                    "lastName": "Burnz",
+                    "playerId": "S76561198127611429",
+                    "shortName": "BUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 85327,
+                    "bestSplits": [
+                        22312,
+                        29070,
+                        33422
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 85797,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22627,
+                        29070,
+                        34100
+                    ],
+                    "totalTime": 69259480
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+    "Date": "2024-09-11T18:49:52Z",
+    "SessionFile": "240911_184952_FP"
+}

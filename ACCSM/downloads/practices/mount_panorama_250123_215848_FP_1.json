@@ -1,0 +1,175 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141402,
+            "splits": [
+                45047,
+                68155,
+                28200
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 141515,
+            "splits": [
+                44695,
+                68017,
+                28802
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 128457,
+            "splits": [
+                39945,
+                60387,
+                28125
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 128082,
+            "splits": [
+                39780,
+                60315,
+                27987
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139922,
+            "splits": [
+                39832,
+                64470,
+                35620
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            39780,
+            60315,
+            27987
+        ],
+        "bestlap": 128082,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Riley",
+                            "lastName": "Greear",
+                            "playerId": "S76561199295227155",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 293,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Riley",
+                    "lastName": "Greear",
+                    "playerId": "S76561199295227155",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 128082,
+                    "bestSplits": [
+                        39780,
+                        60315,
+                        27987
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 139922,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        39832,
+                        64470,
+                        35620
+                    ],
+                    "totalTime": 1894001
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Fin",
+                            "lastName": "Gen",
+                            "playerId": "S76561198828770754",
+                            "shortName": "GEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 181,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Fin",
+                    "lastName": "Gen",
+                    "playerId": "S76561198828770754",
+                    "shortName": "GEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 141515,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        44695,
+                        68017,
+                        28802
+                    ],
+                    "totalTime": 2313148
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2025-01-23T21:58:48Z",
+    "SessionFile": "250123_215848_FP"
+}

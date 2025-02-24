@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 92640,
+            "splits": [
+                20675,
+                35260,
+                36705
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87997,
+            "splits": [
+                20347,
+                34487,
+                33162
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 88965,
+            "splits": [
+                21365,
+                34347,
+                33252
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 90012,
+            "splits": [
+                20490,
+                36505,
+                33017
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 87645,
+            "splits": [
+                20392,
+                34342,
+                32910
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 14,
+    "sessionResult": {
+        "bestSplits": [
+            20347,
+            34342,
+            32910
+        ],
+        "bestlap": 87645,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Landon",
+                            "lastName": "Drebes",
+                            "playerId": "S76561198272388895",
+                            "shortName": "LSD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 350,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Landon",
+                    "lastName": "Drebes",
+                    "playerId": "S76561198272388895",
+                    "shortName": "LSD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 87645,
+                    "bestSplits": [
+                        20347,
+                        34342,
+                        32910
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 87645,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        20392,
+                        34342,
+                        32910
+                    ],
+                    "totalTime": 242023885
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-06-24T19:57:41Z",
+    "SessionFile": "240624_195741_FP"
+}

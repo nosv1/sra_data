@@ -1,0 +1,196 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 555622,
+            "splits": [
+                191780,
+                173090,
+                190752
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 526607,
+            "splits": [
+                180582,
+                163702,
+                182322
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 522370,
+            "splits": [
+                180125,
+                163337,
+                178907
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            180582,
+            163702,
+            182322
+        ],
+        "bestlap": 526607,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Pat",
+                            "lastName": "Cockcroft",
+                            "playerId": "S76561197978143979",
+                            "shortName": "PAT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 986,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Pat",
+                    "lastName": "Cockcroft",
+                    "playerId": "S76561197978143979",
+                    "shortName": "PAT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 526607,
+                    "bestSplits": [
+                        180582,
+                        163702,
+                        182322
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 522370,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        180125,
+                        163337,
+                        178907
+                    ],
+                    "totalTime": 2097249
+                }
+            },
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 55,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Tyler",
+                            "lastName": "Thompson",
+                            "playerId": "S76561199157288200",
+                            "shortName": "TAT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 24,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tyler",
+                    "lastName": "Thompson",
+                    "playerId": "S76561199157288200",
+                    "shortName": "TAT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 555622,
+                    "bestSplits": [
+                        191780,
+                        173090,
+                        190752
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 555622,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        191780,
+                        173090,
+                        190752
+                    ],
+                    "totalTime": 3019453
+                }
+            },
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 55,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "JF",
+                            "lastName": "Darling",
+                            "playerId": "S76561199060309229",
+                            "shortName": "JFD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 68,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "JF",
+                    "lastName": "Darling",
+                    "playerId": "S76561199060309229",
+                    "shortName": "JFD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 2,
+                    "lastSplits": [],
+                    "totalTime": 3021075
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggSRA - Multiclass Mayhem - NEC Rd 1 Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:79ff4173-7b6a-4ce4-81de-eabd321f678b",
+    "Date": "2024-05-22T23:46:52Z",
+    "SessionFile": "240522_234652_FP"
+}

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107880,
+            "splits": [
+                34952,
+                37857,
+                35070
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107760,
+            "splits": [
+                34862,
+                37707,
+                35190
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107322,
+            "splits": [
+                34817,
+                37495,
+                35010
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            34817,
+            37495,
+            35010
+        ],
+        "bestlap": 107322,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Lo\u00efc",
+                            "lastName": "Normandeau",
+                            "playerId": "S76561198442156717",
+                            "shortName": "NOR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 860,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Lo\u00efc",
+                    "lastName": "Normandeau",
+                    "playerId": "S76561198442156717",
+                    "shortName": "NOR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107322,
+                    "bestSplits": [
+                        34817,
+                        37495,
+                        35010
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 107322,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        34817,
+                        37495,
+                        35010
+                    ],
+                    "totalTime": 66471859
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-09-24T17:05:19Z",
+    "SessionFile": "240924_170519_FP"
+}

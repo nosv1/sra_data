@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 157362,
+            "splits": [
+                30582,
+                67370,
+                59410
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 144765,
+            "splits": [
+                30292,
+                56447,
+                58025
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 145530,
+            "splits": [
+                30820,
+                56415,
+                58295
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 43,
+    "sessionResult": {
+        "bestSplits": [
+            30292,
+            56415,
+            58025
+        ],
+        "bestlap": 144765,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Ian",
+                            "lastName": "Gilchrist",
+                            "playerId": "S76561199248922264",
+                            "shortName": "IGG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 886,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ian",
+                    "lastName": "Gilchrist",
+                    "playerId": "S76561199248922264",
+                    "shortName": "IGG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 144765,
+                    "bestSplits": [
+                        30292,
+                        56415,
+                        58025
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 145530,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        30820,
+                        56415,
+                        58295
+                    ],
+                    "totalTime": 138233230
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-13T14:44:40Z",
+    "SessionFile": "240713_144440_FP"
+}

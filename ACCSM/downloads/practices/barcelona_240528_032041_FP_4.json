@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106870,
+            "splits": [
+                30097,
+                40952,
+                35820
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107465,
+            "splits": [
+                29797,
+                41962,
+                35705
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105022,
+            "splits": [
+                29490,
+                40452,
+                35080
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            29490,
+            40452,
+            35080
+        ],
+        "bestlap": 105022,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Kevin",
+                            "lastName": "Happyface [Phoenix]",
+                            "playerId": "S76561198101374775",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 247,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Kevin",
+                    "lastName": "Happyface [Phoenix]",
+                    "playerId": "S76561198101374775",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105022,
+                    "bestSplits": [
+                        29490,
+                        40452,
+                        35080
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 105022,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29490,
+                        40452,
+                        35080
+                    ],
+                    "totalTime": 17128177
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-05-28T03:20:41Z",
+    "SessionFile": "240528_032041_FP"
+}

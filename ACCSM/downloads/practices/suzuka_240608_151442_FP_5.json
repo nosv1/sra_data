@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126022,
+            "splits": [
+                41235,
+                57697,
+                27090
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121502,
+            "splits": [
+                40950,
+                54012,
+                26540
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122992,
+            "splits": [
+                41177,
+                53922,
+                27892
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122200,
+            "splits": [
+                41535,
+                53690,
+                26975
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121187,
+            "splits": [
+                40835,
+                53655,
+                26697
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            40835,
+            53655,
+            26697
+        ],
+        "bestlap": 121187,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Samuel",
+                            "lastName": "Cortes ",
+                            "playerId": "S76561199087130773",
+                            "shortName": "SCD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 331,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Samuel",
+                    "lastName": "Cortes ",
+                    "playerId": "S76561199087130773",
+                    "shortName": "SCD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121187,
+                    "bestSplits": [
+                        40835,
+                        53655,
+                        26697
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 121187,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40835,
+                        53655,
+                        26697
+                    ],
+                    "totalTime": 52437181
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-06-08T15:14:42Z",
+    "SessionFile": "240608_151442_FP"
+}

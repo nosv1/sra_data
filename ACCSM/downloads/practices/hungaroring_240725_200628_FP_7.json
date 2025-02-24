@@ -1,0 +1,237 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 149345,
+            "splits": [
+                53100,
+                43752,
+                52492
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117100,
+            "splits": [
+                40335,
+                44857,
+                31907
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 117902,
+            "splits": [
+                40800,
+                44667,
+                32435
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115357,
+            "splits": [
+                39500,
+                43545,
+                32312
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126755,
+            "splits": [
+                39982,
+                43795,
+                42977
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 149342,
+            "splits": [
+                51140,
+                49530,
+                48672
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118495,
+            "splits": [
+                41497,
+                44280,
+                32717
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116230,
+            "splits": [
+                40027,
+                43747,
+                32455
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 114205,
+            "splits": [
+                39925,
+                42695,
+                31585
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126642,
+            "splits": [
+                40432,
+                43582,
+                42627
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129050,
+            "splits": [
+                40352,
+                45160,
+                43537
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120622,
+            "splits": [
+                40477,
+                43115,
+                37030
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 116205,
+            "splits": [
+                40365,
+                44010,
+                31830
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 119315,
+            "splits": [
+                40557,
+                45197,
+                33560
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 13
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            39500,
+            42695,
+            31585
+        ],
+        "bestlap": 114205,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Martin",
+                            "lastName": "Radoslavov",
+                            "playerId": "S76561198117500281",
+                            "shortName": "RAD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 911,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Martin",
+                    "lastName": "Radoslavov",
+                    "playerId": "S76561198117500281",
+                    "shortName": "RAD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 114205,
+                    "bestSplits": [
+                        39500,
+                        42695,
+                        31585
+                    ],
+                    "lapCount": 14,
+                    "lastLap": 119315,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        40557,
+                        45197,
+                        33560
+                    ],
+                    "totalTime": 43933451
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-07-25T20:06:28Z",
+    "SessionFile": "240725_200628_FP"
+}

@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141495,
+            "splits": [
+                29485,
+                54597,
+                57412
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140832,
+            "splits": [
+                29275,
+                54562,
+                56995
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 30,
+    "sessionResult": {
+        "bestSplits": [
+            29275,
+            54562,
+            56995
+        ],
+        "bestlap": 140832,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Shaun",
+                            "lastName": "Daniels",
+                            "playerId": "S76561198105233841",
+                            "shortName": "LQD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 87,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Shaun",
+                    "lastName": "Daniels",
+                    "playerId": "S76561198105233841",
+                    "shortName": "LQD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 140832,
+                    "bestSplits": [
+                        29275,
+                        54562,
+                        56995
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 140832,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29275,
+                        54562,
+                        56995
+                    ],
+                    "totalTime": 176210356
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-07-14T01:17:31Z",
+    "SessionFile": "240714_011731_FP"
+}

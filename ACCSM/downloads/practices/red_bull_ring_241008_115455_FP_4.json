@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94275,
+            "splits": [
+                23580,
+                40965,
+                29730
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94615,
+            "splits": [
+                23792,
+                41062,
+                29760
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 94405,
+            "splits": [
+                23660,
+                41207,
+                29537
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 5,
+    "sessionResult": {
+        "bestSplits": [
+            23580,
+            40965,
+            29730
+        ],
+        "bestlap": 94275,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "colin",
+                            "lastName": "shea",
+                            "playerId": "S76561198171727959",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 945,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "colin",
+                    "lastName": "shea",
+                    "playerId": "S76561198171727959",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 94275,
+                    "bestSplits": [
+                        23580,
+                        40965,
+                        29730
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 94405,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23660,
+                        41207,
+                        29537
+                    ],
+                    "totalTime": 47946140
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-10-08T11:54:55Z",
+    "SessionFile": "241008_115455_FP"
+}

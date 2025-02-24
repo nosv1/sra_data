@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 145022,
+            "splits": [
+                31477,
+                55127,
+                58417
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139590,
+            "splits": [
+                29150,
+                53870,
+                56570
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140387,
+            "splits": [
+                28945,
+                54212,
+                57230
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140567,
+            "splits": [
+                29230,
+                54357,
+                56980
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139457,
+            "splits": [
+                29260,
+                53932,
+                56265
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            29150,
+            53870,
+            56265
+        ],
+        "bestlap": 139457,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Noah",
+                            "lastName": "Fong",
+                            "playerId": "S76561198130433202",
+                            "shortName": "NAF"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 838,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Noah",
+                    "lastName": "Fong",
+                    "playerId": "S76561198130433202",
+                    "shortName": "NAF"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139457,
+                    "bestSplits": [
+                        29150,
+                        53870,
+                        56265
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 139457,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29260,
+                        53932,
+                        56265
+                    ],
+                    "totalTime": 15008203
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-07-16T02:45:37Z",
+    "SessionFile": "240716_024537_FP"
+}

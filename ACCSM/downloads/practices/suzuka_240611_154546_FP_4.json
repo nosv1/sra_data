@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122222,
+            "splits": [
+                40840,
+                54435,
+                26947
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121597,
+            "splits": [
+                40695,
+                53882,
+                27020
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121397,
+            "splits": [
+                40455,
+                53985,
+                26957
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 14,
+    "sessionResult": {
+        "bestSplits": [
+            40455,
+            53882,
+            26947
+        ],
+        "bestlap": 121397,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "J",
+                            "lastName": "Eric",
+                            "playerId": "S76561198012336609",
+                            "shortName": "JEM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 696,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "J",
+                    "lastName": "Eric",
+                    "playerId": "S76561198012336609",
+                    "shortName": "JEM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121397,
+                    "bestSplits": [
+                        40455,
+                        53882,
+                        26947
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 121397,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40455,
+                        53985,
+                        26957
+                    ],
+                    "totalTime": 60764237
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-06-11T15:45:46Z",
+    "SessionFile": "240611_154546_FP"
+}

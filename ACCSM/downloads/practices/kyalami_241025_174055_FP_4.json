@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 136820,
+            "splits": [
+                64042,
+                42027,
+                30750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104792,
+            "splits": [
+                32025,
+                41617,
+                31150
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            32025,
+            41617,
+            31150
+        ],
+        "bestlap": 104792,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Bobby",
+                            "lastName": "Hix",
+                            "playerId": "S76561197994696834",
+                            "shortName": "BHX"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 51,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bobby",
+                    "lastName": "Hix",
+                    "playerId": "S76561197994696834",
+                    "shortName": "BHX"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104792,
+                    "bestSplits": [
+                        32025,
+                        41617,
+                        31150
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 104792,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32025,
+                        41617,
+                        31150
+                    ],
+                    "totalTime": 18001740
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "kyalami",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:d2d5c05a-6bec-47a2-9145-c96996cc7437",
+    "Date": "2024-10-25T17:40:55Z",
+    "SessionFile": "241025_174055_FP"
+}

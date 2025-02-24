@@ -1,0 +1,208 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 498005,
+            "splits": [
+                171750,
+                155790,
+                170465
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 502160,
+            "splits": [
+                173210,
+                155947,
+                173002
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 509572,
+            "splits": [
+                173667,
+                158242,
+                177662
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 497900,
+            "splits": [
+                171447,
+                155490,
+                170962
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 501605,
+            "splits": [
+                171692,
+                157547,
+                172365
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 509930,
+            "splits": [
+                173350,
+                160650,
+                175930
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 499810,
+            "splits": [
+                172162,
+                155752,
+                171895
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 505282,
+            "splits": [
+                172280,
+                157172,
+                175830
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 19,
+    "sessionResult": {
+        "bestSplits": [
+            171750,
+            155790,
+            170465
+        ],
+        "bestlap": 498005,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Simon",
+                            "lastName": "Gorial",
+                            "playerId": "S76561199440355289",
+                            "shortName": "ZYR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 248,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Simon",
+                    "lastName": "Gorial",
+                    "playerId": "S76561199440355289",
+                    "shortName": "ZYR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 498005,
+                    "bestSplits": [
+                        171750,
+                        155790,
+                        170465
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 499810,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        172162,
+                        155752,
+                        171895
+                    ],
+                    "totalTime": 4689174
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Kemo",
+                            "lastName": "Sith",
+                            "playerId": "S76561198048141545",
+                            "shortName": "KEM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 987,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Kemo",
+                    "lastName": "Sith",
+                    "playerId": "S76561198048141545",
+                    "shortName": "KEM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 505282,
+                    "bestSplits": [
+                        172280,
+                        157172,
+                        175830
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 505282,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        172280,
+                        157172,
+                        175830
+                    ],
+                    "totalTime": 5190372
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-07-03T11:57:05Z",
+    "SessionFile": "240703_115705_FP"
+}

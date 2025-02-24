@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106290,
+            "splits": [
+                29912,
+                40785,
+                35592
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106097,
+            "splits": [
+                29600,
+                40620,
+                35877
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105800,
+            "splits": [
+                29712,
+                40757,
+                35330
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106762,
+            "splits": [
+                30072,
+                40760,
+                35930
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            29600,
+            40620,
+            35330
+        ],
+        "bestlap": 105800,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Al",
+                            "lastName": "Lotufo",
+                            "playerId": "S76561197965864959",
+                            "shortName": "LOT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 4,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Al",
+                    "lastName": "Lotufo",
+                    "playerId": "S76561197965864959",
+                    "shortName": "LOT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105800,
+                    "bestSplits": [
+                        29600,
+                        40620,
+                        35330
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 106762,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        30072,
+                        40760,
+                        35930
+                    ],
+                    "totalTime": 583012
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-05-24T10:31:30Z",
+    "SessionFile": "240524_103130_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96247,
+            "splits": [
+                23785,
+                42945,
+                29517
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 93887,
+            "splits": [
+                23472,
+                41142,
+                29272
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94590,
+            "splits": [
+                23600,
+                41567,
+                29422
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 94377,
+            "splits": [
+                23420,
+                41485,
+                29472
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 23,
+    "sessionResult": {
+        "bestSplits": [
+            23420,
+            41142,
+            29272
+        ],
+        "bestlap": 93887,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Robert",
+                            "lastName": "Almeida",
+                            "playerId": "S76561199219039443",
+                            "shortName": "SBY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 561,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Robert",
+                    "lastName": "Almeida",
+                    "playerId": "S76561199219039443",
+                    "shortName": "SBY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 93887,
+                    "bestSplits": [
+                        23420,
+                        41142,
+                        29272
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 94377,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        23420,
+                        41485,
+                        29472
+                    ],
+                    "totalTime": 206878974
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:00f04fab-0bff-429a-a5eb-8e77e138caec",
+    "Date": "2024-10-05T12:51:36Z",
+    "SessionFile": "241005_125136_FP"
+}

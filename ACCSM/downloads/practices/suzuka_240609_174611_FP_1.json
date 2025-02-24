@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 124115,
+            "splits": [
+                41850,
+                55012,
+                27252
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123907,
+            "splits": [
+                41340,
+                55112,
+                27455
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124340,
+            "splits": [
+                41255,
+                54830,
+                28255
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 32,
+    "sessionResult": {
+        "bestSplits": [
+            41255,
+            54830,
+            27455
+        ],
+        "bestlap": 123907,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jordan",
+                            "lastName": "Kimball",
+                            "playerId": "S76561198067871370",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 28,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jordan",
+                    "lastName": "Kimball",
+                    "playerId": "S76561198067871370",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123907,
+                    "bestSplits": [
+                        41255,
+                        54830,
+                        27455
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 124340,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        41255,
+                        54830,
+                        28255
+                    ],
+                    "totalTime": 324651643
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-06-09T17:46:11Z",
+    "SessionFile": "240609_174611_FP"
+}

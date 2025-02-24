@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 538650,
+            "splits": [
+                182750,
+                169565,
+                186335
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 545782,
+            "splits": [
+                181755,
+                167805,
+                196222
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 537310,
+            "splits": [
+                182162,
+                169347,
+                185800
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            182750,
+            169565,
+            186335
+        ],
+        "bestlap": 538650,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Corey",
+                            "lastName": "Coult",
+                            "playerId": "S76561199588176130",
+                            "shortName": "CLT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 960,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Corey",
+                    "lastName": "Coult",
+                    "playerId": "S76561199588176130",
+                    "shortName": "CLT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 538650,
+                    "bestSplits": [
+                        182750,
+                        169565,
+                        186335
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 537310,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        182162,
+                        169347,
+                        185800
+                    ],
+                    "totalTime": 162836020
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-03T13:29:39Z",
+    "SessionFile": "240703_132939_FP"
+}

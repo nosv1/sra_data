@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96960,
+            "splits": [
+                24582,
+                38190,
+                34187
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96060,
+            "splits": [
+                24102,
+                38322,
+                33635
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97192,
+            "splits": [
+                24197,
+                38672,
+                34322
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            24582,
+            38190,
+            34187
+        ],
+        "bestlap": 96960,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Colin",
+                            "lastName": "Shea",
+                            "playerId": "S76561198171727959",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 945,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Colin",
+                    "lastName": "Shea",
+                    "playerId": "S76561198171727959",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96960,
+                    "bestSplits": [
+                        24582,
+                        38190,
+                        34187
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 97192,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        24197,
+                        38672,
+                        34322
+                    ],
+                    "totalTime": 40816468
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "misano",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2025-01-07T10:03:47Z",
+    "SessionFile": "250107_100347_FP"
+}

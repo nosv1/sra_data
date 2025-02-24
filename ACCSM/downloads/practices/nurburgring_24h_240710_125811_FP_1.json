@@ -1,0 +1,186 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 503737,
+            "splits": [
+                174145,
+                157525,
+                172067
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 505442,
+            "splits": [
+                173410,
+                156790,
+                175242
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 501290,
+            "splits": [
+                173000,
+                156502,
+                171787
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 511105,
+            "splits": [
+                175182,
+                160565,
+                175357
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 508675,
+            "splits": [
+                176642,
+                157610,
+                174422
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 506065,
+            "splits": [
+                174080,
+                158022,
+                173962
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            173000,
+            156502,
+            171787
+        ],
+        "bestlap": 501290,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "nan",
+                            "lastName": "Arct",
+                            "playerId": "S76561198279907335",
+                            "shortName": "ARC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 370,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "nan",
+                    "lastName": "Arct",
+                    "playerId": "S76561198279907335",
+                    "shortName": "ARC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 501290,
+                    "bestSplits": [
+                        173000,
+                        156502,
+                        171787
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 501290,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        173000,
+                        156502,
+                        171787
+                    ],
+                    "totalTime": 2009469
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Jorge",
+                            "lastName": "Blasini Rivera",
+                            "playerId": "S76561198093327914",
+                            "shortName": "JBR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 386,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jorge",
+                    "lastName": "Blasini Rivera",
+                    "playerId": "S76561198093327914",
+                    "shortName": "JBR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 508675,
+                    "bestSplits": [
+                        175182,
+                        157610,
+                        174422
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 506065,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        174080,
+                        158022,
+                        173962
+                    ],
+                    "totalTime": 3459019
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D2  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:e8acb295-5255-46a2-8a82-9a214f940726",
+    "Date": "2024-07-10T12:58:11Z",
+    "SessionFile": "240710_125811_FP"
+}

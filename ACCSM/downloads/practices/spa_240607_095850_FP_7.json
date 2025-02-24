@@ -1,0 +1,252 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137500,
+            "splits": [
+                40552,
+                60540,
+                36407
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 137362,
+            "splits": [
+                40640,
+                60355,
+                36367
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136995,
+            "splits": [
+                40655,
+                60060,
+                36280
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136980,
+            "splits": [
+                40737,
+                60022,
+                36220
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136915,
+            "splits": [
+                40702,
+                60037,
+                36175
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 137022,
+            "splits": [
+                40832,
+                59967,
+                36222
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140990,
+            "splits": [
+                41602,
+                62585,
+                36802
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136912,
+            "splits": [
+                40595,
+                60067,
+                36250
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140550,
+            "splits": [
+                41120,
+                62505,
+                36925
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136690,
+            "splits": [
+                40460,
+                59887,
+                36342
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139462,
+            "splits": [
+                41027,
+                61705,
+                36730
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139620,
+            "splits": [
+                41125,
+                61917,
+                36577
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 145,
+    "sessionResult": {
+        "bestSplits": [
+            40460,
+            59887,
+            36175
+        ],
+        "bestlap": 136690,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 31,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Aaron",
+                            "lastName": "Williams",
+                            "playerId": "S76561198854000039",
+                            "shortName": "AFW"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 40,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aaron",
+                    "lastName": "Williams",
+                    "playerId": "S76561198854000039",
+                    "shortName": "AFW"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 136690,
+                    "bestSplits": [
+                        40460,
+                        59887,
+                        36175
+                    ],
+                    "lapCount": 8,
+                    "lastLap": 136690,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40460,
+                        59887,
+                        36342
+                    ],
+                    "totalTime": 1538832932
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Garrett",
+                            "lastName": "Cooper",
+                            "playerId": "S76561198832087792",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Garrett",
+                    "lastName": "Cooper",
+                    "playerId": "S76561198832087792",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 139462,
+                    "bestSplits": [
+                        41027,
+                        61705,
+                        36577
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 139620,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41125,
+                        61917,
+                        36577
+                    ],
+                    "totalTime": 1539024381
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-06-07T09:58:50Z",
+    "SessionFile": "240607_095850_FP"
+}

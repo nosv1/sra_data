@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138867,
+            "splits": [
+                40775,
+                61307,
+                36785
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139685,
+            "splits": [
+                40612,
+                62537,
+                36535
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 60,
+    "sessionResult": {
+        "bestSplits": [
+            40775,
+            61307,
+            36785
+        ],
+        "bestlap": 138867,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Jeffries",
+                            "playerId": "S76561197971724910",
+                            "shortName": "MTJ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 56,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Jeffries",
+                    "playerId": "S76561197971724910",
+                    "shortName": "MTJ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 138867,
+                    "bestSplits": [
+                        40775,
+                        61307,
+                        36785
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 139685,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40612,
+                        62537,
+                        36535
+                    ],
+                    "totalTime": 893225598
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-30T22:18:14Z",
+    "SessionFile": "240530_221814_FP"
+}

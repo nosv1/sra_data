@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104807,
+            "splits": [
+                29722,
+                40362,
+                34722
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104572,
+            "splits": [
+                29480,
+                40295,
+                34797
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104545,
+            "splits": [
+                29480,
+                40030,
+                35035
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106257,
+            "splits": [
+                29622,
+                40295,
+                36340
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 25,
+    "sessionResult": {
+        "bestSplits": [
+            29480,
+            40030,
+            34722
+        ],
+        "bestlap": 104545,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Roy",
+                            "lastName": "Keay",
+                            "playerId": "S76561198018246823",
+                            "shortName": "RKY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 888,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Roy",
+                    "lastName": "Keay",
+                    "playerId": "S76561198018246823",
+                    "shortName": "RKY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104545,
+                    "bestSplits": [
+                        29480,
+                        40030,
+                        34722
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 106257,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29622,
+                        40295,
+                        36340
+                    ],
+                    "totalTime": 141470714
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-05-24T14:53:04Z",
+    "SessionFile": "240524_145304_FP"
+}

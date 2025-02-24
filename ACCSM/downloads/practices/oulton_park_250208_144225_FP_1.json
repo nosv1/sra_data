@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1010,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95622,
+            "splits": [
+                23415,
+                46047,
+                26160
+            ]
+        },
+        {
+            "carId": 1010,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95517,
+            "splits": [
+                23617,
+                46197,
+                25702
+            ]
+        },
+        {
+            "carId": 1010,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95672,
+            "splits": [
+                23600,
+                46240,
+                25832
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 31,
+    "sessionResult": {
+        "bestSplits": [
+            23415,
+            46047,
+            25702
+        ],
+        "bestlap": 95517,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1010,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Darren",
+                            "lastName": "Robichaud",
+                            "playerId": "S76561199232988903",
+                            "shortName": "DMR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 357,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Darren",
+                    "lastName": "Robichaud",
+                    "playerId": "S76561199232988903",
+                    "shortName": "DMR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95517,
+                    "bestSplits": [
+                        23415,
+                        46047,
+                        25702
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 95672,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        23600,
+                        46240,
+                        25832
+                    ],
+                    "totalTime": 227148937
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "oulton_park",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2025-02-08T14:42:25Z",
+    "SessionFile": "250208_144225_FP"
+}

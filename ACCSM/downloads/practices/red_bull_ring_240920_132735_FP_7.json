@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 91477,
+            "splits": [
+                23920,
+                39535,
+                28022
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90105,
+            "splits": [
+                22932,
+                39477,
+                27695
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 89575,
+            "splits": [
+                22550,
+                39305,
+                27720
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 60,
+    "sessionResult": {
+        "bestSplits": [
+            22550,
+            39305,
+            27695
+        ],
+        "bestlap": 89575,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "MacKechnie",
+                            "playerId": "S76561198328203388",
+                            "shortName": "JMA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 35,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "MacKechnie",
+                    "playerId": "S76561198328203388",
+                    "shortName": "JMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 89575,
+                    "bestSplits": [
+                        22550,
+                        39305,
+                        27695
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 89575,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        22550,
+                        39305,
+                        27720
+                    ],
+                    "totalTime": 360471144
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+    "Date": "2024-09-20T13:27:35Z",
+    "SessionFile": "240920_132735_FP"
+}

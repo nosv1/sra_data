@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 89572,
+            "splits": [
+                22502,
+                39602,
+                27467
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 90217,
+            "splits": [
+                23230,
+                39717,
+                27270
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 89002,
+            "splits": [
+                22542,
+                39197,
+                27262
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 9,
+    "sessionResult": {
+        "bestSplits": [
+            22542,
+            39197,
+            27262
+        ],
+        "bestlap": 89002,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Josh",
+                            "lastName": "Popov",
+                            "playerId": "S76561198422192269",
+                            "shortName": "JPP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 904,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Josh",
+                    "lastName": "Popov",
+                    "playerId": "S76561198422192269",
+                    "shortName": "JPP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 89002,
+                    "bestSplits": [
+                        22542,
+                        39197,
+                        27262
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 89002,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22542,
+                        39197,
+                        27262
+                    ],
+                    "totalTime": 55371800
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAgg | Endurance Series - Red Bull Ring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:ad2de45e-a70a-451c-ac06-c182b159ff3d",
+    "Date": "2024-09-08T21:01:21Z",
+    "SessionFile": "240908_210121_FP"
+}

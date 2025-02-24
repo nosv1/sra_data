@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 497642,
+            "splits": [
+                171757,
+                154260,
+                171625
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 496427,
+            "splits": [
+                171500,
+                155120,
+                169807
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 494297,
+            "splits": [
+                170857,
+                154187,
+                169252
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            171500,
+            155120,
+            169807
+        ],
+        "bestlap": 496427,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dominic",
+                            "lastName": "Duran",
+                            "playerId": "S76561199075879890",
+                            "shortName": "DCD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 1,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dominic",
+                    "lastName": "Duran",
+                    "playerId": "S76561199075879890",
+                    "shortName": "DCD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 496427,
+                    "bestSplits": [
+                        171500,
+                        155120,
+                        169807
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 494297,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        170857,
+                        154187,
+                        169252
+                    ],
+                    "totalTime": 91228544
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-06-30T02:02:37Z",
+    "SessionFile": "240630_020237_FP"
+}

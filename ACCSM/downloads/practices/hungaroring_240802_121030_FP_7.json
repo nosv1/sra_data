@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 119607,
+            "splits": [
+                42565,
+                43915,
+                33127
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 119365,
+            "splits": [
+                42762,
+                43485,
+                33117
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120675,
+            "splits": [
+                42660,
+                44037,
+                33977
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 83,
+    "sessionResult": {
+        "bestSplits": [
+            42565,
+            43485,
+            33117
+        ],
+        "bestlap": 119365,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 27,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Calvin",
+                            "lastName": "Wolfe | ZRL",
+                            "playerId": "S76561198016006290",
+                            "shortName": "ZRL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 124,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Calvin",
+                    "lastName": "Wolfe | ZRL",
+                    "playerId": "S76561198016006290",
+                    "shortName": "ZRL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 119365,
+                    "bestSplits": [
+                        42565,
+                        43485,
+                        33117
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 120675,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        42660,
+                        44037,
+                        33977
+                    ],
+                    "totalTime": 457703319
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "hungaroring",
+    "serverName": "#SRAgg | M2s & Missiles 3 Hours of Hungaroring Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:1f70dcc5-2442-4ddb-889b-eda2e8946ef4",
+    "Date": "2024-08-02T12:10:30Z",
+    "SessionFile": "240802_121030_FP"
+}

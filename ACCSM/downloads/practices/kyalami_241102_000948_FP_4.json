@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 111387,
+            "splits": [
+                37295,
+                42262,
+                31830
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 112240,
+            "splits": [
+                38082,
+                42115,
+                32042
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107882,
+            "splits": [
+                33602,
+                43060,
+                31220
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 17,
+    "sessionResult": {
+        "bestSplits": [
+            33602,
+            43060,
+            31220
+        ],
+        "bestlap": 107882,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Corey",
+                            "lastName": "Coult",
+                            "playerId": "S76561199588176130",
+                            "shortName": "CLT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 960,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Corey",
+                    "lastName": "Coult",
+                    "playerId": "S76561199588176130",
+                    "shortName": "CLT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107882,
+                    "bestSplits": [
+                        33602,
+                        43060,
+                        31220
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 107882,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        33602,
+                        43060,
+                        31220
+                    ],
+                    "totalTime": 139036269
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "kyalami",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-11-02T00:09:48Z",
+    "SessionFile": "241102_000948_FP"
+}

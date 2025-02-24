@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140015,
+            "splits": [
+                40955,
+                62585,
+                36475
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 140625,
+            "splits": [
+                40895,
+                62667,
+                37062
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140515,
+            "splits": [
+                41127,
+                62785,
+                36602
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 41,
+    "sessionResult": {
+        "bestSplits": [
+            40895,
+            62667,
+            37062
+        ],
+        "bestlap": 140625,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Aaron",
+                            "lastName": "Kovach",
+                            "playerId": "S76561199444232389",
+                            "shortName": "AKO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 64,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aaron",
+                    "lastName": "Kovach",
+                    "playerId": "S76561199444232389",
+                    "shortName": "AKO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 140625,
+                    "bestSplits": [
+                        40895,
+                        62667,
+                        37062
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 140515,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        41127,
+                        62785,
+                        36602
+                    ],
+                    "totalTime": 789572840
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-29T17:29:46Z",
+    "SessionFile": "240529_172946_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 150642,
+            "splits": [
+                44512,
+                66642,
+                39487
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 146842,
+            "splits": [
+                43467,
+                64382,
+                38992
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 145407,
+            "splits": [
+                42372,
+                64237,
+                38797
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 145655,
+            "splits": [
+                42392,
+                65270,
+                37992
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 70,
+    "sessionResult": {
+        "bestSplits": [
+            42372,
+            64237,
+            38797
+        ],
+        "bestlap": 145407,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Aaron",
+                            "lastName": "Moreno",
+                            "playerId": "S76561199201299985",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 756,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aaron",
+                    "lastName": "Moreno",
+                    "playerId": "S76561199201299985",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 145407,
+                    "bestSplits": [
+                        42372,
+                        64237,
+                        38797
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 145655,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        42392,
+                        65270,
+                        37992
+                    ],
+                    "totalTime": 802468224
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-16T16:36:50Z",
+    "SessionFile": "240516_163650_FP"
+}

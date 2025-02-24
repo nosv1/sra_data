@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108332,
+            "splits": [
+                23245,
+                35485,
+                49602
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108022,
+            "splits": [
+                23117,
+                34925,
+                49980
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 111872,
+            "splits": [
+                24935,
+                35152,
+                51785
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107490,
+            "splits": [
+                23042,
+                34730,
+                49717
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            23042,
+            34730,
+            49717
+        ],
+        "bestlap": 107490,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Marlon",
+                            "lastName": "Abubo",
+                            "playerId": "S76561198267261283",
+                            "shortName": "MAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 732,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Marlon",
+                    "lastName": "Abubo",
+                    "playerId": "S76561198267261283",
+                    "shortName": "MAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107490,
+                    "bestSplits": [
+                        23042,
+                        34730,
+                        49717
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 107490,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23042,
+                        34730,
+                        49717
+                    ],
+                    "totalTime": 16729658
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAgg | LIAW_FreePractice| R  | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:1aae9ca7-6054-4332-8140-7f8e09700e86",
+    "Date": "2024-11-26T03:19:44Z",
+    "SessionFile": "241126_031944_FP"
+}

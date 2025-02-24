@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 93292,
+            "splits": [
+                35017,
+                22472,
+                35802
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85230,
+            "splits": [
+                27770,
+                22020,
+                35440
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 84777,
+            "splits": [
+                27507,
+                21995,
+                35275
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 60,
+    "sessionResult": {
+        "bestSplits": [
+            27507,
+            21995,
+            35275
+        ],
+        "bestlap": 84777,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "  ",
+                            "lastName": "Arct",
+                            "playerId": "S76561198279907335",
+                            "shortName": "RUG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 370,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "  ",
+                    "lastName": "Arct",
+                    "playerId": "S76561198279907335",
+                    "shortName": "RUG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 84777,
+                    "bestSplits": [
+                        27507,
+                        21995,
+                        35275
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 84777,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        27507,
+                        21995,
+                        35275
+                    ],
+                    "totalTime": 384294584
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "brands_hatch",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-10-21T10:21:43Z",
+    "SessionFile": "241021_102143_FP"
+}

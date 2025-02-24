@@ -1,0 +1,116 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 138335,
+            "splits": [
+                40565,
+                61067,
+                36702
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137447,
+            "splits": [
+                40480,
+                60850,
+                36117
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 137765,
+            "splits": [
+                40385,
+                60887,
+                36492
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 2
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 34,
+    "sessionResult": {
+        "bestSplits": [
+            40385,
+            60850,
+            36117
+        ],
+        "bestlap": 137447,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Hayden",
+                            "lastName": "Deliquus ",
+                            "playerId": "S76561199208931303",
+                            "shortName": "DEL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 5,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Hayden",
+                    "lastName": "Deliquus ",
+                    "playerId": "S76561199208931303",
+                    "shortName": "DEL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 137447,
+                    "bestSplits": [
+                        40385,
+                        60850,
+                        36117
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 137765,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        40385,
+                        60887,
+                        36492
+                    ],
+                    "totalTime": 621213744
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-27T18:45:27Z",
+    "SessionFile": "240527_184527_FP"
+}

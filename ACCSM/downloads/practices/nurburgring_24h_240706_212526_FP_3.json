@@ -1,0 +1,127 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 496132,
+            "splits": [
+                171717,
+                154372,
+                170042
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 33,
+    "sessionResult": {
+        "bestSplits": [
+            171717,
+            154372,
+            170042
+        ],
+        "bestlap": 496132,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Luis Daniel",
+                            "lastName": "Velez",
+                            "playerId": "S76561198033985931",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 37,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Luis Daniel",
+                    "lastName": "Velez",
+                    "playerId": "S76561198033985931",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 496132,
+                    "bestSplits": [
+                        171717,
+                        154372,
+                        170042
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 496132,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        171717,
+                        154372,
+                        170042
+                    ],
+                    "totalTime": 251323358
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Pravin",
+                            "lastName": "Fonseka",
+                            "playerId": "S76561198008164442",
+                            "shortName": "PSF"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 718,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Pravin",
+                    "lastName": "Fonseka",
+                    "playerId": "S76561198008164442",
+                    "shortName": "PSF"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-07-06T21:25:26Z",
+    "SessionFile": "240706_212526_FP"
+}

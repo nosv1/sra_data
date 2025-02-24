@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103827,
+            "splits": [
+                21955,
+                33272,
+                48600
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103605,
+            "splits": [
+                21355,
+                33890,
+                48360
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103500,
+            "splits": [
+                21777,
+                33607,
+                48115
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102505,
+            "splits": [
+                21807,
+                32880,
+                47817
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 9,
+    "sessionResult": {
+        "bestSplits": [
+            21807,
+            32880,
+            47817
+        ],
+        "bestlap": 102505,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Niko",
+                            "lastName": "Suave",
+                            "playerId": "S76561197994095192",
+                            "shortName": "NIK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 111,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Niko",
+                    "lastName": "Suave",
+                    "playerId": "S76561197994095192",
+                    "shortName": "NIK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 102505,
+                    "bestSplits": [
+                        21807,
+                        32880,
+                        47817
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 102505,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        21807,
+                        32880,
+                        47817
+                    ],
+                    "totalTime": 63980075
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:93b22aa9-c234-4817-a781-c46b9e63c028",
+    "Date": "2024-06-05T17:22:42Z",
+    "SessionFile": "240605_172242_FP"
+}

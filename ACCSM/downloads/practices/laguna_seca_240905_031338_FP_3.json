@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 91052,
+            "splits": [
+                28050,
+                29590,
+                33412
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 85062,
+            "splits": [
+                22450,
+                28955,
+                33657
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 85455,
+            "splits": [
+                22480,
+                29385,
+                33590
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 84410,
+            "splits": [
+                21975,
+                29062,
+                33372
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            22480,
+            29385,
+            33590
+        ],
+        "bestlap": 85455,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Caleb",
+                            "lastName": "Tenney",
+                            "playerId": "S76561198023860539",
+                            "shortName": "TEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 805,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Caleb",
+                    "lastName": "Tenney",
+                    "playerId": "S76561198023860539",
+                    "shortName": "TEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 85455,
+                    "bestSplits": [
+                        22480,
+                        29385,
+                        33590
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 84410,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        21975,
+                        29062,
+                        33372
+                    ],
+                    "totalTime": 12955019
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "laguna_seca",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:ff09e03b-f295-4363-8afd-49f314472b9e",
+    "Date": "2024-09-05T03:13:38Z",
+    "SessionFile": "240905_031338_FP"
+}

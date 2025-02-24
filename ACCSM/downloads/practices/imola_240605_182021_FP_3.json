@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107857,
+            "splits": [
+                22750,
+                34385,
+                50722
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105980,
+            "splits": [
+                22317,
+                33795,
+                49867
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105770,
+            "splits": [
+                22447,
+                34017,
+                49305
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105257,
+            "splits": [
+                22165,
+                34195,
+                48897
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104015,
+            "splits": [
+                22012,
+                33342,
+                48660
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            22012,
+            33342,
+            48660
+        ],
+        "bestlap": 104015,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Clark",
+                            "lastName": "Gould",
+                            "playerId": "S76561198381088829",
+                            "shortName": "GOU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 22,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Clark",
+                    "lastName": "Gould",
+                    "playerId": "S76561198381088829",
+                    "shortName": "GOU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104015,
+                    "bestSplits": [
+                        22012,
+                        33342,
+                        48660
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 104015,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        22012,
+                        33342,
+                        48660
+                    ],
+                    "totalTime": 67398319
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-06-05T18:20:21Z",
+    "SessionFile": "240605_182021_FP"
+}

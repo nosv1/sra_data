@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 146805,
+            "splits": [
+                28930,
+                61912,
+                55962
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138622,
+            "splits": [
+                28995,
+                53705,
+                55922
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139562,
+            "splits": [
+                28947,
+                53802,
+                56812
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140580,
+            "splits": [
+                29272,
+                54612,
+                56695
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 138222,
+            "splits": [
+                28782,
+                53645,
+                55795
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            28782,
+            53645,
+            55795
+        ],
+        "bestlap": 138222,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Bryan",
+                            "lastName": "Ryder",
+                            "playerId": "S76561198836039401",
+                            "shortName": "RYD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 916,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bryan",
+                    "lastName": "Ryder",
+                    "playerId": "S76561198836039401",
+                    "shortName": "RYD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 138222,
+                    "bestSplits": [
+                        28782,
+                        53645,
+                        55795
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 138222,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        28782,
+                        53645,
+                        55795
+                    ],
+                    "totalTime": 41649986
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D1  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:b45ae983-f7a4-484f-8ef7-0c6123a99dd4",
+    "Date": "2024-07-16T12:11:43Z",
+    "SessionFile": "240716_121143_FP"
+}

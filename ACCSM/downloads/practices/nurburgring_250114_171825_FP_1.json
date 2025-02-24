@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121535,
+            "splits": [
+                58005,
+                45590,
+                17940
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121492,
+            "splits": [
+                57782,
+                45615,
+                18095
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122090,
+            "splits": [
+                58310,
+                45860,
+                17920
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            57782,
+            45590,
+            17940
+        ],
+        "bestlap": 121492,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Jorintas",
+                            "lastName": "Butkus",
+                            "playerId": "S76561197989389913",
+                            "shortName": "BUT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 11,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jorintas",
+                    "lastName": "Butkus",
+                    "playerId": "S76561197989389913",
+                    "shortName": "BUT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121492,
+                    "bestSplits": [
+                        57782,
+                        45590,
+                        17940
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 122090,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        58310,
+                        45860,
+                        17920
+                    ],
+                    "totalTime": 67316437
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D1  | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:b45ae983-f7a4-484f-8ef7-0c6123a99dd4",
+    "Date": "2025-01-14T17:18:25Z",
+    "SessionFile": "250114_171825_FP"
+}

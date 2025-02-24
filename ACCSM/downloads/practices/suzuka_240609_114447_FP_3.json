@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122830,
+            "splits": [
+                40930,
+                54470,
+                27430
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121782,
+            "splits": [
+                41092,
+                53827,
+                26862
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122177,
+            "splits": [
+                40932,
+                54082,
+                27162
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 49,
+    "sessionResult": {
+        "bestSplits": [
+            40930,
+            54082,
+            27162
+        ],
+        "bestlap": 122177,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Harold",
+                            "lastName": "MacDonald",
+                            "playerId": "S76561198400410029",
+                            "shortName": "HCM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 182,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Harold",
+                    "lastName": "MacDonald",
+                    "playerId": "S76561198400410029",
+                    "shortName": "HCM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 122177,
+                    "bestSplits": [
+                        40930,
+                        54082,
+                        27162
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 122177,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        40932,
+                        54082,
+                        27162
+                    ],
+                    "totalTime": 261801351
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "suzuka",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-06-09T11:44:47Z",
+    "SessionFile": "240609_114447_FP"
+}

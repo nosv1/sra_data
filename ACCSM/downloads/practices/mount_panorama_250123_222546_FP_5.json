@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123252,
+            "splits": [
+                38577,
+                57475,
+                27200
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 29,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeremy",
+                            "lastName": "Mercer",
+                            "playerId": "S76561198129073265",
+                            "shortName": "Mer"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 2,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeremy",
+                    "lastName": "Mercer",
+                    "playerId": "S76561198129073265",
+                    "shortName": "Mer"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 123252,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        38577,
+                        57475,
+                        27200
+                    ],
+                    "totalTime": 3551939
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "mount_panorama",
+    "serverName": "#SRAggSRA - Multiclass Mayhem - Bathurst Enduro Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:1aace6ce-6110-4d0b-b14a-c112f65ec8b6",
+    "Date": "2025-01-23T22:25:46Z",
+    "SessionFile": "250123_222546_FP"
+}

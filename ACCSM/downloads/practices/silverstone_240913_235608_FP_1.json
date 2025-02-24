@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121887,
+            "splits": [
+                36070,
+                51602,
+                34215
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121295,
+            "splits": [
+                36150,
+                50880,
+                34265
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120412,
+            "splits": [
+                35772,
+                50595,
+                34045
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            35772,
+            50595,
+            34045
+        ],
+        "bestlap": 120412,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Phillipe Enis",
+                            "lastName": "M\u00fcller",
+                            "playerId": "S76561198004368551",
+                            "shortName": "PEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 39,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Phillipe Enis",
+                    "lastName": "M\u00fcller",
+                    "playerId": "S76561198004368551",
+                    "shortName": "PEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120412,
+                    "bestSplits": [
+                        35772,
+                        50595,
+                        34045
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 120412,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        35772,
+                        50595,
+                        34045
+                    ],
+                    "totalTime": 138555210
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "silverstone",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-09-13T23:56:08Z",
+    "SessionFile": "240913_235608_FP"
+}

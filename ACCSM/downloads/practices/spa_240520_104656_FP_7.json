@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 142865,
+            "splits": [
+                41535,
+                63985,
+                37345
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 143275,
+            "splits": [
+                41325,
+                63297,
+                38652
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 143570,
+            "splits": [
+                41327,
+                64480,
+                37762
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 141340,
+            "splits": [
+                41250,
+                62987,
+                37102
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 109,
+    "sessionResult": {
+        "bestSplits": [
+            41250,
+            62987,
+            37102
+        ],
+        "bestlap": 141340,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Jakob",
+                            "lastName": "Machherndl",
+                            "playerId": "S76561198188627421",
+                            "shortName": "MAC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 309,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jakob",
+                    "lastName": "Machherndl",
+                    "playerId": "S76561198188627421",
+                    "shortName": "MAC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 141340,
+                    "bestSplits": [
+                        41250,
+                        62987,
+                        37102
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 141340,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41250,
+                        62987,
+                        37102
+                    ],
+                    "totalTime": 1127402313
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "spa",
+    "serverName": "#SRAgg | 12 Hours of Spa Endurance Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:280a1e06-7033-4f40-82c9-3d6630350c76",
+    "Date": "2024-05-20T10:46:56Z",
+    "SessionFile": "240520_104656_FP"
+}

@@ -1,0 +1,193 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 154367,
+            "splits": [
+                61552,
+                32062,
+                60752
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125447,
+            "splits": [
+                32257,
+                42385,
+                50805
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115700,
+            "splits": [
+                32225,
+                32025,
+                51450
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115437,
+            "splits": [
+                31787,
+                32342,
+                51307
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 115415,
+            "splits": [
+                32275,
+                32247,
+                50892
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 114505,
+            "splits": [
+                31915,
+                32102,
+                50487
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 114765,
+            "splits": [
+                32005,
+                31895,
+                50865
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 114372,
+            "splits": [
+                31890,
+                31925,
+                50557
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116605,
+            "splits": [
+                32297,
+                32117,
+                52190
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 624105,
+            "splits": [
+                32052,
+                32040,
+                560012
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1001,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 9
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 8,
+    "sessionResult": {
+        "bestSplits": [
+            31787,
+            31925,
+            50487
+        ],
+        "bestlap": 114372,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Aden",
+                            "lastName": "Tan",
+                            "playerId": "S76561199247009489",
+                            "shortName": "TAN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 7,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aden",
+                    "lastName": "Tan",
+                    "playerId": "S76561199247009489",
+                    "shortName": "TAN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 114372,
+                    "bestSplits": [
+                        31787,
+                        31925,
+                        50487
+                    ],
+                    "lapCount": 10,
+                    "lastLap": 624105,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        32052,
+                        32040,
+                        560012
+                    ],
+                    "totalTime": 205894281
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:9da226d5-2546-424f-9951-2848f08201ad",
+    "Date": "2024-10-28T10:03:13Z",
+    "SessionFile": "241028_100313_FP"
+}

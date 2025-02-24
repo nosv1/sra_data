@@ -1,0 +1,171 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96327,
+            "splits": [
+                23927,
+                41870,
+                30530
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95780,
+            "splits": [
+                23887,
+                42000,
+                29892
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95002,
+            "splits": [
+                23805,
+                41485,
+                29712
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96902,
+            "splits": [
+                24347,
+                42422,
+                30132
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96052,
+            "splits": [
+                24120,
+                41680,
+                30252
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 69,
+    "sessionResult": {
+        "bestSplits": [
+            23805,
+            41485,
+            29712
+        ],
+        "bestlap": 95002,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mark",
+                            "lastName": "Allen",
+                            "playerId": "S76561199541315045",
+                            "shortName": "MEA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 727,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mark",
+                    "lastName": "Allen",
+                    "playerId": "S76561199541315045",
+                    "shortName": "MEA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95002,
+                    "bestSplits": [
+                        23805,
+                        41485,
+                        29712
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 96052,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        24120,
+                        41680,
+                        30252
+                    ],
+                    "totalTime": 441122056
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Danny",
+                            "lastName": "Durrance",
+                            "playerId": "S76561199278218988",
+                            "shortName": "DUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 72,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Danny",
+                    "lastName": "Durrance",
+                    "playerId": "S76561199278218988",
+                    "shortName": "DUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2024-10-01T22:50:25Z",
+    "SessionFile": "241001_225025_FP"
+}

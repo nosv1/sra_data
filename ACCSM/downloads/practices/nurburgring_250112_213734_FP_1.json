@@ -1,0 +1,175 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125895,
+            "splits": [
+                59737,
+                47487,
+                18670
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126762,
+            "splits": [
+                60285,
+                47447,
+                19030
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125285,
+            "splits": [
+                59672,
+                46955,
+                18657
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125497,
+            "splits": [
+                59482,
+                47287,
+                18727
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127195,
+            "splits": [
+                60112,
+                48165,
+                18917
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 25,
+    "sessionResult": {
+        "bestSplits": [
+            59482,
+            46955,
+            18657
+        ],
+        "bestlap": 125285,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Ein",
+                            "lastName": "Byron",
+                            "playerId": "S76561198127687354",
+                            "shortName": "EIN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 93,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ein",
+                    "lastName": "Byron",
+                    "playerId": "S76561198127687354",
+                    "shortName": "EIN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 125285,
+                    "bestSplits": [
+                        59482,
+                        46955,
+                        18657
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 125497,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        59482,
+                        47287,
+                        18727
+                    ],
+                    "totalTime": 99784030
+                }
+            },
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Shane",
+                            "lastName": "Transue",
+                            "playerId": "S76561198057958306",
+                            "shortName": "SGT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 216,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Shane",
+                    "lastName": "Transue",
+                    "playerId": "S76561198057958306",
+                    "shortName": "SGT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 125895,
+                    "bestSplits": [
+                        59737,
+                        47447,
+                        18670
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 127195,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        60112,
+                        48165,
+                        18917
+                    ],
+                    "totalTime": 99921696
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2025-01-12T21:37:34Z",
+    "SessionFile": "250112_213734_FP"
+}

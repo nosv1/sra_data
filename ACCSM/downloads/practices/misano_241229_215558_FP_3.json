@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95422,
+            "splits": [
+                23945,
+                38027,
+                33450
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95080,
+            "splits": [
+                23782,
+                37775,
+                33522
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95110,
+            "splits": [
+                23815,
+                37772,
+                33522
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95167,
+            "splits": [
+                23787,
+                37845,
+                33535
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            23787,
+            37772,
+            33450
+        ],
+        "bestlap": 95110,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Selena",
+                            "lastName": "Boonstra",
+                            "playerId": "S76561198387947975",
+                            "shortName": "BOO"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 7,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Selena",
+                    "lastName": "Boonstra",
+                    "playerId": "S76561198387947975",
+                    "shortName": "BOO"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95110,
+                    "bestSplits": [
+                        23787,
+                        37772,
+                        33450
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 95167,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        23787,
+                        37845,
+                        33535
+                    ],
+                    "totalTime": 31465109
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "misano",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2024-12-29T21:55:58Z",
+    "SessionFile": "241229_215558_FP"
+}

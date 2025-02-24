@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97975,
+            "splits": [
+                24360,
+                42432,
+                31182
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96895,
+            "splits": [
+                24252,
+                41777,
+                30865
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 100442,
+            "splits": [
+                24857,
+                44382,
+                31202
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            24252,
+            41777,
+            30865
+        ],
+        "bestlap": 96895,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Dyck",
+                            "lastName": "Zipperburn Sr.",
+                            "playerId": "S76561199223972188",
+                            "shortName": "ZIP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 394,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dyck",
+                    "lastName": "Zipperburn Sr.",
+                    "playerId": "S76561199223972188",
+                    "shortName": "ZIP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96895,
+                    "bestSplits": [
+                        24252,
+                        41777,
+                        30865
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 100442,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        24857,
+                        44382,
+                        31202
+                    ],
+                    "totalTime": 15512694
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "red_bull_ring",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2024-10-09T04:00:21Z",
+    "SessionFile": "241009_040021_FP"
+}

@@ -1,0 +1,186 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 128462,
+            "splits": [
+                60732,
+                48587,
+                19142
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 130360,
+            "splits": [
+                62082,
+                48612,
+                19665
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 129172,
+            "splits": [
+                61390,
+                48412,
+                19370
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128252,
+            "splits": [
+                60802,
+                48105,
+                19345
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 128522,
+            "splits": [
+                60867,
+                48240,
+                19415
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 128045,
+            "splits": [
+                60732,
+                48087,
+                19225
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 16,
+    "sessionResult": {
+        "bestSplits": [
+            60732,
+            48087,
+            19142
+        ],
+        "bestlap": 128045,
+        "isWetSession": 1,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Kevin",
+                            "lastName": "Andersen",
+                            "playerId": "S76561199415861737",
+                            "shortName": "AND"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 983,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Kevin",
+                    "lastName": "Andersen",
+                    "playerId": "S76561199415861737",
+                    "shortName": "AND"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 128045,
+                    "bestSplits": [
+                        60732,
+                        48087,
+                        19225
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 128045,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        60732,
+                        48087,
+                        19225
+                    ],
+                    "totalTime": 154781606
+                }
+            },
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "  ",
+                            "lastName": "Arct",
+                            "playerId": "S76561198279907335",
+                            "shortName": "RUG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 370,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "  ",
+                    "lastName": "Arct",
+                    "playerId": "S76561198279907335",
+                    "shortName": "RUG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 128462,
+                    "bestSplits": [
+                        60732,
+                        48587,
+                        19142
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 128462,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        60732,
+                        48587,
+                        19142
+                    ],
+                    "totalTime": 153755709
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2025-01-10T18:36:36Z",
+    "SessionFile": "250110_183636_FP"
+}

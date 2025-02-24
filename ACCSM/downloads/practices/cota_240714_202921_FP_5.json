@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 132712,
+            "splits": [
+                27725,
+                51080,
+                53907
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 130812,
+            "splits": [
+                27265,
+                50580,
+                52967
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 131415,
+            "splits": [
+                27605,
+                50565,
+                53245
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            27265,
+            50580,
+            52967
+        ],
+        "bestlap": 130812,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "KC",
+                            "lastName": "Rich",
+                            "playerId": "S76561198399403087",
+                            "shortName": "KCR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 124,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "KC",
+                    "lastName": "Rich",
+                    "playerId": "S76561198399403087",
+                    "shortName": "KCR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 130812,
+                    "bestSplits": [
+                        27265,
+                        50580,
+                        52967
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 131415,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27605,
+                        50565,
+                        53245
+                    ],
+                    "totalTime": 13626802
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a5cd859c-a680-4044-b0c3-1483d308775a",
+    "Date": "2024-07-14T20:29:21Z",
+    "SessionFile": "240714_202921_FP"
+}

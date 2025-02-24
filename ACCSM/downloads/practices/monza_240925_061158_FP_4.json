@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 109440,
+            "splits": [
+                35425,
+                38405,
+                35610
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108935,
+            "splits": [
+                35170,
+                38622,
+                35142
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108325,
+            "splits": [
+                35210,
+                38057,
+                35057
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108087,
+            "splits": [
+                35097,
+                37862,
+                35127
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 24,
+    "sessionResult": {
+        "bestSplits": [
+            35097,
+            37862,
+            35057
+        ],
+        "bestlap": 108087,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dean",
+                            "lastName": "Stefani",
+                            "playerId": "S76561198068000942",
+                            "shortName": "DEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 877,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dean",
+                    "lastName": "Stefani",
+                    "playerId": "S76561198068000942",
+                    "shortName": "DEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 108087,
+                    "bestSplits": [
+                        35097,
+                        37862,
+                        35057
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 108087,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        35097,
+                        37862,
+                        35127
+                    ],
+                    "totalTime": 113721892
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2024-09-25T06:11:58Z",
+    "SessionFile": "240925_061158_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121765,
+            "splits": [
+                29685,
+                40552,
+                51527
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105245,
+            "splits": [
+                29630,
+                40865,
+                34750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104375,
+            "splits": [
+                29550,
+                40055,
+                34770
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104170,
+            "splits": [
+                29445,
+                40037,
+                34687
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 22,
+    "sessionResult": {
+        "bestSplits": [
+            29445,
+            40037,
+            34687
+        ],
+        "bestlap": 104170,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Zachary",
+                            "lastName": "Martin",
+                            "playerId": "S76561198039229257",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 87,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Zachary",
+                    "lastName": "Martin",
+                    "playerId": "S76561198039229257",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104170,
+                    "bestSplits": [
+                        29445,
+                        40037,
+                        34687
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 104170,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        29445,
+                        40037,
+                        34687
+                    ],
+                    "totalTime": 137530632
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "barcelona",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2024-05-22T10:42:24Z",
+    "SessionFile": "240522_104224_FP"
+}

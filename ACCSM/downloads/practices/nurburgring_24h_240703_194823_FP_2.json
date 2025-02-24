@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 504480,
+            "splits": [
+                174005,
+                158177,
+                172297
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 504120,
+            "splits": [
+                173185,
+                156745,
+                174190
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 505175,
+            "splits": [
+                173457,
+                157992,
+                173725
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 502875,
+            "splits": [
+                172950,
+                156617,
+                173307
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            172950,
+            156617,
+            173307
+        ],
+        "bestlap": 502875,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "  ",
+                            "lastName": "Arct",
+                            "playerId": "S76561198279907335",
+                            "shortName": "RUG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 88,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "  ",
+                    "lastName": "Arct",
+                    "playerId": "S76561198279907335",
+                    "shortName": "RUG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 502875,
+                    "bestSplits": [
+                        172950,
+                        156617,
+                        173307
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 502875,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        172950,
+                        156617,
+                        173307
+                    ],
+                    "totalTime": 86001593
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2024-07-03T19:48:23Z",
+    "SessionFile": "240703_194823_FP"
+}

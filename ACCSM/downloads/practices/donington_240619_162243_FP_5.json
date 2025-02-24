@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 87952,
+            "splits": [
+                20487,
+                34017,
+                33447
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 87765,
+            "splits": [
+                20265,
+                34455,
+                33045
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 88007,
+            "splits": [
+                20250,
+                34295,
+                33462
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Danny",
+                            "lastName": "Durrance",
+                            "playerId": "S76561199278218988",
+                            "shortName": "DUR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 72,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Danny",
+                    "lastName": "Durrance",
+                    "playerId": "S76561199278218988",
+                    "shortName": "DUR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 88007,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        20250,
+                        34295,
+                        33462
+                    ],
+                    "totalTime": 60392538
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "donington",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2024-06-19T16:22:43Z",
+    "SessionFile": "240619_162243_FP"
+}
