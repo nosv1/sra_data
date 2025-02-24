@@ -740,7 +740,7 @@ if __name__ == "__main__":
                 end="",
             )
 
-            server_number = session_file.split("server")[1].split(".")[0]
+            server_number = session_file.split("_")[-1].split(".")[0]
             with open(
                 os.path.join(session_dir, session_file), "r", encoding="utf-8"
             ) as file:
@@ -770,7 +770,7 @@ if __name__ == "__main__":
             is_practice_session = ts_session.session_type == "FP"
             is_quali_session = ts_session.session_type == "Q"
             is_race_session = ts_session.session_type.startswith("R")
-            
+
             do_process_race_sessions = do_process_race_sessions or is_race_session
 
             node_sessions.append(ts_session.create_session(sra_neo_session))
@@ -919,7 +919,7 @@ if __name__ == "__main__":
             )
             sra_neo_session.run(car_driver_laps_query, parameters={"laps": batch})
             print("done")
-    
+
     if do_process_race_sessions:
         process_sra_db_neo(neo_session=sra_neo_session)
     else:
