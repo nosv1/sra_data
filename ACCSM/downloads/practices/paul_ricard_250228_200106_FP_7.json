@@ -1,0 +1,112 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 1,
+            "isValidForBest": false,
+            "laptime": 117997,
+            "splits": [
+                33075,
+                33057,
+                51865
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 1,
+            "isValidForBest": false,
+            "laptime": 117225,
+            "splits": [
+                32415,
+                32975,
+                51835
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 1,
+            "isValidForBest": true,
+            "laptime": 116742,
+            "splits": [
+                32302,
+                32800,
+                51640
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            32302,
+            32800,
+            51640
+        ],
+        "bestlap": 116742,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Anton",
+                            "lastName": "Rushevich",
+                            "playerId": "S76561198312326880",
+                            "shortName": "RUS"
+                        },
+                        {
+                            "firstName": "nan",
+                            "lastName": "Arct",
+                            "playerId": "S76561198279907335",
+                            "shortName": "ARC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 18,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "nan",
+                    "lastName": "Arct",
+                    "playerId": "S76561198279907335",
+                    "shortName": "ARC"
+                },
+                "currentDriverIndex": 1,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 116742,
+                    "bestSplits": [
+                        32302,
+                        32800,
+                        51640
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 116742,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        32302,
+                        32800,
+                        51640
+                    ],
+                    "totalTime": 529838614
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "paul_ricard",
+    "serverName": "#SRAgg | SRA Endurance Series Season 1 | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "championship:28ffb0ee-cbfe-4852-a060-2ff1bffab8eb:18c7066e-64a5-4a06-bb47-06f89be1c569",
+    "Date": "2025-02-28T20:01:06Z",
+    "SessionFile": "250228_200106_FP"
+}
