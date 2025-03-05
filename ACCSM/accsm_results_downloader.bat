@@ -8,4 +8,4 @@ set current_dir=%cd%
 echo Current directory: %current_dir%
 
 REM Run the Python script in a new command prompt window and close it after 5 seconds
-start cmd /c "python accsm_results_downloaders.py & cd .. & .\env_pc\Scripts\activate & python race_result_parser_neo4j.py & timeout /t 5"
+start cmd /c "python accsm_results_downloader.py & cd .. & .\env_pc\Scripts\activate & python race_result_parser_neo4j.py & timeout /t 5"
