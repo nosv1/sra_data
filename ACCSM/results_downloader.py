@@ -21,8 +21,7 @@ def try_get_json(url: str, wait: int = 5):
         else:
             raise Exception(f"Failed to download {url}")
 
-
-if __name__ == "__main__":
+def get_accsm_results():
     # https://wiki.emperorservers.com/assetto-corsa-competizione-server-manager/web-api
     # API endpoints are rate limited to a maximum of 5 requests per 20 seconds. You will receive a "Too Many Requests" error if you exceed the limit. We recommend that you do not request data from the API more than twice per minute.
 
@@ -110,4 +109,7 @@ if __name__ == "__main__":
             page += 1
         pass
 
+
+if __name__ == "__main__":
+    get_accsm_results()
     pass
