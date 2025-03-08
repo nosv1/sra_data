@@ -1,0 +1,153 @@
+{
+    "laps": [
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 514677,
+            "splits": [
+                178315,
+                160192,
+                176170
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 516835,
+            "splits": [
+                178820,
+                160935,
+                177080
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 525187,
+            "splits": [
+                178552,
+                161275,
+                185360
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            178315,
+            160192,
+            176170
+        ],
+        "bestlap": 514677,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Josh",
+                            "lastName": "Damiani",
+                            "playerId": "S76561198310808524",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 777,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Josh",
+                    "lastName": "Damiani",
+                    "playerId": "S76561198310808524",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 514677,
+                    "bestSplits": [
+                        178315,
+                        160192,
+                        176170
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 514677,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        178315,
+                        160192,
+                        176170
+                    ],
+                    "totalTime": 2537536
+                }
+            },
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Andrew",
+                            "lastName": "Wilson",
+                            "playerId": "S76561198146050630",
+                            "shortName": "WIL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 911,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Andrew",
+                    "lastName": "Wilson",
+                    "playerId": "S76561198146050630",
+                    "shortName": "WIL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 525187,
+                    "bestSplits": [
+                        178552,
+                        161275,
+                        185360
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 525187,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        178552,
+                        161275,
+                        185360
+                    ],
+                    "totalTime": 3652629
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggP-Cup & Maserati Challenge Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:b7e8adc8-80ce-4a3d-b47d-7faa9ee93634",
+    "Date": "2025-03-04T21:34:41Z",
+    "SessionFile": "250304_213441_FP"
+}

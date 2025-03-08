@@ -16,7 +16,7 @@ from PIL.ImageFile import ImageFile
 from scipy.stats import linregress
 
 from Database import Neo4jDatabase
-from queries import *
+from utils.queries import *
 
 
 class SRA_DIV_COLOR:

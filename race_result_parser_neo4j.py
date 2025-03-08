@@ -11,7 +11,7 @@ from neo4j import Session as Neo4jSession
 
 from Database import Neo4jDatabase
 from process_race_sessions_neo import *
-from queries import *
+from utils.queries import *
 
 
 class Lap:

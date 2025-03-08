@@ -7,11 +7,25 @@ from statistics import mean
 
 import dash
 import pandas as pd
+from dash import Input, Output, dash, dcc, html
+from flask import Flask, render_template
+from sqlalchemy import create_engine
+from sqlalchemy import text as sql_text
+from sqlalchemy.engine import Connection as SQLAConnection
+from sqlalchemy.exc import PendingRollbackError
+
+import utils.queries as queries
+
+DATABASE_URI = "mysql+mysqlconnector://SRA:SRA@10.0.0.227/SRA"
+
+SQLAEngine = create_engine(DATABASE_URI)
+
 import plotly.graph_objs as go
 import plotly.io as pio
 from dash import dcc, html
 from dash.dependencies import Input, Output
 from flask import Flask, jsonify, render_template, request, session
+from queries import *
 
 from flask_session import Session as FlaskSession
 from plotter import (
@@ -23,7 +37,6 @@ from plotter import (
     plot_race,
     plot_valid_invalid_analysis,
 )
-from queries import *
 
 app = Flask(__name__)
 app.config["SESSION_TYPE"] = "filesystem"

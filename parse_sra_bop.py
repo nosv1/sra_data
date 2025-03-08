@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from queries import CarModel
+from utils.queries import CarModel
 
 
 @dataclass

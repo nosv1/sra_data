@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 92127,
+            "splits": [
+                33375,
+                35120,
+                23632
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 91492,
+            "splits": [
+                33132,
+                34955,
+                23405
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 44,
+    "sessionResult": {
+        "bestSplits": [
+            33132,
+            34955,
+            23405
+        ],
+        "bestlap": 91492,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Dick",
+                            "lastName": "Zipperburn Jr.",
+                            "playerId": "S76561199223122338",
+                            "shortName": "ZIP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 393,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dick",
+                    "lastName": "Zipperburn Jr.",
+                    "playerId": "S76561199223122338",
+                    "shortName": "ZIP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 91492,
+                    "bestSplits": [
+                        33132,
+                        34955,
+                        23405
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 91492,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        33132,
+                        34955,
+                        23405
+                    ],
+                    "totalTime": 693788433
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "valencia",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2025-02-25T23:18:37Z",
+    "SessionFile": "250225_231837_FP"
+}
