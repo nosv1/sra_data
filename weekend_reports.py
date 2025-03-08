@@ -10,7 +10,7 @@ from pandas import DataFrame
 from app import check_cache
 from Database import Neo4jDatabase
 from plotter import *
-from queries import *
+from utils.queries import *
 
 
 def save_fig(fig: go.Figure, path: str):

@@ -7,7 +7,7 @@ from sqlalchemy import text as sql_text
 from sqlalchemy.engine import Connection as SQLAConnection
 from sqlalchemy.exc import PendingRollbackError
 
-import queries
+import utils.queries as queries
 
 DATABASE_URI = "mysql+mysqlconnector://SRA:SRA@10.0.0.227/SRA"
 

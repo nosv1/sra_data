@@ -6,7 +6,7 @@ from datetime import datetime
 import numpy as np
 from mysql.connector.abstracts import MySQLCursorAbstract
 
-import queries
+import utils.queries as queries
 from Database import MySqlDatabase
 
 
