@@ -8,8 +8,8 @@ import plotly.graph_objects as go
 from pandas import DataFrame
 
 from app import check_cache
-from Database import Neo4jDatabase
 from plotter import *
+from utils.Database import Neo4jDatabase
 from utils.queries import *
 
 

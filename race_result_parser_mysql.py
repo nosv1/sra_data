@@ -7,7 +7,7 @@ import numpy as np
 from mysql.connector.abstracts import MySQLCursorAbstract
 
 import utils.queries as queries
-from Database import MySqlDatabase
+from utils.Database import MySqlDatabase
 
 
 class Lap:

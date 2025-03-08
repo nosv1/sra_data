@@ -17,7 +17,7 @@ from neo4j.time import Date, DateTime, Time
 from pytz import timezone as pytz_timezone
 from scipy.stats import linregress
 
-from Database import Neo4jDatabase
+from utils.Database import Neo4jDatabase
 
 
 def to_dict(obj, chain: list[object] = []) -> dict:

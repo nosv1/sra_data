@@ -9,8 +9,8 @@ from datetime import datetime
 import numpy as np
 from neo4j import Session as Neo4jSession
 
-from Database import Neo4jDatabase
 from process_race_sessions_neo import *
+from utils.Database import Neo4jDatabase
 from utils.queries import *
 
 

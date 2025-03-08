@@ -18,7 +18,7 @@ from bs4.element import ResultSet, Tag
 from neo4j import Driver as Neo4jDriver
 from neo4j import Session as Neo4jSession
 
-from Database import MySqlDatabase, Neo4jDatabase
+from utils.Database import MySqlDatabase, Neo4jDatabase
 
 
 @dataclass

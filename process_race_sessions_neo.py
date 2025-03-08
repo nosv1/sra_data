@@ -1,6 +1,6 @@
 from neo4j import Session
 
-from Database import Neo4jDatabase
+from utils.Database import Neo4jDatabase
 
 
 def process_sra_db_neo(neo_session: Session):
