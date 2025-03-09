@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import re
@@ -437,7 +438,6 @@ def get_sra_results(
             tzinfo=pytz_timezone("US/Eastern")
         )
         if not (before_date >= finish_time >= after_date):
-            # continue
             break
 
         accsm_file = session_url.split("/")[-1]
@@ -447,6 +447,7 @@ def get_sra_results(
 
         if os.path.exists(path):
             print(f"File {path} already exists... skipping {filename}")
+            # continue
             break
 
         print(f"Missing file: {filename}")
@@ -466,8 +467,36 @@ def get_sra_results(
     pass
 
 
+def main(argv):
+    parser = argparse.ArgumentParser(description="Download and parse racing results.")
+    parser.add_argument("--accsm", action="store_true", help="Download ACCSM results")
+    parser.add_argument(
+        "--sra", action="store_true", help="Download and parse SRA results"
+    )
+    parser.add_argument(
+        "--after-date",
+        type=lambda s: datetime.strptime(s, "%Y-%m-%d").replace(
+            tzinfo=pytz_timezone("US/Eastern")
+        ),
+        default=datetime.min.replace(tzinfo=pytz_timezone("US/Eastern")),
+        help="Filter results after this date (YYYY-MM-DD)",
+    )
+    parser.add_argument(
+        "--before-date",
+        type=lambda s: datetime.strptime(s, "%Y-%m-%d").replace(
+            tzinfo=pytz_timezone("US/Eastern")
+        ),
+        default=datetime.max.replace(tzinfo=pytz_timezone("US/Eastern")),
+        help="Filter results before this date (YYYY-MM-DD)",
+    )
+
+    args = parser.parse_args(argv)
+
+    if args.accsm:
+        get_accsm_results()
+    if args.sra:
+        get_sra_results(before_date=args.before_date, after_date=args.after_date)
+
+
 if __name__ == "__main__":
-    # get_accsm_results()
-    # parse_sra_result("")
-    get_sra_results(after_date=datetime(2025, 3, 2, tzinfo=pytz_timezone("US/Eastern")))
-    pass
+    main(sys.argv[1:])

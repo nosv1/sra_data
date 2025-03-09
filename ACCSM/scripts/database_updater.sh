@@ -26,11 +26,20 @@ log() {
         exit 1
     fi
 
-    # Run the download script
-    if python3 "$DOWNLOAD_SCRIPT"; then
-        log "Download script executed successfully"
+    # Run the accsm download script
+    if python3 "$DOWNLOAD_SCRIPT" --accsm; then
+        log "ACCSM Download script executed successfully"
     else
-        log "Download script execution failed"
+        log "ACCSM Download script execution failed"
+        deactivate
+        exit 1
+    fi
+
+    # Run the sra download script
+    if python3 "$DOWNLOAD_SCRIPT" --sra --after-date 2025-03-02; then
+        log "SRA Download script executed successfully"
+    else
+        log "SRA Download script execution failed"
         deactivate
         exit 1
     fi

@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106425,
+            "splits": [
+                22867,
+                34280,
+                49277
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105627,
+            "splits": [
+                22290,
+                34285,
+                49052
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105965,
+            "splits": [
+                22290,
+                34205,
+                49470
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            22290,
+            34205,
+            49052
+        ],
+        "bestlap": 105627,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 26,
+                    "carGroup": "Cup",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Jeff",
+                            "lastName": "Colombaro",
+                            "playerId": "S76561199163762736",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 3,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeff",
+                    "lastName": "Colombaro",
+                    "playerId": "S76561199163762736",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105627,
+                    "bestSplits": [
+                        22290,
+                        34205,
+                        49052
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 105965,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22290,
+                        34205,
+                        49470
+                    ],
+                    "totalTime": 20585959
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggFerrari Challenge Practice - Imola | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:777f87af-1f67-49c1-a46b-af391ccf2e3b",
+    "Date": "2025-03-08T19:27:34Z",
+    "SessionFile": "250308_192734_FP"
+}
