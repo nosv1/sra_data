@@ -130,6 +130,7 @@ class CarModels:
             "Ferrari 488 GT3 Evo": "Ferrari 488 GT3 Evo 2020",
             "Honda NSX GT3 Evo": "Honda NSX Evo (2019)",
             "Lamborghini Huracán GT3 EVO2": "Lamborghini Huracan Evo2",
+            "McLaren 720S GT3": "McLaren 720S GT3 (2019)",
             "McLaren 720S GT3 Evo": "McLaren 720S GT3 Evo 2023",
             "Mercedes-AMG GT3 EVO": "Mercedes-AMG GT3 2020",
             "Nissan GT-R Nismo GT3": "Nissan GT-R Nismo GT3 2017",
