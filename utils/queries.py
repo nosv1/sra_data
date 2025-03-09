@@ -122,6 +122,7 @@ class CarModels:
     )
     sra_corrections: dict[str, str] = dict(
         {
+            "AMR V12 Vantage GT3": "Aston Martin V12 Vantage GT3",
             "AMR V8 Vantage GT3": "AMR V8 Vantage (2019)",
             "Audi R8 LMS GT3 Evo 2": "Audi R8 LMS Evo (2019)",
             "Bentley Continental GT3": "Bentley Continental GT3 2018",

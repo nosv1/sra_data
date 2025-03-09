@@ -1,0 +1,115 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 100847,
+            "splits": [
+                21500,
+                32612,
+                46735
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101875,
+            "splits": [
+                21527,
+                33180,
+                47167
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100437,
+            "splits": [
+                21482,
+                32217,
+                46737
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100395,
+            "splits": [
+                21482,
+                32192,
+                46720
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21482,
+            32192,
+            46720
+        ],
+        "bestlap": 100395,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Formato",
+                            "playerId": "PlayerID",
+                            "memberId": "ea977f37a2a551181ce8e90538aace047d8a5d7e7395036fab4e40b666e90ba3",
+                            "shortName": "Michael Formato"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 98,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Formato",
+                    "playerId": "PlayerID",
+                    "memberId": "ea977f37a2a551181ce8e90538aace047d8a5d7e7395036fab4e40b666e90ba3",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 100395,
+                    "bestSplits": [
+                        21482,
+                        32192,
+                        46720
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ2",
+    "metaData": "",
+    "Date": "2025-03-08T14:28:00Z",
+    "SessionFile": "250308_142831_Q"
+}

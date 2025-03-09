@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103077,
+            "splits": [
+                22012,
+                32992,
+                48072
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102612,
+            "splits": [
+                21862,
+                33050,
+                47700
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21862,
+            33050,
+            47700
+        ],
+        "bestlap": 102612,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 19,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Anton",
+                            "lastName": "Rushevich",
+                            "playerId": "S76561198312326880",
+                            "memberId": "0cca671718dcca6cac7436e4a967365d24ef1f5d281f3af68ba7c82f2eab1431",
+                            "shortName": "Anton Rushevich"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 111,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Anton",
+                    "lastName": "Rushevich",
+                    "playerId": "PlayerID",
+                    "memberId": "0cca671718dcca6cac7436e4a967365d24ef1f5d281f3af68ba7c82f2eab1431",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 102612,
+                    "bestSplits": [
+                        21862,
+                        33050,
+                        47700
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "imola",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League Time Trials | Powered by Thomas Greer",
+    "metaData": "",
+    "Date": "2025-03-03T01:57:00Z",
+    "SessionFile": "250303_015736_FP"
+}

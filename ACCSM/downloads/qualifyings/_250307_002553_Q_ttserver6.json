@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1028,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102320,
+            "splits": [
+                22055,
+                32922,
+                47342
+            ]
+        },
+        {
+            "carId": 1028,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102537,
+            "splits": [
+                21767,
+                32965,
+                47805
+            ]
+        },
+        {
+            "carId": 1028,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101822,
+            "splits": [
+                21722,
+                32682,
+                47417
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21722,
+            32682,
+            47417
+        ],
+        "bestlap": 101822,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1028,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Tyler",
+                            "lastName": "Matlock",
+                            "playerId": "PlayerID",
+                            "memberId": "7acb471a2c3a991801b3070b989c2618fba6c54a11673ec116c949fc31b0a364",
+                            "shortName": "Tyler Matlock"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 69,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tyler",
+                    "lastName": "Matlock",
+                    "playerId": "PlayerID",
+                    "memberId": "7acb471a2c3a991801b3070b989c2618fba6c54a11673ec116c949fc31b0a364",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101822,
+                    "bestSplits": [
+                        21722,
+                        32682,
+                        47417
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ3",
+    "metaData": "",
+    "Date": "2025-03-07T00:25:00Z",
+    "SessionFile": "250307_002553_Q"
+}

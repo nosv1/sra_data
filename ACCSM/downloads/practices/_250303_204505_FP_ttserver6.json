@@ -1,0 +1,233 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105292,
+            "splits": [
+                22460,
+                33855,
+                48977
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104387,
+            "splits": [
+                22282,
+                33637,
+                48467
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104945,
+            "splits": [
+                22767,
+                33732,
+                48445
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107872,
+            "splits": [
+                22265,
+                34027,
+                51580
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108752,
+            "splits": [
+                22502,
+                34630,
+                51620
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 110557,
+            "splits": [
+                25777,
+                35480,
+                49300
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106652,
+            "splits": [
+                22475,
+                34240,
+                49937
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 109227,
+            "splits": [
+                25030,
+                35357,
+                48840
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106122,
+            "splits": [
+                23057,
+                34665,
+                48400
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123422,
+            "splits": [
+                22830,
+                49510,
+                51082
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118982,
+            "splits": [
+                22957,
+                46632,
+                49392
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22460,
+            33732,
+            48445
+        ],
+        "bestlap": 104945,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Riley",
+                            "lastName": "Greear",
+                            "playerId": "S76561199295227155",
+                            "memberId": "d238ea9b416a52c4acab4ef4d402f12b1beeb48d04e17e31e358d727eb26c9ca",
+                            "shortName": "Riley Greear"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 293,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Riley",
+                    "lastName": "Greear",
+                    "playerId": "PlayerID",
+                    "memberId": "d238ea9b416a52c4acab4ef4d402f12b1beeb48d04e17e31e358d727eb26c9ca",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104945,
+                    "bestSplits": [
+                        22460,
+                        33732,
+                        48445
+                    ],
+                    "lapCount": 7,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Cars",
+                            "lastName": "And Guitars",
+                            "playerId": "PlayerID",
+                            "memberId": "7da1f1d2a2edec20c7dc43774c2a54aef5160107856f87f715a0baeff196a5b9",
+                            "shortName": "Cars And Guitars"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 987,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cars",
+                    "lastName": "And Guitars",
+                    "playerId": "PlayerID",
+                    "memberId": "7da1f1d2a2edec20c7dc43774c2a54aef5160107856f87f715a0baeff196a5b9",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 0,
+                    "bestSplits": [],
+                    "lapCount": 4,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "imola",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League Time Trials | Powered by Thomas Greer",
+    "metaData": "",
+    "Date": "2025-03-03T20:45:00Z",
+    "SessionFile": "250303_204505_FP"
+}

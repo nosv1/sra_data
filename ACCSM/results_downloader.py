@@ -12,6 +12,7 @@ from pytz import timezone as pytz_timezone
 
 current_dir = os.path.dirname(__file__)
 sys.path.append(os.path.join(current_dir, ".."))
+from utils.Database import Neo4jDatabase
 from utils.queries import CarModels
 
 
@@ -192,6 +193,8 @@ def parse_sra_result(session_url):
 
         race_number = cols[1].find("span").text.strip()
         name = cols[1].find("a").text.strip()
+        first_name = name.split()[0] if name else ""
+        last_name = " ".join(name.split()[1:]) if name else ""
         car_id = cols[1].find("a")["href"].split("_")[-1]
         member_url = cols[1].find("a", {"class": "sra-gold-hover"})["href"]
         member_id = member_url.split("/")[-1].split("member=")[-1]
@@ -204,11 +207,17 @@ def parse_sra_result(session_url):
         best_lap = cols[3].text.strip()
         num_laps = int(cols[4].text.strip())
 
-        def lap_to_milli(lap: str) -> int:
+        def time_to_milli(lap: str) -> int:
             # lap needs to be "m:ss.000"
-            # it comes in as "m:ss.xxx INV" or "m:ss.xxx +0.000"
+            # it comes in as "m:ss.xxxINV" or "m:ss.xxx +0.000 or "00.000"
             lap = lap.split()[0]
-            minutes, seconds = lap.split(":")
+            lap = re.sub(r"[^0-9:.]", "", lap)
+            minutes = 0
+            seconds = 0
+            if ":" in lap:
+                minutes, seconds = lap.split(":")
+            else:
+                seconds = lap
             seconds, milliseconds = seconds.split(".")
             return int(minutes) * 60 * 1000 + int(seconds) * 1000 + int(milliseconds)
 
@@ -222,8 +231,8 @@ def parse_sra_result(session_url):
                 "cupCategory": -1,
                 "drivers": [
                     {
-                        "firstName": name.split()[0],
-                        "lastName": " ".join(name.split()[1:]),
+                        "firstName": first_name,
+                        "lastName": last_name,
                         "playerId": "PlayerID",  # Placeholder, sra results don't have player ids, but they do have member ids, these can be matched later
                         "memberId": member_id,
                         "shortName": name,
@@ -234,8 +243,8 @@ def parse_sra_result(session_url):
                 "teamName": "",
             },
             "currentDriver": {
-                "firstName": name.split()[0],
-                "lastName": name.split()[-1],
+                "firstName": first_name,
+                "lastName": last_name,
                 "playerId": "PlayerID",  # Placeholder, sra results don't have player ids, but they do have member ids, these can be matched later
                 "memberId": member_id,
                 "shortName": "",
@@ -244,10 +253,10 @@ def parse_sra_result(session_url):
             "driverTotalTimes": [],
             "missingMandatoryPitstop": -1,
             "timing": {
-                "bestLap": lap_to_milli(best_lap),
+                "bestLap": time_to_milli(best_lap) if best_lap != "-" else 0,
                 "bestSplits": [],  # Placeholder
                 "lapCount": num_laps,
-                "lastLap": lap_to_milli(best_lap),
+                "lastLap": 0,
                 "lastSplitId": 0,
                 "lastSplits": [],  # Placeholder
                 "totalTime": 0,  # Placeholder
@@ -255,13 +264,13 @@ def parse_sra_result(session_url):
         }
         leaderboard_lines.append(leaderboard_line)
 
-    best_lap = float("inf")
-    best_splits = [float("inf"), float("inf"), float("inf")]
+    best_lap = sys.maxsize
+    best_splits = [sys.maxsize, sys.maxsize, sys.maxsize]
 
     for d_idx, driver_laps in enumerate(laps_tables):
 
-        driver_best_lap = float("inf")
-        driver_best_splits = [float("inf"), float("inf"), float("inf")]
+        driver_best_lap = sys.maxsize
+        driver_best_splits = [sys.maxsize] * 3
         for r_idx, row in enumerate(driver_laps.find_all("tr")):
             #   <tr>
             #    <!-- Lap -->
@@ -309,11 +318,11 @@ def parse_sra_result(session_url):
                 "carId": leaderboard_lines[d_idx]["car"]["carId"],
                 "driverIndex": 0,
                 "isValidForBest": "INV" not in cols[2].text,
-                "laptime": lap_to_milli(cols[2].text),
+                "laptime": time_to_milli(cols[2].text),
                 "splits": [
-                    int(float(cols[3].text) * 1000),
-                    int(float(cols[4].text) * 1000),
-                    int(float(cols[5].text) * 1000),
+                    time_to_milli(cols[3].text),
+                    time_to_milli(cols[4].text),
+                    time_to_milli(cols[5].text),
                 ],
             }
             laps.append(lap)
@@ -332,8 +341,8 @@ def parse_sra_result(session_url):
         pass
 
     session_result = {
-        "bestSplits": best_splits if best_lap != float("inf") else None,
-        "bestlap": best_lap if best_lap != float("inf") else None,
+        "bestSplits": best_splits if best_lap != sys.maxsize else [sys.maxsize] * 3,
+        "bestlap": best_lap if best_lap != sys.maxsize else sys.maxsize,
         "isWetSession": 0,
         "leaderBoardLines": leaderboard_lines,
         "type": 0,
@@ -366,12 +375,30 @@ def parse_sra_result(session_url):
     return result_json
 
 
+def get_member_ids() -> dict:
+    neo_driver, neo_session = Neo4jDatabase.connect_database("SRA")
+    print(f"Getting member ids...", end="")
+    result = neo_driver.execute_query(
+        f"""
+        MATCH (d:Driver)
+        RETURN d.member_id, d.driver_id"""
+    )
+    print(f"received {len(result.records)} records.")
+    Neo4jDatabase.close_connection(neo_driver, neo_session)
+    member_ids = {
+        record["d.member_id"]: record["d.driver_id"] for record in result.records
+    }
+    return member_ids
+
+
 def get_sra_results(
     before_date: datetime = datetime.max.replace(tzinfo=pytz_timezone("US/Eastern")),
     after_date: datetime = datetime.min.replace(tzinfo=pytz_timezone("US/Eastern")),
 ):
     current_dir = os.path.dirname(__file__)
     downloads_dir = os.path.join(current_dir, "downloads")
+
+    member_ids = get_member_ids()
 
     server = "ttserver6"
     base_url = f"https://www.simracingalliance.com/results/{server}"
@@ -418,15 +445,23 @@ def get_sra_results(
         filename = construct_filename(session_type[0], "", accsm_file, server)
         path = os.path.join(downloads_dir, filename)
 
-        if not os.path.exists(path):
-            print(f"Missing file: {filename}")
-            result_json = parse_sra_result(session_url)
-            result_json["Date"] = finish_time.isoformat()
-            result_json["SessionFile"] = accsm_file
-            with open(path, "w") as f:
-                json.dump(result_json, f, indent=4)
-            print(f"Downloaded {filename}")
-            pass
+        if os.path.exists(path):
+            print(f"File {path} already exists... skipping {filename}")
+            break
+
+        print(f"Missing file: {filename}")
+        result_json = parse_sra_result(session_url)
+        result_json["Date"] = f"{finish_time.replace(tzinfo=None).isoformat()}Z"
+        result_json["SessionFile"] = accsm_file
+        for line in result_json["sessionResult"]["leaderBoardLines"]:
+            for driver in line["car"]["drivers"]:
+                member_id = driver["memberId"]
+                driver_id = member_ids.get(member_id, None)
+                if driver_id:
+                    driver["playerId"] = driver_id
+        with open(path, "w") as f:
+            json.dump(result_json, f, indent=4)
+        print(f"Downloaded {filename}")
         pass
     pass
 

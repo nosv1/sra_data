@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105705,
+            "splits": [
+                22660,
+                33855,
+                49190
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106447,
+            "splits": [
+                23247,
+                34092,
+                49107
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106122,
+            "splits": [
+                22922,
+                33587,
+                49612
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22922,
+            33587,
+            49612
+        ],
+        "bestlap": 106122,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Marcus",
+                            "lastName": "Galleta",
+                            "playerId": "PlayerID",
+                            "memberId": "38485159083c3a1ad37c6e78bb1ea72b0e3e87b504ebb39d07a5fe2ac8563fcf",
+                            "shortName": "Marcus Galleta"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 575,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Marcus",
+                    "lastName": "Galleta",
+                    "playerId": "PlayerID",
+                    "memberId": "38485159083c3a1ad37c6e78bb1ea72b0e3e87b504ebb39d07a5fe2ac8563fcf",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106122,
+                    "bestSplits": [
+                        22922,
+                        33587,
+                        49612
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ5",
+    "metaData": "",
+    "Date": "2025-03-03T21:01:00Z",
+    "SessionFile": "250303_210104_Q"
+}

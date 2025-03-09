@@ -1,0 +1,171 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100920,
+            "splits": [
+                21720,
+                32360,
+                46840
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101355,
+            "splits": [
+                21712,
+                32610,
+                47032
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105185,
+            "splits": [
+                22485,
+                33447,
+                49252
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103530,
+            "splits": [
+                22297,
+                33167,
+                48065
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116885,
+            "splits": [
+                32202,
+                33840,
+                50842
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21712,
+            32360,
+            46840
+        ],
+        "bestlap": 100920,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Joel",
+                            "lastName": "Moffatt",
+                            "playerId": "S76561197960416683",
+                            "memberId": "44bd0d5e207f5864578b63297029a165e4b2a502c3aefd06a5a96f8fa146291a",
+                            "shortName": "Joel Moffatt"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 64,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joel",
+                    "lastName": "Moffatt",
+                    "playerId": "PlayerID",
+                    "memberId": "44bd0d5e207f5864578b63297029a165e4b2a502c3aefd06a5a96f8fa146291a",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 100920,
+                    "bestSplits": [
+                        21712,
+                        32360,
+                        46840
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Curtis",
+                            "lastName": "Lee",
+                            "playerId": "S76561198035723322",
+                            "memberId": "32a807d8b19c990cd1d30ba7ef5d8f69e55a74df30d0e09e73d259335af9f7f4",
+                            "shortName": "Curtis Lee"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 888,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Curtis",
+                    "lastName": "Lee",
+                    "playerId": "PlayerID",
+                    "memberId": "32a807d8b19c990cd1d30ba7ef5d8f69e55a74df30d0e09e73d259335af9f7f4",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 103530,
+                    "bestSplits": [
+                        22297,
+                        33167,
+                        48065
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ4",
+    "metaData": "",
+    "Date": "2025-03-04T22:48:00Z",
+    "SessionFile": "250304_224850_Q"
+}

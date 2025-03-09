@@ -1,0 +1,100 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118997,
+            "splits": [
+                23900,
+                35927,
+                59170
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 109342,
+            "splits": [
+                24922,
+                34650,
+                49770
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118987,
+            "splits": [
+                23250,
+                34305,
+                61432
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            9223372036854775807,
+            9223372036854775807,
+            9223372036854775807
+        ],
+        "bestlap": 9223372036854775807,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Hobo",
+                            "lastName": "Lambo",
+                            "playerId": "PlayerID",
+                            "memberId": "b01f7708b485202fd65b29db3f5274f5cf3bb9a8749531158aa11b9301c19b98",
+                            "shortName": "Hobo Lambo"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 986,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Hobo",
+                    "lastName": "Lambo",
+                    "playerId": "PlayerID",
+                    "memberId": "b01f7708b485202fd65b29db3f5274f5cf3bb9a8749531158aa11b9301c19b98",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 0,
+                    "bestSplits": [],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ5",
+    "metaData": "",
+    "Date": "2025-03-03T21:57:00Z",
+    "SessionFile": "250303_215751_Q"
+}

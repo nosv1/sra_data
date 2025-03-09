@@ -300,9 +300,11 @@ class LeaderboardTiming:
         }
         """
         best_lap: int = int(timing_dict[LeaderboardTiming.best_lap_json])
-        best_splits: list[int] = [
-            int(split) for split in timing_dict[LeaderboardTiming.best_splits_json]
-        ]
+        best_splits: list[int] = (
+            [int(split) for split in timing_dict[LeaderboardTiming.best_splits_json]]
+            if timing_dict[LeaderboardTiming.best_splits_json]
+            else [sys.maxsize] * 3
+        )
         lap_count: int = int(timing_dict[LeaderboardTiming.lap_count_json])
         last_lap: int = int(timing_dict[LeaderboardTiming.last_lap_json])
         last_split_id: int = int(timing_dict[LeaderboardTiming.last_split_id_json])

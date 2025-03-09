@@ -1,0 +1,171 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 100457,
+            "splits": [
+                21477,
+                32340,
+                46640
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100895,
+            "splits": [
+                21482,
+                32552,
+                46860
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100860,
+            "splits": [
+                21445,
+                32480,
+                46935
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101672,
+            "splits": [
+                21507,
+                32502,
+                47662
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105002,
+            "splits": [
+                22732,
+                33557,
+                48712
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21445,
+            32480,
+            46860
+        ],
+        "bestlap": 100860,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Formato",
+                            "playerId": "PlayerID",
+                            "memberId": "ea977f37a2a551181ce8e90538aace047d8a5d7e7395036fab4e40b666e90ba3",
+                            "shortName": "Michael Formato"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 98,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Formato",
+                    "playerId": "PlayerID",
+                    "memberId": "ea977f37a2a551181ce8e90538aace047d8a5d7e7395036fab4e40b666e90ba3",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 100860,
+                    "bestSplits": [
+                        21445,
+                        32480,
+                        46860
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Brian",
+                            "lastName": "Banks(CDN)",
+                            "playerId": "S76561198965403503",
+                            "memberId": "f28182e6af6e75247cb3e93b647aea873c02d4a2e709e35e073ae71d2a7c9b18",
+                            "shortName": "Brian Banks(CDN)"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 910,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Brian",
+                    "lastName": "Banks(CDN)",
+                    "playerId": "PlayerID",
+                    "memberId": "f28182e6af6e75247cb3e93b647aea873c02d4a2e709e35e073ae71d2a7c9b18",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105002,
+                    "bestSplits": [
+                        22732,
+                        33557,
+                        48712
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ5",
+    "metaData": "",
+    "Date": "2025-03-08T13:34:00Z",
+    "SessionFile": "250308_133405_Q"
+}

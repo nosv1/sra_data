@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 108825,
+            "splits": [
+                23107,
+                35230,
+                50487
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 108807,
+            "splits": [
+                22865,
+                35490,
+                50452
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107962,
+            "splits": [
+                22950,
+                34775,
+                50237
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22865,
+            34775,
+            50237
+        ],
+        "bestlap": 107962,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Jeremy",
+                            "lastName": "Rann",
+                            "playerId": "PlayerID",
+                            "memberId": "4426780b2ae250318a8de4a3f040cbd079d9218f3017ca116e89d2b50ca1925c",
+                            "shortName": "Jeremy Rann"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 942,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jeremy",
+                    "lastName": "Rann",
+                    "playerId": "PlayerID",
+                    "memberId": "4426780b2ae250318a8de4a3f040cbd079d9218f3017ca116e89d2b50ca1925c",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107962,
+                    "bestSplits": [
+                        22865,
+                        34775,
+                        50237
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ3",
+    "metaData": "",
+    "Date": "2025-03-07T22:31:00Z",
+    "SessionFile": "250307_223109_Q"
+}
