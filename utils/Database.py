@@ -1,57 +1,59 @@
 from os import getenv
 
-import mysql.connector
+# import mysql.connector
 from dotenv import load_dotenv
-from mysql.connector.abstracts import MySQLConnectionAbstract, MySQLCursorAbstract
+
+# from mysql.connector.abstracts import MySQLConnectionAbstract, MySQLCursorAbstract
 from neo4j import BoltDriver, GraphDatabase, Session
-from sqlalchemy import create_engine
-from sqlalchemy.engine import Engine as SQLAEngine
+
+# from sqlalchemy import create_engine
+# from sqlalchemy.engine import Engine as SQLAEngine
 
 load_dotenv()
 
 
-class MySqlDatabase:
-    @staticmethod
-    def connect_database(
-        db_name: str,
-        verbose=True,
-    ) -> tuple[MySQLConnectionAbstract, MySQLCursorAbstract]:
-        if verbose:
-            print(f"Connecting to database {db_name}...", end="")
+# class MySqlDatabase:
+#     @staticmethod
+#     def connect_database(
+#         db_name: str,
+#         verbose=True,
+#     ) -> tuple[MySQLConnectionAbstract, MySQLCursorAbstract]:
+#         if verbose:
+#             print(f"Connecting to database {db_name}...", end="")
 
-        connection: MySQLConnectionAbstract = mysql.connector.connect(
-            host=getenv("SQL_DB_HOST"),
-            user="SRA",
-            password="SRA",
-            database=db_name,
-        )
-        cursor: MySQLCursorAbstract = connection.cursor()
+#         connection: MySQLConnectionAbstract = mysql.connector.connect(
+#             host=getenv("SQL_DB_HOST"),
+#             user="SRA",
+#             password="SRA",
+#             database=db_name,
+#         )
+#         cursor: MySQLCursorAbstract = connection.cursor()
 
-        if verbose:
-            print("connected")
-        return connection, cursor
+#         if verbose:
+#             print("connected")
+#         return connection, cursor
 
-    @staticmethod
-    def handle_bad_string(string: str) -> str:
-        return string.replace("'", "''").replace("\\", "\\\\")
+#     @staticmethod
+#     def handle_bad_string(string: str) -> str:
+#         return string.replace("'", "''").replace("\\", "\\\\")
 
-    @staticmethod
-    def close_connection(
-        connection: MySQLConnectionAbstract, cursor: MySQLCursorAbstract, verbose=True
-    ):
-        if verbose:
-            print(f"Closing connection...", end="")
+#     @staticmethod
+#     def close_connection(
+#         connection: MySQLConnectionAbstract, cursor: MySQLCursorAbstract, verbose=True
+#     ):
+#         if verbose:
+#             print(f"Closing connection...", end="")
 
-        cursor.close()
-        connection.close()
+#         cursor.close()
+#         connection.close()
 
-        if verbose:
-            print("closed")
+#         if verbose:
+#             print("closed")
 
-    @staticmethod
-    def create_engine() -> SQLAEngine:
-        DATABASE_URI = f"mysql+mysqlconnector://SRA:SRA@{getenv('SQL_DB_HOST')}/SRA"
-        return create_engine(DATABASE_URI)
+#     @staticmethod
+#     def create_engine() -> SQLAEngine:
+#         DATABASE_URI = f"mysql+mysqlconnector://SRA:SRA@{getenv('SQL_DB_HOST')}/SRA"
+#         return create_engine(DATABASE_URI)
 
 
 class Neo4jDatabase:

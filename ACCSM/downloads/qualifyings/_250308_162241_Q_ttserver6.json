@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101965,
+            "splits": [
+                21670,
+                32842,
+                47452
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101275,
+            "splits": [
+                21627,
+                32372,
+                47275
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100740,
+            "splits": [
+                21550,
+                32262,
+                46927
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21550,
+            32262,
+            46927
+        ],
+        "bestlap": 100740,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Kevin",
+                            "lastName": "Blanchette",
+                            "playerId": "PlayerID",
+                            "memberId": "589293e7a1d644a89b84e20a0375ad8e0291bd9e4deca9fd370ac85366d87975",
+                            "shortName": "Kevin Blanchette"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Kevin",
+                    "lastName": "Blanchette",
+                    "playerId": "PlayerID",
+                    "memberId": "589293e7a1d644a89b84e20a0375ad8e0291bd9e4deca9fd370ac85366d87975",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 100740,
+                    "bestSplits": [
+                        21550,
+                        32262,
+                        46927
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ1",
+    "metaData": "",
+    "Date": "2025-03-08T16:22:00Z",
+    "SessionFile": "250308_162241_Q"
+}
