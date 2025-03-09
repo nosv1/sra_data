@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126945,
+            "splits": [
+                42152,
+                50662,
+                34130
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118465,
+            "splits": [
+                34985,
+                49707,
+                33772
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            34985,
+            49707,
+            33772
+        ],
+        "bestlap": 118465,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Adam",
+                            "lastName": "Santana",
+                            "playerId": "S76561198025024079",
+                            "memberId": "1b236801d9443aa36af3eab12c3b9f2aff67973fdbff6c458737dd568b63c425",
+                            "shortName": "Adam Santana"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 215,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Adam",
+                    "lastName": "Santana",
+                    "playerId": "PlayerID",
+                    "memberId": "1b236801d9443aa36af3eab12c3b9f2aff67973fdbff6c458737dd568b63c425",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 118465,
+                    "bestSplits": [
+                        34985,
+                        49707,
+                        33772
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-11-19T20:16:00Z",
+    "SessionFile": "241119_201627_Q"
+}

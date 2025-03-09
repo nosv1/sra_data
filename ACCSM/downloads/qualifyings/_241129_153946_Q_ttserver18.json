@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 119257,
+            "splits": [
+                35357,
+                50272,
+                33627
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 119275,
+            "splits": [
+                35227,
+                50260,
+                33787
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35357,
+            50272,
+            33627
+        ],
+        "bestlap": 119257,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Ivan",
+                            "lastName": "McCroat",
+                            "playerId": "S76561198043439621",
+                            "memberId": "9579856fe4fd1032545ce5c84828888de464256f2ac0d0151d21908ec54f0828",
+                            "shortName": "Ivan McCroat"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 97,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ivan",
+                    "lastName": "McCroat",
+                    "playerId": "PlayerID",
+                    "memberId": "9579856fe4fd1032545ce5c84828888de464256f2ac0d0151d21908ec54f0828",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 119257,
+                    "bestSplits": [
+                        35357,
+                        50272,
+                        33627
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-11-29T15:39:00Z",
+    "SessionFile": "241129_153946_Q"
+}

@@ -1,0 +1,126 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123675,
+            "splits": [
+                35852,
+                53532,
+                34290
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121457,
+            "splits": [
+                35642,
+                51450,
+                34365
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121315,
+            "splits": [
+                35837,
+                51370,
+                34107
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120680,
+            "splits": [
+                35467,
+                51305,
+                33907
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121622,
+            "splits": [
+                36325,
+                51085,
+                34212
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35467,
+            51085,
+            33907
+        ],
+        "bestlap": 120680,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 10,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Dave",
+                            "lastName": "Paccagnini",
+                            "playerId": "S76561198008466364",
+                            "memberId": "26c4e3a15280998a00c8b970da39a27d6a904bd519f93bf15a3b590d6476558e",
+                            "shortName": "Dave Paccagnini"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 409,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dave",
+                    "lastName": "Paccagnini",
+                    "playerId": "PlayerID",
+                    "memberId": "26c4e3a15280998a00c8b970da39a27d6a904bd519f93bf15a3b590d6476558e",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120680,
+                    "bestSplits": [
+                        35467,
+                        51085,
+                        33907
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ3",
+    "metaData": "",
+    "Date": "2024-11-12T13:01:00Z",
+    "SessionFile": "241112_130157_Q"
+}

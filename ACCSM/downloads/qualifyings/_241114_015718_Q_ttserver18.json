@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121145,
+            "splits": [
+                35155,
+                50372,
+                35617
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 119452,
+            "splits": [
+                35217,
+                50485,
+                33750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 119005,
+            "splits": [
+                35065,
+                50020,
+                33920
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35065,
+            50020,
+            33750
+        ],
+        "bestlap": 119005,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Dean",
+                            "lastName": "Stefani",
+                            "playerId": "S76561198068000942",
+                            "memberId": "eec101f01ffdeb2c68df9cf6aed9dd27ed1a32928ccd02e11b8f52b131ce2786",
+                            "shortName": "Dean Stefani"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 877,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dean",
+                    "lastName": "Stefani",
+                    "playerId": "PlayerID",
+                    "memberId": "eec101f01ffdeb2c68df9cf6aed9dd27ed1a32928ccd02e11b8f52b131ce2786",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 119005,
+                    "bestSplits": [
+                        35065,
+                        50020,
+                        33750
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-11-14T01:57:00Z",
+    "SessionFile": "241114_015718_Q"
+}

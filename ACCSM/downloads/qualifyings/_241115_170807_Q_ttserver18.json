@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120595,
+            "splits": [
+                36195,
+                50630,
+                33770
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120472,
+            "splits": [
+                35410,
+                51230,
+                33832
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35410,
+            51230,
+            33832
+        ],
+        "bestlap": 120472,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 21,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Jo\u00e3o",
+                            "lastName": "Sodr\u00e9",
+                            "playerId": "S76561198024833854",
+                            "memberId": "739237ab33291207691a24fa5184197e5e6b95834fef90b0bc6e61c86de47701",
+                            "shortName": "Jo\u00e3o Sodr\u00e9"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 448,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jo\u00e3o",
+                    "lastName": "Sodr\u00e9",
+                    "playerId": "PlayerID",
+                    "memberId": "739237ab33291207691a24fa5184197e5e6b95834fef90b0bc6e61c86de47701",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120472,
+                    "bestSplits": [
+                        35410,
+                        51230,
+                        33832
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-11-15T17:08:00Z",
+    "SessionFile": "241115_170807_Q"
+}
