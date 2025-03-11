@@ -457,9 +457,14 @@ def get_sra_results(
         for line in result_json["sessionResult"]["leaderBoardLines"]:
             for driver in line["car"]["drivers"]:
                 member_id = driver["memberId"]
-                driver_id = member_ids.get(member_id, None)
+                driver_id = member_ids.get(member_id, member_id)
                 if driver_id:
                     driver["playerId"] = driver_id
+            current_driver = line["currentDriver"]
+            member_id = current_driver["memberId"]
+            driver_id = member_ids.get(member_id, member_id)
+            if driver_id:
+                current_driver["playerId"] = driver_id
         with open(path, "w") as f:
             json.dump(result_json, f, indent=4)
         print(f"Downloaded {filename}")
@@ -494,8 +499,13 @@ def main(argv):
 
     if args.accsm:
         get_accsm_results()
-    if args.sra:
+    elif args.sra:
         get_sra_results(before_date=args.before_date, after_date=args.after_date)
+    else:
+        get_sra_results(
+            before_date=datetime(2025, 3, 18, tzinfo=pytz_timezone("US/Eastern")),
+            after_date=datetime(2025, 3, 1, tzinfo=pytz_timezone("US/Eastern")),
+        )
 
 
 if __name__ == "__main__":
