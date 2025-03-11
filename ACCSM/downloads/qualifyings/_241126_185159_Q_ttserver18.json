@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 123425,
+            "splits": [
+                36772,
+                51780,
+                34872
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135790,
+            "splits": [
+                49517,
+                51735,
+                34537
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            36772,
+            51780,
+            34872
+        ],
+        "bestlap": 123425,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 21,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Sebastian",
+                            "lastName": "Rock",
+                            "playerId": "S76561198317932774",
+                            "memberId": "fa24840710ff0ef4a791d2c5f73cd8a52f8192542ce116a753d791449a06a13d",
+                            "shortName": "Sebastian Rock"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 218,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sebastian",
+                    "lastName": "Rock",
+                    "playerId": "S76561198317932774",
+                    "memberId": "fa24840710ff0ef4a791d2c5f73cd8a52f8192542ce116a753d791449a06a13d",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 123425,
+                    "bestSplits": [
+                        36772,
+                        51780,
+                        34872
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-11-26T18:51:00Z",
+    "SessionFile": "241126_185159_Q"
+}

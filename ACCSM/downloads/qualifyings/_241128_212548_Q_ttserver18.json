@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118857,
+            "splits": [
+                35142,
+                49995,
+                33720
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118492,
+            "splits": [
+                35067,
+                49832,
+                33592
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118377,
+            "splits": [
+                34897,
+                49795,
+                33685
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            34897,
+            49795,
+            33592
+        ],
+        "bestlap": 118377,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Amos",
+                            "lastName": "Movo",
+                            "playerId": "S76561198368453660",
+                            "memberId": "58dd0090a7e8c4582e1db5d77ec20a4185ba73931680af9907a19cc7011f2777",
+                            "shortName": "Amos Movo"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 518,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Amos",
+                    "lastName": "Movo",
+                    "playerId": "S76561198368453660",
+                    "memberId": "58dd0090a7e8c4582e1db5d77ec20a4185ba73931680af9907a19cc7011f2777",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 118377,
+                    "bestSplits": [
+                        34897,
+                        49795,
+                        33592
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-11-28T21:25:00Z",
+    "SessionFile": "241128_212548_Q"
+}

@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 119305,
+            "splits": [
+                35205,
+                50187,
+                33912
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118830,
+            "splits": [
+                34682,
+                50460,
+                33687
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 118755,
+            "splits": [
+                34827,
+                50055,
+                33872
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            34827,
+            50055,
+            33872
+        ],
+        "bestlap": 118755,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Arct",
+                            "lastName": "",
+                            "playerId": "S76561198279907335",
+                            "memberId": "3eca6fc288fb57c011ccc6c2035c5498e9edca58f5e4070cc4e4016a1bd70cfc",
+                            "shortName": "Arct"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 370,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Arct",
+                    "lastName": "",
+                    "playerId": "S76561198279907335",
+                    "memberId": "3eca6fc288fb57c011ccc6c2035c5498e9edca58f5e4070cc4e4016a1bd70cfc",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 118755,
+                    "bestSplits": [
+                        34827,
+                        50055,
+                        33872
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-11-29T17:32:00Z",
+    "SessionFile": "241129_173212_Q"
+}

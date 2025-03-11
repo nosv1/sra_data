@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1005,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120732,
+            "splits": [
+                35652,
+                50935,
+                34145
+            ]
+        },
+        {
+            "carId": 1005,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121000,
+            "splits": [
+                36022,
+                50625,
+                34352
+            ]
+        },
+        {
+            "carId": 1005,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120420,
+            "splits": [
+                35615,
+                50220,
+                34585
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35652,
+            50625,
+            34145
+        ],
+        "bestlap": 120732,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1005,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Calvin",
+                            "lastName": "Huangster",
+                            "playerId": "ecfa64e8217ffc161653e894de71659dda3fbcb7f105258a14e10961a0017985",
+                            "memberId": "ecfa64e8217ffc161653e894de71659dda3fbcb7f105258a14e10961a0017985",
+                            "shortName": "Calvin Huangster"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 95,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Calvin",
+                    "lastName": "Huangster",
+                    "playerId": "ecfa64e8217ffc161653e894de71659dda3fbcb7f105258a14e10961a0017985",
+                    "memberId": "ecfa64e8217ffc161653e894de71659dda3fbcb7f105258a14e10961a0017985",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120732,
+                    "bestSplits": [
+                        35652,
+                        50625,
+                        34145
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ3",
+    "metaData": "",
+    "Date": "2024-11-27T05:00:00Z",
+    "SessionFile": "241127_050007_Q"
+}

@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 114490,
+            "splits": [
+                24925,
+                36287,
+                53277
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 112005,
+            "splits": [
+                24082,
+                36200,
+                51722
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 114647,
+            "splits": [
+                24035,
+                36122,
+                54490
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            24082,
+            36200,
+            51722
+        ],
+        "bestlap": 112005,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Chris",
+                            "lastName": "Lucido",
+                            "playerId": "8b567f421cf148aa1a46418819a38fb9f513020f67e35a53d980448c4b9e286f",
+                            "memberId": "8b567f421cf148aa1a46418819a38fb9f513020f67e35a53d980448c4b9e286f",
+                            "shortName": "Chris Lucido"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 23,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Chris",
+                    "lastName": "Lucido",
+                    "playerId": "8b567f421cf148aa1a46418819a38fb9f513020f67e35a53d980448c4b9e286f",
+                    "memberId": "8b567f421cf148aa1a46418819a38fb9f513020f67e35a53d980448c4b9e286f",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 112005,
+                    "bestSplits": [
+                        24082,
+                        36200,
+                        51722
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "imola",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League Time Trials | Powered by Thomas Greer",
+    "metaData": "",
+    "Date": "2024-11-19T18:07:00Z",
+    "SessionFile": "241119_180739_FP"
+}

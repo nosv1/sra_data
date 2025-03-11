@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 124510,
+            "splits": [
+                36055,
+                53232,
+                35222
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124385,
+            "splits": [
+                37175,
+                52427,
+                34782
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37175,
+            52427,
+            34782
+        ],
+        "bestlap": 124385,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Dan",
+                            "lastName": "Thibodeaux",
+                            "playerId": "S76561198095055720",
+                            "memberId": "409015a2f999d82c3ef35ee983d41461e0ebe96607b7659048c2cc45a8684607",
+                            "shortName": "Dan Thibodeaux"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 44,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Dan",
+                    "lastName": "Thibodeaux",
+                    "playerId": "S76561198095055720",
+                    "memberId": "409015a2f999d82c3ef35ee983d41461e0ebe96607b7659048c2cc45a8684607",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 124385,
+                    "bestSplits": [
+                        37175,
+                        52427,
+                        34782
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ5",
+    "metaData": "",
+    "Date": "2024-11-17T15:13:00Z",
+    "SessionFile": "241117_151341_Q"
+}

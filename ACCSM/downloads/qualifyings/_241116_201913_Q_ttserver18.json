@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121017,
+            "splits": [
+                35807,
+                50965,
+                34245
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120317,
+            "splits": [
+                35545,
+                51065,
+                33707
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35545,
+            51065,
+            33707
+        ],
+        "bestlap": 120317,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 10,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Sergio",
+                            "lastName": "Lindo",
+                            "playerId": "S76561198314724439",
+                            "memberId": "88775a7e884e461a764c592cc0481f5dec99977350d6081733dd0b2a1de958db",
+                            "shortName": "Sergio Lindo"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 68,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sergio",
+                    "lastName": "Lindo",
+                    "playerId": "S76561198314724439",
+                    "memberId": "88775a7e884e461a764c592cc0481f5dec99977350d6081733dd0b2a1de958db",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120317,
+                    "bestSplits": [
+                        35545,
+                        51065,
+                        33707
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-11-16T20:19:00Z",
+    "SessionFile": "241116_201913_Q"
+}

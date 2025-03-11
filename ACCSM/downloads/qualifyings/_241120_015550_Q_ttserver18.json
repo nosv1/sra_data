@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 122327,
+            "splits": [
+                35982,
+                51570,
+                34775
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 121675,
+            "splits": [
+                35747,
+                51385,
+                34542
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123612,
+            "splits": [
+                37012,
+                51947,
+                34652
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35747,
+            51385,
+            34542
+        ],
+        "bestlap": 121675,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Cube",
+                            "lastName": "Master",
+                            "playerId": "S76561198063635148",
+                            "memberId": "ab4e72986bacdbc825ad3cde73f95f3df2ddbcc18842c5081c2f55bfa2cb3083",
+                            "shortName": "Cube Master"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 52,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cube",
+                    "lastName": "Master",
+                    "playerId": "S76561198063635148",
+                    "memberId": "ab4e72986bacdbc825ad3cde73f95f3df2ddbcc18842c5081c2f55bfa2cb3083",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 121675,
+                    "bestSplits": [
+                        35747,
+                        51385,
+                        34542
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ1",
+    "metaData": "",
+    "Date": "2024-11-20T01:55:00Z",
+    "SessionFile": "241120_015550_Q"
+}

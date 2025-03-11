@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 121637,
+            "splits": [
+                36220,
+                51350,
+                34067
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 120867,
+            "splits": [
+                35410,
+                51050,
+                34407
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            35410,
+            51050,
+            34407
+        ],
+        "bestlap": 120867,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Aidan",
+                            "lastName": "Burk",
+                            "playerId": "S76561198227553172",
+                            "memberId": "e9147844953c26384f3d7123212e3fea1ae34ee837c1787430ac68ff0b81aaf8",
+                            "shortName": "Aidan Burk"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 580,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aidan",
+                    "lastName": "Burk",
+                    "playerId": "S76561198227553172",
+                    "memberId": "e9147844953c26384f3d7123212e3fea1ae34ee837c1787430ac68ff0b81aaf8",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 120867,
+                    "bestSplits": [
+                        35410,
+                        51050,
+                        34407
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-11-25T11:39:00Z",
+    "SessionFile": "241125_113902_Q"
+}

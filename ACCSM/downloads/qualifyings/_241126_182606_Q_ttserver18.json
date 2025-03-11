@@ -1,0 +1,222 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 142905,
+            "splits": [
+                43265,
+                58677,
+                40962
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136027,
+            "splits": [
+                40387,
+                58457,
+                37182
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 141902,
+            "splits": [
+                45540,
+                58702,
+                37660
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136555,
+            "splits": [
+                42850,
+                57290,
+                36415
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 141980,
+            "splits": [
+                41705,
+                59667,
+                40607
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135312,
+            "splits": [
+                39600,
+                59287,
+                36425
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 140430,
+            "splits": [
+                43740,
+                59380,
+                37310
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 138315,
+            "splits": [
+                42792,
+                59222,
+                36300
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134512,
+            "splits": [
+                39910,
+                58095,
+                36507
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 150830,
+            "splits": [
+                41530,
+                64225,
+                45075
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            40387,
+            57290,
+            36415
+        ],
+        "bestlap": 136027,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 2,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Derek",
+                            "lastName": "F",
+                            "playerId": "a27e446d1a46a5701d6081319083724ae8edf41c49f60c6ca05a8b00167a47c1",
+                            "memberId": "a27e446d1a46a5701d6081319083724ae8edf41c49f60c6ca05a8b00167a47c1",
+                            "shortName": "Derek F"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 333,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Derek",
+                    "lastName": "F",
+                    "playerId": "a27e446d1a46a5701d6081319083724ae8edf41c49f60c6ca05a8b00167a47c1",
+                    "memberId": "a27e446d1a46a5701d6081319083724ae8edf41c49f60c6ca05a8b00167a47c1",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 136027,
+                    "bestSplits": [
+                        40387,
+                        57290,
+                        36415
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 7,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Craig",
+                            "lastName": "Fonger",
+                            "playerId": "be73a3d842ca26cb2cf9ebf0d2fddc36af671f0cb21df6dd4abfd48d4a754673",
+                            "memberId": "be73a3d842ca26cb2cf9ebf0d2fddc36af671f0cb21df6dd4abfd48d4a754673",
+                            "shortName": "Craig Fonger"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 98,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Craig",
+                    "lastName": "Fonger",
+                    "playerId": "be73a3d842ca26cb2cf9ebf0d2fddc36af671f0cb21df6dd4abfd48d4a754673",
+                    "memberId": "be73a3d842ca26cb2cf9ebf0d2fddc36af671f0cb21df6dd4abfd48d4a754673",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 0,
+                    "bestSplits": [],
+                    "lapCount": 6,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ5",
+    "metaData": "",
+    "Date": "2024-11-26T18:26:00Z",
+    "SessionFile": "241126_182606_Q"
+}

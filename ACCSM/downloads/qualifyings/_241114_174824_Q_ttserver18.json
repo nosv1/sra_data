@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135012,
+            "splits": [
+                37692,
+                61937,
+                35382
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 124280,
+            "splits": [
+                37030,
+                52795,
+                34455
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 125205,
+            "splits": [
+                37047,
+                53192,
+                34965
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37030,
+            52795,
+            34455
+        ],
+        "bestlap": 124280,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Tim",
+                            "lastName": "Parkinson",
+                            "playerId": "S76561199019703391",
+                            "memberId": "3dbdaa6cb4b5fd23bccd41f7b2ad946761ce8e1bce1af278ed0420bc03c7827c",
+                            "shortName": "Tim Parkinson"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 674,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tim",
+                    "lastName": "Parkinson",
+                    "playerId": "S76561199019703391",
+                    "memberId": "3dbdaa6cb4b5fd23bccd41f7b2ad946761ce8e1bce1af278ed0420bc03c7827c",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 124280,
+                    "bestSplits": [
+                        37030,
+                        52795,
+                        34455
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "silverstone",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S13 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-11-14T17:48:00Z",
+    "SessionFile": "241114_174824_Q"
+}
