@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104335,
+            "splits": [
+                22192,
+                33445,
+                48697
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104460,
+            "splits": [
+                22442,
+                33300,
+                48717
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104835,
+            "splits": [
+                22295,
+                33352,
+                49187
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22192,
+            33300,
+            48697
+        ],
+        "bestlap": 104335,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Neil",
+                            "lastName": "Leeder",
+                            "playerId": "PlayerID",
+                            "memberId": "37faa2c0464873149f799a6377bb04cc68a253f969b9b50cfb798cdc067c5f6d",
+                            "shortName": "Neil Leeder"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 770,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Neil",
+                    "lastName": "Leeder",
+                    "playerId": "PlayerID",
+                    "memberId": "37faa2c0464873149f799a6377bb04cc68a253f969b9b50cfb798cdc067c5f6d",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104335,
+                    "bestSplits": [
+                        22192,
+                        33300,
+                        48697
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ3",
+    "metaData": "",
+    "Date": "2025-03-09T16:32:00Z",
+    "SessionFile": "250309_163222_Q"
+}

@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104735,
+            "splits": [
+                22507,
+                33640,
+                48587
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104632,
+            "splits": [
+                22365,
+                33322,
+                48945
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104805,
+            "splits": [
+                22482,
+                33780,
+                48542
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22365,
+            33322,
+            48587
+        ],
+        "bestlap": 104632,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Mac",
+                            "lastName": "Stearns",
+                            "playerId": "S76561198010730102",
+                            "memberId": "a2d99c810b5a2aa721661724541fd7eb606d43526e46f4aff6b64453f712b2f9",
+                            "shortName": "Mac Stearns"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 965,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mac",
+                    "lastName": "Stearns",
+                    "playerId": "PlayerID",
+                    "memberId": "a2d99c810b5a2aa721661724541fd7eb606d43526e46f4aff6b64453f712b2f9",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104632,
+                    "bestSplits": [
+                        22365,
+                        33322,
+                        48587
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ2",
+    "metaData": "",
+    "Date": "2025-03-09T19:41:00Z",
+    "SessionFile": "250309_194119_Q"
+}

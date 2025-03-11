@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107627,
+            "splits": [
+                23745,
+                34557,
+                49325
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107230,
+            "splits": [
+                22707,
+                34852,
+                49670
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 10,
+    "sessionResult": {
+        "bestSplits": [
+            22707,
+            34852,
+            49670
+        ],
+        "bestlap": 107230,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 26,
+                    "carGroup": "Cup",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Pat",
+                            "lastName": "Cockcroft",
+                            "playerId": "S76561197978143979",
+                            "shortName": "PAT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 86,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Pat",
+                    "lastName": "Cockcroft",
+                    "playerId": "S76561197978143979",
+                    "shortName": "PAT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 107230,
+                    "bestSplits": [
+                        22707,
+                        34852,
+                        49670
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 107230,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22707,
+                        34852,
+                        49670
+                    ],
+                    "totalTime": 197014947
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggFerrari Challenge Practice - Imola | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:777f87af-1f67-49c1-a46b-af391ccf2e3b",
+    "Date": "2025-03-10T21:25:53Z",
+    "SessionFile": "250310_212553_FP"
+}

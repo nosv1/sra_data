@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 107032,
+            "splits": [
+                22842,
+                34605,
+                49585
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105832,
+            "splits": [
+                22300,
+                34182,
+                49350
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127882,
+            "splits": [
+                22482,
+                35335,
+                70065
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 9,
+    "sessionResult": {
+        "bestSplits": [
+            22300,
+            34182,
+            49350
+        ],
+        "bestlap": 105832,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 26,
+                    "carGroup": "Cup",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Sascha",
+                            "lastName": "Dickhaus",
+                            "playerId": "S76561197996330490",
+                            "shortName": "DIC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 28,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sascha",
+                    "lastName": "Dickhaus",
+                    "playerId": "S76561197996330490",
+                    "shortName": "DIC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 105832,
+                    "bestSplits": [
+                        22300,
+                        34182,
+                        49350
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 127882,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22482,
+                        35335,
+                        70065
+                    ],
+                    "totalTime": 191570542
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggFerrari Challenge Practice - Imola | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:777f87af-1f67-49c1-a46b-af391ccf2e3b",
+    "Date": "2025-03-10T19:56:01Z",
+    "SessionFile": "250310_195601_FP"
+}
