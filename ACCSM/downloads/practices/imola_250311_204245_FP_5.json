@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 107152,
+            "splits": [
+                23882,
+                34855,
+                48415
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106375,
+            "splits": [
+                22607,
+                34522,
+                49245
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106007,
+            "splits": [
+                22285,
+                34375,
+                49347
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            22285,
+            34375,
+            49347
+        ],
+        "bestlap": 106007,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 26,
+                    "carGroup": "Cup",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "John",
+                            "lastName": "Ansom",
+                            "playerId": "S76561197993825152",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 28,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "John",
+                    "lastName": "Ansom",
+                    "playerId": "S76561197993825152",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106007,
+                    "bestSplits": [
+                        22285,
+                        34375,
+                        49347
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 106007,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        22285,
+                        34375,
+                        49347
+                    ],
+                    "totalTime": 280758638
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggFerrari Challenge Practice - Imola | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:777f87af-1f67-49c1-a46b-af391ccf2e3b",
+    "Date": "2025-03-11T20:42:45Z",
+    "SessionFile": "250311_204245_FP"
+}

@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101865,
+            "splits": [
+                21845,
+                32617,
+                47402
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101692,
+            "splits": [
+                21820,
+                32695,
+                47177
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101927,
+            "splits": [
+                22195,
+                32620,
+                47112
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21820,
+            32695,
+            47177
+        ],
+        "bestlap": 101692,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 14,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Timothy",
+                            "lastName": "Flammger",
+                            "playerId": "S76561197998907626",
+                            "memberId": "f1a1b349a8eb6ceecdad90ca4378fb5e7b2ddd6709a59c69c9c3dcae069078ad",
+                            "shortName": "Timothy Flammger"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 19,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Timothy",
+                    "lastName": "Flammger",
+                    "playerId": "S76561197998907626",
+                    "memberId": "f1a1b349a8eb6ceecdad90ca4378fb5e7b2ddd6709a59c69c9c3dcae069078ad",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101692,
+                    "bestSplits": [
+                        21820,
+                        32695,
+                        47177
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ3",
+    "metaData": "",
+    "Date": "2025-03-11T21:59:00Z",
+    "SessionFile": "250311_215949_Q"
+}

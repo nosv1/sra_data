@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106402,
+            "splits": [
+                22595,
+                34230,
+                49577
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105917,
+            "splits": [
+                22607,
+                33800,
+                49510
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104100,
+            "splits": [
+                22152,
+                33652,
+                48295
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22152,
+            33652,
+            48295
+        ],
+        "bestlap": 104100,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Jean",
+                            "lastName": "Maille",
+                            "playerId": "S76561197970540417",
+                            "memberId": "312ada64878bebfdaf019d479c8c836448c36c2c58ac298b24ec18627dfb46e7",
+                            "shortName": "Jean Maille"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 183,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jean",
+                    "lastName": "Maille",
+                    "playerId": "S76561197970540417",
+                    "memberId": "312ada64878bebfdaf019d479c8c836448c36c2c58ac298b24ec18627dfb46e7",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104100,
+                    "bestSplits": [
+                        22152,
+                        33652,
+                        48295
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ1",
+    "metaData": "",
+    "Date": "2025-03-11T08:45:00Z",
+    "SessionFile": "250311_084521_Q"
+}
