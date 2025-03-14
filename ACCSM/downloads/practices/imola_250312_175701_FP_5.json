@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 105250,
+            "splits": [
+                22235,
+                34397,
+                48617
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104467,
+            "splits": [
+                22322,
+                33927,
+                48217
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104332,
+            "splits": [
+                22127,
+                34097,
+                48107
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104282,
+            "splits": [
+                22215,
+                33960,
+                48107
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105397,
+            "splits": [
+                22365,
+                33845,
+                49187
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 13,
+    "sessionResult": {
+        "bestSplits": [
+            22127,
+            33927,
+            48107
+        ],
+        "bestlap": 104282,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 26,
+                    "carGroup": "Cup",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "MacKechnie",
+                            "playerId": "S76561198328203388",
+                            "shortName": "JMA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 3,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "MacKechnie",
+                    "playerId": "S76561198328203388",
+                    "shortName": "JMA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104282,
+                    "bestSplits": [
+                        22127,
+                        33927,
+                        48107
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 105397,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        22365,
+                        33845,
+                        49187
+                    ],
+                    "totalTime": 357299556
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "imola",
+    "serverName": "#SRAggFerrari Challenge Practice - Imola | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:777f87af-1f67-49c1-a46b-af391ccf2e3b",
+    "Date": "2025-03-12T17:57:01Z",
+    "SessionFile": "250312_175701_FP"
+}

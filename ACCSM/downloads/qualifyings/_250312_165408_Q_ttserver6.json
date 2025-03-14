@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104272,
+            "splits": [
+                22132,
+                33540,
+                48600
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105517,
+            "splits": [
+                22322,
+                34595,
+                48600
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104492,
+            "splits": [
+                22127,
+                33577,
+                48787
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22127,
+            33577,
+            48787
+        ],
+        "bestlap": 104492,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "T",
+                            "lastName": "Resonance",
+                            "playerId": "a7669967b66b8b407c9777983af2d4f8b62989ccda3ea49357f22477f46d58ea",
+                            "memberId": "a7669967b66b8b407c9777983af2d4f8b62989ccda3ea49357f22477f46d58ea",
+                            "shortName": "T Resonance"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 11,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "T",
+                    "lastName": "Resonance",
+                    "playerId": "a7669967b66b8b407c9777983af2d4f8b62989ccda3ea49357f22477f46d58ea",
+                    "memberId": "a7669967b66b8b407c9777983af2d4f8b62989ccda3ea49357f22477f46d58ea",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104492,
+                    "bestSplits": [
+                        22127,
+                        33577,
+                        48787
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ1",
+    "metaData": "",
+    "Date": "2025-03-12T16:54:00Z",
+    "SessionFile": "250312_165408_Q"
+}
