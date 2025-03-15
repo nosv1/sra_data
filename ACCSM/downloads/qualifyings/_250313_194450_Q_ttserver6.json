@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104907,
+            "splits": [
+                22405,
+                33350,
+                49152
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103817,
+            "splits": [
+                22090,
+                33257,
+                48470
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 103310,
+            "splits": [
+                21777,
+                33267,
+                48265
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22090,
+            33257,
+            48470
+        ],
+        "bestlap": 103817,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Alex",
+                            "lastName": "Alterisio",
+                            "playerId": "d3c2d82ff0da48c80c03367b53892c4a78c09a249519a9a38cb2657a8f0226b8",
+                            "memberId": "d3c2d82ff0da48c80c03367b53892c4a78c09a249519a9a38cb2657a8f0226b8",
+                            "shortName": "Alex Alterisio"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 699,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alex",
+                    "lastName": "Alterisio",
+                    "playerId": "d3c2d82ff0da48c80c03367b53892c4a78c09a249519a9a38cb2657a8f0226b8",
+                    "memberId": "d3c2d82ff0da48c80c03367b53892c4a78c09a249519a9a38cb2657a8f0226b8",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 103817,
+                    "bestSplits": [
+                        22090,
+                        33257,
+                        48470
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ5",
+    "metaData": "",
+    "Date": "2025-03-13T19:44:00Z",
+    "SessionFile": "250313_194450_Q"
+}

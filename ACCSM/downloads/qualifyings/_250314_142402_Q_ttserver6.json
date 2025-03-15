@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106992,
+            "splits": [
+                22460,
+                34405,
+                50127
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 106020,
+            "splits": [
+                22077,
+                34107,
+                49835
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 105772,
+            "splits": [
+                22575,
+                33807,
+                49390
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22077,
+            34107,
+            49835
+        ],
+        "bestlap": 106020,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Cameron",
+                            "lastName": "Beason",
+                            "playerId": "S76561198045547856",
+                            "memberId": "bf33e897298af288a656912898f03e317c4888f55e7f6b5b83a966693c38f7d5",
+                            "shortName": "Cameron Beason"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 82,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cameron",
+                    "lastName": "Beason",
+                    "playerId": "S76561198045547856",
+                    "memberId": "bf33e897298af288a656912898f03e317c4888f55e7f6b5b83a966693c38f7d5",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 106020,
+                    "bestSplits": [
+                        22077,
+                        34107,
+                        49835
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ4",
+    "metaData": "",
+    "Date": "2025-03-14T14:24:00Z",
+    "SessionFile": "250314_142402_Q"
+}
