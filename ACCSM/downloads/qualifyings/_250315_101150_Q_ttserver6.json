@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101465,
+            "splits": [
+                21722,
+                32647,
+                47095
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101312,
+            "splits": [
+                21740,
+                32602,
+                46970
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101657,
+            "splits": [
+                21912,
+                32705,
+                47040
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21722,
+            32602,
+            46970
+        ],
+        "bestlap": 101312,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "David",
+                            "lastName": "Mustillo",
+                            "playerId": "S76561199398561368",
+                            "memberId": "f14f75eef2a9634cf41998e42b4d6ca6492b53e07401d4d81f535fd253798d2e",
+                            "shortName": "David Mustillo"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 7,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "David",
+                    "lastName": "Mustillo",
+                    "playerId": "S76561199398561368",
+                    "memberId": "f14f75eef2a9634cf41998e42b4d6ca6492b53e07401d4d81f535fd253798d2e",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101312,
+                    "bestSplits": [
+                        21722,
+                        32602,
+                        46970
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ2",
+    "metaData": "",
+    "Date": "2025-03-15T10:11:00Z",
+    "SessionFile": "250315_101150_Q"
+}

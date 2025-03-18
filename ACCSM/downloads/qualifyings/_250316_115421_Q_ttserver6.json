@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101672,
+            "splits": [
+                21912,
+                32610,
+                47150
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101247,
+            "splits": [
+                21710,
+                32382,
+                47155
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 101387,
+            "splits": [
+                21745,
+                32680,
+                46962
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            21710,
+            32382,
+            47150
+        ],
+        "bestlap": 101247,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Joseph",
+                            "lastName": "German",
+                            "playerId": "9ea7773474a68d81f58793d15ad4afa9d2ebbbe024102c2581e8e38a5bc969c7",
+                            "memberId": "9ea7773474a68d81f58793d15ad4afa9d2ebbbe024102c2581e8e38a5bc969c7",
+                            "shortName": "Joseph German"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 973,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joseph",
+                    "lastName": "German",
+                    "playerId": "9ea7773474a68d81f58793d15ad4afa9d2ebbbe024102c2581e8e38a5bc969c7",
+                    "memberId": "9ea7773474a68d81f58793d15ad4afa9d2ebbbe024102c2581e8e38a5bc969c7",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101247,
+                    "bestSplits": [
+                        21710,
+                        32382,
+                        47150
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ2",
+    "metaData": "",
+    "Date": "2025-03-16T11:54:00Z",
+    "SessionFile": "250316_115421_Q"
+}

@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104402,
+            "splits": [
+                22417,
+                33495,
+                48490
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 104737,
+            "splits": [
+                22275,
+                33765,
+                48697
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 104717,
+            "splits": [
+                22152,
+                33835,
+                48730
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            22152,
+            33495,
+            48490
+        ],
+        "bestlap": 104402,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Cleveland",
+                            "lastName": "Leatherwood",
+                            "playerId": "S76561198114792814",
+                            "memberId": "02541dcfc310f9e67d351d8b9c5d489af6226306f73f23a1fa3535d7a7c91f06",
+                            "shortName": "Cleveland Leatherwood"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 94,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cleveland",
+                    "lastName": "Leatherwood",
+                    "playerId": "S76561198114792814",
+                    "memberId": "02541dcfc310f9e67d351d8b9c5d489af6226306f73f23a1fa3535d7a7c91f06",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 104402,
+                    "bestSplits": [
+                        22152,
+                        33495,
+                        48490
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "imola",
+    "serverName": "Q#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ4",
+    "metaData": "",
+    "Date": "2025-03-15T23:17:00Z",
+    "SessionFile": "250315_231718_Q"
+}
