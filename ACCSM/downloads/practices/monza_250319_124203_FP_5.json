@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 114130,
+            "splits": [
+                37352,
+                38485,
+                38292
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116517,
+            "splits": [
+                37287,
+                39385,
+                39845
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 117177,
+            "splits": [
+                37535,
+                40722,
+                38920
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 114577,
+            "splits": [
+                35855,
+                40320,
+                38402
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            35855,
+            40320,
+            38402
+        ],
+        "bestlap": 114577,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Sean",
+                            "lastName": "Keenan",
+                            "playerId": "S76561198295553015",
+                            "shortName": "YEE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 120,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sean",
+                    "lastName": "Keenan",
+                    "playerId": "S76561198295553015",
+                    "shortName": "YEE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 114577,
+                    "bestSplits": [
+                        35855,
+                        40320,
+                        38402
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 114577,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        35855,
+                        40320,
+                        38402
+                    ],
+                    "totalTime": 49890337
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggLIAW_FreePractice | R1 | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:13c577a8-da5c-4d27-a33b-b53ab0092ae2",
+    "Date": "2025-03-19T12:42:03Z",
+    "SessionFile": "250319_124203_FP"
+}

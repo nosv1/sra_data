@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 115465,
+            "splits": [
+                36935,
+                40760,
+                37770
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 115447,
+            "splits": [
+                36715,
+                40595,
+                38137
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            36935,
+            40760,
+            37770
+        ],
+        "bestlap": 115465,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Sean",
+                            "lastName": "Keenan",
+                            "playerId": "S76561198295553015",
+                            "shortName": "YEE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 665,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sean",
+                    "lastName": "Keenan",
+                    "playerId": "S76561198295553015",
+                    "shortName": "YEE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 115465,
+                    "bestSplits": [
+                        36935,
+                        40760,
+                        37770
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 115447,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        36715,
+                        40595,
+                        38137
+                    ],
+                    "totalTime": 50146906
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "monza",
+    "serverName": "#SRAggLIAW_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e4d08448-1b8c-4902-ba12-f3a0ab2adf8b",
+    "Date": "2025-03-19T12:56:58Z",
+    "SessionFile": "250319_125658_FP"
+}
