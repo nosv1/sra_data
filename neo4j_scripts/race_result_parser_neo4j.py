@@ -8,8 +8,8 @@ from datetime import datetime
 
 import numpy as np
 from neo4j import Session as Neo4jSession
-
 from process_race_sessions_neo import *
+
 from utils.Database import Neo4jDatabase
 from utils.queries import *
 
@@ -536,6 +536,7 @@ class SessionResult:
                     "car_model": line.car.car_model,
                     "car_group": line.car.car_group,
                     "cup_category": line.car.cup_category,
+                    "cup_category_key": f"{session.key_}_{line.car.cup_category}",
                     "car_number": line.car.car_number,
                     "num_drivers": len(line.car.drivers),
                     "is_missing_pit": line.missing_mandatory_pitstop,
@@ -705,7 +706,7 @@ class Session:
 
 if __name__ == "__main__":
     current_dir = os.path.dirname(__file__)
-    ACCSM_dir = os.path.join(current_dir, "ACCSM")
+    ACCSM_dir = os.path.join(current_dir, "..", "ACCSM")
     downloads_dir = os.path.join(ACCSM_dir, "downloads")
     races_dir = os.path.join(downloads_dir, "races")
     quali_dir = os.path.join(downloads_dir, "qualifyings")
@@ -714,7 +715,15 @@ if __name__ == "__main__":
     """ IF YOU'RE DOING A FULL UPDATE MAKE SURE YOU CHANGE 'ON CREATE SET' 
     TO 'SET' AND VICE VERSA IF YOU'RE DISABLING FULL UPDATE """
     do_full_update = False
-    print(f"Full update {'ENABLED' if do_full_update else 'DISABLED'}")
+    do_insert_sessions = True
+    do_insert_cars = True
+    do_insert_drivers = True
+    do_insert_laps = True
+    print(f"FULL UPDATE: {do_full_update}")
+    print(f"INSERT SESSIONS: {do_insert_sessions}")
+    print(f"INSERT CARS: {do_insert_cars}")
+    print(f"INSERT DRIVERS: {do_insert_drivers}")
+    print(f"INSERT LAPS: {do_insert_laps}")
     if do_full_update:
         for i in range(5):
             print(f"Continuing in {5 - i} seconds...", end="\r")
@@ -724,6 +733,7 @@ if __name__ == "__main__":
     sra_neo_driver, sra_neo_session = Neo4jDatabase.connect_database("sra")
     sessions_in_db = get_session_keys(neo_driver=sra_neo_driver)
     do_process_race_sessions = False
+    do_process_quali_sessions = False
     # parse leaderboard lines
     for session_dir in [practices_dir, races_dir, quali_dir][:]:
         dir_by_date_modified = sorted(
@@ -736,7 +746,7 @@ if __name__ == "__main__":
         node_drivers = []
         node_laps = []
         node_car_drivers = []
-        for i, session_file in enumerate(dir_by_date_modified):
+        for i, session_file in enumerate(dir_by_date_modified[:]):
             print(
                 f"{i + 1}/{len(os.listdir(session_dir))} - Loading {session_file}...",
                 end="",
@@ -774,6 +784,7 @@ if __name__ == "__main__":
             is_race_session = ts_session.session_type.startswith("R")
 
             do_process_race_sessions = do_process_race_sessions or is_race_session
+            do_process_quali_sessions = do_process_quali_sessions or is_quali_session
 
             node_sessions.append(ts_session.create_session(sra_neo_session))
             node_cars += ts_session.session_result.merge_cars_and_session(ts_session)
@@ -797,9 +808,10 @@ if __name__ == "__main__":
                 s.meta_data = session.meta_data,
                 s.is_wet_session = session.is_wet_session
         """
-        print(f"Inserting {len(node_sessions)} sessions...", end="")
-        sra_neo_session.run(session_query, parameters={"sessions": node_sessions})
-        print("done")
+        if do_insert_sessions:
+            print(f"Inserting {len(node_sessions)} sessions...", end="")
+            sra_neo_session.run(session_query, parameters={"sessions": node_sessions})
+            print("done")
 
         cars_sessions_query = """
             UNWIND $cars AS car
@@ -829,10 +841,19 @@ if __name__ == "__main__":
                 key_: car.session_key
             })
             MERGE (c)-[:CAR_TO_SESSION]->(s)
+
+            MERGE (cc:CupCategory {
+                key_: car.cup_category_key
+            })
+            ON CREATE SET
+                cc.cup_category = car.cup_category
+            MERGE (c)-[:CAR_TO_CUP_CATEGORY]->(cc)
+            MERGE (cc)-[:CUP_CATEGORY_TO_SESSION]->(s)
         """
-        print(f"Inserting {len(node_cars)} cars...", end="")
-        sra_neo_session.run(cars_sessions_query, parameters={"cars": node_cars})
-        print("done")
+        if do_insert_cars:
+            print(f"Inserting {len(node_cars)} cars...", end="")
+            sra_neo_session.run(cars_sessions_query, parameters={"cars": node_cars})
+            print("done")
 
         driver_cars_query = """
             UNWIND $drivers AS driver
@@ -872,9 +893,10 @@ if __name__ == "__main__":
             MERGE (cd)-[:CAR_DRIVER_TO_SESSION]->(s)
 
         """
-        print(f"Inserting {len(node_drivers)} drivers...", end="")
-        sra_neo_session.run(driver_cars_query, parameters={"drivers": node_drivers})
-        print("done")
+        if do_insert_drivers:
+            print(f"Inserting {len(node_drivers)} drivers...", end="")
+            sra_neo_session.run(driver_cars_query, parameters={"drivers": node_drivers})
+            print("done")
 
         car_driver_laps_query = """
             UNWIND $laps AS lap
@@ -912,18 +934,23 @@ if __name__ == "__main__":
             })
             MERGE (l)-[:LAP_TO_SESSION]->(s)
         """
-        batch_size = 50000
-        for i in range(0, len(node_laps), batch_size):
-            batch = node_laps[i : i + batch_size]
-            print(
-                f"Inserting {i + 1}-{i + len(batch)} of {len(node_laps)} laps...",
-                end="",
-            )
-            sra_neo_session.run(car_driver_laps_query, parameters={"laps": batch})
-            print("done")
+        if do_insert_laps:
+            batch_size = 50000
+            for i in range(0, len(node_laps), batch_size):
+                batch = node_laps[i : i + batch_size]
+                print(
+                    f"Inserting {i + 1}-{i + len(batch)} of {len(node_laps)} laps...",
+                    end="",
+                )
+                sra_neo_session.run(car_driver_laps_query, parameters={"laps": batch})
+                print("done")
 
-    if do_process_race_sessions:
-        process_sra_db_neo(neo_session=sra_neo_session)
+    if do_process_race_sessions:  # or do_process_quali_sessions:
+        process_sra_db_neo(
+            neo_session=sra_neo_session,
+            session_types=(SESSION_TYPES.RACE if do_process_race_sessions else [])
+            + (SESSION_TYPES.QUALIFYING if do_process_quali_sessions else []),
+        )
     else:
         print(f"skipping processing of race sessions...")
 

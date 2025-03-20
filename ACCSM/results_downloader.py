@@ -393,15 +393,15 @@ def get_member_ids() -> dict:
 
 
 def get_sra_results(
-    before_date: datetime = datetime.max.replace(tzinfo=pytz_timezone("US/Eastern")),
     after_date: datetime = datetime.min.replace(tzinfo=pytz_timezone("US/Eastern")),
+    before_date: datetime = datetime.max.replace(tzinfo=pytz_timezone("US/Eastern")),
 ):
     current_dir = os.path.dirname(__file__)
     downloads_dir = os.path.join(current_dir, "downloads")
 
     member_ids = get_member_ids()
 
-    server = "ttserver6"
+    server = "ttserver7"
     base_url = f"https://www.simracingalliance.com/results/{server}"
 
     html = bs(requests.get(base_url).content, "html.parser")
@@ -438,6 +438,7 @@ def get_sra_results(
             tzinfo=pytz_timezone("US/Eastern")
         )
         if not (before_date >= finish_time >= after_date):
+            # continue
             break
 
         accsm_file = session_url.split("/")[-1]
@@ -503,8 +504,8 @@ def main(argv):
         get_sra_results(before_date=args.before_date, after_date=args.after_date)
     else:
         get_sra_results(
-            before_date=datetime(2025, 3, 18, tzinfo=pytz_timezone("US/Eastern")),
-            after_date=datetime(2025, 3, 1, tzinfo=pytz_timezone("US/Eastern")),
+            after_date=datetime(2024, 8, 5, tzinfo=pytz_timezone("US/Eastern")),
+            before_date=datetime(2024, 8, 25, tzinfo=pytz_timezone("US/Eastern")),
         )
 
 
