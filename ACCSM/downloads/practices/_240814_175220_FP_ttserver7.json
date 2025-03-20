@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 131540,
+            "splits": [
+                70795,
+                33000,
+                27745
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98125,
+            "splits": [
+                38102,
+                32770,
+                27252
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 98380,
+            "splits": [
+                38102,
+                33062,
+                27215
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38102,
+            32770,
+            27252
+        ],
+        "bestlap": 98125,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Jo\u00e3o",
+                            "lastName": "Sodr\u00e9",
+                            "playerId": "S76561198024833854",
+                            "memberId": "739237ab33291207691a24fa5184197e5e6b95834fef90b0bc6e61c86de47701",
+                            "shortName": "Jo\u00e3o Sodr\u00e9"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 46,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jo\u00e3o",
+                    "lastName": "Sodr\u00e9",
+                    "playerId": "S76561198024833854",
+                    "memberId": "739237ab33291207691a24fa5184197e5e6b95834fef90b0bc6e61c86de47701",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98125,
+                    "bestSplits": [
+                        38102,
+                        32770,
+                        27252
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ5",
+    "metaData": "",
+    "Date": "2024-08-14T17:52:00Z",
+    "SessionFile": "240814_175220_FP"
+}

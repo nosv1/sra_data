@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130195,
+            "splits": [
+                57330,
+                41297,
+                31567
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96427,
+            "splits": [
+                37355,
+                32167,
+                26905
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37355,
+            32167,
+            26905
+        ],
+        "bestlap": 96427,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Stephanie",
+                            "lastName": "Fisher",
+                            "playerId": "S76561198043166282",
+                            "memberId": "d760458396f4240b3977caeb29bb4dcd2e9d2f3f29f0f9a500a63477cff1e8c1",
+                            "shortName": "Stephanie Fisher"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 64,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephanie",
+                    "lastName": "Fisher",
+                    "playerId": "S76561198043166282",
+                    "memberId": "d760458396f4240b3977caeb29bb4dcd2e9d2f3f29f0f9a500a63477cff1e8c1",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96427,
+                    "bestSplits": [
+                        37355,
+                        32167,
+                        26905
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League Time Trials | Powered by Double_T",
+    "metaData": "",
+    "Date": "2024-08-27T11:10:00Z",
+    "SessionFile": "240827_111001_FP"
+}

@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125510,
+            "splits": [
+                64842,
+                32820,
+                27847
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99465,
+            "splits": [
+                38915,
+                33507,
+                27042
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97620,
+            "splits": [
+                38215,
+                32425,
+                26980
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38215,
+            32425,
+            26980
+        ],
+        "bestlap": 97620,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Drache",
+                            "lastName": "Tibbetts",
+                            "playerId": "6453f067439bb71a30cc358ca0c70377411ea28629d70bbd98f2ed619dd44570",
+                            "memberId": "6453f067439bb71a30cc358ca0c70377411ea28629d70bbd98f2ed619dd44570",
+                            "shortName": "Drache Tibbetts"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 992,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Drache",
+                    "lastName": "Tibbetts",
+                    "playerId": "6453f067439bb71a30cc358ca0c70377411ea28629d70bbd98f2ed619dd44570",
+                    "memberId": "6453f067439bb71a30cc358ca0c70377411ea28629d70bbd98f2ed619dd44570",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97620,
+                    "bestSplits": [
+                        38215,
+                        32425,
+                        26980
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ5",
+    "metaData": "",
+    "Date": "2024-08-13T18:59:00Z",
+    "SessionFile": "240813_185906_FP"
+}

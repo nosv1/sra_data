@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 131067,
+            "splits": [
+                67037,
+                33557,
+                30472
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99242,
+            "splits": [
+                39067,
+                32705,
+                27470
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98865,
+            "splits": [
+                38370,
+                32555,
+                27940
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38370,
+            32555,
+            27470
+        ],
+        "bestlap": 98865,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Roger",
+                            "lastName": "Rodriguez",
+                            "playerId": "S76561199113520958",
+                            "memberId": "5a47eb00498e74baf7023ac83d744d4385ce7e8820e510a0e8942d56e7bad87b",
+                            "shortName": "Roger Rodriguez"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 305,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Roger",
+                    "lastName": "Rodriguez",
+                    "playerId": "S76561199113520958",
+                    "memberId": "5a47eb00498e74baf7023ac83d744d4385ce7e8820e510a0e8942d56e7bad87b",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98865,
+                    "bestSplits": [
+                        38370,
+                        32555,
+                        27470
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ5",
+    "metaData": "",
+    "Date": "2024-08-07T13:05:00Z",
+    "SessionFile": "240807_130539_FP"
+}

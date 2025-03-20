@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130087,
+            "splits": [
+                67420,
+                34500,
+                28167
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101467,
+            "splits": [
+                39660,
+                33692,
+                28115
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            39660,
+            33692,
+            28115
+        ],
+        "bestlap": 101467,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 14,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Raf",
+                            "lastName": "CAB",
+                            "playerId": "S76561198032414613",
+                            "memberId": "21f8c3bb5e08d1d9697e1c5e7f917ef8fae6f2b1ca4720b1c052291cc4416fd4",
+                            "shortName": "Raf CAB"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 906,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Raf",
+                    "lastName": "CAB",
+                    "playerId": "S76561198032414613",
+                    "memberId": "21f8c3bb5e08d1d9697e1c5e7f917ef8fae6f2b1ca4720b1c052291cc4416fd4",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101467,
+                    "bestSplits": [
+                        39660,
+                        33692,
+                        28115
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-08-18T11:21:00Z",
+    "SessionFile": "240818_112109_FP"
+}

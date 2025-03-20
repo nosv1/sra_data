@@ -7,7 +7,7 @@
 LOGFILE="/home/pi/sra_data/ACCSM/scripts/logs/$(date +'%Y%m%d_%H%M%S').log"
 VENV_PATH="/home/pi/sra_data/env_pi3/bin/activate"
 DOWNLOAD_SCRIPT="/home/pi/sra_data/ACCSM/results_downloader.py"
-PARSER_SCRIPT="/home/pi/sra_data/race_result_parser_neo4j.py"
+PARSER_SCRIPT="/home/pi/sra_data/neo4j_scripts/race_result_parser_neo4j.py"
 DOWNLOAD_DIR="/home/pi/sra_data/ACCSM/downloads/"
 GIT_DIR="/home/pi/sra_data/"
 

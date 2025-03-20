@@ -130,6 +130,8 @@ class CarModels:
             "Emil Frey Jaguar G3": "Jaguar G3",
             "Ferrari 488 GT3 Evo": "Ferrari 488 GT3 Evo 2020",
             "Honda NSX GT3 Evo": "Honda NSX Evo (2019)",
+            "KTM X-Bow GT2": "KTM XBOW GT2",
+            "Lamborghini Huracán GT3": "Lamborghini Huracan GT3",
             "Lamborghini Huracán GT3 EVO": "Lamborghini Huracan Evo (2019)",
             "Lamborghini Huracán GT3 EVO2": "Lamborghini Huracan Evo2",
             "McLaren 720S GT3": "McLaren 720S GT3 (2019)",

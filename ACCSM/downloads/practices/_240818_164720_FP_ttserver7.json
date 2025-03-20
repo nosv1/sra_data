@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 138005,
+            "splits": [
+                64795,
+                44372,
+                28837
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98020,
+            "splits": [
+                38412,
+                32550,
+                27057
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 158742,
+            "splits": [
+                38562,
+                34697,
+                85482
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38412,
+            32550,
+            27057
+        ],
+        "bestlap": 98020,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Ghislain",
+                            "lastName": "Smith",
+                            "playerId": "a1b5c051c1b2f2d4a6681af7fae2b09de119299a9173b62ec52c1efae742c4f8",
+                            "memberId": "a1b5c051c1b2f2d4a6681af7fae2b09de119299a9173b62ec52c1efae742c4f8",
+                            "shortName": "Ghislain Smith"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 140,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Ghislain",
+                    "lastName": "Smith",
+                    "playerId": "a1b5c051c1b2f2d4a6681af7fae2b09de119299a9173b62ec52c1efae742c4f8",
+                    "memberId": "a1b5c051c1b2f2d4a6681af7fae2b09de119299a9173b62ec52c1efae742c4f8",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98020,
+                    "bestSplits": [
+                        38412,
+                        32550,
+                        27057
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-08-18T16:47:00Z",
+    "SessionFile": "240818_164720_FP"
+}

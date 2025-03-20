@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 147485,
+            "splits": [
+                84665,
+                34510,
+                28310
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100482,
+            "splits": [
+                39217,
+                33577,
+                27687
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99550,
+            "splits": [
+                38692,
+                33632,
+                27225
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38692,
+            33577,
+            27225
+        ],
+        "bestlap": 99550,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Alexander",
+                            "lastName": "Foley",
+                            "playerId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                            "memberId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                            "shortName": "Alexander Foley"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 26,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alexander",
+                    "lastName": "Foley",
+                    "playerId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                    "memberId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 99550,
+                    "bestSplits": [
+                        38692,
+                        33577,
+                        27225
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League Time Trials | Powered by Double_T",
+    "metaData": "",
+    "Date": "2024-09-09T19:08:00Z",
+    "SessionFile": "240909_190851_FP"
+}

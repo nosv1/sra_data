@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123652,
+            "splits": [
+                64270,
+                32185,
+                27197
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97787,
+            "splits": [
+                37950,
+                32472,
+                27365
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37950,
+            32472,
+            27365
+        ],
+        "bestlap": 97787,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Bryan",
+                            "lastName": "Ryder",
+                            "playerId": "S76561198836039401",
+                            "memberId": "807c99b21d58d6afb909a2c566b578ee8feb0a54362e436d81d0caeeba7fdfeb",
+                            "shortName": "Bryan Ryder"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 720,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Bryan",
+                    "lastName": "Ryder",
+                    "playerId": "S76561198836039401",
+                    "memberId": "807c99b21d58d6afb909a2c566b578ee8feb0a54362e436d81d0caeeba7fdfeb",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97787,
+                    "bestSplits": [
+                        37950,
+                        32472,
+                        27365
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-08-17T13:12:00Z",
+    "SessionFile": "240817_131204_FP"
+}
