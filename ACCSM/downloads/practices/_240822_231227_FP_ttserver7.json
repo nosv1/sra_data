@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122350,
+            "splits": [
+                57775,
+                36947,
+                27627
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98940,
+            "splits": [
+                38447,
+                33092,
+                27400
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97700,
+            "splits": [
+                38155,
+                32557,
+                26987
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38155,
+            32557,
+            26987
+        ],
+        "bestlap": 97700,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Martin",
+                            "lastName": "Riggs",
+                            "playerId": "S76561198013900632",
+                            "memberId": "a8154032325c28d0a86678fe8ecd6e82167bf67aa025233f99bacf6a6e8e47c4",
+                            "shortName": "Martin Riggs"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 64,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Martin",
+                    "lastName": "Riggs",
+                    "playerId": "S76561198013900632",
+                    "memberId": "a8154032325c28d0a86678fe8ecd6e82167bf67aa025233f99bacf6a6e8e47c4",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97700,
+                    "bestSplits": [
+                        38155,
+                        32557,
+                        26987
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-08-22T23:12:00Z",
+    "SessionFile": "240822_231227_FP"
+}

@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118370,
+            "splits": [
+                59162,
+                32247,
+                26960
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96882,
+            "splits": [
+                37232,
+                32695,
+                26955
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95552,
+            "splits": [
+                37295,
+                31885,
+                26372
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37232,
+            31885,
+            26372
+        ],
+        "bestlap": 95552,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Joel",
+                            "lastName": "Klaus",
+                            "playerId": "d9f494225a1ccd757b36ea3721150f4c2f3a766cbbcfd18b310e19c6f6ba55b0",
+                            "memberId": "d9f494225a1ccd757b36ea3721150f4c2f3a766cbbcfd18b310e19c6f6ba55b0",
+                            "shortName": "Joel Klaus"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 902,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joel",
+                    "lastName": "Klaus",
+                    "playerId": "d9f494225a1ccd757b36ea3721150f4c2f3a766cbbcfd18b310e19c6f6ba55b0",
+                    "memberId": "d9f494225a1ccd757b36ea3721150f4c2f3a766cbbcfd18b310e19c6f6ba55b0",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95552,
+                    "bestSplits": [
+                        37232,
+                        31885,
+                        26372
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ1",
+    "metaData": "",
+    "Date": "2024-09-03T19:35:00Z",
+    "SessionFile": "240903_193516_FP"
+}

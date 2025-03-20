@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128975,
+            "splits": [
+                67120,
+                33910,
+                27945
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99152,
+            "splits": [
+                38865,
+                32927,
+                27360
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127920,
+            "splits": [
+                65692,
+                33552,
+                28675
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38865,
+            32927,
+            27360
+        ],
+        "bestlap": 99152,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Mert",
+                            "lastName": "Mertson",
+                            "playerId": "S76561198025180541",
+                            "memberId": "5661812d2e5a9ebf90d3dd39673b54fea64604592d031beb1e50ab717f769e9d",
+                            "shortName": "Mert Mertson"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 83,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mert",
+                    "lastName": "Mertson",
+                    "playerId": "S76561198025180541",
+                    "memberId": "5661812d2e5a9ebf90d3dd39673b54fea64604592d031beb1e50ab717f769e9d",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 99152,
+                    "bestSplits": [
+                        38865,
+                        32927,
+                        27360
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ5",
+    "metaData": "",
+    "Date": "2024-08-12T20:58:00Z",
+    "SessionFile": "240812_205844_FP"
+}

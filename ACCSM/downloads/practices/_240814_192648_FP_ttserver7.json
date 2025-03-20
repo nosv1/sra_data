@@ -1,0 +1,115 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125245,
+            "splits": [
+                65547,
+                32480,
+                27217
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 111717,
+            "splits": [
+                37977,
+                46405,
+                27335
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99512,
+            "splits": [
+                38635,
+                33060,
+                27817
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97825,
+            "splits": [
+                38067,
+                32672,
+                27085
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37977,
+            32672,
+            27085
+        ],
+        "bestlap": 97825,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 24,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "John",
+                            "lastName": "Ansom",
+                            "playerId": "S76561197993825152",
+                            "memberId": "89aa8230a923bac5a56d3b943290b9b3d7598a6be7f553aebe3825f5e8bfa73a",
+                            "shortName": "John Ansom"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 23,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "John",
+                    "lastName": "Ansom",
+                    "playerId": "S76561197993825152",
+                    "memberId": "89aa8230a923bac5a56d3b943290b9b3d7598a6be7f553aebe3825f5e8bfa73a",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97825,
+                    "bestSplits": [
+                        37977,
+                        32672,
+                        27085
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-08-14T19:26:00Z",
+    "SessionFile": "240814_192648_FP"
+}

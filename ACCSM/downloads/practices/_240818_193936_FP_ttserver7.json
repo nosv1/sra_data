@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122832,
+            "splits": [
+                63520,
+                32417,
+                26895
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95962,
+            "splits": [
+                37087,
+                32267,
+                26607
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95460,
+            "splits": [
+                37112,
+                31835,
+                26512
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37087,
+            31835,
+            26512
+        ],
+        "bestlap": 95460,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Joel",
+                            "lastName": "Moffatt",
+                            "playerId": "S76561197960416683",
+                            "memberId": "44bd0d5e207f5864578b63297029a165e4b2a502c3aefd06a5a96f8fa146291a",
+                            "shortName": "Joel Moffatt"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 64,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Joel",
+                    "lastName": "Moffatt",
+                    "playerId": "S76561197960416683",
+                    "memberId": "44bd0d5e207f5864578b63297029a165e4b2a502c3aefd06a5a96f8fa146291a",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95460,
+                    "bestSplits": [
+                        37087,
+                        31835,
+                        26512
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-08-18T19:39:00Z",
+    "SessionFile": "240818_193936_FP"
+}

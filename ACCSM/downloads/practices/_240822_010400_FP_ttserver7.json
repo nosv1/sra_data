@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135860,
+            "splits": [
+                72012,
+                35445,
+                28402
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101320,
+            "splits": [
+                39352,
+                33990,
+                27977
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130695,
+            "splits": [
+                68062,
+                33657,
+                28975
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            39352,
+            33990,
+            27977
+        ],
+        "bestlap": 101320,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "CJ",
+                            "lastName": "Carter",
+                            "playerId": "6d49e33911924a373214ef441ce6c43313d3f52f0aa21d8f7a9ef4626bf2846f",
+                            "memberId": "6d49e33911924a373214ef441ce6c43313d3f52f0aa21d8f7a9ef4626bf2846f",
+                            "shortName": "CJ Carter"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 517,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "CJ",
+                    "lastName": "Carter",
+                    "playerId": "6d49e33911924a373214ef441ce6c43313d3f52f0aa21d8f7a9ef4626bf2846f",
+                    "memberId": "6d49e33911924a373214ef441ce6c43313d3f52f0aa21d8f7a9ef4626bf2846f",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101320,
+                    "bestSplits": [
+                        39352,
+                        33990,
+                        27977
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League Time Trials | Powered by Double_T",
+    "metaData": "",
+    "Date": "2024-08-22T01:04:00Z",
+    "SessionFile": "240822_010400_FP"
+}

@@ -1,0 +1,248 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130787,
+            "splits": [
+                71477,
+                32385,
+                26925
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96015,
+            "splits": [
+                37410,
+                31985,
+                26620
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96397,
+            "splits": [
+                37465,
+                32015,
+                26917
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 342300,
+            "splits": [
+                40415,
+                209547,
+                92337
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 126132,
+            "splits": [
+                65745,
+                33457,
+                26930
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96550,
+            "splits": [
+                37670,
+                31862,
+                27017
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96080,
+            "splits": [
+                37350,
+                32160,
+                26570
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 132027,
+            "splits": [
+                66777,
+                36577,
+                28672
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129370,
+            "splits": [
+                65915,
+                35310,
+                28145
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 106922,
+            "splits": [
+                39200,
+                34197,
+                33525
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101410,
+            "splits": [
+                38925,
+                33895,
+                28590
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100757,
+            "splits": [
+                38845,
+                33587,
+                28325
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37350,
+            31985,
+            26570
+        ],
+        "bestlap": 96015,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 33,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Quinton",
+                            "lastName": "Schantter",
+                            "playerId": "S76561198120576863",
+                            "memberId": "21eeb2d0a3c6da990336629d8a2e61b6fc2c22980977949817bdb3c16798d022",
+                            "shortName": "Quinton Schantter"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 63,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Quinton",
+                    "lastName": "Schantter",
+                    "playerId": "S76561198120576863",
+                    "memberId": "21eeb2d0a3c6da990336629d8a2e61b6fc2c22980977949817bdb3c16798d022",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96015,
+                    "bestSplits": [
+                        37350,
+                        31985,
+                        26570
+                    ],
+                    "lapCount": 7,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Sam",
+                            "lastName": "Rauworth",
+                            "playerId": "93169ada00e34698496c06e32b5eaebdccb06525f24a734042ff44583e97ddcd",
+                            "memberId": "93169ada00e34698496c06e32b5eaebdccb06525f24a734042ff44583e97ddcd",
+                            "shortName": "Sam Rauworth"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 111,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sam",
+                    "lastName": "Rauworth",
+                    "playerId": "93169ada00e34698496c06e32b5eaebdccb06525f24a734042ff44583e97ddcd",
+                    "memberId": "93169ada00e34698496c06e32b5eaebdccb06525f24a734042ff44583e97ddcd",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 100757,
+                    "bestSplits": [
+                        38845,
+                        33587,
+                        28325
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League Time Trials | Powered by Double_T",
+    "metaData": "",
+    "Date": "2024-08-05T17:19:00Z",
+    "SessionFile": "240805_171911_FP"
+}

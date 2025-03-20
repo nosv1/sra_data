@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125510,
+            "splits": [
+                65995,
+                32537,
+                26977
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97242,
+            "splits": [
+                37840,
+                32525,
+                26877
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96605,
+            "splits": [
+                37710,
+                31942,
+                26952
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37710,
+            31942,
+            26877
+        ],
+        "bestlap": 96605,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Nick",
+                            "lastName": "Wagner",
+                            "playerId": "cce968e59bd2a97cb5a04140b23df9c8fd9bf612d07ccd952d3e9ee08215d863",
+                            "memberId": "cce968e59bd2a97cb5a04140b23df9c8fd9bf612d07ccd952d3e9ee08215d863",
+                            "shortName": "Nick Wagner"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 6,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Nick",
+                    "lastName": "Wagner",
+                    "playerId": "cce968e59bd2a97cb5a04140b23df9c8fd9bf612d07ccd952d3e9ee08215d863",
+                    "memberId": "cce968e59bd2a97cb5a04140b23df9c8fd9bf612d07ccd952d3e9ee08215d863",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96605,
+                    "bestSplits": [
+                        37710,
+                        31942,
+                        26877
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ4",
+    "metaData": "",
+    "Date": "2024-08-11T22:23:00Z",
+    "SessionFile": "240811_222334_FP"
+}

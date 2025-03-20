@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 118872,
+            "splits": [
+                59040,
+                32767,
+                27065
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96545,
+            "splits": [
+                37512,
+                32347,
+                26685
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37512,
+            32347,
+            26685
+        ],
+        "bestlap": 96545,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Collin",
+                            "lastName": "Dunham",
+                            "playerId": "S76561197989466442",
+                            "memberId": "bcb9c6234f6285206d93f23779b1c841d06bd8d7cf2b163e4697226467090e88",
+                            "shortName": "Collin Dunham"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 444,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Collin",
+                    "lastName": "Dunham",
+                    "playerId": "S76561197989466442",
+                    "memberId": "bcb9c6234f6285206d93f23779b1c841d06bd8d7cf2b163e4697226467090e88",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96545,
+                    "bestSplits": [
+                        37512,
+                        32347,
+                        26685
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ1",
+    "metaData": "",
+    "Date": "2024-08-16T19:07:00Z",
+    "SessionFile": "240816_190714_FP"
+}

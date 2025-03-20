@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125537,
+            "splits": [
+                64915,
+                32662,
+                27960
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97435,
+            "splits": [
+                38227,
+                32115,
+                27092
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 96840,
+            "splits": [
+                37562,
+                32357,
+                26920
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38227,
+            32115,
+            27092
+        ],
+        "bestlap": 97435,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Eduardo",
+                            "lastName": "Rodr\u00edguez",
+                            "playerId": "3005b9b1314d508c996f57d33cf0dfb1f098f637b600df40ca39aff86c434169",
+                            "memberId": "3005b9b1314d508c996f57d33cf0dfb1f098f637b600df40ca39aff86c434169",
+                            "shortName": "Eduardo Rodr\u00edguez"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 33,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Eduardo",
+                    "lastName": "Rodr\u00edguez",
+                    "playerId": "3005b9b1314d508c996f57d33cf0dfb1f098f637b600df40ca39aff86c434169",
+                    "memberId": "3005b9b1314d508c996f57d33cf0dfb1f098f637b600df40ca39aff86c434169",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97435,
+                    "bestSplits": [
+                        38227,
+                        32115,
+                        27092
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ3",
+    "metaData": "",
+    "Date": "2024-08-14T16:08:00Z",
+    "SessionFile": "240814_160809_FP"
+}

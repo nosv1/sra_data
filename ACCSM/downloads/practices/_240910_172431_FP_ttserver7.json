@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127375,
+            "splits": [
+                65980,
+                33200,
+                28195
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99412,
+            "splits": [
+                38212,
+                33630,
+                27570
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38212,
+            33630,
+            27570
+        ],
+        "bestlap": 99412,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Alexander",
+                            "lastName": "Foley",
+                            "playerId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                            "memberId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                            "shortName": "Alexander Foley"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 26,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alexander",
+                    "lastName": "Foley",
+                    "playerId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                    "memberId": "01d61490422c4819ab517e90f708d6d3b77f9f4937cfe67ab6db34ae0452404c",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 99412,
+                    "bestSplits": [
+                        38212,
+                        33630,
+                        27570
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ1",
+    "metaData": "",
+    "Date": "2024-09-10T17:24:00Z",
+    "SessionFile": "240910_172431_FP"
+}

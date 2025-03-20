@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129152,
+            "splits": [
+                67292,
+                33932,
+                27927
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102100,
+            "splits": [
+                39520,
+                34382,
+                28197
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            39520,
+            34382,
+            28197
+        ],
+        "bestlap": 102100,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 31,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Cesare",
+                            "lastName": "Pizzuto",
+                            "playerId": "S76561198005961795",
+                            "memberId": "644da157a200e04eb256bc2971e7f5d64bbf0b97605e3e7722892995a3156ccc",
+                            "shortName": "Cesare Pizzuto"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 46,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Cesare",
+                    "lastName": "Pizzuto",
+                    "playerId": "S76561198005961795",
+                    "memberId": "644da157a200e04eb256bc2971e7f5d64bbf0b97605e3e7722892995a3156ccc",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 102100,
+                    "bestSplits": [
+                        39520,
+                        34382,
+                        28197
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S12 | #SRAQ2",
+    "metaData": "",
+    "Date": "2024-08-22T21:16:00Z",
+    "SessionFile": "240822_211651_FP"
+}
