@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116572,
+            "splits": [
+                56972,
+                32465,
+                27135
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96885,
+            "splits": [
+                37795,
+                32340,
+                26750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96102,
+            "splits": [
+                37342,
+                32042,
+                26717
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96020,
+            "splits": [
+                37397,
+                32030,
+                26592
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 28,
+    "sessionResult": {
+        "bestSplits": [
+            37342,
+            32030,
+            26592
+        ],
+        "bestlap": 96020,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Eric",
+                            "lastName": "Boardman",
+                            "playerId": "S76561199238518693",
+                            "shortName": "BOA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 34,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Eric",
+                    "lastName": "Boardman",
+                    "playerId": "S76561199238518693",
+                    "shortName": "BOA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96020,
+                    "bestSplits": [
+                        37342,
+                        32030,
+                        26592
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 96020,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        37397,
+                        32030,
+                        26592
+                    ],
+                    "totalTime": 513703542
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:68ac2154-6916-484b-b3b7-ff76ff92f87a",
+    "Date": "2025-03-18T22:19:14Z",
+    "SessionFile": "250318_221914_Q"
+}
