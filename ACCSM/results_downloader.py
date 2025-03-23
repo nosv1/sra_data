@@ -401,7 +401,7 @@ def get_sra_results(
 
     member_ids = get_member_ids()
 
-    server = "ttserver7"
+    server = "ttserver6"
     base_url = f"https://www.simracingalliance.com/results/{server}"
 
     html = bs(requests.get(base_url).content, "html.parser")
@@ -448,7 +448,7 @@ def get_sra_results(
 
         if os.path.exists(path):
             print(f"File {path} already exists... skipping {filename}")
-            # continue
+            continue
             break
 
         print(f"Missing file: {filename}")
