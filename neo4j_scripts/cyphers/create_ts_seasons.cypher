@@ -8,6 +8,11 @@ MERGE (tss:TeamSeriesSeason {season: season})
 SET tss.max_divisions = divisions[-1]
 WITH tss, season
 
+MATCH (c:Championship)
+WHERE c.season = season AND c.name CONTAINS "GT3 Team Championship"
+MERGE (tss)-[:TEAM_SERIES_SEASON_TO_CHAMPIONSHIP]->(c)
+WITH tss, season
+
 MATCH (ts:TeamSeriesSession)
 WHERE ts.season = season
 MERGE (tss)-[:TEAM_SERIES_SEASON_TO_TEAM_SERIES_SESSION]->(ts)
