@@ -19,6 +19,8 @@ from scipy.stats import linregress
 
 from utils.Database import Neo4jDatabase
 
+EASTERN_TZ = pytz_timezone("US/Eastern")
+
 
 def to_dict(obj, chain: list[object] = []) -> dict:
     if not hasattr(obj, "__dict__"):
@@ -1226,7 +1228,7 @@ if __name__ == "__main__":
     # sessions = get_complete_sessions_for_track(
     #     neo_driver,
     #     TrackNames.WATKINS_GLEN.value,
-    #     datetime(2024, 12, 19).replace(tzinfo=pytz_timezone("US/Eastern")),
+    #     EASTERN_TZ.localize(datetime(2024, 12, 19)),
     # )
 
     queries_pickle = "queries.pkl"
