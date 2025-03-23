@@ -395,8 +395,8 @@ def get_member_ids() -> dict:
 
 
 def get_sra_results(
-    after_date: datetime = EASTERN_TZ.localize(datetime.min),
-    before_date: datetime = EASTERN_TZ.localize(datetime.max),
+    after_date: datetime = datetime.min.replace(tzinfo=EASTERN_TZ),
+    before_date: datetime = datetime.max.replace(tzinfo=EASTERN_TZ),
 ):
     current_dir = os.path.dirname(__file__)
     downloads_dir = os.path.join(current_dir, "downloads")
@@ -484,13 +484,13 @@ def main(argv):
     parser.add_argument(
         "--after-date",
         type=lambda s: EASTERN_TZ.localize(datetime.strptime(s, "%Y-%m-%d")),
-        default=EASTERN_TZ.localize(datetime.min),
+        default=datetime.min.replace(tzinfo=EASTERN_TZ),
         help="Filter results after this date (YYYY-MM-DD)",
     )
     parser.add_argument(
         "--before-date",
         type=lambda s: EASTERN_TZ.localize(datetime.strptime(s, "%Y-%m-%d")),
-        default=EASTERN_TZ.localize(datetime.max),
+        default=datetime.max.replace(tzinfo=EASTERN_TZ),
         help="Filter results before this date (YYYY-MM-DD)",
     )
 
