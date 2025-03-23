@@ -11,6 +11,8 @@ from bs4 import BeautifulSoup as bs
 from bs4.element import Tag
 from pytz import timezone as pytz_timezone
 
+EASTERN_TZ = pytz_timezone("US/Eastern")
+
 current_dir = os.path.dirname(__file__)
 sys.path.append(os.path.join(current_dir, ".."))
 from utils.Database import Neo4jDatabase
@@ -393,8 +395,8 @@ def get_member_ids() -> dict:
 
 
 def get_sra_results(
-    after_date: datetime = datetime.min.replace(tzinfo=pytz_timezone("US/Eastern")),
-    before_date: datetime = datetime.max.replace(tzinfo=pytz_timezone("US/Eastern")),
+    after_date: datetime = EASTERN_TZ.localize(datetime.min),
+    before_date: datetime = EASTERN_TZ.localize(datetime.max),
 ):
     current_dir = os.path.dirname(__file__)
     downloads_dir = os.path.join(current_dir, "downloads")
@@ -434,8 +436,8 @@ def get_sra_results(
         session_name = cols[3].find("a").text.strip()
         session_url = cols[3].find("a")["href"]
 
-        finish_time = datetime.strptime(date_str, "%a. %b %d, %Y - %I:%M %p").replace(
-            tzinfo=pytz_timezone("US/Eastern")
+        finish_time = EASTERN_TZ.localize(
+            datetime.strptime(date_str, "%a. %b %d, %Y - %I:%M %p")
         )
         if not (before_date >= finish_time >= after_date):
             # continue
@@ -481,18 +483,14 @@ def main(argv):
     )
     parser.add_argument(
         "--after-date",
-        type=lambda s: datetime.strptime(s, "%Y-%m-%d").replace(
-            tzinfo=pytz_timezone("US/Eastern")
-        ),
-        default=datetime.min.replace(tzinfo=pytz_timezone("US/Eastern")),
+        type=lambda s: EASTERN_TZ.localize(datetime.strptime(s, "%Y-%m-%d")),
+        default=EASTERN_TZ.localize(datetime.min),
         help="Filter results after this date (YYYY-MM-DD)",
     )
     parser.add_argument(
         "--before-date",
-        type=lambda s: datetime.strptime(s, "%Y-%m-%d").replace(
-            tzinfo=pytz_timezone("US/Eastern")
-        ),
-        default=datetime.max.replace(tzinfo=pytz_timezone("US/Eastern")),
+        type=lambda s: EASTERN_TZ.localize(datetime.strptime(s, "%Y-%m-%d")),
+        default=EASTERN_TZ.localize(datetime.max),
         help="Filter results before this date (YYYY-MM-DD)",
     )
 
@@ -504,8 +502,8 @@ def main(argv):
         get_sra_results(before_date=args.before_date, after_date=args.after_date)
     else:
         get_sra_results(
-            after_date=datetime(2024, 8, 5, tzinfo=pytz_timezone("US/Eastern")),
-            before_date=datetime(2024, 8, 25, tzinfo=pytz_timezone("US/Eastern")),
+            after_date=EASTERN_TZ.localize(datetime(2024, 8, 5)),
+            before_date=EASTERN_TZ.localize(datetime(2024, 8, 25)),
         )
 
 

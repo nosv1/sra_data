@@ -13,6 +13,8 @@ from process_race_sessions_neo import *
 from utils.Database import Neo4jDatabase
 from utils.queries import *
 
+EASTERN_TZ = pytz_timezone("US/Eastern")
+
 
 class Lap:
     car_id_json = "carId"
@@ -665,8 +667,10 @@ class Session:
         track_name: str = session_result_dict[Session.track_name_json]
         server_name: str = session_result_dict[Session.server_name_json]
         meta_data: str = session_result_dict[Session.meta_data_json]
-        date: datetime = datetime.strptime(
-            session_result_dict[Session.date_json], "%Y-%m-%dT%H:%M:%SZ"
+        date: datetime = EASTERN_TZ.localize(
+            datetime.strptime(
+                session_result_dict[Session.date_json], "%Y-%m-%dT%H:%M:%SZ"
+            )
         )
         session_file: str = session_result_dict[Session.session_file_json]
         server_number: int = session_result_dict[Session.server_number_json]
