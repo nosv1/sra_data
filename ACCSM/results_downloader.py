@@ -18,6 +18,10 @@ sys.path.append(os.path.join(current_dir, ".."))
 from utils.Database import Neo4jDatabase
 from utils.queries import CarModels
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+}
+
 
 def try_get_json(url: str, wait: int = 5):
     total_waited = 0
@@ -130,7 +134,7 @@ def parse_sra_result(session_url):
     # with open("out.html", "r") as f:
     #     html = bs(f.read(), "html.parser")
 
-    html = bs(requests.get(session_url).content, "html.parser")
+    html = bs(requests.get(session_url, headers=HEADERS).content, "html.parser")
     tab_content = html.find("div", {"class": "tab-pane show active"})
     tables = tab_content.find_all("table")
     results_table: Tag = tables[0]
@@ -403,74 +407,75 @@ def get_sra_results(
 
     member_ids = get_member_ids()
 
-    server = "ttserver6"
-    base_url = f"https://www.simracingalliance.com/results/{server}"
+    servers = ["server1", "server7"]
+    for server in servers:
+        base_url = f"https://www.simracingalliance.com/results/{server}"
+        html = bs(requests.get(base_url, headers=HEADERS).content, "html.parser")
+        table = html.find("table", {"id": "resultsTable"})
+        for row in table.find_all("tr"):
+            # example row
+            # <tr class="odd">
+            #     <!-- Date -->
+            #     <td class="small hide">2025-03-05 15:01:20</td>
+            #     <!-- Date -->
+            #     <td class="small dtr-control" tabindex="0">Mon. Mar 3, 2025 - 9:06 PM</td>
+            #     <!-- Session Type -->
+            #     <td class="small"><span class="sra-red2">Qualifying</span></td>
+            #     <!-- Session Name -->
+            #     <td class="small"><a class="sra-gold" href="https://www.simracingalliance.com/results/ttserver6/qualifying/250303_210637_Q">#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ3</a></td>
+            #     <!-- Drivers -->
+            #     <td class="small" style="">12</td>
+            #     <!-- Laps -->
+            #     <td class="small" style="">79</td>
+            #     <!-- Completed -->
+            #     <td class="small dtr-hidden" style="display: none;"><time class="timeago" datetime="2025-03-03T21:06:37.000-05:00">2 days ago</time></td>
+            # </tr>
 
-    html = bs(requests.get(base_url).content, "html.parser")
-    table = html.find("table", {"id": "resultsTable"})
-    for row in table.find_all("tr"):
-        # example row
-        # <tr class="odd">
-        #     <!-- Date -->
-        #     <td class="small hide">2025-03-05 15:01:20</td>
-        #     <!-- Date -->
-        #     <td class="small dtr-control" tabindex="0">Mon. Mar 3, 2025 - 9:06 PM</td>
-        #     <!-- Session Type -->
-        #     <td class="small"><span class="sra-red2">Qualifying</span></td>
-        #     <!-- Session Name -->
-        #     <td class="small"><a class="sra-gold" href="https://www.simracingalliance.com/results/ttserver6/qualifying/250303_210637_Q">#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ3</a></td>
-        #     <!-- Drivers -->
-        #     <td class="small" style="">12</td>
-        #     <!-- Laps -->
-        #     <td class="small" style="">79</td>
-        #     <!-- Completed -->
-        #     <td class="small dtr-hidden" style="display: none;"><time class="timeago" datetime="2025-03-03T21:06:37.000-05:00">2 days ago</time></td>
-        # </tr>
+            cols = row.find_all("td")
+            if len(cols) < 7:
+                continue
 
-        cols = row.find_all("td")
-        if len(cols) < 7:
-            continue
+            date_str = cols[1].text.strip()
+            session_type = cols[2].text.strip()
+            session_name = cols[3].find("a").text.strip()
+            session_url = cols[3].find("a")["href"]
 
-        date_str = cols[1].text.strip()
-        session_type = cols[2].text.strip()
-        session_name = cols[3].find("a").text.strip()
-        session_url = cols[3].find("a")["href"]
+            finish_time = EASTERN_TZ.localize(
+                datetime.strptime(date_str, "%a. %b %d, %Y - %I:%M %p")
+            )
+            if not (before_date >= finish_time >= after_date):
+                # continue
+                break
 
-        finish_time = EASTERN_TZ.localize(
-            datetime.strptime(date_str, "%a. %b %d, %Y - %I:%M %p")
-        )
-        if not (before_date >= finish_time >= after_date):
-            # continue
-            break
+            accsm_file = session_url.split("/")[-1]
+            # track = session_name.split("|")[0].strip()  # we don't get to know the track from this table
+            filename = construct_filename(session_type[0], "", accsm_file, server)
+            path = os.path.join(downloads_dir, filename)
 
-        accsm_file = session_url.split("/")[-1]
-        # track = session_name.split("|")[0].strip()  # we don't get to know the track from this table
-        filename = construct_filename(session_type[0], "", accsm_file, server)
-        path = os.path.join(downloads_dir, filename)
+            if os.path.exists(path):
+                print(f"File {path} already exists... skipping {filename}")
+                continue
+                break
 
-        if os.path.exists(path):
-            print(f"File {path} already exists... skipping {filename}")
-            continue
-            break
-
-        print(f"Missing file: {filename}")
-        result_json = parse_sra_result(session_url)
-        result_json["Date"] = f"{finish_time.replace(tzinfo=None).isoformat()}Z"
-        result_json["SessionFile"] = accsm_file
-        for line in result_json["sessionResult"]["leaderBoardLines"]:
-            for driver in line["car"]["drivers"]:
-                member_id = driver["memberId"]
+            print(f"Missing file: {filename}")
+            result_json = parse_sra_result(session_url)
+            result_json["Date"] = f"{finish_time.replace(tzinfo=None).isoformat()}Z"
+            result_json["SessionFile"] = accsm_file
+            for line in result_json["sessionResult"]["leaderBoardLines"]:
+                for driver in line["car"]["drivers"]:
+                    member_id = driver["memberId"]
+                    driver_id = member_ids.get(member_id, member_id)
+                    if driver_id:
+                        driver["playerId"] = driver_id
+                current_driver = line["currentDriver"]
+                member_id = current_driver["memberId"]
                 driver_id = member_ids.get(member_id, member_id)
                 if driver_id:
-                    driver["playerId"] = driver_id
-            current_driver = line["currentDriver"]
-            member_id = current_driver["memberId"]
-            driver_id = member_ids.get(member_id, member_id)
-            if driver_id:
-                current_driver["playerId"] = driver_id
-        with open(path, "w") as f:
-            json.dump(result_json, f, indent=4)
-        print(f"Downloaded {filename}")
+                    current_driver["playerId"] = driver_id
+            with open(path, "w") as f:
+                json.dump(result_json, f, indent=4)
+            print(f"Downloaded {filename}")
+            pass
         pass
     pass
 
