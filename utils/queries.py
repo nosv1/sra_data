@@ -142,6 +142,7 @@ class CarModels:
             "Nissan GT-R Nismo GT3": "Nissan GT-R Nismo GT3 2017",
             "Porsche 718 Cayman GT4 CS": "Porsche 718 Cayman GT4",
             "Porsche 991 II GT3 R": "Porsche 911II GT3 R (2019)",
+            "Porsche 992 GT3 Cup": "Porsche 911 GT3 Cup (Type 992)",
             "Reiter Engineering R-EX GT3": "Lamborghini Gallardo R-EX",
         }  # sra name -> acc name
     )
