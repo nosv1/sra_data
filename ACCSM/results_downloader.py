@@ -120,7 +120,7 @@ def get_accsm_results():
     pass
 
 
-def parse_sra_result(session_url):
+def parse_sra_result(session_url: str, is_race: bool) -> dict:
     """
     FIXME: didn't handle alternate weather
     FIXME: didn't handle alternate car groups
@@ -194,25 +194,46 @@ def parse_sra_result(session_url):
         #    3
         #   </td>
         #  </tr>
-        cols = row.find_all("td")
+        cols: list[Tag] = row.find_all("td")
         if len(cols) < 5:
             continue
 
-        race_number = cols[1].find("span").text.strip()
-        name = cols[1].find("a").text.strip()
+        class COLUMNS:
+            RACE_NUMBER: int = 1
+            NAME: int = 1
+            CAR_ID: int = 1
+            MEMBER_URL: int = 1
+            MEMBER_ID: int = 1
+            CAR_MODEL: int = 2
+            TOTAL_TIME: int = 3
+            BEST_LAP: int = 3 if not is_race else 4
+            AVG_CLEAN_LAP: int = 5
+            NUM_LAPS: int = 4 if not is_race else 6
+
+        race_number = cols[COLUMNS.RACE_NUMBER].find("span").text.strip()
+        name = cols[COLUMNS.NAME].find("a").text.strip()
         first_name = name.split()[0] if name else ""
         last_name = " ".join(name.split()[1:]) if name else ""
-        car_id = cols[1].find("a")["href"].split("_")[-1]
-        member_url = cols[1].find("a", {"class": "sra-gold-hover"})["href"]
+        car_id = cols[COLUMNS.CAR_ID].find("a")["href"].split("_")[-1]
+        member_url = cols[COLUMNS.MEMBER_URL].find("a", {"class": "sra-gold-hover"})[
+            "href"
+        ]
         member_id = member_url.split("/")[-1].split("member=")[-1]
         car_model = [
-            cm.text.strip() for cm in cols[2].find_all("span") if cm.text.strip()
+            cm.text.strip()
+            for cm in cols[COLUMNS.CAR_MODEL].find_all("span")
+            if cm.text.strip()
         ][0]
         car_model = CarModels.model_name_dict[
             CarModels.sra_corrections.get(car_model, car_model)
         ]
-        best_lap = cols[3].text.strip()
-        num_laps = int(cols[4].text.strip())
+        best_lap = cols[COLUMNS.BEST_LAP].text.strip()
+        num_laps = int(cols[COLUMNS.NUM_LAPS].text.strip())
+
+        total_time = "0:00.000"
+        if is_race:
+            total_time = cols[COLUMNS.TOTAL_TIME].text.strip()
+            avg_clean_lap = cols[COLUMNS.AVG_CLEAN_LAP].text.strip()
 
         def time_to_milli(lap: str) -> int:
             # lap needs to be "m:ss.000"
@@ -266,7 +287,7 @@ def parse_sra_result(session_url):
                 "lastLap": 0,
                 "lastSplitId": 0,
                 "lastSplits": [],  # Placeholder
-                "totalTime": 0,  # Placeholder
+                "totalTime": time_to_milli(total_time) if total_time != "-" else 0,
             },
         }
         leaderboard_lines.append(leaderboard_line)
@@ -413,6 +434,7 @@ def get_sra_results(
         html = bs(requests.get(base_url, headers=HEADERS).content, "html.parser")
         table = html.find("table", {"id": "resultsTable"})
         for row in table.find_all("tr"):
+            row: Tag
             # example row
             # <tr class="odd">
             #     <!-- Date -->
@@ -431,7 +453,7 @@ def get_sra_results(
             #     <td class="small dtr-hidden" style="display: none;"><time class="timeago" datetime="2025-03-03T21:06:37.000-05:00">2 days ago</time></td>
             # </tr>
 
-            cols = row.find_all("td")
+            cols: list[Tag] = row.find_all("td")
             if len(cols) < 7:
                 continue
 
@@ -458,7 +480,9 @@ def get_sra_results(
                 break
 
             print(f"Missing file: {filename}")
-            result_json = parse_sra_result(session_url)
+            result_json = parse_sra_result(
+                session_url, is_race=session_type.startswith("R")
+            )
             result_json["Date"] = f"{finish_time.replace(tzinfo=None).isoformat()}Z"
             result_json["SessionFile"] = accsm_file
             for line in result_json["sessionResult"]["leaderBoardLines"]:
@@ -507,8 +531,8 @@ def main(argv):
         get_sra_results(before_date=args.before_date, after_date=args.after_date)
     else:
         get_sra_results(
-            after_date=EASTERN_TZ.localize(datetime(2024, 8, 5)),
-            before_date=EASTERN_TZ.localize(datetime(2024, 8, 25)),
+            after_date=EASTERN_TZ.localize(datetime(2025, 3, 28)),
+            before_date=EASTERN_TZ.localize(datetime(2025, 3, 29)),
         )
 
 
