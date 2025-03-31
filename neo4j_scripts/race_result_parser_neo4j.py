@@ -952,8 +952,8 @@ if __name__ == "__main__":
     if do_process_race_sessions:  # or do_process_quali_sessions:
         process_sra_db_neo(
             neo_session=sra_neo_session,
-            session_types=(SESSION_TYPES.RACE if do_process_race_sessions else [])
-            + (SESSION_TYPES.QUALIFYING if do_process_quali_sessions else []),
+            session_types=[SESSION_TYPES.RACE if do_process_race_sessions else ""]
+            + [SESSION_TYPES.QUALIFYING if do_process_quali_sessions else ""],
         )
     else:
         print(f"skipping processing of race sessions...")

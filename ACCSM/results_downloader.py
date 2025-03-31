@@ -428,7 +428,7 @@ def get_sra_results(
 
     member_ids = get_member_ids()
 
-    servers = ["server1", "server3", "server5", "server7"]
+    servers = ["server1", "server3", "server4", "server5", "server7"]
     for server in servers:
         base_url = f"https://www.simracingalliance.com/results/{server}"
         html = bs(requests.get(base_url, headers=HEADERS).content, "html.parser")
