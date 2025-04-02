@@ -1,0 +1,115 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 116572,
+            "splits": [
+                56972,
+                32465,
+                27135
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96885,
+            "splits": [
+                37795,
+                32340,
+                26750
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96102,
+            "splits": [
+                37342,
+                32042,
+                26717
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96020,
+            "splits": [
+                37397,
+                32030,
+                26592
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37342,
+            32030,
+            26592
+        ],
+        "bestlap": 96020,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Eric",
+                            "lastName": "Boardman",
+                            "playerId": "S76561199238518693",
+                            "memberId": "08c5a8bb84557342a9d141cbeb28c59cad620c0219e1c4647f786335b4c2d022",
+                            "shortName": "Eric Boardman"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 34,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Eric",
+                    "lastName": "Boardman",
+                    "playerId": "S76561199238518693",
+                    "memberId": "08c5a8bb84557342a9d141cbeb28c59cad620c0219e1c4647f786335b4c2d022",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96020,
+                    "bestSplits": [
+                        37342,
+                        32030,
+                        26592
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "indianapolis",
+    "serverName": "Q#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "",
+    "Date": "2025-03-18T22:19:00Z",
+    "SessionFile": "250318_221914_Q"
+}

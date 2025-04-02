@@ -1,0 +1,115 @@
+{
+    "laps": [
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123235,
+            "splits": [
+                63660,
+                32710,
+                26865
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96342,
+            "splits": [
+                37467,
+                32185,
+                26690
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96377,
+            "splits": [
+                37552,
+                32250,
+                26575
+            ]
+        },
+        {
+            "carId": 1002,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125540,
+            "splits": [
+                66245,
+                32515,
+                26780
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37467,
+            32185,
+            26575
+        ],
+        "bestlap": 96342,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Anthony",
+                            "lastName": "Kelley",
+                            "playerId": "3091cd41e642ceaf4815add38a4e474772da4ca75bc6fb74dd7f9c463e5470f8",
+                            "memberId": "3091cd41e642ceaf4815add38a4e474772da4ca75bc6fb74dd7f9c463e5470f8",
+                            "shortName": "Anthony Kelley"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 7,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Anthony",
+                    "lastName": "Kelley",
+                    "playerId": "3091cd41e642ceaf4815add38a4e474772da4ca75bc6fb74dd7f9c463e5470f8",
+                    "memberId": "3091cd41e642ceaf4815add38a4e474772da4ca75bc6fb74dd7f9c463e5470f8",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96342,
+                    "bestSplits": [
+                        37467,
+                        32185,
+                        26575
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "",
+    "Date": "2025-03-28T20:54:00Z",
+    "SessionFile": "250328_205400_FP"
+}

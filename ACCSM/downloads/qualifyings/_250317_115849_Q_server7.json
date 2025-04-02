@@ -1,0 +1,104 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127390,
+            "splits": [
+                66870,
+                33032,
+                27487
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99137,
+            "splits": [
+                39117,
+                32787,
+                27232
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98237,
+            "splits": [
+                38632,
+                32665,
+                26940
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            38632,
+            32665,
+            26940
+        ],
+        "bestlap": 98237,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "Seccombe",
+                            "playerId": "b1d43ec0063bd9f4ba92b93fc7cb3f24e8ad0164e67c56006e63294dce5974b5",
+                            "memberId": "b1d43ec0063bd9f4ba92b93fc7cb3f24e8ad0164e67c56006e63294dce5974b5",
+                            "shortName": "Justin Seccombe"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 45,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "Seccombe",
+                    "playerId": "b1d43ec0063bd9f4ba92b93fc7cb3f24e8ad0164e67c56006e63294dce5974b5",
+                    "memberId": "b1d43ec0063bd9f4ba92b93fc7cb3f24e8ad0164e67c56006e63294dce5974b5",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 98237,
+                    "bestSplits": [
+                        38632,
+                        32665,
+                        26940
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "indianapolis",
+    "serverName": "Q#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "",
+    "Date": "2025-03-17T11:58:00Z",
+    "SessionFile": "250317_115849_Q"
+}

@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125205,
+            "splits": [
+                65305,
+                32550,
+                27350
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96790,
+            "splits": [
+                37735,
+                32160,
+                26895
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37735,
+            32160,
+            26895
+        ],
+        "bestlap": 96790,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Michael",
+                            "lastName": "Mcweezerson",
+                            "playerId": "S76561197997356516",
+                            "memberId": "5ca9bf01c669b7c5b3cb3c075c3470ce58b2756fac2a1f449da8653e715f599f",
+                            "shortName": "Michael Mcweezerson"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 937,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Michael",
+                    "lastName": "Mcweezerson",
+                    "playerId": "S76561197997356516",
+                    "memberId": "5ca9bf01c669b7c5b3cb3c075c3470ce58b2756fac2a1f449da8653e715f599f",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96790,
+                    "bestSplits": [
+                        37735,
+                        32160,
+                        26895
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "",
+    "Date": "2025-03-30T09:47:00Z",
+    "SessionFile": "250330_094743_FP"
+}

@@ -1,0 +1,93 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 120527,
+            "splits": [
+                61537,
+                32295,
+                26695
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96725,
+            "splits": [
+                37670,
+                32172,
+                26882
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37670,
+            32172,
+            26882
+        ],
+        "bestlap": 96725,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": -1,
+                    "drivers": [
+                        {
+                            "firstName": "Justin",
+                            "lastName": "MacKechnie",
+                            "playerId": "S76561198328203388",
+                            "memberId": "a63c3478f490074725a91a74b9d38820c72ff0398bdcab1157a2b4952ef0303d",
+                            "shortName": "Justin MacKechnie"
+                        }
+                    ],
+                    "nationality": -1,
+                    "raceNumber": 35,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Justin",
+                    "lastName": "MacKechnie",
+                    "playerId": "S76561198328203388",
+                    "memberId": "a63c3478f490074725a91a74b9d38820c72ff0398bdcab1157a2b4952ef0303d",
+                    "shortName": ""
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96725,
+                    "bestSplits": [
+                        37670,
+                        32172,
+                        26882
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 0,
+                    "lastSplitId": 0,
+                    "lastSplits": [],
+                    "totalTime": 0
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "P",
+    "trackName": "indianapolis",
+    "serverName": "P#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "",
+    "Date": "2025-03-26T22:52:00Z",
+    "SessionFile": "250326_225212_FP"
+}
