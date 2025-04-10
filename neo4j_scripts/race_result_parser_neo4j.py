@@ -132,13 +132,20 @@ class LeaderboardDriver:
     last_name_json = "lastName"
     driver_id_json = "playerId"
     short_name_json = "shortName"
+    member_id_json = "memberId"  # only present in SRA results, not ACCSM results
 
     def __init__(
-        self, first_name: str, last_name: str, driver_id: str, short_name: str
+        self,
+        first_name: str,
+        last_name: str,
+        driver_id: str,
+        short_name: str,
+        member_id: str,
     ) -> None:
         self.first_name = first_name
         self.last_name = last_name
         self.driver_id = driver_id
+        self.member_id = member_id
         self.short_name = short_name
 
         self.laps: list[Lap] = []
@@ -159,7 +166,10 @@ class LeaderboardDriver:
         last_name: str = driver_dict[LeaderboardDriver.last_name_json]
         driver_id: str = driver_dict[LeaderboardDriver.driver_id_json]
         short_name: str = driver_dict[LeaderboardDriver.short_name_json]
-        return LeaderboardDriver(first_name, last_name, driver_id, short_name)
+        member_id: str = driver_dict.get(LeaderboardDriver.member_id_json, "")
+        return LeaderboardDriver(
+            first_name, last_name, driver_id, short_name, member_id
+        )
 
 
 class LeaderboardCar:
@@ -560,6 +570,7 @@ class SessionResult:
                 node_drivers.append(
                     {
                         "driver_id": driver.driver_id,
+                        "member_id": driver.member_id,
                         "first_name": driver.first_name,
                         "last_name": driver.last_name,
                         "short_name": driver.short_name,
@@ -751,6 +762,9 @@ if __name__ == "__main__":
         node_laps = []
         node_car_drivers = []
         for i, session_file in enumerate(dir_by_date_modified[:]):
+            if session_file.startswith("_"):
+                continue
+
             print(
                 f"{i + 1}/{len(os.listdir(session_dir))} - Loading {session_file}...",
                 end="",
@@ -860,38 +874,50 @@ if __name__ == "__main__":
             print("done")
 
         driver_cars_query = """
-            UNWIND $drivers AS driver
+            UNWIND $drivers AS driver_dict
+            WITH driver_dict as driver, driver_dict
+            WHERE driver.member_id <> ""
+            MERGE (d:Driver {
+                member_id: driver_dict.member_id
+            })
+            ON CREATE SET
+                d.driver_id = driver_dict.driver_id,
+                d.first_name = driver_dict.first_name,
+                d.last_name = driver_dict.last_name,
+                d.short_name = driver_dict.short_name
+            WITH d as driver, driver_dict
+
             MERGE (d:Driver {
                 driver_id: driver.driver_id
             })
             ON CREATE SET
-                d.first_name = driver.first_name,
-                d.last_name = driver.last_name,
-                d.short_name = driver.short_name
-            WITH d, driver
+                d.first_name = driver_dict.first_name,
+                d.last_name = driver_dict.last_name,
+                d.short_name = driver_dict.short_name
+            WITH d, driver, driver_dict
 
             MERGE (cd:CarDriver {
-                key_: driver.car_driver_key
+                key_: driver_dict.car_driver_key
             })
             ON CREATE SET
-                cd.car_key = driver.car_key,
+                cd.car_key = driver_dict.car_key,
                 cd.driver_id = driver.driver_id,
-                cd.car_id = driver.car_id,
-                cd.server_number = driver.server_number,
-                cd.session_file = driver.session_file,
-                cd.time_on_track = driver.time_on_track
+                cd.car_id = driver_dict.car_id,
+                cd.server_number = driver_dict.server_number,
+                cd.session_file = driver_dict.session_file,
+                cd.time_on_track = driver_dict.time_on_track
             MERGE (d)-[:DRIVER_TO_CAR_DRIVER]->(cd)
-            WITH d, cd, driver
+            WITH d, cd, driver, driver_dict
 
             MATCH (c:Car {
-                key_: driver.car_key
+                key_: driver_dict.car_key
             })
             MERGE (d)-[:DRIVER_TO_CAR]->(c)
             MERGE (cd)-[:CAR_DRIVER_TO_CAR]->(c)
-            WITH d, cd, driver
+            WITH d, cd, driver, driver_dict
 
             MATCH (s:Session {
-                key_: driver.session_key
+                key_: driver_dict.session_key
             })
             MERGE (d)-[:DRIVER_TO_SESSION]->(s)
             MERGE (cd)-[:CAR_DRIVER_TO_SESSION]->(s)

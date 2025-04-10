@@ -11,7 +11,7 @@ MATCH (ts:TeamSeriesSession)
 WHERE TRUE 
     AND c.best_split1 <> 2147483647 
     AND s.session_type = "Q" 
-    AND c.cup_category = cup_category 
+    AND (c.cup_category = cup_category OR cup_category = -1)
     // AND s.session_file = "250218_213633_Q"
 WITH cup_category, s, ts, c
      ORDER BY c.pot_best ASC

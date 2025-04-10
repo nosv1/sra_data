@@ -7,8 +7,7 @@ WHERE TRUE
 WITH s, c, c.best_split1 + c.best_split2 + c.best_split3 AS pot_best
 SET c.pot_best = pot_best
 WITH s, COLLECT(c) as cars
-WHERE TRUE 
-    AND SIZE(cars) > 1
+WHERE SIZE(cars) > 1
 // RETURN s, cars
 // LIMIT 1
 UNWIND cars as c

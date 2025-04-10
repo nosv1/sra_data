@@ -31,7 +31,9 @@ UNWIND divisions as division
 MATCH (tscc1:TeamSeriesCupCategory)
     <-[:TEAM_SERIES_SESSION_TO_CUP_CATEGORY]-(ts1:TeamSeriesSession {season: season, division: division})
     -[:TEAM_SERIES_SESSION_TO_SESSION]->(s:Session {track_name: track_name})
-WHERE s.session_type = "Q"
+WHERE TRUE
+    AND s.session_type = "Q"
+    AND tscc1.avg_middle_half_pot_best IS NOT NULL
 WITH track_name, season, divisions, division, tscc1, ts1
     UNWIND divisions as other_div
     MATCH (tscc2:TeamSeriesCupCategory)
@@ -54,6 +56,6 @@ WITH track_name, season, divisions, division, tscc1, ts1
 WHERE SIZE(percent_diffs) > 0
 WITH track_name, season, division, tscc1, ts1, REDUCE(s = 0.0, x IN percent_diffs | s + x) / SIZE(percent_diffs) as quali_avg_percent_diff
 SET tscc1.quali_avg_percent_diff = quali_avg_percent_diff
-RETURN track_name, season, division, tscc1.cup_category, quali_avg_percent_diff
-ORDER BY season desc, track_name, division, tscc1.cup_category
-LIMIT 100
+// RETURN track_name, season, division, tscc1.cup_category, quali_avg_percent_diff
+// ORDER BY season desc, track_name, division, tscc1.cup_category
+// LIMIT 100
