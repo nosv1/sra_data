@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 134107,
+            "splits": [
+                27482,
+                51945,
+                54680
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 132222,
+            "splits": [
+                27710,
+                50617,
+                53895
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 131297,
+            "splits": [
+                27487,
+                51080,
+                52730
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 3,
+    "sessionResult": {
+        "bestSplits": [
+            27710,
+            50617,
+            53895
+        ],
+        "bestlap": 132222,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Glenn",
+                            "lastName": "Jacobs",
+                            "playerId": "S76561198076410658",
+                            "shortName": "GRJ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 713,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Glenn",
+                    "lastName": "Jacobs",
+                    "playerId": "S76561198076410658",
+                    "shortName": "GRJ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 132222,
+                    "bestSplits": [
+                        27710,
+                        50617,
+                        53895
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 131297,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27487,
+                        51080,
+                        52730
+                    ],
+                    "totalTime": 65412897
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2025-04-09T17:45:38Z",
+    "SessionFile": "250409_174538_FP"
+}

@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 131175,
+            "splits": [
+                27455,
+                50750,
+                52970
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130237,
+            "splits": [
+                27197,
+                50315,
+                52725
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 133607,
+            "splits": [
+                28760,
+                52400,
+                52447
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 130045,
+            "splits": [
+                27217,
+                50525,
+                52302
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 26,
+    "sessionResult": {
+        "bestSplits": [
+            27217,
+            50525,
+            52302
+        ],
+        "bestlap": 130045,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1004,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mike",
+                            "lastName": "Cook |WRT",
+                            "playerId": "S76561199575246588",
+                            "shortName": "WRT"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 23,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mike",
+                    "lastName": "Cook |WRT",
+                    "playerId": "S76561199575246588",
+                    "shortName": "WRT"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 130045,
+                    "bestSplits": [
+                        27217,
+                        50525,
+                        52302
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 130045,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27217,
+                        50525,
+                        52302
+                    ],
+                    "totalTime": 146538699
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2025-04-09T15:18:50Z",
+    "SessionFile": "250409_151850_FP"
+}
