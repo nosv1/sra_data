@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139442,
+            "splits": [
+                27890,
+                59907,
+                51645
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130342,
+            "splits": [
+                27722,
+                50472,
+                52147
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Steven",
+                            "lastName": "Music",
+                            "playerId": "S76561198009883098",
+                            "shortName": "MUS"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 466,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Steven",
+                    "lastName": "Music",
+                    "playerId": "S76561198009883098",
+                    "shortName": "MUS"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 130342,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27722,
+                        50472,
+                        52147
+                    ],
+                    "totalTime": 457367
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "cota",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Public Copy | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:8445b7c5-e992-4e35-b92f-0a47997feb6e",
+    "Date": "2025-04-07T21:19:34Z",
+    "SessionFile": "250407_211934_Q"
+}

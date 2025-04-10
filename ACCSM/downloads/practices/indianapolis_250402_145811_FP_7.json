@@ -1,0 +1,149 @@
+{
+    "laps": [
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 115400,
+            "splits": [
+                56227,
+                32252,
+                26920
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96410,
+            "splits": [
+                37612,
+                32187,
+                26610
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96105,
+            "splits": [
+                37462,
+                32030,
+                26612
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 15,
+    "sessionResult": {
+        "bestSplits": [
+            37462,
+            32030,
+            26610
+        ],
+        "bestlap": 96105,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1004,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Andreas",
+                            "lastName": "Borchers",
+                            "playerId": "S76561198045000989",
+                            "shortName": "BOR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 30,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Andreas",
+                    "lastName": "Borchers",
+                    "playerId": "S76561198045000989",
+                    "shortName": "BOR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96105,
+                    "bestSplits": [
+                        37462,
+                        32030,
+                        26610
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 96105,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        37462,
+                        32030,
+                        26612
+                    ],
+                    "totalTime": 117132068
+                }
+            },
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Marcello",
+                            "lastName": "Sindaco",
+                            "playerId": "S76561198095494357",
+                            "shortName": "SIN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 111,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Marcello",
+                    "lastName": "Sindaco",
+                    "playerId": "S76561198095494357",
+                    "shortName": "SIN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:68ac2154-6916-484b-b3b7-ff76ff92f87a",
+    "Date": "2025-04-02T14:58:11Z",
+    "SessionFile": "250402_145811_FP"
+}

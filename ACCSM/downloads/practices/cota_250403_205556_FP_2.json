@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130907,
+            "splits": [
+                27047,
+                51217,
+                52642
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 129685,
+            "splits": [
+                27320,
+                50475,
+                51890
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129280,
+            "splits": [
+                27225,
+                50400,
+                51655
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128585,
+            "splits": [
+                27022,
+                50080,
+                51482
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 5,
+    "sessionResult": {
+        "bestSplits": [
+            27320,
+            50475,
+            51890
+        ],
+        "bestlap": 129685,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Noah",
+                            "lastName": "Macomber",
+                            "playerId": "S76561199029630361",
+                            "shortName": "NSM"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 220,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Noah",
+                    "lastName": "Macomber",
+                    "playerId": "S76561199029630361",
+                    "shortName": "NSM"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 129685,
+                    "bestSplits": [
+                        27320,
+                        50475,
+                        51890
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 128585,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27022,
+                        50080,
+                        51482
+                    ],
+                    "totalTime": 10218767
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2025-04-03T20:55:56Z",
+    "SessionFile": "250403_205556_FP"
+}

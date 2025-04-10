@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130822,
+            "splits": [
+                67660,
+                34577,
+                28585
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 103152,
+            "splits": [
+                39952,
+                35480,
+                27720
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101690,
+            "splits": [
+                40065,
+                33742,
+                27882
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            39952,
+            33742,
+            27720
+        ],
+        "bestlap": 101690,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Riley",
+                            "lastName": "Greear",
+                            "playerId": "S76561199295227155",
+                            "shortName": "RLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 293,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Riley",
+                    "lastName": "Greear",
+                    "playerId": "S76561199295227155",
+                    "shortName": "RLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101690,
+                    "bestSplits": [
+                        39952,
+                        33742,
+                        27720
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 101690,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        40065,
+                        33742,
+                        27882
+                    ],
+                    "totalTime": 35086638
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:4c551af0-6c40-4523-973d-81e152227105",
+    "Date": "2025-04-01T16:10:45Z",
+    "SessionFile": "250401_161045_FP"
+}

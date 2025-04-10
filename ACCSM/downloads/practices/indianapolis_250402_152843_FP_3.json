@@ -1,0 +1,84 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130022,
+            "splits": [
+                65752,
+                34552,
+                29717
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Jordon",
+                            "lastName": "Danher",
+                            "playerId": "S76561198048405000",
+                            "shortName": "JDA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 505,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Jordon",
+                    "lastName": "Danher",
+                    "playerId": "S76561198048405000",
+                    "shortName": "JDA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 130022,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        65752,
+                        34552,
+                        29717
+                    ],
+                    "totalTime": 57184912
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2025-04-02T15:28:43Z",
+    "SessionFile": "250402_152843_FP"
+}

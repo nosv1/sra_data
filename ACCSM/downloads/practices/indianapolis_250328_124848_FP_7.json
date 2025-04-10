@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125940,
+            "splits": [
+                65630,
+                32800,
+                27510
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 100350,
+            "splits": [
+                39932,
+                32907,
+                27510
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 99440,
+            "splits": [
+                39517,
+                32990,
+                26932
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97945,
+            "splits": [
+                37962,
+                32587,
+                27395
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 21,
+    "sessionResult": {
+        "bestSplits": [
+            37962,
+            32587,
+            27395
+        ],
+        "bestlap": 97945,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Sarver",
+                            "playerId": "S76561198102177223",
+                            "shortName": "SAR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 612,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Sarver",
+                    "playerId": "S76561198102177223",
+                    "shortName": "SAR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97945,
+                    "bestSplits": [
+                        37962,
+                        32587,
+                        27395
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 97945,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        37962,
+                        32587,
+                        27395
+                    ],
+                    "totalTime": 142565292
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:68ac2154-6916-484b-b3b7-ff76ff92f87a",
+    "Date": "2025-03-28T12:48:48Z",
+    "SessionFile": "250328_124848_FP"
+}

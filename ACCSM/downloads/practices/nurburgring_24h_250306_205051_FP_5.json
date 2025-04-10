@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 513435,
+            "splits": [
+                177570,
+                160225,
+                175640
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 514612,
+            "splits": [
+                177415,
+                160762,
+                176435
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 539182,
+            "splits": [
+                184377,
+                161362,
+                193442
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            177415,
+            160225,
+            175640
+        ],
+        "bestlap": 513435,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Donovan",
+                            "lastName": "Colton",
+                            "playerId": "S76561198170883294",
+                            "shortName": "COL"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 992,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Donovan",
+                    "lastName": "Colton",
+                    "playerId": "S76561198170883294",
+                    "shortName": "COL"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 513435,
+                    "bestSplits": [
+                        177415,
+                        160225,
+                        175640
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 539182,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        184377,
+                        161362,
+                        193442
+                    ],
+                    "totalTime": 250857631
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggP-Cup & Maserati Challenge Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:b7e8adc8-80ce-4a3d-b47d-7faa9ee93634",
+    "Date": "2025-03-06T20:50:51Z",
+    "SessionFile": "250306_205051_FP"
+}

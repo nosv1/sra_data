@@ -1,0 +1,150 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 125922,
+            "splits": [
+                65837,
+                32572,
+                27512
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96315,
+            "splits": [
+                37547,
+                31965,
+                26802
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95632,
+            "splits": [
+                37322,
+                31847,
+                26462
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95810,
+            "splits": [
+                37300,
+                31880,
+                26630
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 95762,
+            "splits": [
+                37257,
+                31810,
+                26695
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 95890,
+            "splits": [
+                37482,
+                31802,
+                26605
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96560,
+            "splits": [
+                37590,
+                32145,
+                26825
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            37257,
+            31810,
+            26462
+        ],
+        "bestlap": 95632,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Mike",
+                            "lastName": "Geno",
+                            "playerId": "S76561198253382077",
+                            "shortName": "GEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 46,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Mike",
+                    "lastName": "Geno",
+                    "playerId": "S76561198253382077",
+                    "shortName": "GEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 95632,
+                    "bestSplits": [
+                        37257,
+                        31810,
+                        26462
+                    ],
+                    "lapCount": 7,
+                    "lastLap": 96560,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        37590,
+                        32145,
+                        26825
+                    ],
+                    "totalTime": 5530316
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D3  | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:2efcf70c-5c97-4835-8932-79a004ac6e91",
+    "Date": "2025-04-01T01:01:58Z",
+    "SessionFile": "250401_010158_FP"
+}

@@ -1,0 +1,171 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130322,
+            "splits": [
+                27347,
+                50230,
+                52745
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130200,
+            "splits": [
+                28025,
+                50210,
+                51965
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 128855,
+            "splits": [
+                26877,
+                50545,
+                51432
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129825,
+            "splits": [
+                27275,
+                51000,
+                51550
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129085,
+            "splits": [
+                27027,
+                50425,
+                51632
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 10,
+    "sessionResult": {
+        "bestSplits": [
+            26877,
+            50545,
+            51432
+        ],
+        "bestlap": 128855,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 15,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "DJ",
+                            "lastName": "Watts",
+                            "playerId": "S76561198141964925",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 42,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "DJ",
+                    "lastName": "Watts",
+                    "playerId": "S76561198141964925",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 128855,
+                    "bestSplits": [
+                        26877,
+                        50545,
+                        51432
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 129085,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27027,
+                        50425,
+                        51632
+                    ],
+                    "totalTime": 65020763
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Zodi",
+                            "lastName": "Fade",
+                            "playerId": "S76561197970765951",
+                            "shortName": "ZOE"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 93,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Zodi",
+                    "lastName": "Fade",
+                    "playerId": "S76561197970765951",
+                    "shortName": "ZOE"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:1b4d78d5-18fb-42f5-98b5-9ead8f2748d0",
+    "Date": "2025-04-03T17:39:35Z",
+    "SessionFile": "250403_173935_FP"
+}

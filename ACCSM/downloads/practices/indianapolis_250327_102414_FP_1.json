@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128657,
+            "splits": [
+                65620,
+                33887,
+                29150
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 102477,
+            "splits": [
+                38885,
+                35060,
+                28532
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100310,
+            "splits": [
+                38692,
+                33630,
+                27987
+            ]
+        },
+        {
+            "carId": 1004,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100315,
+            "splits": [
+                38887,
+                33065,
+                28362
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 10,
+    "sessionResult": {
+        "bestSplits": [
+            38692,
+            33065,
+            27987
+        ],
+        "bestlap": 100310,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1004,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Stephen",
+                            "lastName": "Pellerin",
+                            "playerId": "S76561199074528657",
+                            "shortName": "SJP"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 30,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Stephen",
+                    "lastName": "Pellerin",
+                    "playerId": "S76561199074528657",
+                    "shortName": "SJP"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 100310,
+                    "bestSplits": [
+                        38692,
+                        33065,
+                        27987
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 100315,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        38887,
+                        33065,
+                        28362
+                    ],
+                    "totalTime": 70361334
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | R1 | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:fc4188dc-f315-446f-9484-4dc7a9f6ad89",
+    "Date": "2025-03-27T10:24:14Z",
+    "SessionFile": "250327_102414_FP"
+}

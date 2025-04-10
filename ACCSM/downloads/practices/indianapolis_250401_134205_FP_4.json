@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127057,
+            "splits": [
+                66360,
+                33412,
+                27285
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 98130,
+            "splits": [
+                37947,
+                32767,
+                27415
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97810,
+            "splits": [
+                38030,
+                32640,
+                27140
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 2,
+    "sessionResult": {
+        "bestSplits": [
+            37947,
+            32640,
+            27140
+        ],
+        "bestlap": 97810,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 21,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Sebastian",
+                            "lastName": "Rock",
+                            "playerId": "S76561198381118387",
+                            "shortName": "ROC"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 217,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Sebastian",
+                    "lastName": "Rock",
+                    "playerId": "S76561198381118387",
+                    "shortName": "ROC"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 97810,
+                    "bestSplits": [
+                        37947,
+                        32640,
+                        27140
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 97810,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        38030,
+                        32640,
+                        27140
+                    ],
+                    "totalTime": 26006802
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2b08b0a-2fd3-4b01-9c66-fc1a89031ca3",
+    "Date": "2025-04-01T13:42:05Z",
+    "SessionFile": "250401_134205_FP"
+}

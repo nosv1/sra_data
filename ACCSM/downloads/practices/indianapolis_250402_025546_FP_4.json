@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128847,
+            "splits": [
+                65040,
+                36675,
+                27132
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97950,
+            "splits": [
+                37972,
+                32485,
+                27492
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96900,
+            "splits": [
+                37725,
+                32247,
+                26927
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97027,
+            "splits": [
+                37895,
+                32512,
+                26620
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 7,
+    "sessionResult": {
+        "bestSplits": [
+            37725,
+            32247,
+            26620
+        ],
+        "bestlap": 96900,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Tyrell",
+                            "lastName": "Foster",
+                            "playerId": "S76561198836429146",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 106,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Tyrell",
+                    "lastName": "Foster",
+                    "playerId": "S76561198836429146",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96900,
+                    "bestSplits": [
+                        37725,
+                        32247,
+                        26620
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 97027,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        37895,
+                        32512,
+                        26620
+                    ],
+                    "totalTime": 24832225
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | R Copy | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:12e56402-d351-4eab-98e8-b097d7f9c60f",
+    "Date": "2025-04-02T02:55:46Z",
+    "SessionFile": "250402_025546_FP"
+}

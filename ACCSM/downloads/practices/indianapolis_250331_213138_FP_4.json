@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 133142,
+            "splits": [
+                58742,
+                32415,
+                41985
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 97985,
+            "splits": [
+                38165,
+                31947,
+                27872
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96952,
+            "splits": [
+                37717,
+                32182,
+                27052
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96432,
+            "splits": [
+                37572,
+                32025,
+                26835
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 6,
+    "sessionResult": {
+        "bestSplits": [
+            37572,
+            32025,
+            26835
+        ],
+        "bestlap": 96432,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Andy",
+                            "lastName": "Speed",
+                            "playerId": "S76561198046705057",
+                            "shortName": "BGR"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 992,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Andy",
+                    "lastName": "Speed",
+                    "playerId": "S76561198046705057",
+                    "shortName": "BGR"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96432,
+                    "bestSplits": [
+                        37572,
+                        32025,
+                        26835
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 96432,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        37572,
+                        32025,
+                        26835
+                    ],
+                    "totalTime": 86233891
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Private | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2c58f79-8418-47f2-b28a-79fddb7700eb",
+    "Date": "2025-03-31T21:31:38Z",
+    "SessionFile": "250331_213138_FP"
+}

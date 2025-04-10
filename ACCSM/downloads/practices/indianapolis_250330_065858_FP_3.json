@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 151737,
+            "splits": [
+                65795,
+                57797,
+                28145
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 114090,
+            "splits": [
+                50142,
+                33630,
+                30317
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 100532,
+            "splits": [
+                38752,
+                33520,
+                28260
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 99110,
+            "splits": [
+                38367,
+                33292,
+                27450
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 42,
+    "sessionResult": {
+        "bestSplits": [
+            38367,
+            33292,
+            27450
+        ],
+        "bestlap": 99110,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Yvo",
+                            "lastName": "Van Doesburg",
+                            "playerId": "S76561199239475168",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 361,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Yvo",
+                    "lastName": "Van Doesburg",
+                    "playerId": "S76561199239475168",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 99110,
+                    "bestSplits": [
+                        38367,
+                        33292,
+                        27450
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 99110,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        38367,
+                        33292,
+                        27450
+                    ],
+                    "totalTime": 232256229
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:3bd41409-4750-4392-92ea-13df80b8f406",
+    "Date": "2025-03-30T06:58:58Z",
+    "SessionFile": "250330_065858_FP"
+}

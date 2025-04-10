@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 509590,
+            "splits": [
+                176962,
+                158785,
+                173842
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 509290,
+            "splits": [
+                177140,
+                158627,
+                173522
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 509110,
+            "splits": [
+                176302,
+                159202,
+                173605
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 9,
+    "sessionResult": {
+        "bestSplits": [
+            176302,
+            158785,
+            173605
+        ],
+        "bestlap": 509110,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 28,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Phillipe Enis",
+                            "lastName": "M\u00fcller",
+                            "playerId": "S76561198004368551",
+                            "shortName": "PEN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 39,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Phillipe Enis",
+                    "lastName": "M\u00fcller",
+                    "playerId": "S76561198004368551",
+                    "shortName": "PEN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 509110,
+                    "bestSplits": [
+                        176302,
+                        158785,
+                        173605
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 509110,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        176302,
+                        159202,
+                        173605
+                    ],
+                    "totalTime": 173123211
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAggP-Cup & Maserati Challenge Practice | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:b7e8adc8-80ce-4a3d-b47d-7faa9ee93634",
+    "Date": "2025-03-05T23:18:18Z",
+    "SessionFile": "250305_231818_FP"
+}

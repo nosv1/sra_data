@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 130685,
+            "splits": [
+                27377,
+                50870,
+                52437
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 132172,
+            "splits": [
+                27565,
+                52467,
+                52140
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 131202,
+            "splits": [
+                27635,
+                51000,
+                52567
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 131637,
+            "splits": [
+                27432,
+                51607,
+                52597
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 25,
+    "sessionResult": {
+        "bestSplits": [
+            27377,
+            50870,
+            52140
+        ],
+        "bestlap": 130685,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Thomas",
+                            "lastName": "Regnier (CAN)",
+                            "playerId": "S76561198003378460",
+                            "shortName": "REG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 72,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Thomas",
+                    "lastName": "Regnier (CAN)",
+                    "playerId": "S76561198003378460",
+                    "shortName": "REG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 130685,
+                    "bestSplits": [
+                        27377,
+                        50870,
+                        52140
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 131637,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        27432,
+                        51607,
+                        52597
+                    ],
+                    "totalTime": 155560380
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2025-04-05T13:18:18Z",
+    "SessionFile": "250405_131818_FP"
+}

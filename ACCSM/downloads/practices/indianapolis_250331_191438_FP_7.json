@@ -1,0 +1,206 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 141595,
+            "splits": [
+                69345,
+                43145,
+                29105
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 128905,
+            "splits": [
+                66345,
+                33830,
+                28730
+            ]
+        },
+        {
+            "carId": 1003,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 101317,
+            "splits": [
+                39237,
+                33895,
+                28185
+            ]
+        }
+    ],
+    "penalties": [
+        {
+            "carId": 1003,
+            "clearedInLap": 0,
+            "driverIndex": 0,
+            "penalty": "Disqualified",
+            "penaltyValue": 0,
+            "reason": "WrongWay",
+            "violationInLap": 1
+        }
+    ],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 17,
+    "sessionResult": {
+        "bestSplits": [
+            39237,
+            33895,
+            28185
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Huntter",
+                            "lastName": "Lowe",
+                            "playerId": "S76561198325685231",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 100,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Huntter",
+                    "lastName": "Lowe",
+                    "playerId": "S76561198325685231",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 1,
+                    "lastLap": 141595,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        69345,
+                        43145,
+                        29105
+                    ],
+                    "totalTime": 101656037
+                }
+            },
+            {
+                "car": {
+                    "carId": 1002,
+                    "carModel": 20,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Edward",
+                            "lastName": "Ryan",
+                            "playerId": "S76561199479169325",
+                            "shortName": "ERY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 961,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Edward",
+                    "lastName": "Ryan",
+                    "playerId": "S76561199479169325",
+                    "shortName": "ERY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 0,
+                    "lastLap": 2147483647,
+                    "lastSplitId": 4294967295,
+                    "lastSplits": [],
+                    "totalTime": 2147483647
+                }
+            },
+            {
+                "car": {
+                    "carId": 1003,
+                    "carModel": 34,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 2,
+                    "drivers": [
+                        {
+                            "firstName": "Huntter",
+                            "lastName": "Lowe",
+                            "playerId": "S76561198325685231",
+                            "shortName": "PLY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 89,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Huntter",
+                    "lastName": "Lowe",
+                    "playerId": "S76561198325685231",
+                    "shortName": "PLY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 101317,
+                    "bestSplits": [
+                        39237,
+                        33895,
+                        28185
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 101317,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        39237,
+                        33895,
+                        28185
+                    ],
+                    "totalTime": 102030647
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:68ac2154-6916-484b-b3b7-ff76ff92f87a",
+    "Date": "2025-03-31T19:14:38Z",
+    "SessionFile": "250331_191438_FP"
+}

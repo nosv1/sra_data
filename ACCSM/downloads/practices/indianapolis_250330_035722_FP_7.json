@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126557,
+            "splits": [
+                65310,
+                33537,
+                27710
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 102800,
+            "splits": [
+                41692,
+                33262,
+                27845
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 45,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 11,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Alex",
+                            "lastName": "Hansen",
+                            "playerId": "S76561198107345316",
+                            "shortName": "HAN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 31,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Alex",
+                    "lastName": "Hansen",
+                    "playerId": "S76561198107345316",
+                    "shortName": "HAN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 102800,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        41692,
+                        33262,
+                        27845
+                    ],
+                    "totalTime": 283464154
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:68ac2154-6916-484b-b3b7-ff76ff92f87a",
+    "Date": "2025-03-30T03:57:22Z",
+    "SessionFile": "250330_035722_FP"
+}

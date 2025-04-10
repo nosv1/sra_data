@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 135555,
+            "splits": [
+                28890,
+                52100,
+                54565
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 147317,
+            "splits": [
+                28372,
+                65102,
+                53842
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139265,
+            "splits": [
+                29872,
+                52295,
+                57097
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            2147483647,
+            2147483647,
+            2147483647
+        ],
+        "bestlap": 2147483647,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 35,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 3,
+                    "drivers": [
+                        {
+                            "firstName": "Aku",
+                            "lastName": "Namatata",
+                            "playerId": "S76561198008045301",
+                            "shortName": "AKU"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 690,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Aku",
+                    "lastName": "Namatata",
+                    "playerId": "S76561198008045301",
+                    "shortName": "AKU"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 2147483647,
+                    "bestSplits": [
+                        2147483647,
+                        2147483647,
+                        2147483647
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 139265,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        29872,
+                        52295,
+                        57097
+                    ],
+                    "totalTime": 44436066
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D6  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:38545970-8efb-4f73-94ae-a5428487609b",
+    "Date": "2025-04-09T11:57:57Z",
+    "SessionFile": "250409_115757_FP"
+}

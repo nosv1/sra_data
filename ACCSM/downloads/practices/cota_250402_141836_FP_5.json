@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 127685,
+            "splits": [
+                26720,
+                50035,
+                50930
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127830,
+            "splits": [
+                26830,
+                49295,
+                51705
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 129765,
+            "splits": [
+                26900,
+                49947,
+                52917
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 127012,
+            "splits": [
+                26760,
+                49487,
+                50765
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 11,
+    "sessionResult": {
+        "bestSplits": [
+            26760,
+            49295,
+            50765
+        ],
+        "bestlap": 127012,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "a",
+                            "lastName": "burk",
+                            "playerId": "S76561198227553172",
+                            "shortName": "BCK"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 369,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "a",
+                    "lastName": "burk",
+                    "playerId": "S76561198227553172",
+                    "shortName": "BCK"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 127012,
+                    "bestSplits": [
+                        26760,
+                        49295,
+                        50765
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 127012,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        26760,
+                        49487,
+                        50765
+                    ],
+                    "totalTime": 52998330
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:4cfc2c83-0f25-46f8-81fe-1fd0f63bd7ab",
+    "Date": "2025-04-02T14:18:36Z",
+    "SessionFile": "250402_141836_FP"
+}

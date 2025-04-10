@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 136390,
+            "splits": [
+                64487,
+                45102,
+                26800
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97760,
+            "splits": [
+                38117,
+                33017,
+                26625
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97242,
+            "splits": [
+                37772,
+                32442,
+                27027
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96845,
+            "splits": [
+                37820,
+                32520,
+                26505
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97007,
+            "splits": [
+                37527,
+                32792,
+                26687
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 0,
+    "sessionResult": {
+        "bestSplits": [
+            37527,
+            32442,
+            26505
+        ],
+        "bestlap": 96845,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 32,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Fernando",
+                            "lastName": "Catoira",
+                            "playerId": "S76561199774983572",
+                            "shortName": "RIF"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 116,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Fernando",
+                    "lastName": "Catoira",
+                    "playerId": "S76561199774983572",
+                    "shortName": "RIF"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96845,
+                    "bestSplits": [
+                        37527,
+                        32442,
+                        26505
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 97007,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        37527,
+                        32792,
+                        26687
+                    ],
+                    "totalTime": 869383
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | Locked: D5  | SimRacingAlliance.com | #SRAM3 | cBOP",
+    "metaData": "custom_race:4c551af0-6c40-4523-973d-81e152227105",
+    "Date": "2025-03-31T23:45:11Z",
+    "SessionFile": "250331_234511_FP"
+}

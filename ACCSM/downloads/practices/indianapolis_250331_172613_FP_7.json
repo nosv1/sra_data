@@ -1,0 +1,128 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 126247,
+            "splits": [
+                66440,
+                32892,
+                26915
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97095,
+            "splits": [
+                37507,
+                32765,
+                26822
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 97047,
+            "splits": [
+                37457,
+                32277,
+                27312
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96855,
+            "splits": [
+                37392,
+                32600,
+                26862
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 123630,
+            "splits": [
+                64345,
+                32230,
+                27055
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 14,
+    "sessionResult": {
+        "bestSplits": [
+            37392,
+            32277,
+            26822
+        ],
+        "bestlap": 96855,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 36,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Connor",
+                            "lastName": "Adams",
+                            "playerId": "S76561198070555731",
+                            "shortName": "CLA"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 65,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Connor",
+                    "lastName": "Adams",
+                    "playerId": "S76561198070555731",
+                    "shortName": "CLA"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96855,
+                    "bestSplits": [
+                        37392,
+                        32277,
+                        26822
+                    ],
+                    "lapCount": 5,
+                    "lastLap": 123630,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        64345,
+                        32230,
+                        27055
+                    ],
+                    "totalTime": 95375349
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | SRA ES Indianapolis Qualification | SimRacingAlliance.com | #SRAQ1 | cBOP",
+    "metaData": "custom_race:68ac2154-6916-484b-b3b7-ff76ff92f87a",
+    "Date": "2025-03-31T17:26:13Z",
+    "SessionFile": "250331_172613_FP"
+}

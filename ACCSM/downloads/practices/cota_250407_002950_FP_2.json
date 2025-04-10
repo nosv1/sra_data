@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 139760,
+            "splits": [
+                30187,
+                53870,
+                55702
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 136945,
+            "splits": [
+                29490,
+                52912,
+                54542
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 139287,
+            "splits": [
+                29482,
+                54480,
+                55325
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 134702,
+            "splits": [
+                29105,
+                51957,
+                53640
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 36,
+    "sessionResult": {
+        "bestSplits": [
+            29105,
+            51957,
+            53640
+        ],
+        "bestlap": 134702,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 25,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Max",
+                            "lastName": "Yang",
+                            "playerId": "S76561198824723764",
+                            "shortName": "YNG"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 248,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Max",
+                    "lastName": "Yang",
+                    "playerId": "S76561198824723764",
+                    "shortName": "YNG"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 134702,
+                    "bestSplits": [
+                        29105,
+                        51957,
+                        53640
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 134702,
+                    "lastSplitId": 1,
+                    "lastSplits": [
+                        29105,
+                        51957,
+                        53640
+                    ],
+                    "totalTime": 282192995
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM2 | cBOP",
+    "metaData": "custom_race:a6d10fd5-2b48-460c-89cf-0f8644cb0422",
+    "Date": "2025-04-07T00:29:50Z",
+    "SessionFile": "250407_002950_FP"
+}

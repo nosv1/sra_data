@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 134305,
+            "splits": [
+                28280,
+                51812,
+                54212
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 130972,
+            "splits": [
+                27865,
+                50270,
+                52837
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 131022,
+            "splits": [
+                27675,
+                50697,
+                52650
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 12,
+    "sessionResult": {
+        "bestSplits": [
+            27675,
+            50270,
+            52650
+        ],
+        "bestlap": 130972,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 30,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Edward",
+                            "lastName": "Ryan",
+                            "playerId": "S76561199479169325",
+                            "shortName": "ERY"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 961,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Edward",
+                    "lastName": "Ryan",
+                    "playerId": "S76561199479169325",
+                    "shortName": "ERY"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 130972,
+                    "bestSplits": [
+                        27675,
+                        50270,
+                        52650
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 131022,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        27675,
+                        50697,
+                        52650
+                    ],
+                    "totalTime": 90873593
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "cota",
+    "serverName": "#SRAggTT | GT3_FreePractice | R | SimRacingAlliance.com | #SRAM1 | cBOP",
+    "metaData": "custom_race:12a95b44-6725-480d-80a3-5d613c701cf1",
+    "Date": "2025-04-04T19:20:26Z",
+    "SessionFile": "250404_192026_FP"
+}

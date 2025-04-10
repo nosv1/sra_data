@@ -1,0 +1,117 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 122307,
+            "splits": [
+                63300,
+                32237,
+                26770
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96647,
+            "splits": [
+                37667,
+                32212,
+                26767
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96547,
+            "splits": [
+                37640,
+                32242,
+                26665
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96610,
+            "splits": [
+                37595,
+                32162,
+                26852
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 1,
+    "raceWeekendIndex": 4,
+    "sessionResult": {
+        "bestSplits": [
+            37595,
+            32162,
+            26665
+        ],
+        "bestlap": 96547,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 8,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Shaun",
+                            "lastName": "Daniels",
+                            "playerId": "S76561198105233841",
+                            "shortName": "LQD"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 3,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Shaun",
+                    "lastName": "Daniels",
+                    "playerId": "S76561198105233841",
+                    "shortName": "LQD"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96547,
+                    "bestSplits": [
+                        37595,
+                        32162,
+                        26665
+                    ],
+                    "lapCount": 4,
+                    "lastLap": 96610,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        37595,
+                        32162,
+                        26852
+                    ],
+                    "totalTime": 429002
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "Q",
+    "trackName": "indianapolis",
+    "serverName": "#SRAgg | #SRAE | GT3_QuickRace_Private | SimRacingAlliance.com | #SRAM4 | cBOP",
+    "metaData": "custom_race:e2c58f79-8418-47f2-b28a-79fddb7700eb",
+    "Date": "2025-04-04T16:51:46Z",
+    "SessionFile": "250404_165146_Q"
+}

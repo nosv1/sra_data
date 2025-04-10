@@ -1,0 +1,106 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 130130,
+            "splits": [
+                61157,
+                38605,
+                30367
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96520,
+            "splits": [
+                37565,
+                32120,
+                26835
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 96077,
+            "splits": [
+                37565,
+                31862,
+                26650
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            37565,
+            31862,
+            26650
+        ],
+        "bestlap": 96077,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 31,
+                    "carGroup": "GT3",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Luis",
+                            "lastName": "Vazquez",
+                            "playerId": "S76561199005478434",
+                            "shortName": "LVZ"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 17,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Luis",
+                    "lastName": "Vazquez",
+                    "playerId": "S76561199005478434",
+                    "shortName": "LVZ"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 96077,
+                    "bestSplits": [
+                        37565,
+                        31862,
+                        26650
+                    ],
+                    "lapCount": 3,
+                    "lastLap": 96077,
+                    "lastSplitId": 2,
+                    "lastSplits": [
+                        37565,
+                        31862,
+                        26650
+                    ],
+                    "totalTime": 5418893
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "indianapolis",
+    "serverName": "#SRAggTT | GT3_FreePractice | Q | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a14040ea-5270-4401-bc79-a430a04ca6dd",
+    "Date": "2025-04-01T00:56:27Z",
+    "SessionFile": "250401_005627_FP"
+}

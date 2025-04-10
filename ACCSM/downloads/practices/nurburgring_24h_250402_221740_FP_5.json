@@ -1,0 +1,95 @@
+{
+    "laps": [
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": false,
+            "laptime": 544557,
+            "splits": [
+                187985,
+                171105,
+                185467
+            ]
+        },
+        {
+            "carId": 1001,
+            "driverIndex": 0,
+            "isValidForBest": true,
+            "laptime": 542015,
+            "splits": [
+                186367,
+                170305,
+                185342
+            ]
+        }
+    ],
+    "penalties": [],
+    "post_race_penalties": [],
+    "sessionIndex": 0,
+    "raceWeekendIndex": 1,
+    "sessionResult": {
+        "bestSplits": [
+            186367,
+            170305,
+            185342
+        ],
+        "bestlap": 542015,
+        "isWetSession": 0,
+        "leaderBoardLines": [
+            {
+                "car": {
+                    "carId": 1001,
+                    "carModel": 55,
+                    "carGroup": "GT4",
+                    "carGuid": -1,
+                    "teamGuid": -1,
+                    "cupCategory": 0,
+                    "drivers": [
+                        {
+                            "firstName": "Collin",
+                            "lastName": "Dunham",
+                            "playerId": "S76561197989466442",
+                            "shortName": "DUN"
+                        }
+                    ],
+                    "nationality": 0,
+                    "raceNumber": 444,
+                    "teamName": ""
+                },
+                "currentDriver": {
+                    "firstName": "Collin",
+                    "lastName": "Dunham",
+                    "playerId": "S76561197989466442",
+                    "shortName": "DUN"
+                },
+                "currentDriverIndex": 0,
+                "driverTotalTimes": [],
+                "missingMandatoryPitstop": -1,
+                "timing": {
+                    "bestLap": 542015,
+                    "bestSplits": [
+                        186367,
+                        170305,
+                        185342
+                    ],
+                    "lapCount": 2,
+                    "lastLap": 542015,
+                    "lastSplitId": 0,
+                    "lastSplits": [
+                        186367,
+                        170305,
+                        185342
+                    ],
+                    "totalTime": 2740653
+                }
+            }
+        ],
+        "type": 0
+    },
+    "sessionType": "FP",
+    "trackName": "nurburgring_24h",
+    "serverName": "#SRAgg | MCM_FreePractice | R | SimRacingAlliance.com | #SRAM5",
+    "metaData": "custom_race:a5cd859c-a680-4044-b0c3-1483d308775a",
+    "Date": "2025-04-02T22:17:40Z",
+    "SessionFile": "250402_221740_FP"
+}
