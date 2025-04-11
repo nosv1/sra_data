@@ -17,6 +17,9 @@ from neo4j.time import Date, DateTime, Time
 from pytz import timezone as pytz_timezone
 from scipy.stats import linregress
 
+current_dir = os.path.dirname(__file__)
+sys.path.append(os.path.join(current_dir, ".."))
+
 from utils.Database import Neo4jDatabase
 
 EASTERN_TZ = pytz_timezone("US/Eastern")
