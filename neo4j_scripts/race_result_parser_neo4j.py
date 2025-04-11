@@ -874,54 +874,41 @@ if __name__ == "__main__":
             print("done")
 
         driver_cars_query = """
-            UNWIND $drivers AS driver_dict
-            WITH driver_dict as driver, driver_dict
-            WHERE driver.member_id <> ""
-            MERGE (d:Driver {
-                member_id: driver_dict.member_id
-            })
-            ON CREATE SET
-                d.driver_id = driver_dict.driver_id,
-                d.first_name = driver_dict.first_name,
-                d.last_name = driver_dict.last_name,
-                d.short_name = driver_dict.short_name
-            WITH d as driver, driver_dict
-
+            UNWIND $drivers AS driver
             MERGE (d:Driver {
                 driver_id: driver.driver_id
             })
             ON CREATE SET
-                d.first_name = driver_dict.first_name,
-                d.last_name = driver_dict.last_name,
-                d.short_name = driver_dict.short_name
-            WITH d, driver, driver_dict
+                d.first_name = driver.first_name,
+                d.last_name = driver.last_name,
+                d.short_name = driver.short_name
+            WITH d, driver
 
             MERGE (cd:CarDriver {
-                key_: driver_dict.car_driver_key
+                key_: driver.car_driver_key
             })
             ON CREATE SET
-                cd.car_key = driver_dict.car_key,
+                cd.car_key = driver.car_key,
                 cd.driver_id = driver.driver_id,
-                cd.car_id = driver_dict.car_id,
-                cd.server_number = driver_dict.server_number,
-                cd.session_file = driver_dict.session_file,
-                cd.time_on_track = driver_dict.time_on_track
+                cd.car_id = driver.car_id,
+                cd.server_number = driver.server_number,
+                cd.session_file = driver.session_file,
+                cd.time_on_track = driver.time_on_track
             MERGE (d)-[:DRIVER_TO_CAR_DRIVER]->(cd)
-            WITH d, cd, driver, driver_dict
+            WITH d, cd, driver
 
             MATCH (c:Car {
-                key_: driver_dict.car_key
+                key_: driver.car_key
             })
             MERGE (d)-[:DRIVER_TO_CAR]->(c)
             MERGE (cd)-[:CAR_DRIVER_TO_CAR]->(c)
-            WITH d, cd, driver, driver_dict
+            WITH d, cd, driver
 
             MATCH (s:Session {
-                key_: driver_dict.session_key
+                key_: driver.session_key
             })
             MERGE (d)-[:DRIVER_TO_SESSION]->(s)
             MERGE (cd)-[:CAR_DRIVER_TO_SESSION]->(s)
-
         """
         if do_insert_drivers:
             print(f"Inserting {len(node_drivers)} drivers...", end="")
