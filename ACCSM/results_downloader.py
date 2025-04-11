@@ -4,6 +4,7 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 import requests
@@ -15,26 +16,34 @@ EASTERN_TZ = pytz_timezone("US/Eastern")
 
 current_dir = os.path.dirname(__file__)
 sys.path.append(os.path.join(current_dir, ".."))
+from threading import Lock
+
 from utils.Database import Neo4jDatabase
 from utils.queries import CarModels
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"
 }
 
 
-def try_get_json(url: str, wait: int = 5):
+def try_get_json(url: str, wait: int = 4, force_wait: bool = False) -> dict:
     total_waited = 0
     while True:
         response = requests.get(url)
+
+        if force_wait:
+            time.sleep(wait)  # rate limited 5 requests per 20 seconds
+
         if response.status_code == 200:
             return response.json()
+
         elif response.status_code == 429:
             print(
                 f"Rate limited. Waiting {wait} seconds (of {total_waited} seconds)..."
             )
             time.sleep(wait)
             total_waited += wait
+
         else:
             raise Exception(f"Failed to download {url}")
 
@@ -74,12 +83,14 @@ def get_accsm_results():
 
     servers = [1, 2, 3, 4, 5, 6, 7]
 
-    for server in servers:
+    def find_missing_session(server: int):
         page = 0
         num_pages = float("inf")
         file_exists = False
         while page < num_pages and not file_exists:
-            results_list_json = try_get_json(results_list_url(server, page))
+            results_list_json = try_get_json(
+                results_list_url(server, page), force_wait=True
+            )
             num_pages = results_list_json["num_pages"]
             print(f"Server {server} - Page {page}/{num_pages}")
 
@@ -106,17 +117,21 @@ def get_accsm_results():
                 )
                 path = os.path.join(downloads_dir, filename)
                 if os.path.exists(path):
+                    # continue
                     print(f"File {path} already exists... skipping {filename}")
                     file_exists = True
                     break
 
                 file_url = results_file_url(server, accsm_file)
-                results_file_json = try_get_json(file_url)
+                results_file_json = try_get_json(file_url, force_wait=True)
                 with open(path, "w") as f:
                     json.dump(results_file_json, f, indent=4)
                 print(f"Downloaded {filename}")
 
             page += 1
+
+    with ThreadPoolExecutor() as executor:
+        executor.map(find_missing_session, servers)
     pass
 
 
@@ -139,6 +154,14 @@ def parse_sra_result(session_url: str, is_race: bool) -> dict:
     tables = tab_content.find_all("table")
     results_table: Tag = tables[0]
     laps_tables: list[Tag] = tables[1:]
+    is_driver_swap_race: Tag = tab_content.find(
+        "p", {"class": "fs-5 mt-3 mb-0"}
+    ).find_all("span", {"class": "badge bg-success text-dark"})
+    is_driver_swap_race = (
+        (is_driver_swap_race[-1].text) == "DRIVER SWAP"
+        if (is_driver_swap_race and is_race)
+        else False
+    )
 
     laps = []
     leaderboard_lines = []
@@ -200,15 +223,15 @@ def parse_sra_result(session_url: str, is_race: bool) -> dict:
 
         class COLUMNS:
             RACE_NUMBER: int = 1
-            NAME: int = 1
-            CAR_ID: int = 1
-            MEMBER_URL: int = 1
-            MEMBER_ID: int = 1
-            CAR_MODEL: int = 2
-            TOTAL_TIME: int = 3
-            BEST_LAP: int = 3 if not is_race else 4
-            AVG_CLEAN_LAP: int = 5
-            NUM_LAPS: int = 4 if not is_race else 6
+            NAME: int = 1 if not is_driver_swap_race else 2
+            CAR_ID: int = NAME
+            MEMBER_URL: int = NAME
+            MEMBER_ID: int = NAME
+            CAR_MODEL: int = CAR_ID + 1
+            TOTAL_TIME: int = CAR_MODEL + 1
+            BEST_LAP: int = (TOTAL_TIME + 1) if is_race else (CAR_MODEL + 1)
+            AVG_CLEAN_LAP: int = BEST_LAP + 1
+            NUM_LAPS: int = (AVG_CLEAN_LAP + 1) if is_race else (BEST_LAP + 1)
 
         race_number = cols[COLUMNS.RACE_NUMBER].find("span").text.strip()
         name = cols[COLUMNS.NAME].find("a").text.strip()
@@ -240,14 +263,21 @@ def parse_sra_result(session_url: str, is_race: bool) -> dict:
             # it comes in as "m:ss.xxxINV" or "m:ss.xxx +0.000 or "00.000"
             lap = lap.split()[0]
             lap = re.sub(r"[^0-9:.]", "", lap)
+            hours = 0
             minutes = 0
             seconds = 0
             if ":" in lap:
-                minutes, seconds = lap.split(":")
+                parts = lap.split(":")
+                seconds = float(parts[-1])
+                minutes = int(parts[-2])
+                if len(parts) > 2:
+                    hours = int(parts[-3])
             else:
-                seconds = lap
-            seconds, milliseconds = seconds.split(".")
-            return int(minutes) * 60 * 1000 + int(seconds) * 1000 + int(milliseconds)
+                seconds = float(lap)
+            minutes += hours * 60
+            seconds += minutes * 60
+            milliseconds = seconds * 1000
+            return int(milliseconds)
 
         leaderboard_line = {
             "car": {
@@ -394,7 +424,7 @@ def parse_sra_result(session_url: str, is_race: bool) -> dict:
         "serverName": tab_content.find("span", {"class": "sra-gold"})
         .text.strip()
         .split("\n")[-1]
-        .strip(),
+        .strip()[1:],
         "metaData": "",
         "Date": "placeholder",  # Placeholder
         "SessionFile": "placeholder",  # Placeholder
@@ -428,31 +458,58 @@ def get_sra_results(
 
     member_ids = get_member_ids()
 
-    servers = ["server1", "server3", "server4", "server5", "server7"]
-    for server in servers:
+    servers = ["server1", "server2", "server3", "server4", "server5", "server7"][:3]
+    missing_sessions: list[Session] = []
+    missing_sessions_lock = Lock()
+
+    class Session:
+        def __init__(
+            self,
+            session_url: str,
+            session_type: str,
+            finish_time: datetime,
+            accsm_file: str,
+            path: str,
+            filename: str,
+        ):
+            self.session_url = session_url
+            self.session_type = session_type
+            self.finish_time = finish_time
+            self.accsm_file = accsm_file
+            self.path = path
+            self.filename = filename
+            pass
+
+        def get_missing_session(self):
+            result_json = parse_sra_result(
+                self.session_url, is_race=self.session_type.startswith("R")
+            )
+            result_json["Date"] = (
+                f"{self.finish_time.replace(tzinfo=None).isoformat()}Z"
+            )
+            result_json["SessionFile"] = self.accsm_file
+            for line in result_json["sessionResult"]["leaderBoardLines"]:
+                for driver in line["car"]["drivers"]:
+                    member_id = driver["memberId"]
+                    driver_id = member_ids.get(member_id, member_id)
+                    if driver_id:
+                        driver["playerId"] = driver_id
+                current_driver = line["currentDriver"]
+                member_id = current_driver["memberId"]
+                driver_id = member_ids.get(member_id, member_id)
+                if driver_id:
+                    current_driver["playerId"] = driver_id
+            with open(self.path, "w") as f:
+                json.dump(result_json, f, indent=4)
+            print(f"Downloaded {self.filename}")
+
+    def find_missing_sessions(server: str):
+        print(f"Processing server {server}...")
         base_url = f"https://www.simracingalliance.com/results/{server}"
         html = bs(requests.get(base_url, headers=HEADERS).content, "html.parser")
         table = html.find("table", {"id": "resultsTable"})
         for row in table.find_all("tr"):
             row: Tag
-            # example row
-            # <tr class="odd">
-            #     <!-- Date -->
-            #     <td class="small hide">2025-03-05 15:01:20</td>
-            #     <!-- Date -->
-            #     <td class="small dtr-control" tabindex="0">Mon. Mar 3, 2025 - 9:06 PM</td>
-            #     <!-- Session Type -->
-            #     <td class="small"><span class="sra-red2">Qualifying</span></td>
-            #     <!-- Session Name -->
-            #     <td class="small"><a class="sra-gold" href="https://www.simracingalliance.com/results/ttserver6/qualifying/250303_210637_Q">#SRAggTT | SRA.gg/Leaderboards | NA League | GT3 Team Series Qualifier - S14 | #SRAQ3</a></td>
-            #     <!-- Drivers -->
-            #     <td class="small" style="">12</td>
-            #     <!-- Laps -->
-            #     <td class="small" style="">79</td>
-            #     <!-- Completed -->
-            #     <td class="small dtr-hidden" style="display: none;"><time class="timeago" datetime="2025-03-03T21:06:37.000-05:00">2 days ago</time></td>
-            # </tr>
-
             cols: list[Tag] = row.find_all("td")
             if len(cols) < 7:
                 continue
@@ -466,41 +523,42 @@ def get_sra_results(
                 datetime.strptime(date_str, "%a. %b %d, %Y - %I:%M %p")
             )
             if not (before_date >= finish_time >= after_date):
-                # continue
                 break
 
             accsm_file = session_url.split("/")[-1]
-            # track = session_name.split("|")[0].strip()  # we don't get to know the track from this table
             filename = construct_filename(session_type[0], "", accsm_file, server)
             path = os.path.join(downloads_dir, filename)
+
+            if session_type[0] not in ["R"]:
+                continue
 
             if os.path.exists(path):
                 print(f"File {path} already exists... skipping {filename}")
                 continue
-                break
 
             print(f"Missing file: {filename}")
-            result_json = parse_sra_result(
-                session_url, is_race=session_type.startswith("R")
-            )
-            result_json["Date"] = f"{finish_time.replace(tzinfo=None).isoformat()}Z"
-            result_json["SessionFile"] = accsm_file
-            for line in result_json["sessionResult"]["leaderBoardLines"]:
-                for driver in line["car"]["drivers"]:
-                    member_id = driver["memberId"]
-                    driver_id = member_ids.get(member_id, member_id)
-                    if driver_id:
-                        driver["playerId"] = driver_id
-                current_driver = line["currentDriver"]
-                member_id = current_driver["memberId"]
-                driver_id = member_ids.get(member_id, member_id)
-                if driver_id:
-                    current_driver["playerId"] = driver_id
-            with open(path, "w") as f:
-                json.dump(result_json, f, indent=4)
-            print(f"Downloaded {filename}")
+            with missing_sessions_lock:
+                session = Session(
+                    session_url=session_url,
+                    session_type=session_type,
+                    finish_time=finish_time,
+                    accsm_file=accsm_file,
+                    path=path,
+                    filename=filename,
+                )
+                missing_sessions.append(session)
             pass
         pass
+
+    with ThreadPoolExecutor() as executor:
+        executor.map(find_missing_sessions, servers)
+
+    for session in missing_sessions:
+        session: Session
+        session.get_missing_session()
+    # with ThreadPoolExecutor() as executor:
+    # executor.map(lambda s: s.get_missing_session(), missing_sessions)
+
     pass
 
 
@@ -530,10 +588,11 @@ def main(argv):
     elif args.sra:
         get_sra_results(before_date=args.before_date, after_date=args.after_date)
     else:
-        get_sra_results(
-            after_date=EASTERN_TZ.localize(datetime(2025, 3, 28)),
-            before_date=EASTERN_TZ.localize(datetime(2025, 3, 29)),
-        )
+        get_accsm_results()
+        # get_sra_results(
+        #     after_date=EASTERN_TZ.localize(datetime(2025, 4, 8)),
+        #     # before_date=EASTERN_TZ.localize(datetime(2025, 3, 29)),
+        # )
 
 
 if __name__ == "__main__":
